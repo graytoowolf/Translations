@@ -1,0 +1,41 @@
+name: Update translations
+
+on:
+  schedule:
+    - cron:  '0 */6 * * *'  # https://crontab.guru/#0_*/12_*_*_*
+  workflow_dispatch: # allow manual trigger
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '**.ts'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # otherwise, there would be errors pushing refs to the destination repository.
+
+      - name: Prepare
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y qttools5-dev-tools gettext
+          git config --local user.email "graytoowlf@Outlook.com"
+          git config --local user.name "Translations Bot"
+
+      - name: Update translations
+        run: |
+          git clone https://github.com/graytoowolf/MiniSkins.git src          
+          ./update.sh
+
+      - name: Commit files
+        run: |
+          git commit -m "Update source strings" -a || true
+
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+
