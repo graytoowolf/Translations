@@ -1,6 +1,7 @@
 #!/bin/sh
 
 set -e
+set -x
 
 ROOT=`pwd`
 SRC=${ROOT}/src
@@ -39,5 +40,5 @@ $LCONVERT_BIN -locations relative $TEMPLATE_TS -o $TEMPLATE_PO
 if [ -f $TEMPLATE_PO ]
 then
     echo "    Converting .pot存在"
-    
+    echo $ROOT
 fi
