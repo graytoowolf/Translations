@@ -36,3 +36,8 @@ cd $ROOT
 
 echo "    Converting .ts to .pot"
 $LCONVERT_BIN -locations relative $TEMPLATE_TS -o $TEMPLATE_PO
+if [ -f $TEMPLATE_PO ]
+then
+    echo "    Converting .pot存在"
+    
+fi
