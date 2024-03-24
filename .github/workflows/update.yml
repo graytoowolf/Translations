@@ -27,7 +27,9 @@ jobs:
 
       - name: Update translations
         run: |
-          git clone https://github.com/graytoowolf/MiniSkins.git src          
+          git clone https://github.com/graytoowolf/MiniSkins.git src
+          chmod +x ./update.sh
+          chmod +x ./release.sh
           ./update.sh
 
       - name: Commit files
