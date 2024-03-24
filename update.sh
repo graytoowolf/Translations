@@ -1,33 +1,38 @@
-#!/bin/bash
+#!/bin/sh
 
 set -e
 
-ROOT="$(pwd)"
+ROOT=`pwd`
 SRC=${ROOT}/src
+TEMPLATE_PO="$ROOT/template.pot"
+TEMPLATE_TS="$ROOT/template.ts"
+BASE_LST_FILE="$ROOT/base_lst_file"
 
+LCONVERT_BIN=${LCONVERT_BIN:-lconvert}
+LRELEASE_BIN=${LRELEASE_BIN:-lrelease}
 LUPDATE_BIN=${LUPDATE_BIN:-lupdate}
 
 ###############################################################################
 
-readarray -d '' SOURCE_FILES < <(find "$SRC" -regex '.*\.\(h\|cpp\|ui\)' -type f -print0)
+echo "Writing lst file..."
+cd $SRC
+find -type f \( -iname \*.h -o -iname \*.cpp -o -iname \*.ui \) > $BASE_LST_FILE
+cd $ROOT
+echo "    $(cat $BASE_LST_FILE | wc -l) files found"
 
-update_file() {
-    ts_file="$1"
+echo "Generating new template..."
 
-    echo "Updating $ts_file..."
-
-    # Update .ts
-    $LUPDATE_BIN "${SOURCE_FILES[@]}" -locations "absolute" -ts "$ts_file"
-}
-
-cd "$ROOT"
-
-if [ -n "$1" ]; then
-    update_file "$1"
-else
-    for f in *.ts; do
-        update_file "$f"
-    done
-
-    update_file .template.ts
+if [ -f $TEMPLATE_PO ]
+then
+    echo "    Converting .pot to .ts"
+    $LCONVERT_BIN -locations relative $TEMPLATE_PO -o $TEMPLATE_TS
 fi
+
+echo "    Generating .ts"
+rm -f "$TEMPLATE_TS"
+cd $SRC
+$LUPDATE_BIN "@$BASE_LST_FILE" -ts $TEMPLATE_TS
+cd $ROOT
+
+echo "    Converting .ts to .pot"
+$LCONVERT_BIN -locations relative $TEMPLATE_TS -o $TEMPLATE_PO
