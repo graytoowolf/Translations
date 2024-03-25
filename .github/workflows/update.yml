@@ -4,11 +4,6 @@ on:
   repository_dispatch:
     types: [trigger-workflow-event]
   workflow_dispatch: # allow manual trigger
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - '**.po'
 
 jobs:
   update:
