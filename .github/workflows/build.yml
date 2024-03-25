@@ -36,7 +36,7 @@ jobs:
           path: ./MiniSkins
       - name: Upload qiniu
         run: |
-          curl -L https://kodo-toolbox-new.qiniu.com/qshell-v2.13.0-linux-386.tar.gz -o qshell.tar.gz
+          curl -L https://github.com/qiniu/qshell/releases/download/v2.14.0/qshell-v2.14.0-linux-386.tar.gz -o qshell.tar.gz
           tar -zxvf qshell.tar.gz
           chmod +x qshell
           qshell account ${{ secrets.AK }} ${{ secrets.SK }} bs
