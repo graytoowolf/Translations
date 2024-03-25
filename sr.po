@@ -7,287 +7,285 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Crowdin-Project: miniskins\n"
 "X-Crowdin-Project-ID: 658406\n"
-"X-Crowdin-Language: sr\n"
+"X-Crowdin-Language: sr-CS\n"
 "X-Crowdin-File: /main/template.pot\n"
 "X-Crowdin-File-ID: 26\n"
 "Project-Id-Version: miniskins\n"
-"Language-Team: Serbian (Cyrillic)\n"
-"Language: sr_SP\n"
+"Language-Team: Serbian (Latin)\n"
+"Language: sr_CS\n"
 "PO-Revision-Date: 2024-03-25 01:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr "Nije moguće razumeti manifest paketa:\n"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:107
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:188
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr "Preuzimanje lokalnih metapodataka za %1 nije uspelo"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:113
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr "Preuzimanje lokalnih metapodataka za '%1' v%2 nije uspelo"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:175
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: %1"
-msgstr "Nepoznati tip moda: %1"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:220
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr "Pronalaženje verzije za loader %1 nije uspelo"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:234
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr "Nije postavljena verzija za učitavanje modpack-a!"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:338
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown or unsupported download type: %1"
-msgstr "Nepoznat ili nepodržan tip preuzimanja: %1"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:455
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr "Preuzimanje konfiguracija..."
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:456
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Config download"
-msgstr "Preuzimanje konfiguracije"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:496
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr "Ekstraktovanje konfiguracija..."
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:503
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr "Neuspešno otvaranje paketa konfiguracija %1!"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:533
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Selecting optional mods..."
-msgstr "Odabiranje opcionalnih modova..."
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:537
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr "Preuzimanje modova..."
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:540
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr "Preuzimanje moda"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:554
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unsupported download type: %1"
-msgstr "Nepodržan tip preuzimanja: %1"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:560
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown download type: %1"
-msgstr "Nepoznat tip preuzimanja: %1"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:674
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to extract mods..."
-msgstr "Ekstrakcija modova nije uspela..."
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:685
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting mods..."
-msgstr "Ekstraktovanje modova..."
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:758
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Instaliranje modpack-a"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:772
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
-msgstr "Kreiranje komponente biblioteka nije uspelo"
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:803
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
-msgstr "Nepoznat tip loader-a: "
+msgstr ""
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:817
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
-msgstr "Kreiranje komponente paketa nije uspelo"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:97
 msgctxt "AboutDialog|"
 msgid "About"
-msgstr "O nama"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:106
 msgctxt "AboutDialog|"
 msgid "<html><head/><body><p>A custom launcher that makes managing Minecraft easier by allowing you to have multiple instances of Minecraft at once.</p></body></html>"
-msgstr "<html><head/><body><p>Minecraft Launcher napravljen da olakša upotrebu tako što dozvoljava kreiranje više instanci Minecraft-a u isto vreme.</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:157
 msgctxt "AboutDialog|"
 msgid "Version:"
-msgstr "Verzija:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:167
 msgctxt "AboutDialog|"
 msgid "Platform:"
-msgstr "Platforma:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:177
 msgctxt "AboutDialog|"
 msgid "Build Number:"
-msgstr "Broj build-a (verzije):"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:187
 msgctxt "AboutDialog|"
 msgid "Channel:"
-msgstr "Kanal:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:211
 msgctxt "AboutDialog|"
 msgid "Credits"
-msgstr "Zasluge"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:228
 msgctxt "AboutDialog|"
 msgid "License"
-msgstr "Licenca"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:256
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "Forking/Redistribucija"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
 msgid "About Qt"
-msgstr "O Qt"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:298
 msgctxt "AboutDialog|"
 msgid "Close"
-msgstr "Zatvori"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:85
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
-msgstr "O %1-u"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Version"
-msgstr "Verzija"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:99
 msgctxt "AboutDialog|"
 msgid "Platform"
-msgstr "Platforma"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:102
 msgctxt "AboutDialog|"
 msgid "Build Number"
-msgstr "Broj build-a (verzije)"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:107
 msgctxt "AboutDialog|"
 msgid "Channel"
-msgstr "Kanal"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:111
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>MultiMC je otvorenog koda jer mislimo da je važno da ga drugi mogu videti, i zato koristimo Apache licencu.</p>\n"
-"<p>Deo razloga za korišćenje Apache licence je taj da ne želimo da ljudi koriste ime &quot;MultiMC&quot; kada redistribuiraju projekat. To znači da moraju da prođu kroz otvoren kod i da uklone sve reference na &quot;MultiMC&quot;, uključujući ali ne i ograničavati se na ikonu i ime prozora, (ne sme <b>MultiMC-fork</b> u imenu)</p>\n"
-"<p>Apache licenca obuhvata razumno korišćene imena - pomenuti ga u poreklu projekta u 'About' dijalogu. Međutim, treba biti jasno da je projekat fork-ovan <b>bez</b> isticanja da ima našu dozvolu.</p>"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:281
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
-msgstr "Nije čekirano"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:284
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr "Nije na vezi"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:287
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr "Na vezi"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:290
 msgctxt "AccountList|Account status"
 msgid "Working"
-msgstr "Radi"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:293
 msgctxt "AccountList|Account status"
 msgid "Errored"
-msgstr "Greška"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:296
 msgctxt "AccountList|Account status"
 msgid "Expired"
-msgstr "Istekao"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:299
 msgctxt "AccountList|Account status"
 msgid "Gone"
-msgstr "Nije prisutan"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:302
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
-msgstr "Mora da migrira"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:313
 msgctxt "AccountList|Can Migrate?"
 msgid "N/A"
-msgstr "Nije primenjivo"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:316
 msgctxt "AccountList|Can Migrate?"
 msgid "Yes"
-msgstr "Da"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:319
 msgctxt "AccountList|Can Migrate?"
 msgid "No"
-msgstr "Ne"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:353
 msgctxt "AccountList|"
 msgid "Account"
-msgstr "Nalog"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:355
 msgctxt "AccountList|"
 msgid "Type"
-msgstr "Vrsta"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:357
 msgctxt "AccountList|"
@@ -297,87 +295,87 @@ msgstr ""
 #: src/launcher/minecraft/auth/AccountList.cpp:359
 msgctxt "AccountList|"
 msgid "Can Migrate?"
-msgstr "Moze da migrira?"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:361
 msgctxt "AccountList|"
 msgid "Profile"
-msgstr "Nalog"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:370
 msgctxt "AccountList|"
 msgid "User name of the account."
-msgstr "Korisničko ime naloga."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:372
 msgctxt "AccountList|"
 msgid "Type of the account - Mojang or MSA."
-msgstr "Vrsta naloga - Mojang ili MSA."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:374
 msgctxt "AccountList|"
 msgid "Current status of the account."
-msgstr "Trenutni status naloga."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:376
 msgctxt "AccountList|"
 msgid "Can this account migrate to Microsoft account?"
-msgstr "Da li može ovaj nalog da se prebaci na Majkrosoft nalog?"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:378
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
-msgstr "Ime Majnkraft naloga koji je povezan sa nalogom."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:68
 msgctxt "AccountListPage|"
 msgid "Add Mojang"
-msgstr "Dodaj Mojang"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:73
 msgctxt "AccountListPage|"
 msgid "Remove"
-msgstr "Ukloni"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:78
 msgctxt "AccountListPage|"
 msgid "Set Default"
-msgstr "Postavi kao podrazumevano"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:86
 msgctxt "AccountListPage|"
 msgid "No Default"
-msgstr "Bez postavke kao podrazumevano"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:91
 msgctxt "AccountListPage|"
 msgid "Upload Skin"
-msgstr "Otpremi masku"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:96
 msgctxt "AccountListPage|"
 msgid "Delete Skin"
-msgstr "Izbriši masku"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:99
 msgctxt "AccountListPage|"
 msgid "Delete the currently active skin and go back to the default one"
-msgstr "Izbriši masku koja je trenutno u upotrebi i vrati se na podrazumevanu"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:104
 msgctxt "AccountListPage|"
 msgid "Add Microsoft"
-msgstr "Dodaj Majkrosoft"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:109
 msgctxt "AccountListPage|"
 msgid "Refresh"
-msgstr "Osveži"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:112
 msgctxt "AccountListPage|"
 msgid "Refresh the account tokens"
-msgstr "Osveži nalogni znak"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.ui:120
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
@@ -389,41 +387,39 @@ msgstr ""
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "Dobrodošao!\n"
-"Ako si nov ovde, možeš kliknuti \"Dodaj\" dugme da bi dodali vaš Mojang ili Majnkraft nalog."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:88
 msgctxt "AccountListPage|"
 msgid "Context menu"
-msgstr "Menu konteksta"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:119
 #: src/launcher/ui/pages/global/AccountListPage.cpp:147
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
-msgstr "Molim vas unesite od vašeg Majkrosoft naloga imejl adresu i lozinku koju biste dodali na vaš nalog."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:136
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
-msgstr "Majkrosoft nalozi nisu dostupni"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:137
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
-msgstr "Microsoft nalozi se mogu koristiti samo na macOS verziji 10.13 ili novijoj, sa potpuno ažuriranom verzijom MultiMC-a.\n\n"
-"Molimo ažurirajte operativni sistem i MultiMC."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:251
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
-msgstr "Izbriši masku"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:251
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
-msgstr "Nisi uspeo da izbrišeš trenutnu masku!"
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:260
 msgctxt "AccountListPage|"
@@ -433,42 +429,42 @@ msgstr ""
 #: src/launcher/ui/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
 msgid "Accounts"
-msgstr "Nalozi"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
 msgid "Sending request to auth servers..."
-msgstr "Šaljenje zahteva identifikacijskim serverima..."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:43
 msgctxt "AccountTask|"
 msgid "Authentication task succeeded."
-msgstr "Zadatak identifikacije je bio uspešan."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:45
 msgctxt "AccountTask|"
 msgid "Failed to contact the authentication server."
-msgstr "Nisi uspeo da se povežeš sa identifikacijskim serverima."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:47
 msgctxt "AccountTask|"
 msgid "Encountered an error during authentication."
-msgstr "Greška pri autentikaciji."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:49
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account must be migrated to a Microsoft account to be usable."
-msgstr "Autentikacija nije uspela. Nalog mora da migrira na Microsoft nalog da bi bio upotrebljiv."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:51
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The session has expired."
-msgstr "Autentikacija nije uspela. Sesija je istekla."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:53
 msgctxt "AccountTask|"
 msgid "Failed to authenticate. The account no longer exists."
-msgstr "Autentikacija nije uspela. Nalog više ne postoji."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
@@ -484,12 +480,12 @@ msgstr ""
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:46
 msgctxt "AnalyticsWizardPage|"
 msgid "Analytics"
-msgstr "Sakupljanje statistika o posećenosti"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:47
 msgctxt "AnalyticsWizardPage|"
 msgid "We track some anonymous statistics about users."
-msgstr "Mi pratimo neke anonimne statistike o korisnicima."
+msgstr ""
 
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:48
 msgctxt "AnalyticsWizardPage|"
@@ -499,12 +495,12 @@ msgstr ""
 #: src/launcher/ui/setupwizard/AnalyticsWizardPage.cpp:62
 msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
-msgstr "Uključi Analitike"
+msgstr ""
 
 #: src/launcher/Application.cpp:809
 msgctxt "Application|"
 msgid "Settings"
-msgstr "Postavke"
+msgstr ""
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
 msgctxt "AssetUpdateTask|"
@@ -525,7 +521,7 @@ msgstr ""
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:79
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
-msgstr "Preuzimanje Mojang resursa..."
+msgstr ""
 
 #: src/launcher/minecraft/update/AssetUpdateTask.cpp:93
 #, qt-format
@@ -544,17 +540,17 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:30
 msgctxt "Atl::FilterModel|"
 msgid "Sort by popularity"
-msgstr "Sortiraj po popularnosti"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:31
 msgctxt "Atl::FilterModel|"
 msgid "Sort by name"
-msgstr "Slaži po imenu"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlFilterModel.cpp:32
 msgctxt "Atl::FilterModel|"
 msgid "Sort by game version"
-msgstr "Sortiraj po verziji"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:14
 msgctxt "AtlOptionalModDialog|"
@@ -564,12 +560,12 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:20
 msgctxt "AtlOptionalModDialog|"
 msgid "Install"
-msgstr "Skini"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:30
 msgctxt "AtlOptionalModDialog|"
 msgid "Select Recommended"
-msgstr "Izaberi preporučeno"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:40
 msgctxt "AtlOptionalModDialog|"
@@ -579,7 +575,7 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.ui:47
 msgctxt "AtlOptionalModDialog|"
 msgid "Clear All"
-msgstr "Očisti sve"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp:149
 msgctxt "AtlOptionalModListModel|"
@@ -589,7 +585,7 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlOptionalModDialog.cpp:152
 msgctxt "AtlOptionalModListModel|"
 msgid "Warning"
-msgstr "Upozorenje"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:42
 msgctxt "AtlPage|"
@@ -599,12 +595,12 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:59
 msgctxt "AtlPage|"
 msgid "Version selected:"
-msgstr "Verzija izabrana:"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.ui:74
 msgctxt "AtlPage|"
 msgid "Search and filter ..."
-msgstr "Pretraži i filtriraj ..."
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
@@ -615,22 +611,22 @@ msgstr ""
 #, qt-format
 msgctxt "AtlPage|"
 msgid "No versions are currently available for Minecraft %1"
-msgstr "Nema verzija koje su trenutno dostupne za Majnkraft %1"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:163
 msgctxt "AtlPage|"
 msgid "No versions are currently available"
-msgstr "Nema verzija koje su trenutno dostupne"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:165
 msgctxt "AtlPage|"
 msgid "Couldn't load or download the version lists!"
-msgstr "Nismo mogli da učitamo ili preuzmemo spisak verzija!"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:194
 msgctxt "AtlPage|"
 msgid "Installing"
-msgstr "Instaliranje"
+msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -883,52 +879,52 @@ msgstr ""
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
 msgid "Copy Instance"
-msgstr "Kopiraj instancu"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:74
 msgctxt "CopyInstanceDialog|"
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:90
 msgctxt "CopyInstanceDialog|"
 msgid "&Group"
-msgstr "&Grupa"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:115
 msgctxt "CopyInstanceDialog|"
 msgid "Copy saves"
-msgstr "Kopiraj svetove"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:122
 msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
-msgstr "Sačuvaj proveđeno vreme"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.cpp:54
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
-msgstr "Bez grupe"
+msgstr ""
 
 #: src/launcher/minecraft/launch/CreateGameFolders.cpp:18
 msgctxt "CreateGameFolders|"
 msgid "Couldn't create the main game folder"
-msgstr "Nije moguće kreirati glavni folder igre"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:25
 msgctxt "CreateShortcutDialog|"
 msgid "Create Shortcut"
-msgstr "Napravi prečicu"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:36
 msgctxt "CreateShortcutDialog|"
 msgid "Shortcut path:"
-msgstr "Put prečice:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:43
 msgctxt "CreateShortcutDialog|"
 msgid "Use specific profile:"
-msgstr "Koristi speifičan profil:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:57
 msgctxt "CreateShortcutDialog|"
@@ -948,7 +944,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:108
 msgctxt "CreateShortcutDialog|"
 msgid "Singleplayer world:"
-msgstr "Singleplayer svet:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:115
 msgctxt "CreateShortcutDialog|"
@@ -958,17 +954,17 @@ msgstr ""
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:125
 msgctxt "CreateShortcutDialog|"
 msgid "Server address:"
-msgstr "Adresa servera:"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.ui:152
 msgctxt "CreateShortcutDialog|"
 msgid "Create script instead of shortcut"
-msgstr "Kreiraj skript umesto prečice"
+msgstr ""
 
 #: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:101
 msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
-msgstr "Izaberi put prečice"
+msgstr ""
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
@@ -998,7 +994,7 @@ msgstr ""
 #: src/launcher/ui/widgets/CustomCommands.ui:64
 msgctxt "CustomCommands|"
 msgid "Wrapper command:"
-msgstr "Wrapper komanda:"
+msgstr ""
 
 #: src/launcher/ui/widgets/CustomCommands.ui:77
 msgctxt "CustomCommands|"
@@ -1008,7 +1004,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/CustomCommandsPage.h:35
 msgctxt "CustomCommandsPage|"
 msgid "Custom Commands"
-msgstr "Prilagođene komande"
+msgstr ""
 
 #: src/launcher/minecraft/launch/DirectJavaLaunch.cpp:69
 #, qt-format
@@ -1031,7 +1027,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:14
 msgctxt "EditAccountDialog|"
 msgid "Login"
-msgstr "Prijavljivanje"
+msgstr ""
 
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:33
 msgctxt "EditAccountDialog|"
@@ -1041,7 +1037,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/EditAccountDialog.ui:43
 msgctxt "EditAccountDialog|"
 msgid "Password"
-msgstr "Lozinka"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/EntitlementsStep.cpp:14
 msgctxt "EntitlementsStep|"
@@ -1077,7 +1073,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
 msgctxt "ExportInstanceDialog|"
@@ -1089,7 +1085,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:133
 msgctxt "ExternalToolsPage|"
 msgid "Check"
-msgstr "Proveri"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:150
 msgctxt "ExternalToolsPage|"
@@ -1119,7 +1115,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:191
 msgctxt "ExternalToolsPage|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:98
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:113
@@ -1127,8 +1123,7 @@ msgstr "Grеška"
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
 "%1"
-msgstr "Greška pri proveri JProfiler instalacije:\n"
-"%1"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
@@ -1140,7 +1135,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
-msgstr "Podešavanje JProfiler-a izgleda dobro"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:127
 msgctxt "ExternalToolsPage|"
@@ -1153,18 +1148,17 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
 "%1"
-msgstr "Grešla pri proveri JVisualVM instalacije:\n"
-"%1"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
-msgstr "Podešavanje JVisualVM-a izgleda dobro"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:165
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
-msgstr "MCEdit Aplikacija"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:167
 msgctxt "ExternalToolsPage|"
@@ -1177,13 +1171,12 @@ msgstr ""
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
 "%1"
-msgstr "Greška pri proveri MCEdit instalacije:\n"
-"%1"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
-msgstr "Podešavanje MCEdit-a izgleda dobro"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:202
 msgctxt "ExternalToolsPage|"
@@ -1193,44 +1186,44 @@ msgstr ""
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
 msgid "Invalid"
-msgstr "Nevažeći"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:225
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
-msgstr "Odabrana datoteka nije izvršnog tipa"
+msgstr ""
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
-msgstr "Nije moguća ekstrakcija nativnog jar fajla '%1' u destinaciju '%2'"
+msgstr ""
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:39
 msgctxt "FMLLibrariesTask|"
 msgid "Checking for FML libraries..."
-msgstr "Provera FML biblioteka..."
+msgstr ""
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:63
 msgctxt "FMLLibrariesTask|"
 msgid "Downloading FML libraries..."
-msgstr "Preuzimanje FML Biblioteka..."
+msgstr ""
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:90
 msgctxt "FMLLibrariesTask|"
 msgid "Copying FML libraries into the instance..."
-msgstr "Kopiranje FML Biblioteka u instancu..."
+msgstr ""
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:101
 msgctxt "FMLLibrariesTask|"
 msgid "Failed creating FML library folder inside the instance."
-msgstr "Kreiranje foldera FML biblioteke u instanci nije uspelo."
+msgstr ""
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:106
 #, qt-format
 msgctxt "FMLLibrariesTask|"
 msgid "Failed copying Forge/FML library: %1."
-msgstr "Kopiranje Forge/FML biblioteke %1 nije uspelo."
+msgstr ""
 
 #: src/launcher/minecraft/update/FMLLibrariesTask.cpp:119
 #, qt-format
@@ -1239,26 +1232,22 @@ msgid "Failed to download the following files:\n"
 "%1\n\n"
 "Reason:%2\n"
 "Please try again."
-msgstr "Preuzimanje sledećih fajlova:\n"
-"%1\n"
-"nije uspelo.\n"
-"Razlog:%2\n"
-"Molimo pokušati ponovo."
+msgstr ""
 
 #: src/launcher/minecraft/update/FoldersTask.cpp:17
 msgctxt "FoldersTask|"
 msgid "Failed to create folder for minecraft binaries."
-msgstr "Kreiranje foldera za minecraft binarne datoteke nije uspelo."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:15
 msgctxt "ForcedMigrationStep|"
 msgid "Checking for migration eligibility."
-msgstr "Provera migracione podobnosti."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:45
 msgctxt "ForcedMigrationStep|"
 msgid "The account must be migrated to a Microsoft account."
-msgstr "Nalog se mora migrirati na Microsoft nalog."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/ForcedMigrationStep.cpp:48
 msgctxt "ForcedMigrationStep|"
@@ -1283,162 +1272,162 @@ msgstr ""
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
 msgid "Key"
-msgstr "Ključ"
+msgstr ""
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:84
 msgctxt "GameOptions|"
 msgid "Value"
-msgstr "Vrednost"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/GameOptionsPage.h:45
 msgctxt "GameOptionsPage|"
 msgid "Game Options"
-msgstr "Opcije Igre"
+msgstr ""
 
 #: src/launcher/minecraft/World.cpp:69
 msgctxt "GameType|"
 msgid "Survival"
-msgstr "Preživljavanje"
+msgstr ""
 
 #: src/launcher/minecraft/World.cpp:71
 msgctxt "GameType|"
 msgid "Creative"
-msgstr "Kreativnost"
+msgstr ""
 
 #: src/launcher/minecraft/World.cpp:73
 msgctxt "GameType|"
 msgid "Adventure"
-msgstr "Avantura"
+msgstr ""
 
 #: src/launcher/minecraft/World.cpp:75
 msgctxt "GameType|"
 msgid "Spectator"
-msgstr "Gledateljski način"
+msgstr ""
 
 #: src/launcher/minecraft/World.cpp:80
 #, qt-format
 msgctxt "GameType|"
 msgid "Unknown (%1)"
-msgstr "Nepoznato (%1)"
+msgstr ""
 
 #: src/launcher/minecraft/World.cpp:82
 msgctxt "GameType|"
 msgid "Undefined"
-msgstr "Nedefinisano"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:16
 msgctxt "GetSkinStep|"
 msgid "Getting skin."
-msgstr "Uzimanje skin-a."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/GetSkinStep.cpp:42
 msgctxt "GetSkinStep|"
 msgid "Got skin"
-msgstr "Uzet je skin"
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:48
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
-msgstr "Učitavanje informacija o verziji..."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:85
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
-msgstr "Preuzimanje info fajlova za verziju nije uspelo."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:93
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
-msgstr "Čitanje liste fajlova za novu verziju..."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:106
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
-msgstr "Čitanje liste fajlova za trenutnu verziju..."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:121
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
-msgstr "Procesovanje liste fajlova - nalazi se način za instalaciju nove verzije..."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:129
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
-msgstr "Procesovanje liste ažuriranja nije uspelo..."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:140
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
-msgstr "Prеuzimanjе jednog fajla za ažuriranje."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:144
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
-msgstr "Preuzimanje %1 fajla/ova za ažuriranje."
+msgstr ""
 
 #: src/launcher/updater/DownloadTask.cpp:159
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
-msgstr "Preuzimanje fajlova za ažuriranje %1 nije uspelo"
+msgstr ""
 
 #: src/launcher/ui/dialogs/IconPickerDialog.ui:14
 msgctxt "IconPickerDialog|"
 msgid "Pick icon"
-msgstr "Odaberi ikonu"
+msgstr ""
 
 #: src/launcher/ui/dialogs/IconPickerDialog.cpp:65
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
-msgstr "Dodaj ikonu"
+msgstr ""
 
 #: src/launcher/ui/dialogs/IconPickerDialog.cpp:66
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
-msgstr "Ukloni ikonu"
+msgstr ""
 
 #: src/launcher/ui/dialogs/IconPickerDialog.cpp:75
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
-msgstr "Otvori Folder"
+msgstr ""
 
 #. The title of the select icons open file dialog
 #: src/launcher/ui/dialogs/IconPickerDialog.cpp:105
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
-msgstr "Odaberi Ikone"
+msgstr ""
 
 #: src/launcher/ui/dialogs/IconPickerDialog.cpp:108
 #, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
-msgstr "Ikone %1"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
 msgctxt "ImportFTB::FTBAPage|"
 msgid "FTB App Import"
-msgstr "Importovanje FTB Aplikacije"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:17
 msgctxt "ImportPage|"
 msgid "Browse"
-msgstr "Pretražiti"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/ImportPage.ui:31
 msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
-msgstr "Lokalni fajl ili link na direktno preuzimanje:"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
 msgid "Import from zip"
-msgstr "Importovati iz zip fajla"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
-msgstr "Odabrati modpack"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
@@ -1453,12 +1442,12 @@ msgstr ""
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
 msgid "&Name:"
-msgstr "&Ime:"
+msgstr ""
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:40
 msgctxt "InstanceCardWidget|"
 msgid "&Group:"
-msgstr "&Grupa:"
+msgstr ""
 
 #: src/launcher/InstanceCopyTask.cpp:24
 #, qt-format
@@ -1492,12 +1481,12 @@ msgstr ""
 #: src/launcher/InstanceImportTask.cpp:65
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
-msgstr "Preuzimanje modpack-a"
+msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:95
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
-msgstr "Vađenje modpack-a"
+msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:103
 msgctxt "InstanceImportTask|"
@@ -1513,7 +1502,7 @@ msgstr ""
 #: src/launcher/InstanceImportTask.cpp:164
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
-msgstr "Vađenje Modpack-a je neuspelo"
+msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:191
 #, qt-format
@@ -1588,7 +1577,7 @@ msgstr ""
 #: src/launcher/InstanceImportTask.cpp:752
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
-msgstr "Skidanje modova..."
+msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:459
 msgctxt "InstanceImportTask|"
@@ -1610,7 +1599,7 @@ msgstr ""
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
-msgstr "%1 Instanca"
+msgstr ""
 
 #: src/launcher/InstancePageProvider.h:40
 msgctxt "InstancePageProvider|"
@@ -1620,33 +1609,33 @@ msgstr ""
 #: src/launcher/InstancePageProvider.h:43
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
-msgstr "Osnovni modovi"
+msgstr ""
 
 #: src/launcher/InstancePageProvider.h:72
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
-msgstr "Izmeni Instancu (%1)"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:29
 msgctxt "InstanceSettingsPage|"
 msgid "Open Global Settings"
-msgstr "Otovri Globalna Podešavanja"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:32
 msgctxt "InstanceSettingsPage|"
 msgid "The settings here are overrides for global settings."
-msgstr "Podešavanja ovde nadjačavaju globalna podešavanja."
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:55
 msgctxt "InstanceSettingsPage|"
 msgid "Java insta&llation"
-msgstr "Java Insta&lacija"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:70
 msgctxt "InstanceSettingsPage|"
 msgid "Auto-detect..."
-msgstr "Auto-detektuj..."
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:77
 msgctxt "InstanceSettingsPage|"
@@ -1671,7 +1660,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:116
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
-msgstr "Maksimalna količina memorije koju Minecraft sme koristiti."
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:138
 msgctxt "InstanceSettingsPage|"
@@ -1701,47 +1690,47 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:228
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
-msgstr "Prozori igre"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:237
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
-msgstr "Prozor igre"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:249
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
-msgstr "Pokreni Minecraft maksimizirano?"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:258
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
-msgstr "Visina prozora:"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:265
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
-msgstr "Širina prozora:"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:309
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
-msgstr "Podešavanja Konzo&le"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:321
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
-msgstr "Pokaži kontrole dok igra radi?"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:328
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
-msgstr "Automacki zatvori konzolu kada se igra zatvori?"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:335
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
-msgstr "Pokaži kontrolu kada se igra krašuje?"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:359
 msgctxt "InstanceSettingsPage|"
@@ -1751,7 +1740,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:369
 msgctxt "InstanceSettingsPage|"
 msgid "Workarounds"
-msgstr "Zaobilaženja"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:378
 msgctxt "InstanceSettingsPage|"
@@ -1761,17 +1750,17 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:390
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of GLFW"
-msgstr "Koristi sistemnu instalaciju GLFW-a"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:397
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of OpenAL"
-msgstr "Koristi sistemsku instalaciju OpenAL"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
-msgstr "Ostalo"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
 msgctxt "InstanceSettingsPage|"
@@ -1781,12 +1770,12 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:442
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
-msgstr "Pokaži provedeno vreme na ovoj instanci"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:449
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
-msgstr "Rekordno vreme na ovoj instanci"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
 msgctxt "InstanceSettingsPage|"
@@ -1801,17 +1790,17 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:483
 msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
-msgstr "Singleplayer svet:"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
 msgctxt "InstanceSettingsPage|"
 msgid "Settings"
-msgstr "Postavke"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
-msgstr "Odaberite Java verziju"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:353
 msgctxt "InstanceSettingsPage|"
@@ -1831,7 +1820,7 @@ msgstr ""
 #: src/launcher/ui/InstanceWindow.cpp:64
 msgctxt "InstanceWindow|"
 msgid "Help"
-msgstr "Pomoć"
+msgstr ""
 
 #: src/launcher/ui/InstanceWindow.cpp:77
 msgctxt "InstanceWindow|"
@@ -1841,17 +1830,17 @@ msgstr ""
 #: src/launcher/ui/InstanceWindow.cpp:82
 msgctxt "InstanceWindow|"
 msgid "Close"
-msgstr "Zatvori"
+msgstr ""
 
 #: src/launcher/ui/InstanceWindow.cpp:126
 msgctxt "InstanceWindow|"
 msgid "Kill"
-msgstr "Stopiraj"
+msgstr ""
 
 #: src/launcher/ui/InstanceWindow.cpp:128
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
-msgstr "Ubi trenutnu instancu"
+msgstr ""
 
 #: src/launcher/ui/InstanceWindow.cpp:133
 #: src/launcher/ui/InstanceWindow.cpp:141
@@ -1894,7 +1883,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
 msgid "Memory"
-msgstr "Memorija"
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.ui:51
 msgctxt "JavaPage|"
@@ -1929,7 +1918,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/JavaPage.ui:153
 msgctxt "JavaPage|"
 msgid "Java path:"
-msgstr "Java put:"
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.ui:195
 msgctxt "JavaPage|"
@@ -1939,7 +1928,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/JavaPage.ui:208
 msgctxt "JavaPage|"
 msgid "Auto-detect..."
-msgstr "Auto-detektuj..."
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
@@ -1949,7 +1938,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
-msgstr "Odaberite Java verziju"
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:120
 msgctxt "JavaPage|"
@@ -1983,7 +1972,7 @@ msgstr ""
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:425
 msgctxt "JavaSettingsWidget|"
 msgid "Memory"
-msgstr "Memorija"
+msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:426
 msgctxt "JavaSettingsWidget|"
@@ -2029,18 +2018,18 @@ msgstr ""
 #: src/launcher/ui/pages/global/LanguagePage.h:35
 msgctxt "LanguagePage|"
 msgid "Language"
-msgstr "Jezik"
+msgstr ""
 
 #: src/launcher/ui/widgets/LanguageSelectionWidget.cpp:50
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
-msgstr "Ne vidiš svoj jezik ili loš kvalitet prevoda?<br/><a href=\"%1\">Pomozite nam sa prevodima!</a>"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/LanguageWizardPage.cpp:46
 msgctxt "LanguageWizardPage|"
 msgid "Language"
-msgstr "Jezik"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/LanguageWizardPage.cpp:47
 #, qt-format
@@ -2061,17 +2050,17 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:63
 msgctxt "LaunchController|"
 msgid "No Accounts"
-msgstr "Nema Naloga"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:64
 msgctxt "LaunchController|"
 msgid "In order to play Minecraft, you must have at least one Mojang or Minecraft account logged in.Would you like to open the account manager to add an account now?"
-msgstr "Da biste igrali Minecraft, morate imati barem jedan Mojang ili Minecraft nalog prijavljen. Da li želite otvoriti upravljač naloga da biste dodali nalog?"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:83
 msgctxt "LaunchController|"
 msgid "Which account would you like to use?"
-msgstr "Koji nalog želitš da koristitš?"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:107
 msgctxt "LaunchController|"
@@ -2081,12 +2070,12 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:116
 msgctxt "LaunchController|"
 msgid "Your account is currently not logged in. Please enter your password to log in again. <br /> <br /> This could be caused by a password change."
-msgstr "Vaš nalog nije trenutno prijavljen. Unesite svoju lozinku da biste se ponovo prijavili. <br /> <br /> Ovo može biti uzrokovano zbog promene lozinke."
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:140
 msgctxt "LaunchController|"
 msgid "Player name"
-msgstr "Ime igrača"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:141
 msgctxt "LaunchController|"
@@ -2101,7 +2090,7 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:186
 msgctxt "LaunchController|"
 msgid "Play demo?"
-msgstr "Igraj demo?"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:187
 msgctxt "LaunchController|"
@@ -2113,12 +2102,12 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:189
 msgctxt "LaunchController|"
 msgid "Play Demo"
-msgstr "Igraj Demo"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:190
 msgctxt "LaunchController|"
 msgid "Cancel"
-msgstr "Otkaži"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:200
 msgctxt "LaunchController|"
@@ -2128,12 +2117,12 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:216
 msgctxt "LaunchController|"
 msgid "Play Offline"
-msgstr "Igraj Offline"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:229
 msgctxt "LaunchController|"
 msgid "The account has expired and needs to be logged into manually. Press OK to log in again."
-msgstr "Nalog je istekao i mora se ručno ponovo prijaviti. Pritisnite OK da biste se ponovo prijavili."
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:232
 msgctxt "LaunchController|"
@@ -2169,7 +2158,7 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:293
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
-msgstr "Nalog više ne postoji na serverima. Moguće je da je migriran, u tom slučaju molimo dodajte novi nalog na koji ste migrirali ovaj."
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:296
 msgctxt "LaunchController|"
@@ -2194,7 +2183,7 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:328 src/launcher/LaunchController.cpp:400
 msgctxt "LaunchController|"
 msgid "Error!"
-msgstr "Grеška!"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:328 src/launcher/LaunchController.cpp:329
 msgctxt "LaunchController|"
@@ -2238,41 +2227,40 @@ msgstr ""
 #: src/launcher/LaunchController.cpp:423
 msgctxt "LaunchController|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:451
 msgctxt "LaunchController|"
 msgid "Abort"
-msgstr "Obustavi"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:467
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
-msgstr "Ubi Minecraft?"
+msgstr ""
 
 #: src/launcher/LaunchController.cpp:468
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
-msgstr "Ovo može uzrokovati kuruptovanje instance i treba se koristiti samo ako se Minecraft zamrzne iz nekog razloga"
+msgstr ""
 
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
 msgctxt "LaunchTask|"
 msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr "MultiMC je prestao pratiti log igre jer je njegova dužina premašila %1 linija.\n"
-"Moguće je da trebate popraviti svoje modove jer se igra i dalje zapisuje u datoteke i vjerovatno troši prostor na hard disku alarmantnom brzinom!"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:16
 msgctxt "LauncherLoginStep|"
 msgid "Accessing Mojang services."
-msgstr "Pristupanje Mojang servisima."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:60
 #, qt-format
 msgctxt "LauncherLoginStep|"
 msgid "Failed to get Minecraft access token: %1"
-msgstr "Dobijanje Minecraft pristupnog tokena je neuspelo: %1"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:72
 msgctxt "LauncherLoginStep|"
@@ -2392,7 +2380,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:285
 msgctxt "LauncherPage|"
 msgid "Theme"
-msgstr "Teme"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:291
 msgctxt "LauncherPage|"
@@ -2462,7 +2450,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:435
 msgctxt "LauncherPage|"
 msgid "History limit"
-msgstr "Ograničenje istorije"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:441
 msgctxt "LauncherPage|"
@@ -2472,27 +2460,27 @@ msgstr ""
 #: src/launcher/ui/pages/global/LauncherPage.ui:454
 msgctxt "LauncherPage|"
 msgid " lines"
-msgstr " linije"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:482
 msgctxt "LauncherPage|"
 msgid "Console font"
-msgstr "Font konzole"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:534
 msgctxt "LauncherPage|"
 msgid "Analytics"
-msgstr "Analitike"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:540
 msgctxt "LauncherPage|"
 msgid "Analytics Settings"
-msgstr "Podešavanja Analitika"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:546
 msgctxt "LauncherPage|"
 msgid "Send anonymous usage statistics?"
-msgstr "Pošalji anonimne upotrebine statistike?"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:560
 msgctxt "LauncherPage|"
@@ -2507,22 +2495,12 @@ msgid "<html><head/>\n"
 "<li>Java version, architecture and memory settings.</li>\n"
 "</ul>\n"
 "</body></html>"
-msgstr "<html><head/>\n"
-"<body>\n"
-"<p>Launcher šalje anonimne statistike o upotrebi pri svakom pokretanju aplikacije. </p><p>Sledeći podaci se prikupljaju:</p>\n"
-"<ul>\n"
-"<li>Verzija launcher-a.</li>\n"
-"<li>Ime operativnog sistema, verzija i arhitektura.</li>\n"
-"<li>Arhitektura procesora (arhitektura kernela na Linux-u).</li>\n"
-"<li>Veličina memorije sistema.</li>\n"
-"<li>Java verzija, arhitektura i postavke memorije.</li>\n"
-"</ul>\n"
-"</body></html>"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:97
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
-msgstr "Folder instance"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
@@ -2575,42 +2553,42 @@ msgstr ""
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:163
 msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
-msgstr "Igra se krašovala."
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:19
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
-msgstr "Sortiraj po imenu"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:20
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
-msgstr "Sortiraj po verziji"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:81
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
-msgstr "Javni Modpack"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:83
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
-msgstr "Modpack-ovi treće strane"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:85
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
-msgstr "Privatni Modpack"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:78
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Public Packs"
-msgstr "Javni Pack-ovi"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:83
 msgctxt "LegacyFTB::PackFetchTask|"
 msgid "Third Party Packs"
-msgstr "Pack-ovi Trećih Strana"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackFetchTask.cpp:88
 #, qt-format
@@ -2622,29 +2600,29 @@ msgstr ""
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1"
-msgstr "Instaliranje zip-a za %1"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:75
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Downloading zip for %1 (%2%)"
-msgstr "Instaliranje zip-a za %1 (%2%)"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:81
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Extracting modpack"
-msgstr "Vađenje modpack-a"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:87
 #, qt-format
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Failed to open modpack file %1!"
-msgstr "Neuspešno otvaranje modpack fajla %1!"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:110
 msgctxt "LegacyFTB::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Instaliranje modpack-a"
+msgstr ""
 
 #: src/launcher/modplatform/legacy_ftb/PackInstallTask.cpp:117
 msgctxt "LegacyFTB::PackInstallTask|"
@@ -2659,32 +2637,32 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:21
 msgctxt "LegacyFTB::Page|"
 msgid "Public"
-msgstr "Javno"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:44
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
-msgstr "Treće Stanje"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:67
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
-msgstr "Privatno"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:86
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
-msgstr "Dodaj Pack"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:93
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
-msgstr "Ukloni odabrane pack-ove"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:122
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
-msgstr "Odabrana verzija:"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
@@ -2694,36 +2672,35 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
-msgstr "FTB privatni pack-ovi"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:195
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Failed to download pack information for code %1.\n"
 "Should it be removed now?"
-msgstr "Nije uspelo preuzimanje informacija o pack-u za kod %1.\n"
-"Treba li ga sada ukloniti?"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:333
 msgctxt "LegacyFTB::Page|"
 msgid "Add FTB pack"
-msgstr "Dodaj FTB pack"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:334
 msgctxt "LegacyFTB::Page|"
 msgid "Enter pack code:"
-msgstr "Unesi kod pack-a:"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:357
 msgctxt "LegacyFTB::Page|"
 msgid "Remove pack"
-msgstr "Ukloni pack"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:358
 #, qt-format
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
-msgstr "Da li ste sigurni da želite ukloniti pack %1?"
+msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2748,29 +2725,29 @@ msgstr ""
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:30
 msgctxt "LegacyUpgradePage|"
 msgid "Abort"
-msgstr "Obustavi"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:39
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
-msgstr "%1 (Migriran)"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
 msgctxt "LegacyUpgradePage|"
 msgid "Upgrade"
-msgstr "Ažuriraj"
+msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
 msgctxt "LegacyUpgradeTask|"
 msgid "Copying instance %1"
-msgstr "Kopiranje instance %1"
+msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:59
 msgctxt "LegacyUpgradeTask|"
@@ -2868,7 +2845,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/LogPage.ui:132
 msgctxt "LogPage|"
 msgid "Find"
-msgstr "Pronađi"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LogPage.ui:142
 msgctxt "LogPage|"
@@ -2878,7 +2855,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/LogPage.ui:145
 msgctxt "LogPage|"
 msgid "Bottom"
-msgstr "Dno"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
@@ -2955,27 +2932,27 @@ msgstr ""
 #: src/launcher/ui/dialogs/LoginDialog.ui:20
 msgctxt "LoginDialog|"
 msgid "Add Account"
-msgstr "Dodaj Nalog"
+msgstr ""
 
 #: src/launcher/ui/dialogs/LoginDialog.ui:39
 msgctxt "LoginDialog|"
 msgid "Email"
-msgstr "Email adresa"
+msgstr ""
 
 #: src/launcher/ui/dialogs/LoginDialog.ui:49
 msgctxt "LoginDialog|"
 msgid "Password"
-msgstr "Lozinka"
+msgstr ""
 
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:20
 msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
-msgstr "Dodajte Microsoft Račun"
+msgstr ""
 
 #: src/launcher/ui/dialogs/MSALoginDialog.ui:56
 msgctxt "MSALoginDialog|"
 msgid "Copy Code"
-msgstr "Kopiraj Kod"
+msgstr ""
 
 #: src/launcher/ui/dialogs/MSALoginDialog.cpp:87
 #, qt-format
@@ -3016,7 +2993,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:262
 msgctxt "MainWindow|"
 msgid "Kill"
-msgstr "Stopiraj"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:263
 msgctxt "MainWindow|"
@@ -3136,7 +3113,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:382 src/launcher/ui/MainWindow.cpp:703
 msgctxt "MainWindow|"
 msgid "Help"
-msgstr "Pomoć"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:383
 #, qt-format
@@ -3158,7 +3135,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:419
 msgctxt "MainWindow|"
 msgid "Meow"
-msgstr "Mjau"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:420
 msgctxt "MainWindow|"
@@ -3188,7 +3165,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:501
 msgctxt "MainWindow|"
 msgid "Rename"
-msgstr "Preimenuj"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:502
 msgctxt "MainWindow|"
@@ -3208,7 +3185,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:530
 msgctxt "MainWindow|"
 msgid "Edit Instance"
-msgstr "Izmeni Instancu"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:531
 msgctxt "MainWindow|"
@@ -3218,7 +3195,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:537
 msgctxt "MainWindow|"
 msgid "Edit Notes"
-msgstr "Izmeni Beleške"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:538
 msgctxt "MainWindow|"
@@ -3318,7 +3295,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:620
 msgctxt "MainWindow|"
 msgid "Delete"
-msgstr "Obriši"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:621
 msgctxt "MainWindow|"
@@ -3370,7 +3347,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:902 src/launcher/ui/MainWindow.cpp:1219
 msgctxt "MainWindow|"
 msgid "Profiles"
-msgstr "Profili"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:961
 msgctxt "MainWindow|"
@@ -3381,7 +3358,7 @@ msgstr ""
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
-msgstr "Obriši grupu '%1'"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1007
 msgctxt "MainWindow|"
@@ -3428,7 +3405,7 @@ msgstr ""
 #: src/launcher/ui/MainWindow.cpp:1561
 msgctxt "MainWindow|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1355
 #, qt-format
@@ -3585,7 +3562,7 @@ msgstr ""
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
 msgid "broken"
-msgstr "slomljen"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:817
 #, qt-format
@@ -3718,12 +3695,12 @@ msgstr ""
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:464
 msgctxt "ModFolderModel|"
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr "Verzija"
+msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
@@ -4148,7 +4125,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:30
 msgctxt "NewComponentDialog|"
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
@@ -4223,7 +4200,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:31
 msgctxt "NotificationDialog|"
 msgid "Close"
-msgstr "Zatvori"
+msgstr ""
 
 #: src/launcher/NullInstance.h:20
 msgctxt "NullInstance|"
@@ -4270,7 +4247,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:100
 msgctxt "OtherLogsPage|"
 msgid "Clean"
-msgstr "Očisti"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:107
 msgctxt "OtherLogsPage|"
@@ -4366,12 +4343,12 @@ msgstr ""
 #: src/launcher/minecraft/PackProfile.cpp:853
 msgctxt "PackProfile|"
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #: src/launcher/minecraft/PackProfile.cpp:855
 msgctxt "PackProfile|"
 msgid "Version"
-msgstr "Verzija"
+msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -4471,7 +4448,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:45
 msgctxt "ProfileSelectDialog|"
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:53
 #, qt-format
@@ -4536,7 +4513,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/ProgressDialog.ui:58
 msgctxt "ProgressDialog|"
 msgid "Skip"
-msgstr "Preskočiti"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
@@ -4546,7 +4523,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
 msgid "Type"
-msgstr "Vrsta"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
@@ -4801,22 +4778,22 @@ msgstr ""
 #: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
-msgstr "Svetlo"
+msgstr ""
 
 #: src/launcher/ui/themes/SystemTheme.cpp:47
 msgctxt "QObject|"
 msgid "System"
-msgstr "Sistem"
+msgstr ""
 
 #: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
-msgstr "Tamna"
+msgstr ""
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
 msgid "Update failed!"
-msgstr "Ažuriranje nije uspelo!"
+msgstr ""
 
 #: src/launcher/UpdateController.cpp:367
 msgctxt "QObject|"
@@ -5002,12 +4979,12 @@ msgstr ""
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:66
 msgctxt "ScreenshotsPage|"
 msgid "Delete"
-msgstr "Obriši"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:71
 msgctxt "ScreenshotsPage|"
 msgid "Rename"
-msgstr "Preimenuj"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:76
 msgctxt "ScreenshotsPage|"
@@ -5095,12 +5072,12 @@ msgstr ""
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
 msgid "Name"
-msgstr "Naziv"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:291
 msgctxt "ServersModel|"
 msgid "Address"
-msgstr "Adresa"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:293
 msgctxt "ServersModel|"
@@ -5145,37 +5122,37 @@ msgstr ""
 #: src/launcher/ui/pages/instance/ServersPage.ui:155
 msgctxt "ServersPage|"
 msgid "Add"
-msgstr "Dodaj"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.ui:160
 msgctxt "ServersPage|"
 msgid "Remove"
-msgstr "Ukloni"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.ui:165
 msgctxt "ServersPage|"
 msgid "Move Up"
-msgstr "Pomeri Gore"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.ui:170
 msgctxt "ServersPage|"
 msgid "Move Down"
-msgstr "Pomeri Dole"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.ui:175
 msgctxt "ServersPage|"
 msgid "Join"
-msgstr "Pridruži"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
-msgstr "Kontekstualni meni"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr "Serveri"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
@@ -5251,7 +5228,7 @@ msgstr ""
 #: src/launcher/ui/dialogs/SkinUploadDialog.ui:77
 msgctxt "SkinUploadDialog|"
 msgid "Cape"
-msgstr "Plašt"
+msgstr ""
 
 #: src/launcher/ui/dialogs/SkinUploadDialog.cpp:44
 msgctxt "SkinUploadDialog|"
@@ -5424,12 +5401,12 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:77
 msgctxt "TechnicPage|"
 msgid "Search"
-msgstr "Pretraži"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
 msgctxt "TechnicPage|"
 msgid " by "
-msgstr " od "
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
@@ -5473,7 +5450,7 @@ msgstr ""
 #: src/launcher/translations/TranslationsModel.cpp:385
 msgctxt "TranslationsModel|"
 msgid "Language"
-msgstr "Jezik"
+msgstr ""
 
 #: src/launcher/translations/TranslationsModel.cpp:389
 msgctxt "TranslationsModel|"
@@ -5580,7 +5557,7 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:127
 msgctxt "VanillaPage|"
 msgid "Refresh"
-msgstr "Osveži"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
@@ -5615,7 +5592,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr "Akcije"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:127
 msgctxt "VersionPage|"
@@ -5630,7 +5607,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.ui:135
 msgctxt "VersionPage|"
 msgid "Move up"
-msgstr "Pomeri na gore"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:138
 msgctxt "VersionPage|"
@@ -5640,7 +5617,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.ui:143
 msgctxt "VersionPage|"
 msgid "Move down"
-msgstr "Pomeri na dole"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:146
 msgctxt "VersionPage|"
@@ -5650,7 +5627,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.ui:151
 msgctxt "VersionPage|"
 msgid "Remove"
-msgstr "Ukloni"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:154
 msgctxt "VersionPage|"
@@ -5670,7 +5647,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.ui:167
 msgctxt "VersionPage|"
 msgid "Edit"
-msgstr "Uredi"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:170
 msgctxt "VersionPage|"
@@ -5815,7 +5792,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
 msgid "Version"
-msgstr "Verzija"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
@@ -5837,12 +5814,12 @@ msgstr ""
 #: src/launcher/ui/pages/instance/VersionPage.cpp:191
 msgctxt "VersionPage|"
 msgid "Error: "
-msgstr "Grеška: "
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:195
 msgctxt "VersionPage|"
 msgid "Warning: "
-msgstr "Upozorenje: "
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:258
 #: src/launcher/ui/pages/instance/VersionPage.cpp:264
@@ -5852,7 +5829,7 @@ msgstr "Upozorenje: "
 #: src/launcher/ui/pages/instance/VersionPage.cpp:407
 msgctxt "VersionPage|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:265
 msgctxt "VersionPage|"
@@ -5989,7 +5966,7 @@ msgstr ""
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
 msgid "Version"
-msgstr "Verzija"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
@@ -5999,12 +5976,12 @@ msgstr ""
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
 msgid "Branch"
-msgstr "Grana"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:82
 msgctxt "VersionProxyModel|"
 msgid "Type"
-msgstr "Tip"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
@@ -6014,7 +5991,7 @@ msgstr ""
 #: src/launcher/VersionProxyModel.cpp:86
 msgctxt "VersionProxyModel|"
 msgid "Path"
-msgstr "Put"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:88
 msgctxt "VersionProxyModel|"
@@ -6029,7 +6006,7 @@ msgstr ""
 #: src/launcher/VersionProxyModel.cpp:98
 msgctxt "VersionProxyModel|"
 msgid "Minecraft version"
-msgstr "Minecraft verzija"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:100
 msgctxt "VersionProxyModel|"
@@ -6044,7 +6021,7 @@ msgstr ""
 #: src/launcher/VersionProxyModel.cpp:104
 msgctxt "VersionProxyModel|"
 msgid "CPU Architecture"
-msgstr "Arhitektura procesora"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:106
 msgctxt "VersionProxyModel|"
@@ -6071,7 +6048,7 @@ msgstr ""
 #: src/launcher/VersionProxyModel.cpp:176
 msgctxt "VersionProxyModel|"
 msgid "Latest"
-msgstr "Najnovije"
+msgstr ""
 
 #: src/launcher/ui/dialogs/VersionSelectDialog.cpp:81
 msgctxt "VersionSelectDialog|"
@@ -6091,7 +6068,7 @@ msgstr ""
 #: src/launcher/ui/widgets/VersionSelectWidget.cpp:128
 msgctxt "VersionSelectWidget|"
 msgid "Error"
-msgstr "Grеška"
+msgstr ""
 
 #: src/launcher/ui/widgets/VersionSelectWidget.cpp:128
 #, qt-format
@@ -6103,7 +6080,7 @@ msgstr ""
 #: src/launcher/minecraft/WorldList.cpp:227
 msgctxt "WorldList|"
 msgid "Name"
-msgstr "Ime"
+msgstr ""
 
 #: src/launcher/minecraft/WorldList.cpp:229
 msgctxt "WorldList|"
@@ -6133,12 +6110,12 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr "Akcije"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:99
 msgctxt "WorldListPage|"
 msgid "Add"
-msgstr "Dodaj"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:104
 msgctxt "WorldListPage|"
@@ -6163,17 +6140,17 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.ui:120
 msgctxt "WorldListPage|"
 msgid "Rename"
-msgstr "Preimenuj"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:125
 msgctxt "WorldListPage|"
 msgid "Copy"
-msgstr "Kopiraj"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:130
 msgctxt "WorldListPage|"
 msgid "Remove"
-msgstr "Ukloni"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
@@ -6183,12 +6160,12 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
 msgid "Copy Seed"
-msgstr "Kopiraj Seed"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:145
 msgctxt "WorldListPage|"
 msgid "Refresh"
-msgstr "Osveži"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:150
 msgctxt "WorldListPage|"
@@ -6223,7 +6200,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
-msgstr "Kontekstualni meni"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:160
 msgctxt "WorldListPage|"
@@ -6272,7 +6249,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:361
 msgctxt "WorldListPage|"
 msgid "Copy World"
-msgstr "Kopiraj svet"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:361
 msgctxt "WorldListPage|"
@@ -6284,7 +6261,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:408
 msgctxt "WorldListPage|"
 msgid "World name"
-msgstr "Ime sveta"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:385
 msgctxt "WorldListPage|"
