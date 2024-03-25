@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2024-03-25 01:42\n"
+"PO-Revision-Date: 2024-03-25 02:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -383,7 +383,7 @@ msgstr "Reîncarcă token-urile contului"
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Adăugați un cont de site"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
@@ -428,7 +428,7 @@ msgstr "Ștergerea skinului curent a eșuat!"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:260
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
-msgstr ""
+msgstr "Te rugăm să introduci adresa de e-mail și parola pentru contul tău de skin."
 
 #: src/launcher/ui/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -657,22 +657,22 @@ msgstr "Profiler anulat"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Adăugați un cont de site"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
 msgid "password"
-msgstr ""
+msgstr "parolă"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:71
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
-msgstr ""
+msgstr "Înregistrați un cont"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
@@ -2174,7 +2174,7 @@ msgstr "Vă rugăm să introduceţi adresa de e-mail şi parola pentru a adăuga
 #: src/launcher/LaunchController.cpp:265
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr ""
+msgstr "Vă rugăm să introduceţi adresa de e-mail şi parola site-ului de piele MiniSkins pentru a adăuga contul dvs."
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2333,17 +2333,17 @@ msgstr "&Iconițe:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
-msgstr ""
+msgstr "Setări descărcare"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
-msgstr ""
+msgstr "Sursa descărcării:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr ""
+msgstr "Numarul de discutii descarcate:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -3358,12 +3358,12 @@ msgstr "Copiază instanța selectată."
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Verifică pentru actualizări"
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
-msgstr ""
+msgstr "Verifică dacă există actualizări pentru instanța selectată."
 
 #: src/launcher/ui/MainWindow.cpp:682
 #, qt-format
@@ -3471,23 +3471,23 @@ msgstr "Abandonare"
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Update Available"
-msgstr ""
+msgstr "Actualizare disponibilă"
 
 #: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr ""
+msgstr "Este disponibilă o nouă actualizare. Ultima versiune este: %1. Doriți să actualizați acum?"
 
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr ""
+msgstr "Nici o actualizare"
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
-msgstr ""
+msgstr "Modpack-ul dvs. este actualizat. Nu sunt necesare actualizări."
 
 #: src/launcher/ui/MainWindow.cpp:1562
 msgctxt "MainWindow|"
@@ -3895,7 +3895,7 @@ msgstr "Nu s-a putut înțelege manifestul pachetului:\n"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
-msgstr ""
+msgstr "Obțineți link-ul de descărcare MOD"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"

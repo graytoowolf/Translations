@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Spanish, Uruguay\n"
 "Language: es_UY\n"
-"PO-Revision-Date: 2024-03-25 01:43\n"
+"PO-Revision-Date: 2024-03-25 02:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -383,7 +383,7 @@ msgstr "Recargar los tokens de la cuenta"
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Añadir cuenta de sitio de skin"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
@@ -657,12 +657,12 @@ msgstr "Perfilador abortado"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Añadir cuenta de sitio de skin"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "E-mail"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
@@ -672,7 +672,7 @@ msgstr "contraseña"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:71
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
-msgstr ""
+msgstr "Registrar una cuenta"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
@@ -2174,7 +2174,7 @@ msgstr "Por favor, introduce el correo electrónico y la contraseña de tu cuent
 #: src/launcher/LaunchController.cpp:265
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr ""
+msgstr "Introduzca su cuenta de MiniSkins skin y su contraseña para agregar su cuenta."
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2333,17 +2333,17 @@ msgstr "&Iconos:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
-msgstr ""
+msgstr "Ajustes de descarga"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
-msgstr ""
+msgstr "Fuente de descarga:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr ""
+msgstr "Número de hilos de descarga:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -3360,12 +3360,12 @@ msgstr "Copiar la instancia seleccionada."
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Buscar actualizaciones"
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
-msgstr ""
+msgstr "Buscar actualizaciones para la instancia seleccionada."
 
 #: src/launcher/ui/MainWindow.cpp:682
 #, qt-format
@@ -3473,23 +3473,23 @@ msgstr "Abordar"
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Update Available"
-msgstr ""
+msgstr "Actualización disponible"
 
 #: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr ""
+msgstr "Una nueva actualización está disponible. La última versión es: %1. ¿Quieres actualizar ahora?"
 
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr ""
+msgstr "Sin actualizar"
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
-msgstr ""
+msgstr "Tu modpack está actualizado. No es necesario actualizar."
 
 #: src/launcher/ui/MainWindow.cpp:1562
 msgctxt "MainWindow|"
@@ -3897,7 +3897,7 @@ msgstr "No se pudo entender el manifiesto del paquete:\n"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
-msgstr ""
+msgstr "Obtener enlace de descarga MOD"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
