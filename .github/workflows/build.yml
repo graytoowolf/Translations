@@ -5,7 +5,7 @@ on:
     branches:
       - main
     paths:
-      - '**.ts'
+      - '**.po'
 
 jobs:
   build:
@@ -21,7 +21,6 @@ jobs:
 
       - name: Build translations
         run: |
-          chmod +x ./release.sh
           ./release.sh
 
       - name: Move directory
