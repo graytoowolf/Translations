@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2024-03-25 01:42\n"
+"PO-Revision-Date: 2024-03-25 02:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -381,7 +381,7 @@ msgstr "帳戸の認証情報を更新する"
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "スキンアカウントを追加"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
@@ -655,12 +655,12 @@ msgstr "性能解析器が中止されました"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "スキンアカウントを追加"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "Eメールアドレス"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
@@ -670,7 +670,7 @@ msgstr "パスワード"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:71
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
-msgstr ""
+msgstr "アカウントを登録"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
@@ -2182,7 +2182,7 @@ msgstr "Mojangのアカウントを使用するにはメールアドレスとパ
 #: src/launcher/LaunchController.cpp:265
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr ""
+msgstr "アカウントを追加するには、MiniSkins スキンアカウントのメールアドレスとパスワードを入力してください。"
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2341,17 +2341,17 @@ msgstr "図標 (&I):"
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
-msgstr ""
+msgstr "ダウンロード設定"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
-msgstr ""
+msgstr "ダウンロード元:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr ""
+msgstr "ダウンロードスレッド数:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -3367,12 +3367,12 @@ msgstr "選択した構成実例を複製します。"
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "アップデートの確認"
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
-msgstr ""
+msgstr "選択したインスタンスの更新を確認します。"
 
 #: src/launcher/ui/MainWindow.cpp:682
 #, qt-format
@@ -3480,23 +3480,23 @@ msgstr "中止する"
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Update Available"
-msgstr ""
+msgstr "アップデートがあります"
 
 #: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr ""
+msgstr "新しいアップデートが利用可能です。最新バージョンは %1です。今すぐアップデートしますか？"
 
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr ""
+msgstr "更新なし"
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
-msgstr ""
+msgstr "お使いのModパックは最新です。アップデートは必要ありません。"
 
 #: src/launcher/ui/MainWindow.cpp:1562
 msgctxt "MainWindow|"
@@ -3904,7 +3904,7 @@ msgstr "パック マニフェストが理解できませんでした:\n"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
-msgstr ""
+msgstr "MODのダウンロードリンクを取得"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
