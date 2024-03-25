@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Finnish\n"
 "Language: fi_FI\n"
-"PO-Revision-Date: 2024-03-25 01:42\n"
+"PO-Revision-Date: 2024-03-25 02:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -383,7 +383,7 @@ msgstr "Päivitä tilin valtuutus"
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Lisää ulkoasu sivusto tili"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
@@ -657,12 +657,12 @@ msgstr "Profiloija keskeytetty"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Lisää ulkoasu sivusto tili"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "Sähköposti"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
@@ -672,7 +672,7 @@ msgstr "salasana"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:71
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
-msgstr ""
+msgstr "Rekisteröi tili"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
@@ -2174,7 +2174,7 @@ msgstr "Syötä Mojang-tilisi sähköposti ja salasana lisätäksesi tilisi."
 #: src/launcher/LaunchController.cpp:265
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr ""
+msgstr "Ole hyvä ja kirjoita MiniSkins iho sivuston sähköposti ja salasana lisätä tilin."
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2333,17 +2333,17 @@ msgstr "&Kuvakkeet:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
-msgstr ""
+msgstr "Lataa asetukset"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
-msgstr ""
+msgstr "Lataa lähde:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr ""
+msgstr "Ladattavien säikeiden määrä:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -3360,12 +3360,12 @@ msgstr "Kopioi valittu pelipaketti."
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Tarkista päivitykset"
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
-msgstr ""
+msgstr "Tarkista valitun instanssin päivitykset. @ info"
 
 #: src/launcher/ui/MainWindow.cpp:682
 #, qt-format
@@ -3473,23 +3473,23 @@ msgstr "Keskeytä"
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Update Available"
-msgstr ""
+msgstr "Päivitys Saatavilla"
 
 #: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr ""
+msgstr "Uusi päivitys on saatavilla. Viimeisin versio on: %1. Haluatko päivittää nyt?"
 
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr ""
+msgstr "Ei Päivitystä"
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
-msgstr ""
+msgstr "Moduulipaketti on ajan tasalla. Päivityksiä ei tarvita."
 
 #: src/launcher/ui/MainWindow.cpp:1562
 msgctxt "MainWindow|"
@@ -3897,7 +3897,7 @@ msgstr "Paketin manifestia ei voitu ymmärtää:\n"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
-msgstr ""
+msgstr "Hanki MOD latauslinkki"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
