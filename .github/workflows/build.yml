@@ -37,7 +37,7 @@ jobs:
       - name: Upload qiniu
         run: |
           curl -L https://kodo-toolbox-new.qiniu.com/qshell-v2.13.0-linux-386.tar.gz -o qshell.tar.gz
-          unzip qshell.tar.gz
+          tar -zxvf qshell.tar.gz
           chmod +x qshell
           qshell account ${{ secrets.AK }} ${{ secrets.SK }} bs
           qshell qupload2 --src-dir=./MiniSkins --bucket=${{ secrets.QINIU_Name }} --up-host=http://upload-z2.qiniu.com --overwrite=true --rescan-local=true
