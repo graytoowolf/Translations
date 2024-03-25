@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Mongolian\n"
 "Language: mn_MN\n"
-"PO-Revision-Date: 2024-03-25 01:19\n"
+"PO-Revision-Date: 2024-03-25 01:43\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -382,7 +382,7 @@ msgstr "Бүртгэлийн хуулгыг шинэчлэх"
 #: src/launcher/ui/pages/global/AccountListPage.ui:120
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
-msgid "添加皮肤站账号"
+msgid "Add skin site account"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
@@ -427,7 +427,7 @@ msgstr "Одоогийн ашиглаж буй дүр төрхийг устга�
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:260
 msgctxt "AccountListPage|"
-msgid "请输入您的 皮肤站帐户电子邮件和密码以添加您的帐户。"
+msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.h:42
@@ -654,22 +654,22 @@ msgstr "Профайлыг зогсоосон"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
-msgid "添加皮肤站账号"
+msgid "Add skin site account"
 msgstr ""
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
-msgid "电子邮箱"
+msgid "Email"
 msgstr ""
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
-msgid "密码"
+msgid "password"
 msgstr ""
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:71
 msgctxt "BsLoginDialog|"
-msgid "注册账号"
+msgid "Register an account"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
@@ -2169,6 +2169,11 @@ msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr "Бүртгэлээ нэмэхийн тулд Можанг бүртгэлийнхээ имэйл хаяг, нууц үгээ оруулна уу."
 
+#: src/launcher/LaunchController.cpp:265
+msgctxt "LaunchController|"
+msgid "Please enter your MiniSkins skin site account email and password to add your account."
+msgstr ""
+
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
@@ -2325,17 +2330,17 @@ msgstr "&Дүрснүүд:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
-msgid "下载设置"
+msgid "Download settings"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
-msgid "下载源:"
+msgid "Download source:"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
-msgid "下载线程数:"
+msgid "Number of download threads:"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
@@ -3351,12 +3356,12 @@ msgstr "Сонгосон жишээг хуулах."
 
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
-msgid "检查更新"
+msgid "Check for Updates"
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
-msgid "检查所选实例的更新。"
+msgid "Check for updates for the selected instance."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:682
@@ -3464,23 +3469,23 @@ msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
-msgid "可用更新"
+msgid "Update Available"
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
-msgid "有新的更新可用。最新版本是：%1。您想现在更新吗？"
+msgid "A new update is available. The latest version is: %1. Would you like to update now?"
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
-msgid "没有更新"
+msgid "No Update"
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
-msgid "您的modpack是最新的。无需更新。"
+msgid "Your modpack is up to date. No updates necessary."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1562
@@ -3885,7 +3890,7 @@ msgstr ""
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
-msgid "获取MOD下载地址"
+msgid "Get MOD download link"
 msgstr ""
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
