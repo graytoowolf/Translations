@@ -88,7 +88,9 @@ do
     echo "            \"fuzzy\" : $FUZZY," >> $OUTPUT/index_v2.json
     echo "            \"untranslated\" : $UNTRANSLATED" >> $OUTPUT/index_v2.json
     # Create an index file with just the files (legacy)
-    echo "$lang.qm" >> $OUTPUT/index
+    #echo "$lang.qm" >> $OUTPUT/index
+    rm "$OUTPUT/$lang.qm"
+
 done
 echo "        }" >> $OUTPUT/index_v2.json
 echo "    }" >> $OUTPUT/index_v2.json

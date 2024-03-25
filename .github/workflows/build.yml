@@ -1,6 +1,7 @@
 name: Build Pages
 
 on:
+  workflow_dispatch: # allow manual trigger
   push:
     branches:
       - main
@@ -25,10 +26,17 @@ jobs:
 
       - name: Move directory
         run: |
-          mv build _site
+          mkdir -p MiniSkins/translations
+          mv build MiniSkins/translations
           
       - name: Upload Artifacts
         uses: actions/upload-artifact@main
         with:
           name: miniskins
-          path: ./_site
+          path: ./MiniSkins
+      - name: Upload qiniu
+        run: |
+          curl -L https://devtools.qiniu.com/qshell-v2.6.2-windows-386.zip -o qshell.zip
+          unzip qshell.zip
+          .\qshell account ${{ secrets.AK }} ${{ secrets.SK }} bs
+          .\qshell qupload2 --src-dir=./MiniSkins --bucket=${{ secrets.QINIU_Name }} --up-host=http://upload-z2.qiniu.com --overwrite=true --rescan-local=true
