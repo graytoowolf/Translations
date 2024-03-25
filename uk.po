@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2024-03-25 01:43\n"
+"PO-Revision-Date: 2024-03-25 02:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -383,7 +383,7 @@ msgstr "Оновити токени облікового запису"
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Додати обліковий запис шкірки"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
@@ -657,12 +657,12 @@ msgstr "Профайлер перервано"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "Додати обліковий запис шкірки"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
 msgid "Email"
-msgstr ""
+msgstr "Ел. пошта"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
@@ -672,7 +672,7 @@ msgstr "пароль"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:71
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
-msgstr ""
+msgstr "Зареєструвати рахунок"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
@@ -2174,7 +2174,7 @@ msgstr "Будь ласка, введіть електронну пошту і �
 #: src/launcher/LaunchController.cpp:265
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr ""
+msgstr "Будь ласка, введіть вашу електронну пошту і пароль вашого облікового запису MiniSkins для додавання облікового запису."
 
 #: src/launcher/LaunchController.cpp:284
 msgctxt "LaunchController|"
@@ -2333,17 +2333,17 @@ msgstr "&Значки:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
-msgstr ""
+msgstr "Параметри завантаження"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
-msgstr ""
+msgstr "Джерело завантаження:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr ""
+msgstr "Кількість потоків завантаження:"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -3358,12 +3358,12 @@ msgstr "Копіювати обрану збірку."
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Перевірити наявність оновлень"
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
-msgstr ""
+msgstr "Перевірка оновлень для вибраного екземпляра."
 
 #: src/launcher/ui/MainWindow.cpp:682
 #, qt-format
@@ -3471,23 +3471,23 @@ msgstr "Відміна"
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Update Available"
-msgstr ""
+msgstr "Доступне оновлення"
 
 #: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr ""
+msgstr "Доступне нове оновлення. Найновіша версія: %1. Бажаєте оновити зараз?"
 
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr ""
+msgstr "Оновлення немає"
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
-msgstr ""
+msgstr "Ваш modpack актуальний. Оновлення не необхідні."
 
 #: src/launcher/ui/MainWindow.cpp:1562
 msgctxt "MainWindow|"
@@ -3894,7 +3894,7 @@ msgstr "Не вдалося розпізнати маніфест пакета:\
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
-msgstr ""
+msgstr "Отримати посилання на завантаження MOD"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
