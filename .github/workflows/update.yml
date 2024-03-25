@@ -1,8 +1,8 @@
 name: Update translations
 
 on:
-  schedule:
-    - cron:  '0 */6 * * *'  # https://crontab.guru/#0_*/12_*_*_*
+  repository_dispatch:
+    types: [trigger-workflow-event]
   workflow_dispatch: # allow manual trigger
   push:
     branches:
