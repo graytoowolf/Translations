@@ -32,7 +32,6 @@ jobs:
 
       - name: Commit files
         run: |
-          git add template.pot
           git commit -m "Update source strings" -a || true
 
       - name: Push changes
