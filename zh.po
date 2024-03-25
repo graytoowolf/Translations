@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-03-25 03:01\n"
+"PO-Revision-Date: 2024-03-25 09:08\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -675,7 +675,7 @@ msgstr "添加皮肤站账号"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:39
 msgctxt "BsLoginDialog|"
 msgid "Email"
-msgstr "电子邮件地址"
+msgstr "电子邮件"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:49
 msgctxt "BsLoginDialog|"
