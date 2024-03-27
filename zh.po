@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-03-27 11:42\n"
+"PO-Revision-Date: 2024-03-27 13:23\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -803,7 +803,7 @@ msgstr "搜索并过滤..."
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
 msgctxt "CFPage|"
 msgid "CurseForge"
-msgstr "曲线Forge"
+msgstr "CurseForge"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
@@ -4181,7 +4181,7 @@ msgstr "加载中…"
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr "多明斯"
+msgstr "Modrinth"
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -5498,7 +5498,7 @@ msgstr " 作者："
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr "野车"
+msgstr "Technic"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
