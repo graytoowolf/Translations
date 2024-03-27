@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-03-25 09:08\n"
+"PO-Revision-Date: 2024-03-27 11:42\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2367,7 +2367,7 @@ msgstr "下载源："
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr "下载线程数量："
+msgstr "下载线程数："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -3507,7 +3507,7 @@ msgstr "有新的更新可用。最新版本是： %1。您想现在更新吗？
 #: src/launcher/ui/MainWindow.cpp:1532
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr "无更新"
+msgstr "无需更新"
 
 #: src/launcher/ui/MainWindow.cpp:1533
 msgctxt "MainWindow|"
@@ -3545,7 +3545,7 @@ msgstr "您确定要删除组 %1"
 #: src/launcher/ui/MainWindow.cpp:1859
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
-msgstr "备份！"
+msgstr "小心！"
 
 #: src/launcher/ui/MainWindow.cpp:1860
 #, qt-format
