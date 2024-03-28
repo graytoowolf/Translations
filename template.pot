@@ -4973,7 +4973,7 @@ msgid ""
 "%2<br />"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:274
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr ""
