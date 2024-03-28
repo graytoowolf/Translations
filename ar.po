@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2024-03-25 02:06\n"
+"PO-Revision-Date: 2024-03-28 05:21\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2038,7 +2038,7 @@ msgctxt "LanguagePage|"
 msgid "Language"
 msgstr "اللغة"
 
-#: src/launcher/ui/widgets/LanguageSelectionWidget.cpp:50
+#: src/launcher/ui/widgets/LanguageSelectionWidget.cpp:53
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
@@ -3445,8 +3445,8 @@ msgid "No news available."
 msgstr "لا يوجد أخبار متوفرة."
 
 #: src/launcher/ui/MainWindow.cpp:1355 src/launcher/ui/MainWindow.cpp:1372
-#: src/launcher/ui/MainWindow.cpp:1430 src/launcher/ui/MainWindow.cpp:1549
-#: src/launcher/ui/MainWindow.cpp:1561
+#: src/launcher/ui/MainWindow.cpp:1430 src/launcher/ui/MainWindow.cpp:1559
+#: src/launcher/ui/MainWindow.cpp:1571
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "خطأ"
@@ -3464,65 +3464,80 @@ msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "التحذيرات"
 
-#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1553
+#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1563
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "الغاء"
 
-#: src/launcher/ui/MainWindow.cpp:1515
+#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Update Check"
+msgstr "التحقق من التحديث"
+
+#: src/launcher/ui/MainWindow.cpp:1480
+msgctxt "MainWindow|"
+msgid "Please manually re-download the modpacks."
+msgstr "الرجاء إعادة تحميل المودات يدويًا."
+
+#: src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Automatic updates are currently only supported for the CurseForge platform."
+msgstr "التحديثات التلقائية مدعومة حاليا فقط لمنصة CurseForge."
+
+#: src/launcher/ui/MainWindow.cpp:1525
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr "تحديث متوفر"
 
-#: src/launcher/ui/MainWindow.cpp:1516
+#: src/launcher/ui/MainWindow.cpp:1526
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
 msgstr "يتوفر تحديث جديد. الإصدار الأحدث هو: %1. هل ترغب في التحديث الآن؟"
 
-#: src/launcher/ui/MainWindow.cpp:1532
+#: src/launcher/ui/MainWindow.cpp:1542
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "لا يوجد تحديث"
 
-#: src/launcher/ui/MainWindow.cpp:1533
+#: src/launcher/ui/MainWindow.cpp:1543
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
 msgstr "مودباك محدث. لا توجد تحديثات ضرورية."
 
-#: src/launcher/ui/MainWindow.cpp:1562
+#: src/launcher/ui/MainWindow.cpp:1572
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1696
+#: src/launcher/ui/MainWindow.cpp:1706
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "اسم المجموعة"
 
-#: src/launcher/ui/MainWindow.cpp:1696
+#: src/launcher/ui/MainWindow.cpp:1706
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "أدخل اسم مجموعة جديد."
 
-#: src/launcher/ui/MainWindow.cpp:1718
+#: src/launcher/ui/MainWindow.cpp:1728
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "حذف المجموعة"
 
-#: src/launcher/ui/MainWindow.cpp:1718
+#: src/launcher/ui/MainWindow.cpp:1728
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "هل أنت متأكد من أنك تريد حذف المجموعة %1"
 
-#: src/launcher/ui/MainWindow.cpp:1859
+#: src/launcher/ui/MainWindow.cpp:1869
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "جميل!"
 
-#: src/launcher/ui/MainWindow.cpp:1860
+#: src/launcher/ui/MainWindow.cpp:1870
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3532,45 +3547,45 @@ msgstr "على وشك الحذف: %1\n"
 "هذا دائم وسوف يحذف مثيل كاملا.\n\n"
 "هل أنت متأكد؟"
 
-#: src/launcher/ui/MainWindow.cpp:2072
+#: src/launcher/ui/MainWindow.cpp:2082
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "إعادة تسمية المثيل"
 
-#: src/launcher/ui/MainWindow.cpp:2085
+#: src/launcher/ui/MainWindow.cpp:2095
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "المجلد المثيل الخاص بك يحتوي على '!' ومن المعروف أن هذا يسبب مشاكل في جافا!"
 
-#: src/launcher/ui/MainWindow.cpp:2087
+#: src/launcher/ui/MainWindow.cpp:2097
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "لديك الآن خياران: <br/> - تغيير مجلد مثيل في الإعدادات <br/> - نقل هذا التثبيت %1 إلى مجلد مختلف"
 
-#: src/launcher/ui/MainWindow.cpp:2096
+#: src/launcher/ui/MainWindow.cpp:2106
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr "هذه مشكلة: <br/> - من المحتمل أن يتم حذف المشغل دون تحذير من قبل نظام التشغيل <br/> - إغلاق المشغل الآن واستخراجه إلى موقع حقيقي، ليس مجلد مؤقت"
 
-#: src/launcher/ui/MainWindow.cpp:2103
+#: src/launcher/ui/MainWindow.cpp:2113
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "المجلد المثيل الخاص بك يحتوي على 'Rar$' - وهذا يعني أنك لم تستخرج أرشيف المشغل!"
 
-#: src/launcher/ui/MainWindow.cpp:2111
+#: src/launcher/ui/MainWindow.cpp:2121
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "مجلد مثيل في مجلد مؤقت: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2125
+#: src/launcher/ui/MainWindow.cpp:2135
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "إجمالي وقت اللعب: %1 ساعات"
 
-#: src/launcher/ui/MainWindow.cpp:2127
+#: src/launcher/ui/MainWindow.cpp:2137
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -5499,7 +5514,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "حزم الرسوميات"
 
-#: src/launcher/translations/TranslationsModel.cpp:367
+#: src/launcher/translations/TranslationsModel.cpp:405
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -5511,22 +5526,22 @@ msgstr "%1:\n"
 "%3 كلمة مبهمة\n"
 "مجموع الكلمات %4"
 
-#: src/launcher/translations/TranslationsModel.cpp:385
+#: src/launcher/translations/TranslationsModel.cpp:423
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "اللغة"
 
-#: src/launcher/translations/TranslationsModel.cpp:389
+#: src/launcher/translations/TranslationsModel.cpp:427
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "الإكتمال"
 
-#: src/launcher/translations/TranslationsModel.cpp:399
+#: src/launcher/translations/TranslationsModel.cpp:437
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "اسم اللغة."
 
-#: src/launcher/translations/TranslationsModel.cpp:403
+#: src/launcher/translations/TranslationsModel.cpp:441
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "نسبة الإكتمال هي النسبة المئوية للنصوص المترجمة بالكامل، دون حساب الترجمات الآلية."
