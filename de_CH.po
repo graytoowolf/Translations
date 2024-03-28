@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: German, Switzerland\n"
 "Language: de_CH\n"
-"PO-Revision-Date: 2024-03-26 12:28\n"
+"PO-Revision-Date: 2024-03-28 05:22\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2038,7 +2038,7 @@ msgctxt "LanguagePage|"
 msgid "Language"
 msgstr "Sprache"
 
-#: src/launcher/ui/widgets/LanguageSelectionWidget.cpp:50
+#: src/launcher/ui/widgets/LanguageSelectionWidget.cpp:53
 #, qt-format
 msgctxt "LanguageSelectionWidget|"
 msgid "Don't see your language or the quality is poor?<br/><a href=\"%1\">Help us with translations!</a>"
@@ -3445,8 +3445,8 @@ msgid "No news available."
 msgstr "Keine Nachrichten verfügbar."
 
 #: src/launcher/ui/MainWindow.cpp:1355 src/launcher/ui/MainWindow.cpp:1372
-#: src/launcher/ui/MainWindow.cpp:1430 src/launcher/ui/MainWindow.cpp:1549
-#: src/launcher/ui/MainWindow.cpp:1561
+#: src/launcher/ui/MainWindow.cpp:1430 src/launcher/ui/MainWindow.cpp:1559
+#: src/launcher/ui/MainWindow.cpp:1571
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Fehler"
@@ -3464,66 +3464,81 @@ msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "Warnungen"
 
-#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1553
+#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1563
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Abbrechen"
 
-#: src/launcher/ui/MainWindow.cpp:1515
+#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Update Check"
+msgstr "Updateprüfung"
+
+#: src/launcher/ui/MainWindow.cpp:1480
+msgctxt "MainWindow|"
+msgid "Please manually re-download the modpacks."
+msgstr "Bitte laden Sie die Modpacks manuell erneut herunter."
+
+#: src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Automatic updates are currently only supported for the CurseForge platform."
+msgstr "Automatische Updates werden derzeit nur für die CurseForge-Plattform unterstützt."
+
+#: src/launcher/ui/MainWindow.cpp:1525
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr "Update verfügbar"
 
-#: src/launcher/ui/MainWindow.cpp:1516
+#: src/launcher/ui/MainWindow.cpp:1526
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
 msgstr "Ein neues Update ist verfügbar. Die neueste Version ist: %1. Möchten Sie jetzt aktualisieren?"
 
-#: src/launcher/ui/MainWindow.cpp:1532
+#: src/launcher/ui/MainWindow.cpp:1542
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "Kein Update"
 
-#: src/launcher/ui/MainWindow.cpp:1533
+#: src/launcher/ui/MainWindow.cpp:1543
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
 msgstr "Ihr Modpack ist aktuell. Keine Updates notwendig."
 
-#: src/launcher/ui/MainWindow.cpp:1562
+#: src/launcher/ui/MainWindow.cpp:1572
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "Der Launcher kann Minecraft oder Update-Instanzen nicht herunterladen, es sei denn, du hast mindestens ein Konto hinzugefügt.\n"
 "Bitte füge deinen Mojang oder Minecraft-Account hinzu."
 
-#: src/launcher/ui/MainWindow.cpp:1696
+#: src/launcher/ui/MainWindow.cpp:1706
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "Gruppenname"
 
-#: src/launcher/ui/MainWindow.cpp:1696
+#: src/launcher/ui/MainWindow.cpp:1706
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Geben Sie einen neuen Gruppennamen ein."
 
-#: src/launcher/ui/MainWindow.cpp:1718
+#: src/launcher/ui/MainWindow.cpp:1728
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "Gruppe löschen"
 
-#: src/launcher/ui/MainWindow.cpp:1718
+#: src/launcher/ui/MainWindow.cpp:1728
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "Sind Sie sicher, dass Sie die Gruppe %1 löschen möchten"
 
-#: src/launcher/ui/MainWindow.cpp:1859
+#: src/launcher/ui/MainWindow.cpp:1869
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "CAREFUL!"
 
-#: src/launcher/ui/MainWindow.cpp:1860
+#: src/launcher/ui/MainWindow.cpp:1870
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3533,45 +3548,45 @@ msgstr "Löschen: %1\n"
 "Dies ist dauerhaft und wird die Instanz vollständig löschen.\n\n"
 "Sind Sie sicher?"
 
-#: src/launcher/ui/MainWindow.cpp:2072
+#: src/launcher/ui/MainWindow.cpp:2082
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Instanz umbenennen"
 
-#: src/launcher/ui/MainWindow.cpp:2085
+#: src/launcher/ui/MainWindow.cpp:2095
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "Ihr Instanzordner enthält '!' und dies führt bekanntlich zu Java-Problemen!"
 
-#: src/launcher/ui/MainWindow.cpp:2087
+#: src/launcher/ui/MainWindow.cpp:2097
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "Sie haben jetzt zwei Möglichkeiten: <br/> - Ändern Sie den Instanzordner in den Einstellungen <br/> - verschieben Sie diese Installation von %1 in einen anderen Ordner"
 
-#: src/launcher/ui/MainWindow.cpp:2096
+#: src/launcher/ui/MainWindow.cpp:2106
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr "Dies ist ein Problem: <br/> - Der Launcher wird wahrscheinlich ohne Warnung vom Betriebssystem <br/> gelöscht - Schließen Sie den Launcher jetzt und entpacken Sie ihn an einen echten Ort kein temporärer Ordner"
 
-#: src/launcher/ui/MainWindow.cpp:2103
+#: src/launcher/ui/MainWindow.cpp:2113
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "Ihr Instanzordner enthält 'Rar$' - das bedeutet, dass Sie das Launcher-Archiv nicht entpackt haben!"
 
-#: src/launcher/ui/MainWindow.cpp:2111
+#: src/launcher/ui/MainWindow.cpp:2121
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "Ihr Instanzordner befindet sich in einem temporären Ordner: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2125
+#: src/launcher/ui/MainWindow.cpp:2135
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "Gesamte Spielzeit: %1 Stunden"
 
-#: src/launcher/ui/MainWindow.cpp:2127
+#: src/launcher/ui/MainWindow.cpp:2137
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -5502,7 +5517,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Texturenpakete"
 
-#: src/launcher/translations/TranslationsModel.cpp:367
+#: src/launcher/translations/TranslationsModel.cpp:405
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -5514,22 +5529,22 @@ msgstr "%1:\n"
 "%3 fuzzy\n"
 "%4 insgesamt"
 
-#: src/launcher/translations/TranslationsModel.cpp:385
+#: src/launcher/translations/TranslationsModel.cpp:423
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "Sprache"
 
-#: src/launcher/translations/TranslationsModel.cpp:389
+#: src/launcher/translations/TranslationsModel.cpp:427
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "Vollständigkeit"
 
-#: src/launcher/translations/TranslationsModel.cpp:399
+#: src/launcher/translations/TranslationsModel.cpp:437
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "Der native Sprachname."
 
-#: src/launcher/translations/TranslationsModel.cpp:403
+#: src/launcher/translations/TranslationsModel.cpp:441
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "Vollständigkeit ist der Anteil an vollständig übersetzten Zeichenketten, ohne automatisch generierte zu zählen."
