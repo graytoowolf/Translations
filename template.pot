@@ -3554,20 +3554,20 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481 src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1480
+#: src/launcher/ui/MainWindow.cpp:1481
 msgctxt "MainWindow|"
-msgid "Please manually re-download the modpacks."
+msgid ""
+"Automatic updates are currently only supported for the CurseForge platform."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
-msgid ""
-"Automatic updates are currently only supported for the CurseForge platform."
+msgid "Please manually re-download the modpacks."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1525
