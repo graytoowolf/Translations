@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-03-28 05:21\n"
+"PO-Revision-Date: 2024-03-29 01:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3493,20 +3493,20 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "中止"
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481 src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr "更新检查"
 
-#: src/launcher/ui/MainWindow.cpp:1480
-msgctxt "MainWindow|"
-msgid "Please manually re-download the modpacks."
-msgstr "请手动重新下载modpacks。"
-
-#: src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr "当前仅在CurseForge平台上支持自动更新。"
+
+#: src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Please manually re-download the modpacks."
+msgstr "请手动重新下载modpacks。"
 
 #: src/launcher/ui/MainWindow.cpp:1525
 msgctxt "MainWindow|"
@@ -4860,7 +4860,7 @@ msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java 测试成功！<br />平台已报告：%1<br />Java 版本已报告：%2<br />"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:274
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "FTB App 的实例中缺少描述。"

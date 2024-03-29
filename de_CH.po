@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: German, Switzerland\n"
 "Language: de_CH\n"
-"PO-Revision-Date: 2024-03-28 05:22\n"
+"PO-Revision-Date: 2024-03-29 01:01\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3469,20 +3469,20 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Abbrechen"
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481 src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr "Updateprüfung"
 
-#: src/launcher/ui/MainWindow.cpp:1480
-msgctxt "MainWindow|"
-msgid "Please manually re-download the modpacks."
-msgstr "Bitte laden Sie die Modpacks manuell erneut herunter."
-
-#: src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr "Automatische Updates werden derzeit nur für die CurseForge-Plattform unterstützt."
+
+#: src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Please manually re-download the modpacks."
+msgstr "Bitte laden Sie die Modpacks manuell erneut herunter."
 
 #: src/launcher/ui/MainWindow.cpp:1525
 msgctxt "MainWindow|"
@@ -4837,7 +4837,7 @@ msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java-Test erfolgreich!<br />Gemeldete Plattform: %1<br />Gemeldete Java-Version: %2<br />"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:274
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "Beschreibung in der FTB App-Instanz fehlt."

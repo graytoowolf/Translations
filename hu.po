@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2024-03-28 05:21\n"
+"PO-Revision-Date: 2024-03-29 01:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3469,19 +3469,19 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481 src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1480
+#: src/launcher/ui/MainWindow.cpp:1481
 msgctxt "MainWindow|"
-msgid "Please manually re-download the modpacks."
+msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
-msgid "Automatic updates are currently only supported for the CurseForge platform."
+msgid "Please manually re-download the modpacks."
 msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1525
@@ -4833,7 +4833,7 @@ msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "A Java teszt sikerült!<br />Platform jelentve: %1<br />Jelentett Java verzió: %2<br />"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:274
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "A leírás hiányzik az FTB App példányban."
