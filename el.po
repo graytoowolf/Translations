@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2024-03-28 05:21\n"
+"PO-Revision-Date: 2024-03-29 01:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3468,20 +3468,20 @@ msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Ματαίωση"
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481 src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr "Έλεγχος Ενημέρωσης"
 
-#: src/launcher/ui/MainWindow.cpp:1480
-msgctxt "MainWindow|"
-msgid "Please manually re-download the modpacks."
-msgstr "Παρακαλώ κάντε χειροκίνητη λήψη των πακέτων mods."
-
-#: src/launcher/ui/MainWindow.cpp:1486
+#: src/launcher/ui/MainWindow.cpp:1481
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr "Οι αυτόματες ενημερώσεις υποστηρίζονται προς το παρόν μόνο για την πλατφόρμα CurseForge."
+
+#: src/launcher/ui/MainWindow.cpp:1486
+msgctxt "MainWindow|"
+msgid "Please manually re-download the modpacks."
+msgstr "Παρακαλώ κάντε χειροκίνητη λήψη των πακέτων mods."
 
 #: src/launcher/ui/MainWindow.cpp:1525
 msgctxt "MainWindow|"
@@ -4836,7 +4836,7 @@ msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Εξέταση Java πέτυχε!<br />Αναφέρθηκε η πλατφόρμα: %1<br />Αναφέρθηκε η έκδοση Java: %2<br />"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:274
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "Η περιγραφή λείπει από το FTB App."
