@@ -13,53 +13,53 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: English, United Kingdom\n"
 "Language: en_GB\n"
-"PO-Revision-Date: 2024-04-05 15:19\n"
+"PO-Revision-Date: 2024-04-05 15:43\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Could not understand pack manifest:\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:107
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:188
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for %1"
-msgstr ""
+msgstr "Failed to get local metadata index for %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:113
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to get local metadata index for '%1' v%2"
-msgstr ""
+msgstr "Failed to get local metadata index for '%1' v%2"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:175
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown mod type: %1"
-msgstr ""
+msgstr "Unknown mod type: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:220
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to find version for %1 loader"
-msgstr ""
+msgstr "Failed to find version for %1 loader"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:234
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "No loader version set for modpack!"
-msgstr ""
+msgstr "No loader version set for modpack!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:338
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown or unsupported download type: %1"
-msgstr ""
+msgstr "Unknown or unsupported download type: %1"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:455
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading configs..."
-msgstr ""
+msgstr "Downloading configs..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:456
 msgctxt "ATLauncher::PackInstallTask|"
