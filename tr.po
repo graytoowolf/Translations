@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2024-03-29 01:00\n"
+"PO-Revision-Date: 2024-04-05 04:07\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -975,10 +975,15 @@ msgstr "Kısayol adresi seç"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
+msgid "Parsing directory"
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:148
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1104,11 +1109,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Metin Düzenleyicisi:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Harici Araçlar"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1202,6 +1202,11 @@ msgstr "Geçersiz"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Seçili dosya, çalıştırılabilir bir dosya gibi durmuyor"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Harici Araçlar"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1432,11 +1437,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Direkt indirme için yerel dosya veya bağlantı:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "ZIP'ten içeri aktar"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1446,6 +1446,11 @@ msgstr "Mod paketi seçin"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "ZIP'ten içeri aktar"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1949,6 +1954,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr ""
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1958,11 +1968,6 @@ msgstr "Bir Java sürümü seç"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Yürütülebilir Java'yı bul"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -4129,6 +4134,11 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Seçili sürüm:"
 
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4163,11 +4173,6 @@ msgstr "Modrinth mod paketi detayları edinilemedi..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Yükleniyor..."
-
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr ""
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -4320,11 +4325,6 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Ara:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Diğer sistem kayıtları"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
@@ -4402,6 +4402,11 @@ msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "Bazı dosyalar silinemedi:\n"
 "%1"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Diğer sistem kayıtları"
 
 #: src/launcher/minecraft/PackProfile.cpp:853
 msgctxt "PackProfile|"
@@ -4644,35 +4649,106 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Vekil Sunucu"
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Dizin yolu boş"
+msgid "No profile (%1)"
+msgstr "Profil yok (%1)"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Böyle bir dizin yolu yok"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments bilinmeyen (%1) değerine atanmış"
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Bu dizin yolu, MCEdit dizin yolu gibi görünmüyor"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Bu sürüm için 'minimumLauncherVersion' değeri (%1) %3'nin desteklediğinden (%2) daha fazla. Sürüm düzgün çalışmayabilir!"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Boş dizin yolu"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Kitaplık %1 ismi bozuk ve işlenemiyor."
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Geçersiz JProfiler yükelemesi"
+msgid "Assets for %1"
+msgstr "%1 için varlıklar"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Geçersiz JVisualVM dizin yolu"
+msgid "Invalid component file version, expected %1"
+msgstr "Geçersiz bileşen dosya sürümü, %1 bekleniyor"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Sürüm dosyası  '+libraries' ve 'libraries' elementlerini içeriyor. Bu artık desteklenmiyor."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "Ana jar dosyasının URL'si belirlenemedi - Mojang yedek olarak kullandığımız sunucuyu kaldırdı."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: '-libarires'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: '-minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Sürüm dosyası desteklenmeyen element içeriyor: '+minecraftArguments'"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Yama henüz yüklenmemiş."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Geçersiz dosya sürümü, beklenen %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Sürüm dosyası %1 açılamadı: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Sürüm dosyası %1 işlenemiyor: %2, %3 'üncü satır %4 'inci sütun."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Sürüm dosyası işlenemiyor %1."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4691,6 +4767,91 @@ msgstr "%1s %2d"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1g %2s %d"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Meta dosyası indirmesi: %1"
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Bilinmeyen format sürümü!"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Boş dizin yolu"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Geçersiz JVisualVM dizin yolu"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Dizin yolu boş"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Böyle bir dizin yolu yok"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Bu dizin yolu, MCEdit dizin yolu gibi görünmüyor"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Geçersiz JProfiler yükelemesi"
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "Güncelleme başarısız!"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "Geriye dönme başarısız oldu!"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "%1 dosyası yerine koyup değiştirilemedi. Değişiklikler geri alınacak.\n"
+"Ayrıntılar için %2 kayıtlarını inceleyin."
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "%1 dosyası silinemedi. Değişiklikler geri alınacak.\n"
+"Ayrıntılar için %2 kayıtlarını inceleyin."
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "Yeni sürüm başlamadı veya çok eski ve başlangıç denetlemelerine cevap vermedi.\n\n"
+"Önceki sürüme geri dönülsün mü?"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "Geriye dönme de başarısız.\n"
+"%1'yi elle onarmak zorundasınız.\n"
+"Lütfen bunun neden ve nasıl olduğunu bize anlatın."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4746,32 +4907,36 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Belirlenmiş Java konumu çalışmadı.<br />Daha iyi sonuçlar için otomatik bulma özelliğini kullanabilir veya Java programına dizin yolu ayarlayın.<br />"
 
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Yükleme başarısız oldu"
+msgid "Minecraft Server"
+msgstr "Minecraft Sunucusu"
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Sistem kayıt dosyası çok büyük. Dosyayı elle olarak yüklemeniz gerekecek."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Yükleme tamamlandı"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Yüklenmiş sistem kaydına giden bağlantı</a> panoya kopyalandı."
+msgid "Description is missing in the FTB App instance."
+msgstr "FTB Uygulama profilinde tanım eksik."
 
 #: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr "%1 (kullanımda)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Orijinal Yazar"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Bakım Görevlisi"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patronlar"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -4795,20 +4960,41 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Değişikliklere <a href=\"%1\">GitHub'tan</a> bakabilirsiniz..</p>"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Orijinal Yazar"
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistem"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Bakım Görevlisi"
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Açık"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patronlar"
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Karanlık"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Yükleme başarısız oldu"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Sistem kayıt dosyası çok büyük. Dosyayı elle olarak yüklemeniz gerekecek."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Yükleme tamamlandı"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">Yüklenmiş sistem kaydına giden bağlantı</a> panoya kopyalandı."
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -4830,187 +5016,6 @@ msgstr "Belirlenmiş Java konumu beklenmedik sonuçlar gönderdi:<br />"
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java testi başarılı!<br />Rapor edilen platform: %1<br />Rapor edilen Java sürümü: %2<br />"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "FTB Uygulama profilinde tanım eksik."
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft Sunucusu"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Açık"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistem"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Karanlık"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "Güncelleme başarısız!"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "Geriye dönme başarısız oldu!"
-
-#: src/launcher/UpdateController.cpp:372
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "%1 dosyası yerine koyup değiştirilemedi. Değişiklikler geri alınacak.\n"
-"Ayrıntılar için %2 kayıtlarını inceleyin."
-
-#: src/launcher/UpdateController.cpp:382
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "%1 dosyası silinemedi. Değişiklikler geri alınacak.\n"
-"Ayrıntılar için %2 kayıtlarını inceleyin."
-
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "Yeni sürüm başlamadı veya çok eski ve başlangıç denetlemelerine cevap vermedi.\n\n"
-"Önceki sürüme geri dönülsün mü?"
-
-#: src/launcher/UpdateController.cpp:414
-#, qt-format
-msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "Geriye dönme de başarısız.\n"
-"%1'yi elle onarmak zorundasınız.\n"
-"Lütfen bunun neden ve nasıl olduğunu bize anlatın."
-
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Profil yok (%1)"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Geçersiz dosya sürümü, beklenen %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Sürüm dosyası %1 açılamadı: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Sürüm dosyası %1 işlenemiyor: %2, %3 'üncü satır %4 'inci sütun."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Sürüm dosyası işlenemiyor %1."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Sürüm dosyası  '+libraries' ve 'libraries' elementlerini içeriyor. Bu artık desteklenmiyor."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "Ana jar dosyasının URL'si belirlenemedi - Mojang yedek olarak kullandığımız sunucuyu kaldırdı."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: '-libarires'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Sürüm dosyası desteklenmeyen elementlar içeriyor: '-minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Sürüm dosyası desteklenmeyen element içeriyor: '+minecraftArguments'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments bilinmeyen (%1) değerine atanmış"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Bu sürüm için 'minimumLauncherVersion' değeri (%1) %3'nin desteklediğinden (%2) daha fazla. Sürüm düzgün çalışmayabilir!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Kitaplık %1 ismi bozuk ve işlenemiyor."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1 için varlıklar"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Yama henüz yüklenmemiş."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Geçersiz bileşen dosya sürümü, %1 bekleniyor"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Meta dosyası indirmesi: %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Bilinmeyen format sürümü!"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5476,15 +5481,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Ara"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr " tarafından "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr " tarafından "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6270,11 +6275,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Dünyanın içindeki veri paketlerini yönet."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Dünyalar"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6355,6 +6355,11 @@ msgstr "Kopya için yeni bir isim girin."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Yeni bir dünya adı yazın."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Dünyalar"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format

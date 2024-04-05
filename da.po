@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
-"PO-Revision-Date: 2024-03-29 01:00\n"
+"PO-Revision-Date: 2024-04-05 04:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -973,10 +973,15 @@ msgstr "Vælg genvejssti"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
+msgid "Parsing directory"
+msgstr "Parsing directory"
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr "Behandler mod IDs..."
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:148
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "Noget mod ID løste opgaver mislykkedes."
@@ -1102,11 +1107,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Tekstredigeringsprogram:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Eksterne værktøjer"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1200,6 +1200,11 @@ msgstr "Ugyldig"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Den valgte fil ser ikke ud til at være en eksekverbar fil"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Eksterne værktøjer"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1430,11 +1435,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Lokal fil eller link til direkte download:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importer fra zip-fil"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1444,6 +1444,11 @@ msgstr "Vælg modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr "Zip (*.zip *.mrpack)"
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importer fra zip-fil"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1947,6 +1952,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Test"
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Java"
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1956,11 +1966,6 @@ msgstr "Vælg en Java-version"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Find en eksekverbar Java-fil"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "Java"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -4132,6 +4137,11 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Version valgt:"
 
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr "Modrinth"
+
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4166,11 +4176,6 @@ msgstr "Mislykkedes at få Modrinth modpack detaljer..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Indlæser..."
-
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr "Modrinth"
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -4323,11 +4328,6 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Søg:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Andre logfiler"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
@@ -4405,6 +4405,11 @@ msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "Kunne ikke slette nogle filer:\n"
 "%1"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Andre logfiler"
 
 #: src/launcher/minecraft/PackProfile.cpp:853
 msgctxt "PackProfile|"
@@ -4647,35 +4652,106 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Sti er tom"
+msgid "No profile (%1)"
+msgstr "Ingen profil (%1)"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Sti findes ikke"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArgumenter er sat til ukendt værdi '%1'"
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Sti synes ikke at være en MCEdit sti"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Værdien 'minimumLauncherVersion' af denne version (%1) er højere end understøttet af %3 (%2). Det virker måske ikke korrekt!"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Tom sti"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Biblioteket %1 navn er brudt og kan ikke behandles."
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Ugyldig JProfiler- installation"
+msgid "Assets for %1"
+msgstr "Aktiver for %1"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Ugyldig sti til JVisualVM"
+msgid "Invalid component file version, expected %1"
+msgstr "Ugyldig komponent fil version, forventet %1"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Versionsfilen har både '+ biblioteker' og 'biblioteker'. Dette understøttes ikke længere."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "URL for hovedkrukken kunne ikke bestemmes - Mojang fjernede serveren, som vi brugte som fallback."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Versionsfilen indeholder ikke-understøttet element 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Versionsfilen indeholder ikke understøttet element '- biblioteker'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Versionsfilen indeholder ikke-understøttet element '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Versionsfilen indeholder ikke understøttet element '- minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Versionsfilen indeholder ikke understøttet element '+minecraftArgumenter'"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch er ikke indlæst endnu."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Ugyldig ordre fil version, forventet %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Kan ikke åbne versionsfilen %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Kan ikke behandle versionsfilen %1: %2 på linje %3 kolonne %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Kan ikke behandle versionsfilen %1."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4694,6 +4770,91 @@ msgstr "%1t %2m"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1d %2h %3m"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Download af metafilen %1"
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Ukendt formatversion!"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Tom sti"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Ugyldig sti til JVisualVM"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Sti er tom"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Sti findes ikke"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Sti synes ikke at være en MCEdit sti"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Ugyldig JProfiler- installation"
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "Opdatering mislykkedes!"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "Tilbagekald mislykkedes!"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "Kunne ikke erstatte filen %1. Ændringer vil blive tilbageført.\n"
+"Se %2 logfilen for detaljer."
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "Kunne ikke fjerne filen %1. Ændringer vil blive tilbageført.\n"
+"Se %2 logfilen for detaljer."
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "Den nye version startede ikke eller er for gammel og reagerer ikke på opstartschecks.\n\n"
+"Rul tilbage til tidligere version?"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "Tilbagegivelsen mislykkedes også.\n"
+"Du bliver nødt til at reparere %1 manuelt.\n"
+"Lad os venligst vide, hvorfor og hvordan dette skete."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4750,32 +4911,36 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Den angivne java binære virkede ikke.<br />Du bør bruge auto-detekteringsfunktionen eller indstille stien til java eksekverbar.<br />"
 
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Upload mislykkedes"
+msgid "Minecraft Server"
+msgstr "Minecraft Servere"
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Logfilen er for stor. Du bliver nødt til at uploade den manuelt."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Upload fuldført"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "Linket <a href=\"%1\">til den uploadede log</a> er blevet placeret i din udklipsholder."
+msgid "Description is missing in the FTB App instance."
+msgstr "Beskrivelse mangler i FTB App instans."
 
 #: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr "%1 (i brug)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Oprindelig Udvikler"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Vedligeholder"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patrons"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -4799,20 +4964,41 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Du kan <a href=\"%1\">se på ændringerne på github</a>.</p>"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Oprindelig Udvikler"
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "System"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Vedligeholder"
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Lys"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patrons"
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Mørk"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Upload mislykkedes"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Logfilen er for stor. Du bliver nødt til at uploade den manuelt."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Upload fuldført"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "Linket <a href=\"%1\">til den uploadede log</a> er blevet placeret i din udklipsholder."
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -4834,187 +5020,6 @@ msgstr "Den specificerede java binær returnerede uventede resultater:<br />"
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java test lykkedes!<br />Platform rapporteret: %1<br />Java version rapporteret: %2<br />"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Beskrivelse mangler i FTB App instans."
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft Servere"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Lys"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "System"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Mørk"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "Opdatering mislykkedes!"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "Tilbagekald mislykkedes!"
-
-#: src/launcher/UpdateController.cpp:372
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "Kunne ikke erstatte filen %1. Ændringer vil blive tilbageført.\n"
-"Se %2 logfilen for detaljer."
-
-#: src/launcher/UpdateController.cpp:382
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "Kunne ikke fjerne filen %1. Ændringer vil blive tilbageført.\n"
-"Se %2 logfilen for detaljer."
-
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "Den nye version startede ikke eller er for gammel og reagerer ikke på opstartschecks.\n\n"
-"Rul tilbage til tidligere version?"
-
-#: src/launcher/UpdateController.cpp:414
-#, qt-format
-msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "Tilbagegivelsen mislykkedes også.\n"
-"Du bliver nødt til at reparere %1 manuelt.\n"
-"Lad os venligst vide, hvorfor og hvordan dette skete."
-
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Ingen profil (%1)"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Ugyldig ordre fil version, forventet %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Kan ikke åbne versionsfilen %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Kan ikke behandle versionsfilen %1: %2 på linje %3 kolonne %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Kan ikke behandle versionsfilen %1."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Versionsfilen har både '+ biblioteker' og 'biblioteker'. Dette understøttes ikke længere."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "URL for hovedkrukken kunne ikke bestemmes - Mojang fjernede serveren, som vi brugte som fallback."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Versionsfilen indeholder ikke-understøttet element 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Versionsfilen indeholder ikke understøttet element '- biblioteker'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Versionsfilen indeholder ikke-understøttet element '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Versionsfilen indeholder ikke understøttet element '- minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Versionsfilen indeholder ikke understøttet element '+minecraftArgumenter'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArgumenter er sat til ukendt værdi '%1'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Værdien 'minimumLauncherVersion' af denne version (%1) er højere end understøttet af %3 (%2). Det virker måske ikke korrekt!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Biblioteket %1 navn er brudt og kan ikke behandles."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Aktiver for %1"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch er ikke indlæst endnu."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Ugyldig komponent fil version, forventet %1"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Download af metafilen %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Ukendt formatversion!"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5480,15 +5485,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Søg"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr " af "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr "Teknik"
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr " af "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6274,11 +6279,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Administrer datapacks i verden."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Verdener"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6359,6 +6359,11 @@ msgstr "Indtast et nyt navn til kopien."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Indtast et nyt verdensnavn."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Verdener"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format

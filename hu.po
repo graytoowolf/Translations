@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2024-03-29 01:00\n"
+"PO-Revision-Date: 2024-04-05 04:07\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -975,10 +975,15 @@ msgstr "Parancsikon útvonal kiválasztása"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
+msgid "Parsing directory"
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:148
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1104,11 +1109,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Szöveg szerkesztő:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Külső eszközök"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1202,6 +1202,11 @@ msgstr "Érvénytelen"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "A kiválasztott fájl nem tűnik futtathatónak"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Külső eszközök"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1432,11 +1437,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Helyi fájl vagy link közvetlen letöltésre:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importálás zipből"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1446,6 +1446,11 @@ msgstr "Modpack választása"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importálás zipből"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1949,6 +1954,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Tesztelés"
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1958,11 +1968,6 @@ msgstr "Java verzió választása"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Java futtatható keresése"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -4130,6 +4135,11 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Kiválasztott verzió:"
 
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4164,11 +4174,6 @@ msgstr "Nem sikerült megszerezni a Modrinth modpack részleteit..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Betöltés..."
-
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr ""
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -4321,11 +4326,6 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Keresés:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Egyéb naplók"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
@@ -4403,6 +4403,11 @@ msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "Nem sikerült néhány fájlt törölni:\n"
 "%1"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Egyéb naplók"
 
 #: src/launcher/minecraft/PackProfile.cpp:853
 msgctxt "PackProfile|"
@@ -4645,35 +4650,106 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Üres elérési út"
+msgid "No profile (%1)"
+msgstr "Nincs profil (%1)"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Az elérési út nem létezik"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments ismeretlen értékre van állítva \"%1\""
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Az útvonal nem tűnik MCEdit útvonalnak"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Ennek a verziónak (%1) a \"minimumLauncherVersion\" értéke nagyobb, mint amit a(z) %3 támogat (%2). Lehet, hogy nem fog megfelelően működni!"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Üres elérési út"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "%1 könyvtár neve hibás és nem lehet feldolgozni."
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Érvénytelen JProfiler telepítés"
+msgid "Assets for %1"
+msgstr "Assetek a követlezőhöz: %1"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Érvénytelen elérési út a JVisualVM-hez"
+msgid "Invalid component file version, expected %1"
+msgstr "Érvénytelen összetevőfájl-verzió, várt %1"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "A verziófájlban léteik '+libraries' és 'libraries'. Ez már nem támogatott."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "A fő jar URL-jét nem sikerült meghatározni - a Mojang eltávolította a tartalékként használt szervert."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "A verziófájl nem támogatott elemet tartalmaz: \"tweakers\""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "A verziófájl nem támogatott elemet tartalmaz: \"-libraries\""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "A verziófájl nem támogatott elemet tartalmaz: \"-tweakers\""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "A verziófájl nem támogatott elemet tartalmaz: \"-minecraftArguments\""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "A verziófájl nem támogatott elemet tartalmaz: \"+minecraftArguments\""
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "A javítás még nincs betöltve."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Érvénytelen rendelési fájl verzió, várt %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "A(z) %1: %2 verziófájl nem nyitható meg."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Nem sikerült feldolgozni a(z) %1: %2 verzió fájlt a %3. sor és %4. oszlopnál."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Nem sikerült feldolgozni a(z) %1 verziófájlt."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4692,6 +4768,91 @@ msgstr "%1 óra %2 perc"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1 nap %2 óra %3 perc"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "A(z) %1 metaadat letöltése"
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Ismeretlen verzióformátumú!"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Üres elérési út"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Érvénytelen elérési út a JVisualVM-hez"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Üres elérési út"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Az elérési út nem létezik"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Az útvonal nem tűnik MCEdit útvonalnak"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Érvénytelen JProfiler telepítés"
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "Frissítés sikertelen!"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "Visszavonás sikertelen!"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "A(z) %1 fájl nem helyettesíthető. A változtatások visszaállnak.\n"
+"A részleteket lásd a(z) %2 naplófájljában."
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "A(z) %1 fájl nem eltávolítható. A változtatások visszaállnak.\n"
+"A részleteket lásd a(z) %2 naplófájljában."
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "Az új verzió nem indult el, vagy túl régi, és nem válaszol az indítási ellenőrzésekre.\n\n"
+"Vissza az előző verzióra?"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "A visszavonás sem sikerült.\n"
+"A(z) %1-t kézzel kell javítania.\n"
+"Kérjük, ossza meg velünk, miért és hogyan történt ez."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4748,32 +4909,36 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "A megadott java-bináris nem működött.<br />Az automatikus észlelési funkciót kell használnia, vagy állítsa be a java-futtatható fájl elérési útját.<br />"
 
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Feltöltés sikertelen"
+msgid "Minecraft Server"
+msgstr "Minecraft szerver"
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "A naplófájl túl nagy. Ezt kézzel kell feltölteni."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "A feltöltés befejeződött"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "A<a href=\"%1\">hivatkozás a feltöltött naplóhoz </a> a vágólapra került."
+msgid "Description is missing in the FTB App instance."
+msgstr "A leírás hiányzik az FTB App példányban."
 
 #: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr "%1 (használatban)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Támogatók"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -4797,20 +4962,41 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Megnézheted a változásokat <a href=\"%1\">githubon</a>.</p>"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr ""
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Rendszer"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr ""
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Világos"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Támogatók"
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Sötét"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Feltöltés sikertelen"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "A naplófájl túl nagy. Ezt kézzel kell feltölteni."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "A feltöltés befejeződött"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "A<a href=\"%1\">hivatkozás a feltöltött naplóhoz </a> a vágólapra került."
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -4832,187 +5018,6 @@ msgstr "A megadott java bináris visszatért nem várt eredményekkel:<br />"
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "A Java teszt sikerült!<br />Platform jelentve: %1<br />Jelentett Java verzió: %2<br />"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "A leírás hiányzik az FTB App példányban."
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft szerver"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Világos"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Rendszer"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Sötét"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "Frissítés sikertelen!"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "Visszavonás sikertelen!"
-
-#: src/launcher/UpdateController.cpp:372
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "A(z) %1 fájl nem helyettesíthető. A változtatások visszaállnak.\n"
-"A részleteket lásd a(z) %2 naplófájljában."
-
-#: src/launcher/UpdateController.cpp:382
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "A(z) %1 fájl nem eltávolítható. A változtatások visszaállnak.\n"
-"A részleteket lásd a(z) %2 naplófájljában."
-
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "Az új verzió nem indult el, vagy túl régi, és nem válaszol az indítási ellenőrzésekre.\n\n"
-"Vissza az előző verzióra?"
-
-#: src/launcher/UpdateController.cpp:414
-#, qt-format
-msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "A visszavonás sem sikerült.\n"
-"A(z) %1-t kézzel kell javítania.\n"
-"Kérjük, ossza meg velünk, miért és hogyan történt ez."
-
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Nincs profil (%1)"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Érvénytelen rendelési fájl verzió, várt %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "A(z) %1: %2 verziófájl nem nyitható meg."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Nem sikerült feldolgozni a(z) %1: %2 verzió fájlt a %3. sor és %4. oszlopnál."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Nem sikerült feldolgozni a(z) %1 verziófájlt."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "A verziófájlban léteik '+libraries' és 'libraries'. Ez már nem támogatott."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "A fő jar URL-jét nem sikerült meghatározni - a Mojang eltávolította a tartalékként használt szervert."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "A verziófájl nem támogatott elemet tartalmaz: \"tweakers\""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "A verziófájl nem támogatott elemet tartalmaz: \"-libraries\""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "A verziófájl nem támogatott elemet tartalmaz: \"-tweakers\""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "A verziófájl nem támogatott elemet tartalmaz: \"-minecraftArguments\""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "A verziófájl nem támogatott elemet tartalmaz: \"+minecraftArguments\""
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments ismeretlen értékre van állítva \"%1\""
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Ennek a verziónak (%1) a \"minimumLauncherVersion\" értéke nagyobb, mint amit a(z) %3 támogat (%2). Lehet, hogy nem fog megfelelően működni!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "%1 könyvtár neve hibás és nem lehet feldolgozni."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Assetek a követlezőhöz: %1"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "A javítás még nincs betöltve."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Érvénytelen összetevőfájl-verzió, várt %1"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "A(z) %1 metaadat letöltése"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Ismeretlen verzióformátumú!"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5478,15 +5483,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Keresés"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr ", alkotó: "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr ", alkotó: "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6272,11 +6277,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Adatcsomagok kezelése a világon."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Világok"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6357,6 +6357,11 @@ msgstr "Adjon meg egy új nevet a másolat számára."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Adjon meg egy új világnevet."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Világok"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format

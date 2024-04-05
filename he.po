@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Hebrew\n"
 "Language: he_IL\n"
-"PO-Revision-Date: 2024-03-29 01:00\n"
+"PO-Revision-Date: 2024-04-05 04:06\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -974,10 +974,15 @@ msgstr "בחר נתיב קיצור דרך"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
+msgid "Parsing directory"
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:148
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1103,11 +1108,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "עורך טקסט:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "כלים חיצוניים"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1200,6 +1200,11 @@ msgstr "לא תקין"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "נראה שהקובץ שנבחר אינו קובץ הרצה"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "כלים חיצוניים"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1430,11 +1435,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "קובץ מקומי או קישור להורדה ישירה:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "ייבא מzip"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1444,6 +1444,11 @@ msgstr "בחר מודפאק"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "ייבא מzip"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1947,6 +1952,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "בדוק"
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1956,11 +1966,6 @@ msgstr "בחר גרסת Java"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "מצא את קובץ ההרצה של Java"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -4128,6 +4133,11 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "גרסה שנבחרה:"
 
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4162,11 +4172,6 @@ msgstr "לא ניתן היה לקבל את פרטי חבילת המודים של
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "טוען..."
-
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr ""
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -4319,11 +4324,6 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "חיפוש:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "יומנים נוספים"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
@@ -4401,6 +4401,11 @@ msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "לא ניתן היה למחוק מספר קבצים:\n"
 "%1"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "יומנים נוספים"
 
 #: src/launcher/minecraft/PackProfile.cpp:853
 msgctxt "PackProfile|"
@@ -4643,35 +4648,106 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "הנתיב ריק"
+msgid "No profile (%1)"
+msgstr "אין פרופיל (%1)"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "הנתיב לא קיים"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments מוגדר לערך לא ידוע '%1'"
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "הנתיב לא נראה כמו נתיב של MCEdit"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "הערך של 'minimumLauncherVersion' של הגרסה הזו (%1) גבוה יותר מזה שנתמך על ידי %3 (%2). יתכן שזה לא יעבוד כראוי!"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "הנתיב ריק"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "שם הספרייה %1 אינו תקין ולא ניתן לעבד אותה."
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "ההתקנה של JProfiler אינה תקינה"
+msgid "Assets for %1"
+msgstr "נכסים עבור %1"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "נתיב לא תקין אל JVisualVM"
+msgid "Invalid component file version, expected %1"
+msgstr "גרסת קובץ הרכיב לא תקינה, ציפינו ל-%1"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "קובץ הגרסה מכיל גם '+libraries' וגם 'libraries'. זה כבר לא נתמך."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "לא ניתן היה לאתר את כתובת ה-jar הראשי - Mojang הסירו את השרת בו השתמשנו לגיבוי."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-minecrafArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '+minecrafArguments'"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "הטלאי עוד לא נטען."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "גרסת קובץ הסידור לא תקינה, ציפינו ל-%1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2 בשורה %3 עמודה %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "לא ניתן היה לעבד את קובץ הגרסה %1."
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4690,6 +4766,91 @@ msgstr "%1 שעות ו-%2 דקות"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1 ימים, %2 שעות ו-%3 דקות"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "הורדת קובץ מטא %1"
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "גרסת הפורמט לא ידועה!"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "הנתיב ריק"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "נתיב לא תקין אל JVisualVM"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "הנתיב ריק"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "הנתיב לא קיים"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "הנתיב לא נראה כמו נתיב של MCEdit"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "ההתקנה של JProfiler אינה תקינה"
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "העדכון נכשל!"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "השחזור נכשל!"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "לא ניתן היה להחליף את הקובץ %1. השינויים ישוחזרו.\n"
+"בדוק את היומן %2 לפרטים."
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "לא ניתן היה למחוק את הקובץ %1. השינויים ישוחזרו.\n"
+"בדוק את היומן %2 לפרטים."
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "הגרסה החדשה לא עלתה או שהיא ישנה מדי ולא מגיבה לבדיקות עלייה.\n\n"
+"האם לשחזר לגרסה הקודמת?"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "גם השחזור נכשל.\n"
+"תאלץ לתקן את %1 ידנית.\n"
+"נא ידע אותנו למה ואיך זה קרה."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4746,32 +4907,36 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "קובץ ה-Java שהוגדר לא עבד.<br />אתה צריך להשתמש בתכונת הזיהוי האוטומטי, או להגדיר את הנתיב לקובץ ההרצה של java.<br />"
 
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "ההעלאה נכשלה"
+msgid "Minecraft Server"
+msgstr "שרת מיינקראפט"
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "קובץ היומן גדול מדי. תיאלץ להעלותו ידנית."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "ההעלה הסתיימה"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">הקישור ליומן שהועלה</a> הועתק ללוח ההעתקה שלך."
+msgid "Description is missing in the FTB App instance."
+msgstr "התיאור חסר ממופע ה-FTB App."
 
 #: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr "%1 (בשימוש)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "יוצר מקורי"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "מתחזק"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -4795,20 +4960,41 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>אתה יכול <a href=\"%1\">לראות את השינויים בגיטהאב</a>.</p>"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "יוצר מקורי"
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "מערכת"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "מתחזק"
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "בהיר"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "כהה"
+
+#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "ההעלאה נכשלה"
+
+#: src/launcher/ui/GuiUtil.cpp:30
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "קובץ היומן גדול מדי. תיאלץ להעלותו ידנית."
+
+#: src/launcher/ui/GuiUtil.cpp:51
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "ההעלה הסתיימה"
+
+#: src/launcher/ui/GuiUtil.cpp:52
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">הקישור ליומן שהועלה</a> הועתק ללוח ההעתקה שלך."
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -4832,187 +5018,6 @@ msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reporte
 msgstr "בדיקת Java הושלמה בהצלחה!<br />\n"
 "הפלטפורמה שזוהתה: %1<br />\n"
 "גרסת ה-Java שזוהתה: %2<br />"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "התיאור חסר ממופע ה-FTB App."
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "שרת מיינקראפט"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "בהיר"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "מערכת"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "כהה"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "העדכון נכשל!"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "השחזור נכשל!"
-
-#: src/launcher/UpdateController.cpp:372
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "לא ניתן היה להחליף את הקובץ %1. השינויים ישוחזרו.\n"
-"בדוק את היומן %2 לפרטים."
-
-#: src/launcher/UpdateController.cpp:382
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "לא ניתן היה למחוק את הקובץ %1. השינויים ישוחזרו.\n"
-"בדוק את היומן %2 לפרטים."
-
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "הגרסה החדשה לא עלתה או שהיא ישנה מדי ולא מגיבה לבדיקות עלייה.\n\n"
-"האם לשחזר לגרסה הקודמת?"
-
-#: src/launcher/UpdateController.cpp:414
-#, qt-format
-msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "גם השחזור נכשל.\n"
-"תאלץ לתקן את %1 ידנית.\n"
-"נא ידע אותנו למה ואיך זה קרה."
-
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "אין פרופיל (%1)"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "גרסת קובץ הסידור לא תקינה, ציפינו ל-%1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "לא ניתן היה לפתוח את קובץ הגרסה %1: %2 בשורה %3 עמודה %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "לא ניתן היה לעבד את קובץ הגרסה %1."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "קובץ הגרסה מכיל גם '+libraries' וגם 'libraries'. זה כבר לא נתמך."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "לא ניתן היה לאתר את כתובת ה-jar הראשי - Mojang הסירו את השרת בו השתמשנו לגיבוי."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '-minecrafArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "קובץ הגרסה מכיל אלמנט לא נתמך '+minecrafArguments'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments מוגדר לערך לא ידוע '%1'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "הערך של 'minimumLauncherVersion' של הגרסה הזו (%1) גבוה יותר מזה שנתמך על ידי %3 (%2). יתכן שזה לא יעבוד כראוי!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "שם הספרייה %1 אינו תקין ולא ניתן לעבד אותה."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "נכסים עבור %1"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "הטלאי עוד לא נטען."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "גרסת קובץ הרכיב לא תקינה, ציפינו ל-%1"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "הורדת קובץ מטא %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "גרסת הפורמט לא ידועה!"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5478,15 +5483,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "חפש"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr " מאת "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr " מאת "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6272,11 +6277,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "נהל חבילות מידע בתוך העולם."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "עולמות"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6357,6 +6357,11 @@ msgstr "הכנס שם חדש להעתק."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "הכנס שם עולם חדש."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "עולמות"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
