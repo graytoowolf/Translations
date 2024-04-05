@@ -6,14 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Crowdin-Project: miniskins\n"
-"X-Crowdin-Project-ID: 658406\n"
+"X-Crowdin-Project-ID: 663418\n"
 "X-Crowdin-Language: fr\n"
 "X-Crowdin-File: /main/template.pot\n"
-"X-Crowdin-File-ID: 26\n"
+"X-Crowdin-File-ID: 8\n"
 "Project-Id-Version: miniskins\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2024-04-05 04:06\n"
+"PO-Revision-Date: 2024-04-05 15:18\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -177,7 +177,7 @@ msgstr "Licence"
 #: src/launcher/ui/dialogs/AboutDialog.ui:256
 msgctxt "AboutDialog|"
 msgid "Forking/Redistribution"
-msgstr "Forking/Redistribution"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:278
 msgctxt "AboutDialog|"
@@ -198,7 +198,7 @@ msgstr "À propos de %1"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:99
 msgctxt "AboutDialog|"
@@ -267,7 +267,7 @@ msgstr "Migration obligatoire"
 #: src/launcher/minecraft/auth/AccountList.cpp:313
 msgctxt "AccountList|Can Migrate?"
 msgid "N/A"
-msgstr "N/A"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:316
 msgctxt "AccountList|Can Migrate?"
@@ -473,7 +473,7 @@ msgstr "Échec de l'authentification. Le compte n'existe plus."
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:108
 #, qt-format
@@ -611,7 +611,7 @@ msgstr "Rechercher et filtrer..."
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
 msgid "ATLauncher"
-msgstr "ATLauncher"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
@@ -826,7 +826,7 @@ msgstr "Trier par téléchargement total"
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
-msgstr "<a href=\"%1\">Wiki</a>"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
 #, qt-format
@@ -976,7 +976,7 @@ msgstr "Sélectionner le chemin du raccourci"
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
-msgstr "Parsing directory"
+msgstr ""
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
 msgctxt "CurseForge::FileResolvingTask|"
@@ -1285,7 +1285,7 @@ msgstr "Rechercher et filtre..."
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.h:43
 msgctxt "FtbPage|"
 msgid "FTB"
-msgstr "FTB"
+msgstr ""
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1957,7 +1957,7 @@ msgstr "Vérifier"
 #: src/launcher/ui/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -2029,7 +2029,7 @@ msgstr "Parcourir"
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:94
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:95
 msgctxt "JavaWizardPage|"
@@ -2353,27 +2353,27 @@ msgstr "Nombre de fils de téléchargement :"
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
-msgstr "6"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
-msgstr "8"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
-msgstr "32"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
@@ -2458,7 +2458,7 @@ msgstr "Couleurs"
 #: src/launcher/ui/pages/global/LauncherPage.ui:399
 msgctxt "LauncherPage|"
 msgid "Console"
-msgstr "Console"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:405
 msgctxt "LauncherPage|"
@@ -2710,7 +2710,7 @@ msgstr "Version sélectionnée :"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr "FTB Legacy"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
@@ -3139,7 +3139,7 @@ msgstr "Ouvrir le serveur Discord %1."
 #: src/launcher/ui/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr "Reddit"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:367
 #, qt-format
@@ -3375,7 +3375,7 @@ msgstr "Vérifier les mises à jour de l'instance sélectionnée."
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
-msgstr "%1 - Version %2"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:685
 #, qt-format
@@ -3417,7 +3417,7 @@ msgstr "Formater"
 #: src/launcher/ui/MainWindow.cpp:1010
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr "Modrinth (WIP)"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1065
 msgctxt "MainWindow|"
@@ -3610,22 +3610,22 @@ msgstr "Reçu les drapeau de migration"
 #: src/launcher/minecraft/MinecraftInstance.cpp:735
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr "<SESSION ID>"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr "<ACCESS TOKEN>"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:739
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr "<CLIENT TOKEN>"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr "<PROFILE ID>"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
@@ -3636,7 +3636,7 @@ msgstr "endommagée"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr "Minecraft %1 (%2)"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3718,7 +3718,7 @@ msgstr "Afficher le temps passé à jouer en heures seulement"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr "Minecraft"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3768,7 +3768,7 @@ msgstr "Nom"
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
@@ -3803,7 +3803,7 @@ msgstr "Filtre :"
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr "Actions"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
@@ -3956,7 +3956,7 @@ msgstr "Impossible d'extraire les fichiers"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Installing modpack"
+msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4023,7 +4023,7 @@ msgstr "Nom"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:81
 msgctxt "ModrinthExportDialog|"
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:88
 msgctxt "ModrinthExportDialog|"
@@ -4254,12 +4254,12 @@ msgstr "Auteur inconnu"
 #: src/launcher/ui/pages/instance/NotesPage.h:38
 msgctxt "NotesPage|"
 msgid "Notes"
-msgstr "Notes"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Notification"
-msgstr "Notification"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:65
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:30
@@ -4421,7 +4421,7 @@ msgstr "Nom"
 #: src/launcher/minecraft/PackProfile.cpp:855
 msgctxt "PackProfile|"
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
@@ -4617,12 +4617,12 @@ msgstr "&Aucun"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr "SOC&KS5"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr "H&TTP"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -4652,7 +4652,7 @@ msgstr "Remarque: le nom d'utilisateur et le mot de passe du proxy sont stockés
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr "Proxy"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountData.cpp:499
 #, qt-format
@@ -4942,7 +4942,7 @@ msgstr "Mainteneur"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr "Patrons"
+msgstr ""
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -5051,7 +5051,7 @@ msgstr "Packs de ressources"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr "Actions"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:61
 msgctxt "ScreenshotsPage|"
@@ -5199,7 +5199,7 @@ msgstr "Ne jamais télécharger"
 #: src/launcher/ui/pages/instance/ServersPage.ui:130
 msgctxt "ServersPage|"
 msgid "Actions"
-msgstr "Actions"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.ui:155
 msgctxt "ServersPage|"
@@ -5634,7 +5634,7 @@ msgstr "Bêtas"
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr "Alphas"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
@@ -5649,7 +5649,7 @@ msgstr "Actualiser"
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr "Vanilla"
+msgstr ""
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
@@ -5679,7 +5679,7 @@ msgstr "Trier :"
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr "Actions"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:127
 msgctxt "VersionPage|"
@@ -5879,7 +5879,7 @@ msgstr "Installez le paquet NeoForge."
 #: src/launcher/ui/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
@@ -6054,12 +6054,12 @@ msgstr "Erreur lors de la mise à jour de l'instance"
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
 msgid "Version"
-msgstr "Version"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr "Minecraft"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6074,7 +6074,7 @@ msgstr "Type de texte"
 #: src/launcher/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
 msgid "Architecture"
-msgstr "Architecture"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:86
 msgctxt "VersionProxyModel|"
@@ -6199,7 +6199,7 @@ msgstr "La date et l'heure de la dernière connexion au monde."
 #: src/launcher/ui/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr "Actions"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:99
 msgctxt "WorldListPage|"
@@ -6244,7 +6244,7 @@ msgstr "Supprimer"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr "MCEdit"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
