@@ -6,14 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Crowdin-Project: miniskins\n"
-"X-Crowdin-Project-ID: 658406\n"
+"X-Crowdin-Project-ID: 663418\n"
 "X-Crowdin-Language: el\n"
 "X-Crowdin-File: /main/template.pot\n"
-"X-Crowdin-File-ID: 26\n"
+"X-Crowdin-File-ID: 8\n"
 "Project-Id-Version: miniskins\n"
 "Language-Team: Greek\n"
 "Language: el_GR\n"
-"PO-Revision-Date: 2024-04-05 04:06\n"
+"PO-Revision-Date: 2024-04-05 15:18\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Αποτυχία ταυτοποίησης. Ο λογαριασμός δ�
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:108
 #, qt-format
@@ -611,7 +611,7 @@ msgstr "Αναζήτηση και φιλτράρισμα..."
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
 msgid "ATLauncher"
-msgstr "ATLauncher"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
@@ -790,7 +790,7 @@ msgstr "Αναζήτηση και φιλτράρισμα ..."
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
 msgctxt "CFPage|"
 msgid "CurseForge"
-msgstr "CurseForge"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
@@ -826,7 +826,7 @@ msgstr "Ταξινόμηση κατά συνολικές λήψεις"
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
-msgstr "<a href=\"%1\">Wiki</a>"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
 #, qt-format
@@ -975,7 +975,7 @@ msgstr "Επιλέξτε διαδρομή συντόμευσης"
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
-msgstr "Parsing directory"
+msgstr ""
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
 msgctxt "CurseForge::FileResolvingTask|"
@@ -1284,7 +1284,7 @@ msgstr "Αναζήτηση και φιλτράρισμα ..."
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.h:43
 msgctxt "FtbPage|"
 msgid "FTB"
-msgstr "FTB"
+msgstr ""
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -2352,27 +2352,27 @@ msgstr "Αριθμός νημάτων λήψης:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
-msgstr "6"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
-msgstr "8"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
-msgstr "32"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
@@ -2709,7 +2709,7 @@ msgstr "Επιλεγμένη έκδοση:"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr "FTB Legacy"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
@@ -3127,7 +3127,7 @@ msgstr "Ανοίξτε το bug tracker για να αναφέρετε ένα σ
 #: src/launcher/ui/MainWindow.cpp:356
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr "Discord"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:357
 #, qt-format
@@ -3138,7 +3138,7 @@ msgstr "Ανοίξτε τη συνομιλία Discord του %1."
 #: src/launcher/ui/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr "Reddit"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:367
 #, qt-format
@@ -3416,7 +3416,7 @@ msgstr "Μορφή"
 #: src/launcher/ui/MainWindow.cpp:1010
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr "Modrinth (WIP)"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1065
 msgctxt "MainWindow|"
@@ -3609,7 +3609,7 @@ msgstr "Λήφθηκαν σημαίες μεταφοράς"
 #: src/launcher/minecraft/MinecraftInstance.cpp:735
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr "<SESSION ID>"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
@@ -3624,7 +3624,7 @@ msgstr "<ΔΙΑΚΡΙΤΙΚΟ ΠΕΛΑΤΗ>"
 #: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr "<PROFILE ID>"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
@@ -3635,7 +3635,7 @@ msgstr "χαλασμένο"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr "Minecraft %1 (%2)"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3717,7 +3717,7 @@ msgstr "Εμφάνιση χρόνου που δαπανάται παίζοντα
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr "Minecraft"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3955,7 +3955,7 @@ msgstr "Αποτυχία εξαγωγής αρχείων"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Installing modpack"
+msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -3991,7 +3991,7 @@ msgstr "Αποτυχία αντιγραφής αρχείου %1 σε παρακ�
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:253
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
-msgstr "Zipping modpack..."
+msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:255
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4141,7 +4141,7 @@ msgstr "Επιλεγμένη έκδοση:"
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr "Modrinth"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
@@ -4199,7 +4199,7 @@ msgstr "Όνομα"
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr "uid"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
@@ -4220,7 +4220,7 @@ msgstr "Ομάδα:"
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:72
 msgctxt "NewInstanceDialog|"
 msgid "Reset"
-msgstr "Reset"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:71
 msgctxt "NewInstanceDialog|"
@@ -4616,12 +4616,12 @@ msgstr "Κανένα"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr "SOC&KS5"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr "H&TTP"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -5628,12 +5628,12 @@ msgstr "Παλιά Στιγμιότυπα"
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:84
 msgctxt "VanillaPage|"
 msgid "Betas"
-msgstr "Betas"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr "Alphas"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
@@ -5648,7 +5648,7 @@ msgstr "Ανανέωση"
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr "Vanilla"
+msgstr ""
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
@@ -6058,7 +6058,7 @@ msgstr "Έκδοση"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr "Minecraft"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6243,7 +6243,7 @@ msgstr "Αφαίρεση"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr "MCEdit"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6273,7 +6273,7 @@ msgstr "Αφαιρέστε το εικονίδιο κόσμου για να αν
 #: src/launcher/ui/pages/instance/WorldListPage.ui:163
 msgctxt "WorldListPage|"
 msgid "Datapacks"
-msgstr "Datapacks"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:166
 msgctxt "WorldListPage|"
