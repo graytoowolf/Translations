@@ -6,14 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=4; plural=((n%10==1 && n%100!=11) ? 0 : ((n%10 >= 2 && n%10 <=4 && (n%100 < 12 || n%100 > 14)) ? 1 : ((n%10 == 0 || (n%10 >= 5 && n%10 <=9)) || (n%100 >= 11 && n%100 <= 14)) ? 2 : 3));\n"
 "X-Crowdin-Project: miniskins\n"
-"X-Crowdin-Project-ID: 658406\n"
+"X-Crowdin-Project-ID: 663418\n"
 "X-Crowdin-Language: ru\n"
-"X-Crowdin-File: /main/template.pot\n"
-"X-Crowdin-File-ID: 26\n"
+"X-Crowdin-File: /[graytoowolf.Translations] main/template.pot\n"
+"X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: miniskins\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2024-04-05 04:07\n"
+"PO-Revision-Date: 2024-04-05 13:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -473,7 +473,7 @@ msgstr "Ошибка аутентификации. Учетная запись �
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:108
 #, qt-format
@@ -976,7 +976,7 @@ msgstr "Выберите путь к ярлыку"
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
-msgstr "Parsing directory"
+msgstr ""
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
 msgctxt "CurseForge::FileResolvingTask|"
@@ -1285,7 +1285,7 @@ msgstr "Поиск и фильтра..."
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.h:43
 msgctxt "FtbPage|"
 msgid "FTB"
-msgstr "FTB"
+msgstr ""
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1445,7 +1445,7 @@ msgstr "Выберите мод-пак"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr "Zip (*.zip *.mrpack)"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
@@ -1957,7 +1957,7 @@ msgstr "Проверить"
 #: src/launcher/ui/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -2029,7 +2029,7 @@ msgstr "Обзор"
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:94
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:95
 msgctxt "JavaWizardPage|"
@@ -2352,27 +2352,27 @@ msgstr "Количество потоков загрузки:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
-msgstr "6"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
-msgstr "8"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
-msgstr "32"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
@@ -3126,7 +3126,7 @@ msgstr "Открыть баг-трекер и сообщить об ошибке
 #: src/launcher/ui/MainWindow.cpp:356
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr "Discord"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:357
 #, qt-format
@@ -3633,7 +3633,7 @@ msgstr "повреждённый"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr "Minecraft %1 (%2)"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3953,7 +3953,7 @@ msgstr "Не удалось извлечь файлы"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Installing modpack"
+msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4197,7 +4197,7 @@ msgstr "Название"
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr "uid"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
@@ -6240,7 +6240,7 @@ msgstr "Удалить"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr "MCEdit"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
