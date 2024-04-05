@@ -6,14 +6,14 @@ msgstr ""
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
 "X-Crowdin-Project: miniskins\n"
-"X-Crowdin-Project-ID: 658406\n"
+"X-Crowdin-Project-ID: 663418\n"
 "X-Crowdin-Language: pl\n"
-"X-Crowdin-File: /main/template.pot\n"
-"X-Crowdin-File-ID: 26\n"
+"X-Crowdin-File: /[graytoowolf.Translations] main/template.pot\n"
+"X-Crowdin-File-ID: 4\n"
 "Project-Id-Version: miniskins\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2024-04-05 04:07\n"
+"PO-Revision-Date: 2024-04-05 13:00\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -292,7 +292,7 @@ msgstr "Typ"
 #: src/launcher/minecraft/auth/AccountList.cpp:357
 msgctxt "AccountList|"
 msgid "Status"
-msgstr "Status"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:359
 msgctxt "AccountList|"
@@ -473,7 +473,7 @@ msgstr "Nie udało się uwierzytelnić. Konto już nie istnieje."
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
 msgid "..."
-msgstr "..."
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:108
 #, qt-format
@@ -611,7 +611,7 @@ msgstr "Szukaj i filtruj..."
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
 msgid "ATLauncher"
-msgstr "ATLauncher"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
@@ -826,7 +826,7 @@ msgstr "Sortuj według wszystkich pobrań"
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
-msgstr "<a href=\"%1\">Wiki</a>"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
 #, qt-format
@@ -976,7 +976,7 @@ msgstr "Wybierz ścieżkę skrótu"
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
-msgstr "Parsing directory"
+msgstr ""
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
 msgctxt "CurseForge::FileResolvingTask|"
@@ -1138,7 +1138,7 @@ msgstr "Błąd podczas sprawdzania instalacji JProfiler:\n"
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
 msgctxt "ExternalToolsPage|"
 msgid "OK"
-msgstr "OK"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
 msgctxt "ExternalToolsPage|"
@@ -1285,7 +1285,7 @@ msgstr "Szukaj i filtruj..."
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.h:43
 msgctxt "FtbPage|"
 msgid "FTB"
-msgstr "FTB"
+msgstr ""
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1957,7 +1957,7 @@ msgstr "Testuj"
 #: src/launcher/ui/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -2029,7 +2029,7 @@ msgstr "Przeglądaj"
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:94
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr "Java"
+msgstr ""
 
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:95
 msgctxt "JavaWizardPage|"
@@ -2353,27 +2353,27 @@ msgstr "Liczba wątków pobierania:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
-msgstr "4"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
-msgstr "6"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
-msgstr "8"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
-msgstr "16"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
-msgstr "32"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
@@ -2710,7 +2710,7 @@ msgstr "Wybrana wersja:"
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
 msgctxt "LegacyFTB::Page|"
 msgid "FTB Legacy"
-msgstr "FTB Legacy"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
@@ -3128,7 +3128,7 @@ msgstr "Otwórz tracker zgłoszeń, by zgłosić błąd z %1."
 #: src/launcher/ui/MainWindow.cpp:356
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr "Discord"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:357
 #, qt-format
@@ -3139,7 +3139,7 @@ msgstr "Rozpocznij czat na Discordzie %1."
 #: src/launcher/ui/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr "Reddit"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:367
 #, qt-format
@@ -3541,7 +3541,7 @@ msgstr "Czy na pewno chcesz usunąć grupę %1"
 #: src/launcher/ui/MainWindow.cpp:1869
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
-msgstr "CAREFUL!"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1870
 #, qt-format
@@ -3636,7 +3636,7 @@ msgstr "uszkodzone"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr "Minecraft %1 (%2)"
+msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3718,7 +3718,7 @@ msgstr "Wyświetl czas spędzony w grze tylko w godzinach"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr "Minecraft"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3753,7 +3753,7 @@ msgstr "Zatrzymany przez użytkownika."
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:368
 msgctxt "ModFolderModel|"
 msgid "Folder"
-msgstr "Folder"
+msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
@@ -3956,7 +3956,7 @@ msgstr "Nie udało się rozpakować plików"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr "Installing modpack"
+msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4200,7 +4200,7 @@ msgstr "Nazwa"
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr "uid"
+msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
@@ -4615,12 +4615,12 @@ msgstr "&Brak"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr "SOC&KS5"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr "H&TTP"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -4650,7 +4650,7 @@ msgstr "Uwaga: Nazwa użytkownika i hasło proxy są przechowywane jako zwykły 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr "Proxy"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountData.cpp:499
 #, qt-format
@@ -6057,7 +6057,7 @@ msgstr "Wersja"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr "Minecraft"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6242,7 +6242,7 @@ msgstr "Usuń"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr "MCEdit"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
