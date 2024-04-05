@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Luxembourgish\n"
 "Language: lb_LU\n"
-"PO-Revision-Date: 2024-03-29 01:01\n"
+"PO-Revision-Date: 2024-04-05 03:07\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -974,10 +974,15 @@ msgstr ""
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
+msgid "Parsing directory"
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:148
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
