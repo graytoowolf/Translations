@@ -1019,7 +1019,7 @@ msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
