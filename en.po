@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: English, United Kingdom\n"
 "Language: en_GB\n"
-"PO-Revision-Date: 2024-04-05 15:43\n"
+"PO-Revision-Date: 2024-04-06 05:49\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -64,28 +64,28 @@ msgstr "Downloading configs..."
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:456
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Config download"
-msgstr ""
+msgstr "Config download"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:496
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Extracting configs..."
-msgstr ""
+msgstr "Extracting configs..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:503
 #, qt-format
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to open pack configs %1!"
-msgstr ""
+msgstr "Failed to open pack configs %1!"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:533
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Selecting optional mods..."
-msgstr ""
+msgstr "Selecting optional mods..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:537
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr ""
+msgstr "Downloading mods..."
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:540
 msgctxt "ATLauncher::PackInstallTask|"
@@ -976,7 +976,7 @@ msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
