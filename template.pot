@@ -394,24 +394,24 @@ msgid ""
 "Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:88
+#: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:119
-#: src/launcher/ui/pages/global/AccountListPage.cpp:147
+#: src/launcher/ui/pages/global/AccountListPage.cpp:120
+#: src/launcher/ui/pages/global/AccountListPage.cpp:148
 msgctxt "AccountListPage|"
 msgid ""
 "Please enter your Mojang account email and password to add your account."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:136
+#: src/launcher/ui/pages/global/AccountListPage.cpp:137
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:137
+#: src/launcher/ui/pages/global/AccountListPage.cpp:138
 msgctxt "AccountListPage|"
 msgid ""
 "Microsoft accounts are only usable on macOS 10.13 or newer, with fully "
@@ -420,17 +420,17 @@ msgid ""
 "Please update both your operating system and MultiMC."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:260
+#: src/launcher/ui/pages/global/AccountListPage.cpp:261
 msgctxt "AccountListPage|"
 msgid ""
 "Please enter your skin site account email and password to add your account."
