@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: mcpeau\n"
 "Language-Team: Norwegian Nynorsk\n"
 "Language: nn_NO\n"
-"PO-Revision-Date: 2024-05-02 14:19\n"
+"PO-Revision-Date: 2024-05-02 15:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -611,7 +611,7 @@ msgstr "Søk …"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
 msgid "ATLauncher"
-msgstr ""
+msgstr "ATLauncher"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
@@ -790,7 +790,7 @@ msgstr "Søk og filtrer ..."
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
 msgctxt "CFPage|"
 msgid "CurseForge"
-msgstr ""
+msgstr "CurseForge"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
@@ -826,7 +826,7 @@ msgstr "Sorter etter nedlastinger totalt"
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
-msgstr ""
+msgstr "<a href=\"%1\">Wiki</a>"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
 #, qt-format
@@ -3610,22 +3610,22 @@ msgstr "Har migrasjonsflagg"
 #: src/launcher/minecraft/MinecraftInstance.cpp:735
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:739
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
@@ -3636,7 +3636,7 @@ msgstr "øydelagd"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3718,7 +3718,7 @@ msgstr "Vis speletida berre i timar"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3956,7 +3956,7 @@ msgstr "Kunne ikke pakke ut filer"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Installing modpack"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4426,7 +4426,7 @@ msgstr "Versjon"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "Platform Selection"
-msgstr ""
+msgstr "Utvalg av plattform"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:62
 msgctxt "PasteEEPage|"
@@ -4622,7 +4622,7 @@ msgstr "&Ingen"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
@@ -4693,7 +4693,7 @@ msgstr "Ugyldig JProfiler-installasjon"
 #, qt-format
 msgctxt "QObject|"
 msgid "%1m %2s"
-msgstr ""
+msgstr "%1m %2s"
 
 #: src/launcher/MMCTime.cpp:35
 #, qt-format
@@ -5654,7 +5654,7 @@ msgstr "Oppfrisk"
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
@@ -6064,7 +6064,7 @@ msgstr "Versjon"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6248,7 +6248,7 @@ msgstr "Fjern"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6583,10 +6583,10 @@ msgstr "Klarte ikkje autentisera Mojang-brukaren grunna ein nettverksfeil."
 #: src/launcher/net/mcloUpload.cpp:33
 msgctxt "mcloUpload|"
 msgid "Uploading to mclo.gs"
-msgstr ""
+msgstr "Laster opp til mclo.gs"
 
 #: src/launcher/net/mcloUpload.cpp:69
 msgctxt "mcloUpload|"
 msgid "mclo.gs returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "mclo.gs returnerte en feil. Ta kontakt med loggene for mer informasjon"
 
