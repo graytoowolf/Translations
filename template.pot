@@ -521,7 +521,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr ""
 
-#: src/launcher/Application.cpp:809
+#: src/launcher/Application.cpp:812
 msgctxt "Application|"
 msgid "Settings"
 msgstr ""
@@ -4531,25 +4531,30 @@ msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
+msgid "Platform Selection"
+msgstr ""
+
+#: src/launcher/ui/pages/global/PasteEEPage.ui:62
+msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
-msgstr ""
-
-#: src/launcher/ui/pages/global/PasteEEPage.ui:45
-msgctxt "PasteEEPage|"
-msgid "MultiMC key - 12MB &upload limit"
-msgstr ""
-
-#: src/launcher/ui/pages/global/PasteEEPage.ui:55
-msgctxt "PasteEEPage|"
-msgid "&Your own key - 12MB upload limit:"
 msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
+msgid "MultiMC key - 12MB &upload limit"
+msgstr ""
+
+#: src/launcher/ui/pages/global/PasteEEPage.ui:78
+msgctxt "PasteEEPage|"
+msgid "&Your own key - 12MB upload limit:"
+msgstr ""
+
+#: src/launcher/ui/pages/global/PasteEEPage.ui:91
+msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
 msgstr ""
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:82
+#: src/launcher/ui/pages/global/PasteEEPage.ui:105
 msgctxt "PasteEEPage|"
 msgid ""
 "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by "
@@ -4563,12 +4568,12 @@ msgctxt "PasteEEPage|"
 msgid "Log Upload"
 msgstr ""
 
-#: src/launcher/net/PasteUpload.cpp:48
+#: src/launcher/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
 msgstr ""
 
-#: src/launcher/net/PasteUpload.cpp:77
+#: src/launcher/net/PasteUpload.cpp:82
 msgctxt "PasteUpload|"
 msgid ""
 "paste.ee returned an error. Please consult the logs for more information"
@@ -4923,22 +4928,22 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
 msgid "Upload failed"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/GuiUtil.cpp:39
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:51
+#: src/launcher/ui/GuiUtil.cpp:60
 msgctxt "QObject|"
 msgid "Upload finished"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:52
+#: src/launcher/ui/GuiUtil.cpp:61
 #, qt-format
 msgctxt "QObject|"
 msgid ""
@@ -6758,4 +6763,14 @@ msgstr ""
 #: src/launcher/minecraft/auth/steps/YggdrasilStep.cpp:48
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
+msgstr ""
+
+#: src/launcher/net/mcloUpload.cpp:33
+msgctxt "mcloUpload|"
+msgid "Uploading to mclo.gs"
+msgstr ""
+
+#: src/launcher/net/mcloUpload.cpp:69
+msgctxt "mcloUpload|"
+msgid "mclo.gs returned an error. Please consult the logs for more information"
 msgstr ""
