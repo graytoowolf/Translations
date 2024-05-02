@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: mcpeau\n"
 "Language-Team: Italian\n"
 "Language: it_IT\n"
-"PO-Revision-Date: 2024-05-02 14:19\n"
+"PO-Revision-Date: 2024-05-02 15:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3636,7 +3636,7 @@ msgstr "malfunzionante"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3718,7 +3718,7 @@ msgstr "Mostra il tempo di gioco solo in ore"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3758,7 +3758,7 @@ msgstr "Cartella"
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:464
 msgctxt "ModFolderModel|"
@@ -3921,7 +3921,7 @@ msgstr "Ottieni link download MOD"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
-msgstr ""
+msgstr "Mod downloadurl"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3956,7 +3956,7 @@ msgstr "Impossibile estrarre i file"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Installing modpack"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4038,7 +4038,7 @@ msgstr "Opzioni di esportazione"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:127
 msgctxt "ModrinthExportDialog|"
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:137
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:205
@@ -4200,7 +4200,7 @@ msgstr "Nome"
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
@@ -4426,7 +4426,7 @@ msgstr "Versione"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "Platform Selection"
-msgstr ""
+msgstr "Selezione Piattaforma"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:62
 msgctxt "PasteEEPage|"
@@ -4622,12 +4622,12 @@ msgstr "&Nessuno"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -4657,7 +4657,7 @@ msgstr "Nota: L'username e la password del proxy sono memorizzati in chiaro nel 
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -5654,7 +5654,7 @@ msgstr "Aggiorna"
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
@@ -6064,7 +6064,7 @@ msgstr "Versione"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6249,7 +6249,7 @@ msgstr "Elimina"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6585,10 +6585,10 @@ msgstr "Autenticazione utente Mojang terminata con un errore di rete."
 #: src/launcher/net/mcloUpload.cpp:33
 msgctxt "mcloUpload|"
 msgid "Uploading to mclo.gs"
-msgstr ""
+msgstr "Caricamento su mclo.gs"
 
 #: src/launcher/net/mcloUpload.cpp:69
 msgctxt "mcloUpload|"
 msgid "mclo.gs returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "mclo.gs ha restituito un errore. Si prega di consultare i registri per ulteriori informazioni"
 
