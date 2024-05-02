@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: mcpeau\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-05-02 15:36\n"
+"PO-Revision-Date: 2024-05-02 15:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -4166,7 +4166,7 @@ msgstr "已选择的版本："
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr "多明斯"
+msgstr "Modrinth"
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
@@ -4450,7 +4450,7 @@ msgstr "版本"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "Platform Selection"
-msgstr "平台选择"
+msgstr "日志上传平台选择"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:62
 msgctxt "PasteEEPage|"
@@ -5518,7 +5518,7 @@ msgstr "搜索"
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr "野车"
+msgstr "Technic"
 
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
 msgctxt "TechnicPage|"
