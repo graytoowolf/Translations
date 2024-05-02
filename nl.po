@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: mcpeau\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2024-05-02 14:19\n"
+"PO-Revision-Date: 2024-05-02 15:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3609,22 +3609,22 @@ msgstr "Heeft migratievlaggen"
 #: src/launcher/minecraft/MinecraftInstance.cpp:735
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:739
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
@@ -3635,7 +3635,7 @@ msgstr "defect"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3717,7 +3717,7 @@ msgstr "Toon de speeltijd alleen in uren"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3797,7 +3797,7 @@ msgstr "De datum en tijd waarop deze mod voor het laatst is gewijzigd (of toegev
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
@@ -3930,7 +3930,7 @@ msgstr "Mods downloaden..."
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Mod download"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3955,7 +3955,7 @@ msgstr "Kon bestanden niet uitpakken"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Installing modpack"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4425,7 +4425,7 @@ msgstr "Versie"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "Platform Selection"
-msgstr ""
+msgstr "Platform Selectie"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:62
 msgctxt "PasteEEPage|"
@@ -4601,7 +4601,7 @@ msgstr "Dit geldt alleen voor de launcher. Minecraft accepteert geen proxy-inste
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
@@ -4621,12 +4621,12 @@ msgstr "Gee&n"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -4656,7 +4656,7 @@ msgstr "Opmerking: Proxy-gebruikersnaam en wachtwoord worden als platte tekst in
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -4777,7 +4777,7 @@ msgstr "Beheerder"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr ""
+msgstr "Patrons"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -5233,7 +5233,7 @@ msgstr "Deelnemen"
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
-msgstr ""
+msgstr "Servers"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
@@ -5678,7 +5678,7 @@ msgstr "Er zijn momenteel geen versies beschikbaar."
 #: src/launcher/ui/pages/instance/VersionPage.ui:60
 msgctxt "VersionPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
@@ -5940,7 +5940,7 @@ msgstr "Jar mods selecteren"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:301
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr ""
+msgstr "Minecraft.jar mods (*.zip *.jar)"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:311
 msgctxt "VersionPage|"
@@ -6063,7 +6063,7 @@ msgstr "Versie"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6073,7 +6073,7 @@ msgstr "Aftakking"
 #: src/launcher/VersionProxyModel.cpp:82
 msgctxt "VersionProxyModel|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/launcher/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
@@ -6248,7 +6248,7 @@ msgstr "Verwijderen"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6278,7 +6278,7 @@ msgstr "Verwijder het wereldpictogram zodat de volgende keer dat het spel wordt 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:163
 msgctxt "WorldListPage|"
 msgid "Datapacks"
-msgstr ""
+msgstr "Datapacks"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:166
 msgctxt "WorldListPage|"
@@ -6584,10 +6584,10 @@ msgstr "Mojang gebruikersauthenticatie eindigde met een netwerkfout."
 #: src/launcher/net/mcloUpload.cpp:33
 msgctxt "mcloUpload|"
 msgid "Uploading to mclo.gs"
-msgstr ""
+msgstr "Uploaden naar mclo.gs"
 
 #: src/launcher/net/mcloUpload.cpp:69
 msgctxt "mcloUpload|"
 msgid "mclo.gs returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "mclo.gs gaf een foutmelding. Raadpleeg de logs voor meer informatie"
 
