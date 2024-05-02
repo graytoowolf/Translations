@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Slovak\n"
 "Language: sk_SK\n"
-"PO-Revision-Date: 2024-04-05 15:18\n"
+"PO-Revision-Date: 2024-05-02 10:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -386,6 +386,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Účty"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -393,48 +398,43 @@ msgid "Welcome!\n"
 msgstr "Vitaj!\n"
 "Ak si tu nový, klikni na tlačidlo „Pridať“ a pridaj svoj Mojang alebo Minecraft účet."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:88
+#: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Kontextové menu"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:119
-#: src/launcher/ui/pages/global/AccountListPage.cpp:147
+#: src/launcher/ui/pages/global/AccountListPage.cpp:120
+#: src/launcher/ui/pages/global/AccountListPage.cpp:148
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr "Prosím zadaj e-mail a heslo svojho Mojang účtu na pridanie."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:136
+#: src/launcher/ui/pages/global/AccountListPage.cpp:137
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
 msgstr "Microsoft účty nedostupné"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:137
+#: src/launcher/ui/pages/global/AccountListPage.cpp:138
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
 msgstr "Microsoft účty sá dajú použiť iba na macOS 10.13 a vyššie s plne aktualizovaným MultiMC.\n\n"
 "Prosím aktualizujte Váš operačný systém a MultiMC."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
 msgstr "Odstránenie skinu"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
 msgstr "Nepodarilo sa odstrániť aktuálny skin!"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:260
+#: src/launcher/ui/pages/global/AccountListPage.cpp:261
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Účty"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -502,7 +502,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr "Zaplnúť analytiky"
 
-#: src/launcher/Application.cpp:809
+#: src/launcher/Application.cpp:812
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Nastavenia"
@@ -984,7 +984,7 @@ msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1438,6 +1438,11 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Lokálny súbor alebo linka priameho stiahnutia:"
 
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importovať zo zipu"
+
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1447,11 +1452,6 @@ msgstr "Zvoliť modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
-
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importovať zo zipu"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1541,7 +1541,7 @@ msgid "Could not understand pack manifest:\n"
 msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:687
+#: src/launcher/InstanceImportTask.cpp:689
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Nepodarilo sa premenovať priečinok:\n"
@@ -1569,48 +1569,48 @@ msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:386
-#: src/launcher/InstanceImportTask.cpp:729
+#: src/launcher/InstanceImportTask.cpp:388
+#: src/launcher/InstanceImportTask.cpp:731
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Sťahovanie módu"
 
-#: src/launcher/InstanceImportTask.cpp:406
+#: src/launcher/InstanceImportTask.cpp:408
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:424
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:427
+#: src/launcher/InstanceImportTask.cpp:429
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:448
-#: src/launcher/InstanceImportTask.cpp:752
+#: src/launcher/InstanceImportTask.cpp:450
+#: src/launcher/InstanceImportTask.cpp:754
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Sťahovanie módov..."
 
-#: src/launcher/InstanceImportTask.cpp:459
+#: src/launcher/InstanceImportTask.cpp:461
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:680
+#: src/launcher/InstanceImportTask.cpp:682
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Nepodarilo sa porozumieť súboru indexu balíčka:\n"
 
-#: src/launcher/InstanceImportTask.cpp:694
-#: src/launcher/InstanceImportTask.cpp:699
+#: src/launcher/InstanceImportTask.cpp:696
+#: src/launcher/InstanceImportTask.cpp:701
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Nepodarilo sa zlúčiť priečinok overrides:\n"
@@ -1812,11 +1812,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Svet pre jedného hráča:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Nastavenia"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1826,6 +1821,11 @@ msgstr "Zvoľte Java verziu"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Nájsť Java spúštač"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Nastavenia"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1955,11 +1955,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr ""
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1969,6 +1964,11 @@ msgstr "Zvoľte Java verziu"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Nájsť Java spúštač"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2708,11 +2708,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Zvolená verzia:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2746,6 +2741,11 @@ msgstr "Vymazať balíček"
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Naozaj chcete vymazať balíček %1?"
+
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2907,11 +2907,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Na spodok"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Minecraftový záznam"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2921,6 +2916,11 @@ msgstr "Odoslať log"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Ste si istí, že chcete nahrať tento log?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Minecraftový záznam"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -4423,25 +4423,30 @@ msgstr "Verzia"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
+msgid "Platform Selection"
+msgstr ""
+
+#: src/launcher/ui/pages/global/PasteEEPage.ui:62
+msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
 msgstr "paste.ee API kľúč"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:45
+#: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
 msgstr "MultiMC klúč - limit odosielania 12MB"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:55
+#: src/launcher/ui/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
 msgstr "Váš vlastný klúč - limit odosielania 12MB:"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:68
+#: src/launcher/ui/pages/global/PasteEEPage.ui:91
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
 msgstr "Vložte svoj API klúč sem!"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:82
+#: src/launcher/ui/pages/global/PasteEEPage.ui:105
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
 msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> je používaný MultiMC na odosielanie logov. Ak máte účet <a href=\"https://paste.ee\">paste.ee</a>, môžete pridať svoj API klúč a mať svoje odoslané logy spárované so svojim účtom.</p></body></html>"
@@ -4451,12 +4456,12 @@ msgctxt "PasteEEPage|"
 msgid "Log Upload"
 msgstr "Odoslať log"
 
-#: src/launcher/net/PasteUpload.cpp:48
+#: src/launcher/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
 msgstr "Odosielam do paste.ee"
 
-#: src/launcher/net/PasteUpload.cpp:77
+#: src/launcher/net/PasteUpload.cpp:82
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
 msgstr "paste.ee vrátilo chybu. Ďalšie informácie nájdete v logu"
@@ -4652,106 +4657,35 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Žiadny profil (%1)"
+msgid "Path is empty"
+msgstr "Cesta je prázdna"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "procesnýArgument je nastavený na neznámu hodnotu '%1'"
+msgid "Path does not exist"
+msgstr "Cesta neexistuje"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Hodnota 'minimumLauncherVersion' tejto verzie (%1) je vyššia ako tá podporovaná %3 (%2). Nemusí fungovať správne!"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Táto cesta nevyzerá ako cesta k MCEdit"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Názov knižnice %1 je nefunkčný a nemožno ho spracovať."
+msgid "Empty path"
+msgstr "Prázdna cesta"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Herné súbory pre %1"
+msgid "Invalid path to JVisualVM"
+msgstr "Chybná cesta k JVisualVM"
 
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Nesprávna verzia súboru komponentu, očakávaná verzia %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Súbor verzie obsahuje '+libraries' a 'libraries'. Toto už viac nie je podporované."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "Nepodarilo sa zistiť URL hlavného jar - Mojang odobral server, ktorý sme používali ako záložný."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Súbor verzie  obsahuje nepodporovaný element 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Súbor verzie  obsahuje nepodporovaný element '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Súbor verzie  obsahuje nepodporovaný element '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Súbor verzie  obsahuje nepodporovaný element '-minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Súbor verzie  obsahuje nepodporovaný element '+minecraftArguments'"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Záplata sa zatiaľ nenahrala."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Chybné poradie súboru verzie, očakávané %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Nie je možné otvoriť verziu súboru %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Nepodarilo sa spracovať verziu súboru %1: %2 na riadku %3 v stĺpci %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Nepodarilo sa spracovať verziu súboru %1."
+msgid "Invalid JProfiler install"
+msgstr "Chybná inštalácia JProfiler"
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4770,48 +4704,6 @@ msgstr ""
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr ""
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Nahrávanie meta súboru %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Neznámy formát verzie!"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Prázdna cesta"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Chybná cesta k JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Cesta je prázdna"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Cesta neexistuje"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Táto cesta nevyzerá ako cesta k MCEdit"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Chybná inštalácia JProfiler"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4856,76 +4748,20 @@ msgstr "Vrátenie verzie zlyhalo.\n"
 "Musíte opraviť %1 manuálne.\n"
 "Prosím dajte nám vedieť prečo a ako sa toto stalo."
 
-#: src/launcher/JavaCommon.cpp:10
+#: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "Pokúšate sa manuálne nastaviť voľby nastavení pamäte JVM (použitím \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"Na tieto nastavenia sú určené špeciálne polia (záložka Java, v skupine Pamäť na vrchu).\n"
-"Táto správa bude zobrazovaná pokiaľ tieto nastavenia nevymažete z JVM argumentov."
+msgid "Dark"
+msgstr "Tmavý"
 
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+#: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "Výstraha JVM argumentov"
+msgid "Bright"
+msgstr "Svetlý"
 
-#: src/launcher/JavaCommon.cpp:22
+#: src/launcher/ui/themes/SystemTheme.cpp:47
 msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "Pokúsili ste sa zadať požadovaný argument verzie javy JVM (pomocou \"-version=xxx\"). Toto nie je bezpečné a nebude povolené.\n"
-"Toto hlásenie sa bude zobrazovať, kým ho neodstránite z argumentov JVM."
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Java test bol úspešný!<br />Nahlásená platforma: %1<br />Nahlásená verzia Javy: %2<br />Nahlásený Java distribútor: %3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />Výstrahy:<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:46
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java test úspešný"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "Špecifikovaná java binárka nebude pracovať s argumentami, ktoré ste zadali:<br />"
-
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java test sa nepodaril"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "Špecifikovaná java binárka nebude pracovať .<br />Použite auto-detectkciu alebo nastavte cestu k java spúšťaču.<br />"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Server Minecraft"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "V inštancii aplikácie FTB chýba popis."
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (používa sa)"
+msgid "System"
+msgstr "Systém"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
@@ -4964,41 +4800,32 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Tu môžete <a href=\"%1\">vidieť zmeny na githube</a>.</p>"
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Systém"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Svetlý"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Tmavý"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
 msgid "Upload failed"
 msgstr "Odosielanie zlyhalo"
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/GuiUtil.cpp:39
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
 msgstr "Súbor log je príliš veľký. Odošlite ho manuálne."
 
-#: src/launcher/ui/GuiUtil.cpp:51
+#: src/launcher/ui/GuiUtil.cpp:60
 msgctxt "QObject|"
 msgid "Upload finished"
 msgstr "Odosielanie ukončené"
 
-#: src/launcher/ui/GuiUtil.cpp:52
+#: src/launcher/ui/GuiUtil.cpp:61
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "<a href=\"%1\">Linka k odoslanému logu</a> bola uložená do clipboardu."
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (používa sa)"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -5020,6 +4847,184 @@ msgstr "Špecifikovaná java binárka vrátila neočakávaný výsledok:<br />"
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java test úspešný!<br />Nahlásená platforma: %1<br />Nahlásená verzia Javy: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Java test sa nepodaril"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Java test úspešný"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Server Minecraft"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "V inštancii aplikácie FTB chýba popis."
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Neznámy formát verzie!"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Nahrávanie meta súboru %1"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Žiadny profil (%1)"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Chybné poradie súboru verzie, očakávané %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Nie je možné otvoriť verziu súboru %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Nepodarilo sa spracovať verziu súboru %1: %2 na riadku %3 v stĺpci %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Nepodarilo sa spracovať verziu súboru %1."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Súbor verzie obsahuje '+libraries' a 'libraries'. Toto už viac nie je podporované."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "Nepodarilo sa zistiť URL hlavného jar - Mojang odobral server, ktorý sme používali ako záložný."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Súbor verzie  obsahuje nepodporovaný element 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Súbor verzie  obsahuje nepodporovaný element '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Súbor verzie  obsahuje nepodporovaný element '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Súbor verzie  obsahuje nepodporovaný element '-minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Súbor verzie  obsahuje nepodporovaný element '+minecraftArguments'"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Nesprávna verzia súboru komponentu, očakávaná verzia %1"
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "Herné súbory pre %1"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Záplata sa zatiaľ nenahrala."
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "procesnýArgument je nastavený na neznámu hodnotu '%1'"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Hodnota 'minimumLauncherVersion' tejto verzie (%1) je vyššia ako tá podporovaná %3 (%2). Nemusí fungovať správne!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Názov knižnice %1 je nefunkčný a nemožno ho spracovať."
+
+#: src/launcher/JavaCommon.cpp:10
+msgctxt "QObject|"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "Pokúšate sa manuálne nastaviť voľby nastavení pamäte JVM (použitím \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"Na tieto nastavenia sú určené špeciálne polia (záložka Java, v skupine Pamäť na vrchu).\n"
+"Táto správa bude zobrazovaná pokiaľ tieto nastavenia nevymažete z JVM argumentov."
+
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+msgctxt "QObject|"
+msgid "JVM arguments warning"
+msgstr "Výstraha JVM argumentov"
+
+#: src/launcher/JavaCommon.cpp:22
+msgctxt "QObject|"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "Pokúsili ste sa zadať požadovaný argument verzie javy JVM (pomocou \"-version=xxx\"). Toto nie je bezpečné a nebude povolené.\n"
+"Toto hlásenie sa bude zobrazovať, kým ho neodstránite z argumentov JVM."
+
+#: src/launcher/JavaCommon.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Java test bol úspešný!<br />Nahlásená platforma: %1<br />Nahlásená verzia Javy: %2<br />Nahlásený Java distribútor: %3<br />"
+
+#: src/launcher/JavaCommon.cpp:44
+#, qt-format
+msgctxt "QObject|"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />Výstrahy:<br /><font color=\"orange\">%1</font>"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "Špecifikovaná java binárka nebude pracovať s argumentami, ktoré ste zadali:<br />"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "Špecifikovaná java binárka nebude pracovať .<br />Použite auto-detectkciu alebo nastavte cestu k java spúšťaču.<br />"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5224,15 +5229,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Pripojiť"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:605
-msgctxt "ServersPage|"
-msgid "Context menu"
-msgstr "Kontextové menu"
-
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
 msgstr "Servery"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:605
+msgctxt "ServersPage|"
+msgid "Context menu"
+msgstr "Kontextové menu"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
@@ -6573,4 +6578,14 @@ msgstr "Overovanie používateľa Mojang zlyhalo."
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
 msgstr "Mojang prihlásenie zlyhalo s chybou siete."
+
+#: src/launcher/net/mcloUpload.cpp:33
+msgctxt "mcloUpload|"
+msgid "Uploading to mclo.gs"
+msgstr ""
+
+#: src/launcher/net/mcloUpload.cpp:69
+msgctxt "mcloUpload|"
+msgid "mclo.gs returned an error. Please consult the logs for more information"
+msgstr ""
 
