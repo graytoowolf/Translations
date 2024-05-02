@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: mcpeau\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2024-05-02 14:19\n"
+"PO-Revision-Date: 2024-05-02 15:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3610,22 +3610,22 @@ msgstr "Reçu les drapeau de migration"
 #: src/launcher/minecraft/MinecraftInstance.cpp:735
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:739
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
@@ -3636,7 +3636,7 @@ msgstr "endommagée"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3718,7 +3718,7 @@ msgstr "Afficher le temps passé à jouer en heures seulement"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3768,7 +3768,7 @@ msgstr "Nom"
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
@@ -3803,7 +3803,7 @@ msgstr "Filtre :"
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:96
 msgctxt "ModFolderPage|"
@@ -3956,7 +3956,7 @@ msgstr "Impossible d'extraire les fichiers"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Installing modpack"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4023,7 +4023,7 @@ msgstr "Nom"
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:81
 msgctxt "ModrinthExportDialog|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:88
 msgctxt "ModrinthExportDialog|"
@@ -4254,12 +4254,12 @@ msgstr "Auteur inconnu"
 #: src/launcher/ui/pages/instance/NotesPage.h:38
 msgctxt "NotesPage|"
 msgid "Notes"
-msgstr ""
+msgstr "Notes"
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:14
 msgctxt "NotificationDialog|"
 msgid "Notification"
-msgstr ""
+msgstr "Notification"
 
 #: src/launcher/ui/dialogs/NotificationDialog.ui:65
 #: src/launcher/ui/dialogs/NotificationDialog.cpp:30
@@ -4421,12 +4421,12 @@ msgstr "Nom"
 #: src/launcher/minecraft/PackProfile.cpp:855
 msgctxt "PackProfile|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "Platform Selection"
-msgstr ""
+msgstr "Sélection de la plateforme"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:62
 msgctxt "PasteEEPage|"
@@ -4622,12 +4622,12 @@ msgstr "&Aucun"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -4657,7 +4657,7 @@ msgstr "Remarque: le nom d'utilisateur et le mot de passe du proxy sont stockés
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -4778,7 +4778,7 @@ msgstr "Mainteneur"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:57
 msgctxt "QObject|About Credits"
 msgid "Patrons"
-msgstr ""
+msgstr "Patrons"
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
 msgctxt "QObject|"
@@ -5056,7 +5056,7 @@ msgstr "Packs de ressources"
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:41
 msgctxt "ScreenshotsPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/launcher/ui/pages/instance/ScreenshotsPage.ui:61
 msgctxt "ScreenshotsPage|"
@@ -5204,7 +5204,7 @@ msgstr "Ne jamais télécharger"
 #: src/launcher/ui/pages/instance/ServersPage.ui:130
 msgctxt "ServersPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/launcher/ui/pages/instance/ServersPage.ui:155
 msgctxt "ServersPage|"
@@ -5639,7 +5639,7 @@ msgstr "Bêtas"
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:94
 msgctxt "VanillaPage|"
 msgid "Alphas"
-msgstr ""
+msgstr "Alphas"
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:104
 msgctxt "VanillaPage|"
@@ -5654,7 +5654,7 @@ msgstr "Actualiser"
 #: src/launcher/ui/pages/modplatform/VanillaPage.h:40
 msgctxt "VanillaPage|"
 msgid "Vanilla"
-msgstr ""
+msgstr "Vanilla"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
@@ -5684,7 +5684,7 @@ msgstr "Trier :"
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:127
 msgctxt "VersionPage|"
@@ -5884,7 +5884,7 @@ msgstr "Installez le paquet NeoForge."
 #: src/launcher/ui/pages/instance/VersionPage.h:38
 msgctxt "VersionPage|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
@@ -6059,12 +6059,12 @@ msgstr "Erreur lors de la mise à jour de l'instance"
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
 msgid "Version"
-msgstr ""
+msgstr "Version"
 
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6079,7 +6079,7 @@ msgstr "Type de texte"
 #: src/launcher/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
 msgid "Architecture"
-msgstr ""
+msgstr "Architecture"
 
 #: src/launcher/VersionProxyModel.cpp:86
 msgctxt "VersionProxyModel|"
@@ -6204,7 +6204,7 @@ msgstr "La date et l'heure de la dernière connexion au monde."
 #: src/launcher/ui/pages/instance/WorldListPage.ui:65
 msgctxt "WorldListPage|"
 msgid "Actions"
-msgstr ""
+msgstr "Actions"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:99
 msgctxt "WorldListPage|"
@@ -6249,7 +6249,7 @@ msgstr "Supprimer"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6584,10 +6584,10 @@ msgstr "L'authentification de l'utilisateur Mojang s'est terminée avec une erre
 #: src/launcher/net/mcloUpload.cpp:33
 msgctxt "mcloUpload|"
 msgid "Uploading to mclo.gs"
-msgstr ""
+msgstr "Envoi vers mclo.gs"
 
 #: src/launcher/net/mcloUpload.cpp:69
 msgctxt "mcloUpload|"
 msgid "mclo.gs returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "mclo.gs a renvoyé une erreur. Veuillez consulter les logs pour plus d'informations"
 
