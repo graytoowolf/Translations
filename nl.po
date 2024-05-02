@@ -5,15 +5,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: miniskins\n"
-"X-Crowdin-Project-ID: 663418\n"
+"X-Crowdin-Project: mcpeau\n"
+"X-Crowdin-Project-ID: 671910\n"
 "X-Crowdin-Language: nl\n"
 "X-Crowdin-File: /main/template.pot\n"
-"X-Crowdin-File-ID: 8\n"
-"Project-Id-Version: miniskins\n"
+"X-Crowdin-File-ID: 4\n"
+"Project-Id-Version: mcpeau\n"
 "Language-Team: Dutch\n"
 "Language: nl_NL\n"
-"PO-Revision-Date: 2024-04-05 15:18\n"
+"PO-Revision-Date: 2024-05-02 15:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -90,7 +90,7 @@ msgstr "Mods downloaden..."
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:540
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Mod download"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:554
 #, qt-format
@@ -152,7 +152,7 @@ msgstr "Versie:"
 #: src/launcher/ui/dialogs/AboutDialog.ui:167
 msgctxt "AboutDialog|"
 msgid "Platform:"
-msgstr ""
+msgstr "Platform:"
 
 #: src/launcher/ui/dialogs/AboutDialog.ui:177
 msgctxt "AboutDialog|"
@@ -203,7 +203,7 @@ msgstr "Versie"
 #: src/launcher/ui/dialogs/AboutDialog.cpp:99
 msgctxt "AboutDialog|"
 msgid "Platform"
-msgstr ""
+msgstr "Platform"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:102
 msgctxt "AboutDialog|"
@@ -232,12 +232,12 @@ msgstr "Afgevinkt"
 #: src/launcher/minecraft/auth/AccountList.cpp:284
 msgctxt "AccountList|Account status"
 msgid "Offline"
-msgstr ""
+msgstr "Offline"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:287
 msgctxt "AccountList|Account status"
 msgid "Online"
-msgstr ""
+msgstr "Online"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:290
 msgctxt "AccountList|Account status"
@@ -287,7 +287,7 @@ msgstr "Rekening"
 #: src/launcher/minecraft/auth/AccountList.cpp:355
 msgctxt "AccountList|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:357
 msgctxt "AccountList|"
@@ -385,6 +385,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr "Account van huidsite toevoegen"
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Rekeningen"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -392,48 +397,43 @@ msgid "Welcome!\n"
 msgstr "Welkom!\n"
 "Als u hier nieuw bent, kunt u op de knop \"Toevoegen\" klikken om uw Mojang- of Minecraft-account toe te voegen."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:88
+#: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Contextmenu"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:119
-#: src/launcher/ui/pages/global/AccountListPage.cpp:147
+#: src/launcher/ui/pages/global/AccountListPage.cpp:120
+#: src/launcher/ui/pages/global/AccountListPage.cpp:148
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr "Voer uw Mojang account e-mailadres en wachtwoord in om uw account toe te voegen."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:136
+#: src/launcher/ui/pages/global/AccountListPage.cpp:137
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
 msgstr "Microsoft-accounts niet beschikbaar"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:137
+#: src/launcher/ui/pages/global/AccountListPage.cpp:138
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
 msgstr "Microsoft-accounts zijn alleen bruikbaar op macOS 10.13 of nieuwer, met volledig bijgewerkte MultiMC.\n\n"
 "Update zowel uw besturingssysteem als MultiMC."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
 msgstr "Skin verwijderen"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
 msgstr "Kon huidige skin niet verwijderen!"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:260
+#: src/launcher/ui/pages/global/AccountListPage.cpp:261
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "Voer het e-mailadres en wachtwoord van uw skin site in om uw account toe te voegen."
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Rekeningen"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -473,7 +473,7 @@ msgstr "Authenticatie mislukt. Het account bestaat niet meer."
 #: src/launcher/minecraft/auth/AccountTask.cpp:55
 msgctxt "AccountTask|"
 msgid "..."
-msgstr ""
+msgstr "..."
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:108
 #, qt-format
@@ -501,7 +501,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr "Schakel Analytics in"
 
-#: src/launcher/Application.cpp:809
+#: src/launcher/Application.cpp:812
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Instellingen"
@@ -611,7 +611,7 @@ msgstr "Zoeken en filteren..."
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
 msgid "ATLauncher"
-msgstr ""
+msgstr "ATLauncher"
 
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
@@ -826,13 +826,13 @@ msgstr "Sorteren op totale downloads"
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
-msgstr ""
+msgstr "<a href=\"%1\">Wiki</a>"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Bug tracker</a>"
-msgstr ""
+msgstr "<a href=\"%1\">Bug tracker</a>"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:88
 #, qt-format
@@ -976,14 +976,14 @@ msgstr "Snelkoppelingpad kiezen"
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
-msgstr ""
+msgstr "Parsing directory"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr "mod ID's oplossen..."
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "Enkele mod ID oplossen taken mislukt."
@@ -1285,7 +1285,7 @@ msgstr "Zoeken en filteren ..."
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.h:43
 msgctxt "FtbPage|"
 msgid "FTB"
-msgstr ""
+msgstr "FTB"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1437,6 +1437,11 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Lokaal bestand of link naar een rechtstreekse download:"
 
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importeren van zip"
+
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1445,12 +1450,7 @@ msgstr "Kies modpack"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importeren van zip"
+msgstr "Zip (*.zip *.mrpack)"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1540,7 +1540,7 @@ msgid "Could not understand pack manifest:\n"
 msgstr "Kon pakketmanifest niet begrijpen:\n"
 
 #: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:687
+#: src/launcher/InstanceImportTask.cpp:689
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "De overrides-map kon niet worden hernoemd:\n"
@@ -1568,48 +1568,48 @@ msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Kon de aanbevolen Forge-versie voor Minecraft %1 niet in kaart brengen"
 
-#: src/launcher/InstanceImportTask.cpp:386
-#: src/launcher/InstanceImportTask.cpp:729
+#: src/launcher/InstanceImportTask.cpp:388
+#: src/launcher/InstanceImportTask.cpp:731
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Mod download"
 
-#: src/launcher/InstanceImportTask.cpp:406
+#: src/launcher/InstanceImportTask.cpp:408
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Deze 'Map' kan uitpakken: %1"
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:424
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Modpacks in modpacks worden niet geïmplementeerd, er is niets gedownload: %1"
 
-#: src/launcher/InstanceImportTask.cpp:427
+#: src/launcher/InstanceImportTask.cpp:429
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Niet-herkende/onafgehandelde pakket Type voor: %1"
 
-#: src/launcher/InstanceImportTask.cpp:448
-#: src/launcher/InstanceImportTask.cpp:752
+#: src/launcher/InstanceImportTask.cpp:450
+#: src/launcher/InstanceImportTask.cpp:754
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Mods downloaden..."
 
-#: src/launcher/InstanceImportTask.cpp:459
+#: src/launcher/InstanceImportTask.cpp:461
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Kan mod ID's niet oplossen:\n"
 
-#: src/launcher/InstanceImportTask.cpp:680
+#: src/launcher/InstanceImportTask.cpp:682
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Kon de pakketindex niet begrijpen:\n"
 
-#: src/launcher/InstanceImportTask.cpp:694
-#: src/launcher/InstanceImportTask.cpp:699
+#: src/launcher/InstanceImportTask.cpp:696
+#: src/launcher/InstanceImportTask.cpp:701
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "De overrides-map kon niet worden samengevoegd:\n"
@@ -1664,7 +1664,7 @@ msgstr "Bladeren..."
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:84
 msgctxt "InstanceSettingsPage|"
 msgid "Test"
-msgstr ""
+msgstr "Test"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:97
 msgctxt "InstanceSettingsPage|"
@@ -1759,7 +1759,7 @@ msgstr "Aangepaste opdrachten"
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:369
 msgctxt "InstanceSettingsPage|"
 msgid "Workarounds"
-msgstr ""
+msgstr "Workarounds"
 
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:378
 msgctxt "InstanceSettingsPage|"
@@ -1811,11 +1811,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Singleplayer wereld:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Instellingen"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1825,6 +1820,11 @@ msgstr "Kies een Java-versie"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Zoek uitvoerbaar Java-bestand"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Instellingen"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1952,12 +1952,7 @@ msgstr "Auto-detectie..."
 #: src/launcher/ui/pages/global/JavaPage.ui:221
 msgctxt "JavaPage|"
 msgid "Test"
-msgstr ""
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
+msgstr "Test"
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -1968,6 +1963,11 @@ msgstr "Kies een Java-versie"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Zoek uitvoerbaar Java-bestand"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Java"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2029,7 +2029,7 @@ msgstr "Bladeren"
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:94
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:95
 msgctxt "JavaWizardPage|"
@@ -2352,27 +2352,27 @@ msgstr "Aantal downloadgesprekken:"
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
@@ -2457,7 +2457,7 @@ msgstr "Kleuren"
 #: src/launcher/ui/pages/global/LauncherPage.ui:399
 msgctxt "LauncherPage|"
 msgid "Console"
-msgstr ""
+msgstr "Console"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:405
 msgctxt "LauncherPage|"
@@ -2706,11 +2706,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Geselecteerde versie:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2744,6 +2739,11 @@ msgstr "Pakket verwijderen"
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Weet u zeker dat u pack %1 wilt verwijderen?"
+
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB Legacy"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2905,11 +2905,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Onderaan"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Minecraft logbestand"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2919,6 +2914,11 @@ msgstr "Log uploaden"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Weet u zeker dat u dit logbestand wilt uploaden?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Minecraft logbestand"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3138,13 +3138,13 @@ msgstr "Open %1 Discord spraakchat."
 #: src/launcher/ui/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/launcher/ui/MainWindow.cpp:367
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open %1 subreddit."
-msgstr ""
+msgstr "Open %1 subreddit."
 
 #: src/launcher/ui/MainWindow.cpp:376
 #, qt-format
@@ -3416,12 +3416,12 @@ msgstr "Indeling"
 #: src/launcher/ui/MainWindow.cpp:1010
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
-msgstr ""
+msgstr "Modrinth (WIP)"
 
 #: src/launcher/ui/MainWindow.cpp:1065
 msgctxt "MainWindow|"
 msgid "Profilers"
-msgstr ""
+msgstr "Profilers"
 
 #: src/launcher/ui/MainWindow.cpp:1077
 msgctxt "MainWindow|"
@@ -3609,22 +3609,22 @@ msgstr "Heeft migratievlaggen"
 #: src/launcher/minecraft/MinecraftInstance.cpp:735
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
-msgstr ""
+msgstr "<SESSION ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
-msgstr ""
+msgstr "<ACCESS TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:739
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
-msgstr ""
+msgstr "<CLIENT TOKEN>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
-msgstr ""
+msgstr "<PROFILE ID>"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:813
 msgctxt "MinecraftInstance|"
@@ -3635,7 +3635,7 @@ msgstr "defect"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:821
 #, qt-format
@@ -3717,7 +3717,7 @@ msgstr "Toon de speeltijd alleen in uren"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3797,7 +3797,7 @@ msgstr "De datum en tijd waarop deze mod voor het laatst is gewijzigd (of toegev
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:39
 msgctxt "ModFolderPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/launcher/ui/pages/instance/ModFolderPage.ui:75
 msgctxt "ModFolderPage|"
@@ -3930,7 +3930,7 @@ msgstr "Mods downloaden..."
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Mod download"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -3955,7 +3955,7 @@ msgstr "Kon bestanden niet uitpakken"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Installing modpack"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4424,25 +4424,30 @@ msgstr "Versie"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
+msgid "Platform Selection"
+msgstr "Platform Selectie"
+
+#: src/launcher/ui/pages/global/PasteEEPage.ui:62
+msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
 msgstr "paste.ee API-sleutel"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:45
+#: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
 msgstr "MultiMC sleutel - 12MB &upload limiet"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:55
+#: src/launcher/ui/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
 msgstr "&Uw eigen sleutel - 12MB upload limiet:"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:68
+#: src/launcher/ui/pages/global/PasteEEPage.ui:91
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
 msgstr "Plak uw API-sleutel hier!"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:82
+#: src/launcher/ui/pages/global/PasteEEPage.ui:105
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
 msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> wordt door MultiMC gebruikt voor het uploaden van logbestanden. Als u een <a href=\"https://paste.ee\">paste.ee</a> account hebt, kunt u hier uw eigen API-sleutel toevoegen om uw geüploade logbestanden aan uw account te koppelen.</p></body></html>"
@@ -4452,12 +4457,12 @@ msgctxt "PasteEEPage|"
 msgid "Log Upload"
 msgstr "Log upload"
 
-#: src/launcher/net/PasteUpload.cpp:48
+#: src/launcher/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
 msgstr "Uploaden naar paste.ee"
 
-#: src/launcher/net/PasteUpload.cpp:77
+#: src/launcher/net/PasteUpload.cpp:82
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
 msgstr "paste.ee gaf een foutmelding. Bekijk de logbestanden voor meer informatie"
@@ -4596,7 +4601,7 @@ msgstr "Dit geldt alleen voor de launcher. Minecraft accepteert geen proxy-inste
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:61
 msgctxt "ProxyPage|"
@@ -4616,12 +4621,12 @@ msgstr "Gee&n"
 #: src/launcher/ui/pages/global/ProxyPage.ui:84
 msgctxt "ProxyPage|"
 msgid "SOC&KS5"
-msgstr ""
+msgstr "SOC&KS5"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:94
 msgctxt "ProxyPage|"
 msgid "H&TTP"
-msgstr ""
+msgstr "H&TTP"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:107
 msgctxt "ProxyPage|"
@@ -4651,108 +4656,37 @@ msgstr "Opmerking: Proxy-gebruikersnaam en wachtwoord worden als platte tekst in
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Geen profiel (%1)"
+msgid "Path is empty"
+msgstr "Pad is leeg"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments is ingesteld op onbekende waarde '%1'"
+msgid "Path does not exist"
+msgstr "Pad bestaat niet"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "De 'minimumLauncherVersion' waarde van deze versie (%1) is hoger dan wat door %3 (%2) ondersteund wordt. Mogelijk werkt dit niet goed!"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Pad lijkt geen MCEdit pad te zijn"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Bibliotheeknaam %1 is ongeldig en kan niet worden verwerkt."
+msgid "Empty path"
+msgstr "Leeg pad"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Assets van %1"
+msgid "Invalid path to JVisualVM"
+msgstr "Ongeldig pad naar JVisualVM"
 
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Ongeldige onderdeelbestands-versie, verwachtte %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Versiebestand heeft zowel '+libraries' als 'libraries'. Dit wordt niet meer ondersteund."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "URL voor de hoofdjar kon niet worden bepaald - Mojang verwijderde de server die we als fallback hebben gebruikt."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Versie-bestand bevat niet-ondersteund element 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Versiebestand bevat niet-ondersteund element '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Versiebestand bevat niet-ondersteund element '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Versiebestand bevat niet-ondersteund element '-minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Versiebestand bevat niet-ondersteund element '+minecraftArguments'"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch is nog niet geladen."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Ongeldige volgordebestands-versie, verwachtte %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Versiebestand %1 kon niet worden geopend: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Versiebestand %1 kon niet worden verwerkt: %2 in regel %3, kolom %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Versiebestand %1 kon niet worden verwerkt."
+msgid "Invalid JProfiler install"
+msgstr "Ongeldige JProfiler installatie"
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4771,48 +4705,6 @@ msgstr "%1u %2m"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1d %2u %3m"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Download van meta-bestand %1"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Onbekende opmaakversie!"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Leeg pad"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Ongeldig pad naar JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Pad is leeg"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Pad bestaat niet"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Pad lijkt geen MCEdit pad te zijn"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Ongeldige JProfiler installatie"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4857,6 +4749,241 @@ msgstr "Het terugdraaien is ook mislukt.\n"
 "U zult %1 handmatig moeten repareren.\n"
 "Laat ons weten hoe en waarom dit is gebeurd."
 
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Donker"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Licht"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Systeem"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Oorspronkelijke auteur"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Beheerder"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patrons"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>Er zijn geen wijzigingen in de code tussen de vorige versie en uw huidige versie.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>De volgende commits zijn sinds de vorige update toegevoegd:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Deze update verwijdert %1 commits en voegt de volgende %2 toe:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>U kunt <a href=\"%1\">de wijzigingen op GitHub bekijken</a>.</p>"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Upload mislukt"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Het logbestand is te groot. U zult het handmatig moeten uploaden."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Uploaden voltooid"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "De <a href=\"%1\">link naar het geüploade logbestand</a> is op uw klembord geplaatst."
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (in gebruik)"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Het opgegeven bestand bestaat niet of is geen uitvoerbaar bestand."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "De opgegeven java-binary is niet correct gestart.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "De opgegeven java-binary gaf onverwachte resultaten:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Java test geslaagd!<br />Platform gemeld: %1<br />Java versie gemeld: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Java test mislukt"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Java test geslaagd"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft server"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Omschrijving ontbreekt in de FTB app instantie."
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Onbekende opmaakversie!"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Download van meta-bestand %1"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Geen profiel (%1)"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Ongeldige volgordebestands-versie, verwachtte %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Versiebestand %1 kon niet worden geopend: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Versiebestand %1 kon niet worden verwerkt: %2 in regel %3, kolom %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Versiebestand %1 kon niet worden verwerkt."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Versiebestand heeft zowel '+libraries' als 'libraries'. Dit wordt niet meer ondersteund."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "URL voor de hoofdjar kon niet worden bepaald - Mojang verwijderde de server die we als fallback hebben gebruikt."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Versie-bestand bevat niet-ondersteund element 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Versiebestand bevat niet-ondersteund element '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Versiebestand bevat niet-ondersteund element '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Versiebestand bevat niet-ondersteund element '-minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Versiebestand bevat niet-ondersteund element '+minecraftArguments'"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Ongeldige onderdeelbestands-versie, verwachtte %1"
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "Assets van %1"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch is nog niet geladen."
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments is ingesteld op onbekende waarde '%1'"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "De 'minimumLauncherVersion' waarde van deze versie (%1) is hoger dan wat door %3 (%2) ondersteund wordt. Mogelijk werkt dit niet goed!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Bibliotheeknaam %1 is ongeldig en kan niet worden verwerkt."
+
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
@@ -4890,137 +5017,15 @@ msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />Waarschuwingen:<br /><font color=\"orange\">%1</font>"
 
-#: src/launcher/JavaCommon.cpp:46
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java test geslaagd"
-
 #: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "De opgegeven java-binary werkt niet met de argumenten die u hebt ingegeven:<br />"
 
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java test mislukt"
-
 #: src/launcher/JavaCommon.cpp:62
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "De opgegeven java-binary werkt niet.<br />Gebruik de auto-detectie functie, of zet het pad naar het uitvoerbare javabestand. <br />"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft server"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Omschrijving ontbreekt in de FTB app instantie."
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (in gebruik)"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Oorspronkelijke auteur"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Beheerder"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Er zijn geen wijzigingen in de code tussen de vorige versie en uw huidige versie.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>De volgende commits zijn sinds de vorige update toegevoegd:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Deze update verwijdert %1 commits en voegt de volgende %2 toe:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>U kunt <a href=\"%1\">de wijzigingen op GitHub bekijken</a>.</p>"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Systeem"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Licht"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Donker"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Upload mislukt"
-
-#: src/launcher/ui/GuiUtil.cpp:30
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Het logbestand is te groot. U zult het handmatig moeten uploaden."
-
-#: src/launcher/ui/GuiUtil.cpp:51
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Uploaden voltooid"
-
-#: src/launcher/ui/GuiUtil.cpp:52
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "De <a href=\"%1\">link naar het geüploade logbestand</a> is op uw klembord geplaatst."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Het opgegeven bestand bestaat niet of is geen uitvoerbaar bestand."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "De opgegeven java-binary is niet correct gestart.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "De opgegeven java-binary gaf onverwachte resultaten:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java test geslaagd!<br />Platform gemeld: %1<br />Java versie gemeld: %2<br />"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5225,15 +5230,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Deelnemen"
 
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Servers"
+
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "Contextmenu"
-
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr ""
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
@@ -5673,7 +5678,7 @@ msgstr "Er zijn momenteel geen versies beschikbaar."
 #: src/launcher/ui/pages/instance/VersionPage.ui:60
 msgctxt "VersionPage|"
 msgid "Filter:"
-msgstr ""
+msgstr "Filter:"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:82
 msgctxt "VersionPage|"
@@ -5935,7 +5940,7 @@ msgstr "Jar mods selecteren"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:301
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
-msgstr ""
+msgstr "Minecraft.jar mods (*.zip *.jar)"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:311
 msgctxt "VersionPage|"
@@ -6058,7 +6063,7 @@ msgstr "Versie"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6068,7 +6073,7 @@ msgstr "Aftakking"
 #: src/launcher/VersionProxyModel.cpp:82
 msgctxt "VersionProxyModel|"
 msgid "Type"
-msgstr ""
+msgstr "Type"
 
 #: src/launcher/VersionProxyModel.cpp:84
 msgctxt "VersionProxyModel|"
@@ -6243,7 +6248,7 @@ msgstr "Verwijderen"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6273,7 +6278,7 @@ msgstr "Verwijder het wereldpictogram zodat de volgende keer dat het spel wordt 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:163
 msgctxt "WorldListPage|"
 msgid "Datapacks"
-msgstr ""
+msgstr "Datapacks"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:166
 msgctxt "WorldListPage|"
@@ -6575,4 +6580,14 @@ msgstr "Mojang gebruikersauthenticatie mislukt."
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
 msgstr "Mojang gebruikersauthenticatie eindigde met een netwerkfout."
+
+#: src/launcher/net/mcloUpload.cpp:33
+msgctxt "mcloUpload|"
+msgid "Uploading to mclo.gs"
+msgstr "Uploaden naar mclo.gs"
+
+#: src/launcher/net/mcloUpload.cpp:69
+msgctxt "mcloUpload|"
+msgid "mclo.gs returned an error. Please consult the logs for more information"
+msgstr "mclo.gs gaf een foutmelding. Raadpleeg de logs voor meer informatie"
 
