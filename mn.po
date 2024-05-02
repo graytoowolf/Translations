@@ -5,15 +5,15 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Crowdin-Project: miniskins\n"
-"X-Crowdin-Project-ID: 663418\n"
+"X-Crowdin-Project: mcpeau\n"
+"X-Crowdin-Project-ID: 671910\n"
 "X-Crowdin-Language: mn\n"
 "X-Crowdin-File: /main/template.pot\n"
-"X-Crowdin-File-ID: 8\n"
-"Project-Id-Version: miniskins\n"
+"X-Crowdin-File-ID: 4\n"
+"Project-Id-Version: mcpeau\n"
 "Language-Team: Mongolian\n"
 "Language: mn_MN\n"
-"PO-Revision-Date: 2024-04-05 15:18\n"
+"PO-Revision-Date: 2024-05-02 14:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -385,6 +385,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Бүртгэлүүд"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -392,48 +397,43 @@ msgid "Welcome!\n"
 msgstr "Тавтай морилно уу!\n"
 "Хэрэв та энд шинээр ирсэн бол Можанг эсвэл Майкрософт бүртгэлээ \"Бүртгэл нэмэх\" Товчлуурыг дарж, бүртгэлээ нэмэх боломжтой."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:88
+#: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Контекст цэс"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:119
-#: src/launcher/ui/pages/global/AccountListPage.cpp:147
+#: src/launcher/ui/pages/global/AccountListPage.cpp:120
+#: src/launcher/ui/pages/global/AccountListPage.cpp:148
 msgctxt "AccountListPage|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr "Бүртгэлээ нэмэхийн тулд Mojang бүртгэлийнхээ имэйл хаяг, нууц үгээ оруулна уу."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:136
+#: src/launcher/ui/pages/global/AccountListPage.cpp:137
 msgctxt "AccountListPage|"
 msgid "Microsoft Accounts not available"
 msgstr "Microsoft бүртгэл ашиглах боломжгүй"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:137
+#: src/launcher/ui/pages/global/AccountListPage.cpp:138
 msgctxt "AccountListPage|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
 msgstr "Майкрософт бүртгэлүүдийг зөвхөн macOS 10.13 буюу түүнээс дээш хувилбарт, бүрэн шинэчлэгдсэн MultiMC-тэй ашиглах боломжтой.\n\n"
 "Үйлдлийн систем болон MultiMC-ээ шинэчилнэ үү."
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
 msgstr "Дүр төрх устгах"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:251
+#: src/launcher/ui/pages/global/AccountListPage.cpp:252
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
 msgstr "Одоогийн ашиглаж буй дүр төрхийг устгах явц амжилтгүй боллоо!"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:260
+#: src/launcher/ui/pages/global/AccountListPage.cpp:261
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Бүртгэлүүд"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -501,7 +501,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr "Анализыг идэвхжүүлэх"
 
-#: src/launcher/Application.cpp:809
+#: src/launcher/Application.cpp:812
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Тохиргоо"
@@ -981,7 +981,7 @@ msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:216
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1435,6 +1435,11 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Локал файл эсвэл шууд татаж авах холбоос:"
 
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Зипээс импортлох"
+
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1444,11 +1449,6 @@ msgstr "Modpack сонгох"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
-
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Зипээс импортлох"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1538,7 +1538,7 @@ msgid "Could not understand pack manifest:\n"
 msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:687
+#: src/launcher/InstanceImportTask.cpp:689
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Дарах фолдерын нэрийг өөрчилж чадсангүй:\n"
@@ -1566,48 +1566,48 @@ msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:386
-#: src/launcher/InstanceImportTask.cpp:729
+#: src/launcher/InstanceImportTask.cpp:388
+#: src/launcher/InstanceImportTask.cpp:731
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Өөрчлөлтийг татаж авах"
 
-#: src/launcher/InstanceImportTask.cpp:406
+#: src/launcher/InstanceImportTask.cpp:408
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:422
+#: src/launcher/InstanceImportTask.cpp:424
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:427
+#: src/launcher/InstanceImportTask.cpp:429
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:448
-#: src/launcher/InstanceImportTask.cpp:752
+#: src/launcher/InstanceImportTask.cpp:450
+#: src/launcher/InstanceImportTask.cpp:754
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Өөрчлөлтүүдийг татаж байна..."
 
-#: src/launcher/InstanceImportTask.cpp:459
+#: src/launcher/InstanceImportTask.cpp:461
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:680
+#: src/launcher/InstanceImportTask.cpp:682
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Багцын индексийг ойлгохгүй байна:\n"
 
-#: src/launcher/InstanceImportTask.cpp:694
-#: src/launcher/InstanceImportTask.cpp:699
+#: src/launcher/InstanceImportTask.cpp:696
+#: src/launcher/InstanceImportTask.cpp:701
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Дарагдсан хавтасыг нэгтгэж чадсангүй:\n"
@@ -1809,11 +1809,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Ганц тоглогчийн ертөнц:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Тохиргоо"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1823,6 +1818,11 @@ msgstr "Java хувилбарыг сонгоно уу"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Гүйцэтгэх боломжтой Java-г олоорой"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Тохиргоо"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1952,11 +1952,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Шалгах"
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1966,6 +1961,11 @@ msgstr "Java хувилбарыг сонгох"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Гүйцэтгэх боломжтой Java-г олох"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2705,11 +2705,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Сонгогдсон хувилбар:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "FTB өв"
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2743,6 +2738,11 @@ msgstr "Багцыг устгах"
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Та %1 багцыг устгахдаа итгэлтэй байна уу?"
+
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB өв"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2904,11 +2904,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Доод тал"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Майнкрафт бүртгэл"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2918,6 +2913,11 @@ msgstr "Бүртгэл байршуулах"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Та энэ бүртгэлийн файлыг байршуулахдаа итгэлтэй байна уу?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Майнкрафт бүртгэл"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -4420,25 +4420,30 @@ msgstr "Хувилбар"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
+msgid "Platform Selection"
+msgstr ""
+
+#: src/launcher/ui/pages/global/PasteEEPage.ui:62
+msgctxt "PasteEEPage|"
 msgid "paste.ee API key"
 msgstr "paste.ee API түлхүүр"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:45
+#: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "MultiMC key - 12MB &upload limit"
 msgstr "MultiMC түлхүүр - &байршуулах хязгаар 12MB"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:55
+#: src/launcher/ui/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
 msgid "&Your own key - 12MB upload limit:"
 msgstr "&Таны түлхүүр - 12MB байршуулах хязгаар:"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:68
+#: src/launcher/ui/pages/global/PasteEEPage.ui:91
 msgctxt "PasteEEPage|"
 msgid "Paste your API key here!"
 msgstr "API түлхүүрээ энд буулгана уу!"
 
-#: src/launcher/ui/pages/global/PasteEEPage.ui:82
+#: src/launcher/ui/pages/global/PasteEEPage.ui:105
 msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
 msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a>-г MultiMC бүртгэл байршуулахад ашигладаг. Хэрэв танд <a href=\"https://paste.ee\">paste.ee</a> бүртгэл байгаа бол энд API түлхүүрээ нэмж, байршуулсан бүртгэлээ бүртгэлтэйгээ хослуулах боломжтой.</p></body></html>"
@@ -4448,12 +4453,12 @@ msgctxt "PasteEEPage|"
 msgid "Log Upload"
 msgstr "Бүртгэл байршуулах"
 
-#: src/launcher/net/PasteUpload.cpp:48
+#: src/launcher/net/PasteUpload.cpp:46
 msgctxt "PasteUpload|"
 msgid "Uploading to paste.ee"
 msgstr "Paste.ee-д байршуулж байна"
 
-#: src/launcher/net/PasteUpload.cpp:77
+#: src/launcher/net/PasteUpload.cpp:82
 msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
 msgstr "paste.ee алдаа гаргав. Дэлгэрэнгүй мэдээллийг бүртгэлээс авна уу"
@@ -4649,106 +4654,35 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Прокси"
 
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Профайл байхгүй (%1)"
+msgid "Path is empty"
+msgstr "Зам хоосон байна"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments-г '%1' үл мэдэгдэх утгад тохируулсан"
+msgid "Path does not exist"
+msgstr "Зам байхгүй"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Энэ хувилбарын 'minimumLauncherVersion' утга (%1) нь %3 (%2)-ийн дэмжсэн хэмжээнээс өндөр байна. Энэ нь зөв ажиллахгүй байж магадгүй юм!"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Зам нь MCEdit рүү явах зам биш бололтой"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "%1 сангийн нэр эвдэрсэн тул боловсруулах боломжгүй."
+msgid "Empty path"
+msgstr "Хоосон зам"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1-ийн хөрөнгө"
+msgid "Invalid path to JVisualVM"
+msgstr "JVisualVM руу явах буруу зам"
 
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Компонент файлын хувилбар буруу, хүлээгдэж буй %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Хувилбарын файл нь '+сан' ба 'сан'-тай. Үүнийг цаашид дэмжихээ больсон."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "Үндсэн jar-ын нэгдсэн нөөцийн байршлыг тодорхойлж чадсангүй - Mojang бидний нөөц болгон ашиглаж байсан серверийг устгасан."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Хувилбарын файл нь дэмжигдээгүй 'tweakers' элементийг агуулж байна"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Хувилбарын файл нь дэмжигдээгүй '-libraries' элементийг агуулж байна"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Хувилбарын файл нь дэмжигдээгүй '-tweakers' элементийг агуулж байна"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Хувилбарын файл нь дэмжигдээгүй '-minecraftArguments' элементийг агуулж байна"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Хувилбарын файл нь дэмжигдээгүй '+minecraftArguments' элементийг агуулж байна"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Засварлалт хараахан ачаалагдаагүй байна."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Захиалгын файлын хувилбар буруу, хүлээгдэж буй %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "%1 хувилбарын файлыг нээх боломжгүй байна: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "%1 хувилбарын файлыг боловсруулах боломжгүй: %4 баганы %3 мөрний %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "%1 хувилбарын файлыг боловсруулах боломжгүй."
+msgid "Invalid JProfiler install"
+msgstr "Буруу JProfiler суулгац"
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -4767,48 +4701,6 @@ msgstr "%1 цаг %2 минут"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1d өдөр %2 цаг %3 минут"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "%1 мета файлыг татаж авах"
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Үл мэдэгдэх форматын хувилбар!"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Хоосон зам"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "JVisualVM руу явах буруу зам"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Зам хоосон байна"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Зам байхгүй"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Зам нь MCEdit рүү явах зам биш бололтой"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Буруу JProfiler суулгац"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4853,76 +4745,20 @@ msgstr "Буцааж чадсангүй.\n"
 "Та %1-г гараар засах хэрэгтэй болно.\n"
 "Яагаад ийм зүйл болсныг бидэнд мэдэгдээрэй."
 
-#: src/launcher/JavaCommon.cpp:10
+#: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "Та JVM санах ойн сонголтыг гараар тохируулахыг оролдсон (\"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" эсвэл \"-Xms\" ашиглан).\n"
-"Тохиргоонд эдгээрт зориулагдсан хайрцагнууд байдаг (Java таб, дээд талд байгаа Санах ойн бүлэгт).\n"
-"Энэ зурвас эд нарыг та JVM аргументаас хасах хүртэл харагдах болно."
+msgid "Dark"
+msgstr "Харанхуй"
 
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+#: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "JVM аргументуудын анхааруулга"
+msgid "Bright"
+msgstr "Гэгээлэг"
 
-#: src/launcher/JavaCommon.cpp:22
+#: src/launcher/ui/themes/SystemTheme.cpp:47
 msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "Та Java хувилбарын шаардлагатай аргументыг JVM-д дамжуулахыг оролдсон (\"-version=xxx\" ашиглан). Энэ нь аюулгүй биш бөгөөд үүнийг зөвшөөрөхгүй.\n"
-"Үүнийг JVM аргументаас хасах хүртэл энэ зурвас харагдах болно."
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Java тест амжилттай боллоо!<br />Платформыг мэдээлсэн: %1<br />Java хувилбарыг мэдээлсэн: %2<br />Java үйлдвэрлэгч мэдээлсэн: %3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />Анхааруулга:<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:46
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java туршилтын амжилт"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "Заасан java хоёртын файл нь таны өгсөн аргументуудтай ажиллахгүй байна:<br />"
-
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java туршилтын алдаа"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "Заасан java хоёртын файл ажиллахгүй байна.<br />Та автоматаар илрүүлэх функцийг ашиглах эсвэл Java-г гүйцэтгэх боломжтойнуудын замыг тохируулах хэрэгтэй.<br />"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft сервер"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "FTB App instance-д тайлбар байхгүй байна."
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (ашиглаж байгаа)"
+msgid "System"
+msgstr "Систем"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:36
 msgctxt "QObject|About Credits"
@@ -4961,41 +4797,32 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Та <a href=\"%1\">github дээр өөрчлөлтүүдийг харах боломжтой</a>.</p>"
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Систем"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Гэгээлэг"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Харанхуй"
-
-#: src/launcher/ui/GuiUtil.cpp:29 src/launcher/ui/GuiUtil.cpp:40
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
 msgid "Upload failed"
 msgstr "Байршуулж чадсангүй"
 
-#: src/launcher/ui/GuiUtil.cpp:30
+#: src/launcher/ui/GuiUtil.cpp:39
 msgctxt "QObject|"
 msgid "The log file is too big. You'll have to upload it manually."
 msgstr "Бүртгэлийн файл хэт том байна. Та үүнийг гараар байршуулах хэрэгтэй болно."
 
-#: src/launcher/ui/GuiUtil.cpp:51
+#: src/launcher/ui/GuiUtil.cpp:60
 msgctxt "QObject|"
 msgid "Upload finished"
 msgstr "Байршуулж дууслаа"
 
-#: src/launcher/ui/GuiUtil.cpp:52
+#: src/launcher/ui/GuiUtil.cpp:61
 #, qt-format
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "<a href=\"%1\">Байршуулсан бүртгэлийн холбоос</a> таны санах ойд байршлаа."
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (ашиглаж байгаа)"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -5017,6 +4844,184 @@ msgstr "Заасан java хоёртын файл нь гэнэтийн үр д�
 msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java тест амжилттай боллоо!<br />Платформыг мэдээлсэн: %1<br />Java хувилбарыг мэдээлсэн: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Java туршилтын алдаа"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Java туршилтын амжилт"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft сервер"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "FTB App instance-д тайлбар байхгүй байна."
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Үл мэдэгдэх форматын хувилбар!"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "%1 мета файлыг татаж авах"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:499
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Профайл байхгүй (%1)"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Захиалгын файлын хувилбар буруу, хүлээгдэж буй %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "%1 хувилбарын файлыг нээх боломжгүй байна: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "%1 хувилбарын файлыг боловсруулах боломжгүй: %4 баганы %3 мөрний %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "%1 хувилбарын файлыг боловсруулах боломжгүй."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Хувилбарын файл нь '+сан' ба 'сан'-тай. Үүнийг цаашид дэмжихээ больсон."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "Үндсэн jar-ын нэгдсэн нөөцийн байршлыг тодорхойлж чадсангүй - Mojang бидний нөөц болгон ашиглаж байсан серверийг устгасан."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Хувилбарын файл нь дэмжигдээгүй 'tweakers' элементийг агуулж байна"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Хувилбарын файл нь дэмжигдээгүй '-libraries' элементийг агуулж байна"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Хувилбарын файл нь дэмжигдээгүй '-tweakers' элементийг агуулж байна"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Хувилбарын файл нь дэмжигдээгүй '-minecraftArguments' элементийг агуулж байна"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Хувилбарын файл нь дэмжигдээгүй '+minecraftArguments' элементийг агуулж байна"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Компонент файлын хувилбар буруу, хүлээгдэж буй %1"
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "%1-ийн хөрөнгө"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Засварлалт хараахан ачаалагдаагүй байна."
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments-г '%1' үл мэдэгдэх утгад тохируулсан"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Энэ хувилбарын 'minimumLauncherVersion' утга (%1) нь %3 (%2)-ийн дэмжсэн хэмжээнээс өндөр байна. Энэ нь зөв ажиллахгүй байж магадгүй юм!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "%1 сангийн нэр эвдэрсэн тул боловсруулах боломжгүй."
+
+#: src/launcher/JavaCommon.cpp:10
+msgctxt "QObject|"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "Та JVM санах ойн сонголтыг гараар тохируулахыг оролдсон (\"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" эсвэл \"-Xms\" ашиглан).\n"
+"Тохиргоонд эдгээрт зориулагдсан хайрцагнууд байдаг (Java таб, дээд талд байгаа Санах ойн бүлэгт).\n"
+"Энэ зурвас эд нарыг та JVM аргументаас хасах хүртэл харагдах болно."
+
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+msgctxt "QObject|"
+msgid "JVM arguments warning"
+msgstr "JVM аргументуудын анхааруулга"
+
+#: src/launcher/JavaCommon.cpp:22
+msgctxt "QObject|"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "Та Java хувилбарын шаардлагатай аргументыг JVM-д дамжуулахыг оролдсон (\"-version=xxx\" ашиглан). Энэ нь аюулгүй биш бөгөөд үүнийг зөвшөөрөхгүй.\n"
+"Үүнийг JVM аргументаас хасах хүртэл энэ зурвас харагдах болно."
+
+#: src/launcher/JavaCommon.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Java тест амжилттай боллоо!<br />Платформыг мэдээлсэн: %1<br />Java хувилбарыг мэдээлсэн: %2<br />Java үйлдвэрлэгч мэдээлсэн: %3<br />"
+
+#: src/launcher/JavaCommon.cpp:44
+#, qt-format
+msgctxt "QObject|"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />Анхааруулга:<br /><font color=\"orange\">%1</font>"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "Заасан java хоёртын файл нь таны өгсөн аргументуудтай ажиллахгүй байна:<br />"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "Заасан java хоёртын файл ажиллахгүй байна.<br />Та автоматаар илрүүлэх функцийг ашиглах эсвэл Java-г гүйцэтгэх боломжтойнуудын замыг тохируулах хэрэгтэй.<br />"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5221,15 +5226,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Нэгдэх"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:605
-msgctxt "ServersPage|"
-msgid "Context menu"
-msgstr "Контекст цэс"
-
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
 msgstr "Серверүүд"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:605
+msgctxt "ServersPage|"
+msgid "Context menu"
+msgstr "Контекст цэс"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
@@ -6569,4 +6574,14 @@ msgstr "Можанг хэрэглэгчийн баталгаажуулалт а�
 msgctxt "YggdrasilStep|"
 msgid "Mojang user authentication ended with a network error."
 msgstr "Можанг хэрэглэгчийн баталгаажуулалт сүлжээний алдаагаар дууссан."
+
+#: src/launcher/net/mcloUpload.cpp:33
+msgctxt "mcloUpload|"
+msgid "Uploading to mclo.gs"
+msgstr ""
+
+#: src/launcher/net/mcloUpload.cpp:69
+msgctxt "mcloUpload|"
+msgid "mclo.gs returned an error. Please consult the logs for more information"
+msgstr ""
 
