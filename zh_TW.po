@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2024-11-11 01:50\n"
+"PO-Revision-Date: 2024-11-11 02:35\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -358,7 +358,7 @@ msgstr "重新整理帳號權杖"
 #: src/launcher/ui/pages/global/AccountListPage.ui:123
 msgctxt "AccountListPage|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "添加皮肤站账号"
 
 #: src/launcher/ui/pages/global/AccountListPage.h:42
 msgctxt "AccountListPage|"
@@ -408,7 +408,7 @@ msgstr "無法刪除目前的外觀！"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:261
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
-msgstr ""
+msgstr "请输入您的皮肤站点帐户电子邮件和密码以添加您的帐户。"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -607,7 +607,7 @@ msgstr "正在安裝"
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
 msgctxt "AtlPage|"
 msgid "ATLauncher"
-msgstr ""
+msgstr "ATLauncher"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -632,7 +632,7 @@ msgstr "已中止分析器"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:20
 msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
-msgstr ""
+msgstr "添加皮肤站账号"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:42
 msgctxt "BsLoginDialog|"
@@ -647,188 +647,188 @@ msgstr "密碼"
 #: src/launcher/ui/dialogs/BsLoginDialog.ui:74
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
-msgstr ""
+msgstr "注册帐户"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.cpp:34
 msgctxt "BsLoginDialog|"
 msgid "Custom Yggdrasil API"
-msgstr ""
+msgstr "Custom Yggdrasil API"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.cpp:37
 msgctxt "BsLoginDialog|"
 msgid "For example: https://www.mcpeau.com/api/yggdrasil"
-msgstr ""
+msgstr "For example: https://www.mcpeau.com/api/yggdrasil"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
-msgstr ""
+msgstr "正在取得 Minecraft 個人檔案。"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:62
 msgctxt "BsMinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
-msgstr ""
+msgstr "這個帳號沒有 Minecraft 個人檔案。"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:77
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
-msgstr ""
+msgstr "取得 Minecraft Java 個人檔案失敗。"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:110
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
-msgstr ""
+msgstr "取得 Minecraft Java 個人檔案成功。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:202
 msgctxt "BsYggdrasil|"
 msgid "Authentication server didn't send a client token."
-msgstr ""
+msgstr "驗證伺服器未傳送用戶端權杖。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:211
 msgctxt "BsYggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
-msgstr ""
+msgstr "驗證伺服器嘗試修改用戶端權杖。不支援此操作。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:224
 msgctxt "BsYggdrasil|"
 msgid "Authentication server didn't send an access token."
-msgstr ""
+msgstr "驗證伺服器未傳送存取權杖。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:247
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation timed out."
-msgstr ""
+msgstr "驗證逾時。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:250
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation cancelled."
-msgstr ""
+msgstr "已取消驗證。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:255
 msgctxt "BsYggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
-msgstr ""
+msgstr "<b>SSL 交握失敗。</b><br/>這可能有幾種原因：<br/><ul><li> 您使用 Windows 並需要更新您的根憑證，請安裝任何未完成的更新。</li><li> 在您的網路中有一些裝置正在干擾 SSL 流量。在此情況下，您有比無法啟動 Minecraft 還更大的擔憂。</li><li> 亦可能是一些其他的原因。確認記錄檔以了解詳情。</li></ul>"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:272
 msgctxt "BsYggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
-msgstr ""
+msgstr "這個 Mojang 帳號不存在。可能是已遷移至 Microsoft 帳號。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:277
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
-msgstr ""
+msgstr "Authentication operation failed due to a network error: %1 (%2)"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:304
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
-msgstr ""
+msgstr "解析驗證伺服器的 JSON 回應失敗：%1 於偏移 %2。"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:329
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
-msgstr ""
+msgstr "與驗證伺服器溝通時發生未知的錯誤：%1"
 
 #: src/launcher/minecraft/auth/BsYggdrasil.cpp:351
 msgctxt "BsYggdrasil|"
 msgid "An unknown BsYggdrasil error occurred."
-msgstr ""
+msgstr "发生未知的 BsYggdrasil 错误。"
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:19
 msgctxt "BsYggdrasilStep|"
 msgid "Logging in with Mojang account."
-msgstr ""
+msgstr "使用 Mojang 帳號登入。"
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:41
 msgctxt "BsYggdrasilStep|"
 msgid "Logged in with mcpeau"
-msgstr ""
+msgstr "使用 mcpeau 登录"
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:51
 msgctxt "BsYggdrasilStep|"
 msgid "mcpeau user authentication failed."
-msgstr ""
+msgstr "mcpeau 用户身份验证失败。"
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:57
 msgctxt "BsYggdrasilStep|"
 msgid "mcpeau user authentication ended with a network error."
-msgstr ""
+msgstr "mcpeau用户认证结束时出现网络错误。"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.ui:52
 msgctxt "CFPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "選擇的版本："
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.ui:67
 msgctxt "CFPage|"
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.ui:74
 msgctxt "CFPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "搜尋並篩選…"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
 msgid "Sort by featured"
-msgstr ""
+msgstr "按精选内容排序"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
 msgctxt "CFPage|"
 msgid "Sort by popularity"
-msgstr ""
+msgstr "依人氣排序"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:29
 msgctxt "CFPage|"
 msgid "Sort by last updated"
-msgstr ""
+msgstr "依最後更新時間排序"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:30
 msgctxt "CFPage|"
 msgid "Sort by name"
-msgstr ""
+msgstr "依名稱排序"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:31
 msgctxt "CFPage|"
 msgid "Sort by author"
-msgstr ""
+msgstr "按作者排序"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:32
 msgctxt "CFPage|"
 msgid "Sort by total downloads"
-msgstr ""
+msgstr "依下載總量排序"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:82
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
-msgstr ""
+msgstr "<a href=\"%1\">Wiki</a>"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Bug tracker</a>"
-msgstr ""
+msgstr "<a href=\"%1\">Bug Tracker</a>"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:88
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Source code</a>"
-msgstr ""
+msgstr "<a href=\"%1\">源代码</a>"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:101
 msgctxt "CFPage|"
 msgid " by "
-msgstr ""
+msgstr " by "
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
 msgctxt "CFPage|"
 msgid "CurseForge"
-msgstr ""
+msgstr "CurseForge"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:19
 msgctxt "CapeChange|"
@@ -961,17 +961,17 @@ msgstr "選擇捷徑路徑"
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
-msgstr ""
+msgstr "解析模组包"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
-msgstr ""
+msgstr "正在解析模组ID..."
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
+msgstr "一些模组 ID 解决任务失败。"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1260,17 +1260,17 @@ msgstr "已取得強制遷移標記"
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.ui:22
 msgctxt "FtbPage|"
 msgid "Version selected:"
-msgstr ""
+msgstr "選擇的版本："
 
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.ui:37
 msgctxt "FtbPage|"
 msgid "Search and filter ..."
-msgstr ""
+msgstr "搜尋並篩選…"
 
 #: src/launcher/ui/pages/modplatform/modpacksch/FtbPage.h:43
 msgctxt "FtbPage|"
 msgid "FTB"
-msgstr ""
+msgstr "FTB"
 
 #: src/launcher/minecraft/gameoptions/GameOptions.cpp:82
 msgctxt "GameOptions|"
@@ -1430,7 +1430,7 @@ msgstr "選擇模組包"
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
+msgstr "压缩包 (*.zip *.mrpack)"
 
 #: src/launcher/ui/pages/modplatform/ImportPage.h:40
 msgctxt "ImportPage|"
@@ -1440,7 +1440,7 @@ msgstr "從 .zip 檔匯入"
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/launcher/ui/widgets/InstanceCardWidget.ui:27
 msgctxt "InstanceCardWidget|"
@@ -1522,7 +1522,7 @@ msgstr "已中止實例匯入。"
 #: src/launcher/InstanceImportTask.cpp:243
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "無法解析模組包資訊清單：\n"
 
 #: src/launcher/InstanceImportTask.cpp:254
 #: src/launcher/InstanceImportTask.cpp:689
@@ -1534,24 +1534,24 @@ msgstr "無法重新命名覆蓋的資料夾：\n"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
-msgstr ""
+msgstr "指定的替代文件夹 (%1) 丢失。也许此前已经使用了modpack吗？"
 
 #: src/launcher/InstanceImportTask.cpp:288
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
-msgstr ""
+msgstr "清单中的未知模组加载器: %1"
 
 #: src/launcher/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
-msgstr ""
+msgstr "导入包时从Minecraft版本中删除神秘的尾随点。"
 
 #: src/launcher/InstanceImportTask.cpp:317
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
-msgstr ""
+msgstr "无法映射推荐的 Minecraft 版本的 %1"
 
 #: src/launcher/InstanceImportTask.cpp:388
 #: src/launcher/InstanceImportTask.cpp:731
@@ -1563,19 +1563,19 @@ msgstr "模組包下載"
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
-msgstr ""
+msgstr "这个“文件夹”可能需要提取： %1"
 
 #: src/launcher/InstanceImportTask.cpp:424
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
-msgstr ""
+msgstr "未实现modpacks 中嵌套的modpacks ，没有下载任何: %1"
 
 #: src/launcher/InstanceImportTask.cpp:429
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
-msgstr ""
+msgstr "无法识别/未处理的包类型： %1"
 
 #: src/launcher/InstanceImportTask.cpp:450
 #: src/launcher/InstanceImportTask.cpp:754
@@ -1586,7 +1586,7 @@ msgstr "正在下載模組包…"
 #: src/launcher/InstanceImportTask.cpp:461
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
-msgstr ""
+msgstr "无法解析模组 ID：\n"
 
 #: src/launcher/InstanceImportTask.cpp:682
 msgctxt "InstanceImportTask|"
@@ -1942,7 +1942,7 @@ msgstr "測試"
 #: src/launcher/ui/pages/global/JavaPage.h:42
 msgctxt "JavaPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
@@ -2014,7 +2014,7 @@ msgstr "瀏覽"
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:94
 msgctxt "JavaWizardPage|"
 msgid "Java"
-msgstr ""
+msgstr "Java"
 
 #: src/launcher/ui/setupwizard/JavaWizardPage.cpp:95
 msgctxt "JavaWizardPage|"
@@ -2165,7 +2165,7 @@ msgstr "請輸入您 Mojang 帳號的電子郵件與密碼以新增您的帳號�
 #: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr ""
+msgstr "请输入您的 MiniSkins 账号和密码以添加您的帐户。"
 
 #: src/launcher/LaunchController.cpp:285
 msgctxt "LaunchController|"
@@ -2324,42 +2324,42 @@ msgstr "圖示(&I)："
 #: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
-msgstr ""
+msgstr "下载设置"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
-msgstr ""
+msgstr "下载源："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Number of download threads:"
-msgstr ""
+msgstr "下载线程数："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
-msgstr ""
+msgstr "6"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
-msgstr ""
+msgstr "8"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
-msgstr ""
+msgstr "16"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
-msgstr ""
+msgstr "32"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
@@ -3114,7 +3114,7 @@ msgstr "開啟錯誤追蹤器以回報 %1 的錯誤。"
 #: src/launcher/ui/MainWindow.cpp:356
 msgctxt "MainWindow|"
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: src/launcher/ui/MainWindow.cpp:357
 #, qt-format
@@ -3125,7 +3125,7 @@ msgstr "開啟 %1 的 Discord 語音群。"
 #: src/launcher/ui/MainWindow.cpp:366
 msgctxt "MainWindow|"
 msgid "Reddit"
-msgstr ""
+msgstr "Reddit"
 
 #: src/launcher/ui/MainWindow.cpp:367
 #, qt-format
@@ -3350,12 +3350,12 @@ msgstr "複製所選的實例。"
 #: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Check for Updates"
-msgstr ""
+msgstr "Check for Updates"
 
 #: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
-msgstr ""
+msgstr "Check for updates for the selected instance."
 
 #: src/launcher/ui/MainWindow.cpp:682
 #, qt-format
@@ -3452,80 +3452,81 @@ msgstr "無法為下載的更新建立資料夾：%1"
 #: src/launcher/ui/MainWindow.cpp:1437
 msgctxt "MainWindow|"
 msgid "Warnings"
-msgstr ""
+msgstr "Warnings"
 
 #: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1563
 msgctxt "MainWindow|"
 msgid "Abort"
-msgstr ""
+msgstr "Abort"
 
 #: src/launcher/ui/MainWindow.cpp:1481 src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Update Check"
-msgstr ""
+msgstr "Update Check"
 
 #: src/launcher/ui/MainWindow.cpp:1481
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
-msgstr ""
+msgstr "Automatic updates are currently only supported for the CurseForge platform."
 
 #: src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Please manually re-download the modpacks."
-msgstr ""
+msgstr "Please manually re-download the modpacks."
 
 #: src/launcher/ui/MainWindow.cpp:1525
 msgctxt "MainWindow|"
 msgid "Update Available"
-msgstr ""
+msgstr "Update Available"
 
 #: src/launcher/ui/MainWindow.cpp:1526
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr ""
+msgstr "A new update is available. The latest version is: %1. Would you like to update now?"
 
 #: src/launcher/ui/MainWindow.cpp:1542
 msgctxt "MainWindow|"
 msgid "No Update"
-msgstr ""
+msgstr "No Update"
 
 #: src/launcher/ui/MainWindow.cpp:1543
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
-msgstr ""
+msgstr "Your modpack is up to date. No updates necessary."
 
 #: src/launcher/ui/MainWindow.cpp:1572
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr ""
+msgstr "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
+"Please add your Mojang or Minecraft account."
 
 #: src/launcher/ui/MainWindow.cpp:1706
 msgctxt "MainWindow|"
 msgid "Group name"
-msgstr ""
+msgstr "Group name"
 
 #: src/launcher/ui/MainWindow.cpp:1706
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
-msgstr ""
+msgstr "Enter a new group name."
 
 #: src/launcher/ui/MainWindow.cpp:1728
 msgctxt "MainWindow|"
 msgid "Delete group"
-msgstr ""
+msgstr "Delete group"
 
 #: src/launcher/ui/MainWindow.cpp:1728
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
-msgstr ""
+msgstr "Are you sure you want to delete the group %1"
 
 #: src/launcher/ui/MainWindow.cpp:1869
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
-msgstr ""
+msgstr "CAREFUL!"
 
 #: src/launcher/ui/MainWindow.cpp:1870
 #, qt-format
@@ -3533,51 +3534,53 @@ msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
 "This is permanent and will completely delete the instance.\n\n"
 "Are you sure?"
-msgstr ""
+msgstr "About to delete: %1\n"
+"This is permanent and will completely delete the instance.\n\n"
+"Are you sure?"
 
 #: src/launcher/ui/MainWindow.cpp:2082
 msgctxt "MainWindow|"
 msgid "Rename Instance"
-msgstr ""
+msgstr "Rename Instance"
 
 #: src/launcher/ui/MainWindow.cpp:2095
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
-msgstr ""
+msgstr "Your instance folder contains '!' and this is known to cause Java problems!"
 
 #: src/launcher/ui/MainWindow.cpp:2097
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
-msgstr ""
+msgstr "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 
 #: src/launcher/ui/MainWindow.cpp:2106
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
-msgstr ""
+msgstr "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 
 #: src/launcher/ui/MainWindow.cpp:2113
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
-msgstr ""
+msgstr "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 
 #: src/launcher/ui/MainWindow.cpp:2121
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
-msgstr ""
+msgstr "Your instance folder is in a temporary folder: '%1'!"
 
 #: src/launcher/ui/MainWindow.cpp:2135
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
-msgstr ""
+msgstr "Total playtime: %1 hours"
 
 #: src/launcher/ui/MainWindow.cpp:2137
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
-msgstr ""
+msgstr "Total playtime: %1"
 
 #: src/launcher/minecraft/auth/steps/MigrationEligibilityStep.cpp:15
 msgctxt "MigrationEligibilityStep|"
@@ -3618,7 +3621,7 @@ msgstr "已損壞"
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
-msgstr ""
+msgstr "Minecraft %1 (%2)"
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
@@ -3700,7 +3703,7 @@ msgstr "以小時顯示遊玩時數"
 #: src/launcher/ui/pages/global/MinecraftPage.h:42
 msgctxt "MinecraftPage|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/minecraft/auth/steps/MinecraftProfileStep.cpp:15
 msgctxt "MinecraftProfileStep|"
@@ -3872,73 +3875,73 @@ msgstr "無法建立自訂的 Minecraft.jar 檔。"
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:29
 msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by plays"
-msgstr ""
+msgstr "Sort by plays"
 
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:30
 msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by installs"
-msgstr ""
+msgstr "Sort by installs"
 
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:31
 msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by name"
-msgstr ""
+msgstr "Sort by name"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
-msgstr ""
+msgstr "Failed to find pack version %1"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:101
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
-msgstr ""
+msgstr "Could not understand pack manifest:\n"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
-msgstr ""
+msgstr "Get MOD download link"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
-msgstr ""
+msgstr "Mod downloadurl"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Downloading mods..."
-msgstr ""
+msgstr "Downloading mods..."
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
-msgstr ""
+msgstr "Mod download"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
-msgstr ""
+msgstr "Copying modpack files"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:224
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
-msgstr ""
+msgstr "Failed to copy files"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:231
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Extracting modpack files"
-msgstr ""
+msgstr "Extracting modpack files"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:242
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to extract files"
-msgstr ""
+msgstr "Failed to extract files"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
+msgstr "Installing modpack"
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"
@@ -4159,7 +4162,7 @@ msgstr "正在載入…"
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
-msgstr ""
+msgstr "Modrinth"
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -4182,7 +4185,7 @@ msgstr "名稱"
 #: src/launcher/ui/dialogs/NewComponentDialog.ui:37
 msgctxt "NewComponentDialog|"
 msgid "uid"
-msgstr ""
+msgstr "uid"
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
 #: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
@@ -4408,7 +4411,7 @@ msgstr "版本"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:39
 msgctxt "PasteEEPage|"
 msgid "Platform Selection"
-msgstr ""
+msgstr "Platform Selection"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:62
 msgctxt "PasteEEPage|"
@@ -4639,7 +4642,7 @@ msgstr "備註：Proxy 的使用者名稱及密碼會以明文的方式儲存在
 #: src/launcher/ui/pages/global/ProxyPage.h:39
 msgctxt "ProxyPage|"
 msgid "Proxy"
-msgstr ""
+msgstr "Proxy"
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -5482,7 +5485,7 @@ msgstr " 作者："
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
-msgstr ""
+msgstr "Technic"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -5641,7 +5644,7 @@ msgstr "原版"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 24w14a and above require the use of Java 21"
-msgstr ""
+msgstr "Minecraft 24w14a and above require the use of Java 21"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
@@ -5861,12 +5864,12 @@ msgstr "開啟該實例的本機函式庫資料夾。"
 #: src/launcher/ui/pages/instance/VersionPage.ui:276
 msgctxt "VersionPage|"
 msgid "Install NeoForge"
-msgstr ""
+msgstr "Install NeoForge"
 
 #: src/launcher/ui/pages/instance/VersionPage.ui:279
 msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
-msgstr ""
+msgstr "Install the NeoForge package."
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
@@ -5976,17 +5979,17 @@ msgstr "無法載入或下載 Forge 版本清單！"
 #: src/launcher/ui/pages/instance/VersionPage.cpp:463
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
-msgstr ""
+msgstr "Select NeoForge version"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:465
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
-msgstr ""
+msgstr "No NeoForge versions are currently available for Minecraft "
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:466
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
-msgstr ""
+msgstr "Couldn't load or download the NeoForge version lists!"
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:492
 msgctxt "VersionPage|"
@@ -6051,7 +6054,7 @@ msgstr "版本"
 #: src/launcher/VersionProxyModel.cpp:78
 msgctxt "VersionProxyModel|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/VersionProxyModel.cpp:80
 msgctxt "VersionProxyModel|"
@@ -6236,7 +6239,7 @@ msgstr "移除"
 #: src/launcher/ui/pages/instance/WorldListPage.ui:135
 msgctxt "WorldListPage|"
 msgid "MCEdit"
-msgstr ""
+msgstr "MCEdit"
 
 #: src/launcher/ui/pages/instance/WorldListPage.ui:140
 msgctxt "WorldListPage|"
@@ -6405,12 +6408,13 @@ msgstr "在 %1 授權錯誤的回應中，缺少 XErr 元素。"
 msgctxt "XboxAuthorizationStep|"
 msgid "Your XBox Live account has been banned by Microsoft for violating the XBox Community Standards.\n"
 "This may happen if your account was shared or resold."
-msgstr ""
+msgstr "Your XBox Live account has been banned by Microsoft for violating the XBox Community Standards.\n"
+"This may happen if your account was shared or resold."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:134
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account is linked to a family and your parent or guardian has not given you permission to play online."
-msgstr ""
+msgstr "This Microsoft account is linked to a family and your parent or guardian has not given you permission to play online."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:141
 #, qt-format
@@ -6421,7 +6425,7 @@ msgstr "這個 Microsoft 帳號沒有 Xbox Live 個人檔案。請先在 %1 上�
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:149
 msgctxt "XboxAuthorizationStep|"
 msgid "This account has not accepted the XBox Terms of Service. Please log in online and accept them."
-msgstr ""
+msgstr "This account has not accepted the XBox Terms of Service. Please log in online and accept them."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:157
 msgctxt "XboxAuthorizationStep|"
@@ -6432,12 +6436,12 @@ msgstr "XBox Live 無法在您的國家使用。您被阻擋了。"
 #, qt-format
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account requires proof of age to play. Please login to %1 to provide proof of age."
-msgstr ""
+msgstr "This Microsoft account requires proof of age to play. Please login to %1 to provide proof of age."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:172
 msgctxt "XboxAuthorizationStep|"
 msgid "This Microsoft account has reached its playtime limit and has been blocked from logging in."
-msgstr ""
+msgstr "This Microsoft account has reached its playtime limit and has been blocked from logging in."
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:179
 #, qt-format
@@ -6571,10 +6575,10 @@ msgstr "Mojang 使用者驗證因網路問題而終止。"
 #: src/launcher/net/mcloUpload.cpp:33
 msgctxt "mcloUpload|"
 msgid "Uploading to mclo.gs"
-msgstr ""
+msgstr "Uploading to mclo.gs"
 
 #: src/launcher/net/mcloUpload.cpp:69
 msgctxt "mcloUpload|"
 msgid "mclo.gs returned an error. Please consult the logs for more information"
-msgstr ""
+msgstr "mclo.gs returned an error. Please consult the logs for more information"
 
