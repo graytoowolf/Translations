@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2024-05-03 23:24\n"
+"PO-Revision-Date: 2024-11-11 01:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,107 +224,82 @@ msgstr "<p>Kami menjaga MultiMC untuk tetap menjadi sumber terbuka karena kami p
 "<p>Salah satu dari alasan kenapa untuk menggunakan lisensi Apache adalah karena kami tidak ingin orang untuk menggunakan nama&quot;MultiMC&quot; disaat mendistribusikan proyek tersebut. Ini berarti setiap orang harus menghabiskan waktu untuk menelusuri kedalam kode sumber dan menghapus semua referensi yang merujuk ke &quot;MultiMC&quot;,termasuk tapi tidak terbatas ke ikon proyek dan judul dari jendela,(bukan<b>cabang-MultiMC</b>di dalam judul).</p>\n"
 "<p>Lisensi Apache mencakup penggunaan nama yang sewajarnya - dalam menyebutkan dari sebuah asal usul proyek di dialog bagian tentang dan lisensi tersebut dapat diterima. Namun, proyek cabang ini harus jelas dalam menjelaskan bahwa proyek ini adalah sebuah cabang <b>yang</b> berarti anda mendapatkan restu kami.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:281
+#: src/launcher/minecraft/auth/AccountList.cpp:289
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Belum diperiksa"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:284
+#: src/launcher/minecraft/auth/AccountList.cpp:292
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Tidak Aktif"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:287
+#: src/launcher/minecraft/auth/AccountList.cpp:295
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "Aktif"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:290
+#: src/launcher/minecraft/auth/AccountList.cpp:298
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Bekerja"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:293
+#: src/launcher/minecraft/auth/AccountList.cpp:301
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Error"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:296
+#: src/launcher/minecraft/auth/AccountList.cpp:304
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Kadaluwarsa"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:299
+#: src/launcher/minecraft/auth/AccountList.cpp:307
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Tidak ada"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:302
+#: src/launcher/minecraft/auth/AccountList.cpp:310
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Harus migrasi"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:313
-msgctxt "AccountList|Can Migrate?"
-msgid "N/A"
-msgstr "T/A"
-
-#: src/launcher/minecraft/auth/AccountList.cpp:316
-msgctxt "AccountList|Can Migrate?"
-msgid "Yes"
-msgstr "Bisa"
-
-#: src/launcher/minecraft/auth/AccountList.cpp:319
-msgctxt "AccountList|Can Migrate?"
-msgid "No"
-msgstr "Tidak Bisa"
-
-#: src/launcher/minecraft/auth/AccountList.cpp:353
+#: src/launcher/minecraft/auth/AccountList.cpp:361
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Akun"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:355
+#: src/launcher/minecraft/auth/AccountList.cpp:363
 msgctxt "AccountList|"
 msgid "Type"
 msgstr "Tipe"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:357
+#: src/launcher/minecraft/auth/AccountList.cpp:365
 msgctxt "AccountList|"
 msgid "Status"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:359
-msgctxt "AccountList|"
-msgid "Can Migrate?"
-msgstr "Bisa Migrasi?"
-
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:370
+#: src/launcher/minecraft/auth/AccountList.cpp:378
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Nama pengguna akun."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:372
+#: src/launcher/minecraft/auth/AccountList.cpp:380
 msgctxt "AccountList|"
 msgid "Type of the account - Mojang or MSA."
 msgstr "Tipe akun - Mojang atau MSA."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:374
+#: src/launcher/minecraft/auth/AccountList.cpp:382
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Status akun saat ini."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:376
-msgctxt "AccountList|"
-msgid "Can this account migrate to Microsoft account?"
-msgstr "Bisakah akun ini migrasi ke Akun Microsoft?"
-
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:386
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Nama profil Minecraft yang terkait dengan akunnya."
@@ -501,7 +476,7 @@ msgctxt "AnalyticsWizardPage|"
 msgid "Enable Analytics"
 msgstr "Aktifkan Analisis"
 
-#: src/launcher/Application.cpp:812
+#: src/launcher/Application.cpp:809
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Pengaturan"
@@ -608,11 +583,6 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Pencarian dan filter ..."
 
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -633,6 +603,11 @@ msgstr "Tidak dapat memuat atau mengunduh daftar versi!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Menginstal"
+
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -659,19 +634,29 @@ msgctxt "BsLoginDialog|"
 msgid "Add skin site account"
 msgstr ""
 
-#: src/launcher/ui/dialogs/BsLoginDialog.ui:39
+#: src/launcher/ui/dialogs/BsLoginDialog.ui:42
 msgctxt "BsLoginDialog|"
 msgid "Email"
 msgstr ""
 
-#: src/launcher/ui/dialogs/BsLoginDialog.ui:49
+#: src/launcher/ui/dialogs/BsLoginDialog.ui:52
 msgctxt "BsLoginDialog|"
 msgid "password"
 msgstr ""
 
-#: src/launcher/ui/dialogs/BsLoginDialog.ui:71
+#: src/launcher/ui/dialogs/BsLoginDialog.ui:74
 msgctxt "BsLoginDialog|"
 msgid "Register an account"
+msgstr ""
+
+#: src/launcher/ui/dialogs/BsLoginDialog.cpp:34
+msgctxt "BsLoginDialog|"
+msgid "Custom Yggdrasil API"
+msgstr ""
+
+#: src/launcher/ui/dialogs/BsLoginDialog.cpp:37
+msgctxt "BsLoginDialog|"
+msgid "For example: https://www.mcpeau.com/api/yggdrasil"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
@@ -787,11 +772,6 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -843,6 +823,11 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:101
 msgctxt "CFPage|"
 msgid " by "
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
+msgctxt "CFPage|"
+msgid "CurseForge"
 msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:19
@@ -1109,6 +1094,11 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Editor Teks:"
 
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Perkakas Eksternal"
+
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1202,11 +1192,6 @@ msgstr "Tidak sah"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "File yang dipilih tampaknya tidak dapat dieksekusi"
-
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Perkakas Eksternal"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
 #, qt-format
@@ -1437,11 +1422,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "File lokal atau link menuju download secara langsung:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Impor dari zip"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1451,6 +1431,11 @@ msgstr "Pilih modpack"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Impor dari zip"
 
 #: src/launcher/meta/Index.cpp:71
 msgctxt "Index|"
@@ -1811,6 +1796,11 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr ""
 
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Pengaturan"
+
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:335
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1820,11 +1810,6 @@ msgstr "Pilih versi Java"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Cari file Java"
-
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Pengaturan"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1954,6 +1939,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Uji coba"
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1963,11 +1953,6 @@ msgstr "Pilih versi Java"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Cari file Java"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2154,84 +2139,84 @@ msgctxt "LaunchController|"
 msgid "Account refresh failed"
 msgstr "Pembaruan akun gagal"
 
-#: src/launcher/LaunchController.cpp:247
+#: src/launcher/LaunchController.cpp:248
 msgctxt "LaunchController|"
 msgid "Microsoft Accounts not available"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:248
+#: src/launcher/LaunchController.cpp:249
 msgctxt "LaunchController|"
 msgid "Microsoft accounts are only usable on macOS 10.13 or newer, with fully updated MultiMC.\n\n"
 "Please update both your operating system and MultiMC."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:254
+#: src/launcher/LaunchController.cpp:255
 msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:259 src/launcher/LaunchController.cpp:272
+#: src/launcher/LaunchController.cpp:260 src/launcher/LaunchController.cpp:273
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:265
+#: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
 msgid "Please enter your MiniSkins skin site account email and password to add your account."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:284
+#: src/launcher/LaunchController.cpp:285
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:293
+#: src/launcher/LaunchController.cpp:294
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
 msgstr "Akun ini tidak ada lagi di server. Akun tersebut mungkit telah dimigrasi, dalam kasus ini, tolong tambahkan akun baru kamu migrasi ini ke."
 
-#: src/launcher/LaunchController.cpp:296
+#: src/launcher/LaunchController.cpp:297
 msgctxt "LaunchController|"
 msgid "Account gone"
 msgstr "Akun hilang"
 
-#: src/launcher/LaunchController.cpp:305
+#: src/launcher/LaunchController.cpp:306
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
 msgstr "Akun harus dimigrasikan ke akun Microsoft."
 
-#: src/launcher/LaunchController.cpp:308
+#: src/launcher/LaunchController.cpp:309
 msgctxt "LaunchController|"
 msgid "Account requires migration"
 msgstr "Akun memerlukan migrasi"
 
-#: src/launcher/LaunchController.cpp:318
+#: src/launcher/LaunchController.cpp:319
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "Gagal menjalankan."
 
-#: src/launcher/LaunchController.cpp:328 src/launcher/LaunchController.cpp:400
+#: src/launcher/LaunchController.cpp:329 src/launcher/LaunchController.cpp:401
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:328 src/launcher/LaunchController.cpp:329
+#: src/launcher/LaunchController.cpp:329 src/launcher/LaunchController.cpp:330
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Tidak dapat memuat profil instansi."
 
-#: src/launcher/LaunchController.cpp:336
+#: src/launcher/LaunchController.cpp:337
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "Tidak dapat memulai instansi."
 
-#: src/launcher/LaunchController.cpp:400
+#: src/launcher/LaunchController.cpp:401
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "Tidak dapat memulai profiler: %1"
 
-#: src/launcher/LaunchController.cpp:409
+#: src/launcher/LaunchController.cpp:410
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -2239,38 +2224,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "Peluncuran game ditunda hingga Anda menekan tombol. Ini adalah waktu yang tepat untuk mengatur profiler, karena server profiler sedang berjalan sekarang.\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:412
+#: src/launcher/LaunchController.cpp:413
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "Menunggu."
 
-#: src/launcher/LaunchController.cpp:414
+#: src/launcher/LaunchController.cpp:415
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Jalankan"
 
-#: src/launcher/LaunchController.cpp:422
+#: src/launcher/LaunchController.cpp:423
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Tidak dapat memulai profiler: %1"
 
-#: src/launcher/LaunchController.cpp:423
+#: src/launcher/LaunchController.cpp:424
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:451
+#: src/launcher/LaunchController.cpp:452
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "Batalkan"
 
-#: src/launcher/LaunchController.cpp:467
+#: src/launcher/LaunchController.cpp:468
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Matikan Minecraft?"
 
-#: src/launcher/LaunchController.cpp:468
+#: src/launcher/LaunchController.cpp:469
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "Hal ini dapat menyababkan instansi menjadi rusak dan sebaiknya hanya digunakan jika Minecraft beku untuk suatu alasan"
@@ -2705,6 +2690,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Versi yang dipilih:"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "Arsip FTB"
+
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2738,11 +2728,6 @@ msgstr "Hapus pack"
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Apakah anda yakin ingin menghapus pack %1?"
-
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "Arsip FTB"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2904,6 +2889,11 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Bawah"
 
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Riwayat Minecraft"
+
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2913,11 +2903,6 @@ msgstr ""
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Apakah Anda yakin ingin mengunggah file log ini?"
-
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Riwayat Minecraft"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3602,50 +3587,50 @@ msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
 msgstr "Berhasil mendapatkan flag migrasi"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:735
+#: src/launcher/minecraft/MinecraftInstance.cpp:737
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:737
+#: src/launcher/minecraft/MinecraftInstance.cpp:739
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:739
+#: src/launcher/minecraft/MinecraftInstance.cpp:741
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:741
+#: src/launcher/minecraft/MinecraftInstance.cpp:743
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:813
+#: src/launcher/minecraft/MinecraftInstance.cpp:815
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "rusak"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:817
+#: src/launcher/minecraft/MinecraftInstance.cpp:819
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:821
+#: src/launcher/minecraft/MinecraftInstance.cpp:823
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr ", terakhir dimain untuk %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:826
+#: src/launcher/minecraft/MinecraftInstance.cpp:828
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr ", total waktu bermain %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:832
+#: src/launcher/minecraft/MinecraftInstance.cpp:834
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ", telah crash."
@@ -4133,11 +4118,6 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Versi yang dipilih:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4172,6 +4152,11 @@ msgstr "Gagal mendapatkan detail modpack Modrinth..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Memuat..."
+
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr ""
 
 #: src/launcher/net/NetJob.cpp:129
 #, qt-format
@@ -4324,6 +4309,11 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Cari:"
 
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Daftar riwayat lainnya"
+
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
@@ -4401,11 +4391,6 @@ msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "Tidak dapat menghapus beberapa berkas:\n"
 "%1"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Daftar riwayat lainnya"
 
 #: src/launcher/minecraft/PackProfile.cpp:853
 msgctxt "PackProfile|"
@@ -4653,262 +4638,6 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proksi"
 
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Jalur kosong"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Jalur tidak ada"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Jalur yang dipilih nampaknya bukan jalur menuju MCEdit"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Jalur kosong"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Jalur tidak valid menuju JVisualVM"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Instalasi JProfiler tidak valid"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1m %2d"
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1j %2m"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1h %2j %3m"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "Pembaruan Gagal!"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "Pengembalian gagal!"
-
-#: src/launcher/UpdateController.cpp:372
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "Tidak dapat mengganti file %1. Perubahan akan dipulihkan.\n"
-"Periksa %2 file log untuk detail lebih lanjut."
-
-#: src/launcher/UpdateController.cpp:382
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "Tidak dapat menghapus file %1. Perubahan akan dipulihkan.\n"
-"Periksa %2 file log untuk detail lebih lanjut."
-
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "Versi baru MultiMC tidak dapat dijalankan atau terlalu tua dan tidak merespon pemeriksaan penjalanan.\n\n"
-"Kembalikan ke versi sebelumnya?"
-
-#: src/launcher/UpdateController.cpp:414
-#, qt-format
-msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "Pengembalian gagal.\n"
-"Anda harus memperbaiki %1 secara manual.\n"
-"Tolong beritahu kami kenapa dan bagaimana hal ini terjadi."
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Gelap"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Cerah"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistem"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Hal berikut ditambahkan semenjak pembaruan terakhir:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Pembaruan menghilangkan hal %1 dan menambahkan hal %2:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Anda dapat <a href=\"%1\">melihat perubahan di github</a>.</p>"
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Gagal Mengunggah"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "File catatan riwayat terlalu besar. Anda harus mengunggah nya secara manual."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Selesai mengunggah"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Link untuk mengunggah catatan riwayat</a>telah disalin ke papan klip anda."
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (sedang digunakan)"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "File yang ditentukan tidak ada atau tidak dapat dijalankan dengan benar."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Biner java yang ditentukan tidak mulai dengan benar.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Biner java yang ditentukan mengembalikan hasil yang tidak terduga: <br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Pengetesan Java sukses<br />Platform dilaporkan: %1<br />Versi java dilaporkan: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Test java gagal"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Tes Java sukses"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Server Minecraft"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Deskripsi tidak ditemukan dalam instansi Aplikasi FTB."
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Format versi tidak diketahui!"
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Mengunduh meta file %1"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:499
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Tidak ada profil (%1)"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Urutan versi file tidak valid, diharapkan %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Tidak dapat membuka file versi %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Tidak dapat memproses file versi %1: %2 di baris %3 kolom %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Tidak dapat memporses file versi %1."
-
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
 msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
@@ -4944,22 +4673,17 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "File versi berisikan elemen '+minecraftArgument' yang tidak didukung"
 
-#: src/launcher/minecraft/PackProfile.cpp:191
+#: src/launcher/minecraft/auth/AccountData.cpp:512
 #, qt-format
 msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Versi file komponen tidak valid, diharapkan %1"
+msgid "No profile (%1)"
+msgstr "Tidak ada profil (%1)"
 
 #: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
 msgstr "Aset untuk %1"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch belum dimuat."
 
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
@@ -4978,6 +4702,224 @@ msgstr "Nilai 'minimumLauncherVersion' versi ini (%1) lebih tinggi dari yang did
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
 msgstr "Nama perpustakaan %1 rusak dan tidak bisa diproses."
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Versi file komponen tidak valid, diharapkan %1"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch belum dimuat."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Urutan versi file tidak valid, diharapkan %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Tidak dapat membuka file versi %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Tidak dapat memproses file versi %1: %2 di baris %3 kolom %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Tidak dapat memporses file versi %1."
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Format versi tidak diketahui!"
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Mengunduh meta file %1"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Jalur kosong"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Jalur tidak valid menuju JVisualVM"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Jalur kosong"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Jalur tidak ada"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Jalur yang dipilih nampaknya bukan jalur menuju MCEdit"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Instalasi JProfiler tidak valid"
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr "%1m %2d"
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr "%1j %2m"
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr "%1h %2j %3m"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Cerah"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Gelap"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistem"
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (sedang digunakan)"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Hal berikut ditambahkan semenjak pembaruan terakhir:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Pembaruan menghilangkan hal %1 dan menambahkan hal %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Anda dapat <a href=\"%1\">melihat perubahan di github</a>.</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Deskripsi tidak ditemukan dalam instansi Aplikasi FTB."
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Server Minecraft"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Gagal Mengunggah"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "File catatan riwayat terlalu besar. Anda harus mengunggah nya secara manual."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Selesai mengunggah"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">Link untuk mengunggah catatan riwayat</a>telah disalin ke papan klip anda."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "File yang ditentukan tidak ada atau tidak dapat dijalankan dengan benar."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Biner java yang ditentukan tidak mulai dengan benar.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Biner java yang ditentukan mengembalikan hasil yang tidak terduga: <br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Pengetesan Java sukses<br />Platform dilaporkan: %1<br />Versi java dilaporkan: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Test java gagal"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Tes Java sukses"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -5021,6 +4963,49 @@ msgstr "Biner java yang ditentukan tidak berfungsi dengan argumen yang Anda beri
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Biner java yang ditentukan tidak bekerja.<br /> anda sebaiknya menggunakan fitur deteksi otomatis, atau tentukan jalur menuju program java.<br />"
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "Pembaruan Gagal!"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "Pengembalian gagal!"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "Tidak dapat mengganti file %1. Perubahan akan dipulihkan.\n"
+"Periksa %2 file log untuk detail lebih lanjut."
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "Tidak dapat menghapus file %1. Perubahan akan dipulihkan.\n"
+"Periksa %2 file log untuk detail lebih lanjut."
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "Versi baru MultiMC tidak dapat dijalankan atau terlalu tua dan tidak merespon pemeriksaan penjalanan.\n\n"
+"Kembalikan ke versi sebelumnya?"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "Pengembalian gagal.\n"
+"Anda harus memperbaiki %1 secara manual.\n"
+"Tolong beritahu kami kenapa dan bagaimana hal ini terjadi."
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5225,15 +5210,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Gabung"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "Server"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "Menu konteks"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Server"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:30
 msgctxt "SetupWizard|"
@@ -5486,15 +5471,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Telusuri"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
-msgctxt "TechnicPage|"
-msgid "Technic"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
 msgctxt "TechnicPage|"
 msgid " by "
 msgstr " oleh "
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr ""
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -5652,15 +5637,20 @@ msgstr ""
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
+msgid "Minecraft 24w14a and above require the use of Java 21"
+msgstr ""
+
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
+msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
 msgstr "Minecraft 1.18 Pre Release 2 dan keatas membutuhkan Java 17"
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
 msgstr "Minecraft 21w19a dan keatas membutuhkan Java 16"
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a and above require the use of Java 8"
 msgstr "Minecraft 17w13a dan keatas membutuhkan Java 8"
@@ -5875,11 +5865,6 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "Versi"
-
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -6049,6 +6034,11 @@ msgstr "Tidak dapat memuat atau mengunduh daftar versi LiteLoader!"
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Gagal memperbarui instansi"
+
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "Versi"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
@@ -6280,6 +6270,11 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Kelola datapacks didalam dunia."
 
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Dunia"
+
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6360,11 +6355,6 @@ msgstr "Masukkan nama baru untuk salinan."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Masukkan nama baru dunia."
-
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Dunia"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
