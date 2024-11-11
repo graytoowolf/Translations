@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-11-11 01:50\n"
+"PO-Revision-Date: 2024-11-11 02:35\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -90,7 +90,7 @@ msgstr "下载模组中..."
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:540
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Mod download"
-msgstr "模组下载"
+msgstr "Mod下载"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:554
 #, qt-format
@@ -665,12 +665,12 @@ msgstr "注册帐户"
 #: src/launcher/ui/dialogs/BsLoginDialog.cpp:34
 msgctxt "BsLoginDialog|"
 msgid "Custom Yggdrasil API"
-msgstr ""
+msgstr "自定义 Ygdrasil API"
 
 #: src/launcher/ui/dialogs/BsLoginDialog.cpp:37
 msgctxt "BsLoginDialog|"
 msgid "For example: https://www.mcpeau.com/api/yggdrasil"
-msgstr ""
+msgstr "例如：https://www.mcpeau.com/api/yggdrasil"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:18
 msgctxt "BsMinecraftProfileStep|"
@@ -3930,7 +3930,7 @@ msgstr "获取MOD 下载链接"
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
-msgstr "模组下载网址"
+msgstr "Mod下载url"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
@@ -5667,7 +5667,7 @@ msgstr "原版"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 24w14a and above require the use of Java 21"
-msgstr ""
+msgstr "Minecraft 24w14a 及以上版本需要使用 Java21"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
