@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
-"PO-Revision-Date: 2024-11-12 05:54\n"
+"PO-Revision-Date: 2024-11-12 11:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>Mēs paturam MultiMC atvērtā pirmkodā, jo mēs uzskatām, ka ir sv
 "<p>Apache licences izmantošanas iemesls ir tāds, ka mēs nevēlamies, lai citi, pārpublicējot projektu, izmantotu nosaukumu &quot;MultiMC&quot;. Tas nozīmē, ka citiem ir nepieciešams laiks, lai izpētītu pirmkodu un noņemtu visas atsauces uz &quot;MultiMC&quot;, tostarp, bet ne tikai, ar projekta ikonu un logu nosaukumu (nosaukumā nedrīkst būt <b>MultiMC-fork</b>).</p>\n"
 "<p>Apache licence attiecas uz nosaukuma saprātīgu izmantošanu - ir jānorāda projekta izcelsme dialoglodziņā \"Par\" un licence ir pieņemama. Tomēr vajadzētu būt pilnīgi skaidram, ka projekts ir pārpublicējums, <b>nenorādot</b>, ka jums ir mūsu atbalsts.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:289
+#: src/launcher/minecraft/auth/AccountList.cpp:297
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Neatzīmēts"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:292
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Bezsaistē"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:295
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "Tiešsaistē"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:298
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Strādā"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:301
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Kļūda"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:304
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Laiks beidzies"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:307
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Pazudis"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:310
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Jāmigrē"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Konts"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
-msgid "Type"
-msgstr "Veids"
+msgid "platform"
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:365
+#: src/launcher/minecraft/auth/AccountList.cpp:373
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "Statuss"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:369
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Profils"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:386
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Konta lietotājvārds."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:380
+#: src/launcher/minecraft/auth/AccountList.cpp:388
 msgctxt "AccountList|"
-msgid "Type of the account - Mojang or MSA."
-msgstr "Konta veids - Mojang vai MSA."
+msgid "The platform of the account."
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:382
+#: src/launcher/minecraft/auth/AccountList.cpp:390
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Pašreizējais konta statuss."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:386
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Ar kontu asociēts Minecraft profila nosaukums."
@@ -368,9 +368,8 @@ msgstr "Konti"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
-"If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "Laipni lūgti!\n"
-"Ja esat šeit pirmo reizi, varat pievienot savu Mojang vai Microsoft kontu ar pogu \"Pievienot\"."
+"If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
