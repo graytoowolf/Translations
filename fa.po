@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
-"PO-Revision-Date: 2024-11-12 05:54\n"
+"PO-Revision-Date: 2024-11-12 11:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>ما MultiMC را متن باز نگه داشتیم چرا که فک�
 "<p>یک قسمت از دلایلی که ما از آپاچی استفاده می کنیم این است که نمی خواهیم مردم از نام &quot;MultiMC&quot; در جهت بازسازی این پروژه استفاده کنند. این یعنی اینکه کردم باید وقت بگذارند و هر چیزی که در منبع(سورس) کد مربوط یا اشاره به &quot;MultiMC&quot; می شود را پاک کنند، به علاوه آیکن عنوان ویندوز پروژه که فقط هم به این محدود نمی شود، (بدون هیچ <b>MultiMC-fork</b> ای در عنوان).</p>\n"
 "<p>مجوز گواهی آپاچی استفاده قابل توجیه را در نام، اشاره به ریشه پروژه در قسمت دیالوگ درباره و گواهی را پوشش می دهد و قابل پذیرش است. ولی، این باید به شدت تاکید شود که پروژه یک fork است، <b>بدون اینکه</b> درباره بخشش یا گذشت ما در این مورد اشاره شود.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:289
+#: src/launcher/minecraft/auth/AccountList.cpp:297
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "بررسی نشده"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:292
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "آفلاین"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:295
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "آنلاین"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:298
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "درحال استفاده"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:301
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "مواجه شده با خطا"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:304
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "منقضی شده"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:307
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "از دست رفته"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:310
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "مهاجرت باید صورت گیرد"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "حساب"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
-msgid "Type"
-msgstr "نوع"
+msgid "platform"
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:365
+#: src/launcher/minecraft/auth/AccountList.cpp:373
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "وضعیت"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:369
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "پروفایل"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:386
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "نام کاربر حساب."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:380
+#: src/launcher/minecraft/auth/AccountList.cpp:388
 msgctxt "AccountList|"
-msgid "Type of the account - Mojang or MSA."
-msgstr "نوع حساب - موجانگ یا مایکروسافت."
+msgid "The platform of the account."
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:382
+#: src/launcher/minecraft/auth/AccountList.cpp:390
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "وضعیت فعلی حساب."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:386
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "نام پروفایل ماینکرافتٍ این اکانت."
@@ -368,9 +368,8 @@ msgstr "حساب ها"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
-"If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "خوش آمدید!\n"
-"اگر اینجا تازه وارد هستید، می توانید با زدن روی دکمه \"افزودن\" حساب موجانگ یا ماینکرافت خود را اضافه کنید."
+"If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
