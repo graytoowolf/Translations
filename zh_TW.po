@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2024-11-11 02:35\n"
+"PO-Revision-Date: 2024-11-12 05:54\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -664,17 +664,27 @@ msgctxt "BsMinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
 msgstr "正在取得 Minecraft 個人檔案。"
 
-#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:62
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:80
+msgctxt "BsMinecraftProfileStep|"
+msgid "Failed to obtain redirect URL from HTTP 301 response."
+msgstr ""
+
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:96
 msgctxt "BsMinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
 msgstr "這個帳號沒有 Minecraft 個人檔案。"
 
-#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:77
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:104
+msgctxt "BsMinecraftProfileStep|"
+msgid "Minecraft Java profile acquisition failed due to redirect."
+msgstr ""
+
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:119
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
 msgstr "取得 Minecraft Java 個人檔案失敗。"
 
-#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:110
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:152
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
 msgstr "取得 Minecraft Java 個人檔案成功。"
@@ -739,8 +749,8 @@ msgstr "发生未知的 BsYggdrasil 错误。"
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:19
 msgctxt "BsYggdrasilStep|"
-msgid "Logging in with Mojang account."
-msgstr "使用 Mojang 帳號登入。"
+msgid "Logging in with Yggdrasil account."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:41
 msgctxt "BsYggdrasilStep|"
@@ -2157,68 +2167,68 @@ msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
 msgstr "嘗試在不支援的平台上重新登入 Microsoft 帳號"
 
-#: src/launcher/LaunchController.cpp:260 src/launcher/LaunchController.cpp:273
+#: src/launcher/LaunchController.cpp:260 src/launcher/LaunchController.cpp:276
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr "請輸入您 Mojang 帳號的電子郵件與密碼以新增您的帳號。"
 
 #: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
-msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr "请输入您的 MiniSkins 账号和密码以添加您的帐户。"
+msgid "Please enter your Yggdrasil account email and password to add your account."
+msgstr ""
 
-#: src/launcher/LaunchController.cpp:285
+#: src/launcher/LaunchController.cpp:288
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
 msgstr "帳號已過期，且在嘗試重新登入時失敗"
 
-#: src/launcher/LaunchController.cpp:294
+#: src/launcher/LaunchController.cpp:297
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
 msgstr "這個帳號不再存在於伺服器上。它可能已被遷移。如果是這樣，請新增您遷移後的新帳號。"
 
-#: src/launcher/LaunchController.cpp:297
+#: src/launcher/LaunchController.cpp:300
 msgctxt "LaunchController|"
 msgid "Account gone"
 msgstr "帳號遺失"
 
-#: src/launcher/LaunchController.cpp:306
+#: src/launcher/LaunchController.cpp:309
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
 msgstr "這個帳號必須遷移至 Microsoft 帳號。"
 
-#: src/launcher/LaunchController.cpp:309
+#: src/launcher/LaunchController.cpp:312
 msgctxt "LaunchController|"
 msgid "Account requires migration"
 msgstr "帳號需要遷移"
 
-#: src/launcher/LaunchController.cpp:319
+#: src/launcher/LaunchController.cpp:322
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "無法啟動。"
 
-#: src/launcher/LaunchController.cpp:329 src/launcher/LaunchController.cpp:401
+#: src/launcher/LaunchController.cpp:332 src/launcher/LaunchController.cpp:404
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "錯誤！"
 
-#: src/launcher/LaunchController.cpp:329 src/launcher/LaunchController.cpp:330
+#: src/launcher/LaunchController.cpp:332 src/launcher/LaunchController.cpp:333
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "無法載入實例設定檔。"
 
-#: src/launcher/LaunchController.cpp:337
+#: src/launcher/LaunchController.cpp:340
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "無法實例化啟動器。"
 
-#: src/launcher/LaunchController.cpp:401
+#: src/launcher/LaunchController.cpp:404
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "無法啟動分析器：%1"
 
-#: src/launcher/LaunchController.cpp:410
+#: src/launcher/LaunchController.cpp:413
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -2226,38 +2236,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "已將遊戲啟動暫停，直到您按下按鈕。分析器伺服器正在執行中，您現在可以設定分析器。\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:413
+#: src/launcher/LaunchController.cpp:416
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "請稍候。"
 
-#: src/launcher/LaunchController.cpp:415
+#: src/launcher/LaunchController.cpp:418
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "啟動"
 
-#: src/launcher/LaunchController.cpp:423
+#: src/launcher/LaunchController.cpp:426
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "無法啟動分析器：%1"
 
-#: src/launcher/LaunchController.cpp:424
+#: src/launcher/LaunchController.cpp:427
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/launcher/LaunchController.cpp:452
+#: src/launcher/LaunchController.cpp:455
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "中止"
 
-#: src/launcher/LaunchController.cpp:468
+#: src/launcher/LaunchController.cpp:471
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "強制終止 Minecraft？"
 
-#: src/launcher/LaunchController.cpp:469
+#: src/launcher/LaunchController.cpp:472
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "這可能導致實例發生錯誤，並且只應在 Minecraft 因為某些原因而沒有回應時使用"
