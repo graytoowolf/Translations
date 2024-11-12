@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2024-11-12 05:54\n"
+"PO-Revision-Date: 2024-11-12 11:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>Kami menjaga MultiMC untuk tetap menjadi sumber terbuka karena kami p
 "<p>Salah satu dari alasan kenapa untuk menggunakan lisensi Apache adalah karena kami tidak ingin orang untuk menggunakan nama&quot;MultiMC&quot; disaat mendistribusikan proyek tersebut. Ini berarti setiap orang harus menghabiskan waktu untuk menelusuri kedalam kode sumber dan menghapus semua referensi yang merujuk ke &quot;MultiMC&quot;,termasuk tapi tidak terbatas ke ikon proyek dan judul dari jendela,(bukan<b>cabang-MultiMC</b>di dalam judul).</p>\n"
 "<p>Lisensi Apache mencakup penggunaan nama yang sewajarnya - dalam menyebutkan dari sebuah asal usul proyek di dialog bagian tentang dan lisensi tersebut dapat diterima. Namun, proyek cabang ini harus jelas dalam menjelaskan bahwa proyek ini adalah sebuah cabang <b>yang</b> berarti anda mendapatkan restu kami.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:289
+#: src/launcher/minecraft/auth/AccountList.cpp:297
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Belum diperiksa"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:292
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Tidak Aktif"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:295
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "Aktif"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:298
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Bekerja"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:301
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Error"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:304
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Kadaluwarsa"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:307
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Tidak ada"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:310
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Harus migrasi"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Akun"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
-msgid "Type"
-msgstr "Tipe"
+msgid "platform"
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:365
+#: src/launcher/minecraft/auth/AccountList.cpp:373
 msgctxt "AccountList|"
 msgid "Status"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:369
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:386
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Nama pengguna akun."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:380
+#: src/launcher/minecraft/auth/AccountList.cpp:388
 msgctxt "AccountList|"
-msgid "Type of the account - Mojang or MSA."
-msgstr "Tipe akun - Mojang atau MSA."
+msgid "The platform of the account."
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:382
+#: src/launcher/minecraft/auth/AccountList.cpp:390
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Status akun saat ini."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:386
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Nama profil Minecraft yang terkait dengan akunnya."
@@ -368,9 +368,8 @@ msgstr "Akun"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
-"If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "Selamat Datang!\n"
-"Jika anda baru disini, anda dapat menekan tombol \"tambah\" untuk menambahkan akun Mojang atau Minecraft anda."
+"If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
