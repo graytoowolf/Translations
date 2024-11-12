@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-11-12 05:54\n"
+"PO-Revision-Date: 2024-11-12 11:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>我们保持 MultiMC 开源，因为我们认为能够看到像这样
 "<p>我们使用 Apache 许可证，因为我们不希望其他人在重新分发项目时使用 &quot;MultiMC&quot; 的名称。这意味着其他人必须在项目源代码中移除所有提及 &quot;MultiMC&quot; 的部分，这包括但不仅限于项目图标及窗口标题 (标题中不应有 <b>MultiMC-fork</b>)。</p>\n"
 "<p>Apache 许可证说明了该项目名称的合理用途 - 在“关于”对话框中需要提及您的分支项目的来源，并且该许可证是可以接受的。尽管如此，应该很明显的标注出来您的项目是一个分支，而<b>不</b>意味着您拥有我们的权利。</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:289
+#: src/launcher/minecraft/auth/AccountList.cpp:297
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "未检查"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:292
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "离线"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:295
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "在线"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:298
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "处理中"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:301
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "错误"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:304
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "已过期"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:307
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "无"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:310
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "必须迁移"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "账户"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
-msgid "Type"
-msgstr "类型"
+msgid "platform"
+msgstr "平台"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:365
+#: src/launcher/minecraft/auth/AccountList.cpp:373
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "状态"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:369
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "个人资料"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:386
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "账户用户名。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:380
+#: src/launcher/minecraft/auth/AccountList.cpp:388
 msgctxt "AccountList|"
-msgid "Type of the account - Mojang or MSA."
-msgstr "账户类型 - Mojang 或微软账户。"
+msgid "The platform of the account."
+msgstr "账户的平台。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:382
+#: src/launcher/minecraft/auth/AccountList.cpp:390
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "账户的当前状态。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:386
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "与该帐户关联的 Minecraft 个人信息名称。"
@@ -368,9 +368,9 @@ msgstr "帐号"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
-"If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
+"If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
 msgstr "欢迎！\n"
-"如果你是第一次使用，你可以点击“添加”按钮来添加你的 Mojang 或 Minecraft 账户。"
+"如果你是第一次使用，你可以点击“添加”按钮来添加你的 yggdrasil 或 Minecraft 账户。"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
