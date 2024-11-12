@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
-"PO-Revision-Date: 2024-11-11 01:50\n"
+"PO-Revision-Date: 2024-11-12 05:53\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -662,17 +662,27 @@ msgctxt "BsMinecraftProfileStep|"
 msgid "Fetching the Minecraft profile."
 msgstr "Henter Minecraft- profilen."
 
-#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:62
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:80
+msgctxt "BsMinecraftProfileStep|"
+msgid "Failed to obtain redirect URL from HTTP 301 response."
+msgstr ""
+
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:96
 msgctxt "BsMinecraftProfileStep|"
 msgid "Account has no Minecraft profile."
 msgstr "Konto har ingen Minecraft-profil."
 
-#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:77
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:104
+msgctxt "BsMinecraftProfileStep|"
+msgid "Minecraft Java profile acquisition failed due to redirect."
+msgstr ""
+
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:119
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed."
 msgstr "Minecraft Java profil opkøb mislykkedes."
 
-#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:110
+#: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:152
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
 msgstr "Minecraft Java-profil opkøb lykkedes."
@@ -737,8 +747,8 @@ msgstr "Der opstod en ukendt BsYggdrasil fejl."
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:19
 msgctxt "BsYggdrasilStep|"
-msgid "Logging in with Mojang account."
-msgstr "Logger ind med Mojang konto."
+msgid "Logging in with Yggdrasil account."
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:41
 msgctxt "BsYggdrasilStep|"
@@ -2154,68 +2164,68 @@ msgctxt "LaunchController|"
 msgid "Attempted to re-login to a Microsoft account on an unsupported platform"
 msgstr "Forsøgte at logge ind på en Microsoft-konto på en ikke-understøttet platform"
 
-#: src/launcher/LaunchController.cpp:260 src/launcher/LaunchController.cpp:273
+#: src/launcher/LaunchController.cpp:260 src/launcher/LaunchController.cpp:276
 msgctxt "LaunchController|"
 msgid "Please enter your Mojang account email and password to add your account."
 msgstr "Indtast venligst din Mojang konto e-mail og adgangskode for at tilføje din konto."
 
 #: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
-msgid "Please enter your MiniSkins skin site account email and password to add your account."
-msgstr "Indtast venligst din MiniSkins skin site email og adgangskode for at tilføje din konto."
+msgid "Please enter your Yggdrasil account email and password to add your account."
+msgstr ""
 
-#: src/launcher/LaunchController.cpp:285
+#: src/launcher/LaunchController.cpp:288
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
 msgstr "Konto udløbet og forsøg på at logge ind igen mislykkedes"
 
-#: src/launcher/LaunchController.cpp:294
+#: src/launcher/LaunchController.cpp:297
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
 msgstr "Kontoen findes ikke længere på serverne. Det kan være blevet migreret, i hvilket tilfælde skal du tilføje den nye konto, du migrerede denne konto til."
 
-#: src/launcher/LaunchController.cpp:297
+#: src/launcher/LaunchController.cpp:300
 msgctxt "LaunchController|"
 msgid "Account gone"
 msgstr "Konto forsvundet"
 
-#: src/launcher/LaunchController.cpp:306
+#: src/launcher/LaunchController.cpp:309
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
 msgstr "Kontoen skal overføres til en Microsoft-konto."
 
-#: src/launcher/LaunchController.cpp:309
+#: src/launcher/LaunchController.cpp:312
 msgctxt "LaunchController|"
 msgid "Account requires migration"
 msgstr "Konto kræver migration"
 
-#: src/launcher/LaunchController.cpp:319
+#: src/launcher/LaunchController.cpp:322
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "Opstart mislykkedes."
 
-#: src/launcher/LaunchController.cpp:329 src/launcher/LaunchController.cpp:401
+#: src/launcher/LaunchController.cpp:332 src/launcher/LaunchController.cpp:404
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "Fejl!"
 
-#: src/launcher/LaunchController.cpp:329 src/launcher/LaunchController.cpp:330
+#: src/launcher/LaunchController.cpp:332 src/launcher/LaunchController.cpp:333
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Kunne ikke hente instansprofilen."
 
-#: src/launcher/LaunchController.cpp:337
+#: src/launcher/LaunchController.cpp:340
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "Kunne ikke instantiere en launcher."
 
-#: src/launcher/LaunchController.cpp:401
+#: src/launcher/LaunchController.cpp:404
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "Kunne ikke starte profiler: %1"
 
-#: src/launcher/LaunchController.cpp:410
+#: src/launcher/LaunchController.cpp:413
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -2223,38 +2233,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "Spilopstart er udsat indtil du trykker på knappen. Dette er det rigtige tidspunkt at indstille profileren, da profilerserveren kører nu.\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:413
+#: src/launcher/LaunchController.cpp:416
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "Venter."
 
-#: src/launcher/LaunchController.cpp:415
+#: src/launcher/LaunchController.cpp:418
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Kør"
 
-#: src/launcher/LaunchController.cpp:423
+#: src/launcher/LaunchController.cpp:426
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Kunne ikke starte profiler: %1"
 
-#: src/launcher/LaunchController.cpp:424
+#: src/launcher/LaunchController.cpp:427
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Fejl"
 
-#: src/launcher/LaunchController.cpp:452
+#: src/launcher/LaunchController.cpp:455
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "Afbryd"
 
-#: src/launcher/LaunchController.cpp:468
+#: src/launcher/LaunchController.cpp:471
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Dræb Minecraft?"
 
-#: src/launcher/LaunchController.cpp:469
+#: src/launcher/LaunchController.cpp:472
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "Dette kan ødelægge instansen og bør kun gøres, hvis Minecraft af en eller anden grund er frosset"
