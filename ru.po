@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Russian\n"
 "Language: ru_RU\n"
-"PO-Revision-Date: 2024-11-12 05:54\n"
+"PO-Revision-Date: 2024-11-12 11:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>При разработке MultiMC мы придерживаемся
 "<p>Одна из причин использов</b>ания лицензии Apache заключается в том, что мы не хотим, чтобы люди использовали название &quot;MultiMC&quot;, распространяя проект. Это означает, что люди должны удалить все ссылки на &quot;MultiMC&quot; из исходного кода проекта, включая, в частности, иконку проекта и заголовки окон (исключая <b>на базе MultiMC</b> в заголовке).</p>\n"
 "<p>Лицензия Apache подразумевает разумное использование названия — упоминание об оригинальном проекте в окне «О программе» и лицензия допустимы. Тем не менее должно быть совершенно ясно, что ваш проект лишь использует оригинальный исходный код, <b>не</b> подразумевая, что мы поддерживаем его разработку.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:289
+#: src/launcher/minecraft/auth/AccountList.cpp:297
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Не проверен"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:292
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Не в сети"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:295
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "В сети"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:298
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Работает"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:301
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Ошибка"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:304
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Истёк"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:307
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Потерян"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:310
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Необходимо переместить"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:369
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Учётная запись"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:371
 msgctxt "AccountList|"
-msgid "Type"
-msgstr "Тип"
+msgid "platform"
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:365
+#: src/launcher/minecraft/auth/AccountList.cpp:373
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "Статус"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:369
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Профиль"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:386
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Имя учетной записи."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:380
+#: src/launcher/minecraft/auth/AccountList.cpp:388
 msgctxt "AccountList|"
-msgid "Type of the account - Mojang or MSA."
-msgstr "Тип учетной записи - Mojang или MSA."
+msgid "The platform of the account."
+msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:382
+#: src/launcher/minecraft/auth/AccountList.cpp:390
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Текущий статус аккаунта."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:386
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Имя профиля Minecraft, связанного с учетной записью."
@@ -368,9 +368,8 @@ msgstr "Учётные записи"
 #: src/launcher/ui/pages/global/AccountListPage.cpp:47
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
-"If you're new here, you can click the \"Add\" button to add your Mojang or Minecraft account."
-msgstr "Добро пожаловать!\n"
-"Если вы впервые здесь, вы можете нажать кнопку «Добавить», чтобы добавить свою учётную запись Mojang или Minecraft."
+"If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
+msgstr ""
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:89
 msgctxt "AccountListPage|"
