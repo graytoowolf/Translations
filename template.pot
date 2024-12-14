@@ -182,33 +182,33 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:85
+#: src/launcher/ui/dialogs/AboutDialog.cpp:82
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:98
+#: src/launcher/ui/dialogs/AboutDialog.cpp:95
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:99
+#: src/launcher/ui/dialogs/AboutDialog.cpp:96
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:102
+#: src/launcher/ui/dialogs/AboutDialog.cpp:99
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:107
+#: src/launcher/ui/dialogs/AboutDialog.cpp:104
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:111
+#: src/launcher/ui/dialogs/AboutDialog.cpp:108
 msgctxt "AboutDialog|"
 msgid ""
 "<p>We keep MultiMC open source because we think it's important to be able to "
@@ -4998,7 +4998,7 @@ msgctxt "QObject|About Credits"
 msgid "Maintainer"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:57
+#: src/launcher/ui/dialogs/AboutDialog.cpp:54
 msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr ""
