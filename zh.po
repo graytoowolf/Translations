@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-12-25 14:12\n"
+"PO-Revision-Date: 2024-12-25 14:54\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -6392,7 +6392,7 @@ msgstr "名称"
 #: src/launcher/ui/dialogs/customyggdrasil.ui:27
 msgctxt "customyggdrasil|"
 msgid "yggdrasil api"
-msgstr "宇宙树 API"
+msgstr "yggdrasil api"
 
 #: src/launcher/ui/dialogs/customyggdrasil.cpp:13
 msgctxt "customyggdrasil|"
