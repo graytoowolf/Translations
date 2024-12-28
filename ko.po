@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2024-12-25 14:12\n"
+"PO-Revision-Date: 2024-12-28 14:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>MultiMC를 오픈 소스로 유지하고 있는 것은 이것과 같�
 "<p>Apache 라이센스를 채택한 이유 중 하나는 사람들이 이 프로젝트를 변형, 재배포할 때 &quot;MultiMC&quot; 라는 이름을 사용하지 않길 바란다는 점입니다. 이는 사람들이 소스코드를 하나 하나 살펴보고, 프로젝트의 아이콘과 창의 제목(<b>MultiMC-fork(포크)</b> 사용 불가) 등을 포함한 모든 곳에서 &quot;MultiMC&quot;라는 말의 사용을 제거해야 함을 의미합니다.</p>\n"
 "<p>Apache 라이센스는 이 프로젝트의 이름을 합리적인 범위 내에서 사용하는 것 - 정보(About) 및 라이센스 항목에서의 원래 프로젝트에 대한 언급이 있는 경우 - 은 허용합니다. 그러나, 이는 우리 <b>원작자들의 의사와 무관</b>하게 진행된 포크 프로젝트임을 명시할 때만 허용합니다.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:297
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "체크 해제"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "오프라인"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "온라인"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "작동됨"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "오류"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "만료됨"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "사라짐"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:321
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "마이그레이션을 해야합니다."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:357
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "계정"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:359
+#: src/launcher/minecraft/auth/AccountList.cpp:379
 msgctxt "AccountList|"
 msgid "platform"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:381
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "상태"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:383
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "프로필"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:372
+#: src/launcher/minecraft/auth/AccountList.cpp:392
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "계정 유저 이름"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:374
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:376
+#: src/launcher/minecraft/auth/AccountList.cpp:396
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "현재 계정 상태"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:398
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "마인크래프트 프로필의 이름이 계정과 연결되어 있습니다."
@@ -431,6 +431,65 @@ msgstr ""
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
 msgstr "알 수 없는 계정 작업 상태: %1"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:87
+msgctxt "AccountsDialog|"
+msgid "Account / Profile Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:94
+msgctxt "AccountsDialog|"
+msgid "Rename"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:117
+#: src/launcher/ui/dialogs/AccountsDialog.ui:375
+msgctxt "AccountsDialog|"
+msgid "Skins"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:130
+#: src/launcher/ui/dialogs/AccountsDialog.ui:388
+msgctxt "AccountsDialog|"
+msgid "Capes"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:153
+#: src/launcher/ui/dialogs/AccountsDialog.ui:411
+msgctxt "AccountsDialog|"
+msgid "Sign Out"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:181
+msgctxt "AccountsDialog|"
+msgid "Reset Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:188
+msgctxt "AccountsDialog|"
+msgid "Save Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:269
+msgctxt "AccountsDialog|"
+msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
+"Choose your name carefully:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:312
+msgctxt "AccountsDialog|"
+msgid "Create Profile"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:352
+msgctxt "AccountsDialog|"
+msgid "Account Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:29
+msgctxt "AccountsDialog|"
+msgid "Minecraft Accounts"
+msgstr ""
 
 #: src/launcher/Application.cpp:786
 msgctxt "Application|"
@@ -2837,15 +2896,10 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "Microsoft 계정 추가"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.ui:56
-msgctxt "MSALoginDialog|"
-msgid "Copy Code"
-msgstr "코드 복사"
-
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:95
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
 #, qt-format
 msgctxt "MSALoginDialog|"
-msgid "<p>Please open up %1 to proceed with login.</p>"
+msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
