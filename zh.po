@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2024-12-25 14:54\n"
+"PO-Revision-Date: 2024-12-28 14:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>我们保持 MultiMC 开源，因为我们认为能够看到像这样
 "<p>我们使用 Apache 许可证，因为我们不希望其他人在重新分发项目时使用 &quot;MultiMC&quot; 的名称。这意味着其他人必须在项目源代码中移除所有提及 &quot;MultiMC&quot; 的部分，这包括但不仅限于项目图标及窗口标题 (标题中不应有 <b>MultiMC-fork</b>)。</p>\n"
 "<p>Apache 许可证说明了该项目名称的合理用途 - 在“关于”对话框中需要提及您的分支项目的来源，并且该许可证是可以接受的。尽管如此，应该很明显的标注出来您的项目是一个分支，而<b>不</b>意味着您拥有我们的权利。</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:297
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "未检查"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "离线"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "在线"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "处理中"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "错误"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "已过期"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "无"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:321
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "必须迁移"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:357
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "账户"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:359
+#: src/launcher/minecraft/auth/AccountList.cpp:379
 msgctxt "AccountList|"
 msgid "platform"
 msgstr "平台"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:381
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "状态"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:383
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "个人资料"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:372
+#: src/launcher/minecraft/auth/AccountList.cpp:392
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "账户用户名。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:374
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr "账户的平台。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:376
+#: src/launcher/minecraft/auth/AccountList.cpp:396
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "账户的当前状态。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:398
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "与该帐户关联的 Minecraft 个人信息名称。"
@@ -432,6 +432,66 @@ msgstr "..."
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
 msgstr "未知账户工作状态： %1"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:87
+msgctxt "AccountsDialog|"
+msgid "Account / Profile Name Here"
+msgstr "帐户 / 个人资料名称"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:94
+msgctxt "AccountsDialog|"
+msgid "Rename"
+msgstr "重命名"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:117
+#: src/launcher/ui/dialogs/AccountsDialog.ui:375
+msgctxt "AccountsDialog|"
+msgid "Skins"
+msgstr "皮肤"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:130
+#: src/launcher/ui/dialogs/AccountsDialog.ui:388
+msgctxt "AccountsDialog|"
+msgid "Capes"
+msgstr "披风"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:153
+#: src/launcher/ui/dialogs/AccountsDialog.ui:411
+msgctxt "AccountsDialog|"
+msgid "Sign Out"
+msgstr "登出"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:181
+msgctxt "AccountsDialog|"
+msgid "Reset Skin"
+msgstr "重置皮肤"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:188
+msgctxt "AccountsDialog|"
+msgid "Save Skin"
+msgstr "保存皮肤"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:269
+msgctxt "AccountsDialog|"
+msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
+"Choose your name carefully:"
+msgstr "马上就可以在此帐户上玩 Minecraft 了。\n\n"
+"请慎重选择你的游戏名称："
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:312
+msgctxt "AccountsDialog|"
+msgid "Create Profile"
+msgstr "创建个人资料"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:352
+msgctxt "AccountsDialog|"
+msgid "Account Name Here"
+msgstr "帐户名称"
+
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:29
+msgctxt "AccountsDialog|"
+msgid "Minecraft Accounts"
+msgstr "Minecraft 账户"
 
 #: src/launcher/Application.cpp:786
 msgctxt "Application|"
@@ -2849,16 +2909,11 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "添加Microsoft账户"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.ui:56
-msgctxt "MSALoginDialog|"
-msgid "Copy Code"
-msgstr "拷贝代码"
-
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:95
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
 #, qt-format
 msgctxt "MSALoginDialog|"
-msgid "<p>Please open up %1 to proceed with login.</p>"
-msgstr "<p>请打开 %1 以继续登录。</p>"
+msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
+msgstr "您可以在其他设备上扫描二维码来完成登录过程，或者您可以在此机器上打开链接并登录。授权码：<b><font color='red' size='6'>%1</font></b>"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
