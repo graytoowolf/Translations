@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2024-12-25 14:12\n"
+"PO-Revision-Date: 2024-12-28 14:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -222,82 +222,82 @@ msgid "<p>We keep MultiMC open source because we think it's important to be able
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>私たちはMultiMCをオープンソースとして維持しています。なぜなら、このようなプロジェクトのソースコードを見ることが重要だと考えているからです。私たちはApacheライセンスを使用しています。</p><p>Apacheライセンスを使用する理由の一部は、プロジェクトを再配布する際に&quot;MultiMC&quot;の名前を使わないようにするためです。これは、人々が時間をかけてソースコードをチェックし、&quot;MultiMC&quot;へのすべての参照を削除する必要があることを意味します。これには、プロジェクトアイコンとウィンドウのタイトル(タイトルに<b>MultiMCフォーク</b>が含まれていません)が含まれます。</p></b><p>Apacheライセンスでは、適切な名前の使用がカバーされています。これは、Aboutダイアログでプロジェクトの起源について言及したもので、ライセンスは受け入れられます。しかも、そのプロジェクトが我々の承認<b>なしに実施されたフォーク</b>であり、非常に明確です。</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:297
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "未確認"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "脱機"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "登入済"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "処理中"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "異常"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "期限切れ"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "消滅"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:321
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "移行が必要です"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:357
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "帳戸情報"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:359
+#: src/launcher/minecraft/auth/AccountList.cpp:379
 msgctxt "AccountList|"
 msgid "platform"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:381
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "状態"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:383
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Minecraft ID名"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:372
+#: src/launcher/minecraft/auth/AccountList.cpp:392
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "帳戸の使用者名。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:374
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:376
+#: src/launcher/minecraft/auth/AccountList.cpp:396
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "現在の帳戸状態。"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:398
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "帳戸に関連付けられている Minecraft ID 名です。"
@@ -429,6 +429,65 @@ msgstr "…"
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
 msgstr "不明な帳戸作動状態: %1"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:87
+msgctxt "AccountsDialog|"
+msgid "Account / Profile Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:94
+msgctxt "AccountsDialog|"
+msgid "Rename"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:117
+#: src/launcher/ui/dialogs/AccountsDialog.ui:375
+msgctxt "AccountsDialog|"
+msgid "Skins"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:130
+#: src/launcher/ui/dialogs/AccountsDialog.ui:388
+msgctxt "AccountsDialog|"
+msgid "Capes"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:153
+#: src/launcher/ui/dialogs/AccountsDialog.ui:411
+msgctxt "AccountsDialog|"
+msgid "Sign Out"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:181
+msgctxt "AccountsDialog|"
+msgid "Reset Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:188
+msgctxt "AccountsDialog|"
+msgid "Save Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:269
+msgctxt "AccountsDialog|"
+msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
+"Choose your name carefully:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:312
+msgctxt "AccountsDialog|"
+msgid "Create Profile"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:352
+msgctxt "AccountsDialog|"
+msgid "Account Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:29
+msgctxt "AccountsDialog|"
+msgid "Minecraft Accounts"
+msgstr ""
 
 #: src/launcher/Application.cpp:786
 msgctxt "Application|"
@@ -2845,15 +2904,10 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "Microsoft 帳戸を追加"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.ui:56
-msgctxt "MSALoginDialog|"
-msgid "Copy Code"
-msgstr "コードをコピー"
-
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:95
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
 #, qt-format
 msgctxt "MSALoginDialog|"
-msgid "<p>Please open up %1 to proceed with login.</p>"
+msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
