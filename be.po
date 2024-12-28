@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Belarusian\n"
 "Language: be_BY\n"
-"PO-Revision-Date: 2024-12-25 14:11\n"
+"PO-Revision-Date: 2024-12-28 14:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>MultiMC застаецца праграмай з адкрытым к�
 "<p>Адна з прычын выкарыстання ліцэнзіі Apache заключаецца ў тым, што мы не хочам, каб людзі выкарыстоўвалі назву &quot;MultiMC&quot;, распаўсюджваючы праект. Гэта азначае, што людзі павінны выдаліць усе спасылкі на &quot;MultiMC&quot; з зыходнага кода праекта, уключаючы, у прыватнасці, абразок праекта і загалоўкі вокнаў (выключаючы <b>MultiMC-fork</b> ў загалоўку).</p>\n"
 "<p>Ліцэнзія Apache мае на ўвазе разумнае выкарыстанне назвы — згадка аб арыгінальным праекце ў акне «Пра нас» і ліцэнзія дапушчальныя. Тым не менш павінна быць цалкам ясна, што ваш праект толькі выкарыстоўвае арыгінальны зыходны код, <b>не</b> маючы на ўвазе, што мы падтрымліваем яго распрацоўку.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:297
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Неправераны"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Не ў сетцы"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "Анлайн"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Працуе"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Памылка"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Пратэрмінаваны"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Страчаны"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:321
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Неабходна Міграцыя"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:357
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Уліковы запіс"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:359
+#: src/launcher/minecraft/auth/AccountList.cpp:379
 msgctxt "AccountList|"
 msgid "platform"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:381
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "Стан"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:383
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Профіль"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:372
+#: src/launcher/minecraft/auth/AccountList.cpp:392
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Імя ўліковага запісу."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:374
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:376
+#: src/launcher/minecraft/auth/AccountList.cpp:396
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Бягучы статус уліковага запісу."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:398
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Імя профіля Minecraft, злучаннага з уліковым запісам."
@@ -431,6 +431,65 @@ msgstr ""
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
 msgstr "Невядомы стан запыту на ўліковы запіс: %1"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:87
+msgctxt "AccountsDialog|"
+msgid "Account / Profile Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:94
+msgctxt "AccountsDialog|"
+msgid "Rename"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:117
+#: src/launcher/ui/dialogs/AccountsDialog.ui:375
+msgctxt "AccountsDialog|"
+msgid "Skins"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:130
+#: src/launcher/ui/dialogs/AccountsDialog.ui:388
+msgctxt "AccountsDialog|"
+msgid "Capes"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:153
+#: src/launcher/ui/dialogs/AccountsDialog.ui:411
+msgctxt "AccountsDialog|"
+msgid "Sign Out"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:181
+msgctxt "AccountsDialog|"
+msgid "Reset Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:188
+msgctxt "AccountsDialog|"
+msgid "Save Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:269
+msgctxt "AccountsDialog|"
+msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
+"Choose your name carefully:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:312
+msgctxt "AccountsDialog|"
+msgid "Create Profile"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:352
+msgctxt "AccountsDialog|"
+msgid "Account Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:29
+msgctxt "AccountsDialog|"
+msgid "Minecraft Accounts"
+msgstr ""
 
 #: src/launcher/Application.cpp:786
 msgctxt "Application|"
@@ -2829,15 +2888,10 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "Дадаць уліковы запіс Microsoft"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.ui:56
-msgctxt "MSALoginDialog|"
-msgid "Copy Code"
-msgstr "Скапіяваць код"
-
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:95
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
 #, qt-format
 msgctxt "MSALoginDialog|"
-msgid "<p>Please open up %1 to proceed with login.</p>"
+msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
