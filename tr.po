@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2024-12-25 14:12\n"
+"PO-Revision-Date: 2024-12-28 14:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -224,82 +224,82 @@ msgstr "<p>MultiMC'yi açık kaynak olarak tutuyoruz çünkü, bunun gibi bir pr
 "<p>Apache lisansını kullanmamızın sebeplerinden biri, insanların bu projeyi yeniden çoğaltırken &quot;MultiMC&quot;  ismini kullanmalarını istemiyoruz. Bu insanların kaynak kodunda vakit geçirmesi ve &quot;MultiMC&quot;'ye ait tüm referansları kaldırmak zorunda oldukları anlamına geliyor. Proje simgesi bununla sınırlı olmasa da, buna pencere başlığı da dahil (Başlıkta <b>MultiMC-projeismi</b> olmayacak).</p>\n"
 "<p>Apache lisansı isim konusunda oldukça tutumludur - öyle ki pazarlanan diğer projenin ana kaynağını Hakkında ve lisans kısmında göstermek kabul edilebilir. Her türlü, projenizin bir alıntı olduğunu belirtmeniz gerekmektedir ve bunu kesinlikle biz ima ettik diye yapmamalısınız.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:297
+#: src/launcher/minecraft/auth/AccountList.cpp:300
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Kontrol edilmedi"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:303
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Çevrim dışı"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:306
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "Çevrim içi"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:309
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Çalışıyor"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:312
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Hatalı"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:315
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Geçerliliği kalmadı"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:318
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Kayıp"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:321
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Taşınmalı"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:357
+#: src/launcher/minecraft/auth/AccountList.cpp:377
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Hesap"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:359
+#: src/launcher/minecraft/auth/AccountList.cpp:379
 msgctxt "AccountList|"
 msgid "platform"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:361
+#: src/launcher/minecraft/auth/AccountList.cpp:381
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "Durum"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:363
+#: src/launcher/minecraft/auth/AccountList.cpp:383
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Hesap"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:372
+#: src/launcher/minecraft/auth/AccountList.cpp:392
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Hesabınızın kullanıcı adı."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:374
+#: src/launcher/minecraft/auth/AccountList.cpp:394
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:376
+#: src/launcher/minecraft/auth/AccountList.cpp:396
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Hesabın mevcut durumu."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:378
+#: src/launcher/minecraft/auth/AccountList.cpp:398
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Hesapla bağlantılı olan Minecraft profilinin ismi."
@@ -431,6 +431,65 @@ msgstr ""
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
 msgstr "Bilinmeyen hesap görev durumu: %1"
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:87
+msgctxt "AccountsDialog|"
+msgid "Account / Profile Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:94
+msgctxt "AccountsDialog|"
+msgid "Rename"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:117
+#: src/launcher/ui/dialogs/AccountsDialog.ui:375
+msgctxt "AccountsDialog|"
+msgid "Skins"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:130
+#: src/launcher/ui/dialogs/AccountsDialog.ui:388
+msgctxt "AccountsDialog|"
+msgid "Capes"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:153
+#: src/launcher/ui/dialogs/AccountsDialog.ui:411
+msgctxt "AccountsDialog|"
+msgid "Sign Out"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:181
+msgctxt "AccountsDialog|"
+msgid "Reset Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:188
+msgctxt "AccountsDialog|"
+msgid "Save Skin"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:269
+msgctxt "AccountsDialog|"
+msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
+"Choose your name carefully:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:312
+msgctxt "AccountsDialog|"
+msgid "Create Profile"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.ui:352
+msgctxt "AccountsDialog|"
+msgid "Account Name Here"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccountsDialog.cpp:29
+msgctxt "AccountsDialog|"
+msgid "Minecraft Accounts"
+msgstr ""
 
 #: src/launcher/Application.cpp:786
 msgctxt "Application|"
@@ -2835,15 +2894,10 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "Microsoft Hesabı Ekle"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.ui:56
-msgctxt "MSALoginDialog|"
-msgid "Copy Code"
-msgstr "Kod Kopyala"
-
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:95
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
 #, qt-format
 msgctxt "MSALoginDialog|"
-msgid "<p>Please open up %1 to proceed with login.</p>"
+msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
