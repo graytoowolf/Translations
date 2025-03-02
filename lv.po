@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Latvian\n"
 "Language: lv_LV\n"
-"PO-Revision-Date: 2024-12-28 14:52\n"
+"PO-Revision-Date: 2025-03-02 08:48\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -355,11 +355,6 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Konti"
-
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -385,6 +380,11 @@ msgstr "Neizdevās izdzēst pašreizējo skinu!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
+
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Konti"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -491,7 +491,7 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr ""
 
-#: src/launcher/Application.cpp:786
+#: src/launcher/Application.cpp:796
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Iestatījumi"
@@ -978,17 +978,17 @@ msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "Norādiet saīsnes ceļu"
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:23
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:55
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:214
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
@@ -1530,7 +1530,7 @@ msgid "Could not understand pack manifest:\n"
 msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:689
+#: src/launcher/InstanceImportTask.cpp:690
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Nevarēja pārsaukt pārrakstīšanas mapi:\n"
@@ -1558,48 +1558,48 @@ msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:388
-#: src/launcher/InstanceImportTask.cpp:731
+#: src/launcher/InstanceImportTask.cpp:389
+#: src/launcher/InstanceImportTask.cpp:732
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Modifikācijas lejuplāde"
 
-#: src/launcher/InstanceImportTask.cpp:408
+#: src/launcher/InstanceImportTask.cpp:409
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:424
+#: src/launcher/InstanceImportTask.cpp:425
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:429
+#: src/launcher/InstanceImportTask.cpp:430
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:450
-#: src/launcher/InstanceImportTask.cpp:754
+#: src/launcher/InstanceImportTask.cpp:451
+#: src/launcher/InstanceImportTask.cpp:755
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Lejuplādē modifikācijas..."
 
-#: src/launcher/InstanceImportTask.cpp:461
+#: src/launcher/InstanceImportTask.cpp:462
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:682
+#: src/launcher/InstanceImportTask.cpp:683
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Nevarēja saprast pakas indeksu:\n"
 
-#: src/launcher/InstanceImportTask.cpp:696
-#: src/launcher/InstanceImportTask.cpp:701
+#: src/launcher/InstanceImportTask.cpp:697
+#: src/launcher/InstanceImportTask.cpp:702
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Nevarēja apvienot pārrakstīšanas mapi:\n"
@@ -1801,11 +1801,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Vienspēlētāja pasaule:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Iestatījumi"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1815,6 +1810,11 @@ msgstr "Izvēlēties Java versiju"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Meklēt Java Izpildāmo"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Iestatījumi"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1944,11 +1944,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Tests"
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1958,6 +1953,11 @@ msgstr "Izvēlējieies Java versiju"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Meklēt Java Izpildāmo"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2679,6 +2679,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Atjaunināt instanci"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Atjaunināt"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2694,11 +2699,6 @@ msgstr "Pārtraukt"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Migrēts)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Atjaunināt"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2819,11 +2819,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Uz apakšu"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Minecraft Logs"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2833,6 +2828,11 @@ msgstr "Logu Augšupielāde"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Vai esiet pārliecināts, ka vēlieties augšupielādēt log failu?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Minecraft Logs"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3017,28 +3017,6 @@ msgstr "Paziņot par kļūdu"
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "Atvērt kļūdu pārvaldītāju lai paziņotu par kļūdu ar %1."
-
-#: src/launcher/ui/MainWindow.cpp:355
-msgctxt "MainWindow|"
-msgid "Discord"
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:356
-#, qt-format
-msgctxt "MainWindow|"
-msgid "Open %1 discord voice chat."
-msgstr "Atvērt %1 discord balss čatu."
-
-#: src/launcher/ui/MainWindow.cpp:365
-msgctxt "MainWindow|"
-msgid "Reddit"
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:366
-#, qt-format
-msgctxt "MainWindow|"
-msgid "Open %1 subreddit."
-msgstr "Atvērt %1 reddit."
 
 #: src/launcher/ui/MainWindow.cpp:375
 #, qt-format
@@ -3645,47 +3623,67 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Lietotājs beidza procesu."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:368
+#: src/launcher/ui/pages/global/modblacklistpage.ui:22
+msgctxt "ModBlacklistPage|"
+msgid "Remove"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.h:24
+msgctxt "ModBlacklistPage|"
+msgid "Mod blacklist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:81
+msgctxt "ModBlacklistPage|"
+msgid "Project ID"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:81
+msgctxt "ModBlacklistPage|"
+msgid "Mod name"
+msgstr ""
+
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "Mape"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:370
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:372
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "Fails"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:464
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Vārds"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:466
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "Versija"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:468
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:470
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Pēdējoreiz mainīts"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:477
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Vai mods ir iespējots?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:479
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Moda vārds."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:481
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Moda versija."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:483
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:485
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Datums un Laiks kad šī modifikācija tika pēdējo reizi rediģēta(vai pievienota)."
@@ -4566,106 +4564,35 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Starpniekserveris"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Versijas failā ir '+libraries' un 'libraries'. Šis vairs netiek atbalstīts."
+msgid "Empty path"
+msgstr "Tukšs ceļš"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
 msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "URL jar failam nevarēja atrisināt - Mojang noņēma serveri kuru izmantojām priekš atkāpšanās."
+msgid "Path does not exist"
+msgstr "Ceļš neeksistē"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Versijas fails satur neatbalstītu elementu 'tweakers'"
+msgid "Invalid JProfiler install"
+msgstr "Nav atrasts JProfiler"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Versijas fails satur neatbalstītu elementu '-libraries'"
+msgid "Path is empty"
+msgstr "Ceļš ir tukšs"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Versijas fails satur neatbalstītu elementu '-tweakers'"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Ceļš neved uz MCEdit"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Versijas fails satur neatbalstītu elementu 'minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Versijas fails satur neatbalstītu elementu '+minecraftArguments'"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Nav profila (%1)"
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Faili priekš %1"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments ir iestatīts uz nezināmu vērtību '%1'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "'minimumLauncherVersion' vērtība šai versijai (%1) ir augstāka nekā %3 atbalsta (%2). Tā iespējams pareizi nedarbosies!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Bibliotēkas %1 vārds ir nepareizs un nevar tikt procesēts."
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Nederīga komponentes faila versija, sagaidīja %1"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Labojams vēl nav bijis ielādēts."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Nederīga pieprasītā faila versija, gaidīja %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Neizdevās atvērt versijas failu %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Nevarēja saprast versijas failu %1: %2 %3. līnija %4. kolonna."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Neizdevās saprast versijas failu %1."
+msgid "Invalid path to JVisualVM"
+msgstr "Nepareizs ceļš uz JVisualVM"
 
 #: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
 #: src/launcher/meta/JsonFormat.cpp:166
@@ -4678,176 +4605,6 @@ msgstr "Nezināma formāta versija!"
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "Meta faila %1 lejupielāde"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Tukšs ceļš"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Nepareizs ceļš uz JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Ceļš ir tukšs"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Ceļš neeksistē"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Ceļš neved uz MCEdit"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Nav atrasts JProfiler"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr ""
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Gaišs"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Tumšs"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistēma"
-
-#: src/launcher/ui/MainWindow.cpp:102
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (Tiek lietots)"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Nav kodu izmaiņas starp jūsu versiju un jaunāko versiju.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Sekojošie iesniegumi tika pievienoti kopš pēdējā atjauninājuma:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Šis atjauninājums noņem %1 iesniegumus un pievieno sekojošo %2:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Jūs varat <a href=\"%1\">skatīt izmaiņas MultiMC GitHub lapā</a>.</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Autors"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Uzturētājs"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:54
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patroni"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Apraksts pietrūkst FTB programmas instancē."
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft servers"
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Augšupielāde neizdevās"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Log fails ir pārāk liels. Jums tas būs jāaugšupielādē manuāli."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Augšupielāde pabeigta"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Saite augšupielādētajam logam</a> tika ielikta jūsu starpliktuvē."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Izvēlētais fails neeksistē vai arī tas nav palaižams fails."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Izvēlētais java binārs nepalaidās pareizi.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Izvēlētais java binārs atgrieza nesagaidāmus rezultātus:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java tests izdevās!<br />Platforma par kuru paziņots: %1<br />Java versija par kuru paziņots: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java tests neizdevās"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java tests izdevās"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4882,10 +4639,22 @@ msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />Brīdinājumi:<br /><font color=\"orange\">%1</font>"
 
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Java tests izdevās"
+
 #: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "Izvēlētais Java binārs nestrādā ar argumentiem kurus izvēlējāties:<br />"
+
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Java tests neizdevās"
 
 #: src/launcher/JavaCommon.cpp:62
 msgctxt "QObject|"
@@ -4934,6 +4703,235 @@ msgid "The rollback failed too.\n"
 msgstr "Atgriešana arī neizdevās.\n"
 "Jums būs jāsalabo %1 manuāli.\n"
 "Lūdzu pastāstiet mums kā un kāpēc tas notika."
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Augšupielāde neizdevās"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Log fails ir pārāk liels. Jums tas būs jāaugšupielādē manuāli."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Augšupielāde pabeigta"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">Saite augšupielādētajam logam</a> tika ielikta jūsu starpliktuvē."
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>Nav kodu izmaiņas starp jūsu versiju un jaunāko versiju.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Sekojošie iesniegumi tika pievienoti kopš pēdējā atjauninājuma:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Šis atjauninājums noņem %1 iesniegumus un pievieno sekojošo %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Jūs varat <a href=\"%1\">skatīt izmaiņas MultiMC GitHub lapā</a>.</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Autors"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Uzturētājs"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:54
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patroni"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft servers"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Apraksts pietrūkst FTB programmas instancē."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Izvēlētais fails neeksistē vai arī tas nav palaižams fails."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Izvēlētais java binārs nepalaidās pareizi.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Izvēlētais java binārs atgrieza nesagaidāmus rezultātus:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Java tests izdevās!<br />Platforma par kuru paziņots: %1<br />Java versija par kuru paziņots: %2<br />"
+
+#: src/launcher/ui/MainWindow.cpp:102
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (Tiek lietots)"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Tumšs"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Gaišs"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistēma"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments ir iestatīts uz nezināmu vērtību '%1'"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "'minimumLauncherVersion' vērtība šai versijai (%1) ir augstāka nekā %3 atbalsta (%2). Tā iespējams pareizi nedarbosies!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Bibliotēkas %1 vārds ir nepareizs un nevar tikt procesēts."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Nederīga pieprasītā faila versija, gaidīja %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Neizdevās atvērt versijas failu %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Nevarēja saprast versijas failu %1: %2 %3. līnija %4. kolonna."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Neizdevās saprast versijas failu %1."
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "Faili priekš %1"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Labojams vēl nav bijis ielādēts."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Versijas failā ir '+libraries' un 'libraries'. Šis vairs netiek atbalstīts."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "URL jar failam nevarēja atrisināt - Mojang noņēma serveri kuru izmantojām priekš atkāpšanās."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Versijas fails satur neatbalstītu elementu 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Versijas fails satur neatbalstītu elementu '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Versijas fails satur neatbalstītu elementu '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Versijas fails satur neatbalstītu elementu 'minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Versijas fails satur neatbalstītu elementu '+minecraftArguments'"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Nav profila (%1)"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Nederīga komponentes faila versija, sagaidīja %1"
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr ""
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -4997,6 +4995,11 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "Kopēt Failu(s)"
 
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Ekrānuzņēmumi"
+
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5057,11 +5060,6 @@ msgstr "Vai esat pārliecināts?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Šis izdzēsīs visas izvēlētās fotogrāfijas."
-
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Ekrānuzņēmumi"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -6198,11 +6196,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Skatīt pasaules datupakas."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Pasaules"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6283,6 +6276,11 @@ msgstr "Ierakstiet jaunu vārdu priekš kopijas."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Ierakstiet jaunu pasaules vārdu."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Pasaules"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
