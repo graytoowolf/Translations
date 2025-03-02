@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2024-12-28 14:51\n"
+"PO-Revision-Date: 2025-03-02 08:47\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -353,11 +353,6 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr "スキンアカウントを追加"
 
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "帳戸管理"
-
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -383,6 +378,11 @@ msgstr "現在の外見相を削除できませんでした!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "アカウントを追加するには、スキンサイトのアカウントのメールアドレスとパスワードを入力してください。"
+
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "帳戸管理"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -489,7 +489,7 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr ""
 
-#: src/launcher/Application.cpp:786
+#: src/launcher/Application.cpp:796
 msgctxt "Application|"
 msgid "Settings"
 msgstr "設定"
@@ -976,17 +976,17 @@ msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "ショートカットのパスを選択"
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:17
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:23
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:49
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:55
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr "mod IDを解決しています..."
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:257
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:214
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "いくつかのMODIDの解決に失敗しました。"
@@ -1540,7 +1540,7 @@ msgid "Could not understand pack manifest:\n"
 msgstr "パック マニフェストが理解できませんでした:\n"
 
 #: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:689
+#: src/launcher/InstanceImportTask.cpp:690
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "上書き文件集の名前変更に失敗しました:\n"
@@ -1568,48 +1568,48 @@ msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Minecraft %1 の推奨フォージバージョンをマップできませんでした"
 
-#: src/launcher/InstanceImportTask.cpp:388
-#: src/launcher/InstanceImportTask.cpp:731
+#: src/launcher/InstanceImportTask.cpp:389
+#: src/launcher/InstanceImportTask.cpp:732
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod 受信"
 
-#: src/launcher/InstanceImportTask.cpp:408
+#: src/launcher/InstanceImportTask.cpp:409
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "この「フォルダ」は抽出が必要な場合があります: %1"
 
-#: src/launcher/InstanceImportTask.cpp:424
+#: src/launcher/InstanceImportTask.cpp:425
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "modpacksにモデリングが実装されていないため、何もダウンロードされませんでした: %1"
 
-#: src/launcher/InstanceImportTask.cpp:429
+#: src/launcher/InstanceImportTask.cpp:430
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Unrecognized/unhandled PackageType : %1"
 
-#: src/launcher/InstanceImportTask.cpp:450
-#: src/launcher/InstanceImportTask.cpp:754
+#: src/launcher/InstanceImportTask.cpp:451
+#: src/launcher/InstanceImportTask.cpp:755
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Mod を受信中..."
 
-#: src/launcher/InstanceImportTask.cpp:461
+#: src/launcher/InstanceImportTask.cpp:462
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "mod IDを解決できません:\n"
 
-#: src/launcher/InstanceImportTask.cpp:682
+#: src/launcher/InstanceImportTask.cpp:683
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "整合包の索引の解析に失敗しました: \n"
 
-#: src/launcher/InstanceImportTask.cpp:696
-#: src/launcher/InstanceImportTask.cpp:701
+#: src/launcher/InstanceImportTask.cpp:697
+#: src/launcher/InstanceImportTask.cpp:702
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "上書きフォルダをマージできませんでした：\n"
@@ -1811,11 +1811,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "シングルプレイの世界："
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "本実例の個別設定"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1825,6 +1820,11 @@ msgstr "Java の版次を選択してください"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Java の実行可能文件を探す"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "本実例の個別設定"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1954,11 +1954,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "有効性認証"
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "Java の設定"
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1968,6 +1963,11 @@ msgstr "Java の版次を選択してください"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Java の実行可能文件を探す"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Java の設定"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2687,6 +2687,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "構成実例の拡張更新"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "拡張更新"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2702,11 +2707,6 @@ msgstr "中止"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (移行済)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "拡張更新"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2827,11 +2827,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "一番下へ"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Minecraft の履録"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2841,6 +2836,11 @@ msgstr "ログをアップロード"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "このログファイルをアップロードしても良いですか？"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Minecraft の履録"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3025,28 +3025,6 @@ msgstr "不具合を報告"
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "不具合追跡器を開いて，%1 の不具合を報告します。"
-
-#: src/launcher/ui/MainWindow.cpp:355
-msgctxt "MainWindow|"
-msgid "Discord"
-msgstr "Discord 頁"
-
-#: src/launcher/ui/MainWindow.cpp:356
-#, qt-format
-msgctxt "MainWindow|"
-msgid "Open %1 discord voice chat."
-msgstr "%1 のDiscord音声交流室を開く。"
-
-#: src/launcher/ui/MainWindow.cpp:365
-msgctxt "MainWindow|"
-msgid "Reddit"
-msgstr "Reddit 頁"
-
-#: src/launcher/ui/MainWindow.cpp:366
-#, qt-format
-msgctxt "MainWindow|"
-msgid "Open %1 subreddit."
-msgstr "%1 の subreddit を開きます。"
 
 #: src/launcher/ui/MainWindow.cpp:375
 #, qt-format
@@ -3656,47 +3634,67 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "ユーザーによって中断されました。"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:368
+#: src/launcher/ui/pages/global/modblacklistpage.ui:22
+msgctxt "ModBlacklistPage|"
+msgid "Remove"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.h:24
+msgctxt "ModBlacklistPage|"
+msgid "Mod blacklist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:81
+msgctxt "ModBlacklistPage|"
+msgid "Project ID"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:81
+msgctxt "ModBlacklistPage|"
+msgid "Mod name"
+msgstr ""
+
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "フォルダー"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:370
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:372
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "ファイル"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:464
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:466
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "名前"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:466
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:468
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "バージョン"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:468
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:470
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "最終更新"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:477
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:479
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Modが有効かどうか"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:479
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:481
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Modの名前"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:481
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:483
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Modのバージョン"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:483
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:485
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "このModが変更あるいは追加された日時"
@@ -4577,106 +4575,35 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "プロキシ"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "バージョンファイルには \"+libraries\" と \"libraries\" の両方が含まれています。これはもうサポートされていません。"
+msgid "Empty path"
+msgstr "空のパス"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
 msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "メインの jar ファイルに対するURLが特定できませんでした - Mojang がフォールバックとして使用していたサーバーを削除しました"
+msgid "Path does not exist"
+msgstr "経路は存在しません"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "バージョンファイルにサポートされていない要素 \"tweakers\" があります"
+msgid "Invalid JProfiler install"
+msgstr "JProfilerのインストールが無効です"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "バージョンファイルにサポートされていない要素 \"-libraries\" があります"
+msgid "Path is empty"
+msgstr "経路は空です"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "バージョンファイルにサポートされていない要素 \"-tweakers\" があります"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "パスはMCEditのパスではないようです"
 
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "バージョンファイルにサポートされていない要素 \"-minecraftArguments\" があります"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "バージョンファイルにサポートされていない要素  \"+minecraftArguments\" があります"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "プロファイルがありません (%1)"
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1 のassets"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments が不明な値 '%1' にセットされています"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "このバージョンでの 'minimumLauncherVersion' 値: %1 がMultiMCでサポートされている値: %3(%2) より大きく、正しい動作ができない可能性があります。"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "ライブラリ %1 の名前が壊れているため処理できません。"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "パッチはまだ読み込まれていません。"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "無効なオーダーファイルのバージョン、%1が予想されます"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "バージョンファイル %1を開くことができません。: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "バージョンファイル %1を処理できません: %2 at line %3 column %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "版次文件 %1 を処理できません。"
+msgid "Invalid path to JVisualVM"
+msgstr "JVisualVMへのパスが無効です"
 
 #: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
 #: src/launcher/meta/JsonFormat.cpp:166
@@ -4689,176 +4616,6 @@ msgstr "不明なフォーマットバージョンです"
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "メタファイル %1 のダウンロード"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "空のパス"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "JVisualVMへのパスが無効です"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "経路は空です"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "経路は存在しません"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "パスはMCEditのパスではないようです"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "JProfilerのインストールが無効です"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1分 %2秒"
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1時間 %2分"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1日 %2時間 %3分"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "ブライト"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "ダーク"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "システム"
-
-#: src/launcher/ui/MainWindow.cpp:102
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (使用中)"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>現在のバージョンと最新バージョンのコード変更はありません。</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>以下のコミットが最後のアップデートから追加されました:<p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>このアップデートは%1個のコミットを削除し、以下の%2個のコミットを追加します:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p><a href=\"%1\">GitHubで変更点を見る</a>ことができます。</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "オリジナルの著者"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "メンテナー"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:54
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "FTB App のインスタンスの説明がありません。"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft サーバー"
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "アップロード失敗"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "ログファイルが大きすぎます。手動でアップロードしてください。"
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "アップロード完了"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">アップロードされたログのリンク</a>がクリップボードに保存されます。"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "指定されたファイルは存在しないか、適切な実行可能ファイルではありません。"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "指定されたJavaバイナリが正しく起動しませんでした。<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "指定されたJavaバイナリは予期しない結果を返しました:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Javaのテストに失敗しました"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Javaのテストに成功しました"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -4891,10 +4648,22 @@ msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />修正に失敗しました:</b>%1</span><br />警告:<br /><font color=\"orange\">%1</font>"
 
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Javaのテストに成功しました"
+
 #: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "指定されたJavaバイナリは、指定された引数では動作しませんでした:<br />"
+
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Javaのテストに失敗しました"
 
 #: src/launcher/JavaCommon.cpp:62
 msgctxt "QObject|"
@@ -4942,6 +4711,235 @@ msgid "The rollback failed too.\n"
 msgstr "ロールバックにも失敗しました。\n"
 "手動で %1 を修復する必要があります。\n"
 "これが起こった理由と方法を教えてください。"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "アップロード失敗"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "ログファイルが大きすぎます。手動でアップロードしてください。"
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "アップロード完了"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">アップロードされたログのリンク</a>がクリップボードに保存されます。"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>現在のバージョンと最新バージョンのコード変更はありません。</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>以下のコミットが最後のアップデートから追加されました:<p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>このアップデートは%1個のコミットを削除し、以下の%2個のコミットを追加します:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p><a href=\"%1\">GitHubで変更点を見る</a>ことができます。</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "オリジナルの著者"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "メンテナー"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:54
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft サーバー"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "FTB App のインスタンスの説明がありません。"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "指定されたファイルは存在しないか、適切な実行可能ファイルではありません。"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "指定されたJavaバイナリが正しく起動しませんでした。<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "指定されたJavaバイナリは予期しない結果を返しました:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />"
+
+#: src/launcher/ui/MainWindow.cpp:102
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (使用中)"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "ダーク"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "ブライト"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "システム"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments が不明な値 '%1' にセットされています"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "このバージョンでの 'minimumLauncherVersion' 値: %1 がMultiMCでサポートされている値: %3(%2) より大きく、正しい動作ができない可能性があります。"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "ライブラリ %1 の名前が壊れているため処理できません。"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "無効なオーダーファイルのバージョン、%1が予想されます"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "バージョンファイル %1を開くことができません。: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "バージョンファイル %1を処理できません: %2 at line %3 column %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "版次文件 %1 を処理できません。"
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "%1 のassets"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "パッチはまだ読み込まれていません。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "バージョンファイルには \"+libraries\" と \"libraries\" の両方が含まれています。これはもうサポートされていません。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "メインの jar ファイルに対するURLが特定できませんでした - Mojang がフォールバックとして使用していたサーバーを削除しました"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "バージョンファイルにサポートされていない要素 \"tweakers\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "バージョンファイルにサポートされていない要素 \"-libraries\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "バージョンファイルにサポートされていない要素 \"-tweakers\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "バージョンファイルにサポートされていない要素 \"-minecraftArguments\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "バージョンファイルにサポートされていない要素  \"+minecraftArguments\" があります"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "プロファイルがありません (%1)"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr "%1分 %2秒"
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr "%1時間 %2分"
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr "%1日 %2時間 %3分"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5005,6 +5003,11 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "ファイルをコピー"
 
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5065,11 +5068,6 @@ msgstr "よろしいですか?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "これにより、選択したすべてのスクリーンショットが削除されます。"
-
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "スクリーンショット"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -6206,11 +6204,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "ワールド内のデータパックを管理します。"
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "ワールド"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6290,6 +6283,11 @@ msgstr "新しいワールド名を入力してください"
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "新しいワールド名を入力してください"
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "ワールド"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
