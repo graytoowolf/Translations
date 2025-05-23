@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2025-05-23 09:49\n"
+"PO-Revision-Date: 2025-05-23 13:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3644,14 +3644,30 @@ msgctxt "ModBlacklistPage|"
 msgid "Blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:31
+#: src/launcher/ui/pages/global/modblacklistpage.ui:27
+msgctxt "ModBlacklistPage|"
+msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:38
 msgctxt "ModBlacklistPage|"
 msgid "Whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:46
+#: src/launcher/ui/pages/global/modblacklistpage.ui:44
 msgctxt "ModBlacklistPage|"
-msgid "Remove"
+msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:67
+msgctxt "ModBlacklistPage|"
+msgid "Drag and drop MOD files into the table to add them to the blacklist or whitelist. \n"
+"Check the corresponding items, then click \"Remove Selected\" to delete the entries."
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:80
+msgctxt "ModBlacklistPage|"
+msgid "Remove Selected"
 msgstr ""
 
 #: src/launcher/ui/pages/global/modblacklistpage.cpp:135
