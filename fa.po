@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Persian\n"
 "Language: fa_IR\n"
-"PO-Revision-Date: 2025-03-02 08:48\n"
+"PO-Revision-Date: 2025-05-23 09:50\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -598,6 +598,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "جستجو و فیلتر ..."
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -618,11 +623,6 @@ msgstr "نمی توان لیست نسخه ها را دانلود یا لود ن�
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "درحال نصب"
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -792,6 +792,11 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -843,11 +848,6 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:101
 msgctxt "CFPage|"
 msgid " by "
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
-msgctxt "CFPage|"
-msgid "CurseForge"
 msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
@@ -978,19 +978,24 @@ msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "انتخاب مسیر میانبر"
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:23
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:30
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:55
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:63
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:214
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:240
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:406
+msgctxt "CurseForge::FileResolvingTask|"
+msgid "Processing whitelist mods..."
 msgstr ""
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
@@ -1801,6 +1806,11 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr ""
 
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "تنظیمات"
+
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1810,11 +1820,6 @@ msgstr "انتخاب یک نسخه جاوا"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "پیدا کردن اجرایی جاوا"
-
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "تنظیمات"
 
 #: src/launcher/InstanceList.cpp:845
 msgctxt "InstanceStaging|"
@@ -1944,6 +1949,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "تست"
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "جاوا"
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1953,11 +1963,6 @@ msgstr "انتخاب یک نسخه جاوا"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "یافتن اجرا کننده جاوا"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "جاوا"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2620,11 +2625,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "نسخه انتخاب شده:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "تاخیر FTB"
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2658,6 +2658,11 @@ msgstr "حذف پک"
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "آیا مطمعن هستید که می خواهید بسته %1 را پاک کنید؟"
+
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "تاخیر FTB"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
 msgctxt "LegacyInstance|"
@@ -2819,6 +2824,11 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "پایین"
 
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "لاگ ماینکرافت"
+
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2828,11 +2838,6 @@ msgstr "آپلود لاگ"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "لاگ ماینکرافت"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3623,24 +3628,85 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "توسط کاربر لغو گشت."
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:22
+#: src/launcher/ui/pages/global/modblacklistpage.ui:21
+msgctxt "ModBlacklistPage|"
+msgid "Blacklist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:31
+msgctxt "ModBlacklistPage|"
+msgid "Whitelist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:46
 msgctxt "ModBlacklistPage|"
 msgid "Remove"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.h:24
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:135
 msgctxt "ModBlacklistPage|"
-msgid "Mod blacklist"
+msgid "Network Error"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:81
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:136
+#, qt-format
+msgctxt "ModBlacklistPage|"
+msgid "Failed to lookup mod information: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:182
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:382
+msgctxt "ModBlacklistPage|"
+msgid "Success"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:183
+#, qt-format
+msgctxt "ModBlacklistPage|"
+msgid "Added %1 mod(s) to %2"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:184
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:384
+msgctxt "ModBlacklistPage|"
+msgid "whitelist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:184
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:384
+msgctxt "ModBlacklistPage|"
+msgid "blacklist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:200
 msgctxt "ModBlacklistPage|"
 msgid "Project ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:81
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:200
 msgctxt "ModBlacklistPage|"
 msgid "Mod name"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:364
+msgctxt "ModBlacklistPage|"
+msgid "Information"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:364
+msgctxt "ModBlacklistPage|"
+msgid "No items selected for removal."
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:383
+#, qt-format
+msgctxt "ModBlacklistPage|"
+msgid "Removed %1 mod(s) from %2"
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.h:36
+msgctxt "ModBlacklistPage|"
+msgid "Mod Lists"
 msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:370
@@ -4567,35 +4633,127 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "پروکسی"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "مسیر خالی"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "فایل مشخص شده اصلا وجود ندارد یا اینکه فایل اجرایی مناسبی نیست."
 
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "مسیر وجود ندارد"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "binary جاوای مشخص شده درست شروع به کار نکرد.<br />"
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "نصب JProfiler نامعتبر"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "binary جاوای مشخص شده با نتایج غیر‌قابل پیشبینی بازگشت:<br />"
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "مسیر خالی است"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "تست جاوا موفقیت آمیز بود!<br />پلتفرم گزارش شده: %1<br />نسخه جاوای گزارش شده: %2<br />"
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "این مسیر به نظر نمی آید که مسیر MCEdit باشد"
+msgid "Java test failure"
+msgstr "تست جاوا ناموفق بود"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "مسیر نامعتبر برای JVisualVM"
+msgid "Java test success"
+msgstr "تست جاوا موفق بود"
+
+#: src/launcher/ui/MainWindow.cpp:102
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (در حال استفاده)"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "آپلود ناموفق بود"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "فایل لاگ خیلی بزرگ است. شما باید خودتان دستی آپلودش کنید."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "آپلود کردن به اتمام رسید"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">لینک آپلود شده لاگ</a> در کلیپ بورد شما کپی شد."
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "سازنده اصلی"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "نگه‌دارنده"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:54
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>هیچ تغییری در کد بین نسخه فعلی و آخرین نسخه وجود ندارد.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>دنباله این تغییرات از آخرین بروزرسانی اضافه شده اند:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>این بروزرسانی %1 اعمالات را حذف کرده و به دنبال آن %2 اضافه کرده:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>شما می توانید <a href=\"%1\">تغییرات کامل را در گیت هاب ببینید</a>.</p>"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "توضیحات در نمایه برنامه FTB یافت نمی شوند."
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "سرور ماینکرافت"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "سیستم"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "روشن"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "تاریک"
 
 #: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
 #: src/launcher/meta/JsonFormat.cpp:166
@@ -4609,60 +4767,23 @@ msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "دانلود از فایل meta %1"
 
-#: src/launcher/JavaCommon.cpp:10
-msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "شما سعی کردید که تنظیمات JVM را دستی تغییر بدهید (با استفاده از: \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"در تنظیمات جاهای نوشتنی برای هر کدام از این ها اختصاص داده شده (تب جاوا، در گروه حافظه در بالا).\n"
-"این پیام تا زمانی نشان داده می شود که شما آن ها را از آرگومان های JVM پاک کنید."
-
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
-msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "هشدار آرگومان JVM"
-
-#: src/launcher/JavaCommon.cpp:22
-msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "شما سعی کردید که نسخه جاوا را با استفاده از آرگومان JVM (\"-version=xxx\") دور بزنید. این کار امنی نیست و اجازه آن داده نمی شود.\n"
-"این پیام نمایش داده خواهد شد تا زمانی که شما آن را از آرگومان JVM را بردارید."
-
-#: src/launcher/JavaCommon.cpp:37
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "تست جاوا موفقیت آمیز بود!<br />پلتفرم گزارش شده: %1<br />نسخه جاوای گزارش شده: %2<br />جاوا vendor گزارش شده: %3<br />"
+msgid "%1m %2s"
+msgstr "%1دقیقه %2ثانیه"
 
-#: src/launcher/JavaCommon.cpp:44
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />اخطار ها:<br /><font color=\"orange\">%1</font>"
+msgid "%1h %2m"
+msgstr "%1ساعت %2دقیقه"
 
-#: src/launcher/JavaCommon.cpp:46
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
 msgctxt "QObject|"
-msgid "Java test success"
-msgstr "تست جاوا موفق بود"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "binary جاوای مشخص شده با آرگومان هایی که شما ارائه دادید کار نکرد:<br />"
-
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "تست جاوا ناموفق بود"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "binary جاوای مشخص شده کار نکرد.<br />شما باید از ویژگی auto-detect استفاده کنید، یا اینکه مسیر را به اجرایی جاوا تنظیم کنید.<br />"
+msgid "%1d %2h %3m"
+msgstr "%1روز %2ساعت %3دقیقه"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -4707,116 +4828,6 @@ msgstr "برگشتن نیز ناموفق بود.\n"
 "شما باید خودتان دستی %1 را درست کنید.\n"
 "لطفا به ما اطلاع دهید چرا و چطور این اتفاق افتاد."
 
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "آپلود ناموفق بود"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "فایل لاگ خیلی بزرگ است. شما باید خودتان دستی آپلودش کنید."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "آپلود کردن به اتمام رسید"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">لینک آپلود شده لاگ</a> در کلیپ بورد شما کپی شد."
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>هیچ تغییری در کد بین نسخه فعلی و آخرین نسخه وجود ندارد.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>دنباله این تغییرات از آخرین بروزرسانی اضافه شده اند:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>این بروزرسانی %1 اعمالات را حذف کرده و به دنبال آن %2 اضافه کرده:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>شما می توانید <a href=\"%1\">تغییرات کامل را در گیت هاب ببینید</a>.</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "سازنده اصلی"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "نگه‌دارنده"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:54
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "سرور ماینکرافت"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "توضیحات در نمایه برنامه FTB یافت نمی شوند."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "فایل مشخص شده اصلا وجود ندارد یا اینکه فایل اجرایی مناسبی نیست."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "binary جاوای مشخص شده درست شروع به کار نکرد.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "binary جاوای مشخص شده با نتایج غیر‌قابل پیشبینی بازگشت:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "تست جاوا موفقیت آمیز بود!<br />پلتفرم گزارش شده: %1<br />نسخه جاوای گزارش شده: %2<br />"
-
-#: src/launcher/ui/MainWindow.cpp:102
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (در حال استفاده)"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "تاریک"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "روشن"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "سیستم"
-
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
 msgctxt "QObject|"
@@ -4834,6 +4845,29 @@ msgstr "مقدار 'minimumLauncherVersion' در این نسخه (%1) بالات
 msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
 msgstr "نام کتاب‌خانه‌ی %1 شکسته است و نمی توان آن را پردازش کرد."
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "مولفه نسخه فایل نامعتبر، اتفاق افتاده در %1"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "بسته(Patch) هنوز بارگزاری نشده."
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "ابزارها برای %1"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "پروفایل‌ ندارد (%1)"
 
 #: src/launcher/minecraft/ProfileUtils.cpp:51
 #, qt-format
@@ -4859,17 +4893,6 @@ msgstr "ناتوانی در پردازش نسخه فایل %1: %2 در خط %3 �
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "ناتوانی در پردازش نسخه فایل %1."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "ابزارها برای %1"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "بسته(Patch) هنوز بارگزاری نشده."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -4906,35 +4929,78 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "نسخه فایل حاوی المان های پشتیبانی نشده‌ای ''+minecraftArguments' می باشد"
 
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
+#: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "پروفایل‌ ندارد (%1)"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "شما سعی کردید که تنظیمات JVM را دستی تغییر بدهید (با استفاده از: \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"در تنظیمات جاهای نوشتنی برای هر کدام از این ها اختصاص داده شده (تب جاوا، در گروه حافظه در بالا).\n"
+"این پیام تا زمانی نشان داده می شود که شما آن ها را از آرگومان های JVM پاک کنید."
 
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
 msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "مولفه نسخه فایل نامعتبر، اتفاق افتاده در %1"
+msgid "JVM arguments warning"
+msgstr "هشدار آرگومان JVM"
 
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
+#: src/launcher/JavaCommon.cpp:22
 msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1دقیقه %2ثانیه"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "شما سعی کردید که نسخه جاوا را با استفاده از آرگومان JVM (\"-version=xxx\") دور بزنید. این کار امنی نیست و اجازه آن داده نمی شود.\n"
+"این پیام نمایش داده خواهد شد تا زمانی که شما آن را از آرگومان JVM را بردارید."
 
-#: src/launcher/MMCTime.cpp:35
+#: src/launcher/JavaCommon.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1ساعت %2دقیقه"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "تست جاوا موفقیت آمیز بود!<br />پلتفرم گزارش شده: %1<br />نسخه جاوای گزارش شده: %2<br />جاوا vendor گزارش شده: %3<br />"
 
-#: src/launcher/MMCTime.cpp:37
+#: src/launcher/JavaCommon.cpp:44
 #, qt-format
 msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1روز %2ساعت %3دقیقه"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />اخطار ها:<br /><font color=\"orange\">%1</font>"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "binary جاوای مشخص شده با آرگومان هایی که شما ارائه دادید کار نکرد:<br />"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "binary جاوای مشخص شده کار نکرد.<br />شما باید از ویژگی auto-detect استفاده کنید، یا اینکه مسیر را به اجرایی جاوا تنظیم کنید.<br />"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "مسیر خالی است"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "مسیر وجود ندارد"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "این مسیر به نظر نمی آید که مسیر MCEdit باشد"
+
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "مسیر خالی"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "نصب JProfiler نامعتبر"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "مسیر نامعتبر برای JVisualVM"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5794,6 +5860,11 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr ""
 
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "نسخه"
+
 #: src/launcher/ui/pages/instance/VersionPage.cpp:156
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -5962,11 +6033,6 @@ msgstr "نمی توان لیست نسخه های LiteLoader را بارگذار�
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "خطا در بروزرسانی نمایه"
-
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "نسخه"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
@@ -6198,6 +6264,11 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "مدیریت دیتاپک های یک دنیا."
 
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "دنیاها"
+
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6278,11 +6349,6 @@ msgstr "یک نام برای کپی وارد کنید."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "وارد کردن نام دنیای جدید."
-
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "دنیاها"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
