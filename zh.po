@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2025-05-23 11:36\n"
+"PO-Revision-Date: 2025-05-23 13:20\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3649,15 +3649,32 @@ msgctxt "ModBlacklistPage|"
 msgid "Blacklist"
 msgstr "黑名单"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:31
+#: src/launcher/ui/pages/global/modblacklistpage.ui:27
+msgctxt "ModBlacklistPage|"
+msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
+msgstr "黑名单上的模组在安装模组包时将自动禁用。"
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:38
 msgctxt "ModBlacklistPage|"
 msgid "Whitelist"
 msgstr "白名单"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:46
+#: src/launcher/ui/pages/global/modblacklistpage.ui:44
 msgctxt "ModBlacklistPage|"
-msgid "Remove"
-msgstr "移除"
+msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
+msgstr "白名单上的模组在安装模组包时将自动下载。"
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:67
+msgctxt "ModBlacklistPage|"
+msgid "Drag and drop MOD files into the table to add them to the blacklist or whitelist. \n"
+"Check the corresponding items, then click \"Remove Selected\" to delete the entries."
+msgstr "将MOD文件拖放到表格中以将其添加到黑名单或白名单中。\n"
+"选中相应的项目，然后单击\"删除选定的模组\"以删除条目。"
+
+#: src/launcher/ui/pages/global/modblacklistpage.ui:80
+msgctxt "ModBlacklistPage|"
+msgid "Remove Selected"
+msgstr "删除选定的模组"
 
 #: src/launcher/ui/pages/global/modblacklistpage.cpp:135
 msgctxt "ModBlacklistPage|"
@@ -3723,7 +3740,7 @@ msgstr "已从 %2 移除 %1 个 mod"
 #: src/launcher/ui/pages/global/modblacklistpage.h:36
 msgctxt "ModBlacklistPage|"
 msgid "Mod Lists"
-msgstr " мод 列表"
+msgstr "Mod 列表"
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:370
 msgctxt "ModFolderModel|"
