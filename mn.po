@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Mongolian\n"
 "Language: mn_MN\n"
-"PO-Revision-Date: 2025-05-23 13:20\n"
+"PO-Revision-Date: 2025-05-24 16:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -976,22 +976,22 @@ msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "Холбоосыг сонгох"
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:30
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:53
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:63
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:86
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Resolving mod IDs..."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:240
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:262
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:406
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:429
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Processing whitelist mods..."
 msgstr ""
@@ -3626,99 +3626,102 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "Хэрэглэгч цуцалсан."
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:21
+#: src/launcher/ui/pages/global/modblacklistpage.ui:42
 msgctxt "ModBlacklistPage|"
 msgid "Blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:27
+#: src/launcher/ui/pages/global/modblacklistpage.ui:70
 msgctxt "ModBlacklistPage|"
 msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:38
+#: src/launcher/ui/pages/global/modblacklistpage.ui:102
 msgctxt "ModBlacklistPage|"
 msgid "Whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:44
+#: src/launcher/ui/pages/global/modblacklistpage.ui:148
 msgctxt "ModBlacklistPage|"
 msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:67
-msgctxt "ModBlacklistPage|"
-msgid "Drag and drop MOD files into the table to add them to the blacklist or whitelist. \n"
-"Check the corresponding items, then click \"Remove Selected\" to delete the entries."
-msgstr ""
-
-#: src/launcher/ui/pages/global/modblacklistpage.ui:80
+#: src/launcher/ui/pages/global/modblacklistpage.ui:178
 msgctxt "ModBlacklistPage|"
 msgid "Remove Selected"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:135
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:150
 msgctxt "ModBlacklistPage|"
 msgid "Network Error"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:136
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:151
 #, qt-format
 msgctxt "ModBlacklistPage|"
 msgid "Failed to lookup mod information: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:182
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:382
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:202
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:428
 msgctxt "ModBlacklistPage|"
 msgid "Success"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:183
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
 #, qt-format
 msgctxt "ModBlacklistPage|"
 msgid "Added %1 mod(s) to %2"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:184
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:384
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:481
 msgctxt "ModBlacklistPage|"
 msgid "whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:184
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:384
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:481
 msgctxt "ModBlacklistPage|"
 msgid "blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:200
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:226
 msgctxt "ModBlacklistPage|"
 msgid "Project ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:200
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:226
 msgctxt "ModBlacklistPage|"
 msgid "Mod name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:364
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:407
 msgctxt "ModBlacklistPage|"
 msgid "Information"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:364
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:407
 msgctxt "ModBlacklistPage|"
 msgid "No items selected for removal."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:383
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
 #, qt-format
 msgctxt "ModBlacklistPage|"
 msgid "Removed %1 mod(s) from %2"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.h:36
+#: src/launcher/ui/pages/global/modblacklistpage.cpp:480
+#, qt-format
+msgctxt "ModBlacklistPage|"
+msgid "Drag and drop MOD files into the table to add them to the %1.\n"
+"Check the corresponding items, then click \"Remove Selected\" to delete the entries."
+msgstr ""
+
+#: src/launcher/ui/pages/global/modblacklistpage.h:37
 msgctxt "ModBlacklistPage|"
 msgid "Mod Lists"
 msgstr ""
