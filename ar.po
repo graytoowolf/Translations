@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2025-05-24 16:19\n"
+"PO-Revision-Date: 2025-05-25 11:52\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3722,8 +3722,8 @@ msgstr ""
 #: src/launcher/ui/pages/global/modblacklistpage.cpp:480
 #, qt-format
 msgctxt "ModBlacklistPage|"
-msgid "Drag and drop MOD files into the table to add them to the %1.\n"
-"Check the corresponding items, then click \"Remove Selected\" to delete the entries."
+msgid "Drag and drop MOD files into the table to add them to %1.\n"
+"Select the items you want to remove, then click \"Remove Selected\"."
 msgstr ""
 
 #: src/launcher/ui/pages/global/modblacklistpage.h:37
