@@ -3817,9 +3817,8 @@ msgstr ""
 #, qt-format
 msgctxt "ModBlacklistPage|"
 msgid ""
-"Drag and drop MOD files into the table to add them to the %1.\n"
-"Check the corresponding items, then click \"Remove Selected\" to delete the "
-"entries."
+"Drag and drop MOD files into the table to add them to %1.\n"
+"Select the items you want to remove, then click \"Remove Selected\"."
 msgstr ""
 
 #: src/launcher/ui/pages/global/modblacklistpage.h:37
