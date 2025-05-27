@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Serbian (Latin)\n"
 "Language: sr_CS\n"
-"PO-Revision-Date: 2025-05-25 11:53\n"
+"PO-Revision-Date: 2025-05-27 05:51\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -856,6 +856,41 @@ msgstr ""
 #: src/launcher/minecraft/services/CapeChange.cpp:34
 msgctxt "CapeChange|"
 msgid "Removing cape"
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:14
+msgctxt "Cfmodlist|"
+msgid "MainWindow"
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:40
+msgctxt "Cfmodlist|"
+msgid "Blacklist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:68
+msgctxt "Cfmodlist|"
+msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:100
+msgctxt "Cfmodlist|"
+msgid "Whitelist"
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:146
+msgctxt "Cfmodlist|"
+msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:170
+msgctxt "Cfmodlist|"
+msgid "toolBar"
+msgstr ""
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:182
+msgctxt "Cfmodlist|"
+msgid "Remove Selected"
 msgstr ""
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
@@ -2125,101 +2160,101 @@ msgctxt "LaunchController|"
 msgid "Account refresh failed"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:250
+#: src/launcher/LaunchController.cpp:251
 msgctxt "LaunchController|"
 msgid "Please enter your Yggdrasil account email and password to add your account."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:264
+#: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:273
+#: src/launcher/LaunchController.cpp:275
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
 msgstr "Nalog više ne postoji na serverima. Moguće je da je migriran, u tom slučaju molimo dodajte novi nalog na koji ste migrirali ovaj."
 
-#: src/launcher/LaunchController.cpp:276
+#: src/launcher/LaunchController.cpp:278
 msgctxt "LaunchController|"
 msgid "Account gone"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:285
+#: src/launcher/LaunchController.cpp:287
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:288
+#: src/launcher/LaunchController.cpp:290
 msgctxt "LaunchController|"
 msgid "Account requires migration"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:298
+#: src/launcher/LaunchController.cpp:300
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:308 src/launcher/LaunchController.cpp:380
+#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:382
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "Grеška!"
 
-#: src/launcher/LaunchController.cpp:308 src/launcher/LaunchController.cpp:309
+#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:311
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:316
+#: src/launcher/LaunchController.cpp:318
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:380
+#: src/launcher/LaunchController.cpp:382
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:389
+#: src/launcher/LaunchController.cpp:391
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
 "%1"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:392
+#: src/launcher/LaunchController.cpp:394
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:394
+#: src/launcher/LaunchController.cpp:396
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:402
+#: src/launcher/LaunchController.cpp:404
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:403
+#: src/launcher/LaunchController.cpp:405
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Grеška"
 
-#: src/launcher/LaunchController.cpp:431
+#: src/launcher/LaunchController.cpp:433
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "Obustavi"
 
-#: src/launcher/LaunchController.cpp:447
+#: src/launcher/LaunchController.cpp:449
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Ubi Minecraft?"
 
-#: src/launcher/LaunchController.cpp:448
+#: src/launcher/LaunchController.cpp:450
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "Ovo može uzrokovati kuruptovanje instance i treba se koristiti samo ako se Minecraft zamrzne iz nekog razloga"
@@ -3612,103 +3647,128 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:42
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:14
+msgctxt "ModFilterPage|"
+msgid "MainWindow"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:49
+msgctxt "ModFilterPage|"
 msgid "Blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:70
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:77
+msgctxt "ModFilterPage|"
 msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:102
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:109
+msgctxt "ModFilterPage|"
 msgid "Whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:148
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:158
+msgctxt "ModFilterPage|"
 msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:178
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:183
+msgctxt "ModFilterPage|"
 msgid "Remove Selected"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:150
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:191
+msgctxt "ModFilterPage|"
+msgid "&Add"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:194
+msgctxt "ModFilterPage|"
+msgid "Add module to list"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:199
+msgctxt "ModFilterPage|"
+msgid "&Remove"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:202
+msgctxt "ModFilterPage|"
+msgid "Remove selected mods"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:159
+msgctxt "ModFilterPage|"
 msgid "Network Error"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:151
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:160
 #, qt-format
-msgctxt "ModBlacklistPage|"
+msgctxt "ModFilterPage|"
 msgid "Failed to lookup mod information: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:202
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:428
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:211
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:435
+msgctxt "ModFilterPage|"
 msgid "Success"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
 #, qt-format
-msgctxt "ModBlacklistPage|"
-msgid "Added %1 mod(s) to %2"
+msgctxt "ModFilterPage|"
+msgid "Processed %1 mod(s) for %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:481
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:487
+msgctxt "ModFilterPage|"
 msgid "whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:481
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:487
+msgctxt "ModFilterPage|"
 msgid "blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:226
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:239
+msgctxt "ModFilterPage|"
 msgid "Project ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:226
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:239
+msgctxt "ModFilterPage|"
 msgid "Mod name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:407
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:420
+msgctxt "ModFilterPage|"
 msgid "Information"
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:407
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:420
+msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
 #, qt-format
-msgctxt "ModBlacklistPage|"
-msgid "Removed %1 mod(s) from %2"
+msgctxt "ModFilterPage|"
+msgid "Attempted to remove %1 mod(s) from %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:480
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:486
 #, qt-format
-msgctxt "ModBlacklistPage|"
+msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
 msgstr ""
 
-#: src/launcher/ui/pages/global/modblacklistpage.h:37
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.h:39
+msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
