@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2025-05-25 11:52\n"
+"PO-Revision-Date: 2025-05-27 05:50\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -861,6 +861,41 @@ msgstr "装备披风"
 msgctxt "CapeChange|"
 msgid "Removing cape"
 msgstr "移除披风"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:14
+msgctxt "Cfmodlist|"
+msgid "MainWindow"
+msgstr "主窗口"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:40
+msgctxt "Cfmodlist|"
+msgid "Blacklist"
+msgstr "黑名单"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:68
+msgctxt "Cfmodlist|"
+msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
+msgstr "安装模组包时，黑名单上的模组将自动禁用。"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:100
+msgctxt "Cfmodlist|"
+msgid "Whitelist"
+msgstr "白名单"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:146
+msgctxt "Cfmodlist|"
+msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
+msgstr "安装模组包时，白名单上的模组将自动下载。"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:170
+msgctxt "Cfmodlist|"
+msgid "toolBar"
+msgstr "工具栏"
+
+#: src/launcher/ui/pages/global/cfmodlist.ui:182
+msgctxt "Cfmodlist|"
+msgid "Remove Selected"
+msgstr "移除选中MOD"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
 msgctxt "ComponentUpdateTask|"
@@ -2147,63 +2182,63 @@ msgctxt "LaunchController|"
 msgid "Account refresh failed"
 msgstr "账户刷新失败"
 
-#: src/launcher/LaunchController.cpp:250
+#: src/launcher/LaunchController.cpp:251
 msgctxt "LaunchController|"
 msgid "Please enter your Yggdrasil account email and password to add your account."
 msgstr "请输入你的Yggdrasil账户邮箱和密码来添加你的账户。"
 
-#: src/launcher/LaunchController.cpp:264
+#: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
 msgid "Account expired and re-login attempt failed"
 msgstr "账户过期且尝试重新登录失败"
 
-#: src/launcher/LaunchController.cpp:273
+#: src/launcher/LaunchController.cpp:275
 msgctxt "LaunchController|"
 msgid "The account no longer exists on the servers. It may have been migrated, in which case please add the new account you migrated this one to."
 msgstr "服务器上不再存在该帐户。它可能已迁移，在这种情况下，请添加您迁移到的新账户。"
 
-#: src/launcher/LaunchController.cpp:276
+#: src/launcher/LaunchController.cpp:278
 msgctxt "LaunchController|"
 msgid "Account gone"
 msgstr "账户遗失了"
 
-#: src/launcher/LaunchController.cpp:285
+#: src/launcher/LaunchController.cpp:287
 msgctxt "LaunchController|"
 msgid "The account must be migrated to a Microsoft account."
 msgstr "必须将此账户迁移至另一个微软账户。"
 
-#: src/launcher/LaunchController.cpp:288
+#: src/launcher/LaunchController.cpp:290
 msgctxt "LaunchController|"
 msgid "Account requires migration"
 msgstr "账户需要迁移"
 
-#: src/launcher/LaunchController.cpp:298
+#: src/launcher/LaunchController.cpp:300
 msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "启动失败。"
 
-#: src/launcher/LaunchController.cpp:308 src/launcher/LaunchController.cpp:380
+#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:382
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "错误！"
 
-#: src/launcher/LaunchController.cpp:308 src/launcher/LaunchController.cpp:309
+#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:311
 msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "无法加载实例配置文件。"
 
-#: src/launcher/LaunchController.cpp:316
+#: src/launcher/LaunchController.cpp:318
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "无法实例化一个启动器。"
 
-#: src/launcher/LaunchController.cpp:380
+#: src/launcher/LaunchController.cpp:382
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "无法启动 Profiler：%1"
 
-#: src/launcher/LaunchController.cpp:389
+#: src/launcher/LaunchController.cpp:391
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -2211,38 +2246,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "游戏启动会延迟，直到你按下按钮。现在 Profiler 服务器正在运行，你应该在此时设置 Profiler。\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:392
+#: src/launcher/LaunchController.cpp:394
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "等待中..."
 
-#: src/launcher/LaunchController.cpp:394
+#: src/launcher/LaunchController.cpp:396
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "运行"
 
-#: src/launcher/LaunchController.cpp:402
+#: src/launcher/LaunchController.cpp:404
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "无法启动 Profiler：%1"
 
-#: src/launcher/LaunchController.cpp:403
+#: src/launcher/LaunchController.cpp:405
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "错误"
 
-#: src/launcher/LaunchController.cpp:431
+#: src/launcher/LaunchController.cpp:433
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "中断"
 
-#: src/launcher/LaunchController.cpp:447
+#: src/launcher/LaunchController.cpp:449
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "强行退出 Minecraft？"
 
-#: src/launcher/LaunchController.cpp:448
+#: src/launcher/LaunchController.cpp:450
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "这可能导致实例出现错误，这应该只在 Minecraft 由于一些原因冻结的时候使用"
@@ -3644,104 +3679,129 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr "操作被用户中断。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:42
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:14
+msgctxt "ModFilterPage|"
+msgid "MainWindow"
+msgstr "主窗口"
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:49
+msgctxt "ModFilterPage|"
 msgid "Blacklist"
 msgstr "黑名单"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:70
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:77
+msgctxt "ModFilterPage|"
 msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
-msgstr "黑名单上的模组在安装模组包时将自动禁用。"
+msgstr "安装模组包时，黑名单上的模组将自动禁用。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:102
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:109
+msgctxt "ModFilterPage|"
 msgid "Whitelist"
 msgstr "白名单"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:148
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:158
+msgctxt "ModFilterPage|"
 msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
-msgstr "白名单上的模组在安装模组包时将自动下载。"
+msgstr "安装模组包时，白名单上的模组将自动下载。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.ui:178
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:183
+msgctxt "ModFilterPage|"
 msgid "Remove Selected"
 msgstr "移除选中MOD"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:150
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.ui:191
+msgctxt "ModFilterPage|"
+msgid "&Add"
+msgstr "添加（&A）"
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:194
+msgctxt "ModFilterPage|"
+msgid "Add module to list"
+msgstr "将模组添加到列表"
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:199
+msgctxt "ModFilterPage|"
+msgid "&Remove"
+msgstr "删除（&R）"
+
+#: src/launcher/ui/pages/global/ModFilterPage.ui:202
+msgctxt "ModFilterPage|"
+msgid "Remove selected mods"
+msgstr "删除选定的模组"
+
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:159
+msgctxt "ModFilterPage|"
 msgid "Network Error"
 msgstr "网络错误"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:151
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:160
 #, qt-format
-msgctxt "ModBlacklistPage|"
+msgctxt "ModFilterPage|"
 msgid "Failed to lookup mod information: %1"
-msgstr "无法查找 мод 信息: %1"
+msgstr "未能查找模组信息：%1"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:202
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:428
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:211
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:435
+msgctxt "ModFilterPage|"
 msgid "Success"
 msgstr "成功"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
 #, qt-format
-msgctxt "ModBlacklistPage|"
-msgid "Added %1 mod(s) to %2"
-msgstr "已添加 %1 个 mod 到 %2"
+msgctxt "ModFilterPage|"
+msgid "Processed %1 mod(s) for %2."
+msgstr "已处理 %1 个模组，适用于 %2。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:481
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:487
+msgctxt "ModFilterPage|"
 msgid "whitelist"
 msgstr "白名单"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:203
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:481
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:487
+msgctxt "ModFilterPage|"
 msgid "blacklist"
 msgstr "黑名单"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:226
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:239
+msgctxt "ModFilterPage|"
 msgid "Project ID"
 msgstr "项目 ID"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:226
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:239
+msgctxt "ModFilterPage|"
 msgid "Mod name"
-msgstr "Mod 名称"
+msgstr "模组名称"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:407
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:420
+msgctxt "ModFilterPage|"
 msgid "Information"
 msgstr "信息"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:407
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:420
+msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
-msgstr "未选择要删除的项目."
+msgstr "没有选中项供移除。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:429
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
 #, qt-format
-msgctxt "ModBlacklistPage|"
-msgid "Removed %1 mod(s) from %2"
-msgstr "已从 %2 移除 %1 个 mod"
+msgctxt "ModFilterPage|"
+msgid "Attempted to remove %1 mod(s) from %2."
+msgstr "已尝试从 %2 删除 %1 个模组。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.cpp:480
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:486
 #, qt-format
-msgctxt "ModBlacklistPage|"
+msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
 msgstr "将 MOD 文件拖放到表中以将其添加到 %1。\n"
-"选中要移除的项目，然后单击 \"移除选中\"。"
+"选中您要删除的项，然后单击 \"移除选中MOD\"。"
 
-#: src/launcher/ui/pages/global/modblacklistpage.h:37
-msgctxt "ModBlacklistPage|"
+#: src/launcher/ui/pages/global/ModFilterPage.h:39
+msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr "Mod 列表"
 
