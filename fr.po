@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: French\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2025-05-27 05:50\n"
+"PO-Revision-Date: 2025-06-02 02:09\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3942,6 +3942,11 @@ msgstr "Trier par installation"
 msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by name"
 msgstr "Trier par nom"
+
+#: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:32
+msgctxt "ModpacksCH::FilterModel|"
+msgid "Sort by ID"
+msgstr ""
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
 #, qt-format
