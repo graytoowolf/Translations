@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: English, United Kingdom\n"
 "Language: en_GB\n"
-"PO-Revision-Date: 2025-06-02 02:10\n"
+"PO-Revision-Date: 2025-06-16 14:55\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -788,11 +788,6 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -844,6 +839,11 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:101
 msgctxt "CFPage|"
 msgid " by "
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
+msgctxt "CFPage|"
+msgid "CurseForge"
 msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
@@ -1134,11 +1134,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr ""
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1228,6 +1223,11 @@ msgstr ""
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:225
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
 msgstr ""
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:104
@@ -1456,6 +1456,11 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1464,11 +1469,6 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
 msgstr ""
 
 #: src/launcher/meta/Index.cpp:71
@@ -1638,17 +1638,17 @@ msgctxt "InstanceList|"
 msgid "%1 Instance"
 msgstr ""
 
-#: src/launcher/InstancePageProvider.h:40
+#: src/launcher/InstancePageProvider.h:41
 msgctxt "InstancePageProvider|"
 msgid "Loader mods"
 msgstr ""
 
-#: src/launcher/InstancePageProvider.h:43
+#: src/launcher/InstancePageProvider.h:44
 msgctxt "InstancePageProvider|"
 msgid "Core mods"
 msgstr ""
 
-#: src/launcher/InstancePageProvider.h:72
+#: src/launcher/InstancePageProvider.h:74
 #, qt-format
 msgctxt "InstancePageProvider|"
 msgid "Edit Instance (%1)"
@@ -1829,11 +1829,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -1842,6 +1837,11 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:364
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
 msgstr ""
 
 #: src/launcher/InstanceList.cpp:845
@@ -2698,11 +2698,6 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2717,6 +2712,11 @@ msgstr ""
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
 msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
@@ -3488,50 +3488,50 @@ msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:741
+#: src/launcher/minecraft/MinecraftInstance.cpp:745
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:743
+#: src/launcher/minecraft/MinecraftInstance.cpp:747
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:745
+#: src/launcher/minecraft/MinecraftInstance.cpp:749
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:747
+#: src/launcher/minecraft/MinecraftInstance.cpp:751
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:819
+#: src/launcher/minecraft/MinecraftInstance.cpp:823
 msgctxt "MinecraftInstance|"
 msgid "broken"
-msgstr ""
-
-#: src/launcher/minecraft/MinecraftInstance.cpp:823
-#, qt-format
-msgctxt "MinecraftInstance|"
-msgid "Minecraft %1 (%2)"
 msgstr ""
 
 #: src/launcher/minecraft/MinecraftInstance.cpp:827
 #, qt-format
 msgctxt "MinecraftInstance|"
+msgid "Minecraft %1 (%2)"
+msgstr ""
+
+#: src/launcher/minecraft/MinecraftInstance.cpp:831
+#, qt-format
+msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:832
+#: src/launcher/minecraft/MinecraftInstance.cpp:836
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:838
+#: src/launcher/minecraft/MinecraftInstance.cpp:842
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ""
@@ -3636,6 +3636,167 @@ msgctxt "MinecraftUpdate|"
 msgid "Aborted by user."
 msgstr ""
 
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:20
+msgctxt "ModDownloadPage|"
+msgid "Mod Manager"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:42
+msgctxt "ModDownloadPage|"
+msgid "Search and Filter"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:60
+msgctxt "ModDownloadPage|"
+msgid "&Search:"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:76
+msgctxt "ModDownloadPage|"
+msgid "Search mods..."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:83
+msgctxt "ModDownloadPage|"
+msgid "Sort &by:"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:100
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:227
+msgctxt "ModDownloadPage|"
+msgid "Downloads"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:105
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:231
+msgctxt "ModDownloadPage|"
+msgid "Last Updated"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:110
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:235
+msgctxt "ModDownloadPage|"
+msgid "Name"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.ui:118
+msgctxt "ModDownloadPage|"
+msgid "Search"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:69
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:214
+msgctxt "ModDownloadPage|"
+msgid "Loading more mods..."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
+msgctxt "ModDownloadPage|"
+msgid "Parse Error"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "Unable to parse CurseForge response: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:345
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "%1 minutes ago"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:347
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "%1 hours ago"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:349
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "%1 days ago"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:359
+msgctxt "ModDownloadPage|"
+msgid "Other"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:427
+msgctxt "ModDownloadPage|"
+msgid "Load Failed"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:427
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "Unable to load mods from CurseForge: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:659
+msgctxt "ModDownloadPage|"
+msgid "Install"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:698
+msgctxt "ModDownloadPage|"
+msgid "Mod Already Installed"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:699
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "The mod '%1' is already installed."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:707
+msgctxt "ModDownloadPage|"
+msgid "Download Error"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:708
+msgctxt "ModDownloadPage|"
+msgid "Unable to get mod download information, please try again later."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:854
+msgctxt "ModDownloadPage|"
+msgid "Complete"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:854
+msgctxt "ModDownloadPage|"
+msgid "All mods are already installed, no download needed."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:905
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "Successfully downloaded and installed %1 mods."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:906
+msgctxt "ModDownloadPage|"
+msgid "Installation Complete"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:967
+msgctxt "ModDownloadPage|"
+msgid "Download Failed"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:968
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "Mod %1 download failed: %2"
+msgstr ""
+
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
 msgctxt "ModFilterPage|"
 msgid "MainWindow"
@@ -3686,122 +3847,111 @@ msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:159
-msgctxt "ModFilterPage|"
-msgid "Network Error"
-msgstr ""
-
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:160
-#, qt-format
-msgctxt "ModFilterPage|"
-msgid "Failed to lookup mod information: %1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:211
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:435
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:133
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:361
 msgctxt "ModFilterPage|"
 msgid "Success"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:134
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Processed %1 mod(s) for %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:487
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:134
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:362
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:413
 msgctxt "ModFilterPage|"
 msgid "whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:212
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:487
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:134
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:362
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:413
 msgctxt "ModFilterPage|"
 msgid "blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:239
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:165
 msgctxt "ModFilterPage|"
 msgid "Project ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:239
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:165
 msgctxt "ModFilterPage|"
 msgid "Mod name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:420
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:346
 msgctxt "ModFilterPage|"
 msgid "Information"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:420
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:346
 msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:436
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:362
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Attempted to remove %1 mod(s) from %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:486
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:412
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.h:39
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
 msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:370
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:397
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:372
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:399
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:466
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:493
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:468
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:495
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:470
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:497
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:479
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:481
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:483
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:510
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:485
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:512
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr ""
@@ -4154,6 +4304,11 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4187,11 +4342,6 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:162
 msgctxt "ModrinthPage|"
 msgid "Loading..."
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
 msgstr ""
 
 #: src/launcher/net/NetJob.cpp:129
@@ -4723,40 +4873,19 @@ msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+#: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
-msgid "Upload failed"
+msgid "Dark"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:39
+#: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
+msgid "Bright"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:60
+#: src/launcher/ui/themes/SystemTheme.cpp:47
 msgctxt "QObject|"
-msgid "Upload finished"
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:54
-msgctxt "QObject|About Credits"
-msgid "Patrons"
+msgid "System"
 msgstr ""
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:111
@@ -4781,9 +4910,40 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+#: src/launcher/ui/dialogs/AboutDialog.cpp:36
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:39
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:54
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
+msgid "Upload failed"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:31
@@ -4791,49 +4951,9 @@ msgctxt "QObject|"
 msgid "Minecraft Server"
 msgstr ""
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
-msgid "System"
-msgstr ""
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr ""
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr ""
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr ""
-
-#: src/launcher/meta/BaseEntity.cpp:120
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
+msgid "Description is missing in the FTB App instance."
 msgstr ""
 
 #: src/launcher/UpdateController.cpp:366
@@ -4874,6 +4994,11 @@ msgid "The rollback failed too.\n"
 "Please let us know why and how this happened."
 msgstr ""
 
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr ""
+
 #: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
 msgctxt "QObject|"
@@ -4892,52 +5017,10 @@ msgctxt "QObject|"
 msgid "Library %1 name is broken and cannot be processed."
 msgstr ""
 
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr ""
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr ""
-
 #: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
 msgid "Assets for %1"
-msgstr ""
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
 msgstr ""
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
@@ -4973,6 +5056,55 @@ msgstr ""
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:251
 msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr ""
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr ""
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr ""
+
+#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
+#: src/launcher/meta/JsonFormat.cpp:166
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr ""
+
+#: src/launcher/meta/BaseEntity.cpp:120
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
 msgstr ""
 
 #: src/launcher/JavaCommon.cpp:10
@@ -5015,24 +5147,14 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr ""
 
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr ""
-
 #: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
 msgid "Empty path"
+msgstr ""
+
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
+msgctxt "QObject|"
+msgid "Path does not exist"
 msgstr ""
 
 #: src/launcher/tools/JProfiler.cpp:110
@@ -5043,6 +5165,34 @@ msgstr ""
 #: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
 msgid "Invalid path to JVisualVM"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
 msgstr ""
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
@@ -5248,14 +5398,14 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:605
-msgctxt "ServersPage|"
-msgid "Context menu"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:605
+msgctxt "ServersPage|"
+msgid "Context menu"
 msgstr ""
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
@@ -5507,14 +5657,14 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
 msgctxt "TechnicPage|"
 msgid "Technic"
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+msgctxt "TechnicPage|"
+msgid " by "
 msgstr ""
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
@@ -6301,11 +6451,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:110
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6380,6 +6525,11 @@ msgstr ""
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:416
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:45
+msgctxt "WorldListPage|"
+msgid "Worlds"
 msgstr ""
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
