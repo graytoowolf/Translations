@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Ukrainian\n"
 "Language: uk_UA\n"
-"PO-Revision-Date: 2025-06-16 14:55\n"
+"PO-Revision-Date: 2025-07-01 04:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -189,33 +189,33 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Закрити"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:82
+#: src/launcher/ui/dialogs/AboutDialog.cpp:84
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
 msgstr "Про %1"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:95
+#: src/launcher/ui/dialogs/AboutDialog.cpp:97
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr "Версія"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:96
+#: src/launcher/ui/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr "Платформа"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:99
+#: src/launcher/ui/dialogs/AboutDialog.cpp:101
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr "Номер збірки"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:104
+#: src/launcher/ui/dialogs/AboutDialog.cpp:106
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Канал"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:108
+#: src/launcher/ui/dialogs/AboutDialog.cpp:110
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
@@ -224,82 +224,82 @@ msgstr "<p>Ми зберігаємо MultiMC із відкритим вихід�
 "<p>Одна із причин використовування ліцензію Apache полягає в тому, що ми не хочемо, щоб люди використовували назву &quot;MultiMC&quot; розповсюджуючи проєкт. Це значить, що люди повинні витратити час, щоб переглянути вихідний код і видалити всі посилання на &quot;MultiMC&quot;, включаючи, зокрема, іконку проєкту і заголовки вікон (але не <b>форк MultiMC</b> у заголовку).</p>\n"
 "<p>Ліцензія Apache охоплює розумне використання імені - згадка про походження проєкту в діалоговому вікні «Про програму» і ліцензія допустимі. Однак, повинно бути абсолютно зрозуміло, що проєкт є форком, <b>без</b> передбачення, що у вас є наше благословіння.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:327
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Не перевірено"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:331
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr "Офлайн"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:335
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr "Онлайн"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:339
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Працює"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:343
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Помилка"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:347
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Термін дії закінчився"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:351
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Втрачено"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:321
+#: src/launcher/minecraft/auth/AccountList.cpp:355
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Треба Мігрувати"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:377
+#: src/launcher/minecraft/auth/AccountList.cpp:411
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Обліковий запис"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:379
+#: src/launcher/minecraft/auth/AccountList.cpp:413
 msgctxt "AccountList|"
 msgid "platform"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:381
+#: src/launcher/minecraft/auth/AccountList.cpp:415
 msgctxt "AccountList|"
 msgid "Status"
 msgstr "Статус"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:383
+#: src/launcher/minecraft/auth/AccountList.cpp:417
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Профіль"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:392
+#: src/launcher/minecraft/auth/AccountList.cpp:426
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Ім'я користувача облікового запису."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:394
+#: src/launcher/minecraft/auth/AccountList.cpp:428
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:396
+#: src/launcher/minecraft/auth/AccountList.cpp:430
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Поточний стан облікового запису."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:398
+#: src/launcher/minecraft/auth/AccountList.cpp:432
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Ім'я профілю Minecraft, пов'язаний з обліковим записом."
@@ -361,22 +361,22 @@ msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:85
+#: src/launcher/ui/pages/global/AccountListPage.cpp:83
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Контекстне меню"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:216
+#: src/launcher/ui/pages/global/AccountListPage.cpp:219
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
 msgstr "Видалити скiн"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:216
+#: src/launcher/ui/pages/global/AccountListPage.cpp:219
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
 msgstr "Не вдалося видалити поточний скін!"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:225
+#: src/launcher/ui/pages/global/AccountListPage.cpp:228
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "Будь ласка, введіть адресу вашої електронної пошти та пароль вашого сайту, щоб додати свій обліковий запис."
@@ -426,7 +426,7 @@ msgctxt "AccountTask|"
 msgid "..."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountTask.cpp:108
+#: src/launcher/minecraft/auth/AccountTask.cpp:118
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
@@ -598,11 +598,6 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Пошук і фільтрування..."
 
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr "Кнайпер"
-
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -623,6 +618,11 @@ msgstr "Не вдалося завантажити списки версій!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Встановлення"
+
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr "Кнайпер"
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -699,60 +699,60 @@ msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
 msgstr "Успішне отримання профілю Minecraft Java."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:202
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:201
 msgctxt "BsYggdrasil|"
 msgid "Authentication server didn't send a client token."
 msgstr "Сервер аутентифікації не надіслав токену клієнта."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:211
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:210
 msgctxt "BsYggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
 msgstr "Сервер-аутентифікації намагалася змінити маркер клієнта. Це не підтримується."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:224
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:223
 msgctxt "BsYggdrasil|"
 msgid "Authentication server didn't send an access token."
 msgstr "Сервер автентифікації не надіслав маркер доступу."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:247
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:246
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation timed out."
 msgstr "Минув час очікування аутентифікації."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:250
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:249
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation cancelled."
 msgstr "Операція аутентифікації скасована."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:255
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:254
 msgctxt "BsYggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
 msgstr ""
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:272
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:271
 msgctxt "BsYggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
 msgstr "Обліковий запис Mojang більше не існує. Можливо, він був перенесений на обліковий запис Microsoft."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:277
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:276
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
 msgstr "Операція аутентифікації не вдалася через помилку мережі: %1 (%2)"
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:304
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:303
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
 msgstr "Не вдалося проаналізувати відповідь JSON сервера автентифікації: %1 зі зсуву %2."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:329
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:328
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
 msgstr "Під час спроби обміну даними з сервером аутентифікації сталася невідома помилка: %1"
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:351
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:350
 msgctxt "BsYggdrasil|"
 msgid "An unknown BsYggdrasil error occurred."
 msgstr "Сталася невідома помилка BsYggdasil."
@@ -791,6 +791,11 @@ msgstr "Пошук"
 msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr "Пошук і фільтрування..."
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr "Кюрсідж"
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
@@ -844,11 +849,6 @@ msgstr "<a href=\"%1\">Початковий код</a>"
 msgctxt "CFPage|"
 msgid " by "
 msgstr " за "
-
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr "Кюрсідж"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
 msgctxt "CapeChange|"
@@ -1096,28 +1096,28 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "Експортування збірки"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:384
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:386
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr "Експорт %1"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:393
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:395
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "Перезаписати?"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:394
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:396
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "Цей файл уже існує. Ви хочете перезаписати його?"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "Помилка"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "Не вдалося експортувати збірку"
@@ -1139,23 +1139,23 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Текстовий редактор:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
 msgstr "Тека JProfiler"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:98
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:113
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:135
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:150
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:176
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:191
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:97
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:112
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:134
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:149
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:175
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:190
 msgctxt "ExternalToolsPage|"
 msgid "Error"
 msgstr "Помилка"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:98
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:113
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:97
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:112
 #, qt-format
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
@@ -1163,25 +1163,25 @@ msgid "Error while checking JProfiler install:\n"
 msgstr "Помилка під час перевірки встановлення JProfile:\n"
 "%1"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:116
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:153
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:194
 msgctxt "ExternalToolsPage|"
 msgid "OK"
 msgstr "ОК"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:116
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
 msgstr "Налаштування JProfile здається виконано успішно"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:127
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:126
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
 msgstr "Виконуваний файл JVisualVM"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:135
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:150
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:134
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:149
 #, qt-format
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
@@ -1189,23 +1189,23 @@ msgid "Error while checking JVisualVM install:\n"
 msgstr "Помилка під час перевірки встановлення JVisualVM:\n"
 "%1"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:153
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
 msgstr "Налаштування JVisualVM здається виконано успішно"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:165
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:164
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
 msgstr "Застосунок MCEdit"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:167
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:166
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
 msgstr "Тека MCEdit"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:176
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:191
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:175
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:190
 #, qt-format
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
@@ -1213,32 +1213,32 @@ msgid "Error while checking MCEdit install:\n"
 msgstr "Помилка під час перевірки встановлення MCEdit:\n"
 "%1"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:194
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
 msgstr "Налаштування MCEdit здається виконано успішно"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:202
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:201
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
 msgstr "Редактор JSON"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:223
 msgctxt "ExternalToolsPage|"
 msgid "Invalid"
 msgstr "Недійсний"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:225
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Вибраний файл не є виконуваним"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
 msgstr "Зовнішні інструменти"
 
-#: src/launcher/minecraft/launch/ExtractNatives.cpp:104
+#: src/launcher/minecraft/launch/ExtractNatives.cpp:106
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
@@ -1332,33 +1332,33 @@ msgctxt "GameOptionsPage|"
 msgid "Game Options"
 msgstr "Опції гри"
 
-#: src/launcher/minecraft/World.cpp:69
+#: src/launcher/minecraft/World.cpp:70
 msgctxt "GameType|"
 msgid "Survival"
 msgstr "Виживання"
 
-#: src/launcher/minecraft/World.cpp:71
+#: src/launcher/minecraft/World.cpp:72
 msgctxt "GameType|"
 msgid "Creative"
 msgstr "Творчість"
 
-#: src/launcher/minecraft/World.cpp:73
+#: src/launcher/minecraft/World.cpp:74
 msgctxt "GameType|"
 msgid "Adventure"
 msgstr "Пригода"
 
-#: src/launcher/minecraft/World.cpp:75
+#: src/launcher/minecraft/World.cpp:76
 msgctxt "GameType|"
 msgid "Spectator"
 msgstr "Глядач"
 
-#: src/launcher/minecraft/World.cpp:80
+#: src/launcher/minecraft/World.cpp:82
 #, qt-format
 msgctxt "GameType|"
 msgid "Unknown (%1)"
 msgstr "Невідомо (%1)"
 
-#: src/launcher/minecraft/World.cpp:82
+#: src/launcher/minecraft/World.cpp:84
 msgctxt "GameType|"
 msgid "Undefined"
 msgstr "Невизначений"
@@ -1373,48 +1373,48 @@ msgctxt "GetSkinStep|"
 msgid "Got skin"
 msgstr "Скін успішно отримано"
 
-#: src/launcher/updater/DownloadTask.cpp:48
+#: src/launcher/updater/DownloadTask.cpp:47
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
 msgstr "Завантаження інформації про версію..."
 
-#: src/launcher/updater/DownloadTask.cpp:85
+#: src/launcher/updater/DownloadTask.cpp:84
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
 msgstr "Не вдалося завантажити файли інформації про версію."
 
-#: src/launcher/updater/DownloadTask.cpp:93
+#: src/launcher/updater/DownloadTask.cpp:92
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
 msgstr "Читання списку файлів для нової версії..."
 
-#: src/launcher/updater/DownloadTask.cpp:106
+#: src/launcher/updater/DownloadTask.cpp:105
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
 msgstr "Читання списку файлів для поточної версії..."
 
-#: src/launcher/updater/DownloadTask.cpp:121
+#: src/launcher/updater/DownloadTask.cpp:120
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
 msgstr "Обробка списків файлів - з'ясовуємо як встановити оновлення..."
 
-#: src/launcher/updater/DownloadTask.cpp:129
+#: src/launcher/updater/DownloadTask.cpp:128
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
 msgstr "Не вдалося обробити список оновлень..."
 
-#: src/launcher/updater/DownloadTask.cpp:140
+#: src/launcher/updater/DownloadTask.cpp:139
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
 msgstr "Завантаження файлу оновлення."
 
-#: src/launcher/updater/DownloadTask.cpp:144
+#: src/launcher/updater/DownloadTask.cpp:143
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
 msgstr "Завантаження %1 файлів оновлення."
 
-#: src/launcher/updater/DownloadTask.cpp:159
+#: src/launcher/updater/DownloadTask.cpp:158
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
@@ -1467,11 +1467,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Локальний файл, або пряме посилання для завантаження:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Імпортування із zip архіву"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1482,7 +1477,12 @@ msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
 
-#: src/launcher/meta/Index.cpp:71
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Імпортування із zip архіву"
+
+#: src/launcher/meta/Index.cpp:76
 msgctxt "Index|"
 msgid "Name"
 msgstr "Ім'я"
@@ -1542,109 +1542,109 @@ msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Не вдалося відкрити вибраний zip-файл мод-паку."
 
-#: src/launcher/InstanceImportTask.cpp:149
-#: src/launcher/InstanceImportTask.cpp:215
+#: src/launcher/InstanceImportTask.cpp:148
+#: src/launcher/InstanceImportTask.cpp:214
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Архів не містить розпізнаний тип мод-паку."
 
-#: src/launcher/InstanceImportTask.cpp:164
+#: src/launcher/InstanceImportTask.cpp:163
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Не вдалося розпакувати мод-пак"
 
-#: src/launcher/InstanceImportTask.cpp:191
+#: src/launcher/InstanceImportTask.cpp:190
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Не вдалося вирішити дозволи для %1"
 
-#: src/launcher/InstanceImportTask.cpp:222
+#: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Імпорт збірки було скасовано."
 
-#: src/launcher/InstanceImportTask.cpp:243
+#: src/launcher/InstanceImportTask.cpp:241
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Не вдалося розпізнати маніфест пакета:\n"
 
-#: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:690
+#: src/launcher/InstanceImportTask.cpp:252
+#: src/launcher/InstanceImportTask.cpp:699
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Не вдалося перейменувати теку перевизначення:\n"
 
-#: src/launcher/InstanceImportTask.cpp:260
+#: src/launcher/InstanceImportTask.cpp:258
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "Вказана папка з заміщенням (%1) відсутня. Можливо, modpack вже використовувався раніше?"
 
-#: src/launcher/InstanceImportTask.cpp:288
+#: src/launcher/InstanceImportTask.cpp:286
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:301
+#: src/launcher/InstanceImportTask.cpp:299
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "Під час імпортування пакету, таємничі крапки вилучені з версії Minecraft."
 
-#: src/launcher/InstanceImportTask.cpp:317
+#: src/launcher/InstanceImportTask.cpp:315
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Не вдалося відобразити рекомендовану версію кузня для Minecraft %1"
 
-#: src/launcher/InstanceImportTask.cpp:389
-#: src/launcher/InstanceImportTask.cpp:732
+#: src/launcher/InstanceImportTask.cpp:387
+#: src/launcher/InstanceImportTask.cpp:742
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Завантажити мод"
 
-#: src/launcher/InstanceImportTask.cpp:409
+#: src/launcher/InstanceImportTask.cpp:407
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Ця 'Папка' може знадобитися вилучення: %1"
 
-#: src/launcher/InstanceImportTask.cpp:425
+#: src/launcher/InstanceImportTask.cpp:423
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:430
+#: src/launcher/InstanceImportTask.cpp:428
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Нерозпізнаний/необроблений тип пакету для: %1"
 
-#: src/launcher/InstanceImportTask.cpp:451
-#: src/launcher/InstanceImportTask.cpp:755
+#: src/launcher/InstanceImportTask.cpp:449
+#: src/launcher/InstanceImportTask.cpp:761
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Завантаження модів..."
 
-#: src/launcher/InstanceImportTask.cpp:462
+#: src/launcher/InstanceImportTask.cpp:458
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:683
+#: src/launcher/InstanceImportTask.cpp:690
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Не вдалося розпізнати індекс пакунку:\n"
 
-#: src/launcher/InstanceImportTask.cpp:697
-#: src/launcher/InstanceImportTask.cpp:702
+#: src/launcher/InstanceImportTask.cpp:707
+#: src/launcher/InstanceImportTask.cpp:713
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Не вдалося об'єднати папку заміщення:\n"
 
-#: src/launcher/InstanceList.cpp:151
+#: src/launcher/InstanceList.cpp:153
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -1856,7 +1856,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Налаштування"
 
-#: src/launcher/InstanceList.cpp:845
+#: src/launcher/InstanceList.cpp:851
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "Не вдалося створити збірку навіть після декількох спроб. Щось заважає."
@@ -1924,7 +1924,7 @@ msgctxt "JVisualVM|"
 msgid "Profiler aborted"
 msgstr "Профайлер зупинено"
 
-#: src/launcher/java/JavaInstallList.cpp:147
+#: src/launcher/java/JavaInstallList.cpp:146
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
 msgstr "Пошук встановлених Java інсталяцій..."
@@ -1984,11 +1984,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "Перевірити"
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "Ява"
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1998,6 +1993,11 @@ msgstr "Виберіть версію Java"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Пошук виконуваного файлу Java"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Ява"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2518,17 +2518,17 @@ msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "Тека модифікацій"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:411
+#: src/launcher/ui/pages/global/LauncherPage.cpp:414
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Що-небудь/ERROR] Жахлива помилка!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:420
+#: src/launcher/ui/pages/global/LauncherPage.cpp:423
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Тест/INFO] Нешкідливе повідомлення..."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:429
+#: src/launcher/ui/pages/global/LauncherPage.cpp:432
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Що-небудь/WARN] Не таке ж і жахливе попередження."
@@ -2660,6 +2660,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Вибрана версія:"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "Застарівший FTB"
+
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2694,17 +2699,12 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Ви дійсно бажаєте видалити мод-пак %1?"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "Застарівший FTB"
-
-#: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
+#: src/launcher/minecraft/legacy/LegacyInstance.cpp:218
 msgctxt "LegacyInstance|"
 msgid "Legacy"
 msgstr "Застаріла"
 
-#: src/launcher/minecraft/legacy/LegacyInstance.cpp:225
+#: src/launcher/minecraft/legacy/LegacyInstance.cpp:223
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
 msgstr "Збірка на основі попередніх версій."
@@ -2935,7 +2935,7 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "Додати обліковий запис Microsoft"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:101
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
@@ -2971,402 +2971,402 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr "Аутентифікація Microsoft користувача завершена з нерозпізнаним результатом."
 
-#: src/launcher/ui/MainWindow.cpp:261
+#: src/launcher/ui/MainWindow.cpp:266
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "Зупинити"
 
-#: src/launcher/ui/MainWindow.cpp:262
+#: src/launcher/ui/MainWindow.cpp:267
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Зупинити запущену збірку"
 
-#: src/launcher/ui/MainWindow.cpp:266 src/launcher/ui/MainWindow.cpp:1054
+#: src/launcher/ui/MainWindow.cpp:271 src/launcher/ui/MainWindow.cpp:1064
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Запуск"
 
-#: src/launcher/ui/MainWindow.cpp:267
+#: src/launcher/ui/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Запустити вибрану збірку."
 
-#: src/launcher/ui/MainWindow.cpp:285
+#: src/launcher/ui/MainWindow.cpp:290
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Головна панель інструментів"
 
-#: src/launcher/ui/MainWindow.cpp:290
+#: src/launcher/ui/MainWindow.cpp:295
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "Додати збірку"
 
-#: src/launcher/ui/MainWindow.cpp:291
+#: src/launcher/ui/MainWindow.cpp:296
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "Додати нову збірку."
 
-#: src/launcher/ui/MainWindow.cpp:303
+#: src/launcher/ui/MainWindow.cpp:308
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "Глянути теку збірки"
 
-#: src/launcher/ui/MainWindow.cpp:304
+#: src/launcher/ui/MainWindow.cpp:309
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "Відкрити теку збірки в файловому менеджері."
 
-#: src/launcher/ui/MainWindow.cpp:311
+#: src/launcher/ui/MainWindow.cpp:316
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "Відкрити загальну теку модів"
 
-#: src/launcher/ui/MainWindow.cpp:312
+#: src/launcher/ui/MainWindow.cpp:317
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Відкрити теку основних модів в файловому менеджері."
 
-#: src/launcher/ui/MainWindow.cpp:317 src/launcher/ui/MainWindow.cpp:701
+#: src/launcher/ui/MainWindow.cpp:322 src/launcher/ui/MainWindow.cpp:706
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Теки"
 
-#: src/launcher/ui/MainWindow.cpp:318
+#: src/launcher/ui/MainWindow.cpp:323
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Відкрийте одну із тек, спільно використовуваних збірками."
 
-#: src/launcher/ui/MainWindow.cpp:333
+#: src/launcher/ui/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Налаштування"
 
-#: src/launcher/ui/MainWindow.cpp:334
+#: src/launcher/ui/MainWindow.cpp:339
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Змінити налаштування."
 
-#: src/launcher/ui/MainWindow.cpp:345
+#: src/launcher/ui/MainWindow.cpp:351
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Повідомити про помилку"
 
-#: src/launcher/ui/MainWindow.cpp:346
+#: src/launcher/ui/MainWindow.cpp:352
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "Відкрийте баг-трекер, щоб повідомити про помилку в %1."
 
-#: src/launcher/ui/MainWindow.cpp:375
+#: src/launcher/ui/MainWindow.cpp:381
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr "Про %1"
 
-#: src/launcher/ui/MainWindow.cpp:376
+#: src/launcher/ui/MainWindow.cpp:382
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr "Переглянути інформацію про %1."
 
-#: src/launcher/ui/MainWindow.cpp:381 src/launcher/ui/MainWindow.cpp:702
+#: src/launcher/ui/MainWindow.cpp:387 src/launcher/ui/MainWindow.cpp:707
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Допомога"
 
-#: src/launcher/ui/MainWindow.cpp:382
+#: src/launcher/ui/MainWindow.cpp:388
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr "Отримати допомогу з %1 або Minecraft."
 
-#: src/launcher/ui/MainWindow.cpp:398
+#: src/launcher/ui/MainWindow.cpp:404
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Оновити"
 
-#: src/launcher/ui/MainWindow.cpp:399
+#: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr "Перевірити наявність нових оновлень для %1."
 
-#: src/launcher/ui/MainWindow.cpp:418
+#: src/launcher/ui/MainWindow.cpp:424
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Мяу"
 
-#: src/launcher/ui/MainWindow.cpp:419
+#: src/launcher/ui/MainWindow.cpp:425
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "Це пухнасте кошеня :3"
 
-#: src/launcher/ui/MainWindow.cpp:427
+#: src/launcher/ui/MainWindow.cpp:433
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Керування обліковими записами"
 
-#: src/launcher/ui/MainWindow.cpp:479
+#: src/launcher/ui/MainWindow.cpp:485
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Панель інструментів збірки"
 
-#: src/launcher/ui/MainWindow.cpp:486
+#: src/launcher/ui/MainWindow.cpp:492
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "Змінити піктограму"
 
-#: src/launcher/ui/MainWindow.cpp:487
+#: src/launcher/ui/MainWindow.cpp:493
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "Змінити піктограму обраної збірки."
 
-#: src/launcher/ui/MainWindow.cpp:500
+#: src/launcher/ui/MainWindow.cpp:506
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Перейменувати"
 
-#: src/launcher/ui/MainWindow.cpp:501
+#: src/launcher/ui/MainWindow.cpp:507
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Перейменувати обрану збірку."
 
-#: src/launcher/ui/MainWindow.cpp:513
+#: src/launcher/ui/MainWindow.cpp:519
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Змінити групу"
 
-#: src/launcher/ui/MainWindow.cpp:514
+#: src/launcher/ui/MainWindow.cpp:520
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Змінити групу обраної збірки."
 
-#: src/launcher/ui/MainWindow.cpp:527 src/launcher/ui/MainWindow.cpp:1055
+#: src/launcher/ui/MainWindow.cpp:533 src/launcher/ui/MainWindow.cpp:1065
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Запустити в офлайн режимі"
 
-#: src/launcher/ui/MainWindow.cpp:528
+#: src/launcher/ui/MainWindow.cpp:534
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Запустити вибрану збірку в офлайн режимі."
 
-#: src/launcher/ui/MainWindow.cpp:536
+#: src/launcher/ui/MainWindow.cpp:542
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Редагувати збірку"
 
-#: src/launcher/ui/MainWindow.cpp:537
+#: src/launcher/ui/MainWindow.cpp:543
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Змінити налаштування, моди і версію збірки."
 
-#: src/launcher/ui/MainWindow.cpp:543
+#: src/launcher/ui/MainWindow.cpp:549
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Редагувати нотатки"
 
-#: src/launcher/ui/MainWindow.cpp:544
+#: src/launcher/ui/MainWindow.cpp:550
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Редагувати нотатки для обраної збірки."
 
-#: src/launcher/ui/MainWindow.cpp:550
+#: src/launcher/ui/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr "Переглянути моди"
 
-#: src/launcher/ui/MainWindow.cpp:551
+#: src/launcher/ui/MainWindow.cpp:557
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr "Переглянути список модифікацій для цієї збірки."
 
-#: src/launcher/ui/MainWindow.cpp:557
+#: src/launcher/ui/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "Переглянути світи"
 
-#: src/launcher/ui/MainWindow.cpp:558
+#: src/launcher/ui/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "Переглянути список світів для цієї збірки."
 
-#: src/launcher/ui/MainWindow.cpp:564
+#: src/launcher/ui/MainWindow.cpp:570
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Керування скріншотами"
 
-#: src/launcher/ui/MainWindow.cpp:565
+#: src/launcher/ui/MainWindow.cpp:571
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "Перегляд і завантаження в інтернет скріншотів цієї збірки."
 
-#: src/launcher/ui/MainWindow.cpp:573
+#: src/launcher/ui/MainWindow.cpp:579
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Тека Minecraft"
 
-#: src/launcher/ui/MainWindow.cpp:574
+#: src/launcher/ui/MainWindow.cpp:580
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Відкрити теку обраної збірки в файловому менеджері."
 
-#: src/launcher/ui/MainWindow.cpp:589
+#: src/launcher/ui/MainWindow.cpp:595
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Тека конфігурацій"
 
-#: src/launcher/ui/MainWindow.cpp:590
+#: src/launcher/ui/MainWindow.cpp:596
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Відкрити теку конфігурації для збірки."
 
-#: src/launcher/ui/MainWindow.cpp:596
+#: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Тека збірки"
 
-#: src/launcher/ui/MainWindow.cpp:597
+#: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Відкрити кореневу теку обраної збірки в файловому менеджері."
 
-#: src/launcher/ui/MainWindow.cpp:605
+#: src/launcher/ui/MainWindow.cpp:611
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr "Створити ярлик"
 
-#: src/launcher/ui/MainWindow.cpp:606
+#: src/launcher/ui/MainWindow.cpp:612
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr "Створити ярлик, який запускає обраний екземпляр"
 
-#: src/launcher/ui/MainWindow.cpp:612
+#: src/launcher/ui/MainWindow.cpp:618
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Експортувати збірку"
 
-#: src/launcher/ui/MainWindow.cpp:613
+#: src/launcher/ui/MainWindow.cpp:619
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr "Експортувати обрану збірку у zip-файл."
 
-#: src/launcher/ui/MainWindow.cpp:619
+#: src/launcher/ui/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Видалити"
 
-#: src/launcher/ui/MainWindow.cpp:620
+#: src/launcher/ui/MainWindow.cpp:626
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Видалити обрану збірку."
 
-#: src/launcher/ui/MainWindow.cpp:627
+#: src/launcher/ui/MainWindow.cpp:633
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Копіювати збірку"
 
-#: src/launcher/ui/MainWindow.cpp:628
+#: src/launcher/ui/MainWindow.cpp:634
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Копіювати обрану збірку."
 
-#: src/launcher/ui/MainWindow.cpp:636
+#: src/launcher/ui/MainWindow.cpp:642
 msgctxt "MainWindow|"
 msgid "Check for Updates"
 msgstr "Перевірити наявність оновлень"
 
-#: src/launcher/ui/MainWindow.cpp:637
+#: src/launcher/ui/MainWindow.cpp:643
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
 msgstr "Перевірка оновлень для вибраного екземпляра."
 
-#: src/launcher/ui/MainWindow.cpp:681
+#: src/launcher/ui/MainWindow.cpp:686
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
 msgstr "%1, версія %2"
 
-#: src/launcher/ui/MainWindow.cpp:684
+#: src/launcher/ui/MainWindow.cpp:689
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " на %1"
 
-#: src/launcher/ui/MainWindow.cpp:796 src/launcher/ui/MainWindow.cpp:907
+#: src/launcher/ui/MainWindow.cpp:800 src/launcher/ui/MainWindow.cpp:914
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Не обрана збірка"
 
-#: src/launcher/ui/MainWindow.cpp:797
+#: src/launcher/ui/MainWindow.cpp:801
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr "Загальна тривалість гри: 0 с"
 
-#: src/launcher/ui/MainWindow.cpp:901 src/launcher/ui/MainWindow.cpp:1218
+#: src/launcher/ui/MainWindow.cpp:905 src/launcher/ui/MainWindow.cpp:1226
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Профілі"
 
-#: src/launcher/ui/MainWindow.cpp:960
+#: src/launcher/ui/MainWindow.cpp:967
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Створити збірку"
 
-#: src/launcher/ui/MainWindow.cpp:976
+#: src/launcher/ui/MainWindow.cpp:983
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Видалити групу '%1'"
 
-#: src/launcher/ui/MainWindow.cpp:1006
+#: src/launcher/ui/MainWindow.cpp:1016
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr "Формат"
 
-#: src/launcher/ui/MainWindow.cpp:1009
+#: src/launcher/ui/MainWindow.cpp:1019
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr "Modrinth (в процесі)"
 
-#: src/launcher/ui/MainWindow.cpp:1064
+#: src/launcher/ui/MainWindow.cpp:1070
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Профайлери"
 
-#: src/launcher/ui/MainWindow.cpp:1076
+#: src/launcher/ui/MainWindow.cpp:1082
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Профайлер не налаштовано правильно. Перейдіть в налаштування, \"Зовнішні інструменти\"."
 
-#: src/launcher/ui/MainWindow.cpp:1116
+#: src/launcher/ui/MainWindow.cpp:1118
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Облікових записів не додано!"
 
-#: src/launcher/ui/MainWindow.cpp:1149
+#: src/launcher/ui/MainWindow.cpp:1153
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Немає облікового запису за замовчуванням"
 
-#: src/launcher/ui/MainWindow.cpp:1258
+#: src/launcher/ui/MainWindow.cpp:1266
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Завантаження новин..."
 
-#: src/launcher/ui/MainWindow.cpp:1271
+#: src/launcher/ui/MainWindow.cpp:1279
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Немає доступних новин."
 
-#: src/launcher/ui/MainWindow.cpp:1354 src/launcher/ui/MainWindow.cpp:1371
-#: src/launcher/ui/MainWindow.cpp:1429 src/launcher/ui/MainWindow.cpp:1558
-#: src/launcher/ui/MainWindow.cpp:1570
+#: src/launcher/ui/MainWindow.cpp:1362 src/launcher/ui/MainWindow.cpp:1379
+#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1574
+#: src/launcher/ui/MainWindow.cpp:1585
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Помилка"
 
-#: src/launcher/ui/MainWindow.cpp:1354
+#: src/launcher/ui/MainWindow.cpp:1362
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3374,85 +3374,85 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Не вдалося створити теку для завантаження оновлень:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1436
+#: src/launcher/ui/MainWindow.cpp:1447
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "Попередження"
 
-#: src/launcher/ui/MainWindow.cpp:1440 src/launcher/ui/MainWindow.cpp:1562
+#: src/launcher/ui/MainWindow.cpp:1450 src/launcher/ui/MainWindow.cpp:1577
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Відміна"
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1485
+#: src/launcher/ui/MainWindow.cpp:1491 src/launcher/ui/MainWindow.cpp:1496
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr "Перевірка оновлень"
 
-#: src/launcher/ui/MainWindow.cpp:1480
+#: src/launcher/ui/MainWindow.cpp:1491
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr "Автоматичне оновлення підтримуються тільки для платформи CurseForge."
 
-#: src/launcher/ui/MainWindow.cpp:1485
+#: src/launcher/ui/MainWindow.cpp:1496
 msgctxt "MainWindow|"
 msgid "Please manually re-download the modpacks."
 msgstr "Будь ласка, вручну завантажте модпаки."
 
-#: src/launcher/ui/MainWindow.cpp:1524
+#: src/launcher/ui/MainWindow.cpp:1537
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr "Доступне оновлення"
 
-#: src/launcher/ui/MainWindow.cpp:1525
+#: src/launcher/ui/MainWindow.cpp:1538
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
 msgstr "Доступне нове оновлення. Найновіша версія: %1. Бажаєте оновити зараз?"
 
-#: src/launcher/ui/MainWindow.cpp:1541
+#: src/launcher/ui/MainWindow.cpp:1557
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "Оновлення немає"
 
-#: src/launcher/ui/MainWindow.cpp:1542
+#: src/launcher/ui/MainWindow.cpp:1558
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
 msgstr "Ваш modpack актуальний. Оновлення не необхідні."
 
-#: src/launcher/ui/MainWindow.cpp:1571
+#: src/launcher/ui/MainWindow.cpp:1586
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1705
+#: src/launcher/ui/MainWindow.cpp:1720
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "Назва групи"
 
-#: src/launcher/ui/MainWindow.cpp:1705
+#: src/launcher/ui/MainWindow.cpp:1720
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Введіть назву нової групи."
 
-#: src/launcher/ui/MainWindow.cpp:1727
+#: src/launcher/ui/MainWindow.cpp:1742
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "Видалити групу"
 
-#: src/launcher/ui/MainWindow.cpp:1727
+#: src/launcher/ui/MainWindow.cpp:1742
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "Ви впевнені, що бажаєте видалити групу %1"
 
-#: src/launcher/ui/MainWindow.cpp:1868
+#: src/launcher/ui/MainWindow.cpp:1882
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "РАХУНО!"
 
-#: src/launcher/ui/MainWindow.cpp:1869
+#: src/launcher/ui/MainWindow.cpp:1883
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3462,45 +3462,45 @@ msgstr "Буде видалено наступне: %1\n"
 "Це постійне та повністю видалить екземпляр.\n\n"
 "Ви впевнені?"
 
-#: src/launcher/ui/MainWindow.cpp:2081
+#: src/launcher/ui/MainWindow.cpp:2096
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Перейменувати екземпляр"
 
-#: src/launcher/ui/MainWindow.cpp:2094
+#: src/launcher/ui/MainWindow.cpp:2109
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "Ваша інстанс папка містить '!', і це може викликати проблеми Java!"
 
-#: src/launcher/ui/MainWindow.cpp:2096
+#: src/launcher/ui/MainWindow.cpp:2111
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "У вас ще є два варіанти: <br/> - змінити теку екземпляра в налаштуваннях <br/> - перемістити цю установку %1 в іншу папку"
 
-#: src/launcher/ui/MainWindow.cpp:2105
+#: src/launcher/ui/MainWindow.cpp:2119
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2112
+#: src/launcher/ui/MainWindow.cpp:2126
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "Ваша папка на екземпляр містить 'Rar$' - це означає, що ви не вилучили архів лаунчера!"
 
-#: src/launcher/ui/MainWindow.cpp:2120
+#: src/launcher/ui/MainWindow.cpp:2134
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "Ваша тека інстанса знаходиться в тимчасовій папці: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2134
+#: src/launcher/ui/MainWindow.cpp:2150
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "Загальна тривалість гри: %1 годин"
 
-#: src/launcher/ui/MainWindow.cpp:2136
+#: src/launcher/ui/MainWindow.cpp:2154
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3712,7 +3712,7 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:69
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:73
 msgctxt "ModDownloadPage|"
 msgid "Download Mods"
 msgstr ""
@@ -3756,70 +3756,70 @@ msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:427
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:417
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:427
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:417
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:659
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:647
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:698
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:686
 msgctxt "ModDownloadPage|"
 msgid "Mod Already Installed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:699
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:687
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "The mod '%1' is already installed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:707
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:695
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:708
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:696
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:854
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:842
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:854
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:842
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:905
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:893
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:906
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:894
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:967
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:955
 msgctxt "ModDownloadPage|"
 msgid "Download Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:968
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:956
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Mod %1 download failed: %2"
@@ -3939,47 +3939,47 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:397
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:422
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "Тека"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:399
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:424
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "Файл"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:493
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:523
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Назва"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:495
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:525
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "Версія"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:497
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:527
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Востаннє змінено"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Мод увімкнено?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Назва моду."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:510
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:540
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Версія моду."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:512
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:542
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Дата і час останньої зміни (або додавання) цього моду."
@@ -4049,12 +4049,12 @@ msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr "Відкрити &теку"
 
-#: src/launcher/ui/pages/instance/ModFolderPage.cpp:191
+#: src/launcher/ui/pages/instance/ModFolderPage.cpp:205
 msgctxt "ModFolderPage|"
 msgid "Context menu"
 msgstr "Контекстне меню"
 
-#: src/launcher/ui/pages/instance/ModFolderPage.cpp:304
+#: src/launcher/ui/pages/instance/ModFolderPage.cpp:319
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -4096,60 +4096,65 @@ msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by ID"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:74
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
 msgstr "Не вдалося знайти версію пакунка %1"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:101
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Не вдалося розпізнати маніфест пакета:\n"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:121
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
 msgstr "Отримати посилання на завантаження MOD"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:122
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
 msgstr "URL завантаження модів"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:167
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Downloading mods..."
 msgstr "Завантаження модів..."
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:169
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
 msgstr "Завантаження модів"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:226
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
 msgstr "Копіювання файлів modpack"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:224
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:234
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
 msgstr "Не вдалося скопіювати файли"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:231
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:241
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Extracting modpack files"
 msgstr "Розпакування файлів modpack"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:242
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:252
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to extract files"
 msgstr "Не вдалося витягти файли"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:258
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
+msgstr ""
+
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:317
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Scanning for blacklisted mods..."
 msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
@@ -4333,7 +4338,7 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Обрано версію:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
 msgstr "Мохрінт"
@@ -4363,17 +4368,17 @@ msgctxt "ModrinthPage|"
 msgid "Sort by last updated"
 msgstr "Впорядкувати за останнім оновленням"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:158
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:175
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
 msgstr "Не вдалося отримати деталі збірки Modrinth..."
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:162
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:180
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Завантаження..."
 
-#: src/launcher/net/NetJob.cpp:129
+#: src/launcher/net/NetJob.cpp:130
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
@@ -4397,7 +4402,7 @@ msgid "uid"
 msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Нова збірка"
@@ -4417,7 +4422,7 @@ msgctxt "NewInstanceDialog|"
 msgid "Reset"
 msgstr "Скинути"
 
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:71
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Без групи"
@@ -4429,17 +4434,17 @@ msgid "Failed to load news RSS feed:\n"
 "%1"
 msgstr "Не вдалося завантажити RSS-стрічку новин:%1"
 
-#: src/launcher/news/NewsEntry.cpp:24 src/launcher/news/NewsEntry.cpp:60
+#: src/launcher/news/NewsEntry.cpp:23 src/launcher/news/NewsEntry.cpp:58
 msgctxt "NewsEntry|"
 msgid "Untitled"
 msgstr "Без назви"
 
-#: src/launcher/news/NewsEntry.cpp:25 src/launcher/news/NewsEntry.cpp:61
+#: src/launcher/news/NewsEntry.cpp:24 src/launcher/news/NewsEntry.cpp:59
 msgctxt "NewsEntry|"
 msgid "No content."
 msgstr "Контент відсутній."
 
-#: src/launcher/news/NewsEntry.cpp:27 src/launcher/news/NewsEntry.cpp:63
+#: src/launcher/news/NewsEntry.cpp:26 src/launcher/news/NewsEntry.cpp:61
 msgctxt "NewsEntry|"
 msgid "Unknown Author"
 msgstr "Невідомий автор"
@@ -4538,14 +4543,9 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Пошук:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Інші журнали"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:263
 msgctxt "OtherLogsPage|"
 msgid "Error"
 msgstr "Помилка"
@@ -4556,7 +4556,7 @@ msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
 msgstr "Неможливо відкрити %1 для читання: %2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:148
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:147
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
@@ -4590,17 +4590,17 @@ msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
 msgstr "Неможливо видалити %1: %2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:234
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:231
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
 msgstr "Очистити"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:237
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:234
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
 msgstr "Ви дійсно хочете видалити всі файли журналу?"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:242
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:239
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
@@ -4608,12 +4608,12 @@ msgid "Do you really want to delete these files?\n"
 msgstr "Ви дійсно хочете видалити ці файли?\n"
 "%1"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:269
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
 msgstr "Не вдалося видалити деякі файли!"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:274
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:271
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
@@ -4621,12 +4621,17 @@ msgid "Couldn't delete some files:\n"
 msgstr "Не вдалося видалити деякі файли:\n"
 "%1"
 
-#: src/launcher/minecraft/PackProfile.cpp:857
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Інші журнали"
+
+#: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
 msgid "Name"
 msgstr "Ім’я"
 
-#: src/launcher/minecraft/PackProfile.cpp:859
+#: src/launcher/minecraft/PackProfile.cpp:860
 msgctxt "PackProfile|"
 msgid "Version"
 msgstr "Версія"
@@ -4643,8 +4648,8 @@ msgstr "paste.ee API ключ"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
-msgid "MultiMC key - 12MB &upload limit"
-msgstr "Ключ MultiMC - 12 Мб &ліміт вивантаження"
+msgid "MiniSkins key - 12MB &upload limit"
+msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
@@ -4661,7 +4666,7 @@ msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
 msgstr "<html><head/><body><p>MultiMC використовує <a href=\"https://paste.ee\">paste.ee</a> для завантаження логів. Якщо у вас є аккаунт в <a href=\"https://paste.ee\">paste.ee</a>, ви можете вставити API-ключ тут і і нехай ваші завантажені журнали поєднуються з вашим обліковим записом.</p></body></html>"
 
-#: src/launcher/ui/pages/global/PasteEEPage.h:37
+#: src/launcher/ui/pages/global/PasteEEPage.h:38
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
 msgstr "Вивантаження журналу"
@@ -4736,7 +4741,7 @@ msgctxt "ProfileSelectDialog|"
 msgid "Name"
 msgstr "Назва"
 
-#: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:53
+#: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:54
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
@@ -4754,35 +4759,35 @@ msgid "You just need to take one more step to be able to play Minecraft on this 
 msgstr "Вам потрібно зробити ще один крок, щоб мати можливість грати Minecraft на цьому обліковому записі.\n\n"
 "Уважно та акуратно виберіть своє ім'я:"
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:105
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:109
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
 msgstr "Ім'я закоротке - довжина імені має становити від 3 до 16 символів."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:165
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:177
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
 msgstr "Профіль Minecraft із іменем %1 уже існує."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:168
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:181
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
 msgstr "Ім’я %1 не допускається."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:171
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:185
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
 msgstr "Статус імені профілю без обробки: %1"
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:175
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:190
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
 msgstr "Не вдалося перевірити наявність імені."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:309
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:331
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
 msgstr "Сервер повернув наступну помилку:"
@@ -4867,127 +4872,124 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Проксі"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Зазначений файл або не існує або не є виконуваним."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Зазначений двійковий файл java не запущено належним чином.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Зазначений файл java повернув неочікувані результати:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Тестування Java завершено успішно!<br />Повідомлено про платформу: %1<br />Повідомлено про версію Java: %2 <br />"
+msgid "%1m %2s"
+msgstr "%1 хв %2 сек"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Помилка тесту Java"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Перевірка Java пройшла успішно"
-
-#: src/launcher/ui/MainWindow.cpp:102
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (використовується)"
+msgid "%1h %2m"
+msgstr "%1 год %2 хв"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Темний"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Яскравий"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Системний"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Немає змін коду між вашою поточною версією і останньою.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Після останнього оновлення були додані такі коміти:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Оновлення видаляє %1 комітів і додає наступний %2:</p>"
+msgid "%1d %2h %3m"
+msgstr "%1 д %2 год %3 хв"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p> Ви можете <a href=\"%1\"> переглянути зміни на github </a>. </p>"
+msgid "Assets for %1"
+msgstr "Ресурси для %1"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Оригінальний автор"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Супроводжувач"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:54
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Меценати"
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Помилка вивантаження"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Файл журналу занадто великий. Потрібно вивантажити його вручну."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Вивантаження закінчено"
-
-#: src/launcher/ui/GuiUtil.cpp:61
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
 msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">посилання на завантажений журнал</a> було додано в буфер обміну."
+msgid "processArguments is set to unknown value '%1'"
+msgstr "в processArguments задано невідоме значення '%1"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Сервери Minecraft"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Значення «minimumLauncherVersion» цієї версії (%1) вище, ніж підтримується у %3 (%2). Це може працювати некоректно!"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Опис відсутній в програми FTB."
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Ім'я бібліотеки %1 пошкоджене і не може бути оброблене."
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Немає профілю (%1)"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Файл версії має одночасно '+libraries' і 'libraries'. Це більше не підтримується."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "URL для основних jar не вдалося визначити - Mojang видалив сервер, який ми використовували як резервний."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Версійний файл містить непідтримуваний елемент «tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Версійний файл містить непідтримуваний елемент '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Версійний файл містить непідтримуваний елемент «-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Версійний файл містить непідтримуваний елемент '-minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Версійний файл містить непідтримуваний елемент '+minecraftArguments'"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Латку ще не завантажено."
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Некоректна версія файлу компонента, очікувалось %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Некоректний порядок версії файлу, очікувалась %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Не вдалося відкрити файл версії %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Неможливо обробити файл версії %1: %2 в рядку %3 стовпець %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Неможливо обробити файл версії %1."
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5032,118 +5034,169 @@ msgstr "Не вдалося повернутися назад.\n"
 "Вам доведеться відновити %1 вручну.\n"
 "Будь ласка, повідомте нам про те, чому це сталося."
 
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Латку ще не завантажено."
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "в processArguments задано невідоме значення '%1"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Значення «minimumLauncherVersion» цієї версії (%1) вище, ніж підтримується у %3 (%2). Це може працювати некоректно!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Ім'я бібліотеки %1 пошкоджене і не може бути оброблене."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Ресурси для %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Файл версії має одночасно '+libraries' і 'libraries'. Це більше не підтримується."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "URL для основних jar не вдалося визначити - Mojang видалив сервер, який ми використовували як резервний."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Версійний файл містить непідтримуваний елемент «tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Версійний файл містить непідтримуваний елемент '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Версійний файл містить непідтримуваний елемент «-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Версійний файл містить непідтримуваний елемент '-minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Версійний файл містить непідтримуваний елемент '+minecraftArguments'"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Немає профілю (%1)"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Некоректна версія файлу компонента, очікувалось %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Некоректний порядок версії файлу, очікувалась %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Не вдалося відкрити файл версії %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Неможливо обробити файл версії %1: %2 в рядку %3 стовпець %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Неможливо обробити файл версії %1."
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Невідома версія формату!"
-
-#: src/launcher/meta/BaseEntity.cpp:120
+#: src/launcher/meta/BaseEntity.cpp:118
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "Завантаження мета-файлу %1"
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Невідома версія формату!"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Порожній шлях"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Шлях не існує"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Шлях, здається, не є шляхом MCEdit"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Порожній шлях"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Неправильний шлях до JVisualVM"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Невірне встановлення JProfiler"
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (використовується)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Оригінальний автор"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Супроводжувач"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Меценати"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>Немає змін коду між вашою поточною версією і останньою.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Після останнього оновлення були додані такі коміти:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Оновлення видаляє %1 комітів і додає наступний %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p> Ви можете <a href=\"%1\"> переглянути зміни на github </a>. </p>"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Темний"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Системний"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Яскравий"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Зазначений файл або не існує або не є виконуваним."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Зазначений двійковий файл java не запущено належним чином.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Зазначений файл java повернув неочікувані результати:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Тестування Java завершено успішно!<br />Повідомлено про платформу: %1<br />Повідомлено про версію Java: %2 <br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Помилка тесту Java"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Перевірка Java пройшла успішно"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Сервери Minecraft"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Опис відсутній в програми FTB."
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Помилка вивантаження"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Файл журналу занадто великий. Потрібно вивантажити його вручну."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Вивантаження закінчено"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">посилання на завантажений журнал</a> було додано в буфер обміну."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -5187,54 +5240,6 @@ msgstr "Зазначений двійковий файл java не працює 
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Вказаний двійковий файл Java не працює. <br /> Вам слід скористатися функцією автоматичного виявлення або встановити шлях до виконуваного файлу Java. <br />"
-
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Порожній шлях"
-
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Шлях не існує"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Невірне встановлення JProfiler"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Неправильний шлях до JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Порожній шлях"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Шлях, здається, не є шляхом MCEdit"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1 хв %2 сек"
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1 год %2 хв"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1 д %2 год %3 хв"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5298,11 +5303,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "Копіювати файл(и)"
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Знімок екрану"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5363,6 +5363,11 @@ msgstr "Ви впевнені?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Буде видалено всі вибрані знімки екрану."
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Знімок екрану"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -5439,15 +5444,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Приєднатись"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "Сервера"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "Контекстне меню"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Сервера"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
 msgctxt "SetupWizard|"
@@ -5560,7 +5565,7 @@ msgctxt "SkinUploadDialog|"
 msgid "No Cape"
 msgstr "Без плаща"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:42
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:43
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Downloading modpack:\n"
@@ -5568,71 +5573,71 @@ msgid "Downloading modpack:\n"
 msgstr "Завантаження мод-паку:\n"
 "%1"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:47
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:48
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Modpack download"
 msgstr "Завантажити мод-пак"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:61
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:62
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Extracting modpack"
 msgstr "Розпакування мод-паку"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:69
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:70
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Не вдалося відкрити вибраний zip-файл мод-паку."
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:97
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:98
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Failed to extract modpack"
 msgstr "Не вдалося розпакувати мод-пак"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:124
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:125
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Не вдалося вирішити дозволи для %1"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:141
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:142
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Instance import has been aborted."
 msgstr "Імпорт збірки було скасовано."
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:49
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:51
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:50
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:52
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files"
 msgstr "Розв’язання файлів мод-паків"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:63
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:87
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:64
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:91
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Downloading modpack"
 msgstr "Завантаження мод-паку"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:83
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Не вдалося зрозуміти маніфест пакету:\n"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:120
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Extracting modpack"
 msgstr "Розпакування мод-паку"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:156
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:160
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Failed to extract modpack"
 msgstr "Не вдалося розпакувати мод-пак"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:183
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:187
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Не вдалося вирішити дозволи для %1"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:200
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:204
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Instance import has been aborted."
 msgstr "Імпорт збірки було скасовано."
@@ -5700,15 +5705,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Пошук"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
-msgctxt "TechnicPage|"
-msgid "Technic"
-msgstr "Техніка"
-
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
 msgctxt "TechnicPage|"
 msgid " by "
 msgstr " від "
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr "Техніка"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6094,34 +6099,29 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Встановіть пакет NeoForge."
 
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "Версія"
-
-#: src/launcher/ui/pages/instance/VersionPage.cpp:156
+#: src/launcher/ui/pages/instance/VersionPage.cpp:155
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Контекстне меню"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:174
+#: src/launcher/ui/pages/instance/VersionPage.cpp:173
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1, можливо має проблеми."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:177
+#: src/launcher/ui/pages/instance/VersionPage.cpp:176
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 має проблеми!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:191
+#: src/launcher/ui/pages/instance/VersionPage.cpp:190
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Помилка: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:195
+#: src/launcher/ui/pages/instance/VersionPage.cpp:194
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Увага: "
@@ -6189,85 +6189,90 @@ msgid "MultiMC cannot download Minecraft or update instances unless you have at 
 msgstr "MultiMC не може завантажити Minecraft або оновити екземпляри, поки ви не додали принаймні один обліковий запис.\n"
 "Будь ласка, додайте свій обліковий запис Mojang або Minecraft."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:440
+#: src/launcher/ui/pages/instance/VersionPage.cpp:441
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Виберіть версію Forge"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:442
+#: src/launcher/ui/pages/instance/VersionPage.cpp:443
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "На даний момент немає доступних версій Forge для Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:443
+#: src/launcher/ui/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Не вдалося завантажити або скачати список версій Forg!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:469
+#: src/launcher/ui/pages/instance/VersionPage.cpp:470
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr "Виберіть версію NeoForge"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:471
+#: src/launcher/ui/pages/instance/VersionPage.cpp:472
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr "Наразі для Minecraft немає доступних версій NeoForge "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:472
+#: src/launcher/ui/pages/instance/VersionPage.cpp:473
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr "Не вдалося завантажити або завантажити список версій NeoForg!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:498
+#: src/launcher/ui/pages/instance/VersionPage.cpp:499
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Виберіть версію завантажувача Fabric"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:499
+#: src/launcher/ui/pages/instance/VersionPage.cpp:500
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "На даний момент немає доступних версій Fabric."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:500
+#: src/launcher/ui/pages/instance/VersionPage.cpp:501
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "Не вдалося завантажити або скачати список версій Fabric!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:525
+#: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr "Виберіть версію Завантажувача Quilt"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:526
+#: src/launcher/ui/pages/instance/VersionPage.cpp:527
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr "На даний момент немає доступних версій для завантаження Quilt."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:527
+#: src/launcher/ui/pages/instance/VersionPage.cpp:528
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr "Не вдалося завантажити або отримати список версій Quilt Loader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:570
+#: src/launcher/ui/pages/instance/VersionPage.cpp:571
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Виберіть версію LiteLoader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:572
+#: src/launcher/ui/pages/instance/VersionPage.cpp:573
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Наразі для Minecraft немає доступних версій LiteLoader "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:573
+#: src/launcher/ui/pages/instance/VersionPage.cpp:574
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Не вдалося завантажити або скачати список версій LiteLoader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:629
+#: src/launcher/ui/pages/instance/VersionPage.cpp:630
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Помилка оновлення збірки"
+
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "Версія"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
@@ -6499,17 +6504,22 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Керування пакетами даних у світі."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:110
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Світи"
+
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "Контекстне меню"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:160
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:159
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Ви впевнені?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:161
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:160
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -6518,72 +6528,67 @@ msgstr "Це призведе до видалення вибраного сві�
 "Світ буде знищений назавжди (Надовго).\n\n"
 "Ви хочете продовжити?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:272
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:270
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "MCEdit не знайдено або не встановлено!"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:273
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:271
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "Ви не маєте встановленого MCEdit або його було переміщено.\n"
 "Ви можете налаштувати його в глобальних налаштуваннях."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:282
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:279
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "Не вдалося запустити MCEdit!"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:283
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:280
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "Не вдалося запустити MCEdit\n"
 "Можливо, треба буде перевстановити його."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:347
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:343
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Виберіть zip-архів світу Minecraft"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:348
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:344
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Zip-файл світу Minecraft (*.zip)"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:369
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:365
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Копіювати світ"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:369
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:365
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "Зміна світу, в той час, як Minecraft працює, потенційно небезпечно.\n"
 "Бажаєте продовжити?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:393
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:416
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:388
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:411
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Назва світу"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:393
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:388
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Введіть нове ім'я для копії."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:416
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:411
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Введіть нове ім'я світу."
-
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Світи"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
