@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Danish\n"
 "Language: da_DK\n"
-"PO-Revision-Date: 2025-06-16 14:54\n"
+"PO-Revision-Date: 2025-07-01 04:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -189,115 +189,115 @@ msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Luk"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:82
+#: src/launcher/ui/dialogs/AboutDialog.cpp:84
 #, qt-format
 msgctxt "AboutDialog|"
 msgid "About %1"
 msgstr "Om %1"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:95
+#: src/launcher/ui/dialogs/AboutDialog.cpp:97
 msgctxt "AboutDialog|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:96
+#: src/launcher/ui/dialogs/AboutDialog.cpp:98
 msgctxt "AboutDialog|"
 msgid "Platform"
 msgstr ""
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:99
+#: src/launcher/ui/dialogs/AboutDialog.cpp:101
 msgctxt "AboutDialog|"
 msgid "Build Number"
 msgstr "Versionsnummer"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:104
+#: src/launcher/ui/dialogs/AboutDialog.cpp:106
 msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Kanal"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:108
+#: src/launcher/ui/dialogs/AboutDialog.cpp:110
 msgctxt "AboutDialog|"
 msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
 "<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
 "<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
 msgstr "<p>MultiMC er open source fordi vi finder det vigtigt at man kan se den bagvedliggende kode i projekter som dette. Det opnår vi ved at bruge en Apache licens.</p>\\n <p>En af årsager til at vi bruger Apache licensen er, at vi ikke ønsker, at folk bruger &quot;MultiMC&quot;-navnet, når de deler projektet. I så fald skal hele koden gennemgås for at fjerne alle referencer til &quot;MultiMC&quot; også andre steder end i projektikonet og titlen i windows. (ingen <b>MultiMC-deling</b> i titlen).</p>\\n <p>Apache licensen dækker brugen af navnet fornuftigt - at projektets oprindelse er nævnt i Om dialogen og licensen er acceptabelt. Det skal dog gøres tydeligt, at projektet er en gaffel <b>uden</b> at antyde at det er med vores velsignelse.</p>"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:300
+#: src/launcher/minecraft/auth/AccountList.cpp:327
 msgctxt "AccountList|Account status"
 msgid "Unchecked"
 msgstr "Ikke markeret"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:303
+#: src/launcher/minecraft/auth/AccountList.cpp:331
 msgctxt "AccountList|Account status"
 msgid "Offline"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:306
+#: src/launcher/minecraft/auth/AccountList.cpp:335
 msgctxt "AccountList|Account status"
 msgid "Online"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:309
+#: src/launcher/minecraft/auth/AccountList.cpp:339
 msgctxt "AccountList|Account status"
 msgid "Working"
 msgstr "Arbejder"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:312
+#: src/launcher/minecraft/auth/AccountList.cpp:343
 msgctxt "AccountList|Account status"
 msgid "Errored"
 msgstr "Fejl"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:315
+#: src/launcher/minecraft/auth/AccountList.cpp:347
 msgctxt "AccountList|Account status"
 msgid "Expired"
 msgstr "Udløbet"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:318
+#: src/launcher/minecraft/auth/AccountList.cpp:351
 msgctxt "AccountList|Account status"
 msgid "Gone"
 msgstr "Væk"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:321
+#: src/launcher/minecraft/auth/AccountList.cpp:355
 msgctxt "AccountList|Account status"
 msgid "Must Migrate"
 msgstr "Skal Overflyttes"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:377
+#: src/launcher/minecraft/auth/AccountList.cpp:411
 msgctxt "AccountList|"
 msgid "Account"
 msgstr "Konto"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:379
+#: src/launcher/minecraft/auth/AccountList.cpp:413
 msgctxt "AccountList|"
 msgid "platform"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:381
+#: src/launcher/minecraft/auth/AccountList.cpp:415
 msgctxt "AccountList|"
 msgid "Status"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:383
+#: src/launcher/minecraft/auth/AccountList.cpp:417
 msgctxt "AccountList|"
 msgid "Profile"
 msgstr "Profil"
 
-#: src/launcher/minecraft/auth/AccountList.cpp:392
+#: src/launcher/minecraft/auth/AccountList.cpp:426
 msgctxt "AccountList|"
 msgid "User name of the account."
 msgstr "Brugernavn på kontoen."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:394
+#: src/launcher/minecraft/auth/AccountList.cpp:428
 msgctxt "AccountList|"
 msgid "The platform of the account."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountList.cpp:396
+#: src/launcher/minecraft/auth/AccountList.cpp:430
 msgctxt "AccountList|"
 msgid "Current status of the account."
 msgstr "Kontoens aktuelle status."
 
-#: src/launcher/minecraft/auth/AccountList.cpp:398
+#: src/launcher/minecraft/auth/AccountList.cpp:432
 msgctxt "AccountList|"
 msgid "Name of the Minecraft profile associated with the account."
 msgstr "Navn på den Minecraft profil, der er tilknyttet kontoen."
@@ -359,22 +359,22 @@ msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:85
+#: src/launcher/ui/pages/global/AccountListPage.cpp:83
 msgctxt "AccountListPage|"
 msgid "Context menu"
 msgstr "Kontekstmenu"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:216
+#: src/launcher/ui/pages/global/AccountListPage.cpp:219
 msgctxt "AccountListPage|"
 msgid "Skin Delete"
 msgstr "Slet Skin"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:216
+#: src/launcher/ui/pages/global/AccountListPage.cpp:219
 msgctxt "AccountListPage|"
 msgid "Failed to delete current skin!"
 msgstr "Kunne ikke slette nuværende skin!"
 
-#: src/launcher/ui/pages/global/AccountListPage.cpp:225
+#: src/launcher/ui/pages/global/AccountListPage.cpp:228
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "Indtast venligst din skin site konto e-mail og adgangskode for at tilføje din konto."
@@ -424,7 +424,7 @@ msgctxt "AccountTask|"
 msgid "..."
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountTask.cpp:108
+#: src/launcher/minecraft/auth/AccountTask.cpp:118
 #, qt-format
 msgctxt "AccountTask|"
 msgid "Unknown account task state: %1"
@@ -596,11 +596,6 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Søg og filtrer ..."
 
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -621,6 +616,11 @@ msgstr "Kunne ikke indlæse eller hente versionslisterne!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Installerer"
+
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -697,60 +697,60 @@ msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition succeeded."
 msgstr "Minecraft Java-profil opkøb lykkedes."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:202
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:201
 msgctxt "BsYggdrasil|"
 msgid "Authentication server didn't send a client token."
 msgstr "Godkendelsesserver sendte ikke et klienttoken."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:211
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:210
 msgctxt "BsYggdrasil|"
 msgid "Authentication server attempted to change the client token. This isn't supported."
 msgstr "Autentificeringsserver forsøgte at ændre klient- token. Dette understøttes ikke."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:224
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:223
 msgctxt "BsYggdrasil|"
 msgid "Authentication server didn't send an access token."
 msgstr "Godkendelsesserver sendte ikke et adgangstoken."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:247
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:246
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation timed out."
 msgstr "Godkendelsesoperationen fik timeout."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:250
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:249
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation cancelled."
 msgstr "Godkendelsesoperation annulleret."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:255
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:254
 msgctxt "BsYggdrasil|"
 msgid "<b>SSL Handshake failed.</b><br/>There might be a few causes for it:<br/><ul><li>You use Windows and need to update your root certificates, please install any outstanding updates.</li><li>Some device on your network is interfering with SSL traffic. In that case, you have bigger worries than Minecraft not starting.</li><li>Possibly something else. Check the log file for details</li></ul>"
 msgstr "<b>SSL Handshake mislykkedes.</b><br/>Der kan være et par årsager til det:<br/><ul><li>Du bruger Windows og skal opdatere dine root certifikater, installer venligst eventuelle udestående opdateringer.</li><li>Nogle enheder på dit netværk forstyrrer SSL-trafikken. I så fald har du større bekymringer end Minecraft ikke starter.</li><li>Muligvis noget andet. Tjek logfilen for detaljer</li></ul>"
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:272
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:271
 msgctxt "BsYggdrasil|"
 msgid "The Mojang account no longer exists. It may have been migrated to a Microsoft account."
 msgstr "Mojang-kontoen eksisterer ikke længere. Den er muligvis blevet overført til en Microsoft-konto."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:277
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:276
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "Authentication operation failed due to a network error: %1 (%2)"
 msgstr "Godkendelse mislykkedes på grund af en netværksfejl: %1 (%2)"
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:304
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:303
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "Failed to parse authentication server response JSON response: %1 at offset %2."
 msgstr "Mislykkedes at fortolke godkendelsesserverens svar JSON-svar: %1 ved offset %2."
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:329
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:328
 #, qt-format
 msgctxt "BsYggdrasil|"
 msgid "An unknown error occurred when trying to communicate with the authentication server: %1"
 msgstr "En ukendt fejl opstod under forsøget på at kommunikere med godkendelsesserveren: %1"
 
-#: src/launcher/minecraft/auth/BsYggdrasil.cpp:351
+#: src/launcher/minecraft/auth/BsYggdrasil.cpp:350
 msgctxt "BsYggdrasil|"
 msgid "An unknown BsYggdrasil error occurred."
 msgstr "Der opstod en ukendt BsYggdrasil fejl."
@@ -789,6 +789,11 @@ msgstr "Søg"
 msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr "Søg og filtrer ..."
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
 msgctxt "CFPage|"
@@ -842,11 +847,6 @@ msgstr "<a href=\"%1\">kildekode</a>"
 msgctxt "CFPage|"
 msgid " by "
 msgstr " af "
-
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:45
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
 msgctxt "CapeChange|"
@@ -1094,28 +1094,28 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "Eksportér instans"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:384
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:386
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr "Eksportér %1"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:393
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:395
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "Overskriv?"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:394
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:396
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "Denne fil eksisterer allerede. Vil du overskrive den?"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "Fejl"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:408
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "Kan ikke eksportere instans"
@@ -1137,23 +1137,23 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Tekstredigeringsprogram:"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:90
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
 msgstr "JProfiler-mappe"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:98
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:113
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:135
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:150
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:176
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:191
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:97
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:112
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:134
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:149
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:175
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:190
 msgctxt "ExternalToolsPage|"
 msgid "Error"
 msgstr "Fejl"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:98
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:113
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:97
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:112
 #, qt-format
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JProfiler install:\n"
@@ -1161,25 +1161,25 @@ msgid "Error while checking JProfiler install:\n"
 msgstr "Fejl under kontrol af JProfiler-installation:\n"
 "%1"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:116
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:153
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:194
 msgctxt "ExternalToolsPage|"
 msgid "OK"
 msgstr "Ok"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:117
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:116
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler setup seems to be OK"
 msgstr "JProfiler-opsætning ser ud til at være okay"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:127
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:126
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM Executable"
 msgstr "JVisualVM-program"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:135
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:150
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:134
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:149
 #, qt-format
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking JVisualVM install:\n"
@@ -1187,23 +1187,23 @@ msgid "Error while checking JVisualVM install:\n"
 msgstr "Fejl under kontrol af JVisualVM installation:\n"
 "%1"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:154
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:153
 msgctxt "ExternalToolsPage|"
 msgid "JVisualVM setup seems to be OK"
 msgstr "JVisualVM-opsætning ser ud til at være okay"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:165
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:164
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Application"
 msgstr "MCEdit-program"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:167
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:166
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit Folder"
 msgstr "MCEdit-mappe"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:176
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:191
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:175
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:190
 #, qt-format
 msgctxt "ExternalToolsPage|"
 msgid "Error while checking MCEdit install:\n"
@@ -1211,32 +1211,32 @@ msgid "Error while checking MCEdit install:\n"
 msgstr "Fejl under kontrol af MCEdit-installation:\n"
 "%1"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:195
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:194
 msgctxt "ExternalToolsPage|"
 msgid "MCEdit setup seems to be OK"
 msgstr "MCEdit-opsætning ser ud til at være okay"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:202
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:201
 msgctxt "ExternalToolsPage|"
 msgid "JSON Editor"
 msgstr "JSON-redigeringsprogram"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:223
 msgctxt "ExternalToolsPage|"
 msgid "Invalid"
 msgstr "Ugyldig"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:225
+#: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Den valgte fil ser ikke ud til at være en eksekverbar fil"
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:37
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
 msgctxt "ExternalToolsPage|"
 msgid "External Tools"
 msgstr "Eksterne værktøjer"
 
-#: src/launcher/minecraft/launch/ExtractNatives.cpp:104
+#: src/launcher/minecraft/launch/ExtractNatives.cpp:106
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
@@ -1330,33 +1330,33 @@ msgctxt "GameOptionsPage|"
 msgid "Game Options"
 msgstr "Spilindstillinger"
 
-#: src/launcher/minecraft/World.cpp:69
+#: src/launcher/minecraft/World.cpp:70
 msgctxt "GameType|"
 msgid "Survival"
 msgstr "Overlevelse"
 
-#: src/launcher/minecraft/World.cpp:71
+#: src/launcher/minecraft/World.cpp:72
 msgctxt "GameType|"
 msgid "Creative"
 msgstr "Kreativ"
 
-#: src/launcher/minecraft/World.cpp:73
+#: src/launcher/minecraft/World.cpp:74
 msgctxt "GameType|"
 msgid "Adventure"
 msgstr "Eventyr"
 
-#: src/launcher/minecraft/World.cpp:75
+#: src/launcher/minecraft/World.cpp:76
 msgctxt "GameType|"
 msgid "Spectator"
 msgstr "Tilskuer"
 
-#: src/launcher/minecraft/World.cpp:80
+#: src/launcher/minecraft/World.cpp:82
 #, qt-format
 msgctxt "GameType|"
 msgid "Unknown (%1)"
 msgstr "Ukendt (%1)"
 
-#: src/launcher/minecraft/World.cpp:82
+#: src/launcher/minecraft/World.cpp:84
 msgctxt "GameType|"
 msgid "Undefined"
 msgstr "Udefineret"
@@ -1371,48 +1371,48 @@ msgctxt "GetSkinStep|"
 msgid "Got skin"
 msgstr "Fik skin"
 
-#: src/launcher/updater/DownloadTask.cpp:48
+#: src/launcher/updater/DownloadTask.cpp:47
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Loading version information..."
 msgstr "Indlæser information om versionen..."
 
-#: src/launcher/updater/DownloadTask.cpp:85
+#: src/launcher/updater/DownloadTask.cpp:84
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download version info files."
 msgstr "Det lykkedes ikke at hente filer med information om versionen."
 
-#: src/launcher/updater/DownloadTask.cpp:93
+#: src/launcher/updater/DownloadTask.cpp:92
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for new version..."
 msgstr "Læser filliste for ny version..."
 
-#: src/launcher/updater/DownloadTask.cpp:106
+#: src/launcher/updater/DownloadTask.cpp:105
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Reading file list for current version..."
 msgstr "Læser filliste for nuværende version..."
 
-#: src/launcher/updater/DownloadTask.cpp:121
+#: src/launcher/updater/DownloadTask.cpp:120
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Processing file lists - figuring out how to install the update..."
 msgstr "Behandler fillister - finder en måde at installere opdateringen..."
 
-#: src/launcher/updater/DownloadTask.cpp:129
+#: src/launcher/updater/DownloadTask.cpp:128
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to process update lists..."
 msgstr "Det lykkedes ikke at behandle opdateringslister..."
 
-#: src/launcher/updater/DownloadTask.cpp:140
+#: src/launcher/updater/DownloadTask.cpp:139
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading one update file."
 msgstr "Henter én opdateringsfil."
 
-#: src/launcher/updater/DownloadTask.cpp:144
+#: src/launcher/updater/DownloadTask.cpp:143
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Downloading %1 update files."
 msgstr "Henter %1 opdateringsfiler."
 
-#: src/launcher/updater/DownloadTask.cpp:159
+#: src/launcher/updater/DownloadTask.cpp:158
 #, qt-format
 msgctxt "GoUpdate::DownloadTask|"
 msgid "Failed to download update files: %1"
@@ -1465,11 +1465,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Lokal fil eller link til direkte download:"
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importer fra zip-fil"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1480,7 +1475,12 @@ msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
 
-#: src/launcher/meta/Index.cpp:71
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importer fra zip-fil"
+
+#: src/launcher/meta/Index.cpp:76
 msgctxt "Index|"
 msgid "Name"
 msgstr "Navn"
@@ -1540,109 +1540,109 @@ msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Kan ikke åbne den givne modpack-zip-fil."
 
-#: src/launcher/InstanceImportTask.cpp:149
-#: src/launcher/InstanceImportTask.cpp:215
+#: src/launcher/InstanceImportTask.cpp:148
+#: src/launcher/InstanceImportTask.cpp:214
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Arkivet indeholder ikke en genkendelig modpack-type."
 
-#: src/launcher/InstanceImportTask.cpp:164
+#: src/launcher/InstanceImportTask.cpp:163
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Det lykkedes ikke at udpakke modpack’en"
 
-#: src/launcher/InstanceImportTask.cpp:191
+#: src/launcher/InstanceImportTask.cpp:190
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Kunne ikke klargøre tilladelser for %1"
 
-#: src/launcher/InstanceImportTask.cpp:222
+#: src/launcher/InstanceImportTask.cpp:221
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Import af instans afbrudt."
 
-#: src/launcher/InstanceImportTask.cpp:243
+#: src/launcher/InstanceImportTask.cpp:241
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Kunne ikke forstå pakkemanifest:\n"
 
-#: src/launcher/InstanceImportTask.cpp:254
-#: src/launcher/InstanceImportTask.cpp:690
+#: src/launcher/InstanceImportTask.cpp:252
+#: src/launcher/InstanceImportTask.cpp:699
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Kunne ikke omdøbe overskrivningsmappen:\n"
 
-#: src/launcher/InstanceImportTask.cpp:260
+#: src/launcher/InstanceImportTask.cpp:258
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "Den angivne overskrivningsmappe (%1) mangler. Måske blev modpack allerede brugt før?"
 
-#: src/launcher/InstanceImportTask.cpp:288
+#: src/launcher/InstanceImportTask.cpp:286
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Ukendt mod-loader i manifest: %1"
 
-#: src/launcher/InstanceImportTask.cpp:301
+#: src/launcher/InstanceImportTask.cpp:299
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "Mystiske bageste prikker fjernet fra Minecraft version, mens du importerer pakken."
 
-#: src/launcher/InstanceImportTask.cpp:317
+#: src/launcher/InstanceImportTask.cpp:315
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Kunne ikke kortlægge den anbefalede smedeversion til Minecraft %1"
 
-#: src/launcher/InstanceImportTask.cpp:389
-#: src/launcher/InstanceImportTask.cpp:732
+#: src/launcher/InstanceImportTask.cpp:387
+#: src/launcher/InstanceImportTask.cpp:742
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod-download"
 
-#: src/launcher/InstanceImportTask.cpp:409
+#: src/launcher/InstanceImportTask.cpp:407
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Denne 'mappe' skal muligvis udpakke: %1"
 
-#: src/launcher/InstanceImportTask.cpp:425
+#: src/launcher/InstanceImportTask.cpp:423
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Nesting modpacks i modpacks er ikke implementeret, intet blev downloadet: %1"
 
-#: src/launcher/InstanceImportTask.cpp:430
+#: src/launcher/InstanceImportTask.cpp:428
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Ugenkendt/uhåndteret PakkeType for: %1"
 
-#: src/launcher/InstanceImportTask.cpp:451
-#: src/launcher/InstanceImportTask.cpp:755
+#: src/launcher/InstanceImportTask.cpp:449
+#: src/launcher/InstanceImportTask.cpp:761
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Downloader mods..."
 
-#: src/launcher/InstanceImportTask.cpp:462
+#: src/launcher/InstanceImportTask.cpp:458
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Ikke i stand til at løse mod IDs:\n"
 
-#: src/launcher/InstanceImportTask.cpp:683
+#: src/launcher/InstanceImportTask.cpp:690
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Kunne ikke forstå pakkeindeks:\n"
 
-#: src/launcher/InstanceImportTask.cpp:697
-#: src/launcher/InstanceImportTask.cpp:702
+#: src/launcher/InstanceImportTask.cpp:707
+#: src/launcher/InstanceImportTask.cpp:713
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Kunne ikke sammenflette overrides mappen:\n"
 
-#: src/launcher/InstanceList.cpp:151
+#: src/launcher/InstanceList.cpp:153
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -1854,7 +1854,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: src/launcher/InstanceList.cpp:845
+#: src/launcher/InstanceList.cpp:851
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "Kunne ikke gemme ændringerne i instansen, selv efter flere forsøg - noget blokerer."
@@ -1922,7 +1922,7 @@ msgctxt "JVisualVM|"
 msgid "Profiler aborted"
 msgstr "Profilering afbrudt"
 
-#: src/launcher/java/JavaInstallList.cpp:147
+#: src/launcher/java/JavaInstallList.cpp:146
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
 msgstr "Leder efter Java-installationer..."
@@ -1982,11 +1982,6 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr ""
 
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr ""
-
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1996,6 +1991,11 @@ msgstr "Vælg en Java-version"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Find en eksekverbar Java-fil"
+
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr ""
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2516,17 +2516,17 @@ msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "Modifikationsmappe"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:411
+#: src/launcher/ui/pages/global/LauncherPage.cpp:414
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Noget/ERROR] En uhyggelig fejl!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:420
+#: src/launcher/ui/pages/global/LauncherPage.cpp:423
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Test/INFO] En harmløs besked..."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:429
+#: src/launcher/ui/pages/global/LauncherPage.cpp:432
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Noget/ADVARSEL] En ikke så uhyggelig advarsel."
@@ -2658,6 +2658,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "Version valgt:"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2692,17 +2697,12 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "Er du sikker på du vil fjerne pakke %1?"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:53
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr ""
-
-#: src/launcher/minecraft/legacy/LegacyInstance.cpp:220
+#: src/launcher/minecraft/legacy/LegacyInstance.cpp:218
 msgctxt "LegacyInstance|"
 msgid "Legacy"
 msgstr "Ældre"
 
-#: src/launcher/minecraft/legacy/LegacyInstance.cpp:225
+#: src/launcher/minecraft/legacy/LegacyInstance.cpp:223
 msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
 msgstr "Instans fra tidligere versioner."
@@ -2934,7 +2934,7 @@ msgctxt "MSALoginDialog|"
 msgid "Add Microsoft Account"
 msgstr "Tilføj Microsoft-konto"
 
-#: src/launcher/ui/dialogs/MSALoginDialog.cpp:100
+#: src/launcher/ui/dialogs/MSALoginDialog.cpp:101
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
@@ -2970,402 +2970,402 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr "Microsoft bruger godkendelse afsluttet med et ukendt resultat."
 
-#: src/launcher/ui/MainWindow.cpp:261
+#: src/launcher/ui/MainWindow.cpp:266
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "Dræb"
 
-#: src/launcher/ui/MainWindow.cpp:262
+#: src/launcher/ui/MainWindow.cpp:267
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "Dræb den aktive process"
 
-#: src/launcher/ui/MainWindow.cpp:266 src/launcher/ui/MainWindow.cpp:1054
+#: src/launcher/ui/MainWindow.cpp:271 src/launcher/ui/MainWindow.cpp:1064
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "Kør"
 
-#: src/launcher/ui/MainWindow.cpp:267
+#: src/launcher/ui/MainWindow.cpp:272
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "Kør den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:285
+#: src/launcher/ui/MainWindow.cpp:290
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "Hovedværktøjslinje"
 
-#: src/launcher/ui/MainWindow.cpp:290
+#: src/launcher/ui/MainWindow.cpp:295
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "Tilføj Instance"
 
-#: src/launcher/ui/MainWindow.cpp:291
+#: src/launcher/ui/MainWindow.cpp:296
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "Tilføj en ny instans."
 
-#: src/launcher/ui/MainWindow.cpp:303
+#: src/launcher/ui/MainWindow.cpp:308
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "Se instansmappen"
 
-#: src/launcher/ui/MainWindow.cpp:304
+#: src/launcher/ui/MainWindow.cpp:309
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "Åben instansmappen i en filbrowser."
 
-#: src/launcher/ui/MainWindow.cpp:311
+#: src/launcher/ui/MainWindow.cpp:316
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "Se mappe med centrale mods"
 
-#: src/launcher/ui/MainWindow.cpp:312
+#: src/launcher/ui/MainWindow.cpp:317
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "Åben mappe med centrale mods i en filbrowser."
 
-#: src/launcher/ui/MainWindow.cpp:317 src/launcher/ui/MainWindow.cpp:701
+#: src/launcher/ui/MainWindow.cpp:322 src/launcher/ui/MainWindow.cpp:706
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "Mapper"
 
-#: src/launcher/ui/MainWindow.cpp:318
+#: src/launcher/ui/MainWindow.cpp:323
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "Åbn en mappe delt mellem instanser."
 
-#: src/launcher/ui/MainWindow.cpp:333
+#: src/launcher/ui/MainWindow.cpp:338
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "Indstillinger"
 
-#: src/launcher/ui/MainWindow.cpp:334
+#: src/launcher/ui/MainWindow.cpp:339
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "Skift indstillinger."
 
-#: src/launcher/ui/MainWindow.cpp:345
+#: src/launcher/ui/MainWindow.cpp:351
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "Rapportér en fejl"
 
-#: src/launcher/ui/MainWindow.cpp:346
+#: src/launcher/ui/MainWindow.cpp:352
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "Åbn fejltrackeren for at rapportere en fejl med %1."
 
-#: src/launcher/ui/MainWindow.cpp:375
+#: src/launcher/ui/MainWindow.cpp:381
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr "Om %1"
 
-#: src/launcher/ui/MainWindow.cpp:376
+#: src/launcher/ui/MainWindow.cpp:382
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr "Vis informationer om %1."
 
-#: src/launcher/ui/MainWindow.cpp:381 src/launcher/ui/MainWindow.cpp:702
+#: src/launcher/ui/MainWindow.cpp:387 src/launcher/ui/MainWindow.cpp:707
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "Hjælp"
 
-#: src/launcher/ui/MainWindow.cpp:382
+#: src/launcher/ui/MainWindow.cpp:388
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr "Få hjælp med %1 eller Minecraft."
 
-#: src/launcher/ui/MainWindow.cpp:398
+#: src/launcher/ui/MainWindow.cpp:404
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "Opdatér"
 
-#: src/launcher/ui/MainWindow.cpp:399
+#: src/launcher/ui/MainWindow.cpp:405
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr "Tjek for nye opdateringer af %1."
 
-#: src/launcher/ui/MainWindow.cpp:418
+#: src/launcher/ui/MainWindow.cpp:424
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "Miav"
 
-#: src/launcher/ui/MainWindow.cpp:419
+#: src/launcher/ui/MainWindow.cpp:425
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "Det er en blød kattemis :3"
 
-#: src/launcher/ui/MainWindow.cpp:427
+#: src/launcher/ui/MainWindow.cpp:433
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "Håndtér konti"
 
-#: src/launcher/ui/MainWindow.cpp:479
+#: src/launcher/ui/MainWindow.cpp:485
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "Værktøjslinje for instans"
 
-#: src/launcher/ui/MainWindow.cpp:486
+#: src/launcher/ui/MainWindow.cpp:492
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "Skift ikon"
 
-#: src/launcher/ui/MainWindow.cpp:487
+#: src/launcher/ui/MainWindow.cpp:493
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "Skift ikon på den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:500
+#: src/launcher/ui/MainWindow.cpp:506
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "Omdøb"
 
-#: src/launcher/ui/MainWindow.cpp:501
+#: src/launcher/ui/MainWindow.cpp:507
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "Omdøb den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:513
+#: src/launcher/ui/MainWindow.cpp:519
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "Skift gruppe"
 
-#: src/launcher/ui/MainWindow.cpp:514
+#: src/launcher/ui/MainWindow.cpp:520
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "Skift gruppe for den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:527 src/launcher/ui/MainWindow.cpp:1055
+#: src/launcher/ui/MainWindow.cpp:533 src/launcher/ui/MainWindow.cpp:1065
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "Kør offline"
 
-#: src/launcher/ui/MainWindow.cpp:528
+#: src/launcher/ui/MainWindow.cpp:534
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "Kør den valgte instans i offline tilstand."
 
-#: src/launcher/ui/MainWindow.cpp:536
+#: src/launcher/ui/MainWindow.cpp:542
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "Rediger instans"
 
-#: src/launcher/ui/MainWindow.cpp:537
+#: src/launcher/ui/MainWindow.cpp:543
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "Skift instansindstillinger, -mods og -versioner."
 
-#: src/launcher/ui/MainWindow.cpp:543
+#: src/launcher/ui/MainWindow.cpp:549
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "Redigér noter"
 
-#: src/launcher/ui/MainWindow.cpp:544
+#: src/launcher/ui/MainWindow.cpp:550
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "Redigér noter for den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:550
+#: src/launcher/ui/MainWindow.cpp:556
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr "Se Mods"
 
-#: src/launcher/ui/MainWindow.cpp:551
+#: src/launcher/ui/MainWindow.cpp:557
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr "Se modifikationer af denne instans."
 
-#: src/launcher/ui/MainWindow.cpp:557
+#: src/launcher/ui/MainWindow.cpp:563
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "Se verdener"
 
-#: src/launcher/ui/MainWindow.cpp:558
+#: src/launcher/ui/MainWindow.cpp:564
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "Se verdener for denne instans."
 
-#: src/launcher/ui/MainWindow.cpp:564
+#: src/launcher/ui/MainWindow.cpp:570
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "Håndtér screenshots"
 
-#: src/launcher/ui/MainWindow.cpp:565
+#: src/launcher/ui/MainWindow.cpp:571
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "Se og upload screenshots for denne instans."
 
-#: src/launcher/ui/MainWindow.cpp:573
+#: src/launcher/ui/MainWindow.cpp:579
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Minecraft-mappe"
 
-#: src/launcher/ui/MainWindow.cpp:574
+#: src/launcher/ui/MainWindow.cpp:580
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "Åben Minecraft-mappen til den valgte instans i en filbrowser."
 
-#: src/launcher/ui/MainWindow.cpp:589
+#: src/launcher/ui/MainWindow.cpp:595
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Konfigurationsmappe"
 
-#: src/launcher/ui/MainWindow.cpp:590
+#: src/launcher/ui/MainWindow.cpp:596
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "Åbn konfigurationsmappen for instansen."
 
-#: src/launcher/ui/MainWindow.cpp:596
+#: src/launcher/ui/MainWindow.cpp:602
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "Instansmappe"
 
-#: src/launcher/ui/MainWindow.cpp:597
+#: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "Åbn hovedmappen for den valgte instans i en filbrowser."
 
-#: src/launcher/ui/MainWindow.cpp:605
+#: src/launcher/ui/MainWindow.cpp:611
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr "Opret Genvej"
 
-#: src/launcher/ui/MainWindow.cpp:606
+#: src/launcher/ui/MainWindow.cpp:612
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr "Opret en genvej, der starter den valgte instans"
 
-#: src/launcher/ui/MainWindow.cpp:612
+#: src/launcher/ui/MainWindow.cpp:618
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "Eksportér instans"
 
-#: src/launcher/ui/MainWindow.cpp:613
+#: src/launcher/ui/MainWindow.cpp:619
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr "Eksportér den valgte instans som en zip-fil."
 
-#: src/launcher/ui/MainWindow.cpp:619
+#: src/launcher/ui/MainWindow.cpp:625
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "Slet"
 
-#: src/launcher/ui/MainWindow.cpp:620
+#: src/launcher/ui/MainWindow.cpp:626
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "Slet den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:627
+#: src/launcher/ui/MainWindow.cpp:633
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "Kopier instans"
 
-#: src/launcher/ui/MainWindow.cpp:628
+#: src/launcher/ui/MainWindow.cpp:634
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "Kopier den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:636
+#: src/launcher/ui/MainWindow.cpp:642
 msgctxt "MainWindow|"
 msgid "Check for Updates"
 msgstr "Søg efter opdateringer"
 
-#: src/launcher/ui/MainWindow.cpp:637
+#: src/launcher/ui/MainWindow.cpp:643
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
 msgstr "Søg efter opdateringer for den valgte instans."
 
-#: src/launcher/ui/MainWindow.cpp:681
+#: src/launcher/ui/MainWindow.cpp:686
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:684
+#: src/launcher/ui/MainWindow.cpp:689
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " på %1"
 
-#: src/launcher/ui/MainWindow.cpp:796 src/launcher/ui/MainWindow.cpp:907
+#: src/launcher/ui/MainWindow.cpp:800 src/launcher/ui/MainWindow.cpp:914
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "Ingen instans valgt"
 
-#: src/launcher/ui/MainWindow.cpp:797
+#: src/launcher/ui/MainWindow.cpp:801
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr "Samlet spilletid: 0s"
 
-#: src/launcher/ui/MainWindow.cpp:901 src/launcher/ui/MainWindow.cpp:1218
+#: src/launcher/ui/MainWindow.cpp:905 src/launcher/ui/MainWindow.cpp:1226
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "Profiler"
 
-#: src/launcher/ui/MainWindow.cpp:960
+#: src/launcher/ui/MainWindow.cpp:967
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "Opret instans"
 
-#: src/launcher/ui/MainWindow.cpp:976
+#: src/launcher/ui/MainWindow.cpp:983
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "Slet gruppe %1"
 
-#: src/launcher/ui/MainWindow.cpp:1006
+#: src/launcher/ui/MainWindow.cpp:1016
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr "Formatér"
 
-#: src/launcher/ui/MainWindow.cpp:1009
+#: src/launcher/ui/MainWindow.cpp:1019
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1064
+#: src/launcher/ui/MainWindow.cpp:1070
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "Profileringsværktøjer"
 
-#: src/launcher/ui/MainWindow.cpp:1076
+#: src/launcher/ui/MainWindow.cpp:1082
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "Profileringsværktøj ikke opsat korrekt. Gå til indstillinger, \"Eksterne Værktøjer\"."
 
-#: src/launcher/ui/MainWindow.cpp:1116
+#: src/launcher/ui/MainWindow.cpp:1118
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "Ingen konti tilføjet!"
 
-#: src/launcher/ui/MainWindow.cpp:1149
+#: src/launcher/ui/MainWindow.cpp:1153
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "Ingen standardkonto"
 
-#: src/launcher/ui/MainWindow.cpp:1258
+#: src/launcher/ui/MainWindow.cpp:1266
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "Henter nyheder..."
 
-#: src/launcher/ui/MainWindow.cpp:1271
+#: src/launcher/ui/MainWindow.cpp:1279
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Ingen nyheder tilgængelige."
 
-#: src/launcher/ui/MainWindow.cpp:1354 src/launcher/ui/MainWindow.cpp:1371
-#: src/launcher/ui/MainWindow.cpp:1429 src/launcher/ui/MainWindow.cpp:1558
-#: src/launcher/ui/MainWindow.cpp:1570
+#: src/launcher/ui/MainWindow.cpp:1362 src/launcher/ui/MainWindow.cpp:1379
+#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1574
+#: src/launcher/ui/MainWindow.cpp:1585
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Fejl"
 
-#: src/launcher/ui/MainWindow.cpp:1354
+#: src/launcher/ui/MainWindow.cpp:1362
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3373,86 +3373,86 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Kunne ikke oprette folder til opdateringsdownloads:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1436
+#: src/launcher/ui/MainWindow.cpp:1447
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "Advarsler"
 
-#: src/launcher/ui/MainWindow.cpp:1440 src/launcher/ui/MainWindow.cpp:1562
+#: src/launcher/ui/MainWindow.cpp:1450 src/launcher/ui/MainWindow.cpp:1577
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Afbryd"
 
-#: src/launcher/ui/MainWindow.cpp:1480 src/launcher/ui/MainWindow.cpp:1485
+#: src/launcher/ui/MainWindow.cpp:1491 src/launcher/ui/MainWindow.cpp:1496
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr "Opdater Tjek"
 
-#: src/launcher/ui/MainWindow.cpp:1480
+#: src/launcher/ui/MainWindow.cpp:1491
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr "Automatiske opdateringer understøttes i øjeblikket kun for CurseForge platformen."
 
-#: src/launcher/ui/MainWindow.cpp:1485
+#: src/launcher/ui/MainWindow.cpp:1496
 msgctxt "MainWindow|"
 msgid "Please manually re-download the modpacks."
 msgstr "Venligst gendownload modpacks manuelt."
 
-#: src/launcher/ui/MainWindow.cpp:1524
+#: src/launcher/ui/MainWindow.cpp:1537
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr "Opdatering Tilgængelig"
 
-#: src/launcher/ui/MainWindow.cpp:1525
+#: src/launcher/ui/MainWindow.cpp:1538
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new update is available. The latest version is: %1. Would you like to update now?"
 msgstr "En ny opdatering er tilgængelig. Den seneste version er: %1. Vil du opdatere nu?"
 
-#: src/launcher/ui/MainWindow.cpp:1541
+#: src/launcher/ui/MainWindow.cpp:1557
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "Ingen Opdatering"
 
-#: src/launcher/ui/MainWindow.cpp:1542
+#: src/launcher/ui/MainWindow.cpp:1558
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No updates necessary."
 msgstr "Din modpack er opdateret. Ingen opdateringer er nødvendige."
 
-#: src/launcher/ui/MainWindow.cpp:1571
+#: src/launcher/ui/MainWindow.cpp:1586
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "launcheren kan ikke downloade Minecraft eller opdatere instanser, medmindre du har mindst en konto tilføjet.\n"
 "Tilføj venligst din Mojang- eller Minecraft-konto."
 
-#: src/launcher/ui/MainWindow.cpp:1705
+#: src/launcher/ui/MainWindow.cpp:1720
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "Gruppens navn"
 
-#: src/launcher/ui/MainWindow.cpp:1705
+#: src/launcher/ui/MainWindow.cpp:1720
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Indtast et nyt gruppenavn."
 
-#: src/launcher/ui/MainWindow.cpp:1727
+#: src/launcher/ui/MainWindow.cpp:1742
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "Slet gruppe"
 
-#: src/launcher/ui/MainWindow.cpp:1727
+#: src/launcher/ui/MainWindow.cpp:1742
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "Er du sikker på du vil slette gruppen %1"
 
-#: src/launcher/ui/MainWindow.cpp:1868
+#: src/launcher/ui/MainWindow.cpp:1882
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1869
+#: src/launcher/ui/MainWindow.cpp:1883
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3462,45 +3462,45 @@ msgstr "Ved at slette: %1\n"
 "Dette er permanent og vil helt slette instansen.\n\n"
 "Er du sikker?"
 
-#: src/launcher/ui/MainWindow.cpp:2081
+#: src/launcher/ui/MainWindow.cpp:2096
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Omdøb Instans"
 
-#: src/launcher/ui/MainWindow.cpp:2094
+#: src/launcher/ui/MainWindow.cpp:2109
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "Din instans mappe indeholder '!' og dette er kendt for at forårsage Java-problemer!"
 
-#: src/launcher/ui/MainWindow.cpp:2096
+#: src/launcher/ui/MainWindow.cpp:2111
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "Du har nu to muligheder: <br/> - ændre instansmappen i indstillingerne <br/> - flytte denne installation af %1 til en anden mappe"
 
-#: src/launcher/ui/MainWindow.cpp:2105
+#: src/launcher/ui/MainWindow.cpp:2119
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr "Dette er et problem: <br/> - Starcheren vil sandsynligvis blive slettet uden varsel af operativsystemet <br/> - lukke launcheren nu og udtrække det til en reel placering, ikke en midlertidig mappe"
 
-#: src/launcher/ui/MainWindow.cpp:2112
+#: src/launcher/ui/MainWindow.cpp:2126
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "Din instans mappe indeholder 'Rar$' - det betyder, at du ikke har udtrukket launcher arkivet!"
 
-#: src/launcher/ui/MainWindow.cpp:2120
+#: src/launcher/ui/MainWindow.cpp:2134
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "Din instans mappe er i en midlertidig mappe: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2134
+#: src/launcher/ui/MainWindow.cpp:2150
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "Total spilletid: %1 timer"
 
-#: src/launcher/ui/MainWindow.cpp:2136
+#: src/launcher/ui/MainWindow.cpp:2154
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3712,7 +3712,7 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:69
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:73
 msgctxt "ModDownloadPage|"
 msgid "Download Mods"
 msgstr ""
@@ -3756,70 +3756,70 @@ msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:427
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:417
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:427
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:417
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:659
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:647
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:698
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:686
 msgctxt "ModDownloadPage|"
 msgid "Mod Already Installed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:699
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:687
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "The mod '%1' is already installed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:707
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:695
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:708
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:696
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:854
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:842
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:854
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:842
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:905
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:893
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:906
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:894
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:967
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:955
 msgctxt "ModDownloadPage|"
 msgid "Download Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:968
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:956
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Mod %1 download failed: %2"
@@ -3939,47 +3939,47 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:397
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:422
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "Mappe"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:399
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:424
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "Fil"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:493
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:523
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Navn"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:495
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:525
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:497
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:527
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Senest ændret"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Er dette mod aktiveret?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Navnet på dette mod."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:510
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:540
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Version af dette mod."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:512
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:542
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Dato og tid for dette mod blev senest ændret (eller tilføjet)."
@@ -4049,12 +4049,12 @@ msgctxt "ModFolderPage|"
 msgid "View &Folder"
 msgstr "Vis &Mappe"
 
-#: src/launcher/ui/pages/instance/ModFolderPage.cpp:191
+#: src/launcher/ui/pages/instance/ModFolderPage.cpp:205
 msgctxt "ModFolderPage|"
 msgid "Context menu"
 msgstr "Kontekstmenu"
 
-#: src/launcher/ui/pages/instance/ModFolderPage.cpp:304
+#: src/launcher/ui/pages/instance/ModFolderPage.cpp:319
 #, qt-format
 msgctxt "ModFolderPage|Select whatever type of files the page contains. Example: 'Loader Mods'"
 msgid "Select %1"
@@ -4096,60 +4096,65 @@ msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by ID"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:74
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
 msgstr "Kunne ikke finde pakkeversion %1"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:101
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Kunne ikke forstå pakkemanifest:\n"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:121
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
 msgstr "Hent link til MOD download"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:122
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:167
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Downloading mods..."
 msgstr "Downloader mods..."
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:169
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:226
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
 msgstr "Kopierer modpack- filer"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:224
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:234
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
 msgstr "Kopiering af filer mislykkedes"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:231
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:241
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Extracting modpack files"
 msgstr "Udpakker modpack- filer"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:242
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:252
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to extract files"
 msgstr "Kunne ikke udpakke filer"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:258
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
+msgstr ""
+
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:317
+msgctxt "ModpacksCH::PackInstallTask|"
+msgid "Scanning for blacklisted mods..."
 msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
@@ -4333,7 +4338,7 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Version valgt:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:47
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
 msgctxt "ModrinthPage|"
 msgid "Modrinth"
 msgstr ""
@@ -4363,17 +4368,17 @@ msgctxt "ModrinthPage|"
 msgid "Sort by last updated"
 msgstr "Sorter efter sidst opdateret"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:158
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:175
 msgctxt "ModrinthPage|"
 msgid "Failed to get Modrinth modpack details..."
 msgstr "Mislykkedes at få Modrinth modpack detaljer..."
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:162
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:180
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Indlæser..."
 
-#: src/launcher/net/NetJob.cpp:129
+#: src/launcher/net/NetJob.cpp:130
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
@@ -4397,7 +4402,7 @@ msgid "uid"
 msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:148
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:143
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr "Ny Instans"
@@ -4417,7 +4422,7 @@ msgctxt "NewInstanceDialog|"
 msgid "Reset"
 msgstr ""
 
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:71
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr "Ingen gruppe"
@@ -4430,17 +4435,17 @@ msgid "Failed to load news RSS feed:\n"
 msgstr "Kunne ikke indlæse nyheder RSS feed:\n"
 "%1"
 
-#: src/launcher/news/NewsEntry.cpp:24 src/launcher/news/NewsEntry.cpp:60
+#: src/launcher/news/NewsEntry.cpp:23 src/launcher/news/NewsEntry.cpp:58
 msgctxt "NewsEntry|"
 msgid "Untitled"
 msgstr "Ikke-navngivet"
 
-#: src/launcher/news/NewsEntry.cpp:25 src/launcher/news/NewsEntry.cpp:61
+#: src/launcher/news/NewsEntry.cpp:24 src/launcher/news/NewsEntry.cpp:59
 msgctxt "NewsEntry|"
 msgid "No content."
 msgstr "Intet indhold."
 
-#: src/launcher/news/NewsEntry.cpp:27 src/launcher/news/NewsEntry.cpp:63
+#: src/launcher/news/NewsEntry.cpp:26 src/launcher/news/NewsEntry.cpp:61
 msgctxt "NewsEntry|"
 msgid "Unknown Author"
 msgstr "Ukendt Forfatter"
@@ -4539,14 +4544,9 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Søg:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Andre logfiler"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:263
 msgctxt "OtherLogsPage|"
 msgid "Error"
 msgstr "Fejl"
@@ -4557,7 +4557,7 @@ msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
 msgstr "Kan ikke åbne %1 for at læse: %2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:148
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:147
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
@@ -4591,17 +4591,17 @@ msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
 msgstr "Kan ikke slette %1: %2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:234
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:231
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
 msgstr "Ryd op"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:237
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:234
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
 msgstr "Sikker på, at du vil slette alle logfiler?"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:242
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:239
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
@@ -4609,12 +4609,12 @@ msgid "Do you really want to delete these files?\n"
 msgstr "Vil du virkelig slette disse filer?\n"
 "%1"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:269
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
 msgstr "Kunne ikke slette nogle filer!"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:274
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:271
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
@@ -4622,12 +4622,17 @@ msgid "Couldn't delete some files:\n"
 msgstr "Kunne ikke slette nogle filer:\n"
 "%1"
 
-#: src/launcher/minecraft/PackProfile.cpp:857
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Andre logfiler"
+
+#: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
 msgid "Name"
 msgstr "Navn"
 
-#: src/launcher/minecraft/PackProfile.cpp:859
+#: src/launcher/minecraft/PackProfile.cpp:860
 msgctxt "PackProfile|"
 msgid "Version"
 msgstr ""
@@ -4644,8 +4649,8 @@ msgstr "paste.ee API nøgle"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
-msgid "MultiMC key - 12MB &upload limit"
-msgstr "MultiMC nøgle - 12MB &upload grænse"
+msgid "MiniSkins key - 12MB &upload limit"
+msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
@@ -4662,7 +4667,7 @@ msgctxt "PasteEEPage|"
 msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
 msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> bruges af MultiMC til log-upload. Hvis du har en <a href=\"https://paste.ee\">paste.ee</a>-konto, kan du tilføje din API-nøgle her og få dine log-uploads forbundet til din konto.</p></body></html>"
 
-#: src/launcher/ui/pages/global/PasteEEPage.h:37
+#: src/launcher/ui/pages/global/PasteEEPage.h:38
 msgctxt "PasteEEPage|"
 msgid "Log Upload"
 msgstr ""
@@ -4737,7 +4742,7 @@ msgctxt "ProfileSelectDialog|"
 msgid "Name"
 msgstr "Navn"
 
-#: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:53
+#: src/launcher/ui/dialogs/ProfileSelectDialog.cpp:54
 #, qt-format
 msgctxt "ProfileSelectDialog|"
 msgid "%1 (in use)"
@@ -4755,35 +4760,35 @@ msgid "You just need to take one more step to be able to play Minecraft on this 
 msgstr "Du skal blot tage endnu et skridt for at kunne spille Minecraft på denne konto.\n\n"
 "Vælg dit navn omhyggeligt:"
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:105
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:109
 msgctxt "ProfileSetupDialog|"
 msgid "Name is too short - must be between 3 and 16 characters long."
 msgstr "Navn er for kort - skal være mellem 3 og 16 tegn langt."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:165
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:177
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Minecraft profile with name %1 already exists."
 msgstr "Minecraft profil med navn %1 findes allerede."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:168
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:181
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "The name %1 is not allowed."
 msgstr "Navnet %1 er ikke tilladt."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:171
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:185
 #, qt-format
 msgctxt "ProfileSetupDialog|"
 msgid "Unhandled profile name status: %1"
 msgstr "Uhåndteret profilnavn status: %1"
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:175
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:190
 msgctxt "ProfileSetupDialog|"
 msgid "Failed to check name availability."
 msgstr "Kunne ikke kontrollere navnets tilgængelighed."
 
-#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:309
+#: src/launcher/ui/dialogs/ProfileSetupDialog.cpp:331
 msgctxt "ProfileSetupDialog|"
 msgid "The server returned the following error:"
 msgstr "Serveren returnerede følgende fejl:"
@@ -4868,127 +4873,124 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Den angivne fil findes enten ikke eller er ikke en korrekt eksekverbar."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Den angivne java binære startede ikke korrekt.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Den specificerede java binær returnerede uventede resultater:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java test lykkedes!<br />Platform rapporteret: %1<br />Java version rapporteret: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java-test fejlede"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java-test lykkedes"
-
-#: src/launcher/ui/MainWindow.cpp:102
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (i brug)"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Mørk"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Lys"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
+msgid "%1m %2s"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Der er ingen kodeændringer mellem din aktuelle version og den nyeste.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Følgende commits blev tilføjet siden sidste opdatering:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Opdateringen fjerner %1 commits og tilføjer følgende %2:</p>"
+msgid "%1h %2m"
+msgstr "%1t %2m"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Du kan <a href=\"%1\">se på ændringerne på github</a>.</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:36
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Oprindelig Udvikler"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:39
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Vedligeholder"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:54
-msgctxt "QObject|About Credits"
-msgid "Patrons"
+msgid "%1d %2h %3m"
 msgstr ""
 
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Upload mislykkedes"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Logfilen er for stor. Du bliver nødt til at uploade den manuelt."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Upload fuldført"
-
-#: src/launcher/ui/GuiUtil.cpp:61
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "Linket <a href=\"%1\">til den uploadede log</a> er blevet placeret i din udklipsholder."
+msgid "Assets for %1"
+msgstr "Aktiver for %1"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
 msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft Servere"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArgumenter er sat til ukendt værdi '%1'"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
 msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Beskrivelse mangler i FTB App instans."
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Værdien 'minimumLauncherVersion' af denne version (%1) er højere end understøttet af %3 (%2). Det virker måske ikke korrekt!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Biblioteket %1 navn er brudt og kan ikke behandles."
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Ingen profil (%1)"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Versionsfilen har både '+ biblioteker' og 'biblioteker'. Dette understøttes ikke længere."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "URL for hovedkrukken kunne ikke bestemmes - Mojang fjernede serveren, som vi brugte som fallback."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Versionsfilen indeholder ikke-understøttet element 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Versionsfilen indeholder ikke understøttet element '- biblioteker'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Versionsfilen indeholder ikke-understøttet element '-tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Versionsfilen indeholder ikke understøttet element '- minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Versionsfilen indeholder ikke understøttet element '+minecraftArgumenter'"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch er ikke indlæst endnu."
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Ugyldig komponent fil version, forventet %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Ugyldig ordre fil version, forventet %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Kan ikke åbne versionsfilen %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Kan ikke behandle versionsfilen %1: %2 på linje %3 kolonne %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Kan ikke behandle versionsfilen %1."
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5033,118 +5035,169 @@ msgstr "Tilbagegivelsen mislykkedes også.\n"
 "Du bliver nødt til at reparere %1 manuelt.\n"
 "Lad os venligst vide, hvorfor og hvordan dette skete."
 
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch er ikke indlæst endnu."
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArgumenter er sat til ukendt værdi '%1'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Værdien 'minimumLauncherVersion' af denne version (%1) er højere end understøttet af %3 (%2). Det virker måske ikke korrekt!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Biblioteket %1 navn er brudt og kan ikke behandles."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Aktiver for %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Versionsfilen har både '+ biblioteker' og 'biblioteker'. Dette understøttes ikke længere."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "URL for hovedkrukken kunne ikke bestemmes - Mojang fjernede serveren, som vi brugte som fallback."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Versionsfilen indeholder ikke-understøttet element 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Versionsfilen indeholder ikke understøttet element '- biblioteker'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Versionsfilen indeholder ikke-understøttet element '-tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Versionsfilen indeholder ikke understøttet element '- minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Versionsfilen indeholder ikke understøttet element '+minecraftArgumenter'"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Ingen profil (%1)"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Ugyldig komponent fil version, forventet %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Ugyldig ordre fil version, forventet %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Kan ikke åbne versionsfilen %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Kan ikke behandle versionsfilen %1: %2 på linje %3 kolonne %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Kan ikke behandle versionsfilen %1."
-
-#: src/launcher/meta/JsonFormat.cpp:140 src/launcher/meta/JsonFormat.cpp:153
-#: src/launcher/meta/JsonFormat.cpp:166
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Ukendt formatversion!"
-
-#: src/launcher/meta/BaseEntity.cpp:120
+#: src/launcher/meta/BaseEntity.cpp:118
 #, qt-format
 msgctxt "QObject|"
 msgid "Download of meta file %1"
 msgstr "Download af metafilen %1"
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Ukendt formatversion!"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "Sti er tom"
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "Sti findes ikke"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Sti synes ikke at være en MCEdit sti"
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "Tom sti"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "Ugyldig sti til JVisualVM"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "Ugyldig JProfiler- installation"
+
+#: src/launcher/ui/MainWindow.cpp:103
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (i brug)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Oprindelig Udvikler"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Vedligeholder"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>Der er ingen kodeændringer mellem din aktuelle version og den nyeste.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Følgende commits blev tilføjet siden sidste opdatering:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Opdateringen fjerner %1 commits og tilføjer følgende %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Du kan <a href=\"%1\">se på ændringerne på github</a>.</p>"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Mørk"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr ""
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Lys"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Den angivne fil findes enten ikke eller er ikke en korrekt eksekverbar."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Den angivne java binære startede ikke korrekt.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Den specificerede java binær returnerede uventede resultater:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Java test lykkedes!<br />Platform rapporteret: %1<br />Java version rapporteret: %2<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Java-test fejlede"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Java-test lykkedes"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft Servere"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Beskrivelse mangler i FTB App instans."
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Upload mislykkedes"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Logfilen er for stor. Du bliver nødt til at uploade den manuelt."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Upload fuldført"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "Linket <a href=\"%1\">til den uploadede log</a> er blevet placeret i din udklipsholder."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -5188,54 +5241,6 @@ msgstr "Den specificerede java binære virkede ikke med de argumenter, du gavned
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Den angivne java binære virkede ikke.<br />Du bør bruge auto-detekteringsfunktionen eller indstille stien til java eksekverbar.<br />"
-
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Tom sti"
-
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Sti findes ikke"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Ugyldig JProfiler- installation"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Ugyldig sti til JVisualVM"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Sti er tom"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Sti synes ikke at være en MCEdit sti"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1t %2m"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr ""
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5299,11 +5304,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "Kopier Fil(er)"
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Skærmbilleder"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5364,6 +5364,11 @@ msgstr "Er du sikker?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Dette vil slette alle valgte skærmbilleder."
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Skærmbilleder"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -5440,15 +5445,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Deltag"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "Servere"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "Kontekst menu"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Servere"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
 msgctxt "SetupWizard|"
@@ -5561,7 +5566,7 @@ msgctxt "SkinUploadDialog|"
 msgid "No Cape"
 msgstr "Ingen Kappe"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:42
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:43
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Downloading modpack:\n"
@@ -5569,71 +5574,71 @@ msgid "Downloading modpack:\n"
 msgstr "Downloader modpack:\n"
 "%1"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:47
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:48
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Modpack download"
 msgstr ""
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:61
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:62
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Extracting modpack"
 msgstr "Udpakker modpack"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:69
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:70
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Kan ikke åbne den medfølgende modpack zip-fil."
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:97
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:98
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Failed to extract modpack"
 msgstr "Mislykkedes at udpakke modpack"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:124
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:125
 #, qt-format
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Kunne ikke rette tilladelser for %1"
 
-#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:141
+#: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:142
 msgctxt "Technic::SingleZipPackInstallTask|"
 msgid "Instance import has been aborted."
 msgstr "Import af Instans er blevet afbrudt."
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:49
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:51
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:50
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:52
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Resolving modpack files"
 msgstr "Behandler modpack filer"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:63
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:87
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:64
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:91
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Downloading modpack"
 msgstr "Downloader modpack"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:79
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:83
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Kunne ikke forstå pakkemanifest:\n"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:115
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:120
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Extracting modpack"
 msgstr "Udpakker modpack"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:156
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:160
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Failed to extract modpack"
 msgstr "Mislykkedes at udpakke modpack"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:183
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:187
 #, qt-format
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Kunne ikke rette tilladelser for %1"
 
-#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:200
+#: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:204
 msgctxt "Technic::SolderPackInstallTask|"
 msgid "Instance import has been aborted."
 msgstr "Import af Instans er blevet afbrudt."
@@ -5701,15 +5706,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Søg"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:47
-msgctxt "TechnicPage|"
-msgid "Technic"
-msgstr "Teknik"
-
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:198
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
 msgctxt "TechnicPage|"
 msgid " by "
 msgstr " af "
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr "Teknik"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6095,34 +6100,29 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Installer NeoForge-pakken."
 
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/VersionPage.cpp:156
+#: src/launcher/ui/pages/instance/VersionPage.cpp:155
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Kontekst menu"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:174
+#: src/launcher/ui/pages/instance/VersionPage.cpp:173
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1 har muligvis problemer."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:177
+#: src/launcher/ui/pages/instance/VersionPage.cpp:176
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 har problemer!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:191
+#: src/launcher/ui/pages/instance/VersionPage.cpp:190
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Fejl: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:195
+#: src/launcher/ui/pages/instance/VersionPage.cpp:194
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Advarsel: "
@@ -6190,85 +6190,90 @@ msgid "MultiMC cannot download Minecraft or update instances unless you have at 
 msgstr "MultiMC kan ikke downloade Minecraft eller opdatere instanser, medmindre du har mindst en konto tilføjet.\n"
 "Tilføj venligst din Mojang- eller Minecraft-konto."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:440
+#: src/launcher/ui/pages/instance/VersionPage.cpp:441
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Vælg Forge version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:442
+#: src/launcher/ui/pages/instance/VersionPage.cpp:443
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "Ingen Forge versioner er i øjeblikket tilgængelige for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:443
+#: src/launcher/ui/pages/instance/VersionPage.cpp:444
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Kunne ikke indlæse eller downloade Forge versionslisterne!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:469
+#: src/launcher/ui/pages/instance/VersionPage.cpp:470
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr "Vælg NeoForge version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:471
+#: src/launcher/ui/pages/instance/VersionPage.cpp:472
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr "Ingen NeoForge-versioner er i øjeblikket tilgængelige for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:472
+#: src/launcher/ui/pages/instance/VersionPage.cpp:473
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr "Kunne ikke indlæse eller downloade NeoForge-versionslisterne!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:498
+#: src/launcher/ui/pages/instance/VersionPage.cpp:499
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Vælg Fabric Loader version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:499
+#: src/launcher/ui/pages/instance/VersionPage.cpp:500
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "Ingen Fabric Loader versioner er i øjeblikket tilgængelige."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:500
+#: src/launcher/ui/pages/instance/VersionPage.cpp:501
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "Kunne ikke indlæse eller downloade Fabric Loader versionslister!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:525
+#: src/launcher/ui/pages/instance/VersionPage.cpp:526
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr "Vælg Quilt Loader version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:526
+#: src/launcher/ui/pages/instance/VersionPage.cpp:527
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr "Ingen Quilt Loader versioner er i øjeblikket tilgængelige."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:527
+#: src/launcher/ui/pages/instance/VersionPage.cpp:528
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr "Kunne ikke indlæse eller downloade Quilt Loader versionslister!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:570
+#: src/launcher/ui/pages/instance/VersionPage.cpp:571
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Vælg LiteLoader version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:572
+#: src/launcher/ui/pages/instance/VersionPage.cpp:573
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Ingen LiteLoader versioner er i øjeblikket tilgængelige for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:573
+#: src/launcher/ui/pages/instance/VersionPage.cpp:574
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Kunne ikke indlæse eller hente listeLoader versionslister!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:629
+#: src/launcher/ui/pages/instance/VersionPage.cpp:630
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Fejl under opdatering af instans"
+
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
@@ -6500,17 +6505,22 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Administrer datapacks i verden."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:110
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Verdener"
+
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
 msgstr "Kontekst menu"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:160
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:159
 msgctxt "WorldListPage|"
 msgid "Are you sure?"
 msgstr "Er du sikker?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:161
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:160
 msgctxt "WorldListPage|"
 msgid "This will remove the selected world permenantly.\n"
 "The world will be gone forever (A LONG TIME).\n\n"
@@ -6519,72 +6529,67 @@ msgstr "Dette vil fjerne den valgte verden permenant.\n"
 "Verden vil være væk for evigt (A LONG TIME).\n\n"
 "Vil du fortsætte?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:272
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:270
 msgctxt "WorldListPage|"
 msgid "No MCEdit found or set up!"
 msgstr "Ingen MCEdit fundet eller opsat op!"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:273
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:271
 msgctxt "WorldListPage|"
 msgid "You do not have MCEdit set up or it was moved.\n"
 "You can set it up in the global settings."
 msgstr "Du har ikke MCEdit opsat eller det blev flyttet.\n"
 "Du kan opsætte det i de globale indstillinger."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:282
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:279
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start!"
 msgstr "MCEdit kunne ikke starte!"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:283
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:280
 msgctxt "WorldListPage|"
 msgid "MCEdit failed to start.\n"
 "It may be necessary to reinstall it."
 msgstr "MCEdit kunne ikke starte.\n"
 "Det kan være nødvendigt at geninstallere den."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:347
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:343
 msgctxt "WorldListPage|"
 msgid "Select a Minecraft world zip"
 msgstr "Vælg en Minecraft verden zip"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:348
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:344
 msgctxt "WorldListPage|"
 msgid "Minecraft World Zip File (*.zip)"
 msgstr "Minecraft Verdens Zip-fil (*.zip)"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:369
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:365
 msgctxt "WorldListPage|"
 msgid "Copy World"
 msgstr "Kopier Verden"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:369
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:365
 msgctxt "WorldListPage|"
 msgid "Changing a world while Minecraft is running is potentially unsafe.\n"
 "Do you wish to proceed?"
 msgstr "Ændring af en verden, mens Minecraft kører, er potentielt farligt.\n"
 "Ønsker du at fortsætte?"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:393
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:416
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:388
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:411
 msgctxt "WorldListPage|"
 msgid "World name"
 msgstr "Verdens navn"
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:393
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:388
 msgctxt "WorldListPage|"
 msgid "Enter a new name for the copy."
 msgstr "Indtast et nyt navn til kopien."
 
-#: src/launcher/ui/pages/instance/WorldListPage.cpp:416
+#: src/launcher/ui/pages/instance/WorldListPage.cpp:411
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Indtast et nyt verdensnavn."
-
-#: src/launcher/ui/pages/instance/WorldListPage.h:45
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Verdener"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
