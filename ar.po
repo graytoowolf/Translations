@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Arabic\n"
 "Language: ar_SA\n"
-"PO-Revision-Date: 2025-07-01 04:37\n"
+"PO-Revision-Date: 2025-07-02 15:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1013,25 +1013,15 @@ msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr "حدد مسار الاختصار"
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:53
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:23
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr "Parsing directory"
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:86
-msgctxt "CurseForge::FileResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr "حل معرفات المود..."
-
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:262
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:91
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
 msgstr "فشلت بعض مهام حل معرف المود."
-
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:429
-msgctxt "CurseForge::FileResolvingTask|"
-msgid "Processing whitelist mods..."
-msgstr ""
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1644,7 +1634,7 @@ msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "لا يمكن دمج مجلد التجاوز:\n"
 
-#: src/launcher/InstanceList.cpp:153
+#: src/launcher/InstanceList.cpp:164
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -1856,7 +1846,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "الإعدادات"
 
-#: src/launcher/InstanceList.cpp:851
+#: src/launcher/InstanceList.cpp:862
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "فشل في إيداع النموذج، حتى بعد عدة محاولات. يتم حجب العملية بسبب شيء ما."
@@ -4098,66 +4088,61 @@ msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by ID"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:74
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
 msgstr "فشل في العثور على إصدار الحزمة %1"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:101
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "تعذر فهم حزمة الظاهرة:\n"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:121
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
 msgstr "الحصول على رابط تنزيل المشرف"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:122
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
 msgstr "تحميل مودي"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:167
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Downloading mods..."
 msgstr "جاري تنزيل الموقوف..."
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:169
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
 msgstr "تحميل مودي"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:226
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
 msgstr "نسخ ملفات modpack"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:234
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:224
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
 msgstr "فشل في نسخ الملفات"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:241
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:231
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Extracting modpack files"
 msgstr "استخراج ملفات مودباك"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:252
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:242
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to extract files"
 msgstr "فشل في استخراج الملفات"
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:258
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
 msgstr "تثبيت حزمة الإضافات"
-
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:317
-msgctxt "ModpacksCH::PackInstallTask|"
-msgid "Scanning for blacklisted mods..."
-msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
 msgctxt "Modrinth::InstanceExportTask|"

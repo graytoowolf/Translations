@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Icelandic\n"
 "Language: is_IS\n"
-"PO-Revision-Date: 2025-07-01 04:37\n"
+"PO-Revision-Date: 2025-07-02 15:19\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1008,24 +1008,14 @@ msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:53
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:23
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:86
-msgctxt "CurseForge::FileResolvingTask|"
-msgid "Resolving mod IDs..."
-msgstr ""
-
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:262
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:91
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Some mod ID resolving tasks failed."
-msgstr ""
-
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:429
-msgctxt "CurseForge::FileResolvingTask|"
-msgid "Processing whitelist mods..."
 msgstr ""
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
@@ -1632,7 +1622,7 @@ msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr ""
 
-#: src/launcher/InstanceList.cpp:153
+#: src/launcher/InstanceList.cpp:164
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -1844,7 +1834,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Stillingar"
 
-#: src/launcher/InstanceList.cpp:851
+#: src/launcher/InstanceList.cpp:862
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr ""
@@ -4068,65 +4058,60 @@ msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by ID"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:74
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
 #, qt-format
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to find pack version %1"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:101
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:121
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:111
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Get MOD download link"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:122
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:112
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod downloadurl"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:167
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:157
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Downloading mods..."
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:169
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:159
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Mod download"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:226
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:216
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Copying modpack files"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:234
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:224
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to copy files"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:241
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:231
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Extracting modpack files"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:252
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:242
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Failed to extract files"
 msgstr ""
 
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:258
+#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:248
 msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
-msgstr ""
-
-#: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:317
-msgctxt "ModpacksCH::PackInstallTask|"
-msgid "Scanning for blacklisted mods..."
 msgstr ""
 
 #: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
