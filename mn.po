@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Mongolian\n"
 "Language: mn_MN\n"
-"PO-Revision-Date: 2025-07-02 15:19\n"
+"PO-Revision-Date: 2025-07-06 02:31\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1844,7 +1844,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr "Тохиргоо"
 
-#: src/launcher/InstanceList.cpp:862
+#: src/launcher/InstanceList.cpp:844
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "Олон дахин оролдсон ч гэсэн хувилбарыг хийж чадсангүй. Үүнийг ямар нэгэн зүйл хааж байна."
@@ -3677,19 +3677,19 @@ msgid "Sort &by:"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:100
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:227
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:239
 msgctxt "ModDownloadPage|"
 msgid "Downloads"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:105
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:231
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:243
 msgctxt "ModDownloadPage|"
 msgid "Last Updated"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:110
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:235
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:247
 msgctxt "ModDownloadPage|"
 msgid "Name"
 msgstr ""
@@ -3699,114 +3699,115 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:73
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
 msgctxt "ModDownloadPage|"
 msgid "Download Mods"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:214
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:226
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:310
 msgctxt "ModDownloadPage|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:310
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to parse CurseForge response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:345
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:372
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 minutes ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:347
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:374
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 hours ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:349
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:376
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 days ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:359
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:386
 msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:417
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:447
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:417
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:447
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:647
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:557
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:572
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:686
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:563
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:621
 msgctxt "ModDownloadPage|"
-msgid "Mod Already Installed"
+msgid "已安装"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:687
-#, qt-format
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:567
 msgctxt "ModDownloadPage|"
-msgid "The mod '%1' is already installed."
+msgid "更新"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:695
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:696
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:616
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:842
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:790
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:842
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:790
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:893
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:848
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:894
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:849
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:955
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:911
 msgctxt "ModDownloadPage|"
 msgid "Download Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:956
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:912
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Mod %1 download failed: %2"
@@ -3926,47 +3927,47 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:422
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:472
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "Хавтас"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:424
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:474
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "Файл"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:523
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:583
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Нэр"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:525
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:585
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "Хувилбар"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:527
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:587
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Сүүлд өөрчлөгдсөн"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:596
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Өөрчлөлт идэвхжсэн үү?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:598
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Өөрчлөлтийн нэр."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:540
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:600
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Өөрчлөлтийн хувилбар."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:542
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:602
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Энэ өөрчлөлтийг хамгийн сүүлд өөрчилсөн (эсвэл нэмсэн) огноо, цаг."
