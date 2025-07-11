@@ -4031,47 +4031,47 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:513
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:480
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:515
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:482
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:624
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:591
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:626
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:593
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:628
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:595
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:637
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:604
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:639
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:606
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:641
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:608
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:643
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:610
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr ""
