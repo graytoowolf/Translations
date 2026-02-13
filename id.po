@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Indonesian\n"
 "Language: id_ID\n"
-"PO-Revision-Date: 2025-07-06 02:31\n"
+"PO-Revision-Date: 2026-02-13 08:50\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -355,6 +355,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Akun"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -380,11 +385,6 @@ msgstr "Gagal menghapus skin saat ini!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Akun"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -598,6 +598,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Pencarian dan filter ..."
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -618,11 +623,6 @@ msgstr "Tidak dapat memuat atau mengunduh daftar versi!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Menginstal"
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -2482,42 +2482,42 @@ msgctxt "LauncherPage|"
 msgid "Console font"
 msgstr "Font konsol"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:92
+#: src/launcher/ui/pages/global/LauncherPage.cpp:107
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr "Folder Instansi"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:101
+#: src/launcher/ui/pages/global/LauncherPage.cpp:116
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr "Anda mencoba menentukan folder instansi dimana foldernya berisi setidaknya satu '!'. Java diketahui menyebabkan masalah. Jika ini masalahnya, instansi anda (mungkin) tidak akan mulai!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:106
+#: src/launcher/ui/pages/global/LauncherPage.cpp:121
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr "Apakah anda ingin menggunakan folder ini? Memilih \"Tidak\" akan menutup ini dan tidak mengubah folder instansi anda."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:124
+#: src/launcher/ui/pages/global/LauncherPage.cpp:144
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr "Folder Ikon"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:135
+#: src/launcher/ui/pages/global/LauncherPage.cpp:161
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "Folder Mod"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:414
+#: src/launcher/ui/pages/global/LauncherPage.cpp:585
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Sesuatu/ERROR] Error yang sangat menakutkan!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:423
+#: src/launcher/ui/pages/global/LauncherPage.cpp:594
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Test/INFO] Pesan yang tidak berbahaya..."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:432
+#: src/launcher/ui/pages/global/LauncherPage.cpp:603
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Sesuatu/PERINGATAN] Peringatan yang tidak terlalu menakutkan."
@@ -2848,11 +2848,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Bawah"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Riwayat Minecraft"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2862,6 +2857,11 @@ msgstr ""
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Apakah Anda yakin ingin mengunggah file log ini?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Riwayat Minecraft"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3700,118 +3700,129 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:226
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:310
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:309
 msgctxt "ModDownloadPage|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:310
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:309
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to parse CurseForge response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:372
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:371
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 minutes ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:374
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:373
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 hours ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:376
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:375
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 days ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:386
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:385
 msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:447
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:446
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:447
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:446
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:557
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:572
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:556
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:571
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:563
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:621
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:562
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:620
 msgctxt "ModDownloadPage|"
 msgid "已安装"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:567
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:566
 msgctxt "ModDownloadPage|"
 msgid "更新"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:614
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:616
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:790
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:802
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:790
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:802
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:848
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:827
+msgctxt "ModDownloadPage|"
+msgid "Mod Batch Download"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:937
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:849
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:939
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "\n"
+"%1 mods failed to download."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:941
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:911
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:947
 msgctxt "ModDownloadPage|"
-msgid "Download Failed"
+msgid "Installation Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:912
-#, qt-format
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:947
 msgctxt "ModDownloadPage|"
-msgid "Mod %1 download failed: %2"
+msgid "All mod downloads failed."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
@@ -3928,47 +3939,47 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:472
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:474
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:583
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:617
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Nama"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:585
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:619
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "Versi"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:587
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:621
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Terakhir kali diubah"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:596
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:630
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Apakah mod diaktifkan?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:598
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:632
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Nama dari mod."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:600
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:634
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Versi dari mod."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:602
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:636
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Tanggal dan waktu terakhir kalinya mod ini diubah (atau ditambahkan)."
@@ -4856,53 +4867,170 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proksi"
 
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
+#: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1m %2d"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "Anda mencoba untuk mengatur opsi memori JVM secara manual (menggunakan \"-XX:PermSize\",\"-XX-MaxHeapSize\",\"-XX:InitialHeapSize\",\"-Xmx\" or \"-Xms\").\n"
+"Terdapat kotak yang dikhususkan untuk pengaturan tersebut (didalam tab Java, dalam group Memori diatas).\n"
+"Pesan ini akan terus ditampilkan sampai anda menghapus mereka dari argumen JVM."
 
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
 msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1j %2m"
+msgid "JVM arguments warning"
+msgstr "Peringatan argument JVM"
 
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
+#: src/launcher/JavaCommon.cpp:22
 msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1h %2j %3m"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "Anda mencoba meneruskan argumen versi Java yang diperlukan ke JVM (menggunakan \"-version=xxx\"). Ini tidak aman dan tidak diperbolehkan.\n"
+"Pesan ini akan ditampilkan hingga Anda menghapusnya dari argumen JVM."
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/JavaCommon.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Aset untuk %1"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Pengetesan Java sukses!<br />Platform dilaporkan: %1<br />Versi Java dilaporkan: %2<br />Vendor Java dilaporkan: %3<br />"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/JavaCommon.cpp:44
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments ditetapkan ke nilai tidak dikenal '%1'"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />Peringatan:<br /><font color=\"orange\">%1</font>"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Nilai 'minimumLauncherVersion' versi ini (%1) lebih tinggi dari yang didukung oleh %3 (%2). Ini mungkin tidak berfungsi dengan baik!"
+msgid "Java test success"
+msgstr "Tes Java sukses"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Nama perpustakaan %1 rusak dan tidak bisa diproses."
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "Biner java yang ditentukan tidak berfungsi dengan argumen yang Anda berikan:<br />"
 
-#: src/launcher/minecraft/auth/AccountData.cpp:440
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Test java gagal"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "Biner java yang ditentukan tidak bekerja.<br /> anda sebaiknya menggunakan fitur deteksi otomatis, atau tentukan jalur menuju program java.<br />"
+
+#: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Tidak ada profil (%1)"
+msgid "%1 (in use)"
+msgstr "%1 (sedang digunakan)"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Gelap"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistem"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Cerah"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "File yang ditentukan tidak ada atau tidak dapat dijalankan dengan benar."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Biner java yang ditentukan tidak mulai dengan benar.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Biner java yang ditentukan mengembalikan hasil yang tidak terduga: <br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Pengetesan Java sukses<br />Platform dilaporkan: %1<br />Versi java dilaporkan: %2<br />"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Hal berikut ditambahkan semenjak pembaruan terakhir:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Pembaruan menghilangkan hal %1 dan menambahkan hal %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Anda dapat <a href=\"%1\">melihat perubahan di github</a>.</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Gagal Mengunggah"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "File catatan riwayat terlalu besar. Anda harus mengunggah nya secara manual."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Selesai mengunggah"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">Link untuk mengunggah catatan riwayat</a>telah disalin ke papan klip anda."
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Server Minecraft"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Deskripsi tidak ditemukan dalam instansi Aplikasi FTB."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -4939,10 +5067,35 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "File versi berisikan elemen '+minecraftArgument' yang tidak didukung"
 
-#: src/launcher/minecraft/Component.cpp:249
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
 msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch belum dimuat."
+msgid "No profile (%1)"
+msgstr "Tidak ada profil (%1)"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments ditetapkan ke nilai tidak dikenal '%1'"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Nilai 'minimumLauncherVersion' versi ini (%1) lebih tinggi dari yang didukung oleh %3 (%2). Ini mungkin tidak berfungsi dengan baik!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Nama perpustakaan %1 rusak dan tidak bisa diproses."
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "Aset untuk %1"
 
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
@@ -4974,6 +5127,41 @@ msgstr "Tidak dapat memproses file versi %1: %2 di baris %3 kolom %4."
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "Tidak dapat memporses file versi %1."
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch belum dimuat."
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr "%1m %2d"
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr "%1j %2m"
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr "%1h %2j %3m"
+
+#: src/launcher/meta/BaseEntity.cpp:118
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Mengunduh meta file %1"
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Format versi tidak diketahui!"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5018,18 +5206,6 @@ msgstr "Pengembalian gagal.\n"
 "Anda harus memperbaiki %1 secara manual.\n"
 "Tolong beritahu kami kenapa dan bagaimana hal ini terjadi."
 
-#: src/launcher/meta/BaseEntity.cpp:118
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Mengunduh meta file %1"
-
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Format versi tidak diketahui!"
-
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
 msgid "Path is empty"
@@ -5045,185 +5221,20 @@ msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
 msgstr "Jalur yang dipilih nampaknya bukan jalur menuju MCEdit"
 
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
 msgid "Empty path"
 msgstr "Jalur kosong"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Jalur tidak valid menuju JVisualVM"
 
 #: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
 msgid "Invalid JProfiler install"
 msgstr "Instalasi JProfiler tidak valid"
 
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (sedang digunakan)"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Hal berikut ditambahkan semenjak pembaruan terakhir:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Pembaruan menghilangkan hal %1 dan menambahkan hal %2:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Anda dapat <a href=\"%1\">melihat perubahan di github</a>.</p>"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Gelap"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistem"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Cerah"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "File yang ditentukan tidak ada atau tidak dapat dijalankan dengan benar."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Biner java yang ditentukan tidak mulai dengan benar.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Biner java yang ditentukan mengembalikan hasil yang tidak terduga: <br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Pengetesan Java sukses<br />Platform dilaporkan: %1<br />Versi java dilaporkan: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Test java gagal"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Tes Java sukses"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Server Minecraft"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Deskripsi tidak ditemukan dalam instansi Aplikasi FTB."
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Gagal Mengunggah"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "File catatan riwayat terlalu besar. Anda harus mengunggah nya secara manual."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Selesai mengunggah"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Link untuk mengunggah catatan riwayat</a>telah disalin ke papan klip anda."
-
-#: src/launcher/JavaCommon.cpp:10
-msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "Anda mencoba untuk mengatur opsi memori JVM secara manual (menggunakan \"-XX:PermSize\",\"-XX-MaxHeapSize\",\"-XX:InitialHeapSize\",\"-Xmx\" or \"-Xms\").\n"
-"Terdapat kotak yang dikhususkan untuk pengaturan tersebut (didalam tab Java, dalam group Memori diatas).\n"
-"Pesan ini akan terus ditampilkan sampai anda menghapus mereka dari argumen JVM."
-
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
-msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "Peringatan argument JVM"
-
-#: src/launcher/JavaCommon.cpp:22
-msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "Anda mencoba meneruskan argumen versi Java yang diperlukan ke JVM (menggunakan \"-version=xxx\"). Ini tidak aman dan tidak diperbolehkan.\n"
-"Pesan ini akan ditampilkan hingga Anda menghapusnya dari argumen JVM."
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Pengetesan Java sukses!<br />Platform dilaporkan: %1<br />Versi Java dilaporkan: %2<br />Vendor Java dilaporkan: %3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />Peringatan:<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "Biner java yang ditentukan tidak berfungsi dengan argumen yang Anda berikan:<br />"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "Biner java yang ditentukan tidak bekerja.<br /> anda sebaiknya menggunakan fitur deteksi otomatis, atau tentukan jalur menuju program java.<br />"
+msgid "Invalid path to JVisualVM"
+msgstr "Jalur tidak valid menuju JVisualVM"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5689,15 +5700,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Telusuri"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr " oleh "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr " oleh "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6488,11 +6499,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Kelola datapacks didalam dunia."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:44
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Dunia"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6573,6 +6579,11 @@ msgstr "Masukkan nama baru untuk salinan."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Masukkan nama baru dunia."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Dunia"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
