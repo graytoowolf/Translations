@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2025-07-06 02:30\n"
+"PO-Revision-Date: 2026-02-13 11:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -355,6 +355,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr "Adăugați un cont de site"
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Conturi"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -380,11 +385,6 @@ msgstr "Ștergerea skinului curent a eșuat!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "Te rugăm să introduci adresa de e-mail și parola pentru contul tău de skin."
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Conturi"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -598,6 +598,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr "Căutare şi filtrare..."
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -618,11 +623,6 @@ msgstr "Nu s-a putut încărca sau descărca listele de versiuni!"
 msgctxt "AtlPage|"
 msgid "Installing"
 msgstr "Se instalează"
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
-msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
 msgctxt "AuthFlow|"
@@ -2483,42 +2483,42 @@ msgctxt "LauncherPage|"
 msgid "Console font"
 msgstr "Font consolă"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:92
+#: src/launcher/ui/pages/global/LauncherPage.cpp:107
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr "Folder instanța"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:101
+#: src/launcher/ui/pages/global/LauncherPage.cpp:116
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr "Încercați să specificați un dosar de instanță care conține cel puțin un '!'. Se știe că Java cauzează probleme dacă așa stau lucrurile, instanțele tale (probabil) nu vor începe!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:106
+#: src/launcher/ui/pages/global/LauncherPage.cpp:121
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr "Sigur doriți să folosiți această cale? Selectarea \"Nu\" va închide acest lucru și nu vă va modifica calea instanței."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:124
+#: src/launcher/ui/pages/global/LauncherPage.cpp:144
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr "Dosar de iconițe"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:135
+#: src/launcher/ui/pages/global/LauncherPage.cpp:161
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "Dosar cu Moduri"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:414
+#: src/launcher/ui/pages/global/LauncherPage.cpp:585
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Ceva/Eroare] O eroare ciudata!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:423
+#: src/launcher/ui/pages/global/LauncherPage.cpp:594
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Test/Informatie] Un mesaj inutil..."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:432
+#: src/launcher/ui/pages/global/LauncherPage.cpp:603
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Ceva/ATENTIE] Un avertisment periculos."
@@ -2848,11 +2848,6 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "Jos"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Jurnalul Minecraft"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2862,6 +2857,11 @@ msgstr "Încărcare jurnal"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "Ești sigur că vrei să încarci acest fișier jurnal?"
+
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Jurnalul Minecraft"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3681,19 +3681,19 @@ msgid "Sort &by:"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:100
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:239
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:290
 msgctxt "ModDownloadPage|"
 msgid "Downloads"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:105
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:243
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:294
 msgctxt "ModDownloadPage|"
 msgid "Last Updated"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:110
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:247
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
 msgctxt "ModDownloadPage|"
 msgid "Name"
 msgstr ""
@@ -3703,118 +3703,129 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:226
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:310
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
 msgctxt "ModDownloadPage|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:310
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to parse CurseForge response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:372
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:422
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 minutes ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:374
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:424
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 hours ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:376
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:426
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 days ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:386
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:436
 msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:447
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:447
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:557
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:572
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:607
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:622
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:563
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:621
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:613
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:671
 msgctxt "ModDownloadPage|"
 msgid "已安装"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:567
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:617
 msgctxt "ModDownloadPage|"
 msgid "更新"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:665
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:616
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:666
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:790
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:790
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:848
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:878
+msgctxt "ModDownloadPage|"
+msgid "Mod Batch Download"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:991
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:849
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:994
+#, qt-format
+msgctxt "ModDownloadPage|"
+msgid "\n"
+"%1 mods failed to download."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:996
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:911
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
 msgctxt "ModDownloadPage|"
-msgid "Download Failed"
+msgid "Installation Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:912
-#, qt-format
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
 msgctxt "ModDownloadPage|"
-msgid "Mod %1 download failed: %2"
+msgid "All mod downloads failed."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
@@ -3931,47 +3942,47 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:472
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "Dosar"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:474
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "Fișier"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:583
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:617
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Nume"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:585
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:619
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "Versiune"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:587
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:621
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Ultima dată modificat"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:596
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:630
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Este modul activat?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:598
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:632
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Numele modului."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:600
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:634
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Versiunea modului."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:602
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:636
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Data și ora când a fost modificat ultima oară modul (sau adăugat)."
@@ -4860,53 +4871,170 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
+#: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr ""
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "Aţi încercat să setaţi manual opţiunea de memorie JVM (folosind \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" sau \"-Xms\").\n"
+"Există cutii speciale pentru acestea în setările din partea de sus a tab-ului (Java, în grupul de memorie).\n"
+"Acest mesaj va fi afișat până îl ștergeți din argumentele JVM."
 
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
 msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr ""
+msgid "JVM arguments warning"
+msgstr "Avertisment pentru argumente JVM"
 
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
+#: src/launcher/JavaCommon.cpp:22
 msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr ""
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "Ați încercat să treceți argumentul versiunii necesare de java la JVM (folosind \"-version=xxx\"). Acest lucru nu este sigur și nu va fi permis.\n"
+"Acest mesaj va fi afișat până când îl eliminați din argumentele JVM."
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/JavaCommon.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Active pentru %1"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Testul Java a reușit!<br />Platforma raportată: %1<br />Versiunea Java raportată: %2<br />Java vendor raportat: %3<br />"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/JavaCommon.cpp:44
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments este setat la o valoare necunoscută '%1'"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />Avertismente:<br /><font color=\"orange\">%1</font>"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Valoarea 'minimumLauncherVersion' a acestei versiuni (%1) este mai mare decât cea suportată de %3 (%2). Ar putea să nu funcționeze corect!"
+msgid "Java test success"
+msgstr "Test Java cu succes"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Numele bibliotecii %1 este stricat şi nu poate fi procesat."
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "Fișierul binar java specificat nu a funcționat cu argumentele furnizate:<br />"
 
-#: src/launcher/minecraft/auth/AccountData.cpp:440
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Eșec la testul Java"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "Fișierul binar java specificat nu a funcționat.<br />Ar trebui să folosiți funcția de autodetectare sau să setați calea către executabilul de java.<br />"
+
+#: src/launcher/ui/MainWindow.cpp:103
 #, qt-format
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Niciun profil (%1)"
+msgid "%1 (in use)"
+msgstr "%1 (în uz)"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Închis"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistem"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Deschis"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Fişierul specificat fie nu există fie nu este executabil corect."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Fișierul binar java specificat nu a pornit corect.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Fișierul binar java a returnat rezultate neașteptate:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Testul Java a reușit!<br />Platforma raportată: %1<br />Versiunea Java raportată: %2<br />"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>Nu există modificări de cod între versiunea curentă și cea mai recentă.</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Următoarele acțiuni au fost adăugate de la ultima actualizare:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>Actualizarea elimină %1 acțiuni și adaugă următoarele %2:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Poți <a href=\"%1\">să te uiți la modificările pe GitHub</a>.</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Autor original"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Responsabil"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patroni"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Încărcare eșuată"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Fișierul de jurnal este prea mare. Va trebui să îl încărcați manual."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Încărcare finalizată"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "Link-ul <a href=\"%1\">către jurnalul încărcat</a> a fost plasat în clipboard."
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Server de Minecraft"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "Descrierea lipsește în aplicația instanței FTB."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -4943,10 +5071,35 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "Fișierul de versiune conține elementul nesuportat '+minecraftArguments'"
 
-#: src/launcher/minecraft/Component.cpp:249
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
 msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch nu este inca incarcat."
+msgid "No profile (%1)"
+msgstr "Niciun profil (%1)"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments este setat la o valoare necunoscută '%1'"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Valoarea 'minimumLauncherVersion' a acestei versiuni (%1) este mai mare decât cea suportată de %3 (%2). Ar putea să nu funcționeze corect!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Numele bibliotecii %1 este stricat şi nu poate fi procesat."
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "Active pentru %1"
 
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
@@ -4978,6 +5131,41 @@ msgstr "Nu se poate procesa versiunea %1: %2 la linia %3 coloana %4."
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "Nu s-a putut procesa versiunea %1."
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch nu este inca incarcat."
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr ""
+
+#: src/launcher/meta/BaseEntity.cpp:118
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Descărcare fişier meta %1"
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Versiune de format necunoscut!"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5022,18 +5210,6 @@ msgstr "Rularea a eșuat.\n"
 "Va trebui să repari %1 manual.\n"
 "Te rugăm să ne spui de ce și cum s-a întâmplat acest lucru."
 
-#: src/launcher/meta/BaseEntity.cpp:118
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Descărcare fişier meta %1"
-
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Versiune de format necunoscut!"
-
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
 msgid "Path is empty"
@@ -5049,185 +5225,20 @@ msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
 msgstr "Calea nu pare a fii o cale MCEdit"
 
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
 msgid "Empty path"
 msgstr "Cale goală"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Cale invalidă către JVisualVM"
 
 #: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
 msgid "Invalid JProfiler install"
 msgstr "Instalare JProfiler nevalidă"
 
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (în uz)"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Autor original"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Responsabil"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patroni"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Nu există modificări de cod între versiunea curentă și cea mai recentă.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Următoarele acțiuni au fost adăugate de la ultima actualizare:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Actualizarea elimină %1 acțiuni și adaugă următoarele %2:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Poți <a href=\"%1\">să te uiți la modificările pe GitHub</a>.</p>"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Închis"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistem"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Deschis"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Fişierul specificat fie nu există fie nu este executabil corect."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Fișierul binar java specificat nu a pornit corect.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Fișierul binar java a returnat rezultate neașteptate:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Testul Java a reușit!<br />Platforma raportată: %1<br />Versiunea Java raportată: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Eșec la testul Java"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Test Java cu succes"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Server de Minecraft"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "Descrierea lipsește în aplicația instanței FTB."
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Încărcare eșuată"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Fișierul de jurnal este prea mare. Va trebui să îl încărcați manual."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Încărcare finalizată"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "Link-ul <a href=\"%1\">către jurnalul încărcat</a> a fost plasat în clipboard."
-
-#: src/launcher/JavaCommon.cpp:10
-msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "Aţi încercat să setaţi manual opţiunea de memorie JVM (folosind \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\", \"-Xmx\" sau \"-Xms\").\n"
-"Există cutii speciale pentru acestea în setările din partea de sus a tab-ului (Java, în grupul de memorie).\n"
-"Acest mesaj va fi afișat până îl ștergeți din argumentele JVM."
-
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
-msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "Avertisment pentru argumente JVM"
-
-#: src/launcher/JavaCommon.cpp:22
-msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "Ați încercat să treceți argumentul versiunii necesare de java la JVM (folosind \"-version=xxx\"). Acest lucru nu este sigur și nu va fi permis.\n"
-"Acest mesaj va fi afișat până când îl eliminați din argumentele JVM."
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Testul Java a reușit!<br />Platforma raportată: %1<br />Versiunea Java raportată: %2<br />Java vendor raportat: %3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />Avertismente:<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "Fișierul binar java specificat nu a funcționat cu argumentele furnizate:<br />"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "Fișierul binar java specificat nu a funcționat.<br />Ar trebui să folosiți funcția de autodetectare sau să setați calea către executabilul de java.<br />"
+msgid "Invalid path to JVisualVM"
+msgstr "Cale invalidă către JVisualVM"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5693,15 +5704,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Caută"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr " de "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr "Tehnică"
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr " de "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6087,172 +6098,172 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Instalaţi pachetul NeoForge."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:155
+#: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Meniu contextual"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:173
+#: src/launcher/ui/pages/instance/VersionPage.cpp:181
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1 este posibil să aibă probleme."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:176
+#: src/launcher/ui/pages/instance/VersionPage.cpp:184
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 are probleme!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:190
+#: src/launcher/ui/pages/instance/VersionPage.cpp:198
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Eroare: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:194
+#: src/launcher/ui/pages/instance/VersionPage.cpp:202
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Avertisment: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:264
-#: src/launcher/ui/pages/instance/VersionPage.cpp:270
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
-#: src/launcher/ui/pages/instance/VersionPage.cpp:333
-#: src/launcher/ui/pages/instance/VersionPage.cpp:346
-#: src/launcher/ui/pages/instance/VersionPage.cpp:413
+#: src/launcher/ui/pages/instance/VersionPage.cpp:272
+#: src/launcher/ui/pages/instance/VersionPage.cpp:278
+#: src/launcher/ui/pages/instance/VersionPage.cpp:297
+#: src/launcher/ui/pages/instance/VersionPage.cpp:341
+#: src/launcher/ui/pages/instance/VersionPage.cpp:354
+#: src/launcher/ui/pages/instance/VersionPage.cpp:421
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Eroare"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:271
+#: src/launcher/ui/pages/instance/VersionPage.cpp:279
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "Nu s-a putut încărca profilul instanței."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
+#: src/launcher/ui/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "Nu s-a putut şterge fişierul"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:315
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Selectează moduri jar"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:315
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Moduri Minecraft.jar (*.zip *.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:325
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Selectează jar"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:325
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Înlocuire Minecraft.jar (*.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:382
+#: src/launcher/ui/pages/instance/VersionPage.cpp:390
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Modifică versiunea %1"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:385
+#: src/launcher/ui/pages/instance/VersionPage.cpp:393
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
 msgstr "Nu sunt disponibile versiuni intermediare de mapare."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:386
+#: src/launcher/ui/pages/instance/VersionPage.cpp:394
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni intermediare de mapări!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:414
+#: src/launcher/ui/pages/instance/VersionPage.cpp:422
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "MultiMC nu poate descărca Minecraft sau actualiza instanțe decât dacă ai cel puțin un cont adăugat.\n"
 "Te rugăm să adaugi contul tău Mojang sau Minecraft."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:441
+#: src/launcher/ui/pages/instance/VersionPage.cpp:449
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Selectaţi versiunea Forge"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:443
+#: src/launcher/ui/pages/instance/VersionPage.cpp:451
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "În prezent nu sunt disponibile versiuni Forge pentru Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:444
+#: src/launcher/ui/pages/instance/VersionPage.cpp:452
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni Forge!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:470
+#: src/launcher/ui/pages/instance/VersionPage.cpp:478
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr "Selectaţi versiunea NeoForge"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:472
+#: src/launcher/ui/pages/instance/VersionPage.cpp:480
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr "Nicio versiune NeoForge nu este disponibilă pentru Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:473
+#: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni NeoForge!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:499
+#: src/launcher/ui/pages/instance/VersionPage.cpp:507
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Selectați versiunea Fabric Loader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:500
+#: src/launcher/ui/pages/instance/VersionPage.cpp:508
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "Nu sunt disponibile versiuni Fabric Loader momentan."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:501
+#: src/launcher/ui/pages/instance/VersionPage.cpp:509
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni pentru Fabric Loader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:526
+#: src/launcher/ui/pages/instance/VersionPage.cpp:534
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr "Selectaţi versiunea Quilt Loader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:527
+#: src/launcher/ui/pages/instance/VersionPage.cpp:535
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr "Nu sunt disponibile versiuni Quilt Loader momentan."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:528
+#: src/launcher/ui/pages/instance/VersionPage.cpp:536
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni Quilt Loader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:571
+#: src/launcher/ui/pages/instance/VersionPage.cpp:579
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Selectaţi versiunea LiteLoader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:573
+#: src/launcher/ui/pages/instance/VersionPage.cpp:581
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Nu sunt disponibile versiuni LiteLoader pentru Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:574
+#: src/launcher/ui/pages/instance/VersionPage.cpp:582
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni LiteLoader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:630
+#: src/launcher/ui/pages/instance/VersionPage.cpp:638
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Eroare la actualizarea instanței"
@@ -6492,11 +6503,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Gestionează datapack-urile în interiorul lumii."
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:44
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Lumi"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -6577,6 +6583,11 @@ msgstr "Introduceți un nou nume pentru copie."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Introduceți un nou nume pentru lume."
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Lumi"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
