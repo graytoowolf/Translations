@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2026-02-13 08:49\n"
+"PO-Revision-Date: 2026-02-13 11:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -3681,19 +3681,19 @@ msgid "Sort &by:"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:100
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:239
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:290
 msgctxt "ModDownloadPage|"
 msgid "Downloads"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:105
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:243
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:294
 msgctxt "ModDownloadPage|"
 msgid "Last Updated"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:110
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:247
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
 msgctxt "ModDownloadPage|"
 msgid "Name"
 msgstr ""
@@ -3703,122 +3703,122 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:226
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:309
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
 msgctxt "ModDownloadPage|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:309
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to parse CurseForge response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:371
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:422
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 minutes ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:373
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:424
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 hours ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:375
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:426
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 days ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:385
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:436
 msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:446
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:446
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:556
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:571
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:607
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:622
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:562
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:620
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:613
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:671
 msgctxt "ModDownloadPage|"
 msgid "已安装"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:566
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:617
 msgctxt "ModDownloadPage|"
 msgid "更新"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:614
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:665
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:666
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:802
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:802
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:827
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:878
 msgctxt "ModDownloadPage|"
 msgid "Mod Batch Download"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:937
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:991
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:939
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:994
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "\n"
 "%1 mods failed to download."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:941
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:996
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:947
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
 msgctxt "ModDownloadPage|"
 msgid "Installation Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:947
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
 msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
 msgstr ""
@@ -6098,172 +6098,172 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Instalaţi pachetul NeoForge."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:155
+#: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "Meniu contextual"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:173
+#: src/launcher/ui/pages/instance/VersionPage.cpp:181
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1 este posibil să aibă probleme."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:176
+#: src/launcher/ui/pages/instance/VersionPage.cpp:184
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 are probleme!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:190
+#: src/launcher/ui/pages/instance/VersionPage.cpp:198
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "Eroare: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:194
+#: src/launcher/ui/pages/instance/VersionPage.cpp:202
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "Avertisment: "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:264
-#: src/launcher/ui/pages/instance/VersionPage.cpp:270
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
-#: src/launcher/ui/pages/instance/VersionPage.cpp:333
-#: src/launcher/ui/pages/instance/VersionPage.cpp:346
-#: src/launcher/ui/pages/instance/VersionPage.cpp:413
+#: src/launcher/ui/pages/instance/VersionPage.cpp:272
+#: src/launcher/ui/pages/instance/VersionPage.cpp:278
+#: src/launcher/ui/pages/instance/VersionPage.cpp:297
+#: src/launcher/ui/pages/instance/VersionPage.cpp:341
+#: src/launcher/ui/pages/instance/VersionPage.cpp:354
+#: src/launcher/ui/pages/instance/VersionPage.cpp:421
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "Eroare"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:271
+#: src/launcher/ui/pages/instance/VersionPage.cpp:279
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "Nu s-a putut încărca profilul instanței."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
+#: src/launcher/ui/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "Nu s-a putut şterge fişierul"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:315
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "Selectează moduri jar"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:315
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Moduri Minecraft.jar (*.zip *.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:325
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "Selectează jar"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:325
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Înlocuire Minecraft.jar (*.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:382
+#: src/launcher/ui/pages/instance/VersionPage.cpp:390
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "Modifică versiunea %1"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:385
+#: src/launcher/ui/pages/instance/VersionPage.cpp:393
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
 msgstr "Nu sunt disponibile versiuni intermediare de mapare."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:386
+#: src/launcher/ui/pages/instance/VersionPage.cpp:394
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni intermediare de mapări!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:414
+#: src/launcher/ui/pages/instance/VersionPage.cpp:422
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "MultiMC nu poate descărca Minecraft sau actualiza instanțe decât dacă ai cel puțin un cont adăugat.\n"
 "Te rugăm să adaugi contul tău Mojang sau Minecraft."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:441
+#: src/launcher/ui/pages/instance/VersionPage.cpp:449
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "Selectaţi versiunea Forge"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:443
+#: src/launcher/ui/pages/instance/VersionPage.cpp:451
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "În prezent nu sunt disponibile versiuni Forge pentru Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:444
+#: src/launcher/ui/pages/instance/VersionPage.cpp:452
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni Forge!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:470
+#: src/launcher/ui/pages/instance/VersionPage.cpp:478
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr "Selectaţi versiunea NeoForge"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:472
+#: src/launcher/ui/pages/instance/VersionPage.cpp:480
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr "Nicio versiune NeoForge nu este disponibilă pentru Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:473
+#: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni NeoForge!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:499
+#: src/launcher/ui/pages/instance/VersionPage.cpp:507
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "Selectați versiunea Fabric Loader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:500
+#: src/launcher/ui/pages/instance/VersionPage.cpp:508
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "Nu sunt disponibile versiuni Fabric Loader momentan."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:501
+#: src/launcher/ui/pages/instance/VersionPage.cpp:509
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni pentru Fabric Loader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:526
+#: src/launcher/ui/pages/instance/VersionPage.cpp:534
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr "Selectaţi versiunea Quilt Loader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:527
+#: src/launcher/ui/pages/instance/VersionPage.cpp:535
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr "Nu sunt disponibile versiuni Quilt Loader momentan."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:528
+#: src/launcher/ui/pages/instance/VersionPage.cpp:536
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni Quilt Loader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:571
+#: src/launcher/ui/pages/instance/VersionPage.cpp:579
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "Selectaţi versiunea LiteLoader"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:573
+#: src/launcher/ui/pages/instance/VersionPage.cpp:581
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "Nu sunt disponibile versiuni LiteLoader pentru Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:574
+#: src/launcher/ui/pages/instance/VersionPage.cpp:582
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "Nu s-a putut încărca sau descărca listele de versiuni LiteLoader!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:630
+#: src/launcher/ui/pages/instance/VersionPage.cpp:638
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Eroare la actualizarea instanței"
