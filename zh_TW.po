@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-02-13 08:50\n"
+"PO-Revision-Date: 2026-03-09 11:25\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -272,7 +272,7 @@ msgstr "帳號"
 #: src/launcher/minecraft/auth/AccountList.cpp:413
 msgctxt "AccountList|"
 msgid "platform"
-msgstr ""
+msgstr "平台"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:415
 msgctxt "AccountList|"
@@ -292,7 +292,7 @@ msgstr "該帳號的使用者名稱。"
 #: src/launcher/minecraft/auth/AccountList.cpp:428
 msgctxt "AccountList|"
 msgid "The platform of the account."
-msgstr ""
+msgstr "該帳號的平台。"
 
 #: src/launcher/minecraft/auth/AccountList.cpp:430
 msgctxt "AccountList|"
@@ -364,7 +364,8 @@ msgstr "帳號"
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
 "If you're new here, you can click the \"Add\" button to add your yggdrasil or Minecraft account."
-msgstr ""
+msgstr "歡迎！\n"
+"如果您剛來到這裡，您可以點擊「新增」按鈕來新增您的 yggdrasil 或 Minecraft 帳號。"
 
 #: src/launcher/ui/pages/global/AccountListPage.cpp:83
 msgctxt "AccountListPage|"
@@ -435,61 +436,62 @@ msgstr "未知的帳號工作狀態：%1"
 #: src/launcher/ui/dialogs/AccountsDialog.ui:87
 msgctxt "AccountsDialog|"
 msgid "Account / Profile Name Here"
-msgstr ""
+msgstr "帳號 / 個人檔案名稱在此"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:94
 msgctxt "AccountsDialog|"
 msgid "Rename"
-msgstr ""
+msgstr "重新命名"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:117
 #: src/launcher/ui/dialogs/AccountsDialog.ui:375
 msgctxt "AccountsDialog|"
 msgid "Skins"
-msgstr ""
+msgstr "外觀"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:130
 #: src/launcher/ui/dialogs/AccountsDialog.ui:388
 msgctxt "AccountsDialog|"
 msgid "Capes"
-msgstr ""
+msgstr "披風"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:153
 #: src/launcher/ui/dialogs/AccountsDialog.ui:411
 msgctxt "AccountsDialog|"
 msgid "Sign Out"
-msgstr ""
+msgstr "登出"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:181
 msgctxt "AccountsDialog|"
 msgid "Reset Skin"
-msgstr ""
+msgstr "重設外觀"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:188
 msgctxt "AccountsDialog|"
 msgid "Save Skin"
-msgstr ""
+msgstr "儲存外觀"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:269
 msgctxt "AccountsDialog|"
 msgid "You just need to take one more step to be able to play Minecraft on this account.\n\n"
 "Choose your name carefully:"
-msgstr ""
+msgstr "只要再一步就可以用這個帳號玩 Minecraft 了。\n\n"
+"謹慎選擇您的名稱："
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:312
 msgctxt "AccountsDialog|"
 msgid "Create Profile"
-msgstr ""
+msgstr "建立個人檔案"
 
 #: src/launcher/ui/dialogs/AccountsDialog.ui:352
 msgctxt "AccountsDialog|"
 msgid "Account Name Here"
-msgstr ""
+msgstr "帳號名稱在此"
 
 #: src/launcher/ui/dialogs/AccountsDialog.cpp:29
 msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
-msgstr ""
+msgstr "Minecraft 帳號"
 
 #: src/launcher/Application.cpp:796
 msgctxt "Application|"
@@ -677,7 +679,7 @@ msgstr "正在取得 Minecraft 個人檔案。"
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:80
 msgctxt "BsMinecraftProfileStep|"
 msgid "Failed to obtain redirect URL from HTTP 301 response."
-msgstr ""
+msgstr "無法從 HTTP 301 回應取得重新導向 URL。"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:96
 msgctxt "BsMinecraftProfileStep|"
@@ -687,7 +689,7 @@ msgstr "這個帳號沒有 Minecraft 個人檔案。"
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:104
 msgctxt "BsMinecraftProfileStep|"
 msgid "Minecraft Java profile acquisition failed due to redirect."
-msgstr ""
+msgstr "因重新導向導致取得 Minecraft Java 個人檔案失敗。"
 
 #: src/launcher/minecraft/auth/steps/BsMinecraftProfileStep.cpp:119
 msgctxt "BsMinecraftProfileStep|"
@@ -760,7 +762,7 @@ msgstr "发生未知的 BsYggdrasil 错误。"
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:19
 msgctxt "BsYggdrasilStep|"
 msgid "Logging in with Yggdrasil account."
-msgstr ""
+msgstr "使用 Yggdrasil 帳號登入。"
 
 #: src/launcher/minecraft/auth/steps/BsYggdrasilStep.cpp:41
 msgctxt "BsYggdrasilStep|"
@@ -863,37 +865,37 @@ msgstr "移除披風"
 #: src/launcher/ui/pages/global/cfmodlist.ui:14
 msgctxt "Cfmodlist|"
 msgid "MainWindow"
-msgstr ""
+msgstr "主視窗"
 
 #: src/launcher/ui/pages/global/cfmodlist.ui:40
 msgctxt "Cfmodlist|"
 msgid "Blacklist"
-msgstr ""
+msgstr "黑名單"
 
 #: src/launcher/ui/pages/global/cfmodlist.ui:68
 msgctxt "Cfmodlist|"
 msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
-msgstr ""
+msgstr "安裝模組包時，黑名單上的模組將自動停用。"
 
 #: src/launcher/ui/pages/global/cfmodlist.ui:100
 msgctxt "Cfmodlist|"
 msgid "Whitelist"
-msgstr ""
+msgstr "白名單"
 
 #: src/launcher/ui/pages/global/cfmodlist.ui:146
 msgctxt "Cfmodlist|"
 msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
-msgstr ""
+msgstr "安裝模組包時，白名單上的模組將自動下載。"
 
 #: src/launcher/ui/pages/global/cfmodlist.ui:170
 msgctxt "Cfmodlist|"
 msgid "toolBar"
-msgstr ""
+msgstr "工具列"
 
 #: src/launcher/ui/pages/global/cfmodlist.ui:182
 msgctxt "Cfmodlist|"
 msgid "Remove Selected"
-msgstr ""
+msgstr "移除所選項目"
 
 #: src/launcher/minecraft/ComponentUpdateTask.cpp:270
 msgctxt "ComponentUpdateTask|"
@@ -2163,7 +2165,7 @@ msgstr "帳號重新整理失敗"
 #: src/launcher/LaunchController.cpp:251
 msgctxt "LaunchController|"
 msgid "Please enter your Yggdrasil account email and password to add your account."
-msgstr ""
+msgstr "請輸入您 Yggdrasil 帳號的電子郵件與密碼以新增您的帳號。"
 
 #: src/launcher/LaunchController.cpp:266
 msgctxt "LaunchController|"
@@ -2931,7 +2933,7 @@ msgstr "新增 Microsoft 帳號"
 #, qt-format
 msgctxt "MSALoginDialog|"
 msgid "You can scan the QR code on a separate device to complete the login process, or you can open the link on this machine and log in. Authorization code:<b><font color='red' size='6'>%1</font></b>"
-msgstr ""
+msgstr "您可以掃描 QR 碼在另一台裝置上完成登入程序，或者您可以在這台機器上開啟連結並登入。授權碼：<b><font color='red' size='6'>%1</font></b>"
 
 #: src/launcher/minecraft/auth/steps/MSAStep.cpp:30
 msgctxt "MSAStep|"
@@ -3649,7 +3651,7 @@ msgstr "取得 Minecraft Java 個人檔案成功。"
 #: src/launcher/minecraft/MinecraftUpdate.cpp:54
 msgctxt "MinecraftUpdate|"
 msgid "Failed to load version components - mmc-pack.json is probably corrupted."
-msgstr ""
+msgstr "無法載入版本元件 - mmc-pack.json 可能已損毀。"
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:91
 msgctxt "MinecraftUpdate|"
@@ -3659,289 +3661,291 @@ msgstr "被使用者中止。"
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:20
 msgctxt "ModDownloadPage|"
 msgid "Mod Manager"
-msgstr ""
+msgstr "模組管理員"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:42
 msgctxt "ModDownloadPage|"
 msgid "Search and Filter"
-msgstr ""
+msgstr "搜尋與篩選"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:60
 msgctxt "ModDownloadPage|"
 msgid "&Search:"
-msgstr ""
+msgstr "&搜尋："
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:76
 msgctxt "ModDownloadPage|"
 msgid "Search mods..."
-msgstr ""
+msgstr "搜尋模組..."
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:83
 msgctxt "ModDownloadPage|"
 msgid "Sort &by:"
-msgstr ""
+msgstr "排序 &依據："
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:100
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:239
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:290
 msgctxt "ModDownloadPage|"
 msgid "Downloads"
-msgstr ""
+msgstr "下載次數"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:105
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:243
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:294
 msgctxt "ModDownloadPage|"
 msgid "Last Updated"
-msgstr ""
+msgstr "上次更新"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:110
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:247
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
 msgctxt "ModDownloadPage|"
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:118
 msgctxt "ModDownloadPage|"
 msgid "Search"
-msgstr ""
+msgstr "搜尋"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:226
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
-msgstr ""
+msgstr "正在載入更多模組..."
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:309
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
 msgctxt "ModDownloadPage|"
 msgid "Parse Error"
-msgstr ""
+msgstr "解析錯誤"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:309
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to parse CurseForge response: %1"
-msgstr ""
+msgstr "無法解析 CurseForge 回應：%1"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:371
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:422
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 minutes ago"
-msgstr ""
+msgstr "%1 分鐘前"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:373
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:424
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 hours ago"
-msgstr ""
+msgstr "%1 小時前"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:375
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:426
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 days ago"
-msgstr ""
+msgstr "%1 天前"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:385
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:436
 msgctxt "ModDownloadPage|"
 msgid "Other"
-msgstr ""
+msgstr "其他"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:446
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
-msgstr ""
+msgstr "載入失敗"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:446
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
-msgstr ""
+msgstr "無法從 CurseForge 載入模組：%1"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:556
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:571
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:607
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:622
 msgctxt "ModDownloadPage|"
 msgid "Install"
-msgstr ""
+msgstr "安裝"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:562
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:620
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:613
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:671
 msgctxt "ModDownloadPage|"
 msgid "已安装"
-msgstr ""
+msgstr "已安裝"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:566
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:617
 msgctxt "ModDownloadPage|"
 msgid "更新"
-msgstr ""
+msgstr "更新"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:614
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:665
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
-msgstr ""
+msgstr "下載錯誤"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:666
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
-msgstr ""
+msgstr "無法取得模組下載資訊，請稍後再試。"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:802
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
 msgctxt "ModDownloadPage|"
 msgid "Complete"
-msgstr ""
+msgstr "完成"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:802
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
-msgstr ""
+msgstr "所有模組皆已安裝，無需下載。"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:827
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:878
 msgctxt "ModDownloadPage|"
 msgid "Mod Batch Download"
-msgstr ""
+msgstr "模組批次下載"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:937
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:991
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
-msgstr ""
+msgstr "已成功下載並安裝 %1 個模組。"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:939
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:994
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "\n"
 "%1 mods failed to download."
-msgstr ""
+msgstr "\n"
+"%1 個模組下載失敗。"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:941
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:996
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
-msgstr ""
+msgstr "安裝完成"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:947
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
 msgctxt "ModDownloadPage|"
 msgid "Installation Failed"
-msgstr ""
+msgstr "安裝失敗"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:947
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
 msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
-msgstr ""
+msgstr "所有模組下載皆失敗。"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.h:59
 msgctxt "ModDownloadPage|"
 msgid "Download Mods"
-msgstr ""
+msgstr "下載模組"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
 msgctxt "ModFilterPage|"
 msgid "MainWindow"
-msgstr ""
+msgstr "主視窗"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:49
 msgctxt "ModFilterPage|"
 msgid "Blacklist"
-msgstr ""
+msgstr "黑名單"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:77
 msgctxt "ModFilterPage|"
 msgid "Mods on the blacklist will be automatically disabled when installing the modpack."
-msgstr ""
+msgstr "安裝模組包時，黑名單上的模組將自動停用。"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:109
 msgctxt "ModFilterPage|"
 msgid "Whitelist"
-msgstr ""
+msgstr "白名單"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:158
 msgctxt "ModFilterPage|"
 msgid "Mods on the whitelist will be automatically downloaded when installing the modpack."
-msgstr ""
+msgstr "安裝模組包時，白名單上的模組將自動下載。"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:183
 msgctxt "ModFilterPage|"
 msgid "Remove Selected"
-msgstr ""
+msgstr "移除所選項目"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:191
 msgctxt "ModFilterPage|"
 msgid "&Add"
-msgstr ""
+msgstr "新增(&A)"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:194
 msgctxt "ModFilterPage|"
 msgid "Add module to list"
-msgstr ""
+msgstr "新增模組至清單"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:199
 msgctxt "ModFilterPage|"
 msgid "&Remove"
-msgstr ""
+msgstr "移除(&R)"
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:202
 msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
-msgstr ""
+msgstr "移除所選的模組"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:133
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:361
 msgctxt "ModFilterPage|"
 msgid "Success"
-msgstr ""
+msgstr "成功"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:134
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Processed %1 mod(s) for %2."
-msgstr ""
+msgstr "已為 %2 處理 %1 個模組。"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:134
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:362
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:413
 msgctxt "ModFilterPage|"
 msgid "whitelist"
-msgstr ""
+msgstr "白名單"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:134
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:362
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:413
 msgctxt "ModFilterPage|"
 msgid "blacklist"
-msgstr ""
+msgstr "黑名單"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:165
 msgctxt "ModFilterPage|"
 msgid "Project ID"
-msgstr ""
+msgstr "專案 ID"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:165
 msgctxt "ModFilterPage|"
 msgid "Mod name"
-msgstr ""
+msgstr "模組名稱"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:346
 msgctxt "ModFilterPage|"
 msgid "Information"
-msgstr ""
+msgstr "資訊"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:346
 msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
-msgstr ""
+msgstr "未選取任何要移除的項目。"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:362
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Attempted to remove %1 mod(s) from %2."
-msgstr ""
+msgstr "嘗試從 %2 移除 %1 個模組。"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:412
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
-msgstr ""
+msgstr "將 MOD 檔案拖放至表格中以將其新增至 %1。\n"
+"選取您要移除的項目，然後點擊「移除所選項目」。"
 
 #: src/launcher/ui/pages/global/ModFilterPage.h:37
 msgctxt "ModFilterPage|"
 msgid "Mod Lists"
-msgstr ""
+msgstr "模組清單"
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:506
 msgctxt "ModFolderModel|"
@@ -4098,7 +4102,7 @@ msgstr "Sort by name"
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:32
 msgctxt "ModpacksCH::FilterModel|"
 msgid "Sort by ID"
-msgstr ""
+msgstr "依 ID 排序"
 
 #: src/launcher/modplatform/modpacksch/FTBPackInstallTask.cpp:64
 #, qt-format
@@ -4479,17 +4483,17 @@ msgstr "未知的實例類型"
 #: src/launcher/ui/dialogs/OfflineNameDialog.cpp:18
 msgctxt "OfflineNameDialog|"
 msgid "Player name"
-msgstr ""
+msgstr "玩家名稱"
 
 #: src/launcher/ui/dialogs/OfflineNameDialog.cpp:24
 msgctxt "OfflineNameDialog|"
 msgid "Choose your offline mode player name."
-msgstr ""
+msgstr "選擇您在離線模式時的玩家名稱。"
 
 #: src/launcher/ui/dialogs/OfflineNameDialog.cpp:29
 msgctxt "OfflineNameDialog|"
 msgid "Retry Online"
-msgstr ""
+msgstr "線上重試"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:42
 msgctxt "OtherLogsPage|"
@@ -4649,7 +4653,7 @@ msgstr "paste.ee API 金鑰"
 #: src/launcher/ui/pages/global/PasteEEPage.ui:68
 msgctxt "PasteEEPage|"
 msgid "MiniSkins key - 12MB &upload limit"
-msgstr ""
+msgstr "MiniSkins 金鑰 - 12 MB 上傳限制(&U)"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:78
 msgctxt "PasteEEPage|"
@@ -4810,7 +4814,7 @@ msgstr "略過"
 #: src/launcher/ui/pages/global/ProxyPage.ui:42
 msgctxt "ProxyPage|"
 msgid "This only applies to the launcher."
-msgstr ""
+msgstr "這僅適用於啟動器。"
 
 #: src/launcher/ui/pages/global/ProxyPage.ui:55
 msgctxt "ProxyPage|"
@@ -6099,172 +6103,172 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Install the NeoForge package."
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:155
+#: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr "功能表"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:173
+#: src/launcher/ui/pages/instance/VersionPage.cpp:181
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr "%1 可能發生問題。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:176
+#: src/launcher/ui/pages/instance/VersionPage.cpp:184
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr "%1 發生問題！"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:190
+#: src/launcher/ui/pages/instance/VersionPage.cpp:198
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr "錯誤："
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:194
+#: src/launcher/ui/pages/instance/VersionPage.cpp:202
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr "警告："
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:264
-#: src/launcher/ui/pages/instance/VersionPage.cpp:270
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
-#: src/launcher/ui/pages/instance/VersionPage.cpp:333
-#: src/launcher/ui/pages/instance/VersionPage.cpp:346
-#: src/launcher/ui/pages/instance/VersionPage.cpp:413
+#: src/launcher/ui/pages/instance/VersionPage.cpp:272
+#: src/launcher/ui/pages/instance/VersionPage.cpp:278
+#: src/launcher/ui/pages/instance/VersionPage.cpp:297
+#: src/launcher/ui/pages/instance/VersionPage.cpp:341
+#: src/launcher/ui/pages/instance/VersionPage.cpp:354
+#: src/launcher/ui/pages/instance/VersionPage.cpp:421
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:271
+#: src/launcher/ui/pages/instance/VersionPage.cpp:279
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr "無法載入本實例的設定檔。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:289
+#: src/launcher/ui/pages/instance/VersionPage.cpp:297
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr "無法移除檔案"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:315
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr "選擇 .jar 模組"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:307
+#: src/launcher/ui/pages/instance/VersionPage.cpp:315
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr "Minecraft.jar 模組 (*.zip *.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:325
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr "選擇 .jar 檔案"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:317
+#: src/launcher/ui/pages/instance/VersionPage.cpp:325
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr "Minecraft.jar 取代檔案 (*.jar)"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:382
+#: src/launcher/ui/pages/instance/VersionPage.cpp:390
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr "更改 %1 版本"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:385
+#: src/launcher/ui/pages/instance/VersionPage.cpp:393
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
 msgstr "目前沒有可用的 Intermediary Mappings 版本。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:386
+#: src/launcher/ui/pages/instance/VersionPage.cpp:394
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
 msgstr "無法載入或下載 Intermediary Mappings 版本清單！"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:414
+#: src/launcher/ui/pages/instance/VersionPage.cpp:422
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "MultiMC 需要至少一個帳號才能下載 Minecraft 或更新實例。\n"
 "請新增您的 Mojang 或 Minecraft 帳號。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:441
+#: src/launcher/ui/pages/instance/VersionPage.cpp:449
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr "選擇 Forge 版本"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:443
+#: src/launcher/ui/pages/instance/VersionPage.cpp:451
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr "目前沒有可用的 Forge 版本可供 Minecraft 使用。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:444
+#: src/launcher/ui/pages/instance/VersionPage.cpp:452
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr "無法載入或下載 Forge 版本清單！"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:470
+#: src/launcher/ui/pages/instance/VersionPage.cpp:478
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr "Select NeoForge version"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:472
+#: src/launcher/ui/pages/instance/VersionPage.cpp:480
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr "No NeoForge versions are currently available for Minecraft "
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:473
+#: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr "Couldn't load or download the NeoForge version lists!"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:499
+#: src/launcher/ui/pages/instance/VersionPage.cpp:507
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr "選擇 Fabric Loader 版本"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:500
+#: src/launcher/ui/pages/instance/VersionPage.cpp:508
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr "目前沒有可用的 Fabric Loader 版本可供 Minecraft 使用。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:501
+#: src/launcher/ui/pages/instance/VersionPage.cpp:509
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr "無法載入或下載 Fabric Loader 版本清單！"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:526
+#: src/launcher/ui/pages/instance/VersionPage.cpp:534
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr "選擇 Quilt Loader 版本"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:527
+#: src/launcher/ui/pages/instance/VersionPage.cpp:535
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr "目前沒有可用的 Quilt Loader 版本可供 Minecraft 使用。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:528
+#: src/launcher/ui/pages/instance/VersionPage.cpp:536
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr "無法載入或下載 Quilt Loader 版本清單！"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:571
+#: src/launcher/ui/pages/instance/VersionPage.cpp:579
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr "選擇 LiteLoader 版本"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:573
+#: src/launcher/ui/pages/instance/VersionPage.cpp:581
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr "目前沒有可用的 LiteLoader 版本可供 Minecraft 使用。"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:574
+#: src/launcher/ui/pages/instance/VersionPage.cpp:582
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr "無法載入或下載 LiteLoader 版本清單！"
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:630
+#: src/launcher/ui/pages/instance/VersionPage.cpp:638
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "更新實例時發生錯誤"
@@ -6725,22 +6729,22 @@ msgstr "已取得 Xbox 使用者權杖"
 #: src/launcher/ui/dialogs/customyggdrasil.ui:14
 msgctxt "customyggdrasil|"
 msgid "Dialog"
-msgstr ""
+msgstr "對話方塊"
 
 #: src/launcher/ui/dialogs/customyggdrasil.ui:20
 msgctxt "customyggdrasil|"
 msgid "Name"
-msgstr ""
+msgstr "名稱"
 
 #: src/launcher/ui/dialogs/customyggdrasil.ui:27
 msgctxt "customyggdrasil|"
 msgid "yggdrasil api"
-msgstr ""
+msgstr "yggdrasil api"
 
 #: src/launcher/ui/dialogs/customyggdrasil.cpp:13
 msgctxt "customyggdrasil|"
 msgid "Custom Yggdrasil API"
-msgstr ""
+msgstr "自訂 Yggdrasil API"
 
 #: src/launcher/net/mcloUpload.cpp:33
 msgctxt "mcloUpload|"
