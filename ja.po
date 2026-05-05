@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Japanese\n"
 "Language: ja_JP\n"
-"PO-Revision-Date: 2026-03-09 11:24\n"
+"PO-Revision-Date: 2026-05-05 15:33\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -790,63 +790,63 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr "検索してフィルター..."
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:27
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
 msgctxt "CFPage|"
 msgid "Sort by featured"
 msgstr "紹介でソート"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:29
 msgctxt "CFPage|"
 msgid "Sort by popularity"
 msgstr "人気順"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:29
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:30
 msgctxt "CFPage|"
 msgid "Sort by last updated"
 msgstr "最終更新日でソート"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:30
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:31
 msgctxt "CFPage|"
 msgid "Sort by name"
 msgstr "名前でソート"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:31
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:32
 msgctxt "CFPage|"
 msgid "Sort by author"
 msgstr "投稿者でソート"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:32
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:33
 msgctxt "CFPage|"
 msgid "Sort by total downloads"
 msgstr "総ダウンロード数でソート"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:82
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:83
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Wiki</a>"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:85
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:86
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Bug tracker</a>"
 msgstr "<a href=\"%1\">バグトラッカー</a>"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:88
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:89
 #, qt-format
 msgctxt "CFPage|"
 msgid "<a href=\"%1\">Source code</a>"
 msgstr "<a href=\"%1\">ソースコード</a>"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:101
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:102
 msgctxt "CFPage|"
 msgid " by "
 msgstr " 作成者: "
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
 msgctxt "CapeChange|"
@@ -1016,10 +1016,22 @@ msgctxt "CurseForge::FileResolvingTask|"
 msgid "Parsing directory"
 msgstr ""
 
-#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:91
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:80
+#, qt-format
 msgctxt "CurseForge::FileResolvingTask|"
-msgid "Some mod ID resolving tasks failed."
-msgstr "いくつかのMODIDの解決に失敗しました。"
+msgid "Invalid URL for mod %1: %2"
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:89
+#, qt-format
+msgctxt "CurseForge::FileResolvingTask|"
+msgid "Failed to parse mod file data: %1"
+msgstr ""
+
+#: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:166
+msgctxt "CurseForge::FileResolvingTask|"
+msgid "Failed to backup old mod files. Update aborted to prevent data loss."
+msgstr ""
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1519,7 +1531,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "版次 %1 から構成実例を作成中"
 
-#: src/launcher/InstanceImportTask.cpp:59
+#: src/launcher/InstanceImportTask.cpp:60
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1527,119 +1539,120 @@ msgid "Downloading modpack:\n"
 msgstr "Mod 整合包を受信中:\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:65
+#: src/launcher/InstanceImportTask.cpp:66
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Mod 整合包の受信"
 
 #: src/launcher/InstanceImportTask.cpp:95
+#: src/launcher/InstanceImportTask.cpp:244
+msgctxt "InstanceImportTask|"
+msgid "Instance import has been aborted."
+msgstr "構成実例の導入は中断されました。"
+
+#: src/launcher/InstanceImportTask.cpp:118
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Mod 整合包を展開中"
 
-#: src/launcher/InstanceImportTask.cpp:103
+#: src/launcher/InstanceImportTask.cpp:126
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "指定した Mod 整合包の zip 圧縮文件を開けません。"
 
-#: src/launcher/InstanceImportTask.cpp:148
-#: src/launcher/InstanceImportTask.cpp:214
+#: src/launcher/InstanceImportTask.cpp:171
+#: src/launcher/InstanceImportTask.cpp:237
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "圧縮包には型識別不能な Mod 整合包が含まれていようです。"
 
-#: src/launcher/InstanceImportTask.cpp:163
+#: src/launcher/InstanceImportTask.cpp:186
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Mod 整合包の展開に失敗しました"
 
-#: src/launcher/InstanceImportTask.cpp:190
+#: src/launcher/InstanceImportTask.cpp:213
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "%1 の権限の修正に失敗しました"
 
-#: src/launcher/InstanceImportTask.cpp:221
-msgctxt "InstanceImportTask|"
-msgid "Instance import has been aborted."
-msgstr "構成実例の導入は中断されました。"
-
-#: src/launcher/InstanceImportTask.cpp:241
+#: src/launcher/InstanceImportTask.cpp:264
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "パック マニフェストが理解できませんでした:\n"
 
-#: src/launcher/InstanceImportTask.cpp:252
-#: src/launcher/InstanceImportTask.cpp:699
+#: src/launcher/InstanceImportTask.cpp:275
+#: src/launcher/InstanceImportTask.cpp:735
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "上書き文件集の名前変更に失敗しました:\n"
 
-#: src/launcher/InstanceImportTask.cpp:258
+#: src/launcher/InstanceImportTask.cpp:281
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "指定されたオーバーライドフォルダ (%1) が見つかりません。modpackは以前に使用されていた可能性がありますか？"
 
-#: src/launcher/InstanceImportTask.cpp:286
+#: src/launcher/InstanceImportTask.cpp:309
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "マニフェスト内の不明なModローダー: %1"
 
-#: src/launcher/InstanceImportTask.cpp:299
+#: src/launcher/InstanceImportTask.cpp:322
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "パックのインポート中に、末尾の謎のドットがMinecraftのバージョンから削除されました。"
 
-#: src/launcher/InstanceImportTask.cpp:315
+#: src/launcher/InstanceImportTask.cpp:338
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Minecraft %1 の推奨フォージバージョンをマップできませんでした"
 
-#: src/launcher/InstanceImportTask.cpp:387
-#: src/launcher/InstanceImportTask.cpp:742
+#: src/launcher/InstanceImportTask.cpp:410
+#: src/launcher/InstanceImportTask.cpp:778
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod 受信"
 
-#: src/launcher/InstanceImportTask.cpp:407
+#: src/launcher/InstanceImportTask.cpp:430
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "この「フォルダ」は抽出が必要な場合があります: %1"
 
-#: src/launcher/InstanceImportTask.cpp:423
+#: src/launcher/InstanceImportTask.cpp:446
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "modpacksにモデリングが実装されていないため、何もダウンロードされませんでした: %1"
 
-#: src/launcher/InstanceImportTask.cpp:428
+#: src/launcher/InstanceImportTask.cpp:451
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Unrecognized/unhandled PackageType : %1"
 
-#: src/launcher/InstanceImportTask.cpp:449
-#: src/launcher/InstanceImportTask.cpp:761
+#: src/launcher/InstanceImportTask.cpp:481
+#: src/launcher/InstanceImportTask.cpp:797
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Mod を受信中..."
 
-#: src/launcher/InstanceImportTask.cpp:458
+#: src/launcher/InstanceImportTask.cpp:494
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "mod IDを解決できません:\n"
 
-#: src/launcher/InstanceImportTask.cpp:690
+#: src/launcher/InstanceImportTask.cpp:726
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "整合包の索引の解析に失敗しました: \n"
 
-#: src/launcher/InstanceImportTask.cpp:707
-#: src/launcher/InstanceImportTask.cpp:713
+#: src/launcher/InstanceImportTask.cpp:743
+#: src/launcher/InstanceImportTask.cpp:749
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "上書きフォルダをマージできませんでした：\n"
@@ -1984,6 +1997,11 @@ msgctxt "JavaPage|"
 msgid "Test"
 msgstr "有効性認証"
 
+#: src/launcher/ui/pages/global/JavaPage.h:42
+msgctxt "JavaPage|"
+msgid "Java"
+msgstr "Java の設定"
+
 #: src/launcher/ui/pages/global/JavaPage.cpp:107
 msgctxt "JavaPage|"
 msgid "Select a Java version"
@@ -1993,11 +2011,6 @@ msgstr "Java の版次を選択してください"
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr "Java の実行可能文件を探す"
-
-#: src/launcher/ui/pages/global/JavaPage.h:42
-msgctxt "JavaPage|"
-msgid "Java"
-msgstr "Java の設定"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
 msgctxt "JavaSettingsWidget|"
@@ -2658,11 +2671,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "選択された版次:"
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "FTB (旧式)"
-
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2697,6 +2705,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "本当に Mod包 %1 を削除しますか?"
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB (旧式)"
+
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:218
 msgctxt "LegacyInstance|"
 msgid "Legacy"
@@ -2717,6 +2730,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "構成実例の拡張更新"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "拡張更新"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -2732,11 +2750,6 @@ msgstr "中止"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (移行済)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "拡張更新"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -2857,6 +2870,11 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "一番下へ"
 
+#: src/launcher/ui/pages/instance/LogPage.h:41
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Minecraft の履録"
+
 #: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -2866,11 +2884,6 @@ msgstr "ログをアップロード"
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "このログファイルをアップロードしても良いですか？"
-
-#: src/launcher/ui/pages/instance/LogPage.h:41
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Minecraft の履録"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -2970,402 +2983,402 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr "Microsoft 帳戸の認証は終了しましたが，その結果は識別不能です。"
 
-#: src/launcher/ui/MainWindow.cpp:266
+#: src/launcher/ui/MainWindow.cpp:270
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr "強制終了"
 
-#: src/launcher/ui/MainWindow.cpp:267
+#: src/launcher/ui/MainWindow.cpp:271
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr "実行中の構成実例を強制終了する"
 
-#: src/launcher/ui/MainWindow.cpp:271 src/launcher/ui/MainWindow.cpp:1064
+#: src/launcher/ui/MainWindow.cpp:275 src/launcher/ui/MainWindow.cpp:1068
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr "起動"
 
-#: src/launcher/ui/MainWindow.cpp:272
+#: src/launcher/ui/MainWindow.cpp:276
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr "選択した構成実例を起動します。"
 
-#: src/launcher/ui/MainWindow.cpp:290
+#: src/launcher/ui/MainWindow.cpp:294
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr "主要工具列"
 
-#: src/launcher/ui/MainWindow.cpp:295
+#: src/launcher/ui/MainWindow.cpp:299
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr "構成実例の追加"
 
-#: src/launcher/ui/MainWindow.cpp:296
+#: src/launcher/ui/MainWindow.cpp:300
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr "新しい構成実例を追加します。"
 
-#: src/launcher/ui/MainWindow.cpp:308
+#: src/launcher/ui/MainWindow.cpp:312
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr "構成実例の格納用文件集を開く"
 
-#: src/launcher/ui/MainWindow.cpp:309
+#: src/launcher/ui/MainWindow.cpp:313
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr "文件閲覧器で構成実例の格納用文件集を開きます。"
 
-#: src/launcher/ui/MainWindow.cpp:316
+#: src/launcher/ui/MainWindow.cpp:320
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr "Mod の共有格納用文件集を開く"
 
-#: src/launcher/ui/MainWindow.cpp:317
+#: src/launcher/ui/MainWindow.cpp:321
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr "文件閲覧器で Mod の共有格納用文件集を開きます。"
 
-#: src/launcher/ui/MainWindow.cpp:322 src/launcher/ui/MainWindow.cpp:706
+#: src/launcher/ui/MainWindow.cpp:326 src/launcher/ui/MainWindow.cpp:710
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr "格納用文件集を開く"
 
-#: src/launcher/ui/MainWindow.cpp:323
+#: src/launcher/ui/MainWindow.cpp:327
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr "各構成実例の共有している格納用文件集を開きます。"
 
-#: src/launcher/ui/MainWindow.cpp:338
+#: src/launcher/ui/MainWindow.cpp:342
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr "設定"
 
-#: src/launcher/ui/MainWindow.cpp:339
+#: src/launcher/ui/MainWindow.cpp:343
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr "設定を変更します。"
 
-#: src/launcher/ui/MainWindow.cpp:351
+#: src/launcher/ui/MainWindow.cpp:355
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr "不具合を報告"
 
-#: src/launcher/ui/MainWindow.cpp:352
+#: src/launcher/ui/MainWindow.cpp:356
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr "不具合追跡器を開いて，%1 の不具合を報告します。"
 
-#: src/launcher/ui/MainWindow.cpp:381
+#: src/launcher/ui/MainWindow.cpp:385
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr "%1 について"
 
-#: src/launcher/ui/MainWindow.cpp:382
+#: src/launcher/ui/MainWindow.cpp:386
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr "%1 についての情報を表示します。"
 
-#: src/launcher/ui/MainWindow.cpp:387 src/launcher/ui/MainWindow.cpp:707
+#: src/launcher/ui/MainWindow.cpp:391 src/launcher/ui/MainWindow.cpp:711
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr "情報・手伝"
 
-#: src/launcher/ui/MainWindow.cpp:388
+#: src/launcher/ui/MainWindow.cpp:392
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr "%1 または Minecraft についての手伝情報を見る。"
 
-#: src/launcher/ui/MainWindow.cpp:404
+#: src/launcher/ui/MainWindow.cpp:408
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr "今すぐ更新する"
 
-#: src/launcher/ui/MainWindow.cpp:405
+#: src/launcher/ui/MainWindow.cpp:409
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr "%1 の更新情報を確認します。"
 
-#: src/launcher/ui/MainWindow.cpp:424
+#: src/launcher/ui/MainWindow.cpp:428
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr "にゃう~"
 
-#: src/launcher/ui/MainWindow.cpp:425
+#: src/launcher/ui/MainWindow.cpp:429
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr "ふわふわの猫ちゃんでーすww   ฅ•ω•ฅ"
 
-#: src/launcher/ui/MainWindow.cpp:433
+#: src/launcher/ui/MainWindow.cpp:437
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr "帳戸の管理"
 
-#: src/launcher/ui/MainWindow.cpp:485
+#: src/launcher/ui/MainWindow.cpp:489
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr "構成実例工具列"
 
-#: src/launcher/ui/MainWindow.cpp:492
+#: src/launcher/ui/MainWindow.cpp:496
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr "図標変更"
 
-#: src/launcher/ui/MainWindow.cpp:493
+#: src/launcher/ui/MainWindow.cpp:497
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr "選択した構成実例の図標を変更します。"
 
-#: src/launcher/ui/MainWindow.cpp:506
+#: src/launcher/ui/MainWindow.cpp:510
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr "名前変更"
 
-#: src/launcher/ui/MainWindow.cpp:507
+#: src/launcher/ui/MainWindow.cpp:511
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr "選択した構成実例の名前を変更します。"
 
-#: src/launcher/ui/MainWindow.cpp:519
+#: src/launcher/ui/MainWindow.cpp:523
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr "所有組の変更"
 
-#: src/launcher/ui/MainWindow.cpp:520
+#: src/launcher/ui/MainWindow.cpp:524
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr "選択した構成実例の所有組を変更します。"
 
-#: src/launcher/ui/MainWindow.cpp:533 src/launcher/ui/MainWindow.cpp:1065
+#: src/launcher/ui/MainWindow.cpp:537 src/launcher/ui/MainWindow.cpp:1069
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr "脱機状態で起動"
 
-#: src/launcher/ui/MainWindow.cpp:534
+#: src/launcher/ui/MainWindow.cpp:538
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr "脱機状態で選択した構成実例を起動します。"
 
-#: src/launcher/ui/MainWindow.cpp:542
+#: src/launcher/ui/MainWindow.cpp:546
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr "構成実例の編集"
 
-#: src/launcher/ui/MainWindow.cpp:543
+#: src/launcher/ui/MainWindow.cpp:547
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr "構成実例の通常設定と，Mod や版次の設定を変更します。"
 
-#: src/launcher/ui/MainWindow.cpp:549
+#: src/launcher/ui/MainWindow.cpp:553
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr "備忘録の編集"
 
-#: src/launcher/ui/MainWindow.cpp:550
+#: src/launcher/ui/MainWindow.cpp:554
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr "選択した構成実例に関する備忘録を編集します。"
 
-#: src/launcher/ui/MainWindow.cpp:556
+#: src/launcher/ui/MainWindow.cpp:560
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr "Mod の総覧"
 
-#: src/launcher/ui/MainWindow.cpp:557
+#: src/launcher/ui/MainWindow.cpp:561
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr "選択した構成実例の Mod を表示します。"
 
-#: src/launcher/ui/MainWindow.cpp:563
+#: src/launcher/ui/MainWindow.cpp:567
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr "世界の総覧"
 
-#: src/launcher/ui/MainWindow.cpp:564
+#: src/launcher/ui/MainWindow.cpp:568
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr "選択した構成実例で作れた世界を表示します。"
 
-#: src/launcher/ui/MainWindow.cpp:570
+#: src/launcher/ui/MainWindow.cpp:574
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr "スクリーンショットの管理"
 
-#: src/launcher/ui/MainWindow.cpp:571
+#: src/launcher/ui/MainWindow.cpp:575
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr "この構成実例の画面撮りの表示と送信"
 
-#: src/launcher/ui/MainWindow.cpp:579
+#: src/launcher/ui/MainWindow.cpp:583
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr "Minecraft 文件集"
 
-#: src/launcher/ui/MainWindow.cpp:580
+#: src/launcher/ui/MainWindow.cpp:584
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr "文件閲覧器で選択したの構成実例の .minecraft 文件集を開きます。"
 
-#: src/launcher/ui/MainWindow.cpp:595
+#: src/launcher/ui/MainWindow.cpp:599
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr "Config 文件集"
 
-#: src/launcher/ui/MainWindow.cpp:596
+#: src/launcher/ui/MainWindow.cpp:600
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr "起動構成の .minecraft/config フォルダを開きます。"
 
-#: src/launcher/ui/MainWindow.cpp:602
+#: src/launcher/ui/MainWindow.cpp:606
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr "構成実例文件集"
 
-#: src/launcher/ui/MainWindow.cpp:603
+#: src/launcher/ui/MainWindow.cpp:607
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr "文件閲覧器で選択したの構成実例の根文件集を開きます。"
 
-#: src/launcher/ui/MainWindow.cpp:611
+#: src/launcher/ui/MainWindow.cpp:615
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr "ショートカットを作成"
 
-#: src/launcher/ui/MainWindow.cpp:612
+#: src/launcher/ui/MainWindow.cpp:616
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr "選択した起動構成を起動するショートカットを作成します"
 
-#: src/launcher/ui/MainWindow.cpp:618
+#: src/launcher/ui/MainWindow.cpp:622
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr "構成実例の導出"
 
-#: src/launcher/ui/MainWindow.cpp:619
+#: src/launcher/ui/MainWindow.cpp:623
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr "選択した構成実例をzip文件として導出します。"
 
-#: src/launcher/ui/MainWindow.cpp:625
+#: src/launcher/ui/MainWindow.cpp:629
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr "構成実例の削除"
 
-#: src/launcher/ui/MainWindow.cpp:626
+#: src/launcher/ui/MainWindow.cpp:630
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr "選択した構成実例を削除します。"
 
-#: src/launcher/ui/MainWindow.cpp:633
+#: src/launcher/ui/MainWindow.cpp:637
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr "構成実例の複製"
 
-#: src/launcher/ui/MainWindow.cpp:634
+#: src/launcher/ui/MainWindow.cpp:638
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr "選択した構成実例を複製します。"
 
-#: src/launcher/ui/MainWindow.cpp:642
+#: src/launcher/ui/MainWindow.cpp:646
 msgctxt "MainWindow|"
 msgid "Check for Updates"
 msgstr "アップデートの確認"
 
-#: src/launcher/ui/MainWindow.cpp:643
+#: src/launcher/ui/MainWindow.cpp:647
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
 msgstr "選択したインスタンスの更新を確認します。"
 
-#: src/launcher/ui/MainWindow.cpp:686
+#: src/launcher/ui/MainWindow.cpp:690
 #, qt-format
 msgctxt "MainWindow|Launcher - Version X"
 msgid "%1 - Version %2"
 msgstr "%1 - 版次 %2"
 
-#: src/launcher/ui/MainWindow.cpp:689
+#: src/launcher/ui/MainWindow.cpp:693
 #, qt-format
 msgctxt "MainWindow|on platform, as in operating system"
 msgid " on %1"
 msgstr " (%1)"
 
-#: src/launcher/ui/MainWindow.cpp:800 src/launcher/ui/MainWindow.cpp:914
+#: src/launcher/ui/MainWindow.cpp:804 src/launcher/ui/MainWindow.cpp:918
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr "構成実例が選択されていません"
 
-#: src/launcher/ui/MainWindow.cpp:801
+#: src/launcher/ui/MainWindow.cpp:805
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr "総プレイ時間: 0秒"
 
-#: src/launcher/ui/MainWindow.cpp:905 src/launcher/ui/MainWindow.cpp:1226
+#: src/launcher/ui/MainWindow.cpp:909 src/launcher/ui/MainWindow.cpp:1230
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr "プロファイル"
 
-#: src/launcher/ui/MainWindow.cpp:967
+#: src/launcher/ui/MainWindow.cpp:971
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr "構成実例の作成"
 
-#: src/launcher/ui/MainWindow.cpp:983
+#: src/launcher/ui/MainWindow.cpp:987
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr "グループ '%1' を削除"
 
-#: src/launcher/ui/MainWindow.cpp:1016
+#: src/launcher/ui/MainWindow.cpp:1020
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr "フォーマット"
 
-#: src/launcher/ui/MainWindow.cpp:1019
+#: src/launcher/ui/MainWindow.cpp:1023
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr "Modrinth (開発中)"
 
-#: src/launcher/ui/MainWindow.cpp:1070
+#: src/launcher/ui/MainWindow.cpp:1074
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr "プロファイラ"
 
-#: src/launcher/ui/MainWindow.cpp:1082
+#: src/launcher/ui/MainWindow.cpp:1086
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr "プロファイラーが正しくセットアップされていません。設定の、「外部ツール」に移動します。"
 
-#: src/launcher/ui/MainWindow.cpp:1118
+#: src/launcher/ui/MainWindow.cpp:1122
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr "アカウントが追加されていません!"
 
-#: src/launcher/ui/MainWindow.cpp:1153
+#: src/launcher/ui/MainWindow.cpp:1157
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr "デフォルトアカウントなし"
 
-#: src/launcher/ui/MainWindow.cpp:1266
+#: src/launcher/ui/MainWindow.cpp:1270
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr "ニュースを読み込んでいます..."
 
-#: src/launcher/ui/MainWindow.cpp:1279
+#: src/launcher/ui/MainWindow.cpp:1283
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "ニュースはありません。"
 
-#: src/launcher/ui/MainWindow.cpp:1362 src/launcher/ui/MainWindow.cpp:1379
-#: src/launcher/ui/MainWindow.cpp:1441 src/launcher/ui/MainWindow.cpp:1574
-#: src/launcher/ui/MainWindow.cpp:1585
+#: src/launcher/ui/MainWindow.cpp:1366 src/launcher/ui/MainWindow.cpp:1383
+#: src/launcher/ui/MainWindow.cpp:1445 src/launcher/ui/MainWindow.cpp:1732
+#: src/launcher/ui/MainWindow.cpp:1743
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "エラー"
 
-#: src/launcher/ui/MainWindow.cpp:1362
+#: src/launcher/ui/MainWindow.cpp:1366
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3373,86 +3386,167 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "アップデートをダウンロードするためのフォルダを作成できませんでした:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1447
+#: src/launcher/ui/MainWindow.cpp:1451
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "警告"
 
-#: src/launcher/ui/MainWindow.cpp:1450 src/launcher/ui/MainWindow.cpp:1577
+#: src/launcher/ui/MainWindow.cpp:1454 src/launcher/ui/MainWindow.cpp:1735
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "中止する"
 
-#: src/launcher/ui/MainWindow.cpp:1491 src/launcher/ui/MainWindow.cpp:1496
+#: src/launcher/ui/MainWindow.cpp:1488 src/launcher/ui/MainWindow.cpp:1501
+#: src/launcher/ui/MainWindow.cpp:1506 src/launcher/ui/MainWindow.cpp:1511
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr "チェックを更新"
 
-#: src/launcher/ui/MainWindow.cpp:1491
+#: src/launcher/ui/MainWindow.cpp:1488
+msgctxt "MainWindow|"
+msgid "An update check is already in progress."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1501
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr "現在、自動アップデートは CurseForge プラットフォームでのみサポートされています。"
 
-#: src/launcher/ui/MainWindow.cpp:1496
+#: src/launcher/ui/MainWindow.cpp:1506
+msgctxt "MainWindow|"
+msgid "Only CurseForge modpacks support automatic updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1511
 msgctxt "MainWindow|"
 msgid "Please manually re-download the modpacks."
 msgstr "Modpacksを手動で再ダウンロードしてください。"
 
+#: src/launcher/ui/MainWindow.cpp:1515
+msgctxt "MainWindow|"
+msgid "Cancel"
+msgstr ""
+
 #: src/launcher/ui/MainWindow.cpp:1537
 msgctxt "MainWindow|"
-msgid "Update Available"
-msgstr "アップデートがあります"
+msgid "Network Error"
+msgstr ""
 
 #: src/launcher/ui/MainWindow.cpp:1538
 #, qt-format
 msgctxt "MainWindow|"
-msgid "A new update is available. The latest version is: %1. Would you like to update now?"
-msgstr "新しいアップデートが利用可能です。最新バージョンは %1です。今すぐアップデートしますか？"
+msgid "Failed to check for updates: %1"
+msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1557
+#: src/launcher/ui/MainWindow.cpp:1550
+msgctxt "MainWindow|"
+msgid "API key is invalid or expired. Please check your CurseForge API key configuration."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1554
+msgctxt "MainWindow|"
+msgid "The modpack was not found on CurseForge. It may have been removed."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1558
+#, qt-format
+msgctxt "MainWindow|"
+msgid "CurseForge server error (HTTP %1). Please try again later."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1562
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Unexpected HTTP response: %1"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1564
+msgctxt "MainWindow|"
+msgid "Update Check Failed"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1578
+msgctxt "MainWindow|"
+msgid "Parse Error"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1579
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Failed to parse update information: %1"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1667
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "更新なし"
 
-#: src/launcher/ui/MainWindow.cpp:1558
+#: src/launcher/ui/MainWindow.cpp:1589
 msgctxt "MainWindow|"
-msgid "Your modpack is up to date. No updates necessary."
-msgstr "お使いのModパックは最新です。アップデートは必要ありません。"
+msgid "No update information available for this modpack."
+msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1586
+#: src/launcher/ui/MainWindow.cpp:1668
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Your modpack is up to date for Minecraft %1. No compatible updates found."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1673
+msgctxt "MainWindow|"
+msgid "Update Available"
+msgstr "アップデートがあります"
+
+#: src/launcher/ui/MainWindow.cpp:1674
+msgctxt "MainWindow|"
+msgid "A new update is available for this modpack. Would you like to update now?"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1698
+msgctxt "MainWindow|"
+msgid "Update Not Available"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1699
+#, qt-format
+msgctxt "MainWindow|"
+msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1744
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "少なくとも1つのアカウントを追加しない限り、ランチャーはMinecraftをダウンロードしたり、インスタンスを更新したりすることはできません。\n"
 "MojangまたはMinecraftのアカウントを追加してください。"
 
-#: src/launcher/ui/MainWindow.cpp:1720
+#: src/launcher/ui/MainWindow.cpp:1878
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "グループ名"
 
-#: src/launcher/ui/MainWindow.cpp:1720
+#: src/launcher/ui/MainWindow.cpp:1878
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "新しいグループ名を入力します。"
 
-#: src/launcher/ui/MainWindow.cpp:1742
+#: src/launcher/ui/MainWindow.cpp:1900
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "グループを削除"
 
-#: src/launcher/ui/MainWindow.cpp:1742
+#: src/launcher/ui/MainWindow.cpp:1900
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "グループ %1を削除してもよろしいですか？"
 
-#: src/launcher/ui/MainWindow.cpp:1882
+#: src/launcher/ui/MainWindow.cpp:2040
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "注意！"
 
-#: src/launcher/ui/MainWindow.cpp:1883
+#: src/launcher/ui/MainWindow.cpp:2041
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3462,45 +3556,45 @@ msgstr "削除しようとしています: %1\n"
 "これは永続的で、完全にインスタンスを削除します。\n\n"
 "よろしいですか？"
 
-#: src/launcher/ui/MainWindow.cpp:2096
+#: src/launcher/ui/MainWindow.cpp:2254
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "インスタンスの名前を変更"
 
-#: src/launcher/ui/MainWindow.cpp:2109
+#: src/launcher/ui/MainWindow.cpp:2267
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "インスタンスフォルダには「!」が含まれており、これはJavaの問題を引き起こすことが知られています。"
 
-#: src/launcher/ui/MainWindow.cpp:2111
+#: src/launcher/ui/MainWindow.cpp:2269
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2119
+#: src/launcher/ui/MainWindow.cpp:2277
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2126
+#: src/launcher/ui/MainWindow.cpp:2284
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "インスタンスフォルダに「Rar$」が含まれています。ランチャーアーカイブを抽出していないことを意味します！"
 
-#: src/launcher/ui/MainWindow.cpp:2134
+#: src/launcher/ui/MainWindow.cpp:2292
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "インスタンスフォルダは一時フォルダにあります: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2150
+#: src/launcher/ui/MainWindow.cpp:2308
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "合計再生時間: %1 時間"
 
-#: src/launcher/ui/MainWindow.cpp:2154
+#: src/launcher/ui/MainWindow.cpp:2312
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3690,19 +3784,19 @@ msgid "Sort &by:"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:100
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:290
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:292
 msgctxt "ModDownloadPage|"
 msgid "Downloads"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:105
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:294
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:296
 msgctxt "ModDownloadPage|"
 msgid "Last Updated"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:110
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:298
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:300
 msgctxt "ModDownloadPage|"
 msgid "Name"
 msgstr ""
@@ -3712,129 +3806,129 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
+msgstr ""
+
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:362
 msgctxt "ModDownloadPage|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:360
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:362
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to parse CurseForge response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:422
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:424
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 minutes ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:424
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:426
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 hours ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:426
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:428
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "%1 days ago"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:436
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:438
 msgctxt "ModDownloadPage|"
 msgid "Other"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:499
 msgctxt "ModDownloadPage|"
 msgid "Load Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:497
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:499
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Unable to load mods from CurseForge: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:607
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:622
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:609
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:624
 msgctxt "ModDownloadPage|"
 msgid "Install"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:613
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:671
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:615
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:673
 msgctxt "ModDownloadPage|"
-msgid "已安装"
+msgid "Installed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:617
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:619
 msgctxt "ModDownloadPage|"
-msgid "更新"
+msgid "Update"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:665
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:667
 msgctxt "ModDownloadPage|"
 msgid "Download Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:666
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:668
 msgctxt "ModDownloadPage|"
 msgid "Unable to get mod download information, please try again later."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:855
 msgctxt "ModDownloadPage|"
 msgid "Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:853
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:855
 msgctxt "ModDownloadPage|"
 msgid "All mods are already installed, no download needed."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:878
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:880
 msgctxt "ModDownloadPage|"
 msgid "Mod Batch Download"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:991
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:993
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "Successfully downloaded and installed %1 mods."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:994
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:996
 #, qt-format
 msgctxt "ModDownloadPage|"
 msgid "\n"
 "%1 mods failed to download."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:996
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:998
 msgctxt "ModDownloadPage|"
 msgid "Installation Complete"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1002
 msgctxt "ModDownloadPage|"
 msgid "Installation Failed"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1000
+#: src/launcher/ui/pages/instance/ModDownloadPage.cpp:1002
 msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
@@ -3887,59 +3981,59 @@ msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:133
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:361
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:147
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:375
 msgctxt "ModFilterPage|"
 msgid "Success"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:134
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Processed %1 mod(s) for %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:134
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:362
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:413
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:427
 msgctxt "ModFilterPage|"
 msgid "whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:134
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:362
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:413
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:427
 msgctxt "ModFilterPage|"
 msgid "blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:165
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:179
 msgctxt "ModFilterPage|"
 msgid "Project ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:165
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:179
 msgctxt "ModFilterPage|"
 msgid "Mod name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:346
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:360
 msgctxt "ModFilterPage|"
 msgid "Information"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:346
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:360
 msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:362
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Attempted to remove %1 mod(s) from %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:412
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:426
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
@@ -4087,6 +4181,87 @@ msgstr "jarファイルを削除できませんでした: %1"
 msgctxt "ModMinecraftJar|"
 msgid "Failed to create the custom Minecraft jar file."
 msgstr "カスタム Minecraft jar ファイルの作成に失敗しました。"
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:18
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Select Modpack Version"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:40
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Version Name"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:41
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Minecraft"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:42
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "ModLoader"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:43
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Release Type"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:44
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "File Size"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:45
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Upload Date"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:65
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Select a version to view changelog"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:222
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:236
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Unknown"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:230
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Release"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:232
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Beta"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:234
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "Alpha"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:286
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "<i>Loading changelog...</i>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:315
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "<i>Failed to load changelog.</i>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:327
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "<i>Failed to parse changelog.</i>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:335
+msgctxt "ModpackUpdateVersionSelectDialog|"
+msgid "<i>No changelog available.</i>"
+msgstr ""
 
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:29
 msgctxt "ModpacksCH::FilterModel|"
@@ -4345,11 +4520,6 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "選択されたバージョン:"
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr "モドリンス"
-
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4384,6 +4554,11 @@ msgstr "Modrinth modpack の詳細を取得できませんでした..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "読み込み中…"
+
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr "モドリンス"
 
 #: src/launcher/net/NetJob.cpp:130
 #, qt-format
@@ -4550,6 +4725,11 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "検索:"
 
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "その他のログ"
+
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:263
@@ -4625,11 +4805,6 @@ msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "ファイルを削除できませんでした: %1"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "その他のログ"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -4877,299 +5052,35 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "プロキシ"
 
-#: src/launcher/JavaCommon.cpp:10
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "JVMメモリオプションを(\"-XX:PermSize\",\"-XX-MaxHeapSize\",\"-XX:InitialHeapSize\",\"-Xmx\"または\"-Xms\"を使用して)手動で設定しようとしました。設定にはこれらのための専用のボックスがあります(上部のJavaタブのMemoryグループ)。このメッセージは、JVM引数から削除するまで表示されます。"
+msgid "Path is empty"
+msgstr "経路は空です"
 
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
 msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "JVM引数の警告"
+msgid "Path does not exist"
+msgstr "経路は存在しません"
 
-#: src/launcher/JavaCommon.cpp:22
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "必要な Java バージョン引数を JVM に渡そうとしました (\"-version=xxx\" を使用)。 これは安全ではなく、許可されません。\n"
-"このメッセージは、JVM 引数からこれを削除するまで表示されます。"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "パスはMCEditのパスではないようです"
 
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />Javaベンダー: %3<br />"
+msgid "Empty path"
+msgstr "空のパス"
 
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />修正に失敗しました:</b>%1</span><br />警告:<br /><font color=\"orange\">%1</font>"
+msgid "Invalid path to JVisualVM"
+msgstr "JVisualVMへのパスが無効です"
 
-#: src/launcher/JavaCommon.cpp:46
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Javaのテストに成功しました"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "指定されたJavaバイナリは、指定された引数では動作しませんでした:<br />"
-
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Javaのテストに失敗しました"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "指定されたJavaバイナリが動作しませんでした。<br />自動検出地物を使用するか、Java実行ファイルへのパスを設定してください。<br />"
-
-#: src/launcher/ui/MainWindow.cpp:103
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (使用中)"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "ダーク"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "システム"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "ブライト"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "指定されたファイルは存在しないか、適切な実行可能ファイルではありません。"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "指定されたJavaバイナリが正しく起動しませんでした。<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "指定されたJavaバイナリは予期しない結果を返しました:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>現在のバージョンと最新バージョンのコード変更はありません。</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>以下のコミットが最後のアップデートから追加されました:<p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>このアップデートは%1個のコミットを削除し、以下の%2個のコミットを追加します:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p><a href=\"%1\">GitHubで変更点を見る</a>ことができます。</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "オリジナルの著者"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "メンテナー"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "アップロード失敗"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "ログファイルが大きすぎます。手動でアップロードしてください。"
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "アップロード完了"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">アップロードされたログのリンク</a>がクリップボードに保存されます。"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft サーバー"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "FTB App のインスタンスの説明がありません。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "バージョンファイルには \"+libraries\" と \"libraries\" の両方が含まれています。これはもうサポートされていません。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "メインの jar ファイルに対するURLが特定できませんでした - Mojang がフォールバックとして使用していたサーバーを削除しました"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "バージョンファイルにサポートされていない要素 \"tweakers\" があります"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "バージョンファイルにサポートされていない要素 \"-libraries\" があります"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "バージョンファイルにサポートされていない要素 \"-tweakers\" があります"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "バージョンファイルにサポートされていない要素 \"-minecraftArguments\" があります"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "バージョンファイルにサポートされていない要素  \"+minecraftArguments\" があります"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "プロファイルがありません (%1)"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments が不明な値 '%1' にセットされています"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "このバージョンでの 'minimumLauncherVersion' 値: %1 がMultiMCでサポートされている値: %3(%2) より大きく、正しい動作ができない可能性があります。"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "ライブラリ %1 の名前が壊れているため処理できません。"
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1 のassets"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "無効なオーダーファイルのバージョン、%1が予想されます"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "バージョンファイル %1を開くことができません。: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "バージョンファイル %1を処理できません: %2 at line %3 column %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "版次文件 %1 を処理できません。"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "パッチはまだ読み込まれていません。"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1分 %2秒"
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1時間 %2分"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1日 %2時間 %3分"
-
-#: src/launcher/meta/BaseEntity.cpp:118
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "メタファイル %1 のダウンロード"
-
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "不明なフォーマットバージョンです"
+msgid "Invalid JProfiler install"
+msgstr "JProfilerのインストールが無効です"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5213,35 +5124,299 @@ msgstr "ロールバックにも失敗しました。\n"
 "手動で %1 を修復する必要があります。\n"
 "これが起こった理由と方法を教えてください。"
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "経路は空です"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "指定されたファイルは存在しないか、適切な実行可能ファイルではありません。"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "経路は存在しません"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "指定されたJavaバイナリが正しく起動しませんでした。<br />"
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "パスはMCEditのパスではないようです"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "指定されたJavaバイナリは予期しない結果を返しました:<br />"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "空のパス"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />"
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "JProfilerのインストールが無効です"
+msgid "Java test failure"
+msgstr "Javaのテストに失敗しました"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "JVisualVMへのパスが無効です"
+msgid "Java test success"
+msgstr "Javaのテストに成功しました"
+
+#: src/launcher/ui/MainWindow.cpp:107
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (使用中)"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "ブライト"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "ダーク"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "システム"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft サーバー"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "FTB App のインスタンスの説明がありません。"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "アップロード失敗"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "ログファイルが大きすぎます。手動でアップロードしてください。"
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "アップロード完了"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">アップロードされたログのリンク</a>がクリップボードに保存されます。"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
+msgctxt "QObject|"
+msgid "<p>There are no code changes between your current version and the latest.</p>"
+msgstr "<p>現在のバージョンと最新バージョンのコード変更はありません。</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>以下のコミットが最後のアップデートから追加されました:<p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgstr "<p>このアップデートは%1個のコミットを削除し、以下の%2個のコミットを追加します:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p><a href=\"%1\">GitHubで変更点を見る</a>ことができます。</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "オリジナルの著者"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "メンテナー"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/meta/BaseEntity.cpp:118
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "メタファイル %1 のダウンロード"
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "不明なフォーマットバージョンです"
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr "%1分 %2秒"
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr "%1時間 %2分"
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr "%1日 %2時間 %3分"
+
+#: src/launcher/JavaCommon.cpp:10
+msgctxt "QObject|"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "JVMメモリオプションを(\"-XX:PermSize\",\"-XX-MaxHeapSize\",\"-XX:InitialHeapSize\",\"-Xmx\"または\"-Xms\"を使用して)手動で設定しようとしました。設定にはこれらのための専用のボックスがあります(上部のJavaタブのMemoryグループ)。このメッセージは、JVM引数から削除するまで表示されます。"
+
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+msgctxt "QObject|"
+msgid "JVM arguments warning"
+msgstr "JVM引数の警告"
+
+#: src/launcher/JavaCommon.cpp:22
+msgctxt "QObject|"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "必要な Java バージョン引数を JVM に渡そうとしました (\"-version=xxx\" を使用)。 これは安全ではなく、許可されません。\n"
+"このメッセージは、JVM 引数からこれを削除するまで表示されます。"
+
+#: src/launcher/JavaCommon.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Javaのテストに成功しました！<br />プラットフォーム: %1<br />Javaバージョン: %2<br />Javaベンダー: %3<br />"
+
+#: src/launcher/JavaCommon.cpp:44
+#, qt-format
+msgctxt "QObject|"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />修正に失敗しました:</b>%1</span><br />警告:<br /><font color=\"orange\">%1</font>"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "指定されたJavaバイナリは、指定された引数では動作しませんでした:<br />"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "指定されたJavaバイナリが動作しませんでした。<br />自動検出地物を使用するか、Java実行ファイルへのパスを設定してください。<br />"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "パッチはまだ読み込まれていません。"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "プロファイルがありません (%1)"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "バージョンファイルには \"+libraries\" と \"libraries\" の両方が含まれています。これはもうサポートされていません。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "メインの jar ファイルに対するURLが特定できませんでした - Mojang がフォールバックとして使用していたサーバーを削除しました"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "バージョンファイルにサポートされていない要素 \"tweakers\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "バージョンファイルにサポートされていない要素 \"-libraries\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "バージョンファイルにサポートされていない要素 \"-tweakers\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "バージョンファイルにサポートされていない要素 \"-minecraftArguments\" があります"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "バージョンファイルにサポートされていない要素  \"+minecraftArguments\" があります"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments が不明な値 '%1' にセットされています"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "このバージョンでの 'minimumLauncherVersion' 値: %1 がMultiMCでサポートされている値: %3(%2) より大きく、正しい動作ができない可能性があります。"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "ライブラリ %1 の名前が壊れているため処理できません。"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "無効なコンポーネントファイルのバージョンです。期待するバージョンは、%1です"
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "%1 のassets"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "無効なオーダーファイルのバージョン、%1が予想されます"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "バージョンファイル %1を開くことができません。: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "バージョンファイル %1を処理できません: %2 at line %3 column %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "版次文件 %1 を処理できません。"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5305,6 +5480,11 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "ファイルをコピー"
 
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5365,11 +5545,6 @@ msgstr "よろしいですか?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "これにより、選択したすべてのスクリーンショットが削除されます。"
-
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "スクリーンショット"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -5446,15 +5621,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "参加する"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:605
-msgctxt "ServersPage|"
-msgid "Context menu"
-msgstr "コンテキストメニュー"
-
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
 msgstr "サーバー"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:605
+msgctxt "ServersPage|"
+msgid "Context menu"
+msgstr "コンテキストメニュー"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
 msgctxt "SetupWizard|"
@@ -5707,15 +5882,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "検索"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
-msgctxt "TechnicPage|"
-msgid "Technic"
-msgstr "技術"
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
 msgctxt "TechnicPage|"
 msgid " by "
 msgstr " 作成者: "
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr "技術"
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -5873,20 +6048,25 @@ msgstr "バニラ"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 24w14a and above require the use of Java 21"
+msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
 msgstr ""
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
+msgid "Minecraft 24w14a and above require the use of Java 21"
+msgstr ""
+
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
+msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
 msgstr "Minecraft 1.18 プレリリース2 以降では、Java 17 を使用する必要があります"
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a and above require the use of Java 16"
 msgstr "Minecraft 21w19a 以降では、Java 16 を使用する必要があります"
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a and above require the use of Java 8"
 msgstr "Minecraft 17w13a以降では、Java 8 を使用する必要があります"
@@ -6101,6 +6281,11 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "NeoForge パッケージをインストールします。"
 
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "版次"
+
 #: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -6270,11 +6455,6 @@ msgstr "LiteLoaderのバージョンリストが読み込めませんでした"
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "構成実例の更新中に失敗しました"
-
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "版次"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
