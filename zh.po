@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-05-05 17:03\n"
+"PO-Revision-Date: 2026-05-06 17:04\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1024,18 +1024,18 @@ msgstr "正在解析目录..."
 #, qt-format
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Invalid URL for mod %1: %2"
-msgstr ""
+msgstr "模组 %1 的 URL 无效：%2"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:89
 #, qt-format
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Failed to parse mod file data: %1"
-msgstr ""
+msgstr "解析模组文件数据失败：%1"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:166
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Failed to backup old mod files. Update aborted to prevent data loss."
-msgstr ""
+msgstr "备份旧模组文件失败。已中止更新以防数据丢失。"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -3410,7 +3410,7 @@ msgstr "更新检查"
 #: src/launcher/ui/MainWindow.cpp:1488
 msgctxt "MainWindow|"
 msgid "An update check is already in progress."
-msgstr ""
+msgstr "更新检查已在进行中。"
 
 #: src/launcher/ui/MainWindow.cpp:1501
 msgctxt "MainWindow|"
@@ -3420,7 +3420,7 @@ msgstr "当前仅在CurseForge平台上支持自动更新。"
 #: src/launcher/ui/MainWindow.cpp:1506
 msgctxt "MainWindow|"
 msgid "Only CurseForge modpacks support automatic updates."
-msgstr ""
+msgstr "只有 CurseForge 模组包支持自动更新。"
 
 #: src/launcher/ui/MainWindow.cpp:1511
 msgctxt "MainWindow|"
@@ -3430,56 +3430,56 @@ msgstr "请手动重新下载modpacks。"
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/launcher/ui/MainWindow.cpp:1537
 msgctxt "MainWindow|"
 msgid "Network Error"
-msgstr ""
+msgstr "网络错误"
 
 #: src/launcher/ui/MainWindow.cpp:1538
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to check for updates: %1"
-msgstr ""
+msgstr "检查更新失败：%1"
 
 #: src/launcher/ui/MainWindow.cpp:1550
 msgctxt "MainWindow|"
 msgid "API key is invalid or expired. Please check your CurseForge API key configuration."
-msgstr ""
+msgstr "API 密钥无效或已过期。请检查您的 CurseForge API 密钥配置。"
 
 #: src/launcher/ui/MainWindow.cpp:1554
 msgctxt "MainWindow|"
 msgid "The modpack was not found on CurseForge. It may have been removed."
-msgstr ""
+msgstr "未在CurseForge上找到该整合包。它可能已被移除。"
 
 #: src/launcher/ui/MainWindow.cpp:1558
 #, qt-format
 msgctxt "MainWindow|"
 msgid "CurseForge server error (HTTP %1). Please try again later."
-msgstr ""
+msgstr "CurseForge服务器错误（HTTP %1）。请稍后重试。"
 
 #: src/launcher/ui/MainWindow.cpp:1562
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Unexpected HTTP response: %1"
-msgstr ""
+msgstr "意外的HTTP响应：%1"
 
 #: src/launcher/ui/MainWindow.cpp:1564
 msgctxt "MainWindow|"
 msgid "Update Check Failed"
-msgstr ""
+msgstr "检查更新失败"
 
 #: src/launcher/ui/MainWindow.cpp:1578
 msgctxt "MainWindow|"
 msgid "Parse Error"
-msgstr ""
+msgstr "解析错误"
 
 #: src/launcher/ui/MainWindow.cpp:1579
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to parse update information: %1"
-msgstr ""
+msgstr "解析更新信息失败：%1"
 
 #: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1667
 msgctxt "MainWindow|"
@@ -3489,13 +3489,13 @@ msgstr "无需更新"
 #: src/launcher/ui/MainWindow.cpp:1589
 msgctxt "MainWindow|"
 msgid "No update information available for this modpack."
-msgstr ""
+msgstr "此整合包没有可用的更新信息。"
 
 #: src/launcher/ui/MainWindow.cpp:1668
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date for Minecraft %1. No compatible updates found."
-msgstr ""
+msgstr "您的整合包对于Minecraft %1已是最新。未找到兼容的更新。"
 
 #: src/launcher/ui/MainWindow.cpp:1673
 msgctxt "MainWindow|"
@@ -3505,18 +3505,18 @@ msgstr "可用更新"
 #: src/launcher/ui/MainWindow.cpp:1674
 msgctxt "MainWindow|"
 msgid "A new update is available for this modpack. Would you like to update now?"
-msgstr ""
+msgstr "此整合包有新的更新可用。您想现在更新吗？"
 
 #: src/launcher/ui/MainWindow.cpp:1698
 msgctxt "MainWindow|"
 msgid "Update Not Available"
-msgstr ""
+msgstr "更新不可用"
 
 #: src/launcher/ui/MainWindow.cpp:1699
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
-msgstr ""
+msgstr "新版本 (%1) 可用，但此整合包不支持自动更新。请从 CurseForge 手动下载更新。"
 
 #: src/launcher/ui/MainWindow.cpp:1744
 msgctxt "MainWindow|"
@@ -3876,12 +3876,12 @@ msgstr "安装"
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:673
 msgctxt "ModDownloadPage|"
 msgid "Installed"
-msgstr ""
+msgstr "已安装"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:619
 msgctxt "ModDownloadPage|"
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:667
 msgctxt "ModDownloadPage|"
@@ -4192,83 +4192,83 @@ msgstr "无法创建自定义 Minecraft jar 文件。"
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:18
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Select Modpack Version"
-msgstr ""
+msgstr "选择整合包版本"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:40
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Version Name"
-msgstr ""
+msgstr "版本名称"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:41
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Minecraft"
-msgstr ""
+msgstr "我的世界"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:42
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "ModLoader"
-msgstr ""
+msgstr "模组加载器"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:43
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Release Type"
-msgstr ""
+msgstr "发布类型"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:44
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "File Size"
-msgstr ""
+msgstr "文件大小"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:45
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Upload Date"
-msgstr ""
+msgstr "上传日期"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:65
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Select a version to view changelog"
-msgstr ""
+msgstr "选择版本以查看更新日志"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:222
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:236
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:230
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Release"
-msgstr ""
+msgstr "发布"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:232
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Beta"
-msgstr ""
+msgstr "测试版"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:234
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Alpha"
-msgstr ""
+msgstr "Alpha版"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:286
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>Loading changelog...</i>"
-msgstr ""
+msgstr "<i>正在加载更新日志...</i>"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:315
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>Failed to load changelog.</i>"
-msgstr ""
+msgstr "<i>加载更新日志失败。</i>"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:327
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>Failed to parse changelog.</i>"
-msgstr ""
+msgstr "<i>解析更新日志失败。</i>"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:335
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>No changelog available.</i>"
-msgstr ""
+msgstr "<i>暂无更新日志。</i>"
 
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:29
 msgctxt "ModpacksCH::FilterModel|"
@@ -6061,7 +6061,7 @@ msgstr "原版"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
-msgstr ""
+msgstr "Minecraft 26.1 Snapshot 1 及以上版本需要使用 Java 25"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
