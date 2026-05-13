@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Luxembourgish\n"
 "Language: lb_LU\n"
-"PO-Revision-Date: 2026-05-12 14:34\n"
+"PO-Revision-Date: 2026-05-13 14:35\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -31,43 +31,43 @@ msgctxt "AIAnalysisDialog|"
 msgid "Close"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:367
+#: src/launcher/ai/AIAnalyzer.cpp:365
 msgctxt "AIAnalyzer|"
 msgid "Please configure API key in Settings > AI Analysis"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:373
+#: src/launcher/ai/AIAnalyzer.cpp:371
 msgctxt "AIAnalyzer|"
 msgid "Please configure AI model in Settings > AI Analysis"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:457
+#: src/launcher/ai/AIAnalyzer.cpp:455
 msgctxt "AIAnalyzer|"
 msgid "Request was canceled"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:482
+#: src/launcher/ai/AIAnalyzer.cpp:480
 msgctxt "AIAnalyzer|"
 msgid "API rate limit exceeded. Please try again later."
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:490
+#: src/launcher/ai/AIAnalyzer.cpp:488
 #, qt-format
 msgctxt "AIAnalyzer|"
 msgid "API request failed (HTTP %1)"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:521
+#: src/launcher/ai/AIAnalyzer.cpp:519
 msgctxt "AIAnalyzer|"
 msgid "Failed to parse AI response"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:529
+#: src/launcher/ai/AIAnalyzer.cpp:527
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty response"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:539
+#: src/launcher/ai/AIAnalyzer.cpp:537
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty content"
 msgstr ""
@@ -736,7 +736,7 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr ""
 
-#: src/launcher/Application.cpp:811
+#: src/launcher/Application.cpp:800
 msgctxt "Application|"
 msgid "Settings"
 msgstr ""
@@ -1343,31 +1343,52 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "Export Instanz"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:386
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:388
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr ""
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:395
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:397
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "Iwwerschreiwen?"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:396
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:398
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "Dës Datei gëtt et schonn. Wëllt Dir se iwwerschreiwen?"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:412
+msgctxt "ExportInstanceDialog|"
+msgid "Abort"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "Fehler"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "Konnt d'Instanzen net exportéieren"
+
+#: src/launcher/ExportInstanceTask.cpp:19
+msgctxt "ExportInstanceTask|"
+msgid "Scanning files..."
+msgstr ""
+
+#: src/launcher/ExportInstanceTask.cpp:50
+msgctxt "ExportInstanceTask|"
+msgid "Failed to export instance"
+msgstr ""
+
+#: src/launcher/ExportInstanceTask.cpp:186
+#, qt-format
+msgctxt "ExportInstanceTask|"
+msgid "Compressing %1"
+msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
@@ -4591,50 +4612,50 @@ msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:29
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:88
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:123
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:128
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:222
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:223
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:237
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:226
+msgctxt "Modrinth::InstanceExportTask|"
+msgid "Failed to create temporary directory"
+msgstr ""
+
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:241
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:254
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:258
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:295
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
-msgstr ""
-
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:260
-msgctxt "Modrinth::InstanceExportTask|"
-msgid "Failed to create temporary directory"
 msgstr ""
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
