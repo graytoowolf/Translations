@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-05-12 14:48\n"
+"PO-Revision-Date: 2026-05-13 14:35\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -31,43 +31,43 @@ msgctxt "AIAnalysisDialog|"
 msgid "Close"
 msgstr "关闭"
 
-#: src/launcher/ai/AIAnalyzer.cpp:367
+#: src/launcher/ai/AIAnalyzer.cpp:365
 msgctxt "AIAnalyzer|"
 msgid "Please configure API key in Settings > AI Analysis"
 msgstr "请在设置 > AI 分析中配置 API 密钥"
 
-#: src/launcher/ai/AIAnalyzer.cpp:373
+#: src/launcher/ai/AIAnalyzer.cpp:371
 msgctxt "AIAnalyzer|"
 msgid "Please configure AI model in Settings > AI Analysis"
 msgstr "请在设置 > AI 分析中配置 AI 模型"
 
-#: src/launcher/ai/AIAnalyzer.cpp:457
+#: src/launcher/ai/AIAnalyzer.cpp:455
 msgctxt "AIAnalyzer|"
 msgid "Request was canceled"
 msgstr "请求已取消"
 
-#: src/launcher/ai/AIAnalyzer.cpp:482
+#: src/launcher/ai/AIAnalyzer.cpp:480
 msgctxt "AIAnalyzer|"
 msgid "API rate limit exceeded. Please try again later."
 msgstr "API 速率限制已超出。请稍后重试。"
 
-#: src/launcher/ai/AIAnalyzer.cpp:490
+#: src/launcher/ai/AIAnalyzer.cpp:488
 #, qt-format
 msgctxt "AIAnalyzer|"
 msgid "API request failed (HTTP %1)"
 msgstr "API 请求失败（HTTP %1）"
 
-#: src/launcher/ai/AIAnalyzer.cpp:521
+#: src/launcher/ai/AIAnalyzer.cpp:519
 msgctxt "AIAnalyzer|"
 msgid "Failed to parse AI response"
 msgstr "解析 AI 响应失败"
 
-#: src/launcher/ai/AIAnalyzer.cpp:529
+#: src/launcher/ai/AIAnalyzer.cpp:527
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty response"
 msgstr "AI 返回空响应"
 
-#: src/launcher/ai/AIAnalyzer.cpp:539
+#: src/launcher/ai/AIAnalyzer.cpp:537
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty content"
 msgstr "AI返回了空内容"
@@ -738,7 +738,7 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr "Minecraft 账户"
 
-#: src/launcher/Application.cpp:811
+#: src/launcher/Application.cpp:800
 msgctxt "Application|"
 msgid "Settings"
 msgstr "设置"
@@ -1357,31 +1357,52 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "导出实例"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:386
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:388
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr "导出 %1"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:395
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:397
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "覆盖文件？"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:396
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:398
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "文件已经存在，你想覆盖它吗？"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:412
+msgctxt "ExportInstanceDialog|"
+msgid "Abort"
+msgstr "中断"
+
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "错误"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "无法导出实例"
+
+#: src/launcher/ExportInstanceTask.cpp:19
+msgctxt "ExportInstanceTask|"
+msgid "Scanning files..."
+msgstr "正在扫描文件..."
+
+#: src/launcher/ExportInstanceTask.cpp:50
+msgctxt "ExportInstanceTask|"
+msgid "Failed to export instance"
+msgstr "导出实例失败"
+
+#: src/launcher/ExportInstanceTask.cpp:186
+#, qt-format
+msgctxt "ExportInstanceTask|"
+msgid "Compressing %1"
+msgstr "正在压缩 %1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
@@ -4624,51 +4645,51 @@ msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
 msgstr "正在安装整合包"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:29
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
 msgstr "在Modrinth上查找所需文件…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:88
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
 msgstr "导出Modrinth包"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:123
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
 msgstr "在Modrinth上查找文件…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:128
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
 msgstr "创建整合包元数据…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:222
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:223
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
 msgstr "拷贝文件到整合包…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:237
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:226
+msgctxt "Modrinth::InstanceExportTask|"
+msgid "Failed to create temporary directory"
+msgstr "创建临时目录失败"
+
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:241
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
 msgstr "无法复制文件 %1 到覆盖目录"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:254
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:258
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
 msgstr "压缩整合包…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:295
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
 msgstr "创建zip文件失败"
-
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:260
-msgctxt "Modrinth::InstanceExportTask|"
-msgid "Failed to create temporary directory"
-msgstr "创建临时目录失败"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
