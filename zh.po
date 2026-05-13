@@ -13,7 +13,252 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-05-06 17:04\n"
+"PO-Revision-Date: 2026-05-13 14:35\n"
+
+#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
+#: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
+msgctxt "AIAnalysisDialog|"
+msgid "AI Crash Log Analysis"
+msgstr "AI 崩溃日志分析"
+
+#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:35
+msgctxt "AIAnalysisDialog|"
+msgid "Copy"
+msgstr "复制"
+
+#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:55
+msgctxt "AIAnalysisDialog|"
+msgid "Close"
+msgstr "关闭"
+
+#: src/launcher/ai/AIAnalyzer.cpp:365
+msgctxt "AIAnalyzer|"
+msgid "Please configure API key in Settings > AI Analysis"
+msgstr "请在设置 > AI 分析中配置 API 密钥"
+
+#: src/launcher/ai/AIAnalyzer.cpp:371
+msgctxt "AIAnalyzer|"
+msgid "Please configure AI model in Settings > AI Analysis"
+msgstr "请在设置 > AI 分析中配置 AI 模型"
+
+#: src/launcher/ai/AIAnalyzer.cpp:455
+msgctxt "AIAnalyzer|"
+msgid "Request was canceled"
+msgstr "请求已取消"
+
+#: src/launcher/ai/AIAnalyzer.cpp:480
+msgctxt "AIAnalyzer|"
+msgid "API rate limit exceeded. Please try again later."
+msgstr "API 速率限制已超出。请稍后重试。"
+
+#: src/launcher/ai/AIAnalyzer.cpp:488
+#, qt-format
+msgctxt "AIAnalyzer|"
+msgid "API request failed (HTTP %1)"
+msgstr "API 请求失败（HTTP %1）"
+
+#: src/launcher/ai/AIAnalyzer.cpp:519
+msgctxt "AIAnalyzer|"
+msgid "Failed to parse AI response"
+msgstr "解析 AI 响应失败"
+
+#: src/launcher/ai/AIAnalyzer.cpp:527
+msgctxt "AIAnalyzer|"
+msgid "AI returned empty response"
+msgstr "AI 返回空响应"
+
+#: src/launcher/ai/AIAnalyzer.cpp:537
+msgctxt "AIAnalyzer|"
+msgid "AI returned empty content"
+msgstr "AI返回了空内容"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:39
+msgctxt "AIModelPage|"
+msgid "Configured AI Models"
+msgstr "已配置的AI模型"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:57
+msgctxt "AIModelPage|"
+msgid "Add Model"
+msgstr "添加模型"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:64
+msgctxt "AIModelPage|"
+msgid "Remove Model"
+msgstr "移除模型"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:89
+msgctxt "AIModelPage|"
+msgid "Model Details"
+msgstr "模型详情"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:95
+msgctxt "AIModelPage|"
+msgid "API URL:"
+msgstr "API URL："
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:102
+msgctxt "AIModelPage|"
+msgid "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+msgstr "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:109
+msgctxt "AIModelPage|"
+msgid "API Key:"
+msgstr "API 密钥："
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:119
+msgctxt "AIModelPage|"
+msgid "Enter your API key"
+msgstr "输入您的API密钥"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:126
+msgctxt "AIModelPage|"
+msgid "Model ID:"
+msgstr "模型ID："
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:140
+msgctxt "AIModelPage|"
+msgid "Custom Model:"
+msgstr "自定义模型："
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:147
+msgctxt "AIModelPage|"
+msgid "Enter custom model ID"
+msgstr "输入自定义模型ID"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:156
+#: src/launcher/ui/pages/global/AIModelPage.cpp:455
+#: src/launcher/ui/pages/global/AIModelPage.cpp:508
+#: src/launcher/ui/pages/global/AIModelPage.cpp:516
+#: src/launcher/ui/pages/global/AIModelPage.cpp:527
+#: src/launcher/ui/pages/global/AIModelPage.cpp:572
+#: src/launcher/ui/pages/global/AIModelPage.cpp:578
+#: src/launcher/ui/pages/global/AIModelPage.cpp:590
+#: src/launcher/ui/pages/global/AIModelPage.cpp:593
+msgctxt "AIModelPage|"
+msgid "Fetch Models"
+msgstr "获取模型"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:163
+#: src/launcher/ui/pages/global/AIModelPage.cpp:245
+#: src/launcher/ui/pages/global/AIModelPage.cpp:299
+#: src/launcher/ui/pages/global/AIModelPage.cpp:312
+#: src/launcher/ui/pages/global/AIModelPage.cpp:320
+#: src/launcher/ui/pages/global/AIModelPage.cpp:332
+#: src/launcher/ui/pages/global/AIModelPage.cpp:336
+msgctxt "AIModelPage|"
+msgid "Test Connection"
+msgstr "测试连接"
+
+#: src/launcher/ui/pages/global/AIModelPage.ui:188
+msgctxt "AIModelPage|"
+msgid "Default Model"
+msgstr "默认模型"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:17
+msgctxt "AIModelPage|"
+msgid "Custom Model..."
+msgstr "自定义模型……"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:82
+#: src/launcher/ui/pages/global/AIModelPage.cpp:143
+#: src/launcher/ui/pages/global/AIModelPage.cpp:189
+msgctxt "AIModelPage|"
+msgid "New Model"
+msgstr "新模型"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:232
+msgctxt "AIModelPage|"
+msgid "Testing"
+msgstr "测试"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:246
+msgctxt "AIModelPage|"
+msgid "Please fill in API URL and API Key before testing."
+msgstr "请在测试前填写API URL和API Key。"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:312
+#, qt-format
+msgctxt "AIModelPage|"
+msgid "Connection failed: %1"
+msgstr "连接失败：%1"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:320
+msgctxt "AIModelPage|"
+msgid "Authentication failed: Invalid API Key."
+msgstr "身份验证失败：无效的API Key。"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:327
+#, qt-format
+msgctxt "AIModelPage|"
+msgid "Connection failed (HTTP %1)"
+msgstr "连接失败（HTTP %1）"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:336
+msgctxt "AIModelPage|"
+msgid "Connection successful! API URL and Key are valid."
+msgstr "连接成功！API URL和Key有效。"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:359
+msgctxt "AIModelPage|"
+msgid "Enter model ID"
+msgstr "输入模型ID"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:456
+msgctxt "AIModelPage|"
+msgid "Please fill in API URL and API Key first."
+msgstr "请先填写API URL和API Key。"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:468
+msgctxt "AIModelPage|"
+msgid "Fetching..."
+msgstr "正在获取……"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:517
+#, qt-format
+msgctxt "AIModelPage|"
+msgid "Failed to fetch models: %1"
+msgstr "获取模型失败：%1"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:528
+#, qt-format
+msgctxt "AIModelPage|"
+msgid "Failed to parse response: %1"
+msgstr "解析响应失败：%1"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:573
+msgctxt "AIModelPage|"
+msgid "No models found. You can enter a custom model ID."
+msgstr "未找到模型。您可以输入自定义模型ID。"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:579
+#, qt-format
+msgctxt "AIModelPage|"
+msgid "Successfully fetched %1 model(s)."
+msgstr "成功获取 %1 个模型(s)。"
+
+#: src/launcher/ui/pages/global/AIModelPage.cpp:594
+#, qt-format
+msgctxt "AIModelPage|"
+msgid "Network error: %1"
+msgstr "网络错误：%1"
+
+#: src/launcher/ui/pages/global/AIModelPage.h:27
+msgctxt "AIModelPage|"
+msgid "AI Analysis"
+msgstr "AI分析"
+
+#: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
+msgctxt "AIProgressDialog|"
+msgid "AI Analysis"
+msgstr "AI分析"
+
+#: src/launcher/ui/dialogs/AIProgressDialog.cpp:27
+#: src/launcher/ui/dialogs/AIProgressDialog.cpp:73
+msgctxt "AIProgressDialog|"
+msgid "Analyzing crash log"
+msgstr "正在分析崩溃日志"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -124,12 +369,12 @@ msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create libraries component"
 msgstr "创建库组件失败"
 
-#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:803
+#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:810
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Unknown loader type: "
 msgstr "未知的加载器类型： "
 
-#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:817
+#: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:824
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Failed to create pack component"
 msgstr "未能创建包组件"
@@ -493,7 +738,7 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr "Minecraft 账户"
 
-#: src/launcher/Application.cpp:796
+#: src/launcher/Application.cpp:800
 msgctxt "Application|"
 msgid "Settings"
 msgstr "设置"
@@ -1112,31 +1357,52 @@ msgctxt "ExportInstanceDialog|"
 msgid "Export Instance"
 msgstr "导出实例"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:386
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:388
 #, qt-format
 msgctxt "ExportInstanceDialog|"
 msgid "Export %1"
 msgstr "导出 %1"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:395
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:397
 msgctxt "ExportInstanceDialog|"
 msgid "Overwrite?"
 msgstr "覆盖文件？"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:396
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:398
 msgctxt "ExportInstanceDialog|"
 msgid "This file already exists. Do you want to overwrite it?"
 msgstr "文件已经存在，你想覆盖它吗？"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:412
+msgctxt "ExportInstanceDialog|"
+msgid "Abort"
+msgstr "中断"
+
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
 msgid "Error"
 msgstr "错误"
 
-#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:410
+#: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
 msgid "Unable to export instance"
 msgstr "无法导出实例"
+
+#: src/launcher/ExportInstanceTask.cpp:19
+msgctxt "ExportInstanceTask|"
+msgid "Scanning files..."
+msgstr "正在扫描文件..."
+
+#: src/launcher/ExportInstanceTask.cpp:50
+msgctxt "ExportInstanceTask|"
+msgid "Failed to export instance"
+msgstr "导出实例失败"
+
+#: src/launcher/ExportInstanceTask.cpp:186
+#, qt-format
+msgctxt "ExportInstanceTask|"
+msgid "Compressing %1"
+msgstr "正在压缩 %1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
@@ -2875,20 +3141,53 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "尾部"
 
-#: src/launcher/ui/pages/instance/LogPage.h:41
+#: src/launcher/ui/pages/instance/LogPage.ui:171
+msgctxt "LogPage|"
+msgid "Analyze crash log with AI"
+msgstr "使用AI分析崩溃日志"
+
+#: src/launcher/ui/pages/instance/LogPage.ui:174
+#: src/launcher/ui/pages/instance/LogPage.cpp:389
+#: src/launcher/ui/pages/instance/LogPage.cpp:396
+#: src/launcher/ui/pages/instance/LogPage.cpp:415
+msgctxt "LogPage|"
+msgid "AI Analysis"
+msgstr "AI分析"
+
+#: src/launcher/ui/pages/instance/LogPage.h:43
 msgctxt "LogPage|"
 msgid "Minecraft Log"
 msgstr "运行日志"
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:244
+#: src/launcher/ui/pages/instance/LogPage.cpp:251
 msgctxt "LogPage|"
 msgid "Log upload"
 msgstr "上传日志"
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:245
+#: src/launcher/ui/pages/instance/LogPage.cpp:252
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "您确定要上传该日志文件吗？"
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:389
+msgctxt "LogPage|"
+msgid "No log content to analyze."
+msgstr "没有可分析的日志内容。"
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:396
+msgctxt "LogPage|"
+msgid "Please configure AI model in Settings > AI Analysis"
+msgstr "请在设置 > AI分析中配置AI模型"
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:415
+msgctxt "LogPage|"
+msgid "Selected AI model not found. Please check Settings > AI Analysis"
+msgstr "未找到所选AI模型。请检查设置 > AI分析"
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:457
+msgctxt "LogPage|"
+msgid "AI Analysis Error"
+msgstr "AI分析错误"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -4346,51 +4645,51 @@ msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
 msgstr "正在安装整合包"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:28
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:29
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
 msgstr "在Modrinth上查找所需文件…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:87
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:88
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
 msgstr "导出Modrinth包"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:122
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:123
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
 msgstr "在Modrinth上查找文件…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:127
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:128
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
 msgstr "创建整合包元数据…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:222
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:223
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
 msgstr "拷贝文件到整合包…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:237
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:226
+msgctxt "Modrinth::InstanceExportTask|"
+msgid "Failed to create temporary directory"
+msgstr "创建临时目录失败"
+
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:241
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
 msgstr "无法复制文件 %1 到覆盖目录"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:254
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:258
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
 msgstr "压缩整合包…"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:256
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:295
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
 msgstr "创建zip文件失败"
-
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:260
-msgctxt "Modrinth::InstanceExportTask|"
-msgid "Failed to create temporary directory"
-msgstr "创建临时目录失败"
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:20
 #: src/launcher/ui/dialogs/ModrinthExportDialog.ui:41
@@ -4703,7 +5002,7 @@ msgid "Clear the log"
 msgstr "清空日志"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:80
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:210
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:220
 msgctxt "OtherLogsPage|"
 msgid "Delete"
 msgstr "删除"
@@ -4728,74 +5027,87 @@ msgctxt "OtherLogsPage|"
 msgid "Reload"
 msgstr "重新加载"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:126
+#: src/launcher/ui/pages/instance/OtherLogsPage.ui:136
+msgctxt "OtherLogsPage|"
+msgid "Analyze crash log with AI"
+msgstr "使用AI分析崩溃日志"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.ui:139
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
+msgctxt "OtherLogsPage|"
+msgid "AI Analysis"
+msgstr "AI分析"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.ui:150
 msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "搜索："
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "其他日志"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:263
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
 msgctxt "OtherLogsPage|"
 msgid "Error"
 msgstr "错误"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:127
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
 msgstr "无法打开 %1 来读取：%2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:147
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:157
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
 msgstr "文件（%1）太大了。你可能需要在一个为大文件优化过的查看器里面打开它。"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:163
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:173
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
 msgstr "文件（%1）不可读。"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:185
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:195
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
 msgstr "日志上传"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:186
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:196
 msgctxt "OtherLogsPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "您确定要上传该日志文件吗？"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:211
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
 msgstr "你真的想要删除 %1 吗？"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:219
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
 msgstr "无法删除 %1：%2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:231
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:241
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
 msgstr "清理"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:234
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:244
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
 msgstr "你真的要删除所有的日志文件吗？"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:239
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:249
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
@@ -4803,18 +5115,38 @@ msgid "Do you really want to delete these files?\n"
 msgstr "你真的想要删除这些文件吗？\n"
 "%1"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:266
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:276
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
 msgstr "无法删除某些文件！"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:271
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:281
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "无法删除某些文件：\n"
 "%1"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
+msgctxt "OtherLogsPage|"
+msgid "No log content to analyze."
+msgstr "没有可分析的日志内容。"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
+msgctxt "OtherLogsPage|"
+msgid "Please configure AI model in Settings > AI Analysis"
+msgstr "请在设置 > AI分析中配置AI模型"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
+msgctxt "OtherLogsPage|"
+msgid "Selected AI model not found. Please check Settings > AI Analysis"
+msgstr "未找到选中的 AI 模型。请检查设置 > AI 分析"
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:408
+msgctxt "OtherLogsPage|"
+msgid "AI Analysis Error"
+msgstr "AI 分析错误"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -6070,18 +6402,18 @@ msgstr "Minecraft 24w14a 及以上版本需要使用 Java21"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 1.18 Pre Release 2 and above require the use of Java 17"
-msgstr "Minecraft 1.18-pre2（1.18 预发布版 2） 及以上版本需要使用 Java 17"
+msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
+msgstr "Minecraft 1.18 预发布版 2 至 24w13a 需要使用 Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 21w19a and above require the use of Java 16"
-msgstr "Minecraft 21w19a 及以上版本需要使用 Java16"
+msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
+msgstr "Minecraft 21w19a 至 1.18 预发布版 1 需要使用 Java 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
 msgctxt "VerifyJavaInstall|"
-msgid "Minecraft 17w13a and above require the use of Java 8"
-msgstr "Minecraft 17w13a 及以上版本需要使用 Java8"
+msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
+msgstr "Minecraft 17w13a 至 21w18a 需要使用 Java 8"
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
