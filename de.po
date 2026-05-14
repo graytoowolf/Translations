@@ -13,13 +13,13 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: German\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2026-05-14 14:56\n"
+"PO-Revision-Date: 2026-05-14 15:09\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
 msgctxt "AIAnalysisDialog|"
 msgid "AI Crash Log Analysis"
-msgstr ""
+msgstr "AI Absturzprotokollanalyse"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:35
 msgctxt "AIAnalysisDialog|"
@@ -95,7 +95,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/AIModelPage.ui:95
 msgctxt "AIModelPage|"
 msgid "API URL:"
-msgstr ""
+msgstr "API URL:"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:109
 msgctxt "AIModelPage|"
