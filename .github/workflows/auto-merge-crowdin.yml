@@ -7,6 +7,7 @@ on:
 permissions:
   contents: write
   pull-requests: write
+  actions: write
 
 jobs:
   merge-crowdin-pr:
@@ -22,3 +23,10 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PR_URL: ${{ github.event.pull_request.html_url }}
+
+      - name: Trigger Build Pages
+        run: |
+          gh api repos/${{ github.repository }}/dispatches \
+            -f event_type=build-translations
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}

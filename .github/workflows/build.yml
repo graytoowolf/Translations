@@ -1,7 +1,9 @@
 name: Build Pages
 
 on:
-  workflow_dispatch: # allow manual trigger
+  workflow_dispatch:
+  repository_dispatch:
+    types: [build-translations]
   push:
     branches:
       - main
