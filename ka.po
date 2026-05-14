@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Georgian\n"
 "Language: ka_GE\n"
-"PO-Revision-Date: 2026-05-14 14:18\n"
+"PO-Revision-Date: 2026-05-14 14:56\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -95,11 +95,6 @@ msgstr ""
 #: src/launcher/ui/pages/global/AIModelPage.ui:95
 msgctxt "AIModelPage|"
 msgid "API URL:"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:102
-msgctxt "AIModelPage|"
-msgid "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:109
