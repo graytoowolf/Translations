@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2026-05-13 14:34\n"
+"PO-Revision-Date: 2026-05-14 14:18\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -128,25 +128,25 @@ msgid "Enter custom model ID"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:156
-#: src/launcher/ui/pages/global/AIModelPage.cpp:455
-#: src/launcher/ui/pages/global/AIModelPage.cpp:508
-#: src/launcher/ui/pages/global/AIModelPage.cpp:516
-#: src/launcher/ui/pages/global/AIModelPage.cpp:527
-#: src/launcher/ui/pages/global/AIModelPage.cpp:572
-#: src/launcher/ui/pages/global/AIModelPage.cpp:578
-#: src/launcher/ui/pages/global/AIModelPage.cpp:590
-#: src/launcher/ui/pages/global/AIModelPage.cpp:593
+#: src/launcher/ui/pages/global/AIModelPage.cpp:460
+#: src/launcher/ui/pages/global/AIModelPage.cpp:513
+#: src/launcher/ui/pages/global/AIModelPage.cpp:521
+#: src/launcher/ui/pages/global/AIModelPage.cpp:532
+#: src/launcher/ui/pages/global/AIModelPage.cpp:577
+#: src/launcher/ui/pages/global/AIModelPage.cpp:583
+#: src/launcher/ui/pages/global/AIModelPage.cpp:595
+#: src/launcher/ui/pages/global/AIModelPage.cpp:598
 msgctxt "AIModelPage|"
 msgid "Fetch Models"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:163
-#: src/launcher/ui/pages/global/AIModelPage.cpp:245
-#: src/launcher/ui/pages/global/AIModelPage.cpp:299
-#: src/launcher/ui/pages/global/AIModelPage.cpp:312
-#: src/launcher/ui/pages/global/AIModelPage.cpp:320
-#: src/launcher/ui/pages/global/AIModelPage.cpp:332
-#: src/launcher/ui/pages/global/AIModelPage.cpp:336
+#: src/launcher/ui/pages/global/AIModelPage.cpp:250
+#: src/launcher/ui/pages/global/AIModelPage.cpp:304
+#: src/launcher/ui/pages/global/AIModelPage.cpp:317
+#: src/launcher/ui/pages/global/AIModelPage.cpp:325
+#: src/launcher/ui/pages/global/AIModelPage.cpp:337
+#: src/launcher/ui/pages/global/AIModelPage.cpp:341
 msgctxt "AIModelPage|"
 msgid "Test Connection"
 msgstr ""
@@ -168,77 +168,77 @@ msgctxt "AIModelPage|"
 msgid "New Model"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:232
+#: src/launcher/ui/pages/global/AIModelPage.cpp:237
 msgctxt "AIModelPage|"
 msgid "Testing"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:246
+#: src/launcher/ui/pages/global/AIModelPage.cpp:251
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key before testing."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:312
+#: src/launcher/ui/pages/global/AIModelPage.cpp:317
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:320
+#: src/launcher/ui/pages/global/AIModelPage.cpp:325
 msgctxt "AIModelPage|"
 msgid "Authentication failed: Invalid API Key."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:327
+#: src/launcher/ui/pages/global/AIModelPage.cpp:332
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed (HTTP %1)"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:336
+#: src/launcher/ui/pages/global/AIModelPage.cpp:341
 msgctxt "AIModelPage|"
 msgid "Connection successful! API URL and Key are valid."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:359
+#: src/launcher/ui/pages/global/AIModelPage.cpp:364
 msgctxt "AIModelPage|"
 msgid "Enter model ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:456
+#: src/launcher/ui/pages/global/AIModelPage.cpp:461
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key first."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:468
+#: src/launcher/ui/pages/global/AIModelPage.cpp:473
 msgctxt "AIModelPage|"
 msgid "Fetching..."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:517
+#: src/launcher/ui/pages/global/AIModelPage.cpp:522
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to fetch models: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:528
+#: src/launcher/ui/pages/global/AIModelPage.cpp:533
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to parse response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:573
+#: src/launcher/ui/pages/global/AIModelPage.cpp:578
 msgctxt "AIModelPage|"
 msgid "No models found. You can enter a custom model ID."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:579
+#: src/launcher/ui/pages/global/AIModelPage.cpp:584
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Successfully fetched %1 model(s)."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:594
+#: src/launcher/ui/pages/global/AIModelPage.cpp:599
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Network error: %1"
@@ -1376,7 +1376,7 @@ msgstr "Nu s-a putut exporta instanța"
 
 #: src/launcher/ExportInstanceTask.cpp:19
 msgctxt "ExportInstanceTask|"
-msgid "Scanning files..."
+msgid "Scanning instance files..."
 msgstr ""
 
 #: src/launcher/ExportInstanceTask.cpp:50
@@ -1384,10 +1384,10 @@ msgctxt "ExportInstanceTask|"
 msgid "Failed to export instance"
 msgstr ""
 
-#: src/launcher/ExportInstanceTask.cpp:186
+#: src/launcher/ExportInstanceTask.cpp:187
 #, qt-format
 msgctxt "ExportInstanceTask|"
-msgid "Compressing %1"
+msgid "Packing %1"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
@@ -4629,48 +4629,48 @@ msgctxt "ModpacksCH::PackInstallTask|"
 msgid "Installing modpack"
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:29
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:30
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Finding files to look up on Modrinth..."
 msgstr "Cauta fisiere pentru a cauta pe Modrinth..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:88
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:89
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Modrinth pack export"
 msgstr "Export modrinth pachet"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:123
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:124
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Looking up files on Modrinth..."
 msgstr "Se caută fișiere pe Modrinth..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:128
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:129
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Creating modpack metadata..."
 msgstr "Creare metadate modpack..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:223
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:224
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Copying files to modpack..."
 msgstr "Se copiază fișierele în modpack..."
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:226
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:227
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create temporary directory"
 msgstr "Nu s-a reușit crearea unui director temporar"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:241
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:242
 #, qt-format
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to copy file %1 to overrides"
 msgstr "Nu s-a putut copia fişierul %1 la suprascrieri"
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:258
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:259
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Zipping modpack..."
 msgstr ""
 
-#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:295
+#: src/launcher/modplatform/modrinth/ModrinthInstanceExportTask.cpp:297
 msgctxt "Modrinth::InstanceExportTask|"
 msgid "Failed to create zip file"
 msgstr "Crearea fișierului zip a eșuat"
