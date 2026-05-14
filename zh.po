@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-05-14 14:19\n"
+"PO-Revision-Date: 2026-05-14 14:56\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -96,11 +96,6 @@ msgstr "模型详情"
 msgctxt "AIModelPage|"
 msgid "API URL:"
 msgstr "API URL："
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:102
-msgctxt "AIModelPage|"
-msgid "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-msgstr "https://open.bigmodel.cn/api/paas/v4/chat/completions"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:109
 msgctxt "AIModelPage|"
