@@ -13,119 +13,114 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-05-14 14:19\n"
+"PO-Revision-Date: 2026-05-14 14:56\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
 msgctxt "AIAnalysisDialog|"
 msgid "AI Crash Log Analysis"
-msgstr ""
+msgstr "AI 崩潰日誌分析"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:35
 msgctxt "AIAnalysisDialog|"
 msgid "Copy"
-msgstr ""
+msgstr "複製"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:55
 msgctxt "AIAnalysisDialog|"
 msgid "Close"
-msgstr ""
+msgstr "關閉"
 
 #: src/launcher/ai/AIAnalyzer.cpp:365
 msgctxt "AIAnalyzer|"
 msgid "Please configure API key in Settings > AI Analysis"
-msgstr ""
+msgstr "請在設定 > AI 分析中設定 API 金鑰"
 
 #: src/launcher/ai/AIAnalyzer.cpp:371
 msgctxt "AIAnalyzer|"
 msgid "Please configure AI model in Settings > AI Analysis"
-msgstr ""
+msgstr "請在設定 > AI 分析中設定 AI 模型"
 
 #: src/launcher/ai/AIAnalyzer.cpp:455
 msgctxt "AIAnalyzer|"
 msgid "Request was canceled"
-msgstr ""
+msgstr "要求已取消"
 
 #: src/launcher/ai/AIAnalyzer.cpp:480
 msgctxt "AIAnalyzer|"
 msgid "API rate limit exceeded. Please try again later."
-msgstr ""
+msgstr "API 速率限制已超出。請稍後再試。"
 
 #: src/launcher/ai/AIAnalyzer.cpp:488
 #, qt-format
 msgctxt "AIAnalyzer|"
 msgid "API request failed (HTTP %1)"
-msgstr ""
+msgstr "API 請求失敗 (HTTP %1)"
 
 #: src/launcher/ai/AIAnalyzer.cpp:519
 msgctxt "AIAnalyzer|"
 msgid "Failed to parse AI response"
-msgstr ""
+msgstr "解析 AI 回應失敗"
 
 #: src/launcher/ai/AIAnalyzer.cpp:527
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty response"
-msgstr ""
+msgstr "AI 回傳空回應"
 
 #: src/launcher/ai/AIAnalyzer.cpp:537
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty content"
-msgstr ""
+msgstr "AI 回傳空內容"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:39
 msgctxt "AIModelPage|"
 msgid "Configured AI Models"
-msgstr ""
+msgstr "已配置的 AI 模型"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:57
 msgctxt "AIModelPage|"
 msgid "Add Model"
-msgstr ""
+msgstr "新增模型"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:64
 msgctxt "AIModelPage|"
 msgid "Remove Model"
-msgstr ""
+msgstr "移除模型"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:89
 msgctxt "AIModelPage|"
 msgid "Model Details"
-msgstr ""
+msgstr "模型詳細資訊"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:95
 msgctxt "AIModelPage|"
 msgid "API URL:"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:102
-msgctxt "AIModelPage|"
-msgid "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-msgstr ""
+msgstr "API URL："
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:109
 msgctxt "AIModelPage|"
 msgid "API Key:"
-msgstr ""
+msgstr "API 金鑰："
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:119
 msgctxt "AIModelPage|"
 msgid "Enter your API key"
-msgstr ""
+msgstr "輸入您的 API 金鑰"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:126
 msgctxt "AIModelPage|"
 msgid "Model ID:"
-msgstr ""
+msgstr "模型 ID："
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:140
 msgctxt "AIModelPage|"
 msgid "Custom Model:"
-msgstr ""
+msgstr "自訂模型："
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:147
 msgctxt "AIModelPage|"
 msgid "Enter custom model ID"
-msgstr ""
+msgstr "輸入自訂模型 ID"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:156
 #: src/launcher/ui/pages/global/AIModelPage.cpp:460
@@ -138,7 +133,7 @@ msgstr ""
 #: src/launcher/ui/pages/global/AIModelPage.cpp:598
 msgctxt "AIModelPage|"
 msgid "Fetch Models"
-msgstr ""
+msgstr "擷取模型"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:163
 #: src/launcher/ui/pages/global/AIModelPage.cpp:250
@@ -149,116 +144,116 @@ msgstr ""
 #: src/launcher/ui/pages/global/AIModelPage.cpp:341
 msgctxt "AIModelPage|"
 msgid "Test Connection"
-msgstr ""
+msgstr "測試連線"
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:188
 msgctxt "AIModelPage|"
 msgid "Default Model"
-msgstr ""
+msgstr "預設模型"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:17
 msgctxt "AIModelPage|"
 msgid "Custom Model..."
-msgstr ""
+msgstr "自訂模型……"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:82
 #: src/launcher/ui/pages/global/AIModelPage.cpp:143
 #: src/launcher/ui/pages/global/AIModelPage.cpp:189
 msgctxt "AIModelPage|"
 msgid "New Model"
-msgstr ""
+msgstr "新模型"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:237
 msgctxt "AIModelPage|"
 msgid "Testing"
-msgstr ""
+msgstr "測試中"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:251
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key before testing."
-msgstr ""
+msgstr "請在測試前填寫 API URL 和 API 金鑰。"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:317
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed: %1"
-msgstr ""
+msgstr "連線失敗：%1"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:325
 msgctxt "AIModelPage|"
 msgid "Authentication failed: Invalid API Key."
-msgstr ""
+msgstr "驗證失敗：無效的 API 金鑰。"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:332
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed (HTTP %1)"
-msgstr ""
+msgstr "連線失敗 (HTTP %1)"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:341
 msgctxt "AIModelPage|"
 msgid "Connection successful! API URL and Key are valid."
-msgstr ""
+msgstr "連線成功！API URL 和 Key 有效。"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:364
 msgctxt "AIModelPage|"
 msgid "Enter model ID"
-msgstr ""
+msgstr "輸入模型 ID"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:461
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key first."
-msgstr ""
+msgstr "請先填寫 API URL 和 API Key。"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:473
 msgctxt "AIModelPage|"
 msgid "Fetching..."
-msgstr ""
+msgstr "獲取中……"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:522
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to fetch models: %1"
-msgstr ""
+msgstr "獲取模型失敗：%1"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:533
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to parse response: %1"
-msgstr ""
+msgstr "解析回應失敗：%1"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:578
 msgctxt "AIModelPage|"
 msgid "No models found. You can enter a custom model ID."
-msgstr ""
+msgstr "未找到模型。您可以輸入自訂模型 ID。"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:584
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Successfully fetched %1 model(s)."
-msgstr ""
+msgstr "成功獲取 %1 個模型。"
 
 #: src/launcher/ui/pages/global/AIModelPage.cpp:599
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Network error: %1"
-msgstr ""
+msgstr "網路錯誤：%1"
 
 #: src/launcher/ui/pages/global/AIModelPage.h:27
 msgctxt "AIModelPage|"
 msgid "AI Analysis"
-msgstr ""
+msgstr "AI 分析"
 
 #: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
 msgctxt "AIProgressDialog|"
 msgid "AI Analysis"
-msgstr ""
+msgstr "AI 分析"
 
 #: src/launcher/ui/dialogs/AIProgressDialog.cpp:27
 #: src/launcher/ui/dialogs/AIProgressDialog.cpp:73
 msgctxt "AIProgressDialog|"
 msgid "Analyzing crash log"
-msgstr ""
+msgstr "正在分析當機記錄"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1269,18 +1264,18 @@ msgstr "解析模组包"
 #, qt-format
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Invalid URL for mod %1: %2"
-msgstr ""
+msgstr "模組 %1 的 URL 無效：%2"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:89
 #, qt-format
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Failed to parse mod file data: %1"
-msgstr ""
+msgstr "解析模組檔案資料失敗：%1"
 
 #: src/launcher/modplatform/curseforge/FileResolvingTask.cpp:166
 msgctxt "CurseForge::FileResolvingTask|"
 msgid "Failed to backup old mod files. Update aborted to prevent data loss."
-msgstr ""
+msgstr "備份舊模組檔案失敗。已中止更新以防止資料遺失。"
 
 #: src/launcher/ui/widgets/CustomCommands.ui:32
 msgctxt "CustomCommands|"
@@ -1364,7 +1359,7 @@ msgstr "此檔案已存在，您想要覆蓋它嗎？"
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:412
 msgctxt "ExportInstanceDialog|"
 msgid "Abort"
-msgstr ""
+msgstr "中止"
 
 #: src/launcher/ui/dialogs/ExportInstanceDialog.cpp:417
 msgctxt "ExportInstanceDialog|"
@@ -1379,18 +1374,18 @@ msgstr "無法匯出實例"
 #: src/launcher/ExportInstanceTask.cpp:19
 msgctxt "ExportInstanceTask|"
 msgid "Scanning instance files..."
-msgstr ""
+msgstr "正在掃描實例檔案……"
 
 #: src/launcher/ExportInstanceTask.cpp:50
 msgctxt "ExportInstanceTask|"
 msgid "Failed to export instance"
-msgstr ""
+msgstr "無法匯出實例"
 
 #: src/launcher/ExportInstanceTask.cpp:187
 #, qt-format
 msgctxt "ExportInstanceTask|"
 msgid "Packing %1"
-msgstr ""
+msgstr "正在打包 %1"
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:96
@@ -3134,7 +3129,7 @@ msgstr "底部"
 #: src/launcher/ui/pages/instance/LogPage.ui:171
 msgctxt "LogPage|"
 msgid "Analyze crash log with AI"
-msgstr ""
+msgstr "使用 AI 分析當機記錄"
 
 #: src/launcher/ui/pages/instance/LogPage.ui:174
 #: src/launcher/ui/pages/instance/LogPage.cpp:389
@@ -3142,7 +3137,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/LogPage.cpp:415
 msgctxt "LogPage|"
 msgid "AI Analysis"
-msgstr ""
+msgstr "AI 分析"
 
 #: src/launcher/ui/pages/instance/LogPage.h:43
 msgctxt "LogPage|"
@@ -3162,22 +3157,22 @@ msgstr "您確定要上傳記錄檔嗎？"
 #: src/launcher/ui/pages/instance/LogPage.cpp:389
 msgctxt "LogPage|"
 msgid "No log content to analyze."
-msgstr ""
+msgstr "沒有可分析的記錄內容。"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:396
 msgctxt "LogPage|"
 msgid "Please configure AI model in Settings > AI Analysis"
-msgstr ""
+msgstr "請在設定 > AI 分析中配置 AI 模型"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:415
 msgctxt "LogPage|"
 msgid "Selected AI model not found. Please check Settings > AI Analysis"
-msgstr ""
+msgstr "找不到所選的 AI 模型，請檢查設定 > AI 分析"
 
 #: src/launcher/ui/pages/instance/LogPage.cpp:457
 msgctxt "LogPage|"
 msgid "AI Analysis Error"
-msgstr ""
+msgstr "AI 分析錯誤"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3698,7 +3693,7 @@ msgstr "Update Check"
 #: src/launcher/ui/MainWindow.cpp:1488
 msgctxt "MainWindow|"
 msgid "An update check is already in progress."
-msgstr ""
+msgstr "更新檢查已在進行中。"
 
 #: src/launcher/ui/MainWindow.cpp:1501
 msgctxt "MainWindow|"
@@ -3708,7 +3703,7 @@ msgstr "Automatic updates are currently only supported for the CurseForge platfo
 #: src/launcher/ui/MainWindow.cpp:1506
 msgctxt "MainWindow|"
 msgid "Only CurseForge modpacks support automatic updates."
-msgstr ""
+msgstr "只有 CurseForge 模組包支援自動更新。"
 
 #: src/launcher/ui/MainWindow.cpp:1511
 msgctxt "MainWindow|"
@@ -3718,56 +3713,56 @@ msgstr "Please manually re-download the modpacks."
 #: src/launcher/ui/MainWindow.cpp:1515
 msgctxt "MainWindow|"
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: src/launcher/ui/MainWindow.cpp:1537
 msgctxt "MainWindow|"
 msgid "Network Error"
-msgstr ""
+msgstr "網路錯誤"
 
 #: src/launcher/ui/MainWindow.cpp:1538
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to check for updates: %1"
-msgstr ""
+msgstr "無法檢查更新：%1"
 
 #: src/launcher/ui/MainWindow.cpp:1550
 msgctxt "MainWindow|"
 msgid "API key is invalid or expired. Please check your CurseForge API key configuration."
-msgstr ""
+msgstr "API 金鑰無效或已過期。請檢查您的 CurseForge API 金鑰設定。"
 
 #: src/launcher/ui/MainWindow.cpp:1554
 msgctxt "MainWindow|"
 msgid "The modpack was not found on CurseForge. It may have been removed."
-msgstr ""
+msgstr "在 CurseForge 上找不到該模組包。它可能已被移除。"
 
 #: src/launcher/ui/MainWindow.cpp:1558
 #, qt-format
 msgctxt "MainWindow|"
 msgid "CurseForge server error (HTTP %1). Please try again later."
-msgstr ""
+msgstr "CurseForge 伺服器錯誤（HTTP %1）。請稍後再試。"
 
 #: src/launcher/ui/MainWindow.cpp:1562
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Unexpected HTTP response: %1"
-msgstr ""
+msgstr "非預期的 HTTP 回應：%1"
 
 #: src/launcher/ui/MainWindow.cpp:1564
 msgctxt "MainWindow|"
 msgid "Update Check Failed"
-msgstr ""
+msgstr "更新檢查失敗"
 
 #: src/launcher/ui/MainWindow.cpp:1578
 msgctxt "MainWindow|"
 msgid "Parse Error"
-msgstr ""
+msgstr "解析錯誤"
 
 #: src/launcher/ui/MainWindow.cpp:1579
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to parse update information: %1"
-msgstr ""
+msgstr "無法解析更新資訊：%1"
 
 #: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1667
 msgctxt "MainWindow|"
@@ -3777,13 +3772,13 @@ msgstr "No Update"
 #: src/launcher/ui/MainWindow.cpp:1589
 msgctxt "MainWindow|"
 msgid "No update information available for this modpack."
-msgstr ""
+msgstr "此模組包沒有可用的更新資訊。"
 
 #: src/launcher/ui/MainWindow.cpp:1668
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date for Minecraft %1. No compatible updates found."
-msgstr ""
+msgstr "您的模組包已是最新版用於 Minecraft %1。未找到相容的更新。"
 
 #: src/launcher/ui/MainWindow.cpp:1673
 msgctxt "MainWindow|"
@@ -3793,18 +3788,18 @@ msgstr "Update Available"
 #: src/launcher/ui/MainWindow.cpp:1674
 msgctxt "MainWindow|"
 msgid "A new update is available for this modpack. Would you like to update now?"
-msgstr ""
+msgstr "此模組包有新的更新可用。您想現在更新嗎？"
 
 #: src/launcher/ui/MainWindow.cpp:1698
 msgctxt "MainWindow|"
 msgid "Update Not Available"
-msgstr ""
+msgstr "更新不可用"
 
 #: src/launcher/ui/MainWindow.cpp:1699
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
-msgstr ""
+msgstr "新版本 (%1) 可用，但此模組包不支援自動更新。請從 CurseForge 手動下載更新。"
 
 #: src/launcher/ui/MainWindow.cpp:1744
 msgctxt "MainWindow|"
@@ -4164,12 +4159,12 @@ msgstr "安裝"
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:673
 msgctxt "ModDownloadPage|"
 msgid "Installed"
-msgstr ""
+msgstr "已安裝"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:619
 msgctxt "ModDownloadPage|"
 msgid "Update"
-msgstr ""
+msgstr "更新"
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:667
 msgctxt "ModDownloadPage|"
@@ -4480,83 +4475,83 @@ msgstr "無法建立自訂的 Minecraft.jar 檔。"
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:18
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Select Modpack Version"
-msgstr ""
+msgstr "選擇模組包版本"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:40
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Version Name"
-msgstr ""
+msgstr "版本名稱"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:41
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Minecraft"
-msgstr ""
+msgstr "Minecraft"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:42
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "ModLoader"
-msgstr ""
+msgstr "模組載入器"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:43
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Release Type"
-msgstr ""
+msgstr "發行類型"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:44
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "File Size"
-msgstr ""
+msgstr "檔案大小"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:45
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Upload Date"
-msgstr ""
+msgstr "上傳日期"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:65
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Select a version to view changelog"
-msgstr ""
+msgstr "選擇一個版本以查看更新日誌"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:222
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:236
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Unknown"
-msgstr ""
+msgstr "未知"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:230
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Release"
-msgstr ""
+msgstr "正式版"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:232
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Beta"
-msgstr ""
+msgstr "Beta 版"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:234
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "Alpha"
-msgstr ""
+msgstr "Alpha 版"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:286
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>Loading changelog...</i>"
-msgstr ""
+msgstr "<i>正在載入更新日誌…</i>"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:315
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>Failed to load changelog.</i>"
-msgstr ""
+msgstr "<i>載入更新日誌失敗。</i>"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:327
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>Failed to parse changelog.</i>"
-msgstr ""
+msgstr "<i>無法分析更新日誌。</i>"
 
 #: src/launcher/ui/dialogs/ModpackUpdateVersionSelectDialog.cpp:335
 msgctxt "ModpackUpdateVersionSelectDialog|"
 msgid "<i>No changelog available.</i>"
-msgstr ""
+msgstr "<i>沒有可用的更新日誌。</i>"
 
 #: src/launcher/ui/pages/modplatform/modpacksch/MCHFilterModel.cpp:29
 msgctxt "ModpacksCH::FilterModel|"
@@ -5019,7 +5014,7 @@ msgstr "重新載入"
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:136
 msgctxt "OtherLogsPage|"
 msgid "Analyze crash log with AI"
-msgstr ""
+msgstr "使用 AI 分析當機記錄"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:139
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
@@ -5027,7 +5022,7 @@ msgstr ""
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
 msgctxt "OtherLogsPage|"
 msgid "AI Analysis"
-msgstr ""
+msgstr "AI 分析"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:150
 msgctxt "OtherLogsPage|"
@@ -5120,22 +5115,22 @@ msgstr "部分檔案無法被刪除：\n"
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
 msgctxt "OtherLogsPage|"
 msgid "No log content to analyze."
-msgstr ""
+msgstr "沒有可分析的記錄內容。"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
 msgctxt "OtherLogsPage|"
 msgid "Please configure AI model in Settings > AI Analysis"
-msgstr ""
+msgstr "請在設定 > AI 分析中設定 AI 模型"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
 msgctxt "OtherLogsPage|"
 msgid "Selected AI model not found. Please check Settings > AI Analysis"
-msgstr ""
+msgstr "找不到選取的 AI 模型。請檢查設定 > AI 分析"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:408
 msgctxt "OtherLogsPage|"
 msgid "AI Analysis Error"
-msgstr ""
+msgstr "AI 分析錯誤"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -6383,7 +6378,7 @@ msgstr "原版"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:42
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
-msgstr ""
+msgstr "Minecraft 26.1 Snapshot 1 及以上版本需要使用 Java 25"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
@@ -6393,17 +6388,17 @@ msgstr "Minecraft 24w14a and above require the use of Java 21"
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
-msgstr ""
+msgstr "從 1.18 Pre Release 2 到 24w13a 的 Minecraft 需要使用 Java 17"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
-msgstr ""
+msgstr "Minecraft 21w19a 到 1.18 Pre Release 1 需要使用 Java 16"
 
 #: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
-msgstr ""
+msgstr "Minecraft 17w13a 到 21w18a 需要使用 Java 8"
 
 #: src/launcher/ui/widgets/VersionListView.cpp:26
 msgctxt "VersionListView|"
