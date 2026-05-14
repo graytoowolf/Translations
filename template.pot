@@ -87,11 +87,6 @@ msgctxt "AIModelPage|"
 msgid "API URL:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.ui:102
-msgctxt "AIModelPage|"
-msgid "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-msgstr ""
-
 #: src/launcher/ui/pages/global/AIModelPage.ui:109
 msgctxt "AIModelPage|"
 msgid "API Key:"
