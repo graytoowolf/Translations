@@ -1415,7 +1415,7 @@ msgstr ""
 
 #: src/launcher/ExportInstanceTask.cpp:19
 msgctxt "ExportInstanceTask|"
-msgid "Scanning files..."
+msgid "Scanning instance files..."
 msgstr ""
 
 #: src/launcher/ExportInstanceTask.cpp:50
@@ -1426,7 +1426,7 @@ msgstr ""
 #: src/launcher/ExportInstanceTask.cpp:187
 #, qt-format
 msgctxt "ExportInstanceTask|"
-msgid "Compressing %1"
+msgid "Packing %1"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ExternalToolsPage.ui:59
