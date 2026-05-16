@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Turkish\n"
 "Language: tr_TR\n"
-"PO-Revision-Date: 2026-05-14 14:56\n"
+"PO-Revision-Date: 2026-05-16 17:32\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -41,33 +41,38 @@ msgctxt "AIAnalyzer|"
 msgid "Please configure AI model in Settings > AI Analysis"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:455
+#: src/launcher/ai/AIAnalyzer.cpp:454
 msgctxt "AIAnalyzer|"
 msgid "Request was canceled"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:480
+#: src/launcher/ai/AIAnalyzer.cpp:466
+msgctxt "AIAnalyzer|"
+msgid "Authentication failed (HTTP 401)"
+msgstr ""
+
+#: src/launcher/ai/AIAnalyzer.cpp:519
 msgctxt "AIAnalyzer|"
 msgid "API rate limit exceeded. Please try again later."
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:488
+#: src/launcher/ai/AIAnalyzer.cpp:527
 #, qt-format
 msgctxt "AIAnalyzer|"
 msgid "API request failed (HTTP %1)"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:519
+#: src/launcher/ai/AIAnalyzer.cpp:558
 msgctxt "AIAnalyzer|"
 msgid "Failed to parse AI response"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:527
+#: src/launcher/ai/AIAnalyzer.cpp:566
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty response"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:537
+#: src/launcher/ai/AIAnalyzer.cpp:576
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty content"
 msgstr ""
@@ -123,25 +128,25 @@ msgid "Enter custom model ID"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:156
-#: src/launcher/ui/pages/global/AIModelPage.cpp:460
-#: src/launcher/ui/pages/global/AIModelPage.cpp:513
-#: src/launcher/ui/pages/global/AIModelPage.cpp:521
-#: src/launcher/ui/pages/global/AIModelPage.cpp:532
-#: src/launcher/ui/pages/global/AIModelPage.cpp:577
-#: src/launcher/ui/pages/global/AIModelPage.cpp:583
-#: src/launcher/ui/pages/global/AIModelPage.cpp:595
-#: src/launcher/ui/pages/global/AIModelPage.cpp:598
+#: src/launcher/ui/pages/global/AIModelPage.cpp:458
+#: src/launcher/ui/pages/global/AIModelPage.cpp:511
+#: src/launcher/ui/pages/global/AIModelPage.cpp:519
+#: src/launcher/ui/pages/global/AIModelPage.cpp:530
+#: src/launcher/ui/pages/global/AIModelPage.cpp:575
+#: src/launcher/ui/pages/global/AIModelPage.cpp:581
+#: src/launcher/ui/pages/global/AIModelPage.cpp:593
+#: src/launcher/ui/pages/global/AIModelPage.cpp:596
 msgctxt "AIModelPage|"
 msgid "Fetch Models"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:163
-#: src/launcher/ui/pages/global/AIModelPage.cpp:250
-#: src/launcher/ui/pages/global/AIModelPage.cpp:304
-#: src/launcher/ui/pages/global/AIModelPage.cpp:317
-#: src/launcher/ui/pages/global/AIModelPage.cpp:325
-#: src/launcher/ui/pages/global/AIModelPage.cpp:337
-#: src/launcher/ui/pages/global/AIModelPage.cpp:341
+#: src/launcher/ui/pages/global/AIModelPage.cpp:248
+#: src/launcher/ui/pages/global/AIModelPage.cpp:302
+#: src/launcher/ui/pages/global/AIModelPage.cpp:315
+#: src/launcher/ui/pages/global/AIModelPage.cpp:323
+#: src/launcher/ui/pages/global/AIModelPage.cpp:335
+#: src/launcher/ui/pages/global/AIModelPage.cpp:339
 msgctxt "AIModelPage|"
 msgid "Test Connection"
 msgstr ""
@@ -151,97 +156,97 @@ msgctxt "AIModelPage|"
 msgid "Default Model"
 msgstr ""
 
+#: src/launcher/ui/pages/global/AIModelPage.h:26
+msgctxt "AIModelPage|"
+msgid "AI Analysis"
+msgstr ""
+
 #: src/launcher/ui/pages/global/AIModelPage.cpp:17
 msgctxt "AIModelPage|"
 msgid "Custom Model..."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:82
-#: src/launcher/ui/pages/global/AIModelPage.cpp:143
-#: src/launcher/ui/pages/global/AIModelPage.cpp:189
+#: src/launcher/ui/pages/global/AIModelPage.cpp:80
+#: src/launcher/ui/pages/global/AIModelPage.cpp:141
+#: src/launcher/ui/pages/global/AIModelPage.cpp:187
 msgctxt "AIModelPage|"
 msgid "New Model"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:237
+#: src/launcher/ui/pages/global/AIModelPage.cpp:235
 msgctxt "AIModelPage|"
 msgid "Testing"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:251
+#: src/launcher/ui/pages/global/AIModelPage.cpp:249
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key before testing."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:317
+#: src/launcher/ui/pages/global/AIModelPage.cpp:315
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:325
+#: src/launcher/ui/pages/global/AIModelPage.cpp:323
 msgctxt "AIModelPage|"
 msgid "Authentication failed: Invalid API Key."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:332
+#: src/launcher/ui/pages/global/AIModelPage.cpp:330
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed (HTTP %1)"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:341
+#: src/launcher/ui/pages/global/AIModelPage.cpp:339
 msgctxt "AIModelPage|"
 msgid "Connection successful! API URL and Key are valid."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:364
+#: src/launcher/ui/pages/global/AIModelPage.cpp:362
 msgctxt "AIModelPage|"
 msgid "Enter model ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:461
+#: src/launcher/ui/pages/global/AIModelPage.cpp:459
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key first."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:473
+#: src/launcher/ui/pages/global/AIModelPage.cpp:471
 msgctxt "AIModelPage|"
 msgid "Fetching..."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:522
+#: src/launcher/ui/pages/global/AIModelPage.cpp:520
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to fetch models: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:533
+#: src/launcher/ui/pages/global/AIModelPage.cpp:531
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to parse response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:578
+#: src/launcher/ui/pages/global/AIModelPage.cpp:576
 msgctxt "AIModelPage|"
 msgid "No models found. You can enter a custom model ID."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:584
+#: src/launcher/ui/pages/global/AIModelPage.cpp:582
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Successfully fetched %1 model(s)."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:599
+#: src/launcher/ui/pages/global/AIModelPage.cpp:597
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Network error: %1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.h:27
-msgctxt "AIModelPage|"
-msgid "AI Analysis"
 msgstr ""
 
 #: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
@@ -595,11 +600,6 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Hesaplar"
-
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -625,6 +625,11 @@ msgstr "Mevcut skin silinemedi!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
+
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Hesaplar"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -1032,6 +1037,11 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -1083,11 +1093,6 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:102
 msgctxt "CFPage|"
 msgid " by "
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
-msgctxt "CFPage|"
-msgid "CurseForge"
 msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
@@ -2105,6 +2110,11 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Tek oyunculu dünya:"
 
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Ayarlar"
+
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -2114,11 +2124,6 @@ msgstr "Bir Java sürümü seç"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Çalıştırılabilir Java'yı bul"
-
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Ayarlar"
 
 #: src/launcher/InstanceList.cpp:844
 msgctxt "InstanceStaging|"
@@ -4262,6 +4267,11 @@ msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
 msgstr ""
 
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
+msgctxt "ModFilterPage|"
+msgid "Mod Lists"
+msgstr ""
+
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:147
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:375
 msgctxt "ModFilterPage|"
@@ -4319,11 +4329,6 @@ msgstr ""
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
-msgstr ""
-
-#: src/launcher/ui/pages/global/ModFilterPage.h:37
-msgctxt "ModFilterPage|"
-msgid "Mod Lists"
 msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:506
@@ -4801,6 +4806,11 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "Seçili sürüm:"
 
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4835,11 +4845,6 @@ msgstr "Modrinth mod paketi detayları edinilemedi..."
 msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "Yükleniyor..."
-
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr ""
 
 #: src/launcher/net/NetJob.cpp:130
 #, qt-format
@@ -5020,11 +5025,6 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Ara:"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Diğer sistem kayıtları"
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
@@ -5122,6 +5122,11 @@ msgstr ""
 msgctxt "OtherLogsPage|"
 msgid "AI Analysis Error"
 msgstr ""
+
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Diğer sistem kayıtları"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -5369,35 +5374,17 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Vekil Sunucu"
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/meta/BaseEntity.cpp:118
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Dizin yolu boş"
+msgid "Download of meta file %1"
+msgstr "Meta dosyası indirmesi: %1"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Böyle bir dizin yolu yok"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Bu dizin yolu, MCEdit dizin yolu gibi görünmüyor"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Boş dizin yolu"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Geçersiz JVisualVM dizin yolu"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Geçersiz JProfiler yükelemesi"
+msgid "Unknown format version!"
+msgstr "Bilinmeyen format sürümü!"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5442,158 +5429,6 @@ msgstr "Geriye dönme de başarısız.\n"
 "%1'yi elle onarmak zorundasınız.\n"
 "Lütfen bunun neden ve nasıl olduğunu bize anlatın."
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Belirlenmiş dosya ya yok ya da düzgün çalıştırılabilir halde değil."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Belirlenmiş Java konumu düzgün başlatılamadı.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Belirlenmiş Java konumu beklenmedik sonuçlar gönderdi:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java testi başarılı!<br />Rapor edilen platform: %1<br />Rapor edilen Java sürümü: %2<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java testi başarısız"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java testi başarılı"
-
-#: src/launcher/ui/MainWindow.cpp:107
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (kullanımda)"
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr "Açık"
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr "Karanlık"
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr "Sistem"
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft Sunucusu"
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "FTB Uygulama profilinde tanım eksik."
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr "Yükleme başarısız oldu"
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr "Sistem kayıt dosyası çok büyük. Dosyayı elle olarak yüklemeniz gerekecek."
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr "Yükleme tamamlandı"
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr "<a href=\"%1\">Yüklenmiş sistem kaydına giden bağlantı</a> panoya kopyalandı."
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid "<p>There are no code changes between your current version and the latest.</p>"
-msgstr "<p>Mevcut sürüm ile en son arasında kod değişikliği yok.</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Alttaki commit'ler en son güncellemeyle eklenenler:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
-msgstr "<p>Bu güncelleme %1 commit'lerini kaldıracak ve %2 commit'lerini ekleyecektir:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Değişikliklere <a href=\"%1\">GitHub'tan</a> bakabilirsiniz..</p>"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Orijinal Yazar"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Bakım Görevlisi"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patronlar"
-
-#: src/launcher/meta/BaseEntity.cpp:118
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Meta dosyası indirmesi: %1"
-
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Bilinmeyen format sürümü!"
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1d %2sn"
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1s %2d"
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1g %2s %d"
-
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
@@ -5626,26 +5461,216 @@ msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr "<br />Uyarılar:<br /><font color=\"orange\">%1</font>"
 
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr "Java testi başarılı"
+
 #: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
 msgstr "Belirlenmiş Java konumu, sağladığınız değişkenlerle çalışmadı:<br />"
+
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+msgctxt "QObject|"
+msgid "Java test failure"
+msgstr "Java testi başarısız"
 
 #: src/launcher/JavaCommon.cpp:62
 msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Belirlenmiş Java konumu çalışmadı.<br />Daha iyi sonuçlar için otomatik bulma özelliğini kullanabilir veya Java programına dizin yolu ayarlayın.<br />"
 
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Belirlenmiş dosya ya yok ya da düzgün çalıştırılabilir halde değil."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Belirlenmiş Java konumu düzgün başlatılamadı.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Belirlenmiş Java konumu beklenmedik sonuçlar gönderdi:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Java testi başarılı!<br />Rapor edilen platform: %1<br />Rapor edilen Java sürümü: %2<br />"
+
+#: src/launcher/ui/MainWindow.cpp:107
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr "%1 (kullanımda)"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Orijinal Yazar"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Bakım Görevlisi"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patronlar"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Alttaki commit'ler en son güncellemeyle eklenenler:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Değişikliklere <a href=\"%1\">GitHub'tan</a> bakabilirsiniz..</p>"
+
+#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr "Yükleme başarısız oldu"
+
+#: src/launcher/ui/GuiUtil.cpp:39
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr "Sistem kayıt dosyası çok büyük. Dosyayı elle olarak yüklemeniz gerekecek."
+
+#: src/launcher/ui/GuiUtil.cpp:60
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr "Yükleme tamamlandı"
+
+#: src/launcher/ui/GuiUtil.cpp:61
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr "<a href=\"%1\">Yüklenmiş sistem kaydına giden bağlantı</a> panoya kopyalandı."
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "Karanlık"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "Açık"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistem"
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr "Minecraft Sunucusu"
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr "FTB Uygulama profilinde tanım eksik."
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr "%1d %2sn"
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr "%1s %2d"
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr "%1g %2s %d"
+
 #: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
 msgid "Patch is not loaded yet."
 msgstr "Yama henüz yüklenmemiş."
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments bilinmeyen (%1) değerine atanmış"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Bu sürüm için 'minimumLauncherVersion' değeri (%1) %3'nin desteklediğinden (%2) daha fazla. Sürüm düzgün çalışmayabilir!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Kitaplık %1 ismi bozuk ve işlenemiyor."
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "%1 için varlıklar"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Geçersiz bileşen dosya sürümü, %1 bekleniyor"
 
 #: src/launcher/minecraft/auth/AccountData.cpp:440
 #, qt-format
 msgctxt "QObject|"
 msgid "No profile (%1)"
 msgstr "Profil yok (%1)"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Geçersiz dosya sürümü, beklenen %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Sürüm dosyası %1 açılamadı: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Sürüm dosyası %1 işlenemiyor: %2, %3 'üncü satır %4 'inci sütun."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Sürüm dosyası işlenemiyor %1."
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -5682,60 +5707,35 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "Sürüm dosyası desteklenmeyen element içeriyor: '+minecraftArguments'"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments bilinmeyen (%1) değerine atanmış"
+msgid "Path is empty"
+msgstr "Dizin yolu boş"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Bu sürüm için 'minimumLauncherVersion' değeri (%1) %3'nin desteklediğinden (%2) daha fazla. Sürüm düzgün çalışmayabilir!"
+msgid "Path does not exist"
+msgstr "Böyle bir dizin yolu yok"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Kitaplık %1 ismi bozuk ve işlenemiyor."
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Bu dizin yolu, MCEdit dizin yolu gibi görünmüyor"
 
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Geçersiz bileşen dosya sürümü, %1 bekleniyor"
+msgid "Empty path"
+msgstr "Boş dizin yolu"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1 için varlıklar"
+msgid "Invalid JProfiler install"
+msgstr "Geçersiz JProfiler yükelemesi"
 
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Geçersiz dosya sürümü, beklenen %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Sürüm dosyası %1 açılamadı: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Sürüm dosyası %1 işlenemiyor: %2, %3 'üncü satır %4 'inci sütun."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Sürüm dosyası işlenemiyor %1."
+msgid "Invalid path to JVisualVM"
+msgstr "Geçersiz JVisualVM dizin yolu"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5940,15 +5940,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Katıl"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "Sunucular"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:605
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "İçerik menüsü"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Sunucular"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
 msgctxt "SetupWizard|"
@@ -6201,15 +6201,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Ara"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr " tarafından "
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
 msgctxt "TechnicPage|"
 msgid "Technic"
 msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
+msgctxt "TechnicPage|"
+msgid " by "
+msgstr " tarafından "
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -6294,27 +6294,27 @@ msgctxt "UpdateDialog|"
 msgid "Don't update yet"
 msgstr "Şimdilik güncelleme"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:16
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:15
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
 msgstr "Yeni güncelleme var!"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:20
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:19
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
 msgstr "Güncelleme bulunamamıştır. En son versiyonu çalıştırıyorsunuz."
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:22
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:21
 msgctxt "UpdateDialog|"
 msgid "Close"
 msgstr "Kapat"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:24
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
 msgstr "<center><h1>Değişiklik listesi yükleniyor...</h1></center>"
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:154
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:112
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
@@ -6600,11 +6600,6 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "Sürüm"
-
 #: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -6774,6 +6769,11 @@ msgstr "LiteLoader sürüm listesi yüklenemedi ya da indirilemedi!"
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Profil güncellemede hata"
+
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "Sürüm"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
@@ -7005,6 +7005,11 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Dünyanın içindeki veri paketlerini yönet."
 
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Dünyalar"
+
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -7085,11 +7090,6 @@ msgstr "Kopya için yeni bir isim girin."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Yeni bir dünya adı yazın."
-
-#: src/launcher/ui/pages/instance/WorldListPage.h:44
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Dünyalar"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
