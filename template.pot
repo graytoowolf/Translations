@@ -31,33 +31,38 @@ msgctxt "AIAnalyzer|"
 msgid "Please configure AI model in Settings > AI Analysis"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:455
+#: src/launcher/ai/AIAnalyzer.cpp:454
 msgctxt "AIAnalyzer|"
 msgid "Request was canceled"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:480
+#: src/launcher/ai/AIAnalyzer.cpp:466
+msgctxt "AIAnalyzer|"
+msgid "Authentication failed (HTTP 401)"
+msgstr ""
+
+#: src/launcher/ai/AIAnalyzer.cpp:519
 msgctxt "AIAnalyzer|"
 msgid "API rate limit exceeded. Please try again later."
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:488
+#: src/launcher/ai/AIAnalyzer.cpp:527
 #, qt-format
 msgctxt "AIAnalyzer|"
 msgid "API request failed (HTTP %1)"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:519
+#: src/launcher/ai/AIAnalyzer.cpp:558
 msgctxt "AIAnalyzer|"
 msgid "Failed to parse AI response"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:527
+#: src/launcher/ai/AIAnalyzer.cpp:566
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty response"
 msgstr ""
 
-#: src/launcher/ai/AIAnalyzer.cpp:537
+#: src/launcher/ai/AIAnalyzer.cpp:576
 msgctxt "AIAnalyzer|"
 msgid "AI returned empty content"
 msgstr ""
@@ -113,25 +118,25 @@ msgid "Enter custom model ID"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:156
-#: src/launcher/ui/pages/global/AIModelPage.cpp:460
-#: src/launcher/ui/pages/global/AIModelPage.cpp:513
-#: src/launcher/ui/pages/global/AIModelPage.cpp:521
-#: src/launcher/ui/pages/global/AIModelPage.cpp:532
-#: src/launcher/ui/pages/global/AIModelPage.cpp:577
-#: src/launcher/ui/pages/global/AIModelPage.cpp:583
-#: src/launcher/ui/pages/global/AIModelPage.cpp:595
-#: src/launcher/ui/pages/global/AIModelPage.cpp:598
+#: src/launcher/ui/pages/global/AIModelPage.cpp:458
+#: src/launcher/ui/pages/global/AIModelPage.cpp:511
+#: src/launcher/ui/pages/global/AIModelPage.cpp:519
+#: src/launcher/ui/pages/global/AIModelPage.cpp:530
+#: src/launcher/ui/pages/global/AIModelPage.cpp:575
+#: src/launcher/ui/pages/global/AIModelPage.cpp:581
+#: src/launcher/ui/pages/global/AIModelPage.cpp:593
+#: src/launcher/ui/pages/global/AIModelPage.cpp:596
 msgctxt "AIModelPage|"
 msgid "Fetch Models"
 msgstr ""
 
 #: src/launcher/ui/pages/global/AIModelPage.ui:163
-#: src/launcher/ui/pages/global/AIModelPage.cpp:250
-#: src/launcher/ui/pages/global/AIModelPage.cpp:304
-#: src/launcher/ui/pages/global/AIModelPage.cpp:317
-#: src/launcher/ui/pages/global/AIModelPage.cpp:325
-#: src/launcher/ui/pages/global/AIModelPage.cpp:337
-#: src/launcher/ui/pages/global/AIModelPage.cpp:341
+#: src/launcher/ui/pages/global/AIModelPage.cpp:248
+#: src/launcher/ui/pages/global/AIModelPage.cpp:302
+#: src/launcher/ui/pages/global/AIModelPage.cpp:315
+#: src/launcher/ui/pages/global/AIModelPage.cpp:323
+#: src/launcher/ui/pages/global/AIModelPage.cpp:335
+#: src/launcher/ui/pages/global/AIModelPage.cpp:339
 msgctxt "AIModelPage|"
 msgid "Test Connection"
 msgstr ""
@@ -141,7 +146,7 @@ msgctxt "AIModelPage|"
 msgid "Default Model"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.h:27
+#: src/launcher/ui/pages/global/AIModelPage.h:26
 msgctxt "AIModelPage|"
 msgid "AI Analysis"
 msgstr ""
@@ -151,84 +156,84 @@ msgctxt "AIModelPage|"
 msgid "Custom Model..."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:82
-#: src/launcher/ui/pages/global/AIModelPage.cpp:143
-#: src/launcher/ui/pages/global/AIModelPage.cpp:189
+#: src/launcher/ui/pages/global/AIModelPage.cpp:80
+#: src/launcher/ui/pages/global/AIModelPage.cpp:141
+#: src/launcher/ui/pages/global/AIModelPage.cpp:187
 msgctxt "AIModelPage|"
 msgid "New Model"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:237
+#: src/launcher/ui/pages/global/AIModelPage.cpp:235
 msgctxt "AIModelPage|"
 msgid "Testing"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:251
+#: src/launcher/ui/pages/global/AIModelPage.cpp:249
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key before testing."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:317
+#: src/launcher/ui/pages/global/AIModelPage.cpp:315
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:325
+#: src/launcher/ui/pages/global/AIModelPage.cpp:323
 msgctxt "AIModelPage|"
 msgid "Authentication failed: Invalid API Key."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:332
+#: src/launcher/ui/pages/global/AIModelPage.cpp:330
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Connection failed (HTTP %1)"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:341
+#: src/launcher/ui/pages/global/AIModelPage.cpp:339
 msgctxt "AIModelPage|"
 msgid "Connection successful! API URL and Key are valid."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:364
+#: src/launcher/ui/pages/global/AIModelPage.cpp:362
 msgctxt "AIModelPage|"
 msgid "Enter model ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:461
+#: src/launcher/ui/pages/global/AIModelPage.cpp:459
 msgctxt "AIModelPage|"
 msgid "Please fill in API URL and API Key first."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:473
+#: src/launcher/ui/pages/global/AIModelPage.cpp:471
 msgctxt "AIModelPage|"
 msgid "Fetching..."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:522
+#: src/launcher/ui/pages/global/AIModelPage.cpp:520
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to fetch models: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:533
+#: src/launcher/ui/pages/global/AIModelPage.cpp:531
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Failed to parse response: %1"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:578
+#: src/launcher/ui/pages/global/AIModelPage.cpp:576
 msgctxt "AIModelPage|"
 msgid "No models found. You can enter a custom model ID."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:584
+#: src/launcher/ui/pages/global/AIModelPage.cpp:582
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Successfully fetched %1 model(s)."
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.cpp:599
+#: src/launcher/ui/pages/global/AIModelPage.cpp:597
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Network error: %1"
@@ -5666,24 +5671,20 @@ msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:111
-msgctxt "QObject|"
-msgid ""
-"<p>There are no code changes between your current version and the latest.</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:115
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
 msgctxt "QObject|"
 msgid "<p>Following commits were added since last update:</p>"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:122
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
 #, qt-format
 msgctxt "QObject|"
-msgid "<p>The update removes %1 commits and adds the following %2:</p>"
+msgid ""
+"<p>Your version is too old, the changelog may be incomplete. Showing the "
+"latest %1 commits:</p>"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:125
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
 #, qt-format
 msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
@@ -6457,27 +6458,27 @@ msgctxt "UpdateDialog|"
 msgid "Don't update yet"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:16
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:15
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:20
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:19
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:22
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:21
 msgctxt "UpdateDialog|"
 msgid "Close"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:24
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:23
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:154
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:112
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid ""
