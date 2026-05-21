@@ -1839,7 +1839,7 @@ msgid "Modpack download"
 msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:104
-#: src/launcher/InstanceImportTask.cpp:277
+#: src/launcher/InstanceImportTask.cpp:278
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr ""
@@ -1855,34 +1855,34 @@ msgid "Unable to open supplied modpack zip file."
 msgstr ""
 
 #: src/launcher/InstanceImportTask.cpp:180
-#: src/launcher/InstanceImportTask.cpp:270
+#: src/launcher/InstanceImportTask.cpp:271
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:219
+#: src/launcher/InstanceImportTask.cpp:220
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:246
+#: src/launcher/InstanceImportTask.cpp:247
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:297
+#: src/launcher/InstanceImportTask.cpp:298
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:308
-#: src/launcher/InstanceImportTask.cpp:853
+#: src/launcher/InstanceImportTask.cpp:309
+#: src/launcher/InstanceImportTask.cpp:854
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:314
+#: src/launcher/InstanceImportTask.cpp:315
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1890,72 +1890,72 @@ msgid ""
 "already used before?"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:342
+#: src/launcher/InstanceImportTask.cpp:343
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:355
+#: src/launcher/InstanceImportTask.cpp:356
 msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:371
+#: src/launcher/InstanceImportTask.cpp:372
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:449
-#: src/launcher/InstanceImportTask.cpp:904
+#: src/launcher/InstanceImportTask.cpp:450
+#: src/launcher/InstanceImportTask.cpp:905
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:469
+#: src/launcher/InstanceImportTask.cpp:470
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:485
+#: src/launcher/InstanceImportTask.cpp:486
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:490
+#: src/launcher/InstanceImportTask.cpp:491
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:520
-#: src/launcher/InstanceImportTask.cpp:923
+#: src/launcher/InstanceImportTask.cpp:521
+#: src/launcher/InstanceImportTask.cpp:924
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:533
+#: src/launcher/InstanceImportTask.cpp:534
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:844
+#: src/launcher/InstanceImportTask.cpp:845
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:861
-#: src/launcher/InstanceImportTask.cpp:867
+#: src/launcher/InstanceImportTask.cpp:862
+#: src/launcher/InstanceImportTask.cpp:868
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr ""
 
-#: src/launcher/InstanceList.cpp:164
+#: src/launcher/InstanceList.cpp:171
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -2167,7 +2167,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr ""
 
-#: src/launcher/InstanceList.cpp:844
+#: src/launcher/InstanceList.cpp:851
 msgctxt "InstanceStaging|"
 msgid ""
 "Failed to commit instance, even after multiple retries. It is being blocked "
