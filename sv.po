@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Swedish\n"
 "Language: sv_SE\n"
-"PO-Revision-Date: 2026-05-16 17:32\n"
+"PO-Revision-Date: 2026-05-22 14:16\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -1785,132 +1785,132 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "Skapar instans från version %1"
 
-#: src/launcher/InstanceImportTask.cpp:60
+#: src/launcher/InstanceImportTask.cpp:72
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
 msgstr "Laddar ned modpack: %1"
 
-#: src/launcher/InstanceImportTask.cpp:66
+#: src/launcher/InstanceImportTask.cpp:78
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Modpacknedladdning"
 
-#: src/launcher/InstanceImportTask.cpp:95
-#: src/launcher/InstanceImportTask.cpp:244
+#: src/launcher/InstanceImportTask.cpp:107
+#: src/launcher/InstanceImportTask.cpp:281
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Instansimporteringen har avbrutits."
 
-#: src/launcher/InstanceImportTask.cpp:118
+#: src/launcher/InstanceImportTask.cpp:130
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Extraherar modpack"
 
-#: src/launcher/InstanceImportTask.cpp:126
+#: src/launcher/InstanceImportTask.cpp:138
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Misslyckades att öppna medföljande modpack-zipfil."
 
-#: src/launcher/InstanceImportTask.cpp:171
-#: src/launcher/InstanceImportTask.cpp:237
+#: src/launcher/InstanceImportTask.cpp:183
+#: src/launcher/InstanceImportTask.cpp:274
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Arkivet innehåller inte en igenkänd modpacktyp."
 
-#: src/launcher/InstanceImportTask.cpp:186
+#: src/launcher/InstanceImportTask.cpp:223
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Misslyckades att extrahera modpacket"
 
-#: src/launcher/InstanceImportTask.cpp:213
+#: src/launcher/InstanceImportTask.cpp:250
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Kunde inte fixa tillåtelser för %1"
 
-#: src/launcher/InstanceImportTask.cpp:264
+#: src/launcher/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Kunde inte förstå paketets manifest:\n"
 
-#: src/launcher/InstanceImportTask.cpp:275
-#: src/launcher/InstanceImportTask.cpp:735
+#: src/launcher/InstanceImportTask.cpp:312
+#: src/launcher/InstanceImportTask.cpp:886
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Kunde inte ändra namn på överskrivningsmappen:\n"
 
-#: src/launcher/InstanceImportTask.cpp:281
+#: src/launcher/InstanceImportTask.cpp:318
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "Den angivna åsidosättningsmappen (%1) saknas. Kanske användes modpacket redan innan?"
 
-#: src/launcher/InstanceImportTask.cpp:309
+#: src/launcher/InstanceImportTask.cpp:346
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Okänd mod lastare i manifest: %1"
 
-#: src/launcher/InstanceImportTask.cpp:322
+#: src/launcher/InstanceImportTask.cpp:359
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "Mystiska efterföljande punkter har tagits bort från Minecraft-versionen vid import av paket."
 
-#: src/launcher/InstanceImportTask.cpp:338
+#: src/launcher/InstanceImportTask.cpp:375
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Kunde inte mappa rekommenderad smedsversion för Minecraft %1"
 
-#: src/launcher/InstanceImportTask.cpp:410
-#: src/launcher/InstanceImportTask.cpp:778
+#: src/launcher/InstanceImportTask.cpp:454
+#: src/launcher/InstanceImportTask.cpp:937
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Modnedladdning"
 
-#: src/launcher/InstanceImportTask.cpp:430
+#: src/launcher/InstanceImportTask.cpp:474
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Denna \"mapp\" kan behöva extraheras: %1"
 
-#: src/launcher/InstanceImportTask.cpp:446
+#: src/launcher/InstanceImportTask.cpp:490
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Täckning av modpacks i modpacks implementeras inte, ingenting hämtades: %1"
 
-#: src/launcher/InstanceImportTask.cpp:451
+#: src/launcher/InstanceImportTask.cpp:495
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Okänd/ohanterad pakettyp för: %1"
 
-#: src/launcher/InstanceImportTask.cpp:481
-#: src/launcher/InstanceImportTask.cpp:797
+#: src/launcher/InstanceImportTask.cpp:525
+#: src/launcher/InstanceImportTask.cpp:956
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Laddar ner mods..."
 
-#: src/launcher/InstanceImportTask.cpp:494
+#: src/launcher/InstanceImportTask.cpp:538
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Det gick inte att lösa mod ID:\n"
 
-#: src/launcher/InstanceImportTask.cpp:726
+#: src/launcher/InstanceImportTask.cpp:877
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Kunde inte förstå packindex:\n"
 
-#: src/launcher/InstanceImportTask.cpp:743
-#: src/launcher/InstanceImportTask.cpp:749
+#: src/launcher/InstanceImportTask.cpp:894
+#: src/launcher/InstanceImportTask.cpp:900
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Kunde inte slå ihop mappen overrides:\n"
 
-#: src/launcher/InstanceList.cpp:164
+#: src/launcher/InstanceList.cpp:170
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -2122,7 +2122,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Hitta Java"
 
-#: src/launcher/InstanceList.cpp:844
+#: src/launcher/InstanceList.cpp:850
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "Kunde inte spara instans, även efter flera försök. Den blockeras av något annat."
@@ -4274,106 +4274,117 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:147
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:375
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:155
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:392
 msgctxt "ModFilterPage|"
 msgid "Success"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:156
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Processed %1 mod(s) for %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:427
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:156
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:393
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:444
 msgctxt "ModFilterPage|"
 msgid "whitelist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:427
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:156
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:393
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:444
 msgctxt "ModFilterPage|"
 msgid "blacklist"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:179
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:163
+msgctxt "ModFilterPage|"
+msgid "Error"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:163
+#, qt-format
+msgctxt "ModFilterPage|"
+msgid "Failed to look up mod fingerprints: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:196
 msgctxt "ModFilterPage|"
 msgid "Project ID"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:179
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:196
 msgctxt "ModFilterPage|"
 msgid "Mod name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:360
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:377
 msgctxt "ModFilterPage|"
 msgid "Information"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:360
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:377
 msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:393
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Attempted to remove %1 mod(s) from %2."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:426
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:443
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "Mapp"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "Fil"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:617
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:647
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "Namn"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:619
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:649
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:621
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:651
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "Senast ändrad"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:630
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:660
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Är modden aktiverad?"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:632
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:662
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "Namnet på modden."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:634
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:664
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "Versionen av modden."
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:636
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:666
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "Datumet och tiden som modden senast ändrades (eller lades till)."
@@ -6237,7 +6248,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "Texturpacket"
 
-#: src/launcher/translations/TranslationsModel.cpp:405
+#: src/launcher/translations/TranslationsModel.cpp:421
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -6249,22 +6260,22 @@ msgstr "%1:\n"
 "%3 oklart\n"
 "%4 totalt"
 
-#: src/launcher/translations/TranslationsModel.cpp:423
+#: src/launcher/translations/TranslationsModel.cpp:439
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "Språk"
 
-#: src/launcher/translations/TranslationsModel.cpp:427
+#: src/launcher/translations/TranslationsModel.cpp:443
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "Fullständighet"
 
-#: src/launcher/translations/TranslationsModel.cpp:437
+#: src/launcher/translations/TranslationsModel.cpp:453
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "Modersmålspråkets namn."
 
-#: src/launcher/translations/TranslationsModel.cpp:441
+#: src/launcher/translations/TranslationsModel.cpp:457
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "Fullständighet är antalet procent av fullt översätta meningar, de som har maskinöversatts automatiskt räknas inte."
