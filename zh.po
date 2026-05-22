@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-05-16 17:32\n"
+"PO-Revision-Date: 2026-05-22 14:16\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -1801,7 +1801,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "正在从版本 %1 创建实例版本列表"
 
-#: src/launcher/InstanceImportTask.cpp:60
+#: src/launcher/InstanceImportTask.cpp:72
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1809,125 +1809,125 @@ msgid "Downloading modpack:\n"
 msgstr "正在下载整合包：\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:66
+#: src/launcher/InstanceImportTask.cpp:78
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "下载整合包"
 
-#: src/launcher/InstanceImportTask.cpp:95
-#: src/launcher/InstanceImportTask.cpp:244
+#: src/launcher/InstanceImportTask.cpp:107
+#: src/launcher/InstanceImportTask.cpp:281
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "实例导入操作被中断。"
 
-#: src/launcher/InstanceImportTask.cpp:118
+#: src/launcher/InstanceImportTask.cpp:130
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "正在解压整合包"
 
-#: src/launcher/InstanceImportTask.cpp:126
+#: src/launcher/InstanceImportTask.cpp:138
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "无法打开提供的整合包 zip 压缩文件。"
 
-#: src/launcher/InstanceImportTask.cpp:171
-#: src/launcher/InstanceImportTask.cpp:237
+#: src/launcher/InstanceImportTask.cpp:183
+#: src/launcher/InstanceImportTask.cpp:274
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "压缩包未包含可识别的整合包类型。"
 
-#: src/launcher/InstanceImportTask.cpp:186
+#: src/launcher/InstanceImportTask.cpp:223
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "解压整合包时失败"
 
-#: src/launcher/InstanceImportTask.cpp:213
+#: src/launcher/InstanceImportTask.cpp:250
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "无法修复 %1 的权限"
 
-#: src/launcher/InstanceImportTask.cpp:264
+#: src/launcher/InstanceImportTask.cpp:301
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "无法理解包清单：\n"
 
-#: src/launcher/InstanceImportTask.cpp:275
-#: src/launcher/InstanceImportTask.cpp:735
+#: src/launcher/InstanceImportTask.cpp:312
+#: src/launcher/InstanceImportTask.cpp:886
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "无法重命名覆盖的目录：\n"
 
-#: src/launcher/InstanceImportTask.cpp:281
+#: src/launcher/InstanceImportTask.cpp:318
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "指定的替代文件夹 (%1) 丢失。也许此前已经使用了modpack吗？"
 
-#: src/launcher/InstanceImportTask.cpp:309
+#: src/launcher/InstanceImportTask.cpp:346
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "清单中的未知模组加载器: %1"
 
-#: src/launcher/InstanceImportTask.cpp:322
+#: src/launcher/InstanceImportTask.cpp:359
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "导入包时从Minecraft版本中删除神秘的尾随点。"
 
-#: src/launcher/InstanceImportTask.cpp:338
+#: src/launcher/InstanceImportTask.cpp:375
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "无法映射推荐的 Minecraft 版本的 %1"
 
-#: src/launcher/InstanceImportTask.cpp:410
-#: src/launcher/InstanceImportTask.cpp:778
+#: src/launcher/InstanceImportTask.cpp:454
+#: src/launcher/InstanceImportTask.cpp:937
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod下载"
 
-#: src/launcher/InstanceImportTask.cpp:430
+#: src/launcher/InstanceImportTask.cpp:474
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "这个“文件夹”可能需要提取： %1"
 
-#: src/launcher/InstanceImportTask.cpp:446
+#: src/launcher/InstanceImportTask.cpp:490
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "未实现modpacks 中嵌套的modpacks ，没有下载任何: %1"
 
-#: src/launcher/InstanceImportTask.cpp:451
+#: src/launcher/InstanceImportTask.cpp:495
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "无法识别/未处理的包类型： %1"
 
-#: src/launcher/InstanceImportTask.cpp:481
-#: src/launcher/InstanceImportTask.cpp:797
+#: src/launcher/InstanceImportTask.cpp:525
+#: src/launcher/InstanceImportTask.cpp:956
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "下载Mod中..."
 
-#: src/launcher/InstanceImportTask.cpp:494
+#: src/launcher/InstanceImportTask.cpp:538
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "无法解析模组 ID:\n"
 
-#: src/launcher/InstanceImportTask.cpp:726
+#: src/launcher/InstanceImportTask.cpp:877
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "无法解析包索引：\n"
 
-#: src/launcher/InstanceImportTask.cpp:743
-#: src/launcher/InstanceImportTask.cpp:749
+#: src/launcher/InstanceImportTask.cpp:894
+#: src/launcher/InstanceImportTask.cpp:900
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "无法合并覆盖的文件夹：\n"
 
-#: src/launcher/InstanceList.cpp:164
+#: src/launcher/InstanceList.cpp:170
 #, qt-format
 msgctxt "InstanceList|"
 msgid "%1 Instance"
@@ -2139,7 +2139,7 @@ msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "寻找Java可执行文件"
 
-#: src/launcher/InstanceList.cpp:844
+#: src/launcher/InstanceList.cpp:850
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr "多次重试后提交实例失败。更新被某因素阻止。"
@@ -4291,59 +4291,70 @@ msgctxt "ModFilterPage|"
 msgid "Mod Lists"
 msgstr "Mod 列表"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:147
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:375
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:155
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:392
 msgctxt "ModFilterPage|"
 msgid "Success"
 msgstr "成功"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:156
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Processed %1 mod(s) for %2."
 msgstr "已处理 %1 个模组，适用于 %2。"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:427
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:156
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:393
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:444
 msgctxt "ModFilterPage|"
 msgid "whitelist"
 msgstr "白名单"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:148
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:427
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:156
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:393
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:444
 msgctxt "ModFilterPage|"
 msgid "blacklist"
 msgstr "黑名单"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:179
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:163
+msgctxt "ModFilterPage|"
+msgid "Error"
+msgstr "错误"
+
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:163
+#, qt-format
+msgctxt "ModFilterPage|"
+msgid "Failed to look up mod fingerprints: %1"
+msgstr "无法查找模组指纹：%1"
+
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:196
 msgctxt "ModFilterPage|"
 msgid "Project ID"
 msgstr "项目 ID"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:179
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:196
 msgctxt "ModFilterPage|"
 msgid "Mod name"
 msgstr "模组名称"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:360
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:377
 msgctxt "ModFilterPage|"
 msgid "Information"
 msgstr "信息"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:360
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:377
 msgctxt "ModFilterPage|"
 msgid "No items selected for removal."
 msgstr "没有选中项供移除。"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:376
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:393
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Attempted to remove %1 mod(s) from %2."
 msgstr "已尝试从 %2 删除 %1 个模组。"
 
-#: src/launcher/ui/pages/global/ModFilterPage.cpp:426
+#: src/launcher/ui/pages/global/ModFilterPage.cpp:443
 #, qt-format
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
@@ -4351,47 +4362,47 @@ msgid "Drag and drop MOD files into the table to add them to %1.\n"
 msgstr "将 MOD 文件拖放到表中以将其添加到 %1。\n"
 "选中您要删除的项，然后单击 \"移除选中MOD\"。"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:506
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "文件夹"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:508
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "文件"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:617
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:647
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "名称"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:619
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:649
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "版本"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:621
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:651
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "最后一次修改"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:630
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:660
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "Mod是否启用？"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:632
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:662
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "模组的名称。"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:634
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:664
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "模组的版本。"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:636
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:666
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "模组最后一次修改（或添加）的日期和时间。"
@@ -6256,7 +6267,7 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr "材质包"
 
-#: src/launcher/translations/TranslationsModel.cpp:405
+#: src/launcher/translations/TranslationsModel.cpp:421
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -6268,22 +6279,22 @@ msgstr "%1：\n"
 "%3 模糊\n"
 "%4 总计"
 
-#: src/launcher/translations/TranslationsModel.cpp:423
+#: src/launcher/translations/TranslationsModel.cpp:439
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr "语言"
 
-#: src/launcher/translations/TranslationsModel.cpp:427
+#: src/launcher/translations/TranslationsModel.cpp:443
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr "完整性"
 
-#: src/launcher/translations/TranslationsModel.cpp:437
+#: src/launcher/translations/TranslationsModel.cpp:453
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr "母语名称。"
 
-#: src/launcher/translations/TranslationsModel.cpp:441
+#: src/launcher/translations/TranslationsModel.cpp:457
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr "完整性是完全翻译字符串所占的百分比，不包括自动猜测的字符串。"
