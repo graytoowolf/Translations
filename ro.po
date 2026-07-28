@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Romanian\n"
 "Language: ro_RO\n"
-"PO-Revision-Date: 2026-05-22 14:15\n"
+"PO-Revision-Date: 2026-07-28 13:11\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -156,11 +156,6 @@ msgctxt "AIModelPage|"
 msgid "Default Model"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AIModelPage.h:26
-msgctxt "AIModelPage|"
-msgid "AI Analysis"
-msgstr ""
-
 #: src/launcher/ui/pages/global/AIModelPage.cpp:17
 msgctxt "AIModelPage|"
 msgid "Custom Model..."
@@ -247,6 +242,11 @@ msgstr ""
 #, qt-format
 msgctxt "AIModelPage|"
 msgid "Network error: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AIModelPage.h:26
+msgctxt "AIModelPage|"
+msgid "AI Analysis"
 msgstr ""
 
 #: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
@@ -600,6 +600,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr "Adăugați un cont de site"
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Conturi"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -625,11 +630,6 @@ msgstr "Ștergerea skinului curent a eșuat!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "Te rugăm să introduci adresa de e-mail și parola pentru contul tău de skin."
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Conturi"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -1407,6 +1407,11 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Editor de text:"
 
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Unelte Externe"
+
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1500,11 +1505,6 @@ msgstr "Nevalid"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "Fișierul ales nu pare să fie o executabila"
-
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Unelte Externe"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:106
 #, qt-format
@@ -1735,6 +1735,11 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "Fișier local sau link către o descărcare directă:"
 
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "Importă din zip"
+
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1744,11 +1749,6 @@ msgstr "Alege modpackul"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr ""
-
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "Importă din zip"
 
 #: src/launcher/meta/Index.cpp:76
 msgctxt "Index|"
@@ -1787,7 +1787,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "Se creează instanță din versiunea %1"
 
-#: src/launcher/InstanceImportTask.cpp:72
+#: src/launcher/InstanceImportTask.cpp:77
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1795,120 +1795,120 @@ msgid "Downloading modpack:\n"
 msgstr "Se descarcă modpackul:\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:78
+#: src/launcher/InstanceImportTask.cpp:83
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "Descărcare modpack"
 
-#: src/launcher/InstanceImportTask.cpp:107
-#: src/launcher/InstanceImportTask.cpp:281
+#: src/launcher/InstanceImportTask.cpp:112
+#: src/launcher/InstanceImportTask.cpp:286
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "Importarea instanței a fost anulata."
 
-#: src/launcher/InstanceImportTask.cpp:130
+#: src/launcher/InstanceImportTask.cpp:135
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "Se extrage modpackul"
 
-#: src/launcher/InstanceImportTask.cpp:138
+#: src/launcher/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "Nu se poate deschide fișierul zip al modpackului furnizat."
 
-#: src/launcher/InstanceImportTask.cpp:183
-#: src/launcher/InstanceImportTask.cpp:274
+#: src/launcher/InstanceImportTask.cpp:188
+#: src/launcher/InstanceImportTask.cpp:279
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "Arhiva nu conţine un tip de modpack recunoscut."
 
-#: src/launcher/InstanceImportTask.cpp:223
+#: src/launcher/InstanceImportTask.cpp:228
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "Extragerea modpackului a eșuat"
 
-#: src/launcher/InstanceImportTask.cpp:250
+#: src/launcher/InstanceImportTask.cpp:255
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "Nu s-au putut repara permisiunile pentru %1"
 
-#: src/launcher/InstanceImportTask.cpp:301
+#: src/launcher/InstanceImportTask.cpp:306
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "Nu s-a putut înțelege manifestul pachetului:\n"
 
-#: src/launcher/InstanceImportTask.cpp:312
-#: src/launcher/InstanceImportTask.cpp:886
+#: src/launcher/InstanceImportTask.cpp:317
+#: src/launcher/InstanceImportTask.cpp:948
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "Nu s-a putut redenumi folderul pentru overrides:\n"
 
-#: src/launcher/InstanceImportTask.cpp:318
+#: src/launcher/InstanceImportTask.cpp:323
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "Directorul de suprascrieri specificat (%1) lipsește. Poate modpack a fost deja folosit înainte?"
 
-#: src/launcher/InstanceImportTask.cpp:346
+#: src/launcher/InstanceImportTask.cpp:351
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "Mod loader necunoscut în manifest: %1"
 
-#: src/launcher/InstanceImportTask.cpp:359
+#: src/launcher/InstanceImportTask.cpp:364
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "Trailing puncte misterioase eliminate din versiunea Minecraft în timp ce se importă pachetul."
 
-#: src/launcher/InstanceImportTask.cpp:375
+#: src/launcher/InstanceImportTask.cpp:380
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "Nu s-a putut mapa versiunea recomandata forge pentru Minecraft %1"
 
-#: src/launcher/InstanceImportTask.cpp:454
-#: src/launcher/InstanceImportTask.cpp:937
+#: src/launcher/InstanceImportTask.cpp:447
+#: src/launcher/InstanceImportTask.cpp:999
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Descărcare mod"
 
-#: src/launcher/InstanceImportTask.cpp:474
+#: src/launcher/InstanceImportTask.cpp:467
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "Acest \"Dosar\" poate avea nevoie de extracție: %1"
 
-#: src/launcher/InstanceImportTask.cpp:490
+#: src/launcher/InstanceImportTask.cpp:483
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "Nesting modpacks in modpacks nu este implementat, nimic nu a fost descărcat: %1"
 
-#: src/launcher/InstanceImportTask.cpp:495
+#: src/launcher/InstanceImportTask.cpp:488
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "Pachet nerecunoscut/nemanipulat pentru: %1"
 
-#: src/launcher/InstanceImportTask.cpp:525
-#: src/launcher/InstanceImportTask.cpp:956
+#: src/launcher/InstanceImportTask.cpp:518
+#: src/launcher/InstanceImportTask.cpp:1018
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "Se descarcă modurile..."
 
-#: src/launcher/InstanceImportTask.cpp:538
+#: src/launcher/InstanceImportTask.cpp:531
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "Imposibil de rezolvat ID-urile modului:\n"
 
-#: src/launcher/InstanceImportTask.cpp:877
+#: src/launcher/InstanceImportTask.cpp:939
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "Nu s-a putut înțelege indexul pachetului:\n"
 
-#: src/launcher/InstanceImportTask.cpp:894
-#: src/launcher/InstanceImportTask.cpp:900
+#: src/launcher/InstanceImportTask.cpp:956
+#: src/launcher/InstanceImportTask.cpp:962
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "Nu s-a putut fuziona folderul suprascrieri:\n"
@@ -2110,11 +2110,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Lumea singleplayerului:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Setări"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -2124,6 +2119,11 @@ msgstr "Selectați o versiune Java"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Găsește executabilul Java"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Setări"
 
 #: src/launcher/InstanceList.cpp:850
 msgctxt "InstanceStaging|"
@@ -2988,11 +2988,6 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Actualizează instanța"
 
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Actualizeaza"
-
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -3008,6 +3003,11 @@ msgstr "Renunță"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (Migrat)"
+
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Actualizeaza"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -3140,11 +3140,6 @@ msgctxt "LogPage|"
 msgid "AI Analysis"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LogPage.h:43
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "Jurnalul Minecraft"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:251
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -3174,6 +3169,11 @@ msgstr ""
 msgctxt "LogPage|"
 msgid "AI Analysis Error"
 msgstr ""
+
+#: src/launcher/ui/pages/instance/LogPage.h:43
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "Jurnalul Minecraft"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3662,8 +3662,8 @@ msgid "No news available."
 msgstr "Nicio noutate."
 
 #: src/launcher/ui/MainWindow.cpp:1366 src/launcher/ui/MainWindow.cpp:1383
-#: src/launcher/ui/MainWindow.cpp:1445 src/launcher/ui/MainWindow.cpp:1732
-#: src/launcher/ui/MainWindow.cpp:1743
+#: src/launcher/ui/MainWindow.cpp:1445 src/launcher/ui/MainWindow.cpp:1701
+#: src/launcher/ui/MainWindow.cpp:1712
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Eroare"
@@ -3681,7 +3681,7 @@ msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "Avertismente"
 
-#: src/launcher/ui/MainWindow.cpp:1454 src/launcher/ui/MainWindow.cpp:1735
+#: src/launcher/ui/MainWindow.cpp:1454 src/launcher/ui/MainWindow.cpp:1704
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "Abandonare"
@@ -3766,7 +3766,7 @@ msgctxt "MainWindow|"
 msgid "Failed to parse update information: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1667
+#: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1637
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "Nici o actualizare"
@@ -3776,67 +3776,66 @@ msgctxt "MainWindow|"
 msgid "No update information available for this modpack."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1668
-#, qt-format
+#: src/launcher/ui/MainWindow.cpp:1638
 msgctxt "MainWindow|"
-msgid "Your modpack is up to date for Minecraft %1. No compatible updates found."
+msgid "Your modpack is up to date. No newer versions found."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1673
+#: src/launcher/ui/MainWindow.cpp:1642
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr "Actualizare disponibilă"
 
-#: src/launcher/ui/MainWindow.cpp:1674
+#: src/launcher/ui/MainWindow.cpp:1643
 msgctxt "MainWindow|"
 msgid "A new update is available for this modpack. Would you like to update now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1698
+#: src/launcher/ui/MainWindow.cpp:1667
 msgctxt "MainWindow|"
 msgid "Update Not Available"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1699
+#: src/launcher/ui/MainWindow.cpp:1668
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1744
+#: src/launcher/ui/MainWindow.cpp:1713
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "Lansatorul nu poate descărca Minecraft sau actualiza instanţele dacă nu ai cel puţin un cont adăugat.\n"
 "Te rugăm să adaugi contul tău Mojang sau Minecraft."
 
-#: src/launcher/ui/MainWindow.cpp:1878
+#: src/launcher/ui/MainWindow.cpp:1847
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "Numele grupului"
 
-#: src/launcher/ui/MainWindow.cpp:1878
+#: src/launcher/ui/MainWindow.cpp:1847
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "Introduceți un nou nume de grup."
 
-#: src/launcher/ui/MainWindow.cpp:1900
+#: src/launcher/ui/MainWindow.cpp:1869
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "Șterge grup"
 
-#: src/launcher/ui/MainWindow.cpp:1900
+#: src/launcher/ui/MainWindow.cpp:1869
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "Sunteţi sigur că doriţi să ştergeţi grupul %1"
 
-#: src/launcher/ui/MainWindow.cpp:2040
+#: src/launcher/ui/MainWindow.cpp:2009
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "CĂREȘTE!"
 
-#: src/launcher/ui/MainWindow.cpp:2041
+#: src/launcher/ui/MainWindow.cpp:2010
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3846,45 +3845,45 @@ msgstr "Urmează să șterge: %1\n"
 "Acest lucru este permanent și va șterge complet instanța.\n\n"
 "Ești sigur?"
 
-#: src/launcher/ui/MainWindow.cpp:2254
+#: src/launcher/ui/MainWindow.cpp:2225
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "Redenumește Instanța"
 
-#: src/launcher/ui/MainWindow.cpp:2267
+#: src/launcher/ui/MainWindow.cpp:2238
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "Dosarul instanței conține '!' și se știe că asta cauzează probleme cu Java!"
 
-#: src/launcher/ui/MainWindow.cpp:2269
+#: src/launcher/ui/MainWindow.cpp:2240
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "Aveți acum două opțiuni: <br/> - schimbați dosarul instanței din setările <br/> - mutați această instalare a %1 într-un alt dosar"
 
-#: src/launcher/ui/MainWindow.cpp:2277
+#: src/launcher/ui/MainWindow.cpp:2248
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr "Aceasta este o problemă: <br/> - Este posibil ca lansatorul să fie șters fără avertisment de către sistemul de operare <br/> - închideți lansatorul acum și extrageți-l într-o locație reală, nu este un dosar temporar"
 
-#: src/launcher/ui/MainWindow.cpp:2284
+#: src/launcher/ui/MainWindow.cpp:2255
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "Dosarul instanței conține 'Rar$' - asta înseamnă că nu ați extras arhiva cu lansatorul!"
 
-#: src/launcher/ui/MainWindow.cpp:2292
+#: src/launcher/ui/MainWindow.cpp:2263
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "Dosarul instanței este într-un dosar temporar: '%1'!"
 
-#: src/launcher/ui/MainWindow.cpp:2308
+#: src/launcher/ui/MainWindow.cpp:2279
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "Timpul total de redare: %1 ore"
 
-#: src/launcher/ui/MainWindow.cpp:2312
+#: src/launcher/ui/MainWindow.cpp:2283
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -4096,11 +4095,6 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
@@ -4221,6 +4215,11 @@ msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
 msgstr ""
 
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
+msgstr ""
+
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
 msgctxt "ModFilterPage|"
 msgid "MainWindow"
@@ -4269,11 +4268,6 @@ msgstr ""
 #: src/launcher/ui/pages/global/ModFilterPage.ui:202
 msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
-msgstr ""
-
-#: src/launcher/ui/pages/global/ModFilterPage.h:37
-msgctxt "ModFilterPage|"
-msgid "Mod Lists"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:155
@@ -4344,6 +4338,11 @@ msgstr ""
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
+msgctxt "ModFilterPage|"
+msgid "Mod Lists"
 msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:536
@@ -5040,6 +5039,11 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "Caută:"
 
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "Alte jurnale"
+
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
@@ -5137,11 +5141,6 @@ msgstr ""
 msgctxt "OtherLogsPage|"
 msgid "AI Analysis Error"
 msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "Alte jurnale"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -5389,60 +5388,106 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/meta/BaseEntity.cpp:118
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "Descărcare fişier meta %1"
+msgid "Assets for %1"
+msgstr "Active pentru %1"
 
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Versiune de format necunoscut!"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "Actualizare eșuată!"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "Restaurare eșuată!"
-
-#: src/launcher/UpdateController.cpp:372
+#: src/launcher/minecraft/auth/AccountData.cpp:440
 #, qt-format
 msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "Nu s-a putut înlocui fișierul %1. Modificările vor fi returnate.\n"
-"Vezi fișierul de jurnal %2 pentru detalii."
+msgid "No profile (%1)"
+msgstr "Niciun profil (%1)"
 
-#: src/launcher/UpdateController.cpp:382
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
 msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "Nu s-a putut șterge fișierul %1. Modificările vor fi returnate.\n"
-"Vezi fișierul de jurnal %2 pentru detalii."
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments este setat la o valoare necunoscută '%1'"
 
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "Noua versiune nu a pornit sau este prea veche și nu răspunde la verificările de pornire.\n\n"
-"Reveniți la versiunea anterioară?"
-
-#: src/launcher/UpdateController.cpp:414
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
 #, qt-format
 msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "Rularea a eșuat.\n"
-"Va trebui să repari %1 manual.\n"
-"Te rugăm să ne spui de ce și cum s-a întâmplat acest lucru."
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Valoarea 'minimumLauncherVersion' a acestei versiuni (%1) este mai mare decât cea suportată de %3 (%2). Ar putea să nu funcționeze corect!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "Numele bibliotecii %1 este stricat şi nu poate fi procesat."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "Ordin invalid al versiunii fișierului, așteptată %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "Nu s-a putut deschide versiunea %1: %2."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "Nu se poate procesa versiunea %1: %2 la linia %3 coloana %4."
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "Nu s-a putut procesa versiunea %1."
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Versiune invalidă a fișierului component, așteptată %1"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "Fișierul de versiune are atât '+librarii', cât și 'biblioteci'. Acesta nu mai este suportat."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "URL-ul pentru jarul principal nu a putut fi determinat - Mojang a eliminat serverul pe care l-am folosit ca rezervă."
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "Fișierul de versiune conține un element nesuportat 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "Fișierul de versiune conține elementul nesuportat '-libraries'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "Fișierul de versiune conține un element nesuportat 'tweakers'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "Fișierul de versiune conține elementul nesuportat '-minecraftArguments'"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "Fișierul de versiune conține elementul nesuportat '+minecraftArguments'"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "Patch nu este inca incarcat."
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -5499,64 +5544,11 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "Fișierul binar java specificat nu a funcționat.<br />Ar trebui să folosiți funcția de autodetectare sau să setați calea către executabilul de java.<br />"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "Fişierul specificat fie nu există fie nu este executabil corect."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "Fișierul binar java specificat nu a pornit corect.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "Fișierul binar java a returnat rezultate neașteptate:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Testul Java a reușit!<br />Platforma raportată: %1<br />Versiunea Java raportată: %2<br />"
-
 #: src/launcher/ui/MainWindow.cpp:107
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr "%1 (în uz)"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "Autor original"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "Responsabil"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patroni"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>Următoarele acțiuni au fost adăugate de la ultima actualizare:</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>Poți <a href=\"%1\">să te uiți la modificările pe GitHub</a>.</p>"
 
 #: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
@@ -5579,20 +5571,73 @@ msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "Link-ul <a href=\"%1\">către jurnalul încărcat</a> a fost plasat în clipboard."
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
 msgctxt "QObject|"
-msgid "Dark"
-msgstr "Închis"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>Următoarele acțiuni au fost adăugate de la ultima actualizare:</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>Poți <a href=\"%1\">să te uiți la modificările pe GitHub</a>.</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "Autor original"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "Responsabil"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patroni"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "Sistem"
 
 #: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
 msgstr "Deschis"
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
+#: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
-msgid "System"
-msgstr "Sistem"
+msgid "Dark"
+msgstr "Închis"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "Fişierul specificat fie nu există fie nu este executabil corect."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "Fișierul binar java specificat nu a pornit corect.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "Fișierul binar java a returnat rezultate neașteptate:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Testul Java a reușit!<br />Platforma raportată: %1<br />Versiunea Java raportată: %2<br />"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -5603,6 +5648,61 @@ msgstr "Server de Minecraft"
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "Descrierea lipsește în aplicația instanței FTB."
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "Actualizare eșuată!"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "Restaurare eșuată!"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "Nu s-a putut înlocui fișierul %1. Modificările vor fi returnate.\n"
+"Vezi fișierul de jurnal %2 pentru detalii."
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "Nu s-a putut șterge fișierul %1. Modificările vor fi returnate.\n"
+"Vezi fișierul de jurnal %2 pentru detalii."
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "Noua versiune nu a pornit sau este prea veche și nu răspunde la verificările de pornire.\n\n"
+"Reveniți la versiunea anterioară?"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "Rularea a eșuat.\n"
+"Va trebui să repari %1 manual.\n"
+"Te rugăm să ne spui de ce și cum s-a întâmplat acest lucru."
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Versiune de format necunoscut!"
+
+#: src/launcher/meta/BaseEntity.cpp:118
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "Descărcare fişier meta %1"
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -5622,106 +5722,15 @@ msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr ""
 
-#: src/launcher/minecraft/Component.cpp:249
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "Patch nu este inca incarcat."
+msgid "Empty path"
+msgstr "Cale goală"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments este setat la o valoare necunoscută '%1'"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Valoarea 'minimumLauncherVersion' a acestei versiuni (%1) este mai mare decât cea suportată de %3 (%2). Ar putea să nu funcționeze corect!"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "Numele bibliotecii %1 este stricat şi nu poate fi procesat."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Active pentru %1"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Versiune invalidă a fișierului component, așteptată %1"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Niciun profil (%1)"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "Ordin invalid al versiunii fișierului, așteptată %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "Nu s-a putut deschide versiunea %1: %2."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "Nu se poate procesa versiunea %1: %2 la linia %3 coloana %4."
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "Nu s-a putut procesa versiunea %1."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "Fișierul de versiune are atât '+librarii', cât și 'biblioteci'. Acesta nu mai este suportat."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "URL-ul pentru jarul principal nu a putut fi determinat - Mojang a eliminat serverul pe care l-am folosit ca rezervă."
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "Fișierul de versiune conține un element nesuportat 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "Fișierul de versiune conține elementul nesuportat '-libraries'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "Fișierul de versiune conține un element nesuportat 'tweakers'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "Fișierul de versiune conține elementul nesuportat '-minecraftArguments'"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "Fișierul de versiune conține elementul nesuportat '+minecraftArguments'"
+msgid "Invalid path to JVisualVM"
+msgstr "Cale invalidă către JVisualVM"
 
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -5738,20 +5747,10 @@ msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
 msgstr "Calea nu pare a fii o cale MCEdit"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Cale goală"
-
 #: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
 msgid "Invalid JProfiler install"
 msgstr "Instalare JProfiler nevalidă"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Cale invalidă către JVisualVM"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5815,11 +5814,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "Copiază fișierul(rele)"
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "Capturi de ecran"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5880,6 +5874,11 @@ msgstr "Ești sigur?"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "Aceasta va șterge toate capturile de ecran selectate."
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "Capturi de ecran"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -6616,6 +6615,11 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "Instalaţi pachetul NeoForge."
 
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "Versiune"
+
 #: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -6785,11 +6789,6 @@ msgstr "Nu s-a putut încărca sau descărca listele de versiuni LiteLoader!"
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Eroare la actualizarea instanței"
-
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "Versiune"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
