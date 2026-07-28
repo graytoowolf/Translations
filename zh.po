@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Simplified\n"
 "Language: zh_CN\n"
-"PO-Revision-Date: 2026-05-22 14:16\n"
+"PO-Revision-Date: 2026-07-28 13:12\n"
 
 #: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
 #: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
@@ -156,11 +156,6 @@ msgctxt "AIModelPage|"
 msgid "Default Model"
 msgstr "默认模型"
 
-#: src/launcher/ui/pages/global/AIModelPage.h:26
-msgctxt "AIModelPage|"
-msgid "AI Analysis"
-msgstr "AI分析"
-
 #: src/launcher/ui/pages/global/AIModelPage.cpp:17
 msgctxt "AIModelPage|"
 msgid "Custom Model..."
@@ -248,6 +243,11 @@ msgstr "成功获取 %1 个模型(s)。"
 msgctxt "AIModelPage|"
 msgid "Network error: %1"
 msgstr "网络错误：%1"
+
+#: src/launcher/ui/pages/global/AIModelPage.h:26
+msgctxt "AIModelPage|"
+msgid "AI Analysis"
+msgstr "AI分析"
 
 #: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
 msgctxt "AIProgressDialog|"
@@ -600,6 +600,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr "添加皮肤站账号"
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "帐号"
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -626,11 +631,6 @@ msgstr "未能删除当前皮肤！"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr "请输入您的皮肤站点帐户电子邮件和密码以添加您的帐户。"
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "帐号"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -1421,6 +1421,11 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "文本编辑器："
 
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "外部工具"
+
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1514,11 +1519,6 @@ msgstr "无效"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "选中的文件似乎不是可执行文件"
-
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "外部工具"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:106
 #, qt-format
@@ -1749,6 +1749,11 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "本地文件或直达下载的链接（即直接指向文件而非下载页面）"
 
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "导入 Zip 压缩包"
+
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1758,11 +1763,6 @@ msgstr "选择整合包"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr "压缩包 (*.zip *.mrpack)"
-
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "导入 Zip 压缩包"
 
 #: src/launcher/meta/Index.cpp:76
 msgctxt "Index|"
@@ -1801,7 +1801,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "正在从版本 %1 创建实例版本列表"
 
-#: src/launcher/InstanceImportTask.cpp:72
+#: src/launcher/InstanceImportTask.cpp:77
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1809,120 +1809,120 @@ msgid "Downloading modpack:\n"
 msgstr "正在下载整合包：\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:78
+#: src/launcher/InstanceImportTask.cpp:83
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "下载整合包"
 
-#: src/launcher/InstanceImportTask.cpp:107
-#: src/launcher/InstanceImportTask.cpp:281
+#: src/launcher/InstanceImportTask.cpp:112
+#: src/launcher/InstanceImportTask.cpp:286
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "实例导入操作被中断。"
 
-#: src/launcher/InstanceImportTask.cpp:130
+#: src/launcher/InstanceImportTask.cpp:135
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "正在解压整合包"
 
-#: src/launcher/InstanceImportTask.cpp:138
+#: src/launcher/InstanceImportTask.cpp:143
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "无法打开提供的整合包 zip 压缩文件。"
 
-#: src/launcher/InstanceImportTask.cpp:183
-#: src/launcher/InstanceImportTask.cpp:274
+#: src/launcher/InstanceImportTask.cpp:188
+#: src/launcher/InstanceImportTask.cpp:279
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "压缩包未包含可识别的整合包类型。"
 
-#: src/launcher/InstanceImportTask.cpp:223
+#: src/launcher/InstanceImportTask.cpp:228
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "解压整合包时失败"
 
-#: src/launcher/InstanceImportTask.cpp:250
+#: src/launcher/InstanceImportTask.cpp:255
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "无法修复 %1 的权限"
 
-#: src/launcher/InstanceImportTask.cpp:301
+#: src/launcher/InstanceImportTask.cpp:306
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "无法理解包清单：\n"
 
-#: src/launcher/InstanceImportTask.cpp:312
-#: src/launcher/InstanceImportTask.cpp:886
+#: src/launcher/InstanceImportTask.cpp:317
+#: src/launcher/InstanceImportTask.cpp:948
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "无法重命名覆盖的目录：\n"
 
-#: src/launcher/InstanceImportTask.cpp:318
+#: src/launcher/InstanceImportTask.cpp:323
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "指定的替代文件夹 (%1) 丢失。也许此前已经使用了modpack吗？"
 
-#: src/launcher/InstanceImportTask.cpp:346
+#: src/launcher/InstanceImportTask.cpp:351
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "清单中的未知模组加载器: %1"
 
-#: src/launcher/InstanceImportTask.cpp:359
+#: src/launcher/InstanceImportTask.cpp:364
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "导入包时从Minecraft版本中删除神秘的尾随点。"
 
-#: src/launcher/InstanceImportTask.cpp:375
+#: src/launcher/InstanceImportTask.cpp:380
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "无法映射推荐的 Minecraft 版本的 %1"
 
-#: src/launcher/InstanceImportTask.cpp:454
-#: src/launcher/InstanceImportTask.cpp:937
+#: src/launcher/InstanceImportTask.cpp:447
+#: src/launcher/InstanceImportTask.cpp:999
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "Mod下载"
 
-#: src/launcher/InstanceImportTask.cpp:474
+#: src/launcher/InstanceImportTask.cpp:467
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "这个“文件夹”可能需要提取： %1"
 
-#: src/launcher/InstanceImportTask.cpp:490
+#: src/launcher/InstanceImportTask.cpp:483
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "未实现modpacks 中嵌套的modpacks ，没有下载任何: %1"
 
-#: src/launcher/InstanceImportTask.cpp:495
+#: src/launcher/InstanceImportTask.cpp:488
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "无法识别/未处理的包类型： %1"
 
-#: src/launcher/InstanceImportTask.cpp:525
-#: src/launcher/InstanceImportTask.cpp:956
+#: src/launcher/InstanceImportTask.cpp:518
+#: src/launcher/InstanceImportTask.cpp:1018
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "下载Mod中..."
 
-#: src/launcher/InstanceImportTask.cpp:538
+#: src/launcher/InstanceImportTask.cpp:531
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "无法解析模组 ID:\n"
 
-#: src/launcher/InstanceImportTask.cpp:877
+#: src/launcher/InstanceImportTask.cpp:939
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "无法解析包索引：\n"
 
-#: src/launcher/InstanceImportTask.cpp:894
-#: src/launcher/InstanceImportTask.cpp:900
+#: src/launcher/InstanceImportTask.cpp:956
+#: src/launcher/InstanceImportTask.cpp:962
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "无法合并覆盖的文件夹：\n"
@@ -2124,11 +2124,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "单人游戏世界："
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "设置"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -2138,6 +2133,11 @@ msgstr "选择一个Java版本"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "寻找Java可执行文件"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "设置"
 
 #: src/launcher/InstanceList.cpp:850
 msgctxt "InstanceStaging|"
@@ -3001,11 +3001,6 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "升级实例"
 
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "升级"
-
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -3021,6 +3016,11 @@ msgstr "终止"
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 （已迁移）"
+
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "升级"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -3154,11 +3154,6 @@ msgctxt "LogPage|"
 msgid "AI Analysis"
 msgstr "AI分析"
 
-#: src/launcher/ui/pages/instance/LogPage.h:43
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr "运行日志"
-
 #: src/launcher/ui/pages/instance/LogPage.cpp:251
 msgctxt "LogPage|"
 msgid "Log upload"
@@ -3188,6 +3183,11 @@ msgstr "未找到所选AI模型。请检查设置 > AI分析"
 msgctxt "LogPage|"
 msgid "AI Analysis Error"
 msgstr "AI分析错误"
+
+#: src/launcher/ui/pages/instance/LogPage.h:43
+msgctxt "LogPage|"
+msgid "Minecraft Log"
+msgstr "运行日志"
 
 #. Message displayed on instance exit
 #: src/launcher/LoggedProcess.cpp:70
@@ -3676,8 +3676,8 @@ msgid "No news available."
 msgstr "没有可用的新闻。"
 
 #: src/launcher/ui/MainWindow.cpp:1366 src/launcher/ui/MainWindow.cpp:1383
-#: src/launcher/ui/MainWindow.cpp:1445 src/launcher/ui/MainWindow.cpp:1732
-#: src/launcher/ui/MainWindow.cpp:1743
+#: src/launcher/ui/MainWindow.cpp:1445 src/launcher/ui/MainWindow.cpp:1701
+#: src/launcher/ui/MainWindow.cpp:1712
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "错误"
@@ -3695,7 +3695,7 @@ msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr "警告"
 
-#: src/launcher/ui/MainWindow.cpp:1454 src/launcher/ui/MainWindow.cpp:1735
+#: src/launcher/ui/MainWindow.cpp:1454 src/launcher/ui/MainWindow.cpp:1704
 msgctxt "MainWindow|"
 msgid "Abort"
 msgstr "中止"
@@ -3780,7 +3780,7 @@ msgctxt "MainWindow|"
 msgid "Failed to parse update information: %1"
 msgstr "解析更新信息失败：%1"
 
-#: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1667
+#: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1637
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr "无需更新"
@@ -3790,67 +3790,66 @@ msgctxt "MainWindow|"
 msgid "No update information available for this modpack."
 msgstr "此整合包没有可用的更新信息。"
 
-#: src/launcher/ui/MainWindow.cpp:1668
-#, qt-format
+#: src/launcher/ui/MainWindow.cpp:1638
 msgctxt "MainWindow|"
-msgid "Your modpack is up to date for Minecraft %1. No compatible updates found."
-msgstr "您的整合包对于Minecraft %1已是最新。未找到兼容的更新。"
+msgid "Your modpack is up to date. No newer versions found."
+msgstr "您的 modpack 是最新的。未找到更新的版本。"
 
-#: src/launcher/ui/MainWindow.cpp:1673
+#: src/launcher/ui/MainWindow.cpp:1642
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr "可用更新"
 
-#: src/launcher/ui/MainWindow.cpp:1674
+#: src/launcher/ui/MainWindow.cpp:1643
 msgctxt "MainWindow|"
 msgid "A new update is available for this modpack. Would you like to update now?"
 msgstr "此整合包有新的更新可用。您想现在更新吗？"
 
-#: src/launcher/ui/MainWindow.cpp:1698
+#: src/launcher/ui/MainWindow.cpp:1667
 msgctxt "MainWindow|"
 msgid "Update Not Available"
 msgstr "更新不可用"
 
-#: src/launcher/ui/MainWindow.cpp:1699
+#: src/launcher/ui/MainWindow.cpp:1668
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
 msgstr "新版本 (%1) 可用，但此整合包不支持自动更新。请从 CurseForge 手动下载更新。"
 
-#: src/launcher/ui/MainWindow.cpp:1744
+#: src/launcher/ui/MainWindow.cpp:1713
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr "启动器无法在没有账户添加的情况下下载 Minecraft 或更新实例。\n"
 "请添加你的 Mojang 或微软账户。"
 
-#: src/launcher/ui/MainWindow.cpp:1878
+#: src/launcher/ui/MainWindow.cpp:1847
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr "群组名称"
 
-#: src/launcher/ui/MainWindow.cpp:1878
+#: src/launcher/ui/MainWindow.cpp:1847
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr "输入一个新的组名。"
 
-#: src/launcher/ui/MainWindow.cpp:1900
+#: src/launcher/ui/MainWindow.cpp:1869
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr "删除组"
 
-#: src/launcher/ui/MainWindow.cpp:1900
+#: src/launcher/ui/MainWindow.cpp:1869
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr "您确定要删除组 %1"
 
-#: src/launcher/ui/MainWindow.cpp:2040
+#: src/launcher/ui/MainWindow.cpp:2009
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr "小心！"
 
-#: src/launcher/ui/MainWindow.cpp:2041
+#: src/launcher/ui/MainWindow.cpp:2010
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3860,45 +3859,45 @@ msgstr "即将删除： %1\n"
 "这是永久性的，将会完全删除实例。\n\n"
 "您确定吗？"
 
-#: src/launcher/ui/MainWindow.cpp:2254
+#: src/launcher/ui/MainWindow.cpp:2225
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr "重命名实例"
 
-#: src/launcher/ui/MainWindow.cpp:2267
+#: src/launcher/ui/MainWindow.cpp:2238
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr "您的实例文件夹包含 '!' 并且这已知会导致Java 问题 ！"
 
-#: src/launcher/ui/MainWindow.cpp:2269
+#: src/launcher/ui/MainWindow.cpp:2240
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr "您现在有两个选项： <br/> - 更改设置中的实例文件夹 <br/> - 将此安装 %1 移动到另一个文件夹"
 
-#: src/launcher/ui/MainWindow.cpp:2277
+#: src/launcher/ui/MainWindow.cpp:2248
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr "这问题不小：<br/> - 操作系统可能会在没有事先警告的情况下自动删除此启动器 <br/> - 马上关闭启动器并将启动器解压至其他目录，而非临时文件夹"
 
-#: src/launcher/ui/MainWindow.cpp:2284
+#: src/launcher/ui/MainWindow.cpp:2255
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr "您的实例文件夹包含 \"Rar$\" - 这意味着您还没有提取启动器归档！"
 
-#: src/launcher/ui/MainWindow.cpp:2292
+#: src/launcher/ui/MainWindow.cpp:2263
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr "您的实例文件夹在一个临时文件夹中：'%1'！"
 
-#: src/launcher/ui/MainWindow.cpp:2308
+#: src/launcher/ui/MainWindow.cpp:2279
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr "总播放时间： %1 小时"
 
-#: src/launcher/ui/MainWindow.cpp:2312
+#: src/launcher/ui/MainWindow.cpp:2283
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -4110,11 +4109,6 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr "搜索"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
-msgstr "下载模组"
-
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
@@ -4236,6 +4230,11 @@ msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
 msgstr "所有Mod下载失败。"
 
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
+msgstr "下载模组"
+
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
 msgctxt "ModFilterPage|"
 msgid "MainWindow"
@@ -4285,11 +4284,6 @@ msgstr "删除（&R）"
 msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
 msgstr "删除选定的模组"
-
-#: src/launcher/ui/pages/global/ModFilterPage.h:37
-msgctxt "ModFilterPage|"
-msgid "Mod Lists"
-msgstr "Mod 列表"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:155
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:392
@@ -4361,6 +4355,11 @@ msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
 msgstr "将 MOD 文件拖放到表中以将其添加到 %1。\n"
 "选中您要删除的项，然后单击 \"移除选中MOD\"。"
+
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
+msgctxt "ModFilterPage|"
+msgid "Mod Lists"
+msgstr "Mod 列表"
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:536
 msgctxt "ModFolderModel|"
@@ -5056,6 +5055,11 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "搜索："
 
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr "其他日志"
+
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
@@ -5153,11 +5157,6 @@ msgstr "未找到选中的 AI 模型。请检查设置 > AI 分析"
 msgctxt "OtherLogsPage|"
 msgid "AI Analysis Error"
 msgstr "AI 分析错误"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr "其他日志"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -5405,60 +5404,106 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "代理服务器"
 
-#: src/launcher/meta/BaseEntity.cpp:118
+#: src/launcher/minecraft/AssetsUtils.cpp:323
 #, qt-format
 msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "下载元数据文件 %1"
+msgid "Assets for %1"
+msgstr "%1 的 assets 资源"
 
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "未知格式版本！"
-
-#: src/launcher/UpdateController.cpp:366
-msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "更新失败！"
-
-#: src/launcher/UpdateController.cpp:367
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "回滚失败！"
-
-#: src/launcher/UpdateController.cpp:372
+#: src/launcher/minecraft/auth/AccountData.cpp:440
 #, qt-format
 msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "无法替换文件 %1。更改将会回滚。\n"
-"详情请见 %2 日志文件。"
+msgid "No profile (%1)"
+msgstr "没有人个人资料（%1）"
 
-#: src/launcher/UpdateController.cpp:382
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
 msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr "无法删除文件 %1。更改将会回滚。\n"
-"详情请见 %2 日志文件。"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments 设置为了未知值 \"%1\""
 
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr "新版本未启动或该版本太老而无法响应启动检查。\n\n"
-"回滚到上一版本？"
-
-#: src/launcher/UpdateController.cpp:414
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
 #, qt-format
 msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "更新失败了，并且回滚也失败了。\n"
-"你需要手动修复 %1 了。\n"
-"请给我们反馈，让我们知悉这种情况为何、如何发生的。"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "该版本（%1）的“最低启动器版本（minimumLauncherVersion）比 %3 支持的版本（%2）高。可能无法正常工作！"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "库 %1 的名称已损坏，不能处理。"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr "无效文件版本，应为 %1"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr "无法打开版本文件 %1：%2。"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "无法处理版本文件 %1：%2 在 %3 行 %4 列。"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "无法处理版本文件%1。"
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "无效组件版本，应为 %1"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "版本文件同时包含\"+libraries\"和\"libraries\"，这不再受到支持。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "无法确定主 Jar 的网址 - Mojang 删除了我们用作备份的服务器。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "版本文件包含不支持的元素“tweakers”"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "版本文件包含不支持的元素“-libraries”"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "版本文件包含不支持的元素“-tweakers”"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "版本文件包含不支持的元素“-minecraftArguments”"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "版本文件包含不支持的元素“+minecraftArguments”"
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "补丁未加载。"
 
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
@@ -5514,64 +5559,11 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "指定的 Java 二进制文件无法工作。<br />你应该使用自动检测功能，或者设置 Java 可执行文件的路径。<br />"
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "指定的文件不存在或不是一个正常的可执行文件。"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "指定的 Java 二进制文件未正常启动。<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "指定的 Java 二进制文件无法使用你提供的参数工作：<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "Java 测试成功！<br />平台已报告：%1<br />Java 版本已报告：%2<br />"
-
 #: src/launcher/ui/MainWindow.cpp:107
 #, qt-format
 msgctxt "QObject|"
 msgid "%1 (in use)"
 msgstr "%1 （使用中）"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr "原作者"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr "维护者"
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr "Patrons"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr "<p>这些提交在最后一次更新之前被添加：</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
-msgstr "<p>您的版本太旧，更新日志可能不完整。显示最新的%1条提交：</p>"
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr "<p>你可以<a href=\"%1\">在 GitHub 查看这些更新</a>。</p>"
 
 #: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
@@ -5594,20 +5586,73 @@ msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "<a href=\"%1\">到上传的日志的链接</a>已经放到了你的剪贴板中。"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
 msgctxt "QObject|"
-msgid "Dark"
-msgstr "暗"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr "<p>这些提交在最后一次更新之前被添加：</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
+msgstr "<p>您的版本太旧，更新日志可能不完整。显示最新的%1条提交：</p>"
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr "<p>你可以<a href=\"%1\">在 GitHub 查看这些更新</a>。</p>"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr "原作者"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr "维护者"
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr "Patrons"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "跟随系统"
 
 #: src/launcher/ui/themes/BrightTheme.cpp:10
 msgctxt "QObject|"
 msgid "Bright"
 msgstr "亮"
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
+#: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
-msgid "System"
-msgstr "跟随系统"
+msgid "Dark"
+msgstr "暗"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "指定的文件不存在或不是一个正常的可执行文件。"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "指定的 Java 二进制文件未正常启动。<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "指定的 Java 二进制文件无法使用你提供的参数工作：<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "Java 测试成功！<br />平台已报告：%1<br />Java 版本已报告：%2<br />"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
@@ -5618,6 +5663,61 @@ msgstr "Minecraft服务器"
 msgctxt "QObject|"
 msgid "Description is missing in the FTB App instance."
 msgstr "FTB App 的实例中缺少描述。"
+
+#: src/launcher/UpdateController.cpp:366
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "更新失败！"
+
+#: src/launcher/UpdateController.cpp:367
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "回滚失败！"
+
+#: src/launcher/UpdateController.cpp:372
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't replace file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "无法替换文件 %1。更改将会回滚。\n"
+"详情请见 %2 日志文件。"
+
+#: src/launcher/UpdateController.cpp:382
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't remove file %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr "无法删除文件 %1。更改将会回滚。\n"
+"详情请见 %2 日志文件。"
+
+#: src/launcher/UpdateController.cpp:392
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
+"Roll back to previous version?"
+msgstr "新版本未启动或该版本太老而无法响应启动检查。\n\n"
+"回滚到上一版本？"
+
+#: src/launcher/UpdateController.cpp:414
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "更新失败了，并且回滚也失败了。\n"
+"你需要手动修复 %1 了。\n"
+"请给我们反馈，让我们知悉这种情况为何、如何发生的。"
+
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "未知格式版本！"
+
+#: src/launcher/meta/BaseEntity.cpp:118
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr "下载元数据文件 %1"
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -5637,106 +5737,15 @@ msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1 天 %2 时 %3 分"
 
-#: src/launcher/minecraft/Component.cpp:249
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
 msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "补丁未加载。"
+msgid "Empty path"
+msgstr "空路径"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments 设置为了未知值 \"%1\""
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "该版本（%1）的“最低启动器版本（minimumLauncherVersion）比 %3 支持的版本（%2）高。可能无法正常工作！"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "库 %1 的名称已损坏，不能处理。"
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1 的 assets 资源"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "无效组件版本，应为 %1"
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "没有人个人资料（%1）"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "无效文件版本，应为 %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "无法打开版本文件 %1：%2。"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "无法处理版本文件 %1：%2 在 %3 行 %4 列。"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "无法处理版本文件%1。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "版本文件同时包含\"+libraries\"和\"libraries\"，这不再受到支持。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "无法确定主 Jar 的网址 - Mojang 删除了我们用作备份的服务器。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "版本文件包含不支持的元素“tweakers”"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "版本文件包含不支持的元素“-libraries”"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "版本文件包含不支持的元素“-tweakers”"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "版本文件包含不支持的元素“-minecraftArguments”"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "版本文件包含不支持的元素“+minecraftArguments”"
+msgid "Invalid path to JVisualVM"
+msgstr "无效的 JVisualVM 路径"
 
 #: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
@@ -5753,20 +5762,10 @@ msgctxt "QObject|"
 msgid "Path does not seem to be a MCEdit path"
 msgstr "这个路径似乎不是 MCEdit 的路径"
 
-#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "空路径"
-
 #: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
 msgid "Invalid JProfiler install"
 msgstr "无效的 JProfiler 安装"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "无效的 JVisualVM 路径"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -5830,11 +5829,6 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr "复制文件"
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr "截屏"
-
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5895,6 +5889,11 @@ msgstr "你确定吗？"
 msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr "这会删除所有选择的截图。"
+
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr "截屏"
 
 #: src/launcher/ui/pages/instance/ServersPage.cpp:289
 msgctxt "ServersModel|"
@@ -6631,6 +6630,11 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr "安装 NeoForge 包。"
 
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "版本"
+
 #: src/launcher/ui/pages/instance/VersionPage.cpp:163
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -6800,11 +6804,6 @@ msgstr "无法加载或下载 LiteLoader 版本列表！"
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "更新实例时出错"
-
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "版本"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
