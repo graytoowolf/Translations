@@ -1825,7 +1825,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:77
+#: src/launcher/InstanceImportTask.cpp:78
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1833,56 +1833,56 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:83
+#: src/launcher/InstanceImportTask.cpp:84
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:112
-#: src/launcher/InstanceImportTask.cpp:284
+#: src/launcher/InstanceImportTask.cpp:113
+#: src/launcher/InstanceImportTask.cpp:285
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:135
+#: src/launcher/InstanceImportTask.cpp:136
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:143
+#: src/launcher/InstanceImportTask.cpp:144
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:186
-#: src/launcher/InstanceImportTask.cpp:277
+#: src/launcher/InstanceImportTask.cpp:187
+#: src/launcher/InstanceImportTask.cpp:278
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:226
+#: src/launcher/InstanceImportTask.cpp:227
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:253
+#: src/launcher/InstanceImportTask.cpp:254
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:304
+#: src/launcher/InstanceImportTask.cpp:305
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:315
-#: src/launcher/InstanceImportTask.cpp:946
+#: src/launcher/InstanceImportTask.cpp:316
+#: src/launcher/InstanceImportTask.cpp:968
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:321
+#: src/launcher/InstanceImportTask.cpp:322
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
@@ -1890,67 +1890,67 @@ msgid ""
 "already used before?"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:349
+#: src/launcher/InstanceImportTask.cpp:350
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:362
+#: src/launcher/InstanceImportTask.cpp:363
 msgctxt "InstanceImportTask|"
 msgid ""
 "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:378
+#: src/launcher/InstanceImportTask.cpp:379
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:445
-#: src/launcher/InstanceImportTask.cpp:997
+#: src/launcher/InstanceImportTask.cpp:448
+#: src/launcher/InstanceImportTask.cpp:1019
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:465
+#: src/launcher/InstanceImportTask.cpp:468
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:481
+#: src/launcher/InstanceImportTask.cpp:484
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid ""
 "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:486
+#: src/launcher/InstanceImportTask.cpp:489
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:516
-#: src/launcher/InstanceImportTask.cpp:1016
+#: src/launcher/InstanceImportTask.cpp:519
+#: src/launcher/InstanceImportTask.cpp:1038
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:529
+#: src/launcher/InstanceImportTask.cpp:532
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:937
+#: src/launcher/InstanceImportTask.cpp:959
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:954
-#: src/launcher/InstanceImportTask.cpp:960
+#: src/launcher/InstanceImportTask.cpp:976
+#: src/launcher/InstanceImportTask.cpp:982
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr ""
