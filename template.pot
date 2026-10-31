@@ -5,251 +5,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Qt-Contexts: true\n"
 
-#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
-#: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
-msgctxt "AIAnalysisDialog|"
-msgid "AI Crash Log Analysis"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:35
-msgctxt "AIAnalysisDialog|"
-msgid "Copy"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:55
-msgctxt "AIAnalysisDialog|"
-msgid "Close"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:365
-msgctxt "AIAnalyzer|"
-msgid "Please configure API key in Settings > AI Analysis"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:371
-msgctxt "AIAnalyzer|"
-msgid "Please configure AI model in Settings > AI Analysis"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:454
-msgctxt "AIAnalyzer|"
-msgid "Request was canceled"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:466
-msgctxt "AIAnalyzer|"
-msgid "Authentication failed (HTTP 401)"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:519
-msgctxt "AIAnalyzer|"
-msgid "API rate limit exceeded. Please try again later."
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:527
-#, qt-format
-msgctxt "AIAnalyzer|"
-msgid "API request failed (HTTP %1)"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:558
-msgctxt "AIAnalyzer|"
-msgid "Failed to parse AI response"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:566
-msgctxt "AIAnalyzer|"
-msgid "AI returned empty response"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:576
-msgctxt "AIAnalyzer|"
-msgid "AI returned empty content"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:39
-msgctxt "AIModelPage|"
-msgid "Configured AI Models"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:57
-msgctxt "AIModelPage|"
-msgid "Add Model"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:64
-msgctxt "AIModelPage|"
-msgid "Remove Model"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:89
-msgctxt "AIModelPage|"
-msgid "Model Details"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:95
-msgctxt "AIModelPage|"
-msgid "API URL:"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:109
-msgctxt "AIModelPage|"
-msgid "API Key:"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:119
-msgctxt "AIModelPage|"
-msgid "Enter your API key"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:126
-msgctxt "AIModelPage|"
-msgid "Model ID:"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:140
-msgctxt "AIModelPage|"
-msgid "Custom Model:"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:147
-msgctxt "AIModelPage|"
-msgid "Enter custom model ID"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:156
-#: src/launcher/ui/pages/global/AIModelPage.cpp:458
-#: src/launcher/ui/pages/global/AIModelPage.cpp:511
-#: src/launcher/ui/pages/global/AIModelPage.cpp:519
-#: src/launcher/ui/pages/global/AIModelPage.cpp:530
-#: src/launcher/ui/pages/global/AIModelPage.cpp:575
-#: src/launcher/ui/pages/global/AIModelPage.cpp:581
-#: src/launcher/ui/pages/global/AIModelPage.cpp:593
-#: src/launcher/ui/pages/global/AIModelPage.cpp:596
-msgctxt "AIModelPage|"
-msgid "Fetch Models"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:163
-#: src/launcher/ui/pages/global/AIModelPage.cpp:248
-#: src/launcher/ui/pages/global/AIModelPage.cpp:302
-#: src/launcher/ui/pages/global/AIModelPage.cpp:315
-#: src/launcher/ui/pages/global/AIModelPage.cpp:323
-#: src/launcher/ui/pages/global/AIModelPage.cpp:335
-#: src/launcher/ui/pages/global/AIModelPage.cpp:339
-msgctxt "AIModelPage|"
-msgid "Test Connection"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:188
-msgctxt "AIModelPage|"
-msgid "Default Model"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.h:26
-msgctxt "AIModelPage|"
-msgid "AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:17
-msgctxt "AIModelPage|"
-msgid "Custom Model..."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:80
-#: src/launcher/ui/pages/global/AIModelPage.cpp:141
-#: src/launcher/ui/pages/global/AIModelPage.cpp:187
-msgctxt "AIModelPage|"
-msgid "New Model"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:235
-msgctxt "AIModelPage|"
-msgid "Testing"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:249
-msgctxt "AIModelPage|"
-msgid "Please fill in API URL and API Key before testing."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:315
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Connection failed: %1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:323
-msgctxt "AIModelPage|"
-msgid "Authentication failed: Invalid API Key."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:330
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Connection failed (HTTP %1)"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:339
-msgctxt "AIModelPage|"
-msgid "Connection successful! API URL and Key are valid."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:362
-msgctxt "AIModelPage|"
-msgid "Enter model ID"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:459
-msgctxt "AIModelPage|"
-msgid "Please fill in API URL and API Key first."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:471
-msgctxt "AIModelPage|"
-msgid "Fetching..."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:520
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Failed to fetch models: %1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:531
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Failed to parse response: %1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:576
-msgctxt "AIModelPage|"
-msgid "No models found. You can enter a custom model ID."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:582
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Successfully fetched %1 model(s)."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:597
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Network error: %1"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
-msgctxt "AIProgressDialog|"
-msgid "AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AIProgressDialog.cpp:27
-#: src/launcher/ui/dialogs/AIProgressDialog.cpp:73
-msgctxt "AIProgressDialog|"
-msgid "Analyzing crash log"
-msgstr ""
-
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
 msgid "Could not understand pack manifest:\n"
@@ -601,6 +356,11 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr ""
+
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid ""
@@ -628,11 +388,6 @@ msgstr ""
 msgctxt "AccountListPage|"
 msgid ""
 "Please enter your skin site account email and password to add your account."
-msgstr ""
-
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
 msgstr ""
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
@@ -854,6 +609,11 @@ msgctxt "AtlPage|"
 msgid "Search and filter ..."
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
+msgctxt "AtlPage|"
+msgid "ATLauncher"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:160
 #, qt-format
 msgctxt "AtlPage|"
@@ -873,11 +633,6 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.cpp:194
 msgctxt "AtlPage|"
 msgid "Installing"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/atlauncher/AtlPage.h:45
-msgctxt "AtlPage|"
-msgid "ATLauncher"
 msgstr ""
 
 #: src/launcher/minecraft/auth/flows/AuthFlow.cpp:20
@@ -1062,11 +817,6 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -1118,6 +868,11 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:102
 msgctxt "CFPage|"
 msgid " by "
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
 msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
@@ -1446,11 +1201,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr ""
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1543,6 +1293,11 @@ msgstr ""
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:224
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
+msgstr ""
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
 msgstr ""
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:106
@@ -2152,6 +1907,11 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr ""
 
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr ""
+
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -2160,11 +1920,6 @@ msgstr ""
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:364
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
 msgstr ""
 
 #: src/launcher/InstanceList.cpp:850
@@ -2668,7 +2423,7 @@ msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
-msgid "Number of download threads:"
+msgid "Download threads:"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
@@ -2767,6 +2522,8 @@ msgid "Simple (Colored Icons)"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:351
+#: src/launcher/ui/pages/global/LauncherPage.cpp:464
+#: src/launcher/ui/pages/global/LauncherPage.cpp:652
 msgctxt "LauncherPage|"
 msgid "Custom"
 msgstr ""
@@ -2821,12 +2578,12 @@ msgctxt "LauncherPage|"
 msgid "Console font"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:107
+#: src/launcher/ui/pages/global/LauncherPage.cpp:114
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:116
+#: src/launcher/ui/pages/global/LauncherPage.cpp:123
 msgctxt "LauncherPage|"
 msgid ""
 "You're trying to specify an instance folder which's path contains at least "
@@ -2834,34 +2591,55 @@ msgid ""
 "(probably) won't start!"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:121
+#: src/launcher/ui/pages/global/LauncherPage.cpp:128
 msgctxt "LauncherPage|"
 msgid ""
 "Do you really want to use this path? Selecting \"No\" will close this and "
 "not alter your instance path."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:144
+#: src/launcher/ui/pages/global/LauncherPage.cpp:151
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:161
+#: src/launcher/ui/pages/global/LauncherPage.cpp:168
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:585
+#: src/launcher/ui/pages/global/LauncherPage.cpp:619
+#: src/launcher/ui/pages/global/LauncherPage.cpp:656
+msgctxt "LauncherPage|"
+msgid "Custom Source"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:631
+msgctxt "LauncherPage|"
+msgid "Source name:"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:632
+msgctxt "LauncherPage|"
+msgid "Proxy address:"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:656
+msgctxt "LauncherPage|"
+msgid "Please enter a proxy address."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:695
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:594
+#: src/launcher/ui/pages/global/LauncherPage.cpp:704
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:603
+#: src/launcher/ui/pages/global/LauncherPage.cpp:713
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr ""
@@ -2993,6 +2771,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -3027,11 +2810,6 @@ msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr ""
-
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:218
 msgctxt "LegacyInstance|"
 msgid "Legacy"
@@ -3063,11 +2841,6 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -3082,6 +2855,11 @@ msgstr ""
 #, qt-format
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
 msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
@@ -3202,52 +2980,19 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LogPage.ui:171
-msgctxt "LogPage|"
-msgid "Analyze crash log with AI"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.ui:174
-#: src/launcher/ui/pages/instance/LogPage.cpp:389
-#: src/launcher/ui/pages/instance/LogPage.cpp:396
-#: src/launcher/ui/pages/instance/LogPage.cpp:415
-msgctxt "LogPage|"
-msgid "AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.h:43
-msgctxt "LogPage|"
-msgid "Minecraft Log"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:251
+#: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:252
+#: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:389
+#: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
-msgid "No log content to analyze."
-msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:396
-msgctxt "LogPage|"
-msgid "Please configure AI model in Settings > AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:415
-msgctxt "LogPage|"
-msgid "Selected AI model not found. Please check Settings > AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:457
-msgctxt "LogPage|"
-msgid "AI Analysis Error"
+msgid "Minecraft Log"
 msgstr ""
 
 #. Message displayed on instance exit
@@ -4373,6 +4118,11 @@ msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
 msgstr ""
 
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
+msgctxt "ModFilterPage|"
+msgid "Mod Lists"
+msgstr ""
+
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:155
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:392
 msgctxt "ModFilterPage|"
@@ -4444,52 +4194,47 @@ msgid ""
 "Select the items you want to remove, then click \"Remove Selected\"."
 msgstr ""
 
-#: src/launcher/ui/pages/global/ModFilterPage.h:37
-msgctxt "ModFilterPage|"
-msgid "Mod Lists"
-msgstr ""
-
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:539
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:541
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:647
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:650
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:649
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:652
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:651
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:654
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:660
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:663
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:662
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:665
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:664
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:667
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:666
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:669
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr ""
@@ -4971,7 +4716,7 @@ msgctxt "ModrinthPage|"
 msgid "Modrinth"
 msgstr ""
 
-#: src/launcher/net/NetJob.cpp:130
+#: src/launcher/net/NetJob.cpp:144
 #, qt-format
 msgctxt "NetJob|"
 msgid ""
@@ -5107,7 +4852,7 @@ msgid "Clear the log"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:80
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:220
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:212
 msgctxt "OtherLogsPage|"
 msgid "Delete"
 msgstr ""
@@ -5132,43 +4877,30 @@ msgctxt "OtherLogsPage|"
 msgid "Reload"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:136
-msgctxt "OtherLogsPage|"
-msgid "Analyze crash log with AI"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:139
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
-msgctxt "OtherLogsPage|"
-msgid "AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:150
+#: src/launcher/ui/pages/instance/OtherLogsPage.ui:126
 msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:129
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:265
 msgctxt "OtherLogsPage|"
 msgid "Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:129
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:157
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:149
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
@@ -5176,45 +4908,45 @@ msgid ""
 "large files."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:173
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:165
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:195
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:187
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:196
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:188
 msgctxt "OtherLogsPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:213
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:241
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:233
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:244
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:236
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:249
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:241
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
@@ -5222,37 +4954,17 @@ msgid ""
 "%1"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:276
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:268
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:281
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid ""
 "Couldn't delete some files:\n"
 "%1"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
-msgctxt "OtherLogsPage|"
-msgid "No log content to analyze."
-msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
-msgctxt "OtherLogsPage|"
-msgid "Please configure AI model in Settings > AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
-msgctxt "OtherLogsPage|"
-msgid "Selected AI model not found. Please check Settings > AI Analysis"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:408
-msgctxt "OtherLogsPage|"
-msgid "AI Analysis Error"
 msgstr ""
 
 #: src/launcher/minecraft/PackProfile.cpp:858
@@ -5528,19 +5240,9 @@ msgctxt "QObject|"
 msgid "Invalid path to JVisualVM"
 msgstr ""
 
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
 msgctxt "QObject|"
 msgid "Path does not exist"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
 msgstr ""
 
 #: src/launcher/tools/JProfiler.cpp:110
@@ -5548,111 +5250,44 @@ msgctxt "QObject|"
 msgid "Invalid JProfiler install"
 msgstr ""
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr ""
+
+#: src/launcher/meta/BaseEntity.cpp:118
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
+msgid "Download of meta file %1"
 msgstr ""
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid ""
-"The 'minimumLauncherVersion' value of this version (%1) is higher than "
-"supported by %3 (%2). It might not work properly!"
+msgid "%1m %2s"
 msgstr ""
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
+msgid "%1h %2m"
 msgstr ""
 
-#: src/launcher/minecraft/auth/AccountData.cpp:440
+#: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid ""
-"Version file has both '+libraries' and 'libraries'. This is no longer "
-"supported."
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid ""
-"URL for the main jar could not be determined - Mojang removed the server "
-"that we used as fallback."
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr ""
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr ""
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr ""
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr ""
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr ""
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
+msgid "%1d %2h %3m"
 msgstr ""
 
 #: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
@@ -5676,37 +5311,6 @@ msgctxt "QObject|"
 msgid ""
 "The <a href=\"%1\">link to the uploaded log</a> has been placed in your "
 "clipboard."
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:107
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr ""
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr ""
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr ""
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
 msgstr ""
 
 #: src/launcher/ui/dialogs/UpdateDialog.cpp:80
@@ -5743,6 +5347,22 @@ msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr ""
 
+#: src/launcher/ui/MainWindow.cpp:107
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr ""
+
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
 msgid "The specified file either doesn't exist or is not a proper executable."
@@ -5776,6 +5396,21 @@ msgstr ""
 #: src/launcher/JavaCommon.cpp:46
 msgctxt "QObject|"
 msgid "Java test success"
+msgstr ""
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr ""
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr ""
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
 msgstr ""
 
 #: src/launcher/JavaCommon.cpp:10
@@ -5828,36 +5463,6 @@ msgid ""
 "feature, or set the path to the java executable.<br />"
 msgstr ""
 
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr ""
-
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr ""
-
-#: src/launcher/meta/BaseEntity.cpp:118
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr ""
-
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
 msgid "Update failed!"
@@ -5900,6 +5505,113 @@ msgid ""
 "The rollback failed too.\n"
 "You will have to repair %1 manually.\n"
 "Please let us know why and how this happened."
+msgstr ""
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr ""
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid ""
+"Version file has both '+libraries' and 'libraries'. This is no longer "
+"supported."
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid ""
+"URL for the main jar could not be determined - Mojang removed the server "
+"that we used as fallback."
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr ""
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr ""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr ""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid ""
+"The 'minimumLauncherVersion' value of this version (%1) is higher than "
+"supported by %3 (%2). It might not work properly!"
+msgstr ""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr ""
+
+#: src/launcher/minecraft/Component.cpp:249
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr ""
+
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid order file version, expected %1"
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to open the version file %1: %2."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr ""
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
 msgstr ""
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
@@ -6372,14 +6084,14 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
-msgctxt "TechnicPage|"
-msgid " by "
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
 msgctxt "TechnicPage|"
 msgid "Technic"
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
+msgctxt "TechnicPage|"
+msgid " by "
 msgstr ""
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
