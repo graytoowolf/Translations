@@ -13,252 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Chinese Traditional\n"
 "Language: zh_TW\n"
-"PO-Revision-Date: 2026-07-28 13:12\n"
-
-#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:14
-#: src/launcher/ui/dialogs/AIAnalysisDialog.cpp:12
-msgctxt "AIAnalysisDialog|"
-msgid "AI Crash Log Analysis"
-msgstr "AI 崩潰日誌分析"
-
-#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:35
-msgctxt "AIAnalysisDialog|"
-msgid "Copy"
-msgstr "複製"
-
-#: src/launcher/ui/dialogs/AIAnalysisDialog.ui:55
-msgctxt "AIAnalysisDialog|"
-msgid "Close"
-msgstr "關閉"
-
-#: src/launcher/ai/AIAnalyzer.cpp:365
-msgctxt "AIAnalyzer|"
-msgid "Please configure API key in Settings > AI Analysis"
-msgstr "請在設定 > AI 分析中設定 API 金鑰"
-
-#: src/launcher/ai/AIAnalyzer.cpp:371
-msgctxt "AIAnalyzer|"
-msgid "Please configure AI model in Settings > AI Analysis"
-msgstr "請在設定 > AI 分析中設定 AI 模型"
-
-#: src/launcher/ai/AIAnalyzer.cpp:454
-msgctxt "AIAnalyzer|"
-msgid "Request was canceled"
-msgstr "要求已取消"
-
-#: src/launcher/ai/AIAnalyzer.cpp:466
-msgctxt "AIAnalyzer|"
-msgid "Authentication failed (HTTP 401)"
-msgstr ""
-
-#: src/launcher/ai/AIAnalyzer.cpp:519
-msgctxt "AIAnalyzer|"
-msgid "API rate limit exceeded. Please try again later."
-msgstr "API 速率限制已超出。請稍後再試。"
-
-#: src/launcher/ai/AIAnalyzer.cpp:527
-#, qt-format
-msgctxt "AIAnalyzer|"
-msgid "API request failed (HTTP %1)"
-msgstr "API 請求失敗 (HTTP %1)"
-
-#: src/launcher/ai/AIAnalyzer.cpp:558
-msgctxt "AIAnalyzer|"
-msgid "Failed to parse AI response"
-msgstr "解析 AI 回應失敗"
-
-#: src/launcher/ai/AIAnalyzer.cpp:566
-msgctxt "AIAnalyzer|"
-msgid "AI returned empty response"
-msgstr "AI 回傳空回應"
-
-#: src/launcher/ai/AIAnalyzer.cpp:576
-msgctxt "AIAnalyzer|"
-msgid "AI returned empty content"
-msgstr "AI 回傳空內容"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:39
-msgctxt "AIModelPage|"
-msgid "Configured AI Models"
-msgstr "已配置的 AI 模型"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:57
-msgctxt "AIModelPage|"
-msgid "Add Model"
-msgstr "新增模型"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:64
-msgctxt "AIModelPage|"
-msgid "Remove Model"
-msgstr "移除模型"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:89
-msgctxt "AIModelPage|"
-msgid "Model Details"
-msgstr "模型詳細資訊"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:95
-msgctxt "AIModelPage|"
-msgid "API URL:"
-msgstr "API URL："
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:109
-msgctxt "AIModelPage|"
-msgid "API Key:"
-msgstr "API 金鑰："
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:119
-msgctxt "AIModelPage|"
-msgid "Enter your API key"
-msgstr "輸入您的 API 金鑰"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:126
-msgctxt "AIModelPage|"
-msgid "Model ID:"
-msgstr "模型 ID："
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:140
-msgctxt "AIModelPage|"
-msgid "Custom Model:"
-msgstr "自訂模型："
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:147
-msgctxt "AIModelPage|"
-msgid "Enter custom model ID"
-msgstr "輸入自訂模型 ID"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:156
-#: src/launcher/ui/pages/global/AIModelPage.cpp:458
-#: src/launcher/ui/pages/global/AIModelPage.cpp:511
-#: src/launcher/ui/pages/global/AIModelPage.cpp:519
-#: src/launcher/ui/pages/global/AIModelPage.cpp:530
-#: src/launcher/ui/pages/global/AIModelPage.cpp:575
-#: src/launcher/ui/pages/global/AIModelPage.cpp:581
-#: src/launcher/ui/pages/global/AIModelPage.cpp:593
-#: src/launcher/ui/pages/global/AIModelPage.cpp:596
-msgctxt "AIModelPage|"
-msgid "Fetch Models"
-msgstr "擷取模型"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:163
-#: src/launcher/ui/pages/global/AIModelPage.cpp:248
-#: src/launcher/ui/pages/global/AIModelPage.cpp:302
-#: src/launcher/ui/pages/global/AIModelPage.cpp:315
-#: src/launcher/ui/pages/global/AIModelPage.cpp:323
-#: src/launcher/ui/pages/global/AIModelPage.cpp:335
-#: src/launcher/ui/pages/global/AIModelPage.cpp:339
-msgctxt "AIModelPage|"
-msgid "Test Connection"
-msgstr "測試連線"
-
-#: src/launcher/ui/pages/global/AIModelPage.ui:188
-msgctxt "AIModelPage|"
-msgid "Default Model"
-msgstr "預設模型"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:17
-msgctxt "AIModelPage|"
-msgid "Custom Model..."
-msgstr "自訂模型……"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:80
-#: src/launcher/ui/pages/global/AIModelPage.cpp:141
-#: src/launcher/ui/pages/global/AIModelPage.cpp:187
-msgctxt "AIModelPage|"
-msgid "New Model"
-msgstr "新模型"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:235
-msgctxt "AIModelPage|"
-msgid "Testing"
-msgstr "測試中"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:249
-msgctxt "AIModelPage|"
-msgid "Please fill in API URL and API Key before testing."
-msgstr "請在測試前填寫 API URL 和 API 金鑰。"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:315
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Connection failed: %1"
-msgstr "連線失敗：%1"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:323
-msgctxt "AIModelPage|"
-msgid "Authentication failed: Invalid API Key."
-msgstr "驗證失敗：無效的 API 金鑰。"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:330
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Connection failed (HTTP %1)"
-msgstr "連線失敗 (HTTP %1)"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:339
-msgctxt "AIModelPage|"
-msgid "Connection successful! API URL and Key are valid."
-msgstr "連線成功！API URL 和 Key 有效。"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:362
-msgctxt "AIModelPage|"
-msgid "Enter model ID"
-msgstr "輸入模型 ID"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:459
-msgctxt "AIModelPage|"
-msgid "Please fill in API URL and API Key first."
-msgstr "請先填寫 API URL 和 API Key。"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:471
-msgctxt "AIModelPage|"
-msgid "Fetching..."
-msgstr "獲取中……"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:520
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Failed to fetch models: %1"
-msgstr "獲取模型失敗：%1"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:531
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Failed to parse response: %1"
-msgstr "解析回應失敗：%1"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:576
-msgctxt "AIModelPage|"
-msgid "No models found. You can enter a custom model ID."
-msgstr "未找到模型。您可以輸入自訂模型 ID。"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:582
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Successfully fetched %1 model(s)."
-msgstr "成功獲取 %1 個模型。"
-
-#: src/launcher/ui/pages/global/AIModelPage.cpp:597
-#, qt-format
-msgctxt "AIModelPage|"
-msgid "Network error: %1"
-msgstr "網路錯誤：%1"
-
-#: src/launcher/ui/pages/global/AIModelPage.h:26
-msgctxt "AIModelPage|"
-msgid "AI Analysis"
-msgstr "AI 分析"
-
-#: src/launcher/ui/dialogs/AIProgressDialog.cpp:10
-msgctxt "AIProgressDialog|"
-msgid "AI Analysis"
-msgstr "AI 分析"
-
-#: src/launcher/ui/dialogs/AIProgressDialog.cpp:27
-#: src/launcher/ui/dialogs/AIProgressDialog.cpp:73
-msgctxt "AIProgressDialog|"
-msgid "Analyzing crash log"
-msgstr "正在分析當機記錄"
+"PO-Revision-Date: 2026-10-31 16:50\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1039,11 +794,6 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr "搜尋並篩選…"
 
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
-msgctxt "CFPage|"
-msgid "CurseForge"
-msgstr "CurseForge"
-
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -1096,6 +846,11 @@ msgstr "<a href=\"%1\">源代码</a>"
 msgctxt "CFPage|"
 msgid " by "
 msgstr " by "
+
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr "CurseForge"
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
 msgctxt "CapeChange|"
@@ -1409,11 +1164,6 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "文字編輯器："
 
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "外部工具"
-
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1507,6 +1257,11 @@ msgstr "無效"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "選擇的檔案似乎不是可執行檔"
+
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "外部工具"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:106
 #, qt-format
@@ -1737,11 +1492,6 @@ msgctxt "ImportPage|"
 msgid "Local file or link to a direct download:"
 msgstr "本機檔案或直接下載的連結："
 
-#: src/launcher/ui/pages/modplatform/ImportPage.h:40
-msgctxt "ImportPage|"
-msgid "Import from zip"
-msgstr "從 .zip 檔匯入"
-
 #: src/launcher/ui/pages/modplatform/ImportPage.cpp:107
 msgctxt "ImportPage|"
 msgid "Choose modpack"
@@ -1751,6 +1501,11 @@ msgstr "選擇模組包"
 msgctxt "ImportPage|"
 msgid "Zip (*.zip *.mrpack)"
 msgstr "压缩包 (*.zip *.mrpack)"
+
+#: src/launcher/ui/pages/modplatform/ImportPage.h:40
+msgctxt "ImportPage|"
+msgid "Import from zip"
+msgstr "從 .zip 檔匯入"
 
 #: src/launcher/meta/Index.cpp:76
 msgctxt "Index|"
@@ -1789,7 +1544,7 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr "正在從版本 %1 建立實例中"
 
-#: src/launcher/InstanceImportTask.cpp:77
+#: src/launcher/InstanceImportTask.cpp:78
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
@@ -1797,120 +1552,120 @@ msgid "Downloading modpack:\n"
 msgstr "正在下載模組包：\n"
 "%1"
 
-#: src/launcher/InstanceImportTask.cpp:83
+#: src/launcher/InstanceImportTask.cpp:84
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr "模組包下載"
 
-#: src/launcher/InstanceImportTask.cpp:112
-#: src/launcher/InstanceImportTask.cpp:286
+#: src/launcher/InstanceImportTask.cpp:113
+#: src/launcher/InstanceImportTask.cpp:285
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr "已中止實例匯入。"
 
-#: src/launcher/InstanceImportTask.cpp:135
+#: src/launcher/InstanceImportTask.cpp:136
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr "正在解壓縮模組包"
 
-#: src/launcher/InstanceImportTask.cpp:143
+#: src/launcher/InstanceImportTask.cpp:144
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr "無法開啟提供的模組包壓縮檔。"
 
-#: src/launcher/InstanceImportTask.cpp:188
-#: src/launcher/InstanceImportTask.cpp:279
+#: src/launcher/InstanceImportTask.cpp:187
+#: src/launcher/InstanceImportTask.cpp:278
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr "壓縮檔未包含已知的模組包類型。"
 
-#: src/launcher/InstanceImportTask.cpp:228
+#: src/launcher/InstanceImportTask.cpp:227
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr "無法解壓縮模組包"
 
-#: src/launcher/InstanceImportTask.cpp:255
+#: src/launcher/InstanceImportTask.cpp:254
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr "無法修正 %1 的權限"
 
-#: src/launcher/InstanceImportTask.cpp:306
+#: src/launcher/InstanceImportTask.cpp:305
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr "無法解析模組包資訊清單：\n"
 
-#: src/launcher/InstanceImportTask.cpp:317
-#: src/launcher/InstanceImportTask.cpp:948
+#: src/launcher/InstanceImportTask.cpp:316
+#: src/launcher/InstanceImportTask.cpp:968
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr "無法重新命名覆蓋的資料夾：\n"
 
-#: src/launcher/InstanceImportTask.cpp:323
+#: src/launcher/InstanceImportTask.cpp:322
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr "指定的替代文件夹 (%1) 丢失。也许此前已经使用了modpack吗？"
 
-#: src/launcher/InstanceImportTask.cpp:351
+#: src/launcher/InstanceImportTask.cpp:350
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr "清单中的未知模组加载器: %1"
 
-#: src/launcher/InstanceImportTask.cpp:364
+#: src/launcher/InstanceImportTask.cpp:363
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr "导入包时从Minecraft版本中删除神秘的尾随点。"
 
-#: src/launcher/InstanceImportTask.cpp:380
+#: src/launcher/InstanceImportTask.cpp:379
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr "无法映射推荐的 Minecraft 版本的 %1"
 
-#: src/launcher/InstanceImportTask.cpp:447
-#: src/launcher/InstanceImportTask.cpp:999
+#: src/launcher/InstanceImportTask.cpp:448
+#: src/launcher/InstanceImportTask.cpp:1019
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr "模組包下載"
 
-#: src/launcher/InstanceImportTask.cpp:467
+#: src/launcher/InstanceImportTask.cpp:468
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr "这个“文件夹”可能需要提取： %1"
 
-#: src/launcher/InstanceImportTask.cpp:483
+#: src/launcher/InstanceImportTask.cpp:484
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr "未实现modpacks 中嵌套的modpacks ，没有下载任何: %1"
 
-#: src/launcher/InstanceImportTask.cpp:488
+#: src/launcher/InstanceImportTask.cpp:489
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr "无法识别/未处理的包类型： %1"
 
-#: src/launcher/InstanceImportTask.cpp:518
-#: src/launcher/InstanceImportTask.cpp:1018
+#: src/launcher/InstanceImportTask.cpp:519
+#: src/launcher/InstanceImportTask.cpp:1038
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr "正在下載模組包…"
 
-#: src/launcher/InstanceImportTask.cpp:531
+#: src/launcher/InstanceImportTask.cpp:532
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr "无法解析模组 ID：\n"
 
-#: src/launcher/InstanceImportTask.cpp:939
+#: src/launcher/InstanceImportTask.cpp:959
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr "無法解析模組包索引：\n"
 
-#: src/launcher/InstanceImportTask.cpp:956
-#: src/launcher/InstanceImportTask.cpp:962
+#: src/launcher/InstanceImportTask.cpp:976
+#: src/launcher/InstanceImportTask.cpp:982
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr "無法合併覆蓋的資料夾：\n"
@@ -2112,6 +1867,11 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "單人遊戲世界："
 
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "設定"
+
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -2121,11 +1881,6 @@ msgstr "選擇 Java 版本"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "尋找 Java 可執行檔"
-
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "設定"
 
 #: src/launcher/InstanceList.cpp:850
 msgctxt "InstanceStaging|"
@@ -2612,8 +2367,8 @@ msgstr "下载源："
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
-msgid "Number of download threads:"
-msgstr "下载线程数："
+msgid "Download threads:"
+msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
@@ -2711,6 +2466,8 @@ msgid "Simple (Colored Icons)"
 msgstr "精簡（彩色圖示）"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:351
+#: src/launcher/ui/pages/global/LauncherPage.cpp:464
+#: src/launcher/ui/pages/global/LauncherPage.cpp:652
 msgctxt "LauncherPage|"
 msgid "Custom"
 msgstr "自訂"
@@ -2765,42 +2522,63 @@ msgctxt "LauncherPage|"
 msgid "Console font"
 msgstr "控制台字型"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:107
+#: src/launcher/ui/pages/global/LauncherPage.cpp:114
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr "實例資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:116
+#: src/launcher/ui/pages/global/LauncherPage.cpp:123
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr "在您指定的實例路徑中，包含了至少一個「!」字元。已知 Java 會在這種情況下發生問題，實例（可能會）無法啟動！"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:121
+#: src/launcher/ui/pages/global/LauncherPage.cpp:128
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr "您確定要使用此路徑？選擇「否」會關閉此對話方塊，且不會修改實例路徑。"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:144
+#: src/launcher/ui/pages/global/LauncherPage.cpp:151
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr "圖示資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:161
+#: src/launcher/ui/pages/global/LauncherPage.cpp:168
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "模組資料夾"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:585
+#: src/launcher/ui/pages/global/LauncherPage.cpp:619
+#: src/launcher/ui/pages/global/LauncherPage.cpp:656
+msgctxt "LauncherPage|"
+msgid "Custom Source"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:631
+msgctxt "LauncherPage|"
+msgid "Source name:"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:632
+msgctxt "LauncherPage|"
+msgid "Proxy address:"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:656
+msgctxt "LauncherPage|"
+msgid "Please enter a proxy address."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:695
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[有個/錯誤] 一個不好的錯誤！"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:594
+#: src/launcher/ui/pages/global/LauncherPage.cpp:704
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[測試/資訊] 一個無害的訊息…"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:603
+#: src/launcher/ui/pages/global/LauncherPage.cpp:713
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[有個/警告] 一個不嚴重的警告。"
@@ -2932,6 +2710,11 @@ msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr "選擇版本："
 
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
+msgctxt "LegacyFTB::Page|"
+msgid "FTB Legacy"
+msgstr "FTB 舊版"
+
 #: src/launcher/ui/pages/modplatform/legacy_ftb/Page.cpp:194
 msgctxt "LegacyFTB::Page|"
 msgid "FTB private packs"
@@ -2965,11 +2748,6 @@ msgstr "移除模組包"
 msgctxt "LegacyFTB::Page|"
 msgid "Are you sure you want to remove pack %1?"
 msgstr "您確定要移除 %1 模組包嗎？"
-
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.h:54
-msgctxt "LegacyFTB::Page|"
-msgid "FTB Legacy"
-msgstr "FTB 舊版"
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:218
 msgctxt "LegacyInstance|"
@@ -3131,50 +2909,17 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr "底部"
 
-#: src/launcher/ui/pages/instance/LogPage.ui:171
-msgctxt "LogPage|"
-msgid "Analyze crash log with AI"
-msgstr "使用 AI 分析當機記錄"
-
-#: src/launcher/ui/pages/instance/LogPage.ui:174
-#: src/launcher/ui/pages/instance/LogPage.cpp:389
-#: src/launcher/ui/pages/instance/LogPage.cpp:396
-#: src/launcher/ui/pages/instance/LogPage.cpp:415
-msgctxt "LogPage|"
-msgid "AI Analysis"
-msgstr "AI 分析"
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:251
+#: src/launcher/ui/pages/instance/LogPage.cpp:244
 msgctxt "LogPage|"
 msgid "Log upload"
 msgstr "上傳記錄檔"
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:252
+#: src/launcher/ui/pages/instance/LogPage.cpp:245
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "您確定要上傳記錄檔嗎？"
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:389
-msgctxt "LogPage|"
-msgid "No log content to analyze."
-msgstr "沒有可分析的記錄內容。"
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:396
-msgctxt "LogPage|"
-msgid "Please configure AI model in Settings > AI Analysis"
-msgstr "請在設定 > AI 分析中配置 AI 模型"
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:415
-msgctxt "LogPage|"
-msgid "Selected AI model not found. Please check Settings > AI Analysis"
-msgstr "找不到所選的 AI 模型，請檢查設定 > AI 分析"
-
-#: src/launcher/ui/pages/instance/LogPage.cpp:457
-msgctxt "LogPage|"
-msgid "AI Analysis Error"
-msgstr "AI 分析錯誤"
-
-#: src/launcher/ui/pages/instance/LogPage.h:43
+#: src/launcher/ui/pages/instance/LogPage.h:41
 msgctxt "LogPage|"
 msgid "Minecraft Log"
 msgstr "Minecraft 紀錄"
@@ -3902,50 +3647,50 @@ msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
 msgstr "已取得遷移標記"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:745
+#: src/launcher/minecraft/MinecraftInstance.cpp:784
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr "<對話 ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:747
+#: src/launcher/minecraft/MinecraftInstance.cpp:786
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr "<存取權杖>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:749
+#: src/launcher/minecraft/MinecraftInstance.cpp:788
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr "<用戶端權杖>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:751
+#: src/launcher/minecraft/MinecraftInstance.cpp:790
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr "<設定檔 ID>"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:823
+#: src/launcher/minecraft/MinecraftInstance.cpp:862
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr "已損壞"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:827
+#: src/launcher/minecraft/MinecraftInstance.cpp:866
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid "Minecraft %1 (%2)"
 msgstr "Minecraft %1 (%2)"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:831
+#: src/launcher/minecraft/MinecraftInstance.cpp:870
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr "，上次已遊玩 %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:836
+#: src/launcher/minecraft/MinecraftInstance.cpp:875
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr "，共遊玩 %1"
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:842
+#: src/launcher/minecraft/MinecraftInstance.cpp:881
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr "，程序已崩潰。"
@@ -4098,6 +3843,11 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr "搜尋"
 
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
+msgstr "下載模組"
+
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
@@ -4219,11 +3969,6 @@ msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
 msgstr "所有模組下載皆失敗。"
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
-msgstr "下載模組"
-
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
 msgctxt "ModFilterPage|"
 msgid "MainWindow"
@@ -4273,6 +4018,11 @@ msgstr "移除(&R)"
 msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
 msgstr "移除所選的模組"
+
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
+msgctxt "ModFilterPage|"
+msgid "Mod Lists"
+msgstr "模組清單"
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:155
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:392
@@ -4345,52 +4095,47 @@ msgid "Drag and drop MOD files into the table to add them to %1.\n"
 msgstr "將 MOD 檔案拖放至表格中以將其新增至 %1。\n"
 "選取您要移除的項目，然後點擊「移除所選項目」。"
 
-#: src/launcher/ui/pages/global/ModFilterPage.h:37
-msgctxt "ModFilterPage|"
-msgid "Mod Lists"
-msgstr "模組清單"
-
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:536
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:539
 msgctxt "ModFolderModel|"
 msgid "Folder"
 msgstr "資料夾"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:538
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:541
 msgctxt "ModFolderModel|"
 msgid "File"
 msgstr "檔案"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:647
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:650
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr "名稱"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:649
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:652
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr "版本"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:651
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:654
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr "修改日期"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:660
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:663
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr "啟用該模組"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:662
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:665
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr "模組的名稱。"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:664
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:667
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr "模組的版本。"
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:666
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:669
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr "該模組上次變更（或新增）的日期與時間。"
@@ -4825,11 +4570,6 @@ msgctxt "ModrinthPage|"
 msgid "Version selected:"
 msgstr "選擇版本："
 
-#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
-msgctxt "ModrinthPage|"
-msgid "Modrinth"
-msgstr "Modrinth"
-
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.cpp:39
 msgctxt "ModrinthPage|"
 msgid "Sort by relevance"
@@ -4865,7 +4605,12 @@ msgctxt "ModrinthPage|"
 msgid "Loading..."
 msgstr "正在載入…"
 
-#: src/launcher/net/NetJob.cpp:130
+#: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.h:48
+msgctxt "ModrinthPage|"
+msgid "Modrinth"
+msgstr "Modrinth"
+
+#: src/launcher/net/NetJob.cpp:144
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
@@ -5001,7 +4746,7 @@ msgid "Clear the log"
 msgstr "清除紀錄"
 
 #: src/launcher/ui/pages/instance/OtherLogsPage.ui:80
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:220
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:212
 msgctxt "OtherLogsPage|"
 msgid "Delete"
 msgstr "刪除"
@@ -5026,87 +4771,74 @@ msgctxt "OtherLogsPage|"
 msgid "Reload"
 msgstr "重新載入"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:136
-msgctxt "OtherLogsPage|"
-msgid "Analyze crash log with AI"
-msgstr "使用 AI 分析當機記錄"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:139
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
-msgctxt "OtherLogsPage|"
-msgid "AI Analysis"
-msgstr "AI 分析"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.ui:150
+#: src/launcher/ui/pages/instance/OtherLogsPage.ui:126
 msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr "搜尋："
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:47
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
 msgctxt "OtherLogsPage|"
 msgid "Other logs"
 msgstr "紀錄日誌"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:129
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:265
 msgctxt "OtherLogsPage|"
 msgid "Error"
 msgstr "錯誤"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:137
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:129
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to open %1 for reading: %2"
 msgstr "無法以讀取模式開啟 %1：%2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:157
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:149
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is too big. You may want to open it in a viewer optimized for large files."
 msgstr "檔案（%1）太大了。您可能會想用適合大型檔案的檢視器打開它。"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:173
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:165
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "The file (%1) is not readable."
 msgstr "檔案（%1）無法被讀取。"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:195
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:187
 msgctxt "OtherLogsPage|"
 msgid "Log upload"
 msgstr "上傳記錄檔"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:196
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:188
 msgctxt "OtherLogsPage|"
 msgid "Are you sure you want to upload this log file?"
 msgstr "您確定要上傳記錄檔嗎？"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:213
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete %1?"
 msgstr "您確定要刪除 %1 嗎？"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:229
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Unable to delete %1: %2"
 msgstr "無法刪除 %1：%2"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:241
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:233
 msgctxt "OtherLogsPage|"
 msgid "Clean up"
 msgstr "清除"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:244
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:236
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete all log files?"
 msgstr "您確定要刪除全部的記錄檔？"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:249
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:241
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Do you really want to delete these files?\n"
@@ -5114,38 +4846,18 @@ msgid "Do you really want to delete these files?\n"
 msgstr "您確定要刪除下列檔案？\n"
 "%1"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:276
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:268
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files!"
 msgstr "部分檔案無法被刪除！"
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:281
+#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:273
 #, qt-format
 msgctxt "OtherLogsPage|"
 msgid "Couldn't delete some files:\n"
 "%1"
 msgstr "部分檔案無法被刪除：\n"
 "%1"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:340
-msgctxt "OtherLogsPage|"
-msgid "No log content to analyze."
-msgstr "沒有可分析的記錄內容。"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:347
-msgctxt "OtherLogsPage|"
-msgid "Please configure AI model in Settings > AI Analysis"
-msgstr "請在設定 > AI 分析中設定 AI 模型"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:366
-msgctxt "OtherLogsPage|"
-msgid "Selected AI model not found. Please check Settings > AI Analysis"
-msgstr "找不到選取的 AI 模型。請檢查設定 > AI 分析"
-
-#: src/launcher/ui/pages/instance/OtherLogsPage.cpp:408
-msgctxt "OtherLogsPage|"
-msgid "AI Analysis Error"
-msgstr "AI 分析錯誤"
 
 #: src/launcher/minecraft/PackProfile.cpp:858
 msgctxt "PackProfile|"
@@ -5393,167 +5105,65 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: src/launcher/minecraft/AssetsUtils.cpp:323
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr "空白路徑"
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr "無效的 JVisualVM 檔案路徑"
+
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr "路徑不存在"
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
+msgstr "無效的 JProfiler 安裝"
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr "路徑為空白"
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "看起來不是 MCEdit 的路徑"
+
+#: src/launcher/meta/BaseEntity.cpp:118
 #, qt-format
 msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "%1 的資源"
+msgid "Download of meta file %1"
+msgstr "下載更新檔案 %1"
 
-#: src/launcher/minecraft/auth/AccountData.cpp:440
+#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
+#: src/launcher/meta/JsonFormat.cpp:163
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "未知格式的版本！"
+
+#: src/launcher/MMCTime.cpp:31
 #, qt-format
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "沒有個人檔案（%1）"
+msgid "%1m %2s"
+msgstr "%1 分 %2 秒"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/MMCTime.cpp:35
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments 被設為未知值「%1」"
+msgid "%1h %2m"
+msgstr "%1 小時 %2 分"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#: src/launcher/MMCTime.cpp:37
 #, qt-format
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "此版本的「minimumLauncherVersion」數值（%1）比 %3 所支援的還要高（%2）。它有可能無法正常運作！"
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "函式庫 %1 損壞，無法繼續。"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:51
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid order file version, expected %1"
-msgstr "無效的程序檔案版本，應為 %1"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:96
-#: src/launcher/minecraft/ProfileUtils.cpp:149
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to open the version file %1: %2."
-msgstr "無法開啟版本檔案 %1：%2。"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:117
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1: %2 at line %3 column %4."
-msgstr "無法處理版本檔案 %1：%2 於第 %3 行第 %4 欄。"
-
-#: src/launcher/minecraft/ProfileUtils.cpp:157
-#, qt-format
-msgctxt "QObject|"
-msgid "Unable to process the version file %1."
-msgstr "無法處理版本檔案 %1。"
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "無效的組件檔案版本，應為 %1"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
-msgctxt "QObject|"
-msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
-msgstr "版本檔案同時擁有「+libraries」及「libraries」。這已不再被支援。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
-msgctxt "QObject|"
-msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
-msgstr "無法確定主要 .jar 檔的網址──Mojang 移除了我們的備用伺服器。"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
-msgctxt "QObject|"
-msgid "Version file contains unsupported element 'tweakers'"
-msgstr "版本檔案包含了不被支援的元素「tweakers」"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-libraries'"
-msgstr "版本檔案包含了不被支援的元素「-libraries」"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-tweakers'"
-msgstr "版本檔案包含了不被支援的元素「-tweakers」"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '-minecraftArguments'"
-msgstr "版本檔案包含了不被支援的元素「-minecraftArguments」"
-
-#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
-msgctxt "QObject|"
-msgid "Version file contains unsupported element '+minecraftArguments'"
-msgstr "版本檔案包含了不被支援的元素「+minecraftArguments」"
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "尚未載入補丁。"
-
-#: src/launcher/JavaCommon.cpp:10
-msgctxt "QObject|"
-msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
-"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
-"This message will be displayed until you remove them from the JVM arguments."
-msgstr "您嘗試手動指定 JVM 的記憶體選項（「-XX:PermSize」、「-XX-MaxHeapSize」、「-XX:InitialHeapSize」、「-Xmx」或「-Xms」）。\n"
-"這些選項在設定中有專門的欄位（在 Java 分頁上方的 Memory 群組中）。\n"
-"此訊息會持續顯示，直到您將他們從 JVM 引數中移除。"
-
-#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
-msgctxt "QObject|"
-msgid "JVM arguments warning"
-msgstr "JVM 引數警告"
-
-#: src/launcher/JavaCommon.cpp:22
-msgctxt "QObject|"
-msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
-"This message will be displayed until you remove this from the JVM arguments."
-msgstr "您嘗試將所需的 Java 版本引數傳遞給 JVM（使用了「-version=xxx」）。這並不安全，也不被允許。\n"
-"這份訊息將一直顯示，直到您從 JVM 引數中刪除它。"
-
-#: src/launcher/JavaCommon.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
-msgstr "Java 測試成功！<br />平台報告：%1<br />Java 版本報告：%2<br />Java 供應商報告：%3<br />"
-
-#: src/launcher/JavaCommon.cpp:44
-#, qt-format
-msgctxt "QObject|"
-msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
-msgstr "<br />警告：<br /><font color=\"orange\">%1</font>"
-
-#: src/launcher/JavaCommon.cpp:46
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr "Java 測試成功"
-
-#: src/launcher/JavaCommon.cpp:54
-msgctxt "QObject|"
-msgid "The specified java binary didn't work with the arguments you provided:<br />"
-msgstr "指定的 Java 二進制檔案無法使用您提供的引數：<br />"
-
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr "Java 測試失敗"
-
-#: src/launcher/JavaCommon.cpp:62
-msgctxt "QObject|"
-msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
-msgstr "指定的 Java 二進制檔案無法使用。<br />您應該使用自動偵測功能，或者設定 Java 可執行檔的路徑。<br />"
-
-#: src/launcher/ui/MainWindow.cpp:107
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1（使用中）"
+msgid "%1d %2h %3m"
+msgstr "%1 天 %2 小時 %3 分"
 
 #: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
 msgctxt "QObject|"
@@ -5608,20 +5218,21 @@ msgctxt "QObject|About Credits"
 msgid "Patrons"
 msgstr "贊助者"
 
-#: src/launcher/ui/themes/SystemTheme.cpp:47
+#: src/launcher/ui/MainWindow.cpp:107
+#, qt-format
 msgctxt "QObject|"
-msgid "System"
-msgstr "系統預設值"
+msgid "%1 (in use)"
+msgstr "%1（使用中）"
 
-#: src/launcher/ui/themes/BrightTheme.cpp:10
+#: src/launcher/ui/pages/instance/ServersPage.cpp:31
 msgctxt "QObject|"
-msgid "Bright"
-msgstr "淺色"
+msgid "Minecraft Server"
+msgstr "Minecraft 伺服器"
 
-#: src/launcher/ui/themes/DarkTheme.cpp:10
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
 msgctxt "QObject|"
-msgid "Dark"
-msgstr "深色"
+msgid "Description is missing in the FTB App instance."
+msgstr "FTB App 實例中缺少描述。"
 
 #: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
 msgctxt "QObject|"
@@ -5644,15 +5255,75 @@ msgctxt "QObject|"
 msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
 msgstr "Java 測試成功！<br />平台報告：%1<br />Java 版本報告：%2<br />"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
 msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft 伺服器"
+msgid "Java test failure"
+msgstr "Java 測試失敗"
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
+#: src/launcher/JavaCommon.cpp:46
 msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "FTB App 實例中缺少描述。"
+msgid "Java test success"
+msgstr "Java 測試成功"
+
+#: src/launcher/ui/themes/SystemTheme.cpp:47
+msgctxt "QObject|"
+msgid "System"
+msgstr "系統預設值"
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr "淺色"
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr "深色"
+
+#: src/launcher/JavaCommon.cpp:10
+msgctxt "QObject|"
+msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
+"There are dedicated boxes for these in the settings (Java tab, in the Memory group at the top).\n"
+"This message will be displayed until you remove them from the JVM arguments."
+msgstr "您嘗試手動指定 JVM 的記憶體選項（「-XX:PermSize」、「-XX-MaxHeapSize」、「-XX:InitialHeapSize」、「-Xmx」或「-Xms」）。\n"
+"這些選項在設定中有專門的欄位（在 Java 分頁上方的 Memory 群組中）。\n"
+"此訊息會持續顯示，直到您將他們從 JVM 引數中移除。"
+
+#: src/launcher/JavaCommon.cpp:15 src/launcher/JavaCommon.cpp:26
+msgctxt "QObject|"
+msgid "JVM arguments warning"
+msgstr "JVM 引數警告"
+
+#: src/launcher/JavaCommon.cpp:22
+msgctxt "QObject|"
+msgid "You tried to pass required java version argument to the JVM (using \"-version=xxx\"). This is not safe and will not be allowed.\n"
+"This message will be displayed until you remove this from the JVM arguments."
+msgstr "您嘗試將所需的 Java 版本引數傳遞給 JVM（使用了「-version=xxx」）。這並不安全，也不被允許。\n"
+"這份訊息將一直顯示，直到您從 JVM 引數中刪除它。"
+
+#: src/launcher/JavaCommon.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />Java vendor reported: %3<br />"
+msgstr "Java 測試成功！<br />平台報告：%1<br />Java 版本報告：%2<br />Java 供應商報告：%3<br />"
+
+#: src/launcher/JavaCommon.cpp:44
+#, qt-format
+msgctxt "QObject|"
+msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
+msgstr "<br />警告：<br /><font color=\"orange\">%1</font>"
+
+#: src/launcher/JavaCommon.cpp:54
+msgctxt "QObject|"
+msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr "指定的 Java 二進制檔案無法使用您提供的引數：<br />"
+
+#: src/launcher/JavaCommon.cpp:62
+msgctxt "QObject|"
+msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
+msgstr "指定的 Java 二進制檔案無法使用。<br />您應該使用自動偵測功能，或者設定 Java 可執行檔的路徑。<br />"
 
 #: src/launcher/UpdateController.cpp:366
 msgctxt "QObject|"
@@ -5697,65 +5368,106 @@ msgstr "還原程序也失敗了。\n"
 "您將需要手動修復 %1。\n"
 "請讓我們知道這是為何且如何發生的。"
 
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "未知格式的版本！"
-
-#: src/launcher/meta/BaseEntity.cpp:118
+#: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
 msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "下載更新檔案 %1"
+msgid "Invalid component file version, expected %1"
+msgstr "無效的組件檔案版本，應為 %1"
 
-#: src/launcher/MMCTime.cpp:31
+#: src/launcher/minecraft/auth/AccountData.cpp:440
 #, qt-format
 msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr "%1 分 %2 秒"
+msgid "No profile (%1)"
+msgstr "沒有個人檔案（%1）"
 
-#: src/launcher/MMCTime.cpp:35
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:162
+msgctxt "QObject|"
+msgid "Version file has both '+libraries' and 'libraries'. This is no longer supported."
+msgstr "版本檔案同時擁有「+libraries」及「libraries」。這已不再被支援。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:202
+msgctxt "QObject|"
+msgid "URL for the main jar could not be determined - Mojang removed the server that we used as fallback."
+msgstr "無法確定主要 .jar 檔的網址──Mojang 移除了我們的備用伺服器。"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:235
+msgctxt "QObject|"
+msgid "Version file contains unsupported element 'tweakers'"
+msgstr "版本檔案包含了不被支援的元素「tweakers」"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:239
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-libraries'"
+msgstr "版本檔案包含了不被支援的元素「-libraries」"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:243
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-tweakers'"
+msgstr "版本檔案包含了不被支援的元素「-tweakers」"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:247
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '-minecraftArguments'"
+msgstr "版本檔案包含了不被支援的元素「-minecraftArguments」"
+
+#: src/launcher/minecraft/OneSixVersionFormat.cpp:251
+msgctxt "QObject|"
+msgid "Version file contains unsupported element '+minecraftArguments'"
+msgstr "版本檔案包含了不被支援的元素「+minecraftArguments」"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
 #, qt-format
 msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr "%1 小時 %2 分"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments 被設為未知值「%1」"
 
-#: src/launcher/MMCTime.cpp:37
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
 #, qt-format
 msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr "%1 天 %2 小時 %3 分"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "此版本的「minimumLauncherVersion」數值（%1）比 %3 所支援的還要高（%2）。它有可能無法正常運作！"
 
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
 msgctxt "QObject|"
-msgid "Empty path"
-msgstr "空白路徑"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "函式庫 %1 損壞，無法繼續。"
 
-#: src/launcher/tools/JVisualVM.cpp:98
+#: src/launcher/minecraft/Component.cpp:249
 msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "無效的 JVisualVM 檔案路徑"
+msgid "Patch is not loaded yet."
+msgstr "尚未載入補丁。"
 
-#: src/launcher/tools/MCEditTool.cpp:31
+#: src/launcher/minecraft/AssetsUtils.cpp:323
+#, qt-format
 msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "路徑為空白"
+msgid "Assets for %1"
+msgstr "%1 的資源"
 
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+#: src/launcher/minecraft/ProfileUtils.cpp:51
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "路徑不存在"
+msgid "Invalid order file version, expected %1"
+msgstr "無效的程序檔案版本，應為 %1"
 
-#: src/launcher/tools/MCEditTool.cpp:42
+#: src/launcher/minecraft/ProfileUtils.cpp:96
+#: src/launcher/minecraft/ProfileUtils.cpp:149
+#, qt-format
 msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "看起來不是 MCEdit 的路徑"
+msgid "Unable to open the version file %1: %2."
+msgstr "無法開啟版本檔案 %1：%2。"
 
-#: src/launcher/tools/JProfiler.cpp:110
+#: src/launcher/minecraft/ProfileUtils.cpp:117
+#, qt-format
 msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "無效的 JProfiler 安裝"
+msgid "Unable to process the version file %1: %2 at line %3 column %4."
+msgstr "無法處理版本檔案 %1：%2 於第 %3 行第 %4 欄。"
+
+#: src/launcher/minecraft/ProfileUtils.cpp:157
+#, qt-format
+msgctxt "QObject|"
+msgid "Unable to process the version file %1."
+msgstr "無法處理版本檔案 %1。"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -7025,11 +6737,6 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "管理這個世界中的資料包。"
 
-#: src/launcher/ui/pages/instance/WorldListPage.h:44
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "世界"
-
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -7110,6 +6817,11 @@ msgstr "輸入新複製檔的名稱。"
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "輸入新世界的名稱。"
+
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "世界"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
