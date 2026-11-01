@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Polish\n"
 "Language: pl_PL\n"
-"PO-Revision-Date: 2026-10-31 16:50\n"
+"PO-Revision-Date: 2026-11-01 14:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -1953,6 +1953,136 @@ msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
 msgstr "Wykrywanie instalacji Java..."
 
+#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:28
+msgctxt "JavaMatchSelectDialog|"
+msgid "Select a Java installation"
+msgstr ""
+
+#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:34
+msgctxt "JavaMatchSelectDialog|"
+msgid "Multiple Java installations match this instance's requirements.\n"
+"Please select one to use for launching:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
+msgctxt "JavaMatchSelectDialog|"
+msgid "Install Path"
+msgstr ""
+
+#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
+msgctxt "JavaMatchSelectDialog|"
+msgid "Version"
+msgstr ""
+
+#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
+msgctxt "JavaMatchSelectDialog|"
+msgid "Vendor"
+msgstr ""
+
+#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
+msgctxt "JavaMatchSelectDialog|"
+msgid "Architecture"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:58
+msgctxt "JavaMatchTask|"
+msgid "Checking Java compatibility..."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:65
+msgctxt "JavaMatchTask|"
+msgid "The current Java path is not valid."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:86
+#, qt-format
+msgctxt "JavaMatchTask|"
+msgid "The current Java (%1) does not satisfy the requirement of Java %2 or newer."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:94
+msgctxt "JavaMatchTask|"
+msgid "Failed to determine the version of the current Java installation."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:101
+msgctxt "JavaMatchTask|"
+msgid "Scanning for compatible Java installations..."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:128
+#, qt-format
+msgctxt "JavaMatchTask|"
+msgid "The Java installation scan failed: %1"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:169
+msgctxt "JavaMatchTask|"
+msgid "Launch cancelled: no Java installation was selected."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:191
+msgctxt "JavaMatchTask|"
+msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:194
+msgctxt "JavaMatchTask|"
+msgid "Minecraft 24w14a and above require the use of Java 21"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:197
+msgctxt "JavaMatchTask|"
+msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:200
+msgctxt "JavaMatchTask|"
+msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:204
+msgctxt "JavaMatchTask|"
+msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:208
+msgctxt "JavaMatchTask|"
+msgid "No compatible Java installation was found on this system."
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:210
+#, qt-format
+msgctxt "JavaMatchTask|"
+msgid "Please download and install Java %1 or newer from one of the following official sources:"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:212
+msgctxt "JavaMatchTask|"
+msgid "Adoptium: <a href=\"https://adoptium.net\">https://adoptium.net</a>"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:213
+msgctxt "JavaMatchTask|"
+msgid "Azul: <a href=\"https://www.azul.com/downloads\">https://www.azul.com/downloads</a>"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:214
+msgctxt "JavaMatchTask|"
+msgid "Oracle: <a href=\"https://www.oracle.com/java/technologies/downloads\">https://www.oracle.com/java/technologies/downloads</a>"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:218
+msgctxt "JavaMatchTask|"
+msgid "Java version requirement"
+msgstr ""
+
+#: src/launcher/java/JavaMatchTask.cpp:228
+#, qt-format
+msgctxt "JavaMatchTask|"
+msgid "No compatible Java installation found. Java %1 or newer is required."
+msgstr ""
+
 #: src/launcher/ui/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
 msgid "Memory"
@@ -2228,7 +2358,7 @@ msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "Nie udało się uruchomic."
 
-#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:382
+#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:403
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "Wystąpił błąd!"
@@ -2238,18 +2368,18 @@ msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Nie udało się załadować profilu instancji."
 
-#: src/launcher/LaunchController.cpp:318
+#: src/launcher/LaunchController.cpp:339
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "Nie udało się utworzyć instancji launchera."
 
-#: src/launcher/LaunchController.cpp:382
+#: src/launcher/LaunchController.cpp:403
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "Nie udało się uruchomić profilera: %1"
 
-#: src/launcher/LaunchController.cpp:391
+#: src/launcher/LaunchController.cpp:412
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -2257,38 +2387,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "Uruchomienie Minecrafta jest opóźnione do momentu wciśnięcia przycisku. To jest odpowiedni moment, aby skonfigurować profiler, ponieważ serwer profilera aktualnie działa.\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:394
+#: src/launcher/LaunchController.cpp:415
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "Oczekiwanie."
 
-#: src/launcher/LaunchController.cpp:396
+#: src/launcher/LaunchController.cpp:417
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Uruchom"
 
-#: src/launcher/LaunchController.cpp:404
+#: src/launcher/LaunchController.cpp:425
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Nie udało się uruchomić profilera: %1"
 
-#: src/launcher/LaunchController.cpp:405
+#: src/launcher/LaunchController.cpp:426
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Błąd"
 
-#: src/launcher/LaunchController.cpp:433
+#: src/launcher/LaunchController.cpp:454
 msgctxt "LaunchController|"
 msgid "Abort"
 msgstr "Anuluj"
 
-#: src/launcher/LaunchController.cpp:449
+#: src/launcher/LaunchController.cpp:470
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Wymusić zatrzymanie Minecrafta?"
 
-#: src/launcher/LaunchController.cpp:450
+#: src/launcher/LaunchController.cpp:471
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "To może spowodować uszkodzenie instancji i powinno być wykonane tylko, gdy Minecraft zawiesi się z jakiegoś powodu"
@@ -2463,8 +2593,8 @@ msgid "Simple (Colored Icons)"
 msgstr "Proste (kolorowe ikony)"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:351
-#: src/launcher/ui/pages/global/LauncherPage.cpp:464
-#: src/launcher/ui/pages/global/LauncherPage.cpp:652
+#: src/launcher/ui/pages/global/LauncherPage.cpp:471
+#: src/launcher/ui/pages/global/LauncherPage.cpp:714
 msgctxt "LauncherPage|"
 msgid "Custom"
 msgstr "Niestandardowe"
@@ -2519,63 +2649,82 @@ msgctxt "LauncherPage|"
 msgid "Console font"
 msgstr "Czcionka konsoli"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:114
+#: src/launcher/ui/pages/global/LauncherPage.cpp:116
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr "Folder instancji"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:123
+#: src/launcher/ui/pages/global/LauncherPage.cpp:125
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr "Określona ścieżka instancji zawiera niedozwolony symbol: '!'. Java ma problemy ze ścieżkami zawierającymi '!', jest mało prawdopodobne, że instancja będzie mogła się uruchomić."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:128
+#: src/launcher/ui/pages/global/LauncherPage.cpp:130
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr "Czy na pewno chcesz użyć tej ścieżki? Wybranie \"Nie\" zamknie to okno i nie zmieni ścieżki instancji."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:151
+#: src/launcher/ui/pages/global/LauncherPage.cpp:153
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr "Folder ikon"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:168
+#: src/launcher/ui/pages/global/LauncherPage.cpp:170
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "Folder modów"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:619
-#: src/launcher/ui/pages/global/LauncherPage.cpp:656
+#: src/launcher/ui/pages/global/LauncherPage.cpp:678
+#: src/launcher/ui/pages/global/LauncherPage.cpp:719
+#: src/launcher/ui/pages/global/LauncherPage.cpp:759
+#: src/launcher/ui/pages/global/LauncherPage.cpp:863
 msgctxt "LauncherPage|"
 msgid "Custom Source"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:631
+#: src/launcher/ui/pages/global/LauncherPage.cpp:690
 msgctxt "LauncherPage|"
 msgid "Source name:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:632
+#: src/launcher/ui/pages/global/LauncherPage.cpp:691
 msgctxt "LauncherPage|"
 msgid "Proxy address:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:656
+#: src/launcher/ui/pages/global/LauncherPage.cpp:719
 msgctxt "LauncherPage|"
 msgid "Please enter a proxy address."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:695
+#: src/launcher/ui/pages/global/LauncherPage.cpp:759
+#: src/launcher/ui/pages/global/LauncherPage.cpp:863
+msgctxt "LauncherPage|"
+msgid "This proxy address is already in use."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:803
+msgctxt "LauncherPage|"
+msgid "Delete Source"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:804
+#, qt-format
+msgctxt "LauncherPage|"
+msgid "Delete the custom source \"%1\"?"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:894
 msgctxt "LauncherPage|"
 msgid "[Something/ERROR] A spooky error!"
 msgstr "[Coś/BŁĄD] Straszny błąd!"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:704
+#: src/launcher/ui/pages/global/LauncherPage.cpp:903
 msgctxt "LauncherPage|"
 msgid "[Test/INFO] A harmless message..."
 msgstr "[Test/INFO] Niegroźna wiadomość..."
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:713
+#: src/launcher/ui/pages/global/LauncherPage.cpp:912
 msgctxt "LauncherPage|"
 msgid "[Something/WARN] A not so spooky warning."
 msgstr "[Coś/OSTRZEŻENIE] Nie jest tak straszne ostrzeżenie."
@@ -6096,22 +6245,22 @@ msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:45
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 24w14a and above require the use of Java 21"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:48
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:55
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
 msgstr ""
