@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Macedonian\n"
 "Language: mk_MK\n"
-"PO-Revision-Date: 2026-11-01 14:11\n"
+"PO-Revision-Date: 2026-11-23 16:12\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -149,42 +149,37 @@ msgctxt "AboutDialog|"
 msgid "Version:"
 msgstr "Верзија:"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:167
+#: src/launcher/ui/dialogs/AboutDialog.ui:170
 msgctxt "AboutDialog|"
 msgid "Platform:"
 msgstr "Платформа:"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:177
+#: src/launcher/ui/dialogs/AboutDialog.ui:183
 msgctxt "AboutDialog|"
 msgid "Build Number:"
 msgstr "Број на градење:"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:187
+#: src/launcher/ui/dialogs/AboutDialog.ui:196
 msgctxt "AboutDialog|"
 msgid "Channel:"
 msgstr "Канал:"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:211
+#: src/launcher/ui/dialogs/AboutDialog.ui:223
 msgctxt "AboutDialog|"
 msgid "Credits"
 msgstr "Заслуги"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:228
+#: src/launcher/ui/dialogs/AboutDialog.ui:240
 msgctxt "AboutDialog|"
 msgid "License"
 msgstr "Лиценца"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:256
-msgctxt "AboutDialog|"
-msgid "Forking/Redistribution"
-msgstr "Вилушкање/Прераспределба"
-
-#: src/launcher/ui/dialogs/AboutDialog.ui:278
+#: src/launcher/ui/dialogs/AboutDialog.ui:276
 msgctxt "AboutDialog|"
 msgid "About Qt"
 msgstr "За Qt"
 
-#: src/launcher/ui/dialogs/AboutDialog.ui:298
+#: src/launcher/ui/dialogs/AboutDialog.ui:296
 msgctxt "AboutDialog|"
 msgid "Close"
 msgstr "Затвори"
@@ -215,14 +210,20 @@ msgctxt "AboutDialog|"
 msgid "Channel"
 msgstr "Канал"
 
-#: src/launcher/ui/dialogs/AboutDialog.cpp:110
-msgctxt "AboutDialog|"
-msgid "<p>We keep MultiMC open source because we think it's important to be able to see the source code for a project like this, and we do so using the Apache license.</p>\n"
-"<p>Part of the reason for using the Apache license is we don't want people using the &quot;MultiMC&quot; name when redistributing the project. This means people must take the time to go through the source code and remove all references to &quot;MultiMC&quot;, including but not limited to the project icon and the title of windows, (no <b>MultiMC-fork</b> in the title).</p>\n"
-"<p>The Apache license covers reasonable use for the name - a mention of the project's origins in the About dialog and the license is acceptable. However, it should be abundantly clear that the project is a fork <b>without</b> implying that you have our blessing.</p>"
-msgstr "<p>Ние го чуваме MultiMC со отворен код затоа што сметаме дека е важно да можеме да го видиме изворниот код за ваков проект, и тоа го правиме користејќи ја лиценцата Апачи.</p>\n"
-"<p>Дел од причината за користење на лиценцата за Апачи е тоа што не сакаме луѓето да користат &quot;MultiMC&quot; име при прераспределба на проектот. Ова значи дека луѓето мора да одвојат време да поминат низ изворниот код и да ги отстранат сите референци за &quot;MultiMC&quot;, вклучувајќи, но не ограничувајќи се на иконата на проектот и насловот на прозорците, (без <b> MultiMC-вилушка </b> во насловот).</p>\n"
-"<p>Лиценцата Апачи опфаќа разумна употреба на името - споменување на потеклото на проектот во дијалогот За и лиценцата е прифатлива. Сепак, треба да биде извонредно јасно дека проектот е вилушка <b> без </b> што подразбира дека го имате нашиот благослов.</p>"
+#: src/launcher/ui/dialogs/AccentColorDialog.cpp:309
+msgctxt "AccentColorDialog|"
+msgid "Accent color"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccentColorDialog.cpp:314
+msgctxt "AccentColorDialog|"
+msgid "The system's accent color"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AccentColorDialog.cpp:376
+msgctxt "AccentColorDialog|"
+msgid "&Hex"
+msgstr ""
 
 #: src/launcher/minecraft/auth/AccountList.cpp:327
 msgctxt "AccountList|Account status"
@@ -491,33 +492,217 @@ msgctxt "AccountsDialog|"
 msgid "Minecraft Accounts"
 msgstr ""
 
-#: src/launcher/Application.cpp:800
+#: src/launcher/ui/pages/global/AppearancePage.h:45
+msgctxt "AppearancePage|"
+msgid "Appearance"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:190
+msgctxt "AppearancePage|"
+msgid "Ed&it..."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:191
+msgctxt "AppearancePage|"
+msgid "Change the chosen theme's colors, or make a theme of your own from them"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:201
+msgctxt "AppearancePage|"
+msgid "Edit..."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:207
+msgctxt "AppearancePage|"
+msgid "Open folder"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:210
+msgctxt "AppearancePage|"
+msgid "Export..."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:212
+msgctxt "AppearancePage|"
+msgid "Delete"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:217
+msgctxt "AppearancePage|"
+msgid "Open themes folder"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:217
+msgctxt "AppearancePage|"
+msgid "Open icon themes folder"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:226
+msgctxt "AppearancePage|"
+msgid "Import a theme"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:226
+#: src/launcher/ui/pages/global/AppearancePage.cpp:288
+msgctxt "AppearancePage|"
+msgid "Theme zip files (*.zip)"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:236
+msgctxt "AppearancePage|"
+msgid "Theme not imported"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:236
+#, qt-format
+msgctxt "AppearancePage|"
+msgid "%1 can't be imported as a theme.\n\n"
+"%2"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:248
+#, qt-format
+msgctxt "AppearancePage|"
+msgid "It is named \"%1\", like a built-in theme. Rename the zip file or its folder."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:256
+#, qt-format
+msgctxt "AppearancePage|"
+msgid "There already is a theme in the folder \"%1\". Replace it with the imported one?"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:257
+#, qt-format
+msgctxt "AppearancePage|"
+msgid "There already is a theme in the folder \"%1\": %2. Replace it with the imported one?"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:258
+msgctxt "AppearancePage|"
+msgid "Replace theme?"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:288
+msgctxt "AppearancePage|"
+msgid "Export the theme"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:296
+msgctxt "AppearancePage|"
+msgid "Theme not exported"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:309
+msgctxt "AppearancePage|"
+msgid "Delete theme?"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:310
+#, qt-format
+msgctxt "AppearancePage|"
+msgid "Delete the theme \"%1\"? Its folder is deleted with everything in it:\n"
+"%2"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:319
+msgctxt "AppearancePage|"
+msgid "Theme not deleted"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:319
+#, qt-format
+msgctxt "AppearancePage|"
+msgid "The folder %1 couldn't be deleted completely."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:460
+msgctxt "AppearancePage|"
+msgid "Theme"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:461
+msgctxt "AppearancePage|"
+msgid "Icons"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:464
+msgctxt "AppearancePage|"
+msgid "&Import..."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:465
+msgctxt "AppearancePage|"
+msgid "Add a theme or an icon theme from a zip file. Zip files can also be dropped here."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:466
+msgctxt "AppearancePage|"
+msgid "Open &folder"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:467
+msgctxt "AppearancePage|"
+msgid "&Export..."
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:468
+msgctxt "AppearancePage|"
+msgid "Save the chosen theme as a zip file, to share it"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:469
+msgctxt "AppearancePage|"
+msgid "&Delete"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:471
+msgctxt "AppearancePage|"
+msgid "Open the folder with the themes"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:472
+msgctxt "AppearancePage|"
+msgid "Open the folder with the icon themes"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:473
+msgctxt "AppearancePage|"
+msgid "Console"
+msgstr ""
+
+#: src/launcher/ui/pages/global/AppearancePage.cpp:474
+msgctxt "AppearancePage|"
+msgid "&Font:"
+msgstr ""
+
+#: src/launcher/Application.cpp:816
 msgctxt "Application|"
 msgid "Settings"
 msgstr ""
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:21
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:22
 msgctxt "AssetUpdateTask|"
 msgid "Updating assets index..."
 msgstr "Индексот на средства се ажурира..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:28
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:29
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Asset index for %1"
 msgstr "Индекс на средства за %1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:73
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:78
 msgctxt "AssetUpdateTask|"
 msgid "Failed to read the assets index!"
 msgstr "Неуспешно читање на индексот на средства!"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:79
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:84
 msgctxt "AssetUpdateTask|"
 msgid "Getting the assets files from Mojang..."
 msgstr "Добивање датотеки со средства од Мојанг..."
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:93
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download the assets index:\n"
@@ -525,7 +710,7 @@ msgid "Failed to download the assets index:\n"
 msgstr "Неуспешно преземање на индексот на средства:\n"
 "%1"
 
-#: src/launcher/minecraft/update/AssetUpdateTask.cpp:98
+#: src/launcher/minecraft/update/AssetUpdateTask.cpp:103
 #, qt-format
 msgctxt "AssetUpdateTask|"
 msgid "Failed to download assets:\n"
@@ -895,33 +1080,74 @@ msgctxt "Cfmodlist|"
 msgid "Remove Selected"
 msgstr ""
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:270
+#: src/launcher/ui/widgets/ColorEdit.cpp:95
+msgctxt "ColorEdit|"
+msgid "Pick a color"
+msgstr ""
+
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:262
 msgctxt "ComponentUpdateTask|"
 msgid "Some component metadata load tasks failed."
 msgstr "Некои задачи за вчитување метаподатоци не успеаја."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:526
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:518
 msgctxt "ComponentUpdateTask|"
 msgid "Conflicting requirements detected during dependency checking!"
 msgstr "Конфликтни барања откриени при проверка на зависност!"
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:545
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:530
+#, qt-format
+msgctxt "ComponentUpdateTask|"
+msgid "Could not remove obsolete component %1."
+msgstr ""
+
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:541
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has conflicting dependencies."
 msgstr "Примерот има спротивставени зависности."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:552
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:548
 msgctxt "ComponentUpdateTask|"
 msgid "Instance has unresolved dependencies while loading/checking for launch."
 msgstr "Примерот има нерешени зависности додека се вчитува/проверува за вклучување."
 
-#: src/launcher/minecraft/ComponentUpdateTask.cpp:702
+#: src/launcher/minecraft/ComponentUpdateTask.cpp:698
 #, qt-format
 msgctxt "ComponentUpdateTask|"
 msgid "Component metadata update task failed while downloading from remote server:\n"
 "%1"
 msgstr "Задачата за ажурирање на метаподатоци не успеа при преземање од далечински сервер:\n"
 "%1"
+
+#: src/launcher/ui/widgets/ConsolePreview.cpp:44
+msgctxt "ConsolePreview|"
+msgid "Launcher: preparing the instance..."
+msgstr ""
+
+#: src/launcher/ui/widgets/ConsolePreview.cpp:45
+msgctxt "ConsolePreview|"
+msgid "[Test/INFO] A harmless message..."
+msgstr ""
+
+#: src/launcher/ui/widgets/ConsolePreview.cpp:46
+msgctxt "ConsolePreview|"
+msgid "[Test/DEBUG] Details for the curious."
+msgstr ""
+
+#: src/launcher/ui/widgets/ConsolePreview.cpp:47
+msgctxt "ConsolePreview|"
+msgid "[Something/WARN] A not so spooky warning."
+msgstr ""
+
+#: src/launcher/ui/widgets/ConsolePreview.cpp:48
+msgctxt "ConsolePreview|"
+msgid "[Something/ERROR] A spooky error!"
+msgstr ""
+
+#: src/launcher/ui/widgets/ConsolePreview.cpp:49
+msgctxt "ConsolePreview|"
+msgid "[Something/FATAL] The game crashed."
+msgstr ""
 
 #: src/launcher/ui/dialogs/CopyInstanceDialog.ui:17
 msgctxt "CopyInstanceDialog|"
@@ -948,7 +1174,7 @@ msgctxt "CopyInstanceDialog|"
 msgid "Keep play time"
 msgstr "Чувајте го времето на играње"
 
-#: src/launcher/ui/dialogs/CopyInstanceDialog.cpp:54
+#: src/launcher/ui/dialogs/CopyInstanceDialog.cpp:55
 msgctxt "CopyInstanceDialog|"
 msgid "No group"
 msgstr "Нема групи"
@@ -1008,7 +1234,7 @@ msgctxt "CreateShortcutDialog|"
 msgid "Create script instead of shortcut"
 msgstr ""
 
-#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:101
+#: src/launcher/ui/dialogs/CreateShortcutDialog.cpp:102
 msgctxt "CreateShortcutDialog|"
 msgid "Select shortcut path"
 msgstr ""
@@ -1259,7 +1485,7 @@ msgctxt "ExternalToolsPage|"
 msgid "External Tools"
 msgstr "Надворешни алатки"
 
-#: src/launcher/minecraft/launch/ExtractNatives.cpp:106
+#: src/launcher/minecraft/launch/ExtractNatives.cpp:117
 #, qt-format
 msgctxt "ExtractNatives|"
 msgid "Couldn't extract native jar '%1' to destination '%2'"
@@ -1391,51 +1617,38 @@ msgctxt "GetSkinStep|"
 msgid "Got skin"
 msgstr ""
 
-#: src/launcher/updater/DownloadTask.cpp:47
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Loading version information..."
+#: src/launcher/icons/IconList.cpp:485
+msgctxt "IconList|"
+msgid "Only icons from the icons folder can be renamed."
 msgstr ""
 
-#: src/launcher/updater/DownloadTask.cpp:84
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Failed to download version info files."
+#: src/launcher/icons/IconList.cpp:489
+msgctxt "IconList|"
+msgid "An icon needs a name."
 msgstr ""
 
-#: src/launcher/updater/DownloadTask.cpp:92
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Reading file list for new version..."
-msgstr ""
-
-#: src/launcher/updater/DownloadTask.cpp:105
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Reading file list for current version..."
-msgstr ""
-
-#: src/launcher/updater/DownloadTask.cpp:120
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Processing file lists - figuring out how to install the update..."
-msgstr ""
-
-#: src/launcher/updater/DownloadTask.cpp:128
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Failed to process update lists..."
-msgstr ""
-
-#: src/launcher/updater/DownloadTask.cpp:139
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Downloading one update file."
-msgstr ""
-
-#: src/launcher/updater/DownloadTask.cpp:143
+#: src/launcher/icons/IconList.cpp:496
 #, qt-format
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Downloading %1 update files."
+msgctxt "IconList|"
+msgid "An icon's name can't contain any of these: %1"
 msgstr ""
 
-#: src/launcher/updater/DownloadTask.cpp:158
+#: src/launcher/icons/IconList.cpp:499
 #, qt-format
-msgctxt "GoUpdate::DownloadTask|"
-msgid "Failed to download update files: %1"
+msgctxt "IconList|"
+msgid "There already is an icon called \"%1\"."
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:504
+#, qt-format
+msgctxt "IconList|"
+msgid "There already is a file called \"%1\" in the icons folder."
+msgstr ""
+
+#: src/launcher/icons/IconList.cpp:506
+#, qt-format
+msgctxt "IconList|"
+msgid "The file \"%1\" couldn't be renamed."
 msgstr ""
 
 #: src/launcher/ui/dialogs/IconPickerDialog.ui:14
@@ -1443,31 +1656,92 @@ msgctxt "IconPickerDialog|"
 msgid "Pick icon"
 msgstr ""
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:65
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:71
+msgctxt "IconPickerDialog|"
+msgid "Can't rename the icon"
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:82
 msgctxt "IconPickerDialog|"
 msgid "Add Icon"
 msgstr ""
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:66
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:83
 msgctxt "IconPickerDialog|"
 msgid "Remove Icon"
 msgstr ""
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:75
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:84
+msgctxt "IconPickerDialog|"
+msgid "Rename Icon"
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:85
+msgctxt "IconPickerDialog|"
+msgid "Set as Default"
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:86
+msgctxt "IconPickerDialog|"
+msgid "Show this icon for new instances, and for instances without an icon of their own."
+msgstr ""
+
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:100
 msgctxt "IconPickerDialog|"
 msgid "Open Folder"
 msgstr ""
 
 #. The title of the select icons open file dialog
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:105
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:130
 msgctxt "IconPickerDialog|"
 msgid "Select Icons"
 msgstr ""
 
-#: src/launcher/ui/dialogs/IconPickerDialog.cpp:108
+#: src/launcher/ui/dialogs/IconPickerDialog.cpp:133
 #, qt-format
 msgctxt "IconPickerDialog|"
 msgid "Icons %1"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:67
+msgctxt "IconThemeList|"
+msgid "Default"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:69
+msgctxt "IconThemeList|"
+msgid "Colored"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:71
+msgctxt "IconThemeList|"
+msgid "Blue"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:73
+msgctxt "IconThemeList|"
+msgid "Dark icons"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:75
+msgctxt "IconThemeList|"
+msgid "Light icons"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:81
+#, qt-format
+msgctxt "IconThemeList|"
+msgid "This icon theme can't be used: %1"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:91
+msgctxt "IconThemeList|"
+msgid "Built in"
+msgstr ""
+
+#: src/launcher/ui/themes/IconThemeList.cpp:163
+msgctxt "IconThemeList|"
+msgid "It has no index.theme file."
 msgstr ""
 
 #: src/launcher/ui/pages/modplatform/import_ftb/FTBAPage.h:41
@@ -1500,7 +1774,7 @@ msgctxt "ImportPage|"
 msgid "Import from zip"
 msgstr ""
 
-#: src/launcher/meta/Index.cpp:76
+#: src/launcher/meta/Index.cpp:77
 msgctxt "Index|"
 msgid "Name"
 msgstr ""
@@ -1528,7 +1802,7 @@ msgstr ""
 
 #: src/launcher/InstanceCopyTask.cpp:58
 msgctxt "InstanceCopyTask|"
-msgid "Instance folder copy has been aborted."
+msgid "Instance folder copy has been stopped."
 msgstr ""
 
 #: src/launcher/InstanceCreationTask.cpp:16
@@ -1537,127 +1811,137 @@ msgctxt "InstanceCreationTask|"
 msgid "Creating instance from version %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:78
+#: src/launcher/InstanceImportTask.cpp:79
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Downloading modpack:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:84
+#: src/launcher/InstanceImportTask.cpp:85
 msgctxt "InstanceImportTask|"
 msgid "Modpack download"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:113
-#: src/launcher/InstanceImportTask.cpp:285
+#: src/launcher/InstanceImportTask.cpp:115
 msgctxt "InstanceImportTask|"
 msgid "Instance import has been aborted."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:136
+#: src/launcher/InstanceImportTask.cpp:127
+#: src/launcher/InstanceImportTask.cpp:1045
+msgctxt "InstanceImportTask|"
+msgid "Instance import was stopped."
+msgstr ""
+
+#: src/launcher/InstanceImportTask.cpp:138
 msgctxt "InstanceImportTask|"
 msgid "Extracting modpack"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:144
+#: src/launcher/InstanceImportTask.cpp:146
 msgctxt "InstanceImportTask|"
 msgid "Unable to open supplied modpack zip file."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:187
-#: src/launcher/InstanceImportTask.cpp:278
+#: src/launcher/InstanceImportTask.cpp:189
+#: src/launcher/InstanceImportTask.cpp:280
 msgctxt "InstanceImportTask|"
 msgid "Archive does not contain a recognized modpack type."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:227
+#: src/launcher/InstanceImportTask.cpp:229
 msgctxt "InstanceImportTask|"
 msgid "Failed to extract modpack"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:254
+#: src/launcher/InstanceImportTask.cpp:256
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not fix permissions for %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:305
+#: src/launcher/InstanceImportTask.cpp:287
+msgctxt "InstanceImportTask|"
+msgid "Instance import has been stopped."
+msgstr ""
+
+#: src/launcher/InstanceImportTask.cpp:307
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack manifest:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:316
-#: src/launcher/InstanceImportTask.cpp:968
+#: src/launcher/InstanceImportTask.cpp:318
+#: src/launcher/InstanceImportTask.cpp:974
 msgctxt "InstanceImportTask|"
 msgid "Could not rename the overrides folder:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:322
+#: src/launcher/InstanceImportTask.cpp:324
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "The specified overrides folder (%1) is missing. Maybe the modpack was already used before?"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:350
+#: src/launcher/InstanceImportTask.cpp:352
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unknown mod loader in manifest: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:363
+#: src/launcher/InstanceImportTask.cpp:365
 msgctxt "InstanceImportTask|"
 msgid "Mysterious trailing dots removed from Minecraft version while importing pack."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:379
+#: src/launcher/InstanceImportTask.cpp:381
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Could not map recommended forge version for Minecraft %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:448
-#: src/launcher/InstanceImportTask.cpp:1019
+#: src/launcher/InstanceImportTask.cpp:450
+#: src/launcher/InstanceImportTask.cpp:1025
 msgctxt "InstanceImportTask|"
 msgid "Mod download"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:468
+#: src/launcher/InstanceImportTask.cpp:470
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "This 'Folder' may need extracting: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:484
+#: src/launcher/InstanceImportTask.cpp:486
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Nesting modpacks in modpacks is not implemented, nothing was downloaded: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:489
+#: src/launcher/InstanceImportTask.cpp:491
 #, qt-format
 msgctxt "InstanceImportTask|"
 msgid "Unrecognized/unhandled PackageType for: %1"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:519
-#: src/launcher/InstanceImportTask.cpp:1038
+#: src/launcher/InstanceImportTask.cpp:521
+#: src/launcher/InstanceImportTask.cpp:1049
 msgctxt "InstanceImportTask|"
 msgid "Downloading mods..."
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:532
+#: src/launcher/InstanceImportTask.cpp:534
 msgctxt "InstanceImportTask|"
 msgid "Unable to resolve mod IDs:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:959
+#: src/launcher/InstanceImportTask.cpp:965
 msgctxt "InstanceImportTask|"
 msgid "Could not understand pack index:\n"
 msgstr ""
 
-#: src/launcher/InstanceImportTask.cpp:976
 #: src/launcher/InstanceImportTask.cpp:982
+#: src/launcher/InstanceImportTask.cpp:988
 msgctxt "InstanceImportTask|"
 msgid "Could not merge the overrides folder:\n"
 msgstr ""
@@ -1709,152 +1993,157 @@ msgctxt "InstanceSettingsPage|"
 msgid "Browse..."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:84
-msgctxt "InstanceSettingsPage|"
-msgid "Test"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:97
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:90
 msgctxt "InstanceSettingsPage|"
 msgid "Memor&y"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:109
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:102
 msgctxt "InstanceSettingsPage|"
 msgid "Minimum memory allocation:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:116
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:109
 msgctxt "InstanceSettingsPage|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:138
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:131
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory Minecraft is started with."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:160
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:153
 msgctxt "InstanceSettingsPage|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:189
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:182
 msgctxt "InstanceSettingsPage|"
 msgid "Maximum memory allocation:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:196
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:189
 msgctxt "InstanceSettingsPage|"
 msgid "Note: Permgen is set automatically by Java 8 and later"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:209
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:202
 msgctxt "InstanceSettingsPage|"
 msgid "Java argumen&ts"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:228
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:235
+msgctxt "InstanceSettingsPage|"
+msgid "Test Java with the settings this instance would use, including the global ones it doesn't override."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:238
+msgctxt "InstanceSettingsPage|"
+msgid "Test Java Settings"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:248
 msgctxt "InstanceSettingsPage|"
 msgid "Game windows"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:237
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:257
 msgctxt "InstanceSettingsPage|"
 msgid "Game Window"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:249
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:269
 msgctxt "InstanceSettingsPage|"
 msgid "Start Minecraft maximized?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:258
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:278
 msgctxt "InstanceSettingsPage|"
 msgid "Window height:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:265
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:285
 msgctxt "InstanceSettingsPage|"
 msgid "Window width:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:309
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:329
 msgctxt "InstanceSettingsPage|"
 msgid "Conso&le Settings"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:321
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:341
 msgctxt "InstanceSettingsPage|"
 msgid "Show console while the game is running?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:328
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:348
 msgctxt "InstanceSettingsPage|"
 msgid "Automatically close console when the game quits?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:335
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:355
 msgctxt "InstanceSettingsPage|"
 msgid "Show console when the game crashes?"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:359
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:379
 msgctxt "InstanceSettingsPage|"
 msgid "Custom commands"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:369
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:389
 msgctxt "InstanceSettingsPage|"
 msgid "Workarounds"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:378
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:398
 msgctxt "InstanceSettingsPage|"
 msgid "Native libraries"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:390
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:410
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of GLFW"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:397
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:417
 msgctxt "InstanceSettingsPage|"
 msgid "Use system installation of OpenAL"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:421
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:441
 msgctxt "InstanceSettingsPage|"
 msgid "Miscellaneous"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:430
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:450
 msgctxt "InstanceSettingsPage|"
 msgid "Override global game time settings"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:442
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:462
 msgctxt "InstanceSettingsPage|"
 msgid "Show time spent playing this instance"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:449
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:469
 msgctxt "InstanceSettingsPage|"
 msgid "Record time spent playing this instance"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:459
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:479
 msgctxt "InstanceSettingsPage|"
 msgid "Set a world to join on launch"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:473
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:493
 msgctxt "InstanceSettingsPage|"
 msgid "Server address:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:483
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.ui:503
 msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr ""
@@ -1864,59 +2153,59 @@ msgctxt "InstanceSettingsPage|"
 msgid "Settings"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:346
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:349
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:364
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:367
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr ""
 
-#: src/launcher/InstanceList.cpp:850
+#: src/launcher/InstanceList.cpp:863
 msgctxt "InstanceStaging|"
 msgid "Failed to commit instance, even after multiple retries. It is being blocked by something."
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:40
+#: src/launcher/ui/InstanceWindow.cpp:41
 msgctxt "InstanceWindow|"
 msgid "Console window for "
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:64
+#: src/launcher/ui/InstanceWindow.cpp:65
 msgctxt "InstanceWindow|"
 msgid "Help"
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:77
+#: src/launcher/ui/InstanceWindow.cpp:78
 msgctxt "InstanceWindow|"
 msgid "Launch Offline"
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:82
+#: src/launcher/ui/InstanceWindow.cpp:83
 msgctxt "InstanceWindow|"
 msgid "Close"
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:126
+#: src/launcher/ui/InstanceWindow.cpp:127
 msgctxt "InstanceWindow|"
 msgid "Kill"
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:128
+#: src/launcher/ui/InstanceWindow.cpp:129
 msgctxt "InstanceWindow|"
 msgid "Kill the running instance"
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:133
-#: src/launcher/ui/InstanceWindow.cpp:141
+#: src/launcher/ui/InstanceWindow.cpp:134
+#: src/launcher/ui/InstanceWindow.cpp:142
 msgctxt "InstanceWindow|"
 msgid "Launch"
 msgstr ""
 
-#: src/launcher/ui/InstanceWindow.cpp:135
-#: src/launcher/ui/InstanceWindow.cpp:143
+#: src/launcher/ui/InstanceWindow.cpp:136
+#: src/launcher/ui/InstanceWindow.cpp:144
 msgctxt "InstanceWindow|"
 msgid "Launch the instance"
 msgstr ""
@@ -2137,22 +2426,22 @@ msgctxt "JavaPage|"
 msgid "Java"
 msgstr ""
 
-#: src/launcher/ui/pages/global/JavaPage.cpp:107
+#: src/launcher/ui/pages/global/JavaPage.cpp:112
 msgctxt "JavaPage|"
 msgid "Select a Java version"
 msgstr ""
 
-#: src/launcher/ui/pages/global/JavaPage.cpp:120
+#: src/launcher/ui/pages/global/JavaPage.cpp:125
 msgctxt "JavaPage|"
 msgid "Find Java executable"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:151
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:156
 msgctxt "JavaSettingsWidget|"
 msgid "No Java version selected"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:152
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:157
 #, qt-format
 msgctxt "JavaSettingsWidget|"
 msgid "You didn't select a Java version or selected something that doesn't work.\n"
@@ -2161,42 +2450,42 @@ msgid "You didn't select a Java version or selected something that doesn't work.
 "You can change the Java version in the settings later.\n"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:265
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:270
 msgctxt "JavaSettingsWidget|"
 msgid "Find Java executable"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:425
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:430
 msgctxt "JavaSettingsWidget|"
 msgid "Memory"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:426
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:431
 msgctxt "JavaSettingsWidget|"
 msgid "The maximum amount of memory Minecraft is allowed to use."
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:427
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:432
 msgctxt "JavaSettingsWidget|"
 msgid "Minimum memory allocation:"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:428
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:433
 msgctxt "JavaSettingsWidget|"
 msgid "Maximum memory allocation:"
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:429
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:434
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory Minecraft is started with."
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:430
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:435
 msgctxt "JavaSettingsWidget|"
 msgid "The amount of memory available to store loaded Java classes."
 msgstr ""
 
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:431
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:436
 msgctxt "JavaSettingsWidget|"
 msgid "Browse"
 msgstr ""
@@ -2397,7 +2686,7 @@ msgstr ""
 
 #: src/launcher/LaunchController.cpp:454
 msgctxt "LaunchController|"
-msgid "Abort"
+msgid "Stop"
 msgstr ""
 
 #: src/launcher/LaunchController.cpp:470
@@ -2440,279 +2729,249 @@ msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
-msgid "Update Settings"
+msgid "Folders"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:57
 msgctxt "LauncherPage|"
-msgid "Check for updates on start?"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:67
-msgctxt "LauncherPage|"
-msgid "Folders"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:73
-msgctxt "LauncherPage|"
 msgid "I&nstances:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:93
+#: src/launcher/ui/pages/global/LauncherPage.ui:77
 msgctxt "LauncherPage|"
 msgid "&Mods:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:116
+#: src/launcher/ui/pages/global/LauncherPage.ui:100
 msgctxt "LauncherPage|"
 msgid "&Icons:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:136
+#: src/launcher/ui/pages/global/LauncherPage.ui:120
 msgctxt "LauncherPage|"
 msgid "Download settings"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:152
+#: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download source:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:159
+#: src/launcher/ui/pages/global/LauncherPage.ui:143
 msgctxt "LauncherPage|"
 msgid "Download threads:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:176
+#: src/launcher/ui/pages/global/LauncherPage.ui:160
 msgctxt "LauncherPage|"
 msgid "4"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:181
+#: src/launcher/ui/pages/global/LauncherPage.ui:165
 msgctxt "LauncherPage|"
 msgid "6"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:186
+#: src/launcher/ui/pages/global/LauncherPage.ui:170
 msgctxt "LauncherPage|"
 msgid "8"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:191
+#: src/launcher/ui/pages/global/LauncherPage.ui:175
 msgctxt "LauncherPage|"
 msgid "16"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:196
+#: src/launcher/ui/pages/global/LauncherPage.ui:180
 msgctxt "LauncherPage|"
 msgid "32"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:207
+#: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:228
+#: src/launcher/ui/pages/global/LauncherPage.ui:212
 msgctxt "LauncherPage|"
 msgid "User Interface"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:234
+#: src/launcher/ui/pages/global/LauncherPage.ui:218
 msgctxt "LauncherPage|"
 msgid "Launcher notifications"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:240
+#: src/launcher/ui/pages/global/LauncherPage.ui:224
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:256
+#: src/launcher/ui/pages/global/LauncherPage.ui:240
 msgctxt "LauncherPage|"
 msgid "Instance view sorting mode"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:262
+#: src/launcher/ui/pages/global/LauncherPage.ui:246
 msgctxt "LauncherPage|"
 msgid "By &last launched"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:272
+#: src/launcher/ui/pages/global/LauncherPage.ui:256
 msgctxt "LauncherPage|"
 msgid "By &name"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:285
+#: src/launcher/ui/pages/global/LauncherPage.ui:269
 msgctxt "LauncherPage|"
-msgid "Theme"
+msgid "Applications menu"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:291
+#: src/launcher/ui/pages/global/LauncherPage.ui:275
 msgctxt "LauncherPage|"
-msgid "&Icons"
+msgid "Show MultiMC in the applications menu"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:311
+#: src/launcher/ui/pages/global/LauncherPage.ui:292
 msgctxt "LauncherPage|"
-msgid "Default"
+msgid "Use this copy"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:316
 msgctxt "LauncherPage|"
-msgid "Simple (Dark Icons)"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:321
-msgctxt "LauncherPage|"
-msgid "Simple (Light Icons)"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:326
-msgctxt "LauncherPage|"
-msgid "Simple (Blue Icons)"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:331
-msgctxt "LauncherPage|"
-msgid "Simple (Colored Icons)"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:351
-#: src/launcher/ui/pages/global/LauncherPage.cpp:471
-#: src/launcher/ui/pages/global/LauncherPage.cpp:714
-msgctxt "LauncherPage|"
-msgid "Custom"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:372
-msgctxt "LauncherPage|"
-msgid "Colors"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.ui:399
-msgctxt "LauncherPage|"
 msgid "Console"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:405
+#: src/launcher/ui/pages/global/LauncherPage.ui:322
 msgctxt "LauncherPage|"
 msgid "Console Settings"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:411
+#: src/launcher/ui/pages/global/LauncherPage.ui:328
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:418
+#: src/launcher/ui/pages/global/LauncherPage.ui:335
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:425
+#: src/launcher/ui/pages/global/LauncherPage.ui:342
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:435
+#: src/launcher/ui/pages/global/LauncherPage.ui:352
 msgctxt "LauncherPage|"
 msgid "History limit"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:441
+#: src/launcher/ui/pages/global/LauncherPage.ui:358
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:454
+#: src/launcher/ui/pages/global/LauncherPage.ui:371
 msgctxt "LauncherPage|"
 msgid " lines"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:482
-msgctxt "LauncherPage|"
-msgid "Console font"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:116
+#: src/launcher/ui/pages/global/LauncherPage.cpp:97
 msgctxt "LauncherPage|"
 msgid "Instance Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:125
+#: src/launcher/ui/pages/global/LauncherPage.cpp:106
 msgctxt "LauncherPage|"
 msgid "You're trying to specify an instance folder which's path contains at least one '!'. Java is known to cause problems if that is the case, your instances (probably) won't start!"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:130
+#: src/launcher/ui/pages/global/LauncherPage.cpp:111
 msgctxt "LauncherPage|"
 msgid "Do you really want to use this path? Selecting \"No\" will close this and not alter your instance path."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:153
+#: src/launcher/ui/pages/global/LauncherPage.cpp:134
 msgctxt "LauncherPage|"
 msgid "Icons Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:170
+#: src/launcher/ui/pages/global/LauncherPage.cpp:151
 msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:678
-#: src/launcher/ui/pages/global/LauncherPage.cpp:719
-#: src/launcher/ui/pages/global/LauncherPage.cpp:759
-#: src/launcher/ui/pages/global/LauncherPage.cpp:863
+#: src/launcher/ui/pages/global/LauncherPage.cpp:328
+#: src/launcher/ui/pages/global/LauncherPage.cpp:583
+msgctxt "LauncherPage|"
+msgid "Custom"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:469
+msgctxt "LauncherPage|"
+msgid "MultiMC is installed as a package here: the package provides its applications menu entry."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:473
+msgctxt "LauncherPage|"
+msgid "The applications menu starts this copy of MultiMC."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:474
+msgctxt "LauncherPage|"
+msgid "MultiMC is hidden from the applications menu. Its entry stays, to give MultiMC's windows their icon."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:478
+msgctxt "LauncherPage|"
+msgid "The applications menu has an entry for MultiMC that MultiMC didn't make. It is left as it is."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:479
+#, qt-format
+msgctxt "LauncherPage|"
+msgid "The applications menu starts another copy of MultiMC, in %1."
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.cpp:547
+#: src/launcher/ui/pages/global/LauncherPage.cpp:588
+#: src/launcher/ui/pages/global/LauncherPage.cpp:628
+#: src/launcher/ui/pages/global/LauncherPage.cpp:732
 msgctxt "LauncherPage|"
 msgid "Custom Source"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:690
+#: src/launcher/ui/pages/global/LauncherPage.cpp:559
 msgctxt "LauncherPage|"
 msgid "Source name:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:691
+#: src/launcher/ui/pages/global/LauncherPage.cpp:560
 msgctxt "LauncherPage|"
 msgid "Proxy address:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:719
+#: src/launcher/ui/pages/global/LauncherPage.cpp:588
 msgctxt "LauncherPage|"
 msgid "Please enter a proxy address."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:759
-#: src/launcher/ui/pages/global/LauncherPage.cpp:863
+#: src/launcher/ui/pages/global/LauncherPage.cpp:628
+#: src/launcher/ui/pages/global/LauncherPage.cpp:732
 msgctxt "LauncherPage|"
 msgid "This proxy address is already in use."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:803
+#: src/launcher/ui/pages/global/LauncherPage.cpp:672
 msgctxt "LauncherPage|"
 msgid "Delete Source"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:804
+#: src/launcher/ui/pages/global/LauncherPage.cpp:673
 #, qt-format
 msgctxt "LauncherPage|"
 msgid "Delete the custom source \"%1\"?"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:894
-msgctxt "LauncherPage|"
-msgid "[Something/ERROR] A spooky error!"
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:903
-msgctxt "LauncherPage|"
-msgid "[Test/INFO] A harmless message..."
-msgstr ""
-
-#: src/launcher/ui/pages/global/LauncherPage.cpp:912
-msgctxt "LauncherPage|"
-msgid "[Something/WARN] A not so spooky warning."
 msgstr ""
 
 #: src/launcher/minecraft/launch/LauncherPartLaunch.cpp:122
@@ -2733,27 +2992,27 @@ msgctxt "LauncherPartLaunch|"
 msgid "Game crashed."
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:19
+#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:21
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by name"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:20
+#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:22
 msgctxt "LegacyFTB::FilterModel|"
 msgid "Sort by game version"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:81
+#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:83
 msgctxt "LegacyFTB::ListModel|"
 msgid "Public Modpack"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:83
+#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:85
 msgctxt "LegacyFTB::ListModel|"
 msgid "Third Party Modpack"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:85
+#: src/launcher/ui/pages/modplatform/legacy_ftb/ListModel.cpp:87
 msgctxt "LegacyFTB::ListModel|"
 msgid "Private Modpack"
 msgstr ""
@@ -2817,27 +3076,27 @@ msgctxt "LegacyFTB::Page|"
 msgid "Public"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:44
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:51
 msgctxt "LegacyFTB::Page|"
 msgid "3rd Party"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:67
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:81
 msgctxt "LegacyFTB::Page|"
 msgid "Private"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:86
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:100
 msgctxt "LegacyFTB::Page|"
 msgid "Add pack"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:93
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:107
 msgctxt "LegacyFTB::Page|"
 msgid "Remove selected pack"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:122
+#: src/launcher/ui/pages/modplatform/legacy_ftb/Page.ui:143
 msgctxt "LegacyFTB::Page|"
 msgid "Version selected:"
 msgstr ""
@@ -2882,11 +3141,6 @@ msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyInstance.cpp:218
 msgctxt "LegacyInstance|"
-msgid "Legacy"
-msgstr ""
-
-#: src/launcher/minecraft/legacy/LegacyInstance.cpp:223
-msgctxt "LegacyInstance|"
 msgid "Instance from previous versions."
 msgstr ""
 
@@ -2907,7 +3161,7 @@ msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:30
 msgctxt "LegacyUpgradePage|"
-msgid "Abort"
+msgid "Stop"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:39
@@ -2939,7 +3193,7 @@ msgstr ""
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:135
 msgctxt "LegacyUpgradeTask|"
-msgid "Instance folder copy has been aborted."
+msgid "Instance folder copy has been stopped."
 msgstr ""
 
 #: src/launcher/minecraft/update/LibrariesTask.cpp:15
@@ -3011,6 +3265,7 @@ msgid "Clear the log"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/LogPage.ui:116
+#: src/launcher/ui/pages/instance/LogPage.cpp:307
 msgctxt "LogPage|"
 msgid "Clear"
 msgstr ""
@@ -3035,14 +3290,24 @@ msgctxt "LogPage|"
 msgid "Bottom"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:244
+#: src/launcher/ui/pages/instance/LogPage.cpp:254
 msgctxt "LogPage|"
 msgid "Log upload"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/LogPage.cpp:245
+#: src/launcher/ui/pages/instance/LogPage.cpp:255
 msgctxt "LogPage|"
 msgid "Are you sure you want to upload this log file?"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:308
+msgctxt "LogPage|"
+msgid "Do you really want to clear the log? What it shows now can't be brought back."
+msgstr ""
+
+#: src/launcher/ui/pages/instance/LogPage.cpp:311
+msgctxt "LogPage|"
+msgid "Don't ask again"
 msgstr ""
 
 #: src/launcher/ui/pages/instance/LogPage.h:41
@@ -3148,567 +3413,718 @@ msgctxt "MSAStep|"
 msgid "Microsoft user authentication completed with an unrecognized result."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:270
+#: src/launcher/ui/MainWindow.cpp:297
 msgctxt "MainWindow|"
 msgid "Kill"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:271
+#: src/launcher/ui/MainWindow.cpp:298
 msgctxt "MainWindow|"
 msgid "Kill the running instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:275 src/launcher/ui/MainWindow.cpp:1068
+#: src/launcher/ui/MainWindow.cpp:302 src/launcher/ui/MainWindow.cpp:1168
 msgctxt "MainWindow|"
 msgid "Launch"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:276
+#: src/launcher/ui/MainWindow.cpp:303
 msgctxt "MainWindow|"
 msgid "Launch the selected instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:294
+#: src/launcher/ui/MainWindow.cpp:321
 msgctxt "MainWindow|"
 msgid "Main Toolbar"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:299
+#: src/launcher/ui/MainWindow.cpp:326
 msgctxt "MainWindow|"
 msgid "Add Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:300
+#: src/launcher/ui/MainWindow.cpp:327
 msgctxt "MainWindow|"
 msgid "Add a new instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:312
+#: src/launcher/ui/MainWindow.cpp:339
 msgctxt "MainWindow|"
 msgid "View Instance Folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:313
+#: src/launcher/ui/MainWindow.cpp:340
 msgctxt "MainWindow|"
 msgid "Open the instance folder in a file browser."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:320
+#: src/launcher/ui/MainWindow.cpp:347
 msgctxt "MainWindow|"
 msgid "View Central Mods Folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:321
+#: src/launcher/ui/MainWindow.cpp:348
 msgctxt "MainWindow|"
 msgid "Open the central mods folder in a file browser."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:326 src/launcher/ui/MainWindow.cpp:710
+#: src/launcher/ui/MainWindow.cpp:354 src/launcher/ui/MainWindow.cpp:733
 msgctxt "MainWindow|"
 msgid "Folders"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:327
+#: src/launcher/ui/MainWindow.cpp:355
 msgctxt "MainWindow|"
 msgid "Open one of the folders shared between instances."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:342
+#: src/launcher/ui/MainWindow.cpp:370
 msgctxt "MainWindow|"
 msgid "Settings"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:343
+#: src/launcher/ui/MainWindow.cpp:371
 msgctxt "MainWindow|"
 msgid "Change settings."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:355
+#: src/launcher/ui/MainWindow.cpp:383
 msgctxt "MainWindow|"
 msgid "Report a Bug"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:356
+#: src/launcher/ui/MainWindow.cpp:384
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Open the bug tracker to report a bug with %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:385
+#: src/launcher/ui/MainWindow.cpp:413
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:386
+#: src/launcher/ui/MainWindow.cpp:414
 #, qt-format
 msgctxt "MainWindow|"
 msgid "View information about %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:391 src/launcher/ui/MainWindow.cpp:711
+#: src/launcher/ui/MainWindow.cpp:420 src/launcher/ui/MainWindow.cpp:734
 msgctxt "MainWindow|"
 msgid "Help"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:392
+#: src/launcher/ui/MainWindow.cpp:421
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Get help with %1 or Minecraft."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:408
+#: src/launcher/ui/MainWindow.cpp:437
 msgctxt "MainWindow|"
 msgid "Update"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:409
+#: src/launcher/ui/MainWindow.cpp:438
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Check for new updates for %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:428
+#: src/launcher/ui/MainWindow.cpp:457
 msgctxt "MainWindow|"
 msgid "Meow"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:429
+#: src/launcher/ui/MainWindow.cpp:458
 msgctxt "MainWindow|"
 msgid "It's a fluffy kitty :3"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:437
+#: src/launcher/ui/MainWindow.cpp:466
 msgctxt "MainWindow|"
 msgid "Manage Accounts"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:489
+#: src/launcher/ui/MainWindow.cpp:518
 msgctxt "MainWindow|"
 msgid "Instance Toolbar"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:496
+#: src/launcher/ui/MainWindow.cpp:525
 msgctxt "MainWindow|"
 msgid "Change Icon"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:497
+#: src/launcher/ui/MainWindow.cpp:526
 msgctxt "MainWindow|"
 msgid "Change the selected instance's icon."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:510
+#: src/launcher/ui/MainWindow.cpp:539
 msgctxt "MainWindow|"
 msgid "Rename"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:511
+#: src/launcher/ui/MainWindow.cpp:540
 msgctxt "MainWindow|"
 msgid "Rename the selected instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:523
+#: src/launcher/ui/MainWindow.cpp:552
 msgctxt "MainWindow|"
 msgid "Change Group"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:524
+#: src/launcher/ui/MainWindow.cpp:553
 msgctxt "MainWindow|"
 msgid "Change the selected instance's group."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:537 src/launcher/ui/MainWindow.cpp:1069
+#: src/launcher/ui/MainWindow.cpp:566 src/launcher/ui/MainWindow.cpp:1169
 msgctxt "MainWindow|"
 msgid "Launch Offline"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:538
+#: src/launcher/ui/MainWindow.cpp:567
 msgctxt "MainWindow|"
 msgid "Launch the selected instance in offline mode."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:546
+#: src/launcher/ui/MainWindow.cpp:575
 msgctxt "MainWindow|"
 msgid "Edit Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:547
+#: src/launcher/ui/MainWindow.cpp:576
 msgctxt "MainWindow|"
 msgid "Change the instance settings, mods and versions."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:553
+#: src/launcher/ui/MainWindow.cpp:582
 msgctxt "MainWindow|"
 msgid "Edit Notes"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:554
+#: src/launcher/ui/MainWindow.cpp:583
 msgctxt "MainWindow|"
 msgid "Edit the notes for the selected instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:560
+#: src/launcher/ui/MainWindow.cpp:589
 msgctxt "MainWindow|"
 msgid "View Mods"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:561
+#: src/launcher/ui/MainWindow.cpp:590
 msgctxt "MainWindow|"
 msgid "View the mods of this instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:567
+#: src/launcher/ui/MainWindow.cpp:596
 msgctxt "MainWindow|"
 msgid "View Worlds"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:568
+#: src/launcher/ui/MainWindow.cpp:597
 msgctxt "MainWindow|"
 msgid "View the worlds of this instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:574
+#: src/launcher/ui/MainWindow.cpp:603
 msgctxt "MainWindow|"
 msgid "Manage Screenshots"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:575
+#: src/launcher/ui/MainWindow.cpp:604
 msgctxt "MainWindow|"
 msgid "View and upload screenshots for this instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:583
+#: src/launcher/ui/MainWindow.cpp:612
 msgctxt "MainWindow|"
 msgid "Minecraft Folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:584
+#: src/launcher/ui/MainWindow.cpp:613
 msgctxt "MainWindow|"
 msgid "Open the selected instance's minecraft folder in a file browser."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:599
+#: src/launcher/ui/MainWindow.cpp:628
 msgctxt "MainWindow|"
 msgid "Config Folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:600
+#: src/launcher/ui/MainWindow.cpp:629
 msgctxt "MainWindow|"
 msgid "Open the instance's config folder."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:606
+#: src/launcher/ui/MainWindow.cpp:635
 msgctxt "MainWindow|"
 msgid "Instance Folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:607
+#: src/launcher/ui/MainWindow.cpp:636
 msgctxt "MainWindow|"
 msgid "Open the selected instance's root folder in a file browser."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:615
+#: src/launcher/ui/MainWindow.cpp:644
 msgctxt "MainWindow|"
 msgid "Create Shortcut"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:616
+#: src/launcher/ui/MainWindow.cpp:645
 msgctxt "MainWindow|"
 msgid "Create a shortcut that launches the selected instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:622
+#: src/launcher/ui/MainWindow.cpp:651
 msgctxt "MainWindow|"
 msgid "Export Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:623
+#: src/launcher/ui/MainWindow.cpp:652
 msgctxt "MainWindow|"
 msgid "Export the selected instance as a zip file."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:629
+#: src/launcher/ui/MainWindow.cpp:658
 msgctxt "MainWindow|"
 msgid "Delete"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:630
+#: src/launcher/ui/MainWindow.cpp:659
 msgctxt "MainWindow|"
 msgid "Delete the selected instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:637
+#: src/launcher/ui/MainWindow.cpp:666
 msgctxt "MainWindow|"
 msgid "Copy Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:638
+#: src/launcher/ui/MainWindow.cpp:667
 msgctxt "MainWindow|"
 msgid "Copy the selected instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:646
+#: src/launcher/ui/MainWindow.cpp:675
 msgctxt "MainWindow|"
 msgid "Check for Updates"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:647
+#: src/launcher/ui/MainWindow.cpp:676
 msgctxt "MainWindow|"
 msgid "Check for updates for the selected instance."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:690
-#, qt-format
-msgctxt "MainWindow|Launcher - Version X"
-msgid "%1 - Version %2"
+#: src/launcher/ui/MainWindow.cpp:813
+msgctxt "MainWindow|"
+msgid "Zoom:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:693
-#, qt-format
-msgctxt "MainWindow|on platform, as in operating system"
-msgid " on %1"
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:804 src/launcher/ui/MainWindow.cpp:918
+#: src/launcher/ui/MainWindow.cpp:856 src/launcher/ui/MainWindow.cpp:1003
 msgctxt "MainWindow|"
 msgid "No instance selected"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:805
+#: src/launcher/ui/MainWindow.cpp:858
 msgctxt "MainWindow|"
 msgid "Total playtime: 0s"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:909 src/launcher/ui/MainWindow.cpp:1230
+#: src/launcher/ui/MainWindow.cpp:994 src/launcher/ui/MainWindow.cpp:1330
 msgctxt "MainWindow|"
 msgid "Profiles"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:971
+#: src/launcher/ui/MainWindow.cpp:1056
 msgctxt "MainWindow|"
 msgid "Create instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:987
+#: src/launcher/ui/MainWindow.cpp:1072
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Delete group '%1'"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1020
+#: src/launcher/ui/MainWindow.cpp:1120
 msgctxt "MainWindow|"
 msgid "Format"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1023
+#: src/launcher/ui/MainWindow.cpp:1123
 msgctxt "MainWindow|"
 msgid "Modrinth (WIP)"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1074
+#: src/launcher/ui/MainWindow.cpp:1174
 msgctxt "MainWindow|"
 msgid "Profilers"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1086
+#: src/launcher/ui/MainWindow.cpp:1186
 msgctxt "MainWindow|"
 msgid "Profiler not setup correctly. Go into settings, \"External Tools\"."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1122
+#: src/launcher/ui/MainWindow.cpp:1222
 msgctxt "MainWindow|"
 msgid "No accounts added!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1157
+#: src/launcher/ui/MainWindow.cpp:1257
 msgctxt "MainWindow|"
 msgid "No Default Account"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1270
+#: src/launcher/ui/MainWindow.cpp:1338
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Size: %1 pixels"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1378
 msgctxt "MainWindow|"
 msgid "Loading news..."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1283
+#: src/launcher/ui/MainWindow.cpp:1391
 msgctxt "MainWindow|"
 msgid "No news available."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1366 src/launcher/ui/MainWindow.cpp:1383
-#: src/launcher/ui/MainWindow.cpp:1445 src/launcher/ui/MainWindow.cpp:1701
-#: src/launcher/ui/MainWindow.cpp:1712
+#: src/launcher/ui/MainWindow.cpp:1479
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Builds of %1, the version this installation runs, are made until %2. After that, it keeps working, but gets no more updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1484
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 runs on this computer and keeps getting updates. You can switch to it in Settings, Updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1487
+msgctxt "MainWindow|"
+msgid "Updates ending"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1513
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Switch to %1, which replaces %2"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1517
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 isn't made for this computer any more, so this update switches to %2."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1552 src/launcher/ui/MainWindow.cpp:1573
+msgctxt "MainWindow|"
+msgid "Switch version"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1553
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
+"Switch now? If you keep %2, you can switch later in Settings, Updates."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1556
+msgctxt "MainWindow|"
+msgid "Switch now"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1557
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Keep %1"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1558
+msgctxt "MainWindow|"
+msgid "Ask me later"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1573
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Switch this installation from %1 to %2 now?"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1588
+msgctxt "MainWindow|"
+msgid "Older build"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1589
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
+"Going back is not always safe: newer builds may have changed how your data is stored, and an older build may not be able to read it. Make a backup of your instances first.\n\n"
+"Install build %2 anyway?"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1620 src/launcher/ui/MainWindow.cpp:1629
+msgctxt "MainWindow|"
+msgid "No updates"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1630
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1636
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Build %1 is available, but it can't be installed here:"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1639
+#, qt-format
+msgctxt "MainWindow|"
+msgid "Builds are no longer made of %1, the version this installation runs."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1641
+msgctxt "MainWindow|"
+msgid "Update not possible"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1648
+msgctxt "MainWindow|"
+msgid "Update check failed"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1648
+msgctxt "MainWindow|"
+msgid "Could not check for updates:"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1656
+#, qt-format
+msgctxt "MainWindow|"
+msgid "%1 has not been able to check for updates since %2."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1657
+#, qt-format
+msgctxt "MainWindow|"
+msgid "The last check that worked was on %1."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1658
+msgctxt "MainWindow|"
+msgid "No check has worked on this installation yet."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1659
+msgctxt "MainWindow|"
+msgid "The last attempt failed with:"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1660
+#, qt-format
+msgctxt "MainWindow|"
+msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1662
+msgctxt "MainWindow|"
+msgid "Updates are not working"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1664
+msgctxt "MainWindow|"
+msgid "Open the website"
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:1689 src/launcher/ui/MainWindow.cpp:1703
+#: src/launcher/ui/MainWindow.cpp:1756 src/launcher/ui/MainWindow.cpp:2012
+#: src/launcher/ui/MainWindow.cpp:2023
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1366
+#: src/launcher/ui/MainWindow.cpp:1689
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1451
+#: src/launcher/ui/MainWindow.cpp:1762
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1454 src/launcher/ui/MainWindow.cpp:1704
+#: src/launcher/ui/MainWindow.cpp:1765 src/launcher/ui/MainWindow.cpp:2015
 msgctxt "MainWindow|"
-msgid "Abort"
+msgid "Stop"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1488 src/launcher/ui/MainWindow.cpp:1501
-#: src/launcher/ui/MainWindow.cpp:1506 src/launcher/ui/MainWindow.cpp:1511
+#: src/launcher/ui/MainWindow.cpp:1799 src/launcher/ui/MainWindow.cpp:1812
+#: src/launcher/ui/MainWindow.cpp:1817 src/launcher/ui/MainWindow.cpp:1822
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1488
+#: src/launcher/ui/MainWindow.cpp:1799
 msgctxt "MainWindow|"
 msgid "An update check is already in progress."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1501
+#: src/launcher/ui/MainWindow.cpp:1812
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1506
+#: src/launcher/ui/MainWindow.cpp:1817
 msgctxt "MainWindow|"
 msgid "Only CurseForge modpacks support automatic updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1511
+#: src/launcher/ui/MainWindow.cpp:1822
 msgctxt "MainWindow|"
 msgid "Please manually re-download the modpacks."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1515
+#: src/launcher/ui/MainWindow.cpp:1826
 msgctxt "MainWindow|"
 msgid "Cancel"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1537
+#: src/launcher/ui/MainWindow.cpp:1848
 msgctxt "MainWindow|"
 msgid "Network Error"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1538
+#: src/launcher/ui/MainWindow.cpp:1849
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to check for updates: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1550
+#: src/launcher/ui/MainWindow.cpp:1861
 msgctxt "MainWindow|"
 msgid "API key is invalid or expired. Please check your CurseForge API key configuration."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1554
+#: src/launcher/ui/MainWindow.cpp:1865
 msgctxt "MainWindow|"
 msgid "The modpack was not found on CurseForge. It may have been removed."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1558
+#: src/launcher/ui/MainWindow.cpp:1869
 #, qt-format
 msgctxt "MainWindow|"
 msgid "CurseForge server error (HTTP %1). Please try again later."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1562
+#: src/launcher/ui/MainWindow.cpp:1873
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Unexpected HTTP response: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1564
+#: src/launcher/ui/MainWindow.cpp:1875
 msgctxt "MainWindow|"
 msgid "Update Check Failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1578
+#: src/launcher/ui/MainWindow.cpp:1889
 msgctxt "MainWindow|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1579
+#: src/launcher/ui/MainWindow.cpp:1890
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to parse update information: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1588 src/launcher/ui/MainWindow.cpp:1637
+#: src/launcher/ui/MainWindow.cpp:1899 src/launcher/ui/MainWindow.cpp:1948
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1589
+#: src/launcher/ui/MainWindow.cpp:1900
 msgctxt "MainWindow|"
 msgid "No update information available for this modpack."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1638
+#: src/launcher/ui/MainWindow.cpp:1949
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No newer versions found."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1642
+#: src/launcher/ui/MainWindow.cpp:1953
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1643
+#: src/launcher/ui/MainWindow.cpp:1954
 msgctxt "MainWindow|"
 msgid "A new update is available for this modpack. Would you like to update now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1667
+#: src/launcher/ui/MainWindow.cpp:1978
 msgctxt "MainWindow|"
 msgid "Update Not Available"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1668
+#: src/launcher/ui/MainWindow.cpp:1979
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1713
+#: src/launcher/ui/MainWindow.cpp:2024
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1847
+#: src/launcher/ui/MainWindow.cpp:2160
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1847
+#: src/launcher/ui/MainWindow.cpp:2160
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1869
+#: src/launcher/ui/MainWindow.cpp:2182
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1869
+#: src/launcher/ui/MainWindow.cpp:2182
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2009
+#: src/launcher/ui/MainWindow.cpp:2321
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2010
+#: src/launcher/ui/MainWindow.cpp:2322
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -3716,45 +4132,45 @@ msgid "About to delete: %1\n"
 "Are you sure?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2225
+#: src/launcher/ui/MainWindow.cpp:2537
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2238
+#: src/launcher/ui/MainWindow.cpp:2567
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2240
+#: src/launcher/ui/MainWindow.cpp:2569
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2248
+#: src/launcher/ui/MainWindow.cpp:2577
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2255
+#: src/launcher/ui/MainWindow.cpp:2585
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2263
+#: src/launcher/ui/MainWindow.cpp:2594
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2279
+#: src/launcher/ui/MainWindow.cpp:2610
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2283
+#: src/launcher/ui/MainWindow.cpp:2614
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -3770,50 +4186,50 @@ msgctxt "MigrationEligibilityStep|"
 msgid "Got migration flags"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:784
+#: src/launcher/minecraft/MinecraftInstance.cpp:787
 msgctxt "MinecraftInstance|"
 msgid "<SESSION ID>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:786
+#: src/launcher/minecraft/MinecraftInstance.cpp:789
 msgctxt "MinecraftInstance|"
 msgid "<ACCESS TOKEN>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:788
+#: src/launcher/minecraft/MinecraftInstance.cpp:791
 msgctxt "MinecraftInstance|"
 msgid "<CLIENT TOKEN>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:790
+#: src/launcher/minecraft/MinecraftInstance.cpp:793
 msgctxt "MinecraftInstance|"
 msgid "<PROFILE ID>"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:862
+#: src/launcher/minecraft/MinecraftInstance.cpp:865
 msgctxt "MinecraftInstance|"
 msgid "broken"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:866
+#: src/launcher/minecraft/MinecraftInstance.cpp:869
 #, qt-format
 msgctxt "MinecraftInstance|"
-msgid "Minecraft %1 (%2)"
+msgid "Minecraft %1"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:870
+#: src/launcher/minecraft/MinecraftInstance.cpp:873
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", last played for %1"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:875
+#: src/launcher/minecraft/MinecraftInstance.cpp:878
 #, qt-format
 msgctxt "MinecraftInstance|"
 msgid ", total played for %1"
 msgstr ""
 
-#: src/launcher/minecraft/MinecraftInstance.cpp:881
+#: src/launcher/minecraft/MinecraftInstance.cpp:884
 msgctxt "MinecraftInstance|"
 msgid ", has crashed."
 msgstr ""
@@ -3915,7 +4331,7 @@ msgstr ""
 
 #: src/launcher/minecraft/MinecraftUpdate.cpp:91
 msgctxt "MinecraftUpdate|"
-msgid "Aborted by user."
+msgid "Stopped."
 msgstr ""
 
 #: src/launcher/ui/pages/instance/ModDownloadPage.ui:20
@@ -4226,37 +4642,37 @@ msgctxt "ModFolderModel|"
 msgid "File"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:650
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:653
 msgctxt "ModFolderModel|"
 msgid "Name"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:652
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:655
 msgctxt "ModFolderModel|"
 msgid "Version"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:654
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:657
 msgctxt "ModFolderModel|"
 msgid "Last changed"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:663
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:666
 msgctxt "ModFolderModel|"
 msgid "Is the mod enabled?"
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:665
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:668
 msgctxt "ModFolderModel|"
 msgid "The name of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:667
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:670
 msgctxt "ModFolderModel|"
 msgid "The version of the mod."
 msgstr ""
 
-#: src/launcher/minecraft/mod/ModFolderModel.cpp:669
+#: src/launcher/minecraft/mod/ModFolderModel.cpp:672
 msgctxt "ModFolderModel|"
 msgid "The date and time this mod was last changed (or added)."
 msgstr ""
@@ -4672,7 +5088,7 @@ msgstr ""
 
 #: src/launcher/ui/dialogs/ModrinthExportDialog.cpp:135
 msgctxt "ModrinthExportDialog|"
-msgid "Abort"
+msgid "Stop"
 msgstr ""
 
 #: src/launcher/ui/pages/modplatform/modrinth/ModrinthPage.ui:19
@@ -4730,7 +5146,7 @@ msgctxt "ModrinthPage|"
 msgid "Modrinth"
 msgstr ""
 
-#: src/launcher/net/NetJob.cpp:144
+#: src/launcher/net/NetJob.cpp:148
 #, qt-format
 msgctxt "NetJob|"
 msgid "Job '%1' failed to process:\n"
@@ -4753,7 +5169,7 @@ msgid "uid"
 msgstr ""
 
 #: src/launcher/ui/dialogs/NewInstanceDialog.ui:17
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:143
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:145
 msgctxt "NewInstanceDialog|"
 msgid "New Instance"
 msgstr ""
@@ -4773,7 +5189,7 @@ msgctxt "NewInstanceDialog|"
 msgid "Reset"
 msgstr ""
 
-#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:69
+#: src/launcher/ui/dialogs/NewInstanceDialog.cpp:71
 msgctxt "NewInstanceDialog|"
 msgid "No group"
 msgstr ""
@@ -4894,11 +5310,6 @@ msgctxt "OtherLogsPage|"
 msgid "Search:"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
-msgctxt "OtherLogsPage|"
-msgid "Other logs"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:129
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:221
 #: src/launcher/ui/pages/instance/OtherLogsPage.cpp:265
@@ -4975,12 +5386,17 @@ msgid "Couldn't delete some files:\n"
 "%1"
 msgstr ""
 
-#: src/launcher/minecraft/PackProfile.cpp:858
+#: src/launcher/ui/pages/instance/OtherLogsPage.h:45
+msgctxt "OtherLogsPage|"
+msgid "Other logs"
+msgstr ""
+
+#: src/launcher/minecraft/PackProfile.cpp:882
 msgctxt "PackProfile|"
 msgid "Name"
 msgstr ""
 
-#: src/launcher/minecraft/PackProfile.cpp:860
+#: src/launcher/minecraft/PackProfile.cpp:884
 msgctxt "PackProfile|"
 msgid "Version"
 msgstr ""
@@ -5030,19 +5446,19 @@ msgctxt "PasteUpload|"
 msgid "paste.ee returned an error. Please consult the logs for more information"
 msgstr ""
 
-#: src/launcher/launch/steps/PostLaunchCommand.cpp:31
+#: src/launcher/launch/steps/PostLaunchCommand.cpp:33
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Running Post-Launch command: %1"
 msgstr ""
 
-#: src/launcher/launch/steps/PostLaunchCommand.cpp:39
+#: src/launcher/launch/steps/PostLaunchCommand.cpp:41
 #, qt-format
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command failed with code %1.\n\n"
 msgstr ""
 
-#: src/launcher/launch/steps/PostLaunchCommand.cpp:62
+#: src/launcher/launch/steps/PostLaunchCommand.cpp:64
 msgctxt "PostLaunchCommand|"
 msgid "Post-Launch command ran successfully.\n\n"
 msgstr ""
@@ -5220,183 +5636,6 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr ""
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr ""
-
-#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr ""
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr ""
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr ""
-
-#: src/launcher/meta/BaseEntity.cpp:118
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr ""
-
-#: src/launcher/meta/JsonFormat.cpp:137 src/launcher/meta/JsonFormat.cpp:150
-#: src/launcher/meta/JsonFormat.cpp:163
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:31
-#, qt-format
-msgctxt "QObject|"
-msgid "%1m %2s"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:35
-#, qt-format
-msgctxt "QObject|"
-msgid "%1h %2m"
-msgstr ""
-
-#: src/launcher/MMCTime.cpp:37
-#, qt-format
-msgctxt "QObject|"
-msgid "%1d %2h %3m"
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:38 src/launcher/ui/GuiUtil.cpp:49
-msgctxt "QObject|"
-msgid "Upload failed"
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:39
-msgctxt "QObject|"
-msgid "The log file is too big. You'll have to upload it manually."
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:60
-msgctxt "QObject|"
-msgid "Upload finished"
-msgstr ""
-
-#: src/launcher/ui/GuiUtil.cpp:61
-#, qt-format
-msgctxt "QObject|"
-msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:80
-msgctxt "QObject|"
-msgid "<p>Following commits were added since last update:</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:84
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:90
-#, qt-format
-msgctxt "QObject|"
-msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:37
-msgctxt "QObject|About Credits"
-msgid "Original Author"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:40
-msgctxt "QObject|About Credits"
-msgid "Maintainer"
-msgstr ""
-
-#: src/launcher/ui/dialogs/AboutDialog.cpp:56
-msgctxt "QObject|About Credits"
-msgid "Patrons"
-msgstr ""
-
-#: src/launcher/ui/MainWindow.cpp:107
-#, qt-format
-msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:31
-msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:277
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:285
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:302
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:313
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
-msgctxt "QObject|"
-msgid "Java test failure"
-msgstr ""
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:322
-#: src/launcher/JavaCommon.cpp:46
-msgctxt "QObject|"
-msgid "Java test success"
-msgstr ""
-
-#: src/launcher/ui/themes/SystemTheme.cpp:47
-msgctxt "QObject|"
-msgid "System"
-msgstr ""
-
-#: src/launcher/ui/themes/BrightTheme.cpp:10
-msgctxt "QObject|"
-msgid "Bright"
-msgstr ""
-
-#: src/launcher/ui/themes/DarkTheme.cpp:10
-msgctxt "QObject|"
-msgid "Dark"
-msgstr ""
-
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
@@ -5427,9 +5666,21 @@ msgctxt "QObject|"
 msgid "<br />Warnings:<br /><font color=\"orange\">%1</font>"
 msgstr ""
 
+#: src/launcher/JavaCommon.cpp:46
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:327
+msgctxt "QObject|"
+msgid "Java test success"
+msgstr ""
+
 #: src/launcher/JavaCommon.cpp:54
 msgctxt "QObject|"
 msgid "The specified java binary didn't work with the arguments you provided:<br />"
+msgstr ""
+
+#: src/launcher/JavaCommon.cpp:56 src/launcher/JavaCommon.cpp:65
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:327
+msgctxt "QObject|"
+msgid "Java test failure"
 msgstr ""
 
 #: src/launcher/JavaCommon.cpp:62
@@ -5437,37 +5688,36 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr ""
 
-#: src/launcher/UpdateController.cpp:366
+#: src/launcher/updater/v2/InstallController.cpp:50
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't make a folder for the backup of this update in:\n"
+"%1"
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:85
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't update %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:182
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:206
 msgctxt "QObject|"
 msgid "Update failed!"
 msgstr ""
 
-#: src/launcher/UpdateController.cpp:367
+#: src/launcher/updater/v2/InstallController.cpp:210
 msgctxt "QObject|"
-msgid "Rollback failed!"
+msgid "Roll back to previous version?"
 msgstr ""
 
-#: src/launcher/UpdateController.cpp:372
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't replace file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr ""
-
-#: src/launcher/UpdateController.cpp:382
-#, qt-format
-msgctxt "QObject|"
-msgid "Couldn't remove file %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr ""
-
-#: src/launcher/UpdateController.cpp:392
-msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks.\n\n"
-"Roll back to previous version?"
-msgstr ""
-
-#: src/launcher/UpdateController.cpp:414
+#: src/launcher/updater/v2/InstallController.cpp:226
 #, qt-format
 msgctxt "QObject|"
 msgid "The rollback failed too.\n"
@@ -5475,16 +5725,91 @@ msgid "The rollback failed too.\n"
 "Please let us know why and how this happened."
 msgstr ""
 
+#: src/launcher/updater/v2/InstallController.cpp:229
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:77
+msgctxt "QObject|"
+msgid "not found"
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:81
+#, qt-format
+msgctxt "QObject|"
+msgid "HTTP status %1"
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:83
+#, qt-format
+msgctxt "QObject|"
+msgid "network error %1"
+msgstr ""
+
+#: src/launcher/updater/v2/Plan.cpp:141
+#, qt-format
+msgctxt "QObject|"
+msgid "Build %1 describes the version for this installation (%2) in a way this version can't read."
+msgstr ""
+
+#: src/launcher/updater/v2/Plan.cpp:145
+#, qt-format
+msgctxt "QObject|"
+msgid "Build %1 has no version for this installation (%2)."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:448
+#, qt-format
+msgctxt "QObject|"
+msgid "The build's requirements are incomplete or not understood (%1)."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:458
+#, qt-format
+msgctxt "QObject|"
+msgid "The build is for %1, this computer runs %2."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs a %1 processor, this computer has %2."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
+msgctxt "QObject|"
+msgid "an unknown one"
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:485
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs %1 or newer, and the version on this computer could not be found out."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:489
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs %1 or newer, this computer has %2."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:519
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs Qt %1 or a newer Qt %2, and the version on this computer could not be found out."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:523
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs Qt %1 or a newer Qt %2, this computer has Qt %3."
+msgstr ""
+
 #: src/launcher/minecraft/PackProfile.cpp:191
 #, qt-format
 msgctxt "QObject|"
 msgid "Invalid component file version, expected %1"
-msgstr ""
-
-#: src/launcher/minecraft/auth/AccountData.cpp:440
-#, qt-format
-msgctxt "QObject|"
-msgid "No profile (%1)"
 msgstr ""
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
@@ -5522,35 +5847,6 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr ""
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
-#, qt-format
-msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr ""
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
-msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr ""
-
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
-msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr ""
-
-#: src/launcher/minecraft/Component.cpp:249
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr ""
-
-#: src/launcher/minecraft/AssetsUtils.cpp:323
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr ""
-
 #: src/launcher/minecraft/ProfileUtils.cpp:51
 #, qt-format
 msgctxt "QObject|"
@@ -5574,6 +5870,223 @@ msgstr ""
 #, qt-format
 msgctxt "QObject|"
 msgid "Unable to process the version file %1."
+msgstr ""
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr ""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr ""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr ""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr ""
+
+#: src/launcher/minecraft/Component.cpp:250
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr ""
+
+#: src/launcher/minecraft/AssetsUtils.cpp:328
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:42 src/launcher/ui/GuiUtil.cpp:53
+msgctxt "QObject|"
+msgid "Upload failed"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:43
+msgctxt "QObject|"
+msgid "The log file is too big. You'll have to upload it manually."
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:64
+msgctxt "QObject|"
+msgid "Upload finished"
+msgstr ""
+
+#: src/launcher/ui/GuiUtil.cpp:65
+#, qt-format
+msgctxt "QObject|"
+msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:37
+msgctxt "QObject|About Credits"
+msgid "Original Author"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:40
+msgctxt "QObject|About Credits"
+msgid "Maintainer"
+msgstr ""
+
+#: src/launcher/ui/dialogs/AboutDialog.cpp:56
+msgctxt "QObject|About Credits"
+msgid "Patrons"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:102
+msgctxt "QObject|"
+msgid "<p>Following commits were added since last update:</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:106
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>Your version is too old, the changelog may be incomplete. Showing the latest %1 commits:</p>"
+msgstr ""
+
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:112
+#, qt-format
+msgctxt "QObject|"
+msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
+msgstr ""
+
+#: src/launcher/ui/themes/CustomTheme.cpp:142
+#, qt-format
+msgctxt "QObject|"
+msgid "Its stylesheet (%1) is outside of its folder."
+msgstr ""
+
+#: src/launcher/ui/themes/BrightTheme.cpp:10
+msgctxt "QObject|"
+msgid "Bright"
+msgstr ""
+
+#: src/launcher/ui/themes/SystemTheme.cpp:17
+msgctxt "QObject|"
+msgid "System"
+msgstr ""
+
+#: src/launcher/ui/themes/DarkTheme.cpp:10
+msgctxt "QObject|"
+msgid "Dark"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:32
+msgctxt "QObject|"
+msgid "Minecraft Server"
+msgstr ""
+
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:278
+msgctxt "QObject|"
+msgid "Description is missing in the FTB App instance."
+msgstr ""
+
+#: src/launcher/ui/MainWindow.cpp:134
+#, qt-format
+msgctxt "QObject|"
+msgid "%1 (in use)"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:295
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:307
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr ""
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:318
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:31
+#, qt-format
+msgctxt "QObject|"
+msgid "%1m %2s"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:35
+#, qt-format
+msgctxt "QObject|"
+msgid "%1h %2m"
+msgstr ""
+
+#: src/launcher/MMCTime.cpp:37
+#, qt-format
+msgctxt "QObject|"
+msgid "%1d %2h %3m"
+msgstr ""
+
+#: src/launcher/DesktopIntegration_linux.cpp:60
+msgctxt "QObject|"
+msgid "This copy of MultiMC is in a temporary folder."
+msgstr ""
+
+#: src/launcher/DesktopIntegration_linux.cpp:62
+#, qt-format
+msgctxt "QObject|"
+msgid "This copy of MultiMC has no start script (%1)."
+msgstr ""
+
+#: src/launcher/meta/BaseEntity.cpp:166
+#, qt-format
+msgctxt "QObject|"
+msgid "Download of meta file %1"
+msgstr ""
+
+#: src/launcher/meta/JsonFormat.cpp:139 src/launcher/meta/JsonFormat.cpp:152
+#: src/launcher/meta/JsonFormat.cpp:165
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:31
+msgctxt "QObject|"
+msgid "Path is empty"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
+msgctxt "QObject|"
+msgid "Path does not exist"
+msgstr ""
+
+#: src/launcher/tools/MCEditTool.cpp:42
+msgctxt "QObject|"
+msgid "Path does not seem to be a MCEdit path"
+msgstr ""
+
+#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
+msgctxt "QObject|"
+msgid "Empty path"
+msgstr ""
+
+#: src/launcher/tools/JVisualVM.cpp:98
+msgctxt "QObject|"
+msgid "Invalid path to JVisualVM"
+msgstr ""
+
+#: src/launcher/tools/JProfiler.cpp:110
+msgctxt "QObject|"
+msgid "Invalid JProfiler install"
 msgstr ""
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
@@ -5638,6 +6151,11 @@ msgctxt "ScreenshotsPage|"
 msgid "Copy File(s)"
 msgstr ""
 
+#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
+msgctxt "ScreenshotsPage|"
+msgid "Screenshots"
+msgstr ""
+
 #: src/launcher/ui/pages/instance/ScreenshotsPage.cpp:280
 msgctxt "ScreenshotsPage|"
 msgid "Context menu"
@@ -5699,22 +6217,17 @@ msgctxt "ScreenshotsPage|"
 msgid "This will delete all selected screenshots."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ScreenshotsPage.h:52
-msgctxt "ScreenshotsPage|"
-msgid "Screenshots"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/ServersPage.cpp:289
+#: src/launcher/ui/pages/instance/ServersPage.cpp:290
 msgctxt "ServersModel|"
 msgid "Name"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:291
+#: src/launcher/ui/pages/instance/ServersPage.cpp:292
 msgctxt "ServersModel|"
 msgid "Address"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:293
+#: src/launcher/ui/pages/instance/ServersPage.cpp:294
 msgctxt "ServersModel|"
 msgid "Latency"
 msgstr ""
@@ -5779,14 +6292,14 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:605
-msgctxt "ServersPage|"
-msgid "Context menu"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/ServersPage.h:46
 msgctxt "ServersPage|"
 msgid "Servers"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/ServersPage.cpp:606
+msgctxt "ServersPage|"
+msgid "Context menu"
 msgstr ""
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
@@ -5935,7 +6448,7 @@ msgstr ""
 
 #: src/launcher/modplatform/technic/SingleZipPackInstallTask.cpp:142
 msgctxt "Technic::SingleZipPackInstallTask|"
-msgid "Instance import has been aborted."
+msgid "Instance import has been stopped."
 msgstr ""
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:50
@@ -5973,7 +6486,7 @@ msgstr ""
 
 #: src/launcher/modplatform/technic/SolderPackInstallTask.cpp:204
 msgctxt "Technic::SolderPackInstallTask|"
-msgid "Instance import has been aborted."
+msgid "Instance import has been stopped."
 msgstr ""
 
 #: src/launcher/modplatform/technic/TechnicPackProcessor.cpp:58
@@ -6028,12 +6541,12 @@ msgctxt "TechnicPage|"
 msgid "Version selected:"
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:70
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:77
 msgctxt "TechnicPage|"
 msgid "Search and filter ..."
 msgstr ""
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:77
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.ui:84
 msgctxt "TechnicPage|"
 msgid "Search"
 msgstr ""
@@ -6073,7 +6586,479 @@ msgctxt "TexturePackPage|"
 msgid "Texture packs"
 msgstr ""
 
-#: src/launcher/translations/TranslationsModel.cpp:421
+#: src/launcher/ui/themes/ThemeArchive.cpp:57
+msgctxt "ThemeArchive|"
+msgid "It isn't a zip file, or it can't be read."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:67
+msgctxt "ThemeArchive|"
+msgid "It has no theme.json (a theme) or index.theme (an icon theme), at the top or in a folder."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:72
+msgctxt "ThemeArchive|"
+msgid "It holds more than one theme. Import them one at a time."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:82
+#: src/launcher/ui/themes/ThemeArchive.cpp:94
+#, qt-format
+msgctxt "ThemeArchive|"
+msgid "The theme's folder name \"%1\" can't be used."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:99
+#, qt-format
+msgctxt "ThemeArchive|"
+msgid "The folder %1 can't be created."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:107
+msgctxt "ThemeArchive|"
+msgid "A temporary folder can't be created."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:114
+#, qt-format
+msgctxt "ThemeArchive|"
+msgid "It can't be unpacked: it is damaged, larger than %1 MB, or has files that would land outside the theme's folder."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:132
+#, qt-format
+msgctxt "ThemeArchive|"
+msgid "The theme that is there can't be removed: %1"
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:137
+#, qt-format
+msgctxt "ThemeArchive|"
+msgid "The theme can't be moved to %1."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeArchive.cpp:150
+#, qt-format
+msgctxt "ThemeArchive|"
+msgid "The zip file %1 can't be written."
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:178
+msgctxt "ThemeEditorDialog|"
+msgid "Edit theme (built in)"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:178
+msgctxt "ThemeEditorDialog|"
+msgid "Edit theme"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:182
+msgctxt "ThemeEditorDialog|"
+msgid "&Name:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:192
+msgctxt "ThemeEditorDialog|"
+msgid "Name"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:198
+msgctxt "ThemeEditorDialog|"
+msgid "&Widgets"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:199
+msgctxt "ThemeEditorDialog|"
+msgid "&Console"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:218
+msgctxt "ThemeEditorDialog|"
+msgid "Open &folder"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:219
+msgctxt "ThemeEditorDialog|"
+msgid "Open the theme's folder, to edit its stylesheet and images"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:225
+msgctxt "ThemeEditorDialog|"
+msgid "&Undo"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:226
+msgctxt "ThemeEditorDialog|"
+msgid "&Redo"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:230
+msgctxt "ThemeEditorDialog|"
+msgid "&Save"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:234
+msgctxt "ThemeEditorDialog|"
+msgid "Built-in themes can't be changed: Save as... makes one of your own."
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:237
+msgctxt "ThemeEditorDialog|"
+msgid "Save &as..."
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:238
+msgctxt "ThemeEditorDialog|"
+msgid "Save as a new theme of your own"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:240
+msgctxt "ThemeEditorDialog|"
+msgid "&Close"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:272
+msgctxt "ThemeEditorDialog|"
+msgid "&Quick setup..."
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:273
+msgctxt "ThemeEditorDialog|"
+msgid "Set every color from a background, a text and an accent color"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:322
+msgctxt "ThemeEditorDialog|"
+msgid "Default"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:324
+msgctxt "ThemeEditorDialog|"
+msgid "Reset"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:325
+msgctxt "ThemeEditorDialog|"
+msgid "Use the console's own color"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:334
+#, qt-format
+msgctxt "ThemeEditorDialog|"
+msgid "Reset %1"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:447
+#, qt-format
+msgctxt "ThemeEditorDialog|"
+msgid "Undo: %1"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:448
+#, qt-format
+msgctxt "ThemeEditorDialog|"
+msgid "Redo: %1"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:510
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:570
+msgctxt "ThemeEditorDialog|"
+msgid "Quick setup"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:512
+msgctxt "ThemeEditorDialog|"
+msgid "Every color of the theme follows from these three. OK sets them all, as one change you can undo."
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:520
+msgctxt "ThemeEditorDialog|"
+msgid "Background:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:521
+msgctxt "ThemeEditorDialog|"
+msgid "Text:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:522
+msgctxt "ThemeEditorDialog|"
+msgid "Accent:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:561
+msgctxt "ThemeEditorDialog|"
+msgid "Background"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:562
+msgctxt "ThemeEditorDialog|"
+msgid "Text"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:563
+msgctxt "ThemeEditorDialog|"
+msgid "Accent"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:666
+#, qt-format
+msgctxt "ThemeEditorDialog|"
+msgid "%1 (copy)"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:668
+msgctxt "ThemeEditorDialog|"
+msgid "Save as"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:668
+msgctxt "ThemeEditorDialog|"
+msgid "Name of the new theme:"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:690
+msgctxt "ThemeEditorDialog|"
+msgid "Theme not saved"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:708
+msgctxt "ThemeEditorDialog|"
+msgid "Discard changes?"
+msgstr ""
+
+#: src/launcher/ui/dialogs/ThemeEditorDialog.cpp:708
+msgctxt "ThemeEditorDialog|"
+msgid "The theme has changes that aren't saved. Discard them?"
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeList.cpp:71
+#, qt-format
+msgctxt "ThemeList|"
+msgid "This theme can't be used: %1"
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeList.cpp:81
+msgctxt "ThemeList|"
+msgid "Built in"
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeList.cpp:86
+#, qt-format
+msgctxt "ThemeList|"
+msgid "In the themes folder, \"%1\""
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:67
+msgctxt "ThemeSampleWidget|"
+msgid "Instances"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:68
+msgctxt "ThemeSampleWidget|"
+msgid "Settings"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:76
+msgctxt "ThemeSampleWidget|"
+msgid "Survival world"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:76
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:86
+msgctxt "ThemeSampleWidget|"
+msgid "Modded adventure"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:76
+msgctxt "ThemeSampleWidget|"
+msgid "Creative builds"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:76
+msgctxt "ThemeSampleWidget|"
+msgid "Snapshot testing"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:88
+msgctxt "ThemeSampleWidget|"
+msgid "Name:"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:92
+msgctxt "ThemeSampleWidget|"
+msgid "Version:"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:98
+msgctxt "ThemeSampleWidget|"
+msgid "Memory:"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:104
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:144
+msgctxt "ThemeSampleWidget|"
+msgid "Check box"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:106
+msgctxt "ThemeSampleWidget|"
+msgid "Radio button"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:125
+msgctxt "ThemeSampleWidget|"
+msgid "A tooltip"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:130
+msgctxt "ThemeSampleWidget|"
+msgid "Launch"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:133
+msgctxt "ThemeSampleWidget|"
+msgid "Edit"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:134
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:141
+msgctxt "ThemeSampleWidget|"
+msgid "Disabled"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:143
+msgctxt "ThemeSampleWidget|"
+msgid "Some text"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSampleWidget.cpp:167
+msgctxt "ThemeSampleWidget|"
+msgid "A link"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:224
+#, qt-format
+msgctxt "ThemeSelectionWidget|"
+msgid "The %1 style uses the system's own accent."
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:233
+msgctxt "ThemeSelectionWidget|"
+msgid "Choose a color of your own"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:234
+#, qt-format
+msgctxt "ThemeSelectionWidget|"
+msgid "The %1 style draws its controls in the system's accent; a custom accent applies with Fusion."
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:251
+#, qt-format
+msgctxt "ThemeSelectionWidget|"
+msgid "The %1 style only shows the system's own colors."
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:252
+msgctxt "ThemeSelectionWidget|"
+msgid "Style:"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:253
+msgctxt "ThemeSelectionWidget|"
+msgid "Same everywhere (Fusion)"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:254
+msgctxt "ThemeSelectionWidget|"
+msgid "Looks the same on every system, with every theme and accent."
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:255
+#, qt-format
+msgctxt "ThemeSelectionWidget|"
+msgid "Native (%1)"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:256
+msgctxt "ThemeSelectionWidget|"
+msgid "Looks like other applications on this system. Layouts may fit less well, and what the themes and accents can change depends on the style."
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:257
+msgctxt "ThemeSelectionWidget|"
+msgid "Accent color:"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:258
+msgctxt "ThemeSelectionWidget|"
+msgid "Theme's own"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:259
+msgctxt "ThemeSelectionWidget|"
+msgid "System"
+msgstr ""
+
+#: src/launcher/ui/widgets/ThemeSelectionWidget.cpp:260
+msgctxt "ThemeSelectionWidget|"
+msgid "Custom..."
+msgstr ""
+
+#: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:54
+msgctxt "ThemeWizardPage|"
+msgid "Appearance"
+msgstr ""
+
+#: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:55
+msgctxt "ThemeWizardPage|"
+msgid "Theme"
+msgstr ""
+
+#: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:56
+msgctxt "ThemeWizardPage|"
+msgid "Icons"
+msgstr ""
+
+#: src/launcher/ui/setupwizard/ThemeWizardPage.cpp:57
+#, qt-format
+msgctxt "ThemeWizardPage|"
+msgid "Choose how %1 looks. You can change it later in the settings."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeWriter.cpp:137
+#, qt-format
+msgctxt "ThemeWriter|"
+msgid "The theme's folder name \"%1\" can't be used."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeWriter.cpp:147
+#: src/launcher/ui/themes/ThemeWriter.cpp:169
+#, qt-format
+msgctxt "ThemeWriter|"
+msgid "The folder %1 can't be created."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeWriter.cpp:154
+msgctxt "ThemeWriter|"
+msgid "A temporary folder can't be created."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeWriter.cpp:163
+#, qt-format
+msgctxt "ThemeWriter|"
+msgid "The theme in %1 can't be copied."
+msgstr ""
+
+#: src/launcher/ui/themes/ThemeWriter.cpp:178
+#, qt-format
+msgctxt "ThemeWriter|"
+msgid "The theme can't be moved to %1."
+msgstr ""
+
+#: src/launcher/translations/TranslationsModel.cpp:422
 #, qt-format
 msgctxt "TranslationsModel|"
 msgid "%1:\n"
@@ -6082,22 +7067,22 @@ msgid "%1:\n"
 "%4 total"
 msgstr ""
 
-#: src/launcher/translations/TranslationsModel.cpp:439
+#: src/launcher/translations/TranslationsModel.cpp:440
 msgctxt "TranslationsModel|"
 msgid "Language"
 msgstr ""
 
-#: src/launcher/translations/TranslationsModel.cpp:443
+#: src/launcher/translations/TranslationsModel.cpp:444
 msgctxt "TranslationsModel|"
 msgid "Completeness"
 msgstr ""
 
-#: src/launcher/translations/TranslationsModel.cpp:453
+#: src/launcher/translations/TranslationsModel.cpp:454
 msgctxt "TranslationsModel|"
 msgid "The native language name."
 msgstr ""
 
-#: src/launcher/translations/TranslationsModel.cpp:457
+#: src/launcher/translations/TranslationsModel.cpp:458
 msgctxt "TranslationsModel|"
 msgid "Completeness is the percentage of fully translated strings, not counting automatically guessed ones."
 msgstr ""
@@ -6118,40 +7103,199 @@ msgctxt "UpdateDialog|"
 msgid "MultiMC Update"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.ui:61
+#: src/launcher/ui/dialogs/UpdateDialog.ui:81
 msgctxt "UpdateDialog|"
 msgid "Update now"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.ui:74
+#: src/launcher/ui/dialogs/UpdateDialog.ui:94
 msgctxt "UpdateDialog|"
 msgid "Don't update yet"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:15
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:18
 msgctxt "UpdateDialog|"
 msgid "A new update is available!"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:19
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:22
 msgctxt "UpdateDialog|"
 msgid "No updates found. You are running the latest version."
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:21
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:24
 msgctxt "UpdateDialog|"
 msgid "Close"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:23
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:26
 msgctxt "UpdateDialog|"
 msgid "<center><h1>Loading changelog...</h1></center>"
 msgstr ""
 
-#: src/launcher/ui/dialogs/UpdateDialog.cpp:112
+#: src/launcher/ui/dialogs/UpdateDialog.cpp:134
 #, qt-format
 msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:212
+#, qt-format
+msgctxt "UpdateTierWidget|"
+msgid "build %1 (installed)"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:216
+#, qt-format
+msgctxt "UpdateTierWidget|"
+msgid "build %1"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:223
+msgctxt "UpdateTierWidget|"
+msgid "Update tier"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:224
+msgctxt "UpdateTierWidget|"
+msgid "Latest"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:225
+msgctxt "UpdateTierWidget|"
+msgid "Every build, as soon as it is made."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:226
+msgctxt "UpdateTierWidget|"
+msgid "Testing"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:227
+msgctxt "UpdateTierWidget|"
+msgid "Builds being tested to become Stable."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:228
+msgctxt "UpdateTierWidget|"
+msgid "Stable"
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:229
+msgctxt "UpdateTierWidget|"
+msgid "Builds that were tested for a long time."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:239
+msgctxt "UpdateTierWidget|"
+msgid "<b>Latest</b> gets every change first, including ones that haven't been tested much yet. Updates come often, sometimes several in a day.<br/><br/>Pick this if you want the newest things and don't mind running into a problem now and then."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:245
+msgctxt "UpdateTierWidget|"
+msgid "<b>Testing</b> gets the builds that are picked to become the next Stable, while they are tested. Updates come every now and then.<br/><br/>Problems are rare, and what happens on Testing decides what reaches Stable."
+msgstr ""
+
+#: src/launcher/ui/widgets/UpdateTierWidget.cpp:251
+msgctxt "UpdateTierWidget|"
+msgid "<b>Stable</b> gets builds only after they were on Testing long enough to be trusted. Updates come rarely.<br/><br/>Recommended for most people."
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:262
+#, qt-format
+msgctxt "UpdaterV2::Checker|"
+msgid "The newest keys document (version %1) expired at %2, so updates can't be trusted."
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:342
+#, qt-format
+msgctxt "UpdaterV2::Checker|"
+msgid "This build (%1) was withdrawn from the servers."
+msgstr ""
+
+#: src/launcher/updater/v2/DownloadTask.cpp:45
+msgctxt "UpdaterV2::DownloadTask|"
+msgid "Couldn't create a folder for the update's files."
+msgstr ""
+
+#: src/launcher/updater/v2/DownloadTask.cpp:49
+#, qt-format
+msgctxt "UpdaterV2::DownloadTask|"
+msgid "Comparing the installed files with build %1..."
+msgstr ""
+
+#: src/launcher/updater/v2/DownloadTask.cpp:66
+#, qt-format
+msgctxt "UpdaterV2::DownloadTask|"
+msgid "Downloading build %1..."
+msgstr ""
+
+#: src/launcher/updater/v2/DownloadTask.cpp:67
+#, qt-format
+msgctxt "UpdaterV2::DownloadTask|"
+msgid "Update to build %1"
+msgstr ""
+
+#: src/launcher/updater/v2/DownloadTask.cpp:86
+#, qt-format
+msgctxt "UpdaterV2::DownloadTask|"
+msgid "Failed to download the update:\n"
+"%1"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.h:36
+msgctxt "UpdatesPage|"
+msgid "Updates"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:92
+msgctxt "UpdatesPage|"
+msgid "Recommended"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:92
+#, qt-format
+msgctxt "UpdatesPage|"
+msgid "Recommended: %1"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:95
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:100
+#, qt-format
+msgctxt "UpdatesPage|"
+msgid "%1 (this installation)"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:153
+msgctxt "UpdatesPage|"
+msgid "Check for updates on start"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:154
+msgctxt "UpdatesPage|"
+msgid "Update tier"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:155
+msgctxt "UpdatesPage|"
+msgid "Version for this computer"
+msgstr ""
+
+#: src/launcher/ui/pages/global/UpdatesPage.cpp:156
+#, qt-format
+msgctxt "UpdatesPage|"
+msgid "This computer can run more than one version of %1. The recommended one is the newest that runs here; when there is a newer one, %1 switches to it unless you choose another here."
+msgstr ""
+
+#: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:35
+msgctxt "UpdatesWizardPage|"
+msgid "Updates"
+msgstr ""
+
+#: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:36
+#, qt-format
+msgctxt "UpdatesWizardPage|"
+msgid "Choose how often %1 updates. You can change it later in the settings."
 msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
@@ -6434,178 +7578,178 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr ""
-
-#: src/launcher/ui/pages/instance/VersionPage.cpp:163
+#: src/launcher/ui/pages/instance/VersionPage.cpp:164
 msgctxt "VersionPage|"
 msgid "Context menu"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:181
+#: src/launcher/ui/pages/instance/VersionPage.cpp:182
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 possibly has issues."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:184
+#: src/launcher/ui/pages/instance/VersionPage.cpp:185
 #, qt-format
 msgctxt "VersionPage|"
 msgid "%1 has issues!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:198
+#: src/launcher/ui/pages/instance/VersionPage.cpp:199
 msgctxt "VersionPage|"
 msgid "Error: "
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:202
+#: src/launcher/ui/pages/instance/VersionPage.cpp:203
 msgctxt "VersionPage|"
 msgid "Warning: "
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:272
-#: src/launcher/ui/pages/instance/VersionPage.cpp:278
-#: src/launcher/ui/pages/instance/VersionPage.cpp:297
-#: src/launcher/ui/pages/instance/VersionPage.cpp:341
-#: src/launcher/ui/pages/instance/VersionPage.cpp:354
-#: src/launcher/ui/pages/instance/VersionPage.cpp:421
+#: src/launcher/ui/pages/instance/VersionPage.cpp:273
+#: src/launcher/ui/pages/instance/VersionPage.cpp:279
+#: src/launcher/ui/pages/instance/VersionPage.cpp:298
+#: src/launcher/ui/pages/instance/VersionPage.cpp:342
+#: src/launcher/ui/pages/instance/VersionPage.cpp:355
+#: src/launcher/ui/pages/instance/VersionPage.cpp:422
 msgctxt "VersionPage|"
 msgid "Error"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:279
+#: src/launcher/ui/pages/instance/VersionPage.cpp:280
 msgctxt "VersionPage|"
 msgid "Couldn't load the instance profile."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:297
+#: src/launcher/ui/pages/instance/VersionPage.cpp:298
 msgctxt "VersionPage|"
 msgid "Couldn't remove file"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:315
+#: src/launcher/ui/pages/instance/VersionPage.cpp:316
 msgctxt "VersionPage|"
 msgid "Select jar mods"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:315
+#: src/launcher/ui/pages/instance/VersionPage.cpp:316
 msgctxt "VersionPage|"
 msgid "Minecraft.jar mods (*.zip *.jar)"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:325
+#: src/launcher/ui/pages/instance/VersionPage.cpp:326
 msgctxt "VersionPage|"
 msgid "Select jar"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:325
+#: src/launcher/ui/pages/instance/VersionPage.cpp:326
 msgctxt "VersionPage|"
 msgid "Minecraft.jar replacement (*.jar)"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:390
+#: src/launcher/ui/pages/instance/VersionPage.cpp:391
 #, qt-format
 msgctxt "VersionPage|"
 msgid "Change %1 version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:393
+#: src/launcher/ui/pages/instance/VersionPage.cpp:394
 msgctxt "VersionPage|"
 msgid "No intermediary mappings versions are currently available."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:394
+#: src/launcher/ui/pages/instance/VersionPage.cpp:395
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the intermediary mappings version lists!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:422
+#: src/launcher/ui/pages/instance/VersionPage.cpp:423
 msgctxt "VersionPage|"
 msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:449
+#: src/launcher/ui/pages/instance/VersionPage.cpp:450
 msgctxt "VersionPage|"
 msgid "Select Forge version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:451
+#: src/launcher/ui/pages/instance/VersionPage.cpp:452
 msgctxt "VersionPage|"
 msgid "No Forge versions are currently available for Minecraft "
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:452
+#: src/launcher/ui/pages/instance/VersionPage.cpp:453
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Forge version lists!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:478
+#: src/launcher/ui/pages/instance/VersionPage.cpp:479
 msgctxt "VersionPage|"
 msgid "Select NeoForge version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:480
+#: src/launcher/ui/pages/instance/VersionPage.cpp:481
 msgctxt "VersionPage|"
 msgid "No NeoForge versions are currently available for Minecraft "
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:481
+#: src/launcher/ui/pages/instance/VersionPage.cpp:482
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the NeoForge version lists!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:507
+#: src/launcher/ui/pages/instance/VersionPage.cpp:508
 msgctxt "VersionPage|"
 msgid "Select Fabric Loader version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:508
+#: src/launcher/ui/pages/instance/VersionPage.cpp:509
 msgctxt "VersionPage|"
 msgid "No Fabric Loader versions are currently available."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:509
+#: src/launcher/ui/pages/instance/VersionPage.cpp:510
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Fabric Loader version lists!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:534
+#: src/launcher/ui/pages/instance/VersionPage.cpp:535
 msgctxt "VersionPage|"
 msgid "Select Quilt Loader version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:535
+#: src/launcher/ui/pages/instance/VersionPage.cpp:536
 msgctxt "VersionPage|"
 msgid "No Quilt Loader versions are currently available."
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:536
+#: src/launcher/ui/pages/instance/VersionPage.cpp:537
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the Quilt Loader version lists!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:579
+#: src/launcher/ui/pages/instance/VersionPage.cpp:580
 msgctxt "VersionPage|"
 msgid "Select LiteLoader version"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:581
+#: src/launcher/ui/pages/instance/VersionPage.cpp:582
 msgctxt "VersionPage|"
 msgid "No LiteLoader versions are currently available for Minecraft "
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:582
+#: src/launcher/ui/pages/instance/VersionPage.cpp:583
 msgctxt "VersionPage|"
 msgid "Couldn't load or download the LiteLoader version lists!"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/VersionPage.cpp:638
+#: src/launcher/ui/pages/instance/VersionPage.cpp:639
 msgctxt "VersionPage|"
 msgid "Error updating instance"
+msgstr ""
+
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
 msgstr ""
 
 #: src/launcher/VersionProxyModel.cpp:76
