@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Korean\n"
 "Language: ko_KR\n"
-"PO-Revision-Date: 2026-11-23 16:12\n"
+"PO-Revision-Date: 2026-11-24 15:37\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2715,10 +2715,9 @@ msgstr "경고: 이는 인스턴스가 손상되게 할 수 있으며, 마인크
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
 msgctxt "LaunchTask|"
-msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
+msgid "MiniSkins stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr "MultiMC는 로그 길이가 %1 줄을 넘었기에 게임 로그 감시를 중단하였습니다.\n"
-"게임은 여전히 로그를 작성 중이며 (아마도) 저장 공간을 매우 빠르게 잡아먹고 있기에 모드를 손 볼 필요가 있는 것 같습니다!"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:18
 msgctxt "LauncherLoginStep|"
@@ -2843,7 +2842,7 @@ msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:275
 msgctxt "LauncherPage|"
-msgid "Show MultiMC in the applications menu"
+msgid "Show MiniSkins in the applications menu"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:292
@@ -2924,28 +2923,28 @@ msgstr "사용자 정의"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:469
 msgctxt "LauncherPage|"
-msgid "MultiMC is installed as a package here: the package provides its applications menu entry."
+msgid "MiniSkins is installed as a package here: the package provides its applications menu entry."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:473
 msgctxt "LauncherPage|"
-msgid "The applications menu starts this copy of MultiMC."
+msgid "The applications menu starts this copy of MiniSkins."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:474
 msgctxt "LauncherPage|"
-msgid "MultiMC is hidden from the applications menu. Its entry stays, to give MultiMC's windows their icon."
+msgid "MiniSkins is hidden from the applications menu. Its entry stays, to give MiniSkins's windows their icon."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:478
 msgctxt "LauncherPage|"
-msgid "The applications menu has an entry for MultiMC that MultiMC didn't make. It is left as it is."
+msgid "The applications menu has an entry for MiniSkins that MiniSkins didn't make. It is left as it is."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:479
 #, qt-format
 msgctxt "LauncherPage|"
-msgid "The applications menu starts another copy of MultiMC, in %1."
+msgid "The applications menu starts another copy of MiniSkins, in %1."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:547
@@ -3161,8 +3160,8 @@ msgstr "이전 버전의 인스턴스들."
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
-msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1>업그레이드가 필요합니다</h1><p>MultiMC는 이제 오래된 마인크래프트 버전과 새로운 인스턴스 포맷(OneSix)에 필요한 모든 기능을 지원합니다. 하지만, 이 때문에 이전의 레거시 포맷은 완전히 폐기되었고 오래된 인스턴스들은 업그레이드가 필요합니다.</p><p>이 업그레이드는 기존의 인스턴스 내용과 동일한 정보를 담고 있는 OneSix 포맷의 인스턴스를 생성할 것입니다. (만일의 사태에 대비하여) 기존의 인스턴스는 변경 없이 남겨놓습니다.</p><p>문제가 있다면 <a href=\"https://github.com/MultiMC/Launcher/issues\"> 에 남겨주십시오.</p><p> <a href=\"https://discord.gg/GtPmv93\"> 테스팅을 위한 디스코드 채널도 있습니다</a>.</p></body></html>"
+msgid "<html><body><h1>Upgrade is required</h1><p>MiniSkins now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/graytoowolf/MiniSkins/issues\">github issues page</a>.</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -5454,8 +5453,8 @@ msgstr "당신의 API키를 여기에 붙여넣으세요!"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:105
 msgctxt "PasteEEPage|"
-msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> 는 MultiMC가 로그 업로드에 사용하는 곳입니다. <a href=\"https://paste.ee\">paste.ee</a> 계정이 있다면, 여기에 당신의 API 키를 등록하고 업로드하신 로그와 계정이 연결되도록 할 수 있습니다.</p></body></html>"
+msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MiniSkins for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.h:38
 msgctxt "PasteEEPage|"
@@ -6071,13 +6070,13 @@ msgstr "%1일 %2시 %3분"
 
 #: src/launcher/DesktopIntegration_linux.cpp:60
 msgctxt "QObject|"
-msgid "This copy of MultiMC is in a temporary folder."
+msgid "This copy of MiniSkins is in a temporary folder."
 msgstr ""
 
 #: src/launcher/DesktopIntegration_linux.cpp:62
 #, qt-format
 msgctxt "QObject|"
-msgid "This copy of MultiMC has no start script (%1)."
+msgid "This copy of MiniSkins has no start script (%1)."
 msgstr ""
 
 #: src/launcher/meta/BaseEntity.cpp:166
@@ -7138,8 +7137,8 @@ msgstr "인스턴스 업데이트가 다음과 같은 이유로 실패하였습�
 
 #: src/launcher/ui/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
-msgid "MultiMC Update"
-msgstr "MultiMC 업데이트"
+msgid "MiniSkins Update"
+msgstr ""
 
 #: src/launcher/ui/dialogs/UpdateDialog.ui:81
 msgctxt "UpdateDialog|"
@@ -7701,10 +7700,9 @@ msgstr "Intermediary mappings 버전 목록을 불러오거나 다운로드하�
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:423
 msgctxt "VersionPage|"
-msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
+msgid "MiniSkins cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr "최소 하나 이상의 계정을 추가하지 않을 시 마인크래프트를 다운로드하거나 인스턴스들을 업데이트할 수 없습니다.\n"
-"Mojang 및 마인크래프트 계정을 추가해주세요."
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:450
 msgctxt "VersionPage|"
