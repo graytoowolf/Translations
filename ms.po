@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Malay\n"
 "Language: ms_MY\n"
-"PO-Revision-Date: 2026-11-23 16:13\n"
+"PO-Revision-Date: 2026-11-24 15:38\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -2714,10 +2714,9 @@ msgstr "Ini boleh menyebabkan instance untuk menjadi rosak dan sepatutunya hanya
 #: src/launcher/launch/LaunchTask.cpp:215
 #, qt-format
 msgctxt "LaunchTask|"
-msgid "MultiMC stopped watching the game log because the log length surpassed %1 lines.\n"
+msgid "MiniSkins stopped watching the game log because the log length surpassed %1 lines.\n"
 "You may have to fix your mods because the game is still logging to files and likely wasting harddrive space at an alarming rate!"
-msgstr "MultiMC berhenti menonton log permainan kerana panjang log melebihi %1 baris.\n"
-"Anda mungkin perlu memperbaiki mod-mod anda kerana permainan masih mengelog masuk ke fail dan berkemungkinan membazir ruang cakera keras pada kadar yang membimbangkan!"
+msgstr ""
 
 #: src/launcher/minecraft/auth/steps/LauncherLoginStep.cpp:18
 msgctxt "LauncherLoginStep|"
@@ -2842,7 +2841,7 @@ msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:275
 msgctxt "LauncherPage|"
-msgid "Show MultiMC in the applications menu"
+msgid "Show MiniSkins in the applications menu"
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:292
@@ -2923,28 +2922,28 @@ msgstr "Tersuai"
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:469
 msgctxt "LauncherPage|"
-msgid "MultiMC is installed as a package here: the package provides its applications menu entry."
+msgid "MiniSkins is installed as a package here: the package provides its applications menu entry."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:473
 msgctxt "LauncherPage|"
-msgid "The applications menu starts this copy of MultiMC."
+msgid "The applications menu starts this copy of MiniSkins."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:474
 msgctxt "LauncherPage|"
-msgid "MultiMC is hidden from the applications menu. Its entry stays, to give MultiMC's windows their icon."
+msgid "MiniSkins is hidden from the applications menu. Its entry stays, to give MiniSkins's windows their icon."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:478
 msgctxt "LauncherPage|"
-msgid "The applications menu has an entry for MultiMC that MultiMC didn't make. It is left as it is."
+msgid "The applications menu has an entry for MiniSkins that MiniSkins didn't make. It is left as it is."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:479
 #, qt-format
 msgctxt "LauncherPage|"
-msgid "The applications menu starts another copy of MultiMC, in %1."
+msgid "The applications menu starts another copy of MiniSkins, in %1."
 msgstr ""
 
 #: src/launcher/ui/pages/global/LauncherPage.cpp:547
@@ -3160,8 +3159,8 @@ msgstr "Instance daripada versi sebelumnya."
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:29
 msgctxt "LegacyUpgradePage|"
-msgid "<html><body><h1>Upgrade is required</h1><p>MultiMC now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/MultiMC/Launcher/issues\">github issues page</a>.</p><p>There is also a <a href=\"https://discord.gg/GtPmv93\">discord channel for testing here</a>.</p></body></html>"
-msgstr "<html><body><h1>Penaiktarafan diperlukan</h1><p>MultiMC kini menyokong versi Minecraft lama dan semua ciri yang diperlukan di dalam format instance baharu (OneSix). Akibat daripada ini, format lama (Legasi) telah dinyahdayakan sepenuhnya dan instance lama perlu dinaik taraf.</p><p>Naik taraf ini akan mencipta sebuah instance baharu dengan kandungan yang sama seperti yang terkini, dalam format baharu tersebut. Instance asal tidak akan disentuh, sekiranya terjadi sebarang masalah dalam proses.</p><p>SIla laporkan sebarang isu di <a href=\"https://github.com/MultiMC/Launcher/issues\">halaman isu di github</a>.</p><p>JUga terdaoat <a href=\"https://discord.gg/GtPmv93\">saluran discord untuk percubaan di sini</a>.</p></body></html>"
+msgid "<html><body><h1>Upgrade is required</h1><p>MiniSkins now supports old Minecraft versions and all the required features in the new (OneSix) instance format. As a consequence, the old (Legacy) format has been entirely disabled and old instances need to be upgraded.</p><p>The upgrade will create a new instance with the same contents as the current one, in the new format. The original instance will remain untouched, in case anything goes wrong in the process.</p><p>Please report any issues on our <a href=\"https://github.com/graytoowolf/MiniSkins/issues\">github issues page</a>.</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.ui:39
 msgctxt "LegacyUpgradePage|"
@@ -5449,8 +5448,8 @@ msgstr "Tampal kunci API anda disini!"
 
 #: src/launcher/ui/pages/global/PasteEEPage.ui:105
 msgctxt "PasteEEPage|"
-msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MultiMC for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
-msgstr "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> digunakan oleh MultiMC untuk muat naik log. Jika anda mempunyai akaun <a href=\"https://paste.ee\">paste.ee</a>, anda boleh menambah kunci API anda di sini dan membuatkan log yang anda muat naik dipasangkan dengan akaun anda.</p></body></html>"
+msgid "<html><head/><body><p><a href=\"https://paste.ee\">paste.ee</a> is used by MiniSkins for log uploads. If you have a <a href=\"https://paste.ee\">paste.ee</a> account, you can add your API key here and have your uploaded logs paired with your account.</p></body></html>"
+msgstr ""
 
 #: src/launcher/ui/pages/global/PasteEEPage.h:38
 msgctxt "PasteEEPage|"
@@ -6061,13 +6060,13 @@ msgstr "%1h %2j %3m"
 
 #: src/launcher/DesktopIntegration_linux.cpp:60
 msgctxt "QObject|"
-msgid "This copy of MultiMC is in a temporary folder."
+msgid "This copy of MiniSkins is in a temporary folder."
 msgstr ""
 
 #: src/launcher/DesktopIntegration_linux.cpp:62
 #, qt-format
 msgctxt "QObject|"
-msgid "This copy of MultiMC has no start script (%1)."
+msgid "This copy of MiniSkins has no start script (%1)."
 msgstr ""
 
 #: src/launcher/meta/BaseEntity.cpp:166
@@ -7128,8 +7127,8 @@ msgstr "Kemas kini instance gagal kerana: %1\n\n"
 
 #: src/launcher/ui/dialogs/UpdateDialog.ui:14
 msgctxt "UpdateDialog|"
-msgid "MultiMC Update"
-msgstr "Kemas Kini MultiMC"
+msgid "MiniSkins Update"
+msgstr ""
 
 #: src/launcher/ui/dialogs/UpdateDialog.ui:81
 msgctxt "UpdateDialog|"
@@ -7691,10 +7690,9 @@ msgstr "Tidak dapat memuat atau memuat turun senarai versi pemetaan perantaraan!
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:423
 msgctxt "VersionPage|"
-msgid "MultiMC cannot download Minecraft or update instances unless you have at least one account added.\n"
+msgid "MiniSkins cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
-msgstr "MultiMC tidak boleh memuat turun Minecraft atau mengemas kini instance melainkan anda mempunyai sekurang-kurangnya satu akaun ditambah.\n"
-"Sila tambahkan akaun Mojang atau Minecraft anda."
+msgstr ""
 
 #: src/launcher/ui/pages/instance/VersionPage.cpp:450
 msgctxt "VersionPage|"
