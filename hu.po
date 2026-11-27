@@ -13,7 +13,7 @@ msgstr ""
 "Project-Id-Version: miniskins\n"
 "Language-Team: Hungarian\n"
 "Language: hu_HU\n"
-"PO-Revision-Date: 2026-11-24 15:37\n"
+"PO-Revision-Date: 2026-11-27 12:36\n"
 
 #: src/launcher/modplatform/atlauncher/ATLPackInstallTask.cpp:95
 msgctxt "ATLauncher::PackInstallTask|"
@@ -356,11 +356,6 @@ msgctxt "AccountListPage|"
 msgid "Add skin site account"
 msgstr ""
 
-#: src/launcher/ui/pages/global/AccountListPage.h:42
-msgctxt "AccountListPage|"
-msgid "Accounts"
-msgstr "Fiókok"
-
 #: src/launcher/ui/pages/global/AccountListPage.cpp:44
 msgctxt "AccountListPage|"
 msgid "Welcome!\n"
@@ -386,6 +381,11 @@ msgstr "Nem sikerült a jelenlegi skint törölni!"
 msgctxt "AccountListPage|"
 msgid "Please enter your skin site account email and password to add your account."
 msgstr ""
+
+#: src/launcher/ui/pages/global/AccountListPage.h:42
+msgctxt "AccountListPage|"
+msgid "Accounts"
+msgstr "Fiókok"
 
 #: src/launcher/minecraft/auth/AccountTask.cpp:41
 msgctxt "AccountTask|"
@@ -676,7 +676,7 @@ msgctxt "AppearancePage|"
 msgid "&Font:"
 msgstr ""
 
-#: src/launcher/Application.cpp:816
+#: src/launcher/Application.cpp:811
 msgctxt "Application|"
 msgid "Settings"
 msgstr "Beállítások"
@@ -977,6 +977,11 @@ msgctxt "CFPage|"
 msgid "Search and filter ..."
 msgstr ""
 
+#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
+msgctxt "CFPage|"
+msgid "CurseForge"
+msgstr ""
+
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:28
 msgctxt "CFPage|"
 msgid "Sort by featured"
@@ -1028,11 +1033,6 @@ msgstr ""
 #: src/launcher/ui/pages/modplatform/curseforge/CFPage.cpp:102
 msgctxt "CFPage|"
 msgid " by "
-msgstr ""
-
-#: src/launcher/ui/pages/modplatform/curseforge/CFPage.h:46
-msgctxt "CFPage|"
-msgid "CurseForge"
 msgstr ""
 
 #: src/launcher/minecraft/services/CapeChange.cpp:20
@@ -1388,6 +1388,11 @@ msgctxt "ExternalToolsPage|"
 msgid "Text Editor:"
 msgstr "Szöveg szerkesztő:"
 
+#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
+msgctxt "ExternalToolsPage|"
+msgid "External Tools"
+msgstr "Külső eszközök"
+
 #: src/launcher/ui/pages/global/ExternalToolsPage.cpp:89
 msgctxt "ExternalToolsPage|"
 msgid "JProfiler Folder"
@@ -1481,11 +1486,6 @@ msgstr "Érvénytelen"
 msgctxt "ExternalToolsPage|"
 msgid "The file chosen does not seem to be an executable"
 msgstr "A kiválasztott fájl nem tűnik futtathatónak"
-
-#: src/launcher/ui/pages/global/ExternalToolsPage.h:38
-msgctxt "ExternalToolsPage|"
-msgid "External Tools"
-msgstr "Külső eszközök"
 
 #: src/launcher/minecraft/launch/ExtractNatives.cpp:117
 #, qt-format
@@ -2154,11 +2154,6 @@ msgctxt "InstanceSettingsPage|"
 msgid "Singleplayer world:"
 msgstr "Egyjátékos világ:"
 
-#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
-msgctxt "InstanceSettingsPage|"
-msgid "Settings"
-msgstr "Beállítások"
-
 #: src/launcher/ui/pages/instance/InstanceSettingsPage.cpp:349
 msgctxt "InstanceSettingsPage|"
 msgid "Select a Java version"
@@ -2168,6 +2163,11 @@ msgstr "Java verzió választása"
 msgctxt "InstanceSettingsPage|"
 msgid "Find Java executable"
 msgstr "Java futtatható keresése"
+
+#: src/launcher/ui/pages/instance/InstanceSettingsPage.h:43
+msgctxt "InstanceSettingsPage|"
+msgid "Settings"
+msgstr "Beállítások"
 
 #: src/launcher/InstanceList.cpp:863
 msgctxt "InstanceStaging|"
@@ -2241,136 +2241,6 @@ msgstr "A profilozó megszakítva"
 msgctxt "JavaListLoadTask|"
 msgid "Detecting Java installations..."
 msgstr "Java telepítések észlelése..."
-
-#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:28
-msgctxt "JavaMatchSelectDialog|"
-msgid "Select a Java installation"
-msgstr ""
-
-#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:34
-msgctxt "JavaMatchSelectDialog|"
-msgid "Multiple Java installations match this instance's requirements.\n"
-"Please select one to use for launching:"
-msgstr ""
-
-#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
-msgctxt "JavaMatchSelectDialog|"
-msgid "Install Path"
-msgstr ""
-
-#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
-msgctxt "JavaMatchSelectDialog|"
-msgid "Version"
-msgstr ""
-
-#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
-msgctxt "JavaMatchSelectDialog|"
-msgid "Vendor"
-msgstr ""
-
-#: src/launcher/ui/dialogs/JavaMatchSelectDialog.cpp:40
-msgctxt "JavaMatchSelectDialog|"
-msgid "Architecture"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:58
-msgctxt "JavaMatchTask|"
-msgid "Checking Java compatibility..."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:65
-msgctxt "JavaMatchTask|"
-msgid "The current Java path is not valid."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:86
-#, qt-format
-msgctxt "JavaMatchTask|"
-msgid "The current Java (%1) does not satisfy the requirement of Java %2 or newer."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:94
-msgctxt "JavaMatchTask|"
-msgid "Failed to determine the version of the current Java installation."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:101
-msgctxt "JavaMatchTask|"
-msgid "Scanning for compatible Java installations..."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:128
-#, qt-format
-msgctxt "JavaMatchTask|"
-msgid "The Java installation scan failed: %1"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:169
-msgctxt "JavaMatchTask|"
-msgid "Launch cancelled: no Java installation was selected."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:191
-msgctxt "JavaMatchTask|"
-msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:194
-msgctxt "JavaMatchTask|"
-msgid "Minecraft 24w14a and above require the use of Java 21"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:197
-msgctxt "JavaMatchTask|"
-msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:200
-msgctxt "JavaMatchTask|"
-msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:204
-msgctxt "JavaMatchTask|"
-msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:208
-msgctxt "JavaMatchTask|"
-msgid "No compatible Java installation was found on this system."
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:210
-#, qt-format
-msgctxt "JavaMatchTask|"
-msgid "Please download and install Java %1 or newer from one of the following official sources:"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:212
-msgctxt "JavaMatchTask|"
-msgid "Adoptium: <a href=\"https://adoptium.net\">https://adoptium.net</a>"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:213
-msgctxt "JavaMatchTask|"
-msgid "Azul: <a href=\"https://www.azul.com/downloads\">https://www.azul.com/downloads</a>"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:214
-msgctxt "JavaMatchTask|"
-msgid "Oracle: <a href=\"https://www.oracle.com/java/technologies/downloads\">https://www.oracle.com/java/technologies/downloads</a>"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:218
-msgctxt "JavaMatchTask|"
-msgid "Java version requirement"
-msgstr ""
-
-#: src/launcher/java/JavaMatchTask.cpp:228
-#, qt-format
-msgctxt "JavaMatchTask|"
-msgid "No compatible Java installation found. Java %1 or newer is required."
-msgstr ""
 
 #: src/launcher/ui/pages/global/JavaPage.ui:45
 msgctxt "JavaPage|"
@@ -2647,7 +2517,7 @@ msgctxt "LaunchController|"
 msgid "Failed to launch."
 msgstr "Indítás sikertelen."
 
-#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:403
+#: src/launcher/LaunchController.cpp:310 src/launcher/LaunchController.cpp:382
 msgctxt "LaunchController|"
 msgid "Error!"
 msgstr "Hiba!"
@@ -2657,18 +2527,18 @@ msgctxt "LaunchController|"
 msgid "Couldn't load the instance profile."
 msgstr "Nem sikerült betölteni a példány profilt."
 
-#: src/launcher/LaunchController.cpp:339
+#: src/launcher/LaunchController.cpp:318
 msgctxt "LaunchController|"
 msgid "Couldn't instantiate a launcher."
 msgstr "Nem sikerült megnyitni egy indítót."
 
-#: src/launcher/LaunchController.cpp:403
+#: src/launcher/LaunchController.cpp:382
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start profiler: %1"
 msgstr "Nem sikerült elindítani a profilert: %1"
 
-#: src/launcher/LaunchController.cpp:412
+#: src/launcher/LaunchController.cpp:391
 #, qt-format
 msgctxt "LaunchController|"
 msgid "The game launch is delayed until you press the button. This is the right time to setup the profiler, as the profiler server is running now.\n\n"
@@ -2676,38 +2546,38 @@ msgid "The game launch is delayed until you press the button. This is the right 
 msgstr "A játék elindítása késtetve, amíg meg nem nyomja a gombot. Ez a helyes idő a profiler beállításához, mivel a profiler szerver most fut.\n\n"
 "%1"
 
-#: src/launcher/LaunchController.cpp:415
+#: src/launcher/LaunchController.cpp:394
 msgctxt "LaunchController|"
 msgid "Waiting."
 msgstr "Várakozás."
 
-#: src/launcher/LaunchController.cpp:417
+#: src/launcher/LaunchController.cpp:396
 msgctxt "LaunchController|"
 msgid "Launch"
 msgstr "Indítás"
 
-#: src/launcher/LaunchController.cpp:425
+#: src/launcher/LaunchController.cpp:404
 #, qt-format
 msgctxt "LaunchController|"
 msgid "Couldn't start the profiler: %1"
 msgstr "Nem sikerült elindítani a profilert: %1"
 
-#: src/launcher/LaunchController.cpp:426
+#: src/launcher/LaunchController.cpp:405
 msgctxt "LaunchController|"
 msgid "Error"
 msgstr "Hiba"
 
-#: src/launcher/LaunchController.cpp:454
+#: src/launcher/LaunchController.cpp:433
 msgctxt "LaunchController|"
 msgid "Stop"
 msgstr ""
 
-#: src/launcher/LaunchController.cpp:470
+#: src/launcher/LaunchController.cpp:449
 msgctxt "LaunchController|"
 msgid "Kill Minecraft?"
 msgstr "Minecarft kilövése?"
 
-#: src/launcher/LaunchController.cpp:471
+#: src/launcher/LaunchController.cpp:450
 msgctxt "LaunchController|"
 msgid "This can cause the instance to get corrupted and should only be used if Minecraft is frozen for some reason"
 msgstr "Ez okozhatja a példány sérülését, és csak akkor használható fel, ha a Minecraft valamilyen okból megfagyott"
@@ -2742,150 +2612,160 @@ msgstr "Jellemzők"
 
 #: src/launcher/ui/pages/global/LauncherPage.ui:51
 msgctxt "LauncherPage|"
+msgid "Updates"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:57
+msgctxt "LauncherPage|"
+msgid "Check for updates on start"
+msgstr ""
+
+#: src/launcher/ui/pages/global/LauncherPage.ui:67
+msgctxt "LauncherPage|"
 msgid "Folders"
 msgstr "Mappák"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:57
+#: src/launcher/ui/pages/global/LauncherPage.ui:73
 msgctxt "LauncherPage|"
 msgid "I&nstances:"
 msgstr "&Példányok:"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:77
+#: src/launcher/ui/pages/global/LauncherPage.ui:93
 msgctxt "LauncherPage|"
 msgid "&Mods:"
 msgstr "&Modok:"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:100
+#: src/launcher/ui/pages/global/LauncherPage.ui:116
 msgctxt "LauncherPage|"
 msgid "&Icons:"
 msgstr "&Ikonok:"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:120
+#: src/launcher/ui/pages/global/LauncherPage.ui:136
 msgctxt "LauncherPage|"
 msgid "Download settings"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:136
+#: src/launcher/ui/pages/global/LauncherPage.ui:152
 msgctxt "LauncherPage|"
 msgid "Download source:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:143
+#: src/launcher/ui/pages/global/LauncherPage.ui:159
 msgctxt "LauncherPage|"
 msgid "Download threads:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:160
+#: src/launcher/ui/pages/global/LauncherPage.ui:176
 msgctxt "LauncherPage|"
 msgid "4"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:165
+#: src/launcher/ui/pages/global/LauncherPage.ui:181
 msgctxt "LauncherPage|"
 msgid "6"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:170
+#: src/launcher/ui/pages/global/LauncherPage.ui:186
 msgctxt "LauncherPage|"
 msgid "8"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:175
+#: src/launcher/ui/pages/global/LauncherPage.ui:191
 msgctxt "LauncherPage|"
 msgid "16"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:180
+#: src/launcher/ui/pages/global/LauncherPage.ui:196
 msgctxt "LauncherPage|"
 msgid "32"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:191
+#: src/launcher/ui/pages/global/LauncherPage.ui:207
 msgctxt "LauncherPage|"
 msgid "Move the data to new location (will restart the launcher)"
 msgstr "Vigye át az adatot az új helyre (az indítót újra kell indítani)"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:212
+#: src/launcher/ui/pages/global/LauncherPage.ui:228
 msgctxt "LauncherPage|"
 msgid "User Interface"
 msgstr "Felhasználói felület"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:218
+#: src/launcher/ui/pages/global/LauncherPage.ui:234
 msgctxt "LauncherPage|"
 msgid "Launcher notifications"
 msgstr "Indító értesítései"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:224
+#: src/launcher/ui/pages/global/LauncherPage.ui:240
 msgctxt "LauncherPage|"
 msgid "Reset hidden notifications"
 msgstr "A rejtett értesítések visszaállítása"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:240
+#: src/launcher/ui/pages/global/LauncherPage.ui:256
 msgctxt "LauncherPage|"
 msgid "Instance view sorting mode"
 msgstr "A példány nézet rendezési módja"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:246
+#: src/launcher/ui/pages/global/LauncherPage.ui:262
 msgctxt "LauncherPage|"
 msgid "By &last launched"
 msgstr "&Utoljára futtatás alapján"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:256
+#: src/launcher/ui/pages/global/LauncherPage.ui:272
 msgctxt "LauncherPage|"
 msgid "By &name"
 msgstr "&Név alapján"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:269
+#: src/launcher/ui/pages/global/LauncherPage.ui:285
 msgctxt "LauncherPage|"
 msgid "Applications menu"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:275
+#: src/launcher/ui/pages/global/LauncherPage.ui:291
 msgctxt "LauncherPage|"
 msgid "Show MiniSkins in the applications menu"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:292
+#: src/launcher/ui/pages/global/LauncherPage.ui:308
 msgctxt "LauncherPage|"
 msgid "Use this copy"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:316
+#: src/launcher/ui/pages/global/LauncherPage.ui:332
 msgctxt "LauncherPage|"
 msgid "Console"
 msgstr "Konzol"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:322
+#: src/launcher/ui/pages/global/LauncherPage.ui:338
 msgctxt "LauncherPage|"
 msgid "Console Settings"
 msgstr "Konzolbeállítások"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:328
+#: src/launcher/ui/pages/global/LauncherPage.ui:344
 msgctxt "LauncherPage|"
 msgid "Show console while the game is running?"
 msgstr "Mutassa a konzolt, amíg a játék fut?"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:335
+#: src/launcher/ui/pages/global/LauncherPage.ui:351
 msgctxt "LauncherPage|"
 msgid "Automatically close console when the game quits?"
 msgstr "Automatikusan zárja be a konzolt, amikor a játék kilép?"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:342
+#: src/launcher/ui/pages/global/LauncherPage.ui:358
 msgctxt "LauncherPage|"
 msgid "Show console when the game crashes?"
 msgstr "Mutassa a konzolt amikor a játék összeomlik?"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:352
+#: src/launcher/ui/pages/global/LauncherPage.ui:368
 msgctxt "LauncherPage|"
 msgid "History limit"
 msgstr "Történelem limit"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:358
+#: src/launcher/ui/pages/global/LauncherPage.ui:374
 msgctxt "LauncherPage|"
 msgid "Stop logging when log overflows"
 msgstr "Naplózás leállítása, ha az túllépi a korlátot"
 
-#: src/launcher/ui/pages/global/LauncherPage.ui:371
+#: src/launcher/ui/pages/global/LauncherPage.ui:387
 msgctxt "LauncherPage|"
 msgid " lines"
 msgstr " sor"
@@ -2915,73 +2795,73 @@ msgctxt "LauncherPage|"
 msgid "Mods Folder"
 msgstr "Modok mappája"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:328
-#: src/launcher/ui/pages/global/LauncherPage.cpp:583
+#: src/launcher/ui/pages/global/LauncherPage.cpp:330
+#: src/launcher/ui/pages/global/LauncherPage.cpp:585
 msgctxt "LauncherPage|"
 msgid "Custom"
 msgstr "Egyedi"
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:469
+#: src/launcher/ui/pages/global/LauncherPage.cpp:471
 msgctxt "LauncherPage|"
 msgid "MiniSkins is installed as a package here: the package provides its applications menu entry."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:473
+#: src/launcher/ui/pages/global/LauncherPage.cpp:475
 msgctxt "LauncherPage|"
 msgid "The applications menu starts this copy of MiniSkins."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:474
+#: src/launcher/ui/pages/global/LauncherPage.cpp:476
 msgctxt "LauncherPage|"
 msgid "MiniSkins is hidden from the applications menu. Its entry stays, to give MiniSkins's windows their icon."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:478
+#: src/launcher/ui/pages/global/LauncherPage.cpp:480
 msgctxt "LauncherPage|"
 msgid "The applications menu has an entry for MiniSkins that MiniSkins didn't make. It is left as it is."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:479
+#: src/launcher/ui/pages/global/LauncherPage.cpp:481
 #, qt-format
 msgctxt "LauncherPage|"
 msgid "The applications menu starts another copy of MiniSkins, in %1."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:547
-#: src/launcher/ui/pages/global/LauncherPage.cpp:588
-#: src/launcher/ui/pages/global/LauncherPage.cpp:628
-#: src/launcher/ui/pages/global/LauncherPage.cpp:732
+#: src/launcher/ui/pages/global/LauncherPage.cpp:549
+#: src/launcher/ui/pages/global/LauncherPage.cpp:590
+#: src/launcher/ui/pages/global/LauncherPage.cpp:630
+#: src/launcher/ui/pages/global/LauncherPage.cpp:734
 msgctxt "LauncherPage|"
 msgid "Custom Source"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:559
+#: src/launcher/ui/pages/global/LauncherPage.cpp:561
 msgctxt "LauncherPage|"
 msgid "Source name:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:560
+#: src/launcher/ui/pages/global/LauncherPage.cpp:562
 msgctxt "LauncherPage|"
 msgid "Proxy address:"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:588
+#: src/launcher/ui/pages/global/LauncherPage.cpp:590
 msgctxt "LauncherPage|"
 msgid "Please enter a proxy address."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:628
-#: src/launcher/ui/pages/global/LauncherPage.cpp:732
+#: src/launcher/ui/pages/global/LauncherPage.cpp:630
+#: src/launcher/ui/pages/global/LauncherPage.cpp:734
 msgctxt "LauncherPage|"
 msgid "This proxy address is already in use."
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:672
+#: src/launcher/ui/pages/global/LauncherPage.cpp:674
 msgctxt "LauncherPage|"
 msgid "Delete Source"
 msgstr ""
 
-#: src/launcher/ui/pages/global/LauncherPage.cpp:673
+#: src/launcher/ui/pages/global/LauncherPage.cpp:675
 #, qt-format
 msgctxt "LauncherPage|"
 msgid "Delete the custom source \"%1\"?"
@@ -3168,6 +3048,11 @@ msgctxt "LegacyUpgradePage|"
 msgid "Upgrade the instance"
 msgstr "Frissítse a példányt"
 
+#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
+msgctxt "LegacyUpgradePage|"
+msgid "Upgrade"
+msgstr "Frissítés"
+
 #: src/launcher/ui/pages/instance/LegacyUpgradePage.cpp:27
 msgctxt "LegacyUpgradePage|"
 msgid "Error"
@@ -3183,11 +3068,6 @@ msgstr ""
 msgctxt "LegacyUpgradePage|"
 msgid "%1 (Migrated)"
 msgstr "%1 (áttelepített)"
-
-#: src/launcher/ui/pages/instance/LegacyUpgradePage.h:39
-msgctxt "LegacyUpgradePage|"
-msgid "Upgrade"
-msgstr "Frissítés"
 
 #: src/launcher/minecraft/legacy/LegacyUpgradeTask.cpp:20
 #, qt-format
@@ -3819,75 +3699,75 @@ msgctxt "MainWindow|"
 msgid "No news available."
 msgstr "Nincs elérhető hír."
 
-#: src/launcher/ui/MainWindow.cpp:1479
+#: src/launcher/ui/MainWindow.cpp:1478
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds of %1, the version this installation runs, are made until %2. After that, it keeps working, but gets no more updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1484
+#: src/launcher/ui/MainWindow.cpp:1483
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 runs on this computer and keeps getting updates. You can switch to it in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1487
+#: src/launcher/ui/MainWindow.cpp:1486
 msgctxt "MainWindow|"
 msgid "Updates ending"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1513
+#: src/launcher/ui/MainWindow.cpp:1512
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch to %1, which replaces %2"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1517
+#: src/launcher/ui/MainWindow.cpp:1516
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 isn't made for this computer any more, so this update switches to %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1552 src/launcher/ui/MainWindow.cpp:1573
+#: src/launcher/ui/MainWindow.cpp:1551 src/launcher/ui/MainWindow.cpp:1572
 msgctxt "MainWindow|"
 msgid "Switch version"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1553
+#: src/launcher/ui/MainWindow.cpp:1552
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 is available for this computer. It replaces %2, which this installation runs now.\n\n"
 "Switch now? If you keep %2, you can switch later in Settings, Updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1556
+#: src/launcher/ui/MainWindow.cpp:1555
 msgctxt "MainWindow|"
 msgid "Switch now"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1557
+#: src/launcher/ui/MainWindow.cpp:1556
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Keep %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1558
+#: src/launcher/ui/MainWindow.cpp:1557
 msgctxt "MainWindow|"
 msgid "Ask me later"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1573
+#: src/launcher/ui/MainWindow.cpp:1572
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Switch this installation from %1 to %2 now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1588
+#: src/launcher/ui/MainWindow.cpp:1587
 msgctxt "MainWindow|"
 msgid "Older build"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1589
+#: src/launcher/ui/MainWindow.cpp:1588
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
@@ -3895,90 +3775,90 @@ msgid "The %1 tier is on build %2, which is older than this build (%3).\n\n"
 "Install build %2 anyway?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1620 src/launcher/ui/MainWindow.cpp:1629
+#: src/launcher/ui/MainWindow.cpp:1619 src/launcher/ui/MainWindow.cpp:1628
 msgctxt "MainWindow|"
 msgid "No updates"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1630
+#: src/launcher/ui/MainWindow.cpp:1629
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The %1 tier is on build %2, which is older than this build (%3). This build stays until there is a newer one."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1636
+#: src/launcher/ui/MainWindow.cpp:1635
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Build %1 is available, but it can't be installed here:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1639
+#: src/launcher/ui/MainWindow.cpp:1638
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Builds are no longer made of %1, the version this installation runs."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1641
+#: src/launcher/ui/MainWindow.cpp:1640
 msgctxt "MainWindow|"
 msgid "Update not possible"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1648
+#: src/launcher/ui/MainWindow.cpp:1647
 msgctxt "MainWindow|"
 msgid "Update check failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1648
+#: src/launcher/ui/MainWindow.cpp:1647
 msgctxt "MainWindow|"
 msgid "Could not check for updates:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1656
+#: src/launcher/ui/MainWindow.cpp:1655
 #, qt-format
 msgctxt "MainWindow|"
 msgid "%1 has not been able to check for updates since %2."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1657
+#: src/launcher/ui/MainWindow.cpp:1656
 #, qt-format
 msgctxt "MainWindow|"
 msgid "The last check that worked was on %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1658
+#: src/launcher/ui/MainWindow.cpp:1657
 msgctxt "MainWindow|"
 msgid "No check has worked on this installation yet."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1659
+#: src/launcher/ui/MainWindow.cpp:1658
 msgctxt "MainWindow|"
 msgid "The last attempt failed with:"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1660
+#: src/launcher/ui/MainWindow.cpp:1659
 #, qt-format
 msgctxt "MainWindow|"
 msgid "If this goes on, this installation may not be able to update itself any more. You can get the current version from %1."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1662
+#: src/launcher/ui/MainWindow.cpp:1661
 msgctxt "MainWindow|"
 msgid "Updates are not working"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1664
+#: src/launcher/ui/MainWindow.cpp:1663
 msgctxt "MainWindow|"
 msgid "Open the website"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1689 src/launcher/ui/MainWindow.cpp:1703
-#: src/launcher/ui/MainWindow.cpp:1756 src/launcher/ui/MainWindow.cpp:2012
-#: src/launcher/ui/MainWindow.cpp:2023
+#: src/launcher/ui/MainWindow.cpp:1688 src/launcher/ui/MainWindow.cpp:1702
+#: src/launcher/ui/MainWindow.cpp:1755 src/launcher/ui/MainWindow.cpp:2011
+#: src/launcher/ui/MainWindow.cpp:2022
 msgctxt "MainWindow|"
 msgid "Error"
 msgstr "Hiba"
 
-#: src/launcher/ui/MainWindow.cpp:1689
+#: src/launcher/ui/MainWindow.cpp:1688
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Couldn't create folder for update downloads:\n"
@@ -3986,165 +3866,165 @@ msgid "Couldn't create folder for update downloads:\n"
 msgstr "Nem sikerült mappát létrehozni a frissítések letöltéséhez:\n"
 "%1"
 
-#: src/launcher/ui/MainWindow.cpp:1762
+#: src/launcher/ui/MainWindow.cpp:1761
 msgctxt "MainWindow|"
 msgid "Warnings"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1765 src/launcher/ui/MainWindow.cpp:2015
+#: src/launcher/ui/MainWindow.cpp:1764 src/launcher/ui/MainWindow.cpp:2014
 msgctxt "MainWindow|"
 msgid "Stop"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1799 src/launcher/ui/MainWindow.cpp:1812
-#: src/launcher/ui/MainWindow.cpp:1817 src/launcher/ui/MainWindow.cpp:1822
+#: src/launcher/ui/MainWindow.cpp:1798 src/launcher/ui/MainWindow.cpp:1811
+#: src/launcher/ui/MainWindow.cpp:1816 src/launcher/ui/MainWindow.cpp:1821
 msgctxt "MainWindow|"
 msgid "Update Check"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1799
+#: src/launcher/ui/MainWindow.cpp:1798
 msgctxt "MainWindow|"
 msgid "An update check is already in progress."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1812
+#: src/launcher/ui/MainWindow.cpp:1811
 msgctxt "MainWindow|"
 msgid "Automatic updates are currently only supported for the CurseForge platform."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1817
+#: src/launcher/ui/MainWindow.cpp:1816
 msgctxt "MainWindow|"
 msgid "Only CurseForge modpacks support automatic updates."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1822
+#: src/launcher/ui/MainWindow.cpp:1821
 msgctxt "MainWindow|"
 msgid "Please manually re-download the modpacks."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1826
+#: src/launcher/ui/MainWindow.cpp:1825
 msgctxt "MainWindow|"
 msgid "Cancel"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1848
+#: src/launcher/ui/MainWindow.cpp:1847
 msgctxt "MainWindow|"
 msgid "Network Error"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1849
+#: src/launcher/ui/MainWindow.cpp:1848
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to check for updates: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1861
+#: src/launcher/ui/MainWindow.cpp:1860
 msgctxt "MainWindow|"
 msgid "API key is invalid or expired. Please check your CurseForge API key configuration."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1865
+#: src/launcher/ui/MainWindow.cpp:1864
 msgctxt "MainWindow|"
 msgid "The modpack was not found on CurseForge. It may have been removed."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1869
+#: src/launcher/ui/MainWindow.cpp:1868
 #, qt-format
 msgctxt "MainWindow|"
 msgid "CurseForge server error (HTTP %1). Please try again later."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1873
+#: src/launcher/ui/MainWindow.cpp:1872
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Unexpected HTTP response: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1875
+#: src/launcher/ui/MainWindow.cpp:1874
 msgctxt "MainWindow|"
 msgid "Update Check Failed"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1889
+#: src/launcher/ui/MainWindow.cpp:1888
 msgctxt "MainWindow|"
 msgid "Parse Error"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1890
+#: src/launcher/ui/MainWindow.cpp:1889
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Failed to parse update information: %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1899 src/launcher/ui/MainWindow.cpp:1948
+#: src/launcher/ui/MainWindow.cpp:1898 src/launcher/ui/MainWindow.cpp:1947
 msgctxt "MainWindow|"
 msgid "No Update"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1900
+#: src/launcher/ui/MainWindow.cpp:1899
 msgctxt "MainWindow|"
 msgid "No update information available for this modpack."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1949
+#: src/launcher/ui/MainWindow.cpp:1948
 msgctxt "MainWindow|"
 msgid "Your modpack is up to date. No newer versions found."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1953
+#: src/launcher/ui/MainWindow.cpp:1952
 msgctxt "MainWindow|"
 msgid "Update Available"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1954
+#: src/launcher/ui/MainWindow.cpp:1953
 msgctxt "MainWindow|"
 msgid "A new update is available for this modpack. Would you like to update now?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1978
+#: src/launcher/ui/MainWindow.cpp:1977
 msgctxt "MainWindow|"
 msgid "Update Not Available"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:1979
+#: src/launcher/ui/MainWindow.cpp:1978
 #, qt-format
 msgctxt "MainWindow|"
 msgid "A new version (%1) is available, but this modpack does not support automatic updates. Please download the update manually from CurseForge."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2024
+#: src/launcher/ui/MainWindow.cpp:2023
 msgctxt "MainWindow|"
 msgid "The launcher cannot download Minecraft or update instances unless you have at least one account added.\n"
 "Please add your Mojang or Minecraft account."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2160
+#: src/launcher/ui/MainWindow.cpp:2159
 msgctxt "MainWindow|"
 msgid "Group name"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2160
+#: src/launcher/ui/MainWindow.cpp:2159
 msgctxt "MainWindow|"
 msgid "Enter a new group name."
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2182
+#: src/launcher/ui/MainWindow.cpp:2181
 msgctxt "MainWindow|"
 msgid "Delete group"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2182
+#: src/launcher/ui/MainWindow.cpp:2181
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Are you sure you want to delete the group %1"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2321
+#: src/launcher/ui/MainWindow.cpp:2320
 msgctxt "MainWindow|"
 msgid "CAREFUL!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2322
+#: src/launcher/ui/MainWindow.cpp:2321
 #, qt-format
 msgctxt "MainWindow|"
 msgid "About to delete: %1\n"
@@ -4152,45 +4032,45 @@ msgid "About to delete: %1\n"
 "Are you sure?"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2537
+#: src/launcher/ui/MainWindow.cpp:2536
 msgctxt "MainWindow|"
 msgid "Rename Instance"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2567
+#: src/launcher/ui/MainWindow.cpp:2566
 msgctxt "MainWindow|"
 msgid "Your instance folder contains '!' and this is known to cause Java problems!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2569
+#: src/launcher/ui/MainWindow.cpp:2568
 #, qt-format
 msgctxt "MainWindow|"
 msgid "You have now two options: <br/> - change the instance folder in the settings <br/> - move this installation of %1 to a different folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2577
+#: src/launcher/ui/MainWindow.cpp:2576
 msgctxt "MainWindow|"
 msgid "This is a problem: <br/> - The launcher will likely be deleted without warning by the operating system <br/> - close the launcher now and extract it to a real location, not a temporary folder"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2585
+#: src/launcher/ui/MainWindow.cpp:2584
 msgctxt "MainWindow|"
 msgid "Your instance folder contains 'Rar$' - that means you haven't extracted the launcher archive!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2594
+#: src/launcher/ui/MainWindow.cpp:2593
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Your instance folder is in a temporary folder: '%1'!"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2610
+#: src/launcher/ui/MainWindow.cpp:2609
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1 hours"
 msgstr ""
 
-#: src/launcher/ui/MainWindow.cpp:2614
+#: src/launcher/ui/MainWindow.cpp:2613
 #, qt-format
 msgctxt "MainWindow|"
 msgid "Total playtime: %1"
@@ -4402,11 +4282,6 @@ msgctxt "ModDownloadPage|"
 msgid "Search"
 msgstr ""
 
-#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
-msgctxt "ModDownloadPage|"
-msgid "Download Mods"
-msgstr ""
-
 #: src/launcher/ui/pages/instance/ModDownloadPage.cpp:277
 msgctxt "ModDownloadPage|"
 msgid "Loading more mods..."
@@ -4527,6 +4402,11 @@ msgctxt "ModDownloadPage|"
 msgid "All mod downloads failed."
 msgstr ""
 
+#: src/launcher/ui/pages/instance/ModDownloadPage.h:59
+msgctxt "ModDownloadPage|"
+msgid "Download Mods"
+msgstr ""
+
 #: src/launcher/ui/pages/global/ModFilterPage.ui:14
 msgctxt "ModFilterPage|"
 msgid "MainWindow"
@@ -4575,11 +4455,6 @@ msgstr ""
 #: src/launcher/ui/pages/global/ModFilterPage.ui:202
 msgctxt "ModFilterPage|"
 msgid "Remove selected mods"
-msgstr ""
-
-#: src/launcher/ui/pages/global/ModFilterPage.h:37
-msgctxt "ModFilterPage|"
-msgid "Mod Lists"
 msgstr ""
 
 #: src/launcher/ui/pages/global/ModFilterPage.cpp:155
@@ -4650,6 +4525,11 @@ msgstr ""
 msgctxt "ModFilterPage|"
 msgid "Drag and drop MOD files into the table to add them to %1.\n"
 "Select the items you want to remove, then click \"Remove Selected\"."
+msgstr ""
+
+#: src/launcher/ui/pages/global/ModFilterPage.h:37
+msgctxt "ModFilterPage|"
+msgid "Mod Lists"
 msgstr ""
 
 #: src/launcher/minecraft/mod/ModFolderModel.cpp:539
@@ -5661,6 +5541,126 @@ msgctxt "ProxyPage|"
 msgid "Proxy"
 msgstr ""
 
+#: src/launcher/updater/v2/InstallController.cpp:50
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't make a folder for the backup of this update in:\n"
+"%1"
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:85
+#, qt-format
+msgctxt "QObject|"
+msgid "Couldn't update %1. Changes will be reverted.\n"
+"See the %2 log file for details."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:182
+msgctxt "QObject|"
+msgid "The new version didn't start or is too old and doesn't respond to startup checks."
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:206
+msgctxt "QObject|"
+msgid "Update failed!"
+msgstr "Frissítés sikertelen!"
+
+#: src/launcher/updater/v2/InstallController.cpp:210
+msgctxt "QObject|"
+msgid "Roll back to previous version?"
+msgstr ""
+
+#: src/launcher/updater/v2/InstallController.cpp:226
+#, qt-format
+msgctxt "QObject|"
+msgid "The rollback failed too.\n"
+"You will have to repair %1 manually.\n"
+"Please let us know why and how this happened."
+msgstr "A visszavonás sem sikerült.\n"
+"A(z) %1-t kézzel kell javítania.\n"
+"Kérjük, ossza meg velünk, miért és hogyan történt ez."
+
+#: src/launcher/updater/v2/InstallController.cpp:229
+msgctxt "QObject|"
+msgid "Rollback failed!"
+msgstr "Visszavonás sikertelen!"
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:448
+#, qt-format
+msgctxt "QObject|"
+msgid "The build's requirements are incomplete or not understood (%1)."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:458
+#, qt-format
+msgctxt "QObject|"
+msgid "The build is for %1, this computer runs %2."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs a %1 processor, this computer has %2."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:469
+msgctxt "QObject|"
+msgid "an unknown one"
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:485
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs %1 or newer, and the version on this computer could not be found out."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:489
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs %1 or newer, this computer has %2."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:519
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs Qt %1 or a newer Qt %2, and the version on this computer could not be found out."
+msgstr ""
+
+#: src/launcher/updater/v2/SystemRequirements.cpp:523
+#, qt-format
+msgctxt "QObject|"
+msgid "The build needs Qt %1 or a newer Qt %2, this computer has Qt %3."
+msgstr ""
+
+#: src/launcher/updater/v2/Plan.cpp:141
+#, qt-format
+msgctxt "QObject|"
+msgid "Build %1 describes the version for this installation (%2) in a way this version can't read."
+msgstr ""
+
+#: src/launcher/updater/v2/Plan.cpp:145
+#, qt-format
+msgctxt "QObject|"
+msgid "Build %1 has no version for this installation (%2)."
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:77
+msgctxt "QObject|"
+msgid "not found"
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:81
+#, qt-format
+msgctxt "QObject|"
+msgid "HTTP status %1"
+msgstr ""
+
+#: src/launcher/updater/v2/Checker.cpp:83
+#, qt-format
+msgctxt "QObject|"
+msgid "network error %1"
+msgstr ""
+
 #: src/launcher/JavaCommon.cpp:10
 msgctxt "QObject|"
 msgid "You tried to manually set a JVM memory option (using \"-XX:PermSize\", \"-XX-MaxHeapSize\", \"-XX:InitialHeapSize\",  \"-Xmx\" or \"-Xms\").\n"
@@ -5716,131 +5716,35 @@ msgctxt "QObject|"
 msgid "The specified java binary didn't work.<br />You should use the auto-detect feature, or set the path to the java executable.<br />"
 msgstr "A megadott java-bináris nem működött.<br />Az automatikus észlelési funkciót kell használnia, vagy állítsa be a java-futtatható fájl elérési útját.<br />"
 
-#: src/launcher/updater/v2/InstallController.cpp:50
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:99 src/launcher/tools/JVisualVM.cpp:92
 msgctxt "QObject|"
-msgid "Couldn't make a folder for the backup of this update in:\n"
-"%1"
-msgstr ""
+msgid "Empty path"
+msgstr "Üres elérési út"
 
-#: src/launcher/updater/v2/InstallController.cpp:85
-#, qt-format
+#: src/launcher/tools/JProfiler.cpp:105 src/launcher/tools/MCEditTool.cpp:37
 msgctxt "QObject|"
-msgid "Couldn't update %1. Changes will be reverted.\n"
-"See the %2 log file for details."
-msgstr ""
+msgid "Path does not exist"
+msgstr "Az elérési út nem létezik"
 
-#: src/launcher/updater/v2/InstallController.cpp:182
+#: src/launcher/tools/JProfiler.cpp:110
 msgctxt "QObject|"
-msgid "The new version didn't start or is too old and doesn't respond to startup checks."
-msgstr ""
+msgid "Invalid JProfiler install"
+msgstr "Érvénytelen JProfiler telepítés"
 
-#: src/launcher/updater/v2/InstallController.cpp:206
+#: src/launcher/tools/JVisualVM.cpp:98
 msgctxt "QObject|"
-msgid "Update failed!"
-msgstr "Frissítés sikertelen!"
+msgid "Invalid path to JVisualVM"
+msgstr "Érvénytelen elérési út a JVisualVM-hez"
 
-#: src/launcher/updater/v2/InstallController.cpp:210
+#: src/launcher/tools/MCEditTool.cpp:31
 msgctxt "QObject|"
-msgid "Roll back to previous version?"
-msgstr ""
+msgid "Path is empty"
+msgstr "Üres elérési út"
 
-#: src/launcher/updater/v2/InstallController.cpp:226
-#, qt-format
+#: src/launcher/tools/MCEditTool.cpp:42
 msgctxt "QObject|"
-msgid "The rollback failed too.\n"
-"You will have to repair %1 manually.\n"
-"Please let us know why and how this happened."
-msgstr "A visszavonás sem sikerült.\n"
-"A(z) %1-t kézzel kell javítania.\n"
-"Kérjük, ossza meg velünk, miért és hogyan történt ez."
-
-#: src/launcher/updater/v2/InstallController.cpp:229
-msgctxt "QObject|"
-msgid "Rollback failed!"
-msgstr "Visszavonás sikertelen!"
-
-#: src/launcher/updater/v2/Checker.cpp:77
-msgctxt "QObject|"
-msgid "not found"
-msgstr ""
-
-#: src/launcher/updater/v2/Checker.cpp:81
-#, qt-format
-msgctxt "QObject|"
-msgid "HTTP status %1"
-msgstr ""
-
-#: src/launcher/updater/v2/Checker.cpp:83
-#, qt-format
-msgctxt "QObject|"
-msgid "network error %1"
-msgstr ""
-
-#: src/launcher/updater/v2/Plan.cpp:141
-#, qt-format
-msgctxt "QObject|"
-msgid "Build %1 describes the version for this installation (%2) in a way this version can't read."
-msgstr ""
-
-#: src/launcher/updater/v2/Plan.cpp:145
-#, qt-format
-msgctxt "QObject|"
-msgid "Build %1 has no version for this installation (%2)."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:448
-#, qt-format
-msgctxt "QObject|"
-msgid "The build's requirements are incomplete or not understood (%1)."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:458
-#, qt-format
-msgctxt "QObject|"
-msgid "The build is for %1, this computer runs %2."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:469
-#, qt-format
-msgctxt "QObject|"
-msgid "The build needs a %1 processor, this computer has %2."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:469
-msgctxt "QObject|"
-msgid "an unknown one"
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:485
-#, qt-format
-msgctxt "QObject|"
-msgid "The build needs %1 or newer, and the version on this computer could not be found out."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:489
-#, qt-format
-msgctxt "QObject|"
-msgid "The build needs %1 or newer, this computer has %2."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:519
-#, qt-format
-msgctxt "QObject|"
-msgid "The build needs Qt %1 or a newer Qt %2, and the version on this computer could not be found out."
-msgstr ""
-
-#: src/launcher/updater/v2/SystemRequirements.cpp:523
-#, qt-format
-msgctxt "QObject|"
-msgid "The build needs Qt %1 or a newer Qt %2, this computer has Qt %3."
-msgstr ""
-
-#: src/launcher/minecraft/PackProfile.cpp:191
-#, qt-format
-msgctxt "QObject|"
-msgid "Invalid component file version, expected %1"
-msgstr "Érvénytelen összetevőfájl-verzió, várt %1"
+msgid "Path does not seem to be a MCEdit path"
+msgstr "Az útvonal nem tűnik MCEdit útvonalnak"
 
 #: src/launcher/minecraft/OneSixVersionFormat.cpp:162
 msgctxt "QObject|"
@@ -5877,6 +5781,47 @@ msgctxt "QObject|"
 msgid "Version file contains unsupported element '+minecraftArguments'"
 msgstr "A verziófájl nem támogatott elemet tartalmaz: \"+minecraftArguments\""
 
+#: src/launcher/minecraft/Component.cpp:250
+msgctxt "QObject|"
+msgid "Patch is not loaded yet."
+msgstr "A javítás még nincs betöltve."
+
+#: src/launcher/minecraft/PackProfile.cpp:191
+#, qt-format
+msgctxt "QObject|"
+msgid "Invalid component file version, expected %1"
+msgstr "Érvénytelen összetevőfájl-verzió, várt %1"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#, qt-format
+msgctxt "QObject|"
+msgid "processArguments is set to unknown value '%1'"
+msgstr "processArguments ismeretlen értékre van állítva \"%1\""
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:179
+#, qt-format
+msgctxt "QObject|"
+msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
+msgstr "Ennek a verziónak (%1) a \"minimumLauncherVersion\" értéke nagyobb, mint amit a(z) %3 támogat (%2). Lehet, hogy nem fog megfelelően működni!"
+
+#: src/launcher/minecraft/MojangVersionFormat.cpp:299
+#, qt-format
+msgctxt "QObject|"
+msgid "Library %1 name is broken and cannot be processed."
+msgstr "%1 könyvtár neve hibás és nem lehet feldolgozni."
+
+#: src/launcher/minecraft/AssetsUtils.cpp:328
+#, qt-format
+msgctxt "QObject|"
+msgid "Assets for %1"
+msgstr "Assetek a követlezőhöz: %1"
+
+#: src/launcher/minecraft/auth/AccountData.cpp:440
+#, qt-format
+msgctxt "QObject|"
+msgid "No profile (%1)"
+msgstr "Nincs profil (%1)"
+
 #: src/launcher/minecraft/ProfileUtils.cpp:51
 #, qt-format
 msgctxt "QObject|"
@@ -5902,40 +5847,33 @@ msgctxt "QObject|"
 msgid "Unable to process the version file %1."
 msgstr "Nem sikerült feldolgozni a(z) %1 verziófájlt."
 
-#: src/launcher/minecraft/auth/AccountData.cpp:440
+#: src/launcher/meta/BaseEntity.cpp:166
 #, qt-format
 msgctxt "QObject|"
-msgid "No profile (%1)"
-msgstr "Nincs profil (%1)"
+msgid "Download of meta file %1"
+msgstr "A(z) %1 metaadat letöltése"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:154
+#: src/launcher/meta/JsonFormat.cpp:139 src/launcher/meta/JsonFormat.cpp:152
+#: src/launcher/meta/JsonFormat.cpp:165
+msgctxt "QObject|"
+msgid "Unknown format version!"
+msgstr "Ismeretlen verzióformátumú!"
+
+#: src/launcher/ui/MainWindow.cpp:134
 #, qt-format
 msgctxt "QObject|"
-msgid "processArguments is set to unknown value '%1'"
-msgstr "processArguments ismeretlen értékre van állítva \"%1\""
+msgid "%1 (in use)"
+msgstr "%1 (használatban)"
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:179
-#, qt-format
+#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:278
 msgctxt "QObject|"
-msgid "The 'minimumLauncherVersion' value of this version (%1) is higher than supported by %3 (%2). It might not work properly!"
-msgstr "Ennek a verziónak (%1) a \"minimumLauncherVersion\" értéke nagyobb, mint amit a(z) %3 támogat (%2). Lehet, hogy nem fog megfelelően működni!"
+msgid "Description is missing in the FTB App instance."
+msgstr "A leírás hiányzik az FTB App példányban."
 
-#: src/launcher/minecraft/MojangVersionFormat.cpp:299
-#, qt-format
+#: src/launcher/ui/pages/instance/ServersPage.cpp:32
 msgctxt "QObject|"
-msgid "Library %1 name is broken and cannot be processed."
-msgstr "%1 könyvtár neve hibás és nem lehet feldolgozni."
-
-#: src/launcher/minecraft/Component.cpp:250
-msgctxt "QObject|"
-msgid "Patch is not loaded yet."
-msgstr "A javítás még nincs betöltve."
-
-#: src/launcher/minecraft/AssetsUtils.cpp:328
-#, qt-format
-msgctxt "QObject|"
-msgid "Assets for %1"
-msgstr "Assetek a követlezőhöz: %1"
+msgid "Minecraft Server"
+msgstr "Minecraft szerver"
 
 #: src/launcher/ui/GuiUtil.cpp:42 src/launcher/ui/GuiUtil.cpp:53
 msgctxt "QObject|"
@@ -5957,6 +5895,27 @@ msgstr "A feltöltés befejeződött"
 msgctxt "QObject|"
 msgid "The <a href=\"%1\">link to the uploaded log</a> has been placed in your clipboard."
 msgstr "A<a href=\"%1\">hivatkozás a feltöltött naplóhoz </a> a vágólapra került."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
+msgctxt "QObject|"
+msgid "The specified file either doesn't exist or is not a proper executable."
+msgstr "A megadott fájl nem létezik, vagy nem megfelelő futtatható."
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:295
+msgctxt "QObject|"
+msgid "The specified java binary didn't start properly.<br />"
+msgstr "A megadott java bináris nem indult megfelelően.<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:307
+msgctxt "QObject|"
+msgid "The specified java binary returned unexpected results:<br />"
+msgstr "A megadott java bináris visszatért nem várt eredményekkel:<br />"
+
+#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:318
+#, qt-format
+msgctxt "QObject|"
+msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
+msgstr "A Java teszt sikerült!<br />Platform jelentve: %1<br />Jelentett Java verzió: %2<br />"
 
 #: src/launcher/ui/dialogs/AboutDialog.cpp:37
 msgctxt "QObject|About Credits"
@@ -5990,6 +5949,11 @@ msgctxt "QObject|"
 msgid "<p>You can <a href=\"%1\">look at the changes on github</a>.</p>"
 msgstr "<p>Megnézheted a változásokat <a href=\"%1\">githubon</a>.</p>"
 
+#: src/launcher/ui/themes/SystemTheme.cpp:17
+msgctxt "QObject|"
+msgid "System"
+msgstr "Rendszer"
+
 #: src/launcher/ui/themes/CustomTheme.cpp:142
 #, qt-format
 msgctxt "QObject|"
@@ -6001,52 +5965,21 @@ msgctxt "QObject|"
 msgid "Bright"
 msgstr "Világos"
 
-#: src/launcher/ui/themes/SystemTheme.cpp:17
-msgctxt "QObject|"
-msgid "System"
-msgstr "Rendszer"
-
 #: src/launcher/ui/themes/DarkTheme.cpp:10
 msgctxt "QObject|"
 msgid "Dark"
 msgstr "Sötét"
 
-#: src/launcher/ui/pages/instance/ServersPage.cpp:32
+#: src/launcher/DesktopIntegration_linux.cpp:60
 msgctxt "QObject|"
-msgid "Minecraft Server"
-msgstr "Minecraft szerver"
+msgid "This copy of MiniSkins is in a temporary folder."
+msgstr ""
 
-#: src/launcher/ui/pages/modplatform/import_ftb/Model.cpp:278
-msgctxt "QObject|"
-msgid "Description is missing in the FTB App instance."
-msgstr "A leírás hiányzik az FTB App példányban."
-
-#: src/launcher/ui/MainWindow.cpp:134
+#: src/launcher/DesktopIntegration_linux.cpp:62
 #, qt-format
 msgctxt "QObject|"
-msgid "%1 (in use)"
-msgstr "%1 (használatban)"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:290
-msgctxt "QObject|"
-msgid "The specified file either doesn't exist or is not a proper executable."
-msgstr "A megadott fájl nem létezik, vagy nem megfelelő futtatható."
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:295
-msgctxt "QObject|"
-msgid "The specified java binary didn't start properly.<br />"
-msgstr "A megadott java bináris nem indult megfelelően.<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:307
-msgctxt "QObject|"
-msgid "The specified java binary returned unexpected results:<br />"
-msgstr "A megadott java bináris visszatért nem várt eredményekkel:<br />"
-
-#: src/launcher/ui/widgets/JavaSettingsWidget.cpp:318
-#, qt-format
-msgctxt "QObject|"
-msgid "Java test succeeded!<br />Platform reported: %1<br />Java version reported: %2<br />"
-msgstr "A Java teszt sikerült!<br />Platform jelentve: %1<br />Jelentett Java verzió: %2<br />"
+msgid "This copy of MiniSkins has no start script (%1)."
+msgstr ""
 
 #: src/launcher/MMCTime.cpp:31
 #, qt-format
@@ -6065,59 +5998,6 @@ msgstr "%1 óra %2 perc"
 msgctxt "QObject|"
 msgid "%1d %2h %3m"
 msgstr "%1 nap %2 óra %3 perc"
-
-#: src/launcher/DesktopIntegration_linux.cpp:60
-msgctxt "QObject|"
-msgid "This copy of MiniSkins is in a temporary folder."
-msgstr ""
-
-#: src/launcher/DesktopIntegration_linux.cpp:62
-#, qt-format
-msgctxt "QObject|"
-msgid "This copy of MiniSkins has no start script (%1)."
-msgstr ""
-
-#: src/launcher/meta/BaseEntity.cpp:166
-#, qt-format
-msgctxt "QObject|"
-msgid "Download of meta file %1"
-msgstr "A(z) %1 metaadat letöltése"
-
-#: src/launcher/meta/JsonFormat.cpp:139 src/launcher/meta/JsonFormat.cpp:152
-#: src/launcher/meta/JsonFormat.cpp:165
-msgctxt "QObject|"
-msgid "Unknown format version!"
-msgstr "Ismeretlen verzióformátumú!"
-
-#: src/launcher/tools/MCEditTool.cpp:31
-msgctxt "QObject|"
-msgid "Path is empty"
-msgstr "Üres elérési út"
-
-#: src/launcher/tools/MCEditTool.cpp:37 src/launcher/tools/JProfiler.cpp:105
-msgctxt "QObject|"
-msgid "Path does not exist"
-msgstr "Az elérési út nem létezik"
-
-#: src/launcher/tools/MCEditTool.cpp:42
-msgctxt "QObject|"
-msgid "Path does not seem to be a MCEdit path"
-msgstr "Az útvonal nem tűnik MCEdit útvonalnak"
-
-#: src/launcher/tools/JVisualVM.cpp:92 src/launcher/tools/JProfiler.cpp:99
-msgctxt "QObject|"
-msgid "Empty path"
-msgstr "Üres elérési út"
-
-#: src/launcher/tools/JVisualVM.cpp:98
-msgctxt "QObject|"
-msgid "Invalid path to JVisualVM"
-msgstr "Érvénytelen elérési út a JVisualVM-hez"
-
-#: src/launcher/tools/JProfiler.cpp:110
-msgctxt "QObject|"
-msgid "Invalid JProfiler install"
-msgstr "Érvénytelen JProfiler telepítés"
 
 #: src/launcher/minecraft/mod/ResourcePackFolderModel.cpp:10
 msgctxt "ResourcePackFolderModel|"
@@ -6322,15 +6202,15 @@ msgctxt "ServersPage|"
 msgid "Join"
 msgstr "Csatlakozás"
 
-#: src/launcher/ui/pages/instance/ServersPage.h:46
-msgctxt "ServersPage|"
-msgid "Servers"
-msgstr "Szerverek"
-
 #: src/launcher/ui/pages/instance/ServersPage.cpp:606
 msgctxt "ServersPage|"
 msgid "Context menu"
 msgstr "Menü"
+
+#: src/launcher/ui/pages/instance/ServersPage.h:46
+msgctxt "ServersPage|"
+msgid "Servers"
+msgstr "Szerverek"
 
 #: src/launcher/ui/setupwizard/SetupWizard.cpp:28
 msgctxt "SetupWizard|"
@@ -6583,15 +6463,15 @@ msgctxt "TechnicPage|"
 msgid "Search"
 msgstr "Keresés"
 
-#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
-msgctxt "TechnicPage|"
-msgid "Technic"
-msgstr ""
-
 #: src/launcher/ui/pages/modplatform/technic/TechnicPage.cpp:199
 msgctxt "TechnicPage|"
 msgid " by "
 msgstr ", alkotó: "
+
+#: src/launcher/ui/pages/modplatform/technic/TechnicPage.h:48
+msgctxt "TechnicPage|"
+msgid "Technic"
+msgstr ""
 
 #: src/launcher/minecraft/mod/TexturePackFolderModel.cpp:10
 msgctxt "TexturePackFolderModel|"
@@ -7174,75 +7054,13 @@ msgctxt "UpdateDialog|"
 msgid "<p align=\"center\" <span style=\"font-size:22pt;\">Failed to fetch changelog... Error: %1</span></p>"
 msgstr "<p align=\"center\" <span style=\"font-size:22pt;\">Nem sikerült letölteni a changelogot... Hiba: %1</span></p>"
 
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:212
-#, qt-format
-msgctxt "UpdateTierWidget|"
-msgid "build %1 (installed)"
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:216
-#, qt-format
-msgctxt "UpdateTierWidget|"
-msgid "build %1"
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:223
-msgctxt "UpdateTierWidget|"
-msgid "Update tier"
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:224
-msgctxt "UpdateTierWidget|"
-msgid "Latest"
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:225
-msgctxt "UpdateTierWidget|"
-msgid "Every build, as soon as it is made."
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:226
-msgctxt "UpdateTierWidget|"
-msgid "Testing"
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:227
-msgctxt "UpdateTierWidget|"
-msgid "Builds being tested to become Stable."
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:228
-msgctxt "UpdateTierWidget|"
-msgid "Stable"
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:229
-msgctxt "UpdateTierWidget|"
-msgid "Builds that were tested for a long time."
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:239
-msgctxt "UpdateTierWidget|"
-msgid "<b>Latest</b> gets every change first, including ones that haven't been tested much yet. Updates come often, sometimes several in a day.<br/><br/>Pick this if you want the newest things and don't mind running into a problem now and then."
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:245
-msgctxt "UpdateTierWidget|"
-msgid "<b>Testing</b> gets the builds that are picked to become the next Stable, while they are tested. Updates come every now and then.<br/><br/>Problems are rare, and what happens on Testing decides what reaches Stable."
-msgstr ""
-
-#: src/launcher/ui/widgets/UpdateTierWidget.cpp:251
-msgctxt "UpdateTierWidget|"
-msgid "<b>Stable</b> gets builds only after they were on Testing long enough to be trusted. Updates come rarely.<br/><br/>Recommended for most people."
-msgstr ""
-
 #: src/launcher/updater/v2/Checker.cpp:262
 #, qt-format
 msgctxt "UpdaterV2::Checker|"
 msgid "The newest keys document (version %1) expired at %2, so updates can't be trusted."
 msgstr ""
 
-#: src/launcher/updater/v2/Checker.cpp:342
+#: src/launcher/updater/v2/Checker.cpp:332
 #, qt-format
 msgctxt "UpdaterV2::Checker|"
 msgid "This build (%1) was withdrawn from the servers."
@@ -7276,61 +7094,6 @@ msgstr ""
 msgctxt "UpdaterV2::DownloadTask|"
 msgid "Failed to download the update:\n"
 "%1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.h:36
-msgctxt "UpdatesPage|"
-msgid "Updates"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:92
-msgctxt "UpdatesPage|"
-msgid "Recommended"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:92
-#, qt-format
-msgctxt "UpdatesPage|"
-msgid "Recommended: %1"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:95
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:100
-#, qt-format
-msgctxt "UpdatesPage|"
-msgid "%1 (this installation)"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:153
-msgctxt "UpdatesPage|"
-msgid "Check for updates on start"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:154
-msgctxt "UpdatesPage|"
-msgid "Update tier"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:155
-msgctxt "UpdatesPage|"
-msgid "Version for this computer"
-msgstr ""
-
-#: src/launcher/ui/pages/global/UpdatesPage.cpp:156
-#, qt-format
-msgctxt "UpdatesPage|"
-msgid "This computer can run more than one version of %1. The recommended one is the newest that runs here; when there is a newer one, %1 switches to it unless you choose another here."
-msgstr ""
-
-#: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:35
-msgctxt "UpdatesWizardPage|"
-msgid "Updates"
-msgstr ""
-
-#: src/launcher/ui/setupwizard/UpdatesWizardPage.cpp:36
-#, qt-format
-msgctxt "UpdatesWizardPage|"
-msgid "Choose how often %1 updates. You can change it later in the settings."
 msgstr ""
 
 #: src/launcher/ui/pages/modplatform/VanillaPage.ui:41
@@ -7383,22 +7146,22 @@ msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 26.1 Snapshot 1 and above require the use of Java 25"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:45
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 24w14a and above require the use of Java 21"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:48
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:60
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 1.18 Pre Release 2 up to 24w13a require the use of Java 17"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:51
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:69
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 21w19a up to 1.18 Pre Release 1 require the use of Java 16"
 msgstr ""
 
-#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:55
+#: src/launcher/minecraft/launch/VerifyJavaInstall.cpp:78
 msgctxt "VerifyJavaInstall|"
 msgid "Minecraft 17w13a up to 21w18a require the use of Java 8"
 msgstr ""
@@ -7613,6 +7376,11 @@ msgctxt "VersionPage|"
 msgid "Install the NeoForge package."
 msgstr ""
 
+#: src/launcher/ui/pages/instance/VersionPage.h:38
+msgctxt "VersionPage|"
+msgid "Version"
+msgstr "Verzió"
+
 #: src/launcher/ui/pages/instance/VersionPage.cpp:164
 msgctxt "VersionPage|"
 msgid "Context menu"
@@ -7781,11 +7549,6 @@ msgstr "Nem lehet betölteni vagy letölteni a LiteLoader verziólistákat!"
 msgctxt "VersionPage|"
 msgid "Error updating instance"
 msgstr "Hiba történt a példány frissítésekor"
-
-#: src/launcher/ui/pages/instance/VersionPage.h:38
-msgctxt "VersionPage|"
-msgid "Version"
-msgstr "Verzió"
 
 #: src/launcher/VersionProxyModel.cpp:76
 msgctxt "VersionProxyModel|"
@@ -8017,6 +7780,11 @@ msgctxt "WorldListPage|"
 msgid "Manage datapacks inside the world."
 msgstr "Adatcsomagok kezelése a világon."
 
+#: src/launcher/ui/pages/instance/WorldListPage.h:44
+msgctxt "WorldListPage|"
+msgid "Worlds"
+msgstr "Világok"
+
 #: src/launcher/ui/pages/instance/WorldListPage.cpp:109
 msgctxt "WorldListPage|"
 msgid "Context menu"
@@ -8097,11 +7865,6 @@ msgstr "Adjon meg egy új nevet a másolat számára."
 msgctxt "WorldListPage|"
 msgid "Enter a new world name."
 msgstr "Adjon meg egy új világnevet."
-
-#: src/launcher/ui/pages/instance/WorldListPage.h:44
-msgctxt "WorldListPage|"
-msgid "Worlds"
-msgstr "Világok"
 
 #: src/launcher/minecraft/auth/steps/XboxAuthorizationStep.cpp:20
 #, qt-format
